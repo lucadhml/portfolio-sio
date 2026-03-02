@@ -1,0 +1,490 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Portfolio SISR | Étudiant BTS SIO</title>
+  <meta name="description" content="Portfolio professionnel d'un étudiant en BTS SIO option SISR : réseaux, systèmes, cybersécurité." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Navigation fixe minimaliste -->
+  <header class="site-header">
+    <nav class="nav container">
+      <a class="logo" href="#accueil">Portfolio</a>
+      <div class="nav-links">
+        <a href="#accueil">Accueil</a>
+        <a href="#apropos">À propos</a>
+        <a href="#projets">Projets</a>
+        <a href="#competences">Compétences</a>
+        <a href="#veille">Veille</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <button class="nav-toggle" aria-label="Ouvrir la navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </nav>
+  </header>
+
+  <main>
+    <!-- SECTION ACCUEIL / HERO -->
+    <section id="accueil" class="section hero">
+      <div class="container hero-grid">
+        <div class="hero-text reveal">
+          <p class="eyebrow">Réseaux • Systèmes • Cybersécurité</p>
+          <h1>Luca Duhamel</h1>
+          <h2>Étudiant en BTS SIO – Option SISR</h2>
+          <p class="lead">
+            Passionné par l’administration système et les infrastructures réseau,
+            je conçois des environnements fiables, sécurisés et documentés pour
+            accompagner les besoins des entreprises.
+          </p>
+          <div class="hero-actions">
+            <a class="btn" href="#projets">Voir mes projets</a>
+            <a class="btn btn-outline" href="#contact">Me contacter</a>
+          </div>
+        </div>
+        <div class="hero-card reveal">
+          <div class="hero-card-inner">
+            <i class="fa-solid fa-server"></i>
+            <h3>Focus SISR</h3>
+            <p>
+              Administration Windows, segmentation VLAN, sécurité réseau
+              et déploiement de solutions adaptées aux contraintes métier.
+            </p>
+            <div class="hero-badges">
+              <span>Windows Server</span>
+              <span>Réseaux</span>
+              <span>Security</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="hero-divider"></div>
+    </section>
+
+    <!-- SECTION A PROPOS -->
+    <section id="apropos" class="section about">
+      <div class="container">
+        <div class="section-header">
+          <h2>À propos</h2>
+          <p>Un profil SISR orienté production et cybersécurité</p>
+        </div>
+        <div class="about-grid about-grid-3">
+          <button class="about-block reveal about-card" type="button" data-about="profil">
+            <div class="about-card-title">
+              <h3>Profil</h3>
+              <i class="fa-solid fa-up-right-and-down-left-from-center" aria-hidden="true"></i>
+            </div>
+            <p>
+              Étudiant en BTS SIO SISR, orienté réseaux et administration système,
+              avec un objectif clair : disponibilité et sécurité des services.
+            </p>
+            <span class="about-card-hint">
+              <i class="fa-solid fa-mouse-pointer" aria-hidden="true"></i>
+              Voir plus
+            </span>
+          </button>
+          <button class="about-block reveal about-card" type="button" data-about="parcours">
+            <div class="about-card-title">
+              <h3>Parcours</h3>
+              <i class="fa-solid fa-up-right-and-down-left-from-center" aria-hidden="true"></i>
+            </div>
+            <p>
+              Bac STL, BTS ABM, 13 mois en laboratoire de cytogénétique, puis BTS
+              SIO SISR pour me spécialiser en infrastructures IT.
+            </p>
+            <span class="about-card-hint">
+              <i class="fa-solid fa-mouse-pointer" aria-hidden="true"></i>
+              Voir plus
+            </span>
+          </button>
+          
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION PROJETS -->
+    <section id="projets" class="section projects">
+      <div class="container">
+        <div class="section-header">
+          <h2>Projets</h2>
+          <p>Expériences pratiques orientées infrastructures et réseaux.</p>
+        </div>
+        <div class="projects-grid">
+          <a class="project-card reveal" href="projets/active-directory.html" data-project="active-directory">
+            <div class="project-media">
+              <img src="assets/projects/active-directory.png" alt="Active Directory" loading="lazy" />
+              <span class="project-progress">En cours</span>
+              <span class="project-badge badge-school">École</span>
+            </div>
+            <h3>Mise en place d’un serveur Active Directory</h3>
+            <p>
+              Déploiement d’un contrôleur de domaine Windows Server avec une
+              organisation AGDLP, gestion des OU, GPO et des comptes utilisateurs.
+            </p>
+            <div class="tags">
+              <span>Windows Server</span>
+              <span>AD DS</span>
+              <span>GPO</span>
+            </div>
+          </a>
+
+          <a class="project-card reveal" href="projets/reseau-campus-vlan.html" data-project="reseau-campus-vlan">
+            <div class="project-media">
+              <img src="assets/projects/reseau-campus-vlan.png" alt="Réseau campus VLAN" loading="lazy" />
+              <span class="project-progress">En cours</span>
+              <span class="project-badge badge-school">École</span>
+            </div>
+            <h3>Mise en place d’un réseau campus – VLAN</h3>
+            <p>
+              Segmentation réseau et routage inter-VLAN dans Cisco Packet
+              Tracer pour une architecture campus sécurisée.
+            </p>
+            <div class="tags">
+              <span>VLAN</span>
+              <span>Switching</span>
+              <span>Routing</span>
+            </div>
+          </a>
+
+          <a class="project-card reveal" href="projets/reseau-campus-dhcp.html" data-project="reseau-campus-dhcp">
+            <div class="project-media">
+              <img src="assets/projects/reseau-campus-dhcp.png" alt="Réseau campus DHCP" loading="lazy" />
+              <span class="project-progress">En cours</span>
+              <span class="project-badge badge-school">École</span>
+            </div>
+            <h3>Mise en place d’un réseau campus – DHCP</h3>
+            <p>
+              Configuration d’attribution automatique des adresses IP avec
+              pools et relais DHCP pour plusieurs segments.
+            </p>
+            <div class="tags">
+              <span>DHCP</span>
+              <span>IP Plan</span>
+              <span>Packet Tracer</span>
+            </div>
+          </a>
+
+          <a class="project-card reveal" href="projets/reseau-campus-securite.html" data-project="reseau-campus-securite">
+            <div class="project-media">
+              <img src="assets/projects/reseau-campus-securite.png" alt="Réseau campus sécurité" loading="lazy" />
+              <span class="project-progress">En cours</span>
+              <span class="project-badge badge-school">École</span>
+            </div>
+            <h3>Mise en place d’un réseau campus – Sécurité</h3>
+            <p>
+              Sécurisation des accès, filtrage et bonnes pratiques réseau pour
+              limiter les risques internes et externes.
+            </p>
+            <div class="tags">
+              <span>ACL</span>
+              <span>Security</span>
+              <span>Best Practices</span>
+            </div>
+          </a>
+
+          <a class="project-card reveal" href="projets/site-web-micro-entreprise.html" data-project="site-web-micro-entreprise">
+            <div class="project-media">
+              <img src="assets/projects/site-web-micro-entreprise.png" alt="Site web micro-entreprise" loading="lazy" />
+              <span class="project-progress">En cours</span>
+              <span class="project-badge badge-personal">Personnel</span>
+            </div>
+            <h3>Mise en place d’un site web pour une micro-entreprise</h3>
+            <p>
+              Création d’un site vitrine, mise en ligne et gestion DNS pour
+              garantir la disponibilité du service.
+            </p>
+            <div class="tags">
+              <span>DNS</span>
+              <span>Hébergement</span>
+              <span>Déploiement</span>
+            </div>
+          </a>
+
+          <a class="project-card reveal" href="projets/infrastructure-nas.html" data-project="infrastructure-nas">
+            <div class="project-media">
+              <img src="assets/projects/infrastructure-nas.png" alt="Infrastructure NAS" loading="lazy" />
+              <span class="project-badge badge-personal">Personnel</span>
+            </div>
+            <h3>Mise en place d’une infrastructure NAS</h3>
+            <p>
+              Centralisation des données, gestion des droits d’accès et
+              stratégie de sauvegarde pour un environnement professionnel.
+            </p>
+            <div class="tags">
+              <span>NAS</span>
+              <span>Backup</span>
+              <span>Permissions</span>
+            </div>
+          </a>
+
+          <a class="project-card reveal" href="projets/mise-a-niveau-parc.html" data-project="mise-a-niveau-parc">
+            <div class="project-media">
+              <img src="assets/projects/mise-a-niveau-parc.png" alt="Mise à niveau du parc" loading="lazy" />
+              <span class="project-badge badge-company">Entreprise</span>
+            </div>
+            <h3>Mise à niveau du parc informatique</h3>
+            <p>
+              Audit matériel, optimisation des performances et amélioration de
+              la sécurité des postes utilisateurs.
+            </p>
+            <div class="tags">
+              <span>Audit</span>
+              <span>Maintenance</span>
+              <span>Hardening</span>
+            </div>
+          </a>
+
+          <a class="project-card reveal" href="projets/deploiement-windows-11.html" data-project="deploiement-windows-11">
+            <div class="project-media">
+              <img src="assets/projects/deploiement-windows-11.png" alt="Déploiement Windows 11" loading="lazy" />
+              <span class="project-badge badge-company">Entreprise</span>
+            </div>
+            <h3>Déploiement de Windows 11</h3>
+            <p>
+              Déploiement multi-postes, configuration et sécurisation du système
+              pour un environnement homogène et stable.
+            </p>
+            <div class="tags">
+              <span>Windows 11</span>
+              <span>Deployment</span>
+              <span>Security</span>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION COMPETENCES -->
+    <section id="competences" class="section competences">
+      <div class="container">
+        <div class="section-header">
+          <h2>Compétences</h2>
+          <p>Compétences techniques structurées par domaines.</p>
+        </div>
+        <div class="skills-carousel reveal">
+          <button class="skills-nav-btn skills-nav-side skills-nav-left" type="button" data-skills-nav="left" aria-label="Défiler à gauche">
+            <i class="fa-solid fa-chevron-left"></i>
+          </button>
+          <button class="skills-nav-btn skills-nav-side skills-nav-right" type="button" data-skills-nav="right" aria-label="Défiler à droite">
+            <i class="fa-solid fa-chevron-right"></i>
+          </button>
+          <div class="skills-marquee" aria-label="Galerie de compétences">
+            <div class="skills-track">
+          <article class="domain-card">
+            <header>
+              <h3>Support et mise à disposition des services informatiques</h3>
+              <p>Assurer la continuité de service et l’accompagnement utilisateur.</p>
+            </header>
+            <div class="domain-skills">
+              <div class="skill-card">
+                <i class="fa-solid fa-headset"></i>
+                <h4>Support</h4>
+                <p>Diagnostic, résolution et documentation.</p>
+              </div>
+              <div class="skill-card">
+                <i class="fa-solid fa-desktop"></i>
+                <h4>Postes clients</h4>
+                <p>Déploiement, maintenance, durcissement.</p>
+              </div>
+              <div class="skill-card">
+                <i class="fa-solid fa-book"></i>
+                <h4>Documentation</h4>
+                <p>Procédures claires et traçables.</p>
+              </div>
+            </div>
+          </article>
+
+          <article class="domain-card">
+            <header>
+              <h3>Administration des systèmes et des réseaux</h3>
+              <p>Concevoir, configurer et maintenir les infrastructures.</p>
+            </header>
+            <div class="domain-skills">
+              <div class="skill-card">
+                <i class="fa-solid fa-server"></i>
+                <h4>Windows Server</h4>
+                <p>AD DS, GPO, gestion des identités.</p>
+              </div>
+              <div class="skill-card">
+                <i class="fa-solid fa-network-wired"></i>
+                <h4>Réseaux</h4>
+                <p>VLAN, routage, services DNS/DHCP.</p>
+              </div>
+              <div class="skill-card">
+                <i class="fa-solid fa-database"></i>
+                <h4>Stockage</h4>
+                <p>NAS, droits d’accès, sauvegardes.</p>
+              </div>
+            </div>
+          </article>
+
+          <article class="domain-card">
+            <header>
+              <h3>Cybersécurité des services informatiques</h3>
+              <p>Accès, protection, sauvegarde.</p>
+            </header>
+            <div class="domain-skills">
+              <div class="skill-card">
+                <i class="fa-solid fa-shield-halved"></i>
+                <h4>Bonnes pratiques de base</h4>
+                <p>MAJ, antivirus, pare-feu.</p>
+              </div>
+              <div class="skill-card">
+                <i class="fa-solid fa-user-shield"></i>
+                <h4>Gestion des accès</h4>
+                <p>Droits, comptes, privilèges.</p>
+              </div>
+              <div class="skill-card">
+                <i class="fa-solid fa-database"></i>
+                <h4>Sauvegarde et restauration</h4>
+                <p>Backup, restore, contrôle.</p>
+              </div>
+            </div>
+          </article>
+
+          <article class="domain-card">
+            <header>
+              <h3>Supervision et haute disponibilité</h3>
+              <p>Surveiller les services pour anticiper les incidents.</p>
+            </header>
+            <div class="domain-skills">
+              <div class="skill-card">
+                <i class="fa-solid fa-chart-line"></i>
+                <h4>Supervision</h4>
+                <p>Suivi des services et alertes.</p>
+              </div>
+              <div class="skill-card">
+                <i class="fa-solid fa-rotate"></i>
+                <h4>Continuité</h4>
+                <p>Sauvegardes, restauration, PRA.</p>
+              </div>
+              <div class="skill-card">
+                <i class="fa-solid fa-sitemap"></i>
+                <h4>Redondance</h4>
+                <p>Architecture tolérante aux pannes.</p>
+              </div>
+            </div>
+          </article>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION VEILLE TECHNOLOGIQUE -->
+    <section id="veille" class="section veille">
+      <div class="container">
+        <div class="section-header">
+          <h2>Veille technologique</h2>
+          <p>Suivi régulier des tendances réseaux, systèmes et cybersécurité.</p>
+        </div>
+        <div class="veille-placeholder" aria-hidden="true"></div>
+      </div>
+    </section>
+
+    <!-- SECTION CONTACT -->
+    <section id="contact" class="section contact">
+      <div class="container">
+        <div class="section-header">
+          <h2>Contact</h2>
+        </div>
+        <div class="contact-grid">
+          <div class="contact-info reveal">
+            <div class="contact-item">
+              <i class="fa-solid fa-envelope"></i>
+              <div>
+                <h3>Email</h3>
+                <p>duhamelluca76@gmail.com</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <i class="fa-brands fa-linkedin"></i>
+              <div>
+                <h3>LinkedIn</h3>
+                <p>linkedin.com/in/prenomnom</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <i class="fa-brands fa-github"></i>
+              <div>
+                <h3>GitHub</h3>
+                <p>github.com/prenomnom</p>
+              </div>
+            </div>
+          </div>
+          <form class="contact-form reveal">
+            <label>
+              Nom
+              <input type="text" name="name" placeholder="Votre nom" required />
+            </label>
+            <label>
+              Email
+              <input type="email" name="email" placeholder="Votre email" required />
+            </label>
+            <label>
+              Message
+              <textarea name="message" rows="5" placeholder="Votre message" required></textarea>
+            </label>
+            <button class="btn" type="submit">Envoyer</button>
+          </form>
+        </div>
+      </div>
+      <footer class="footer">
+        <div class="container">
+          <p>© 2026 Prénom Nom. Portfolio BTS SIO SISR.</p>
+        </div>
+      </footer>
+    </section>
+  </main>
+
+  <div class="modal" id="about-modal" aria-hidden="true">
+    <div class="modal-backdrop" data-about-close></div>
+    <div class="modal-card" role="dialog" aria-modal="true" aria-labelledby="about-modal-title">
+      <button class="modal-expand" type="button" data-about-expand aria-label="Agrandir">
+        <i class="fa-solid fa-up-right-and-down-left-from-center"></i>
+      </button>
+      <button class="modal-close" type="button" data-about-close aria-label="Fermer">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+      <div class="modal-header">
+        <h2 id="about-modal-title">Titre</h2>
+        <p id="about-modal-subtitle">Sous-titre</p>
+      </div>
+      <div class="modal-body" id="about-modal-body"></div>
+    </div>
+  </div>
+
+  <div class="modal" id="project-modal" aria-hidden="true">
+    <div class="modal-backdrop" data-modal-close></div>
+    <div class="modal-card" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+      <button class="modal-expand" type="button" data-modal-expand aria-label="Agrandir">
+        <i class="fa-solid fa-up-right-and-down-left-from-center"></i>
+      </button>
+      <button class="modal-close" type="button" data-modal-close aria-label="Fermer">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+      <div class="modal-header">
+        <h2 id="modal-title">Titre du projet</h2>
+        <p id="modal-subtitle">Sous-titre du projet</p>
+      </div>
+      <div class="modal-body" id="modal-body"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

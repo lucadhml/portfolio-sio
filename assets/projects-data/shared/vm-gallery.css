@@ -1,0 +1,85 @@
+:root {
+  --bg: #0f1115;
+  --card: #1b202b;
+  --text: #f5f6f8;
+  --muted: #b9c0cc;
+  --accent: #6aa3ff;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: radial-gradient(circle at top, #1b2232 0%, #0f1115 45%, #0b0d12 100%);
+  color: var(--text);
+  font-family: "Manrope", Arial, sans-serif;
+}
+
+.container {
+  width: min(1100px, 92%);
+  margin: 0 auto;
+  padding: 28px 0;
+}
+
+.toolbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+h1 {
+  margin: 0;
+  font-size: 1.3rem;
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  border: 1px solid rgba(106, 163, 255, 0.45);
+  color: var(--text);
+  background: rgba(106, 163, 255, 0.14);
+  border-radius: 999px;
+  padding: 10px 16px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.note {
+  margin: 0 0 18px;
+  color: var(--muted);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 16px;
+}
+
+.card {
+  background: var(--card);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 14px;
+  overflow: hidden;
+}
+
+.card img {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  display: block;
+  background: #121722;
+}
+
+.card h2 {
+  margin: 12px 12px 4px;
+  font-size: 1rem;
+}
+
+.card p {
+  margin: 0 12px 14px;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
