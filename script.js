@@ -32,16 +32,6 @@ const observer = new IntersectionObserver(
 
 reveals.forEach((el) => observer.observe(el));
 
-// Désactiver l'envoi du formulaire (placeholder)
-const form = document.querySelector(".contact-form");
-if (form) {
-  form.addEventListener("submit", (event) => {
-    event.preventDefault();
-    alert("Merci ! Votre message a bien été pris en compte.");
-    form.reset();
-  });
-}
-
  
 // Modal projets
 const modal = document.getElementById('project-modal');
