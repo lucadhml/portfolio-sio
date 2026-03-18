@@ -54,6 +54,14 @@ const projectsData = {
       { label: "Maquettes VM", url: "assets/projects-data/active-directory/vm-maquettes/index.html" }
     ]
   },
+  "serveur-web-conteneurise": {
+    title: "Mise en place d’un serveur web conteneurisé avec Docker sous VMware",
+    subtitle: "Virtualisation et conteneurisation d’un service web.",
+    sections: [
+      { heading: "Contexte", content: "Ce projet consiste à déployer un serveur web dans une machine virtuelle VMware, puis à y exécuter le service au sein d’un conteneur Docker. L’objectif est de mettre en place un environnement isolé, portable et plus simple à administrer." },
+      { heading: "Environnement technique", list: ["VMware", "Docker", "Serveur web", "Linux", "Conteneurisation"] }
+    ]
+  },
   "infrastructure-nas": {
     title: "Mise en place d’une infrastructure NAS",
     subtitle: "Centralisation des données et sauvegardes.",

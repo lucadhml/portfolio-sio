@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" fill="none">
+  <rect width="1200" height="675" rx="36" fill="#1A2230"/>
+  <rect x="36" y="36" width="1128" height="603" rx="28" fill="url(#bg)"/>
+  <g opacity="0.16">
+    <path d="M0 84H1200" stroke="#6AA3FF"/>
+    <path d="M0 168H1200" stroke="#6AA3FF"/>
+    <path d="M0 252H1200" stroke="#6AA3FF"/>
+    <path d="M0 336H1200" stroke="#6AA3FF"/>
+    <path d="M0 420H1200" stroke="#6AA3FF"/>
+    <path d="M0 504H1200" stroke="#6AA3FF"/>
+    <path d="M0 588H1200" stroke="#6AA3FF"/>
+    <path d="M120 0V675" stroke="#6AA3FF"/>
+    <path d="M240 0V675" stroke="#6AA3FF"/>
+    <path d="M360 0V675" stroke="#6AA3FF"/>
+    <path d="M480 0V675" stroke="#6AA3FF"/>
+    <path d="M600 0V675" stroke="#6AA3FF"/>
+    <path d="M720 0V675" stroke="#6AA3FF"/>
+    <path d="M840 0V675" stroke="#6AA3FF"/>
+    <path d="M960 0V675" stroke="#6AA3FF"/>
+    <path d="M1080 0V675" stroke="#6AA3FF"/>
+  </g>
+  <rect x="108" y="124" width="344" height="420" rx="26" fill="#202A3A" stroke="#384960"/>
+  <rect x="164" y="182" width="232" height="136" rx="18" fill="#121A25" stroke="#6AA3FF" stroke-opacity=".6"/>
+  <path d="M280 208H332C345.255 208 356 218.745 356 232V268C356 281.255 345.255 292 332 292H280C266.745 292 256 281.255 256 268V232C256 218.745 266.745 208 280 208Z" fill="#6AA3FF" fill-opacity=".18" stroke="#6AA3FF"/>
+  <path d="M290 228L306 244L322 228" stroke="#6AA3FF" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M290 272L306 256L322 272" stroke="#6AA3FF" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="184" y="356" width="192" height="18" rx="9" fill="#D8E1EF" fill-opacity=".85"/>
+  <rect x="184" y="392" width="136" height="14" rx="7" fill="#8E9DB3"/>
+  <rect x="184" y="434" width="168" height="14" rx="7" fill="#8E9DB3"/>
+  <rect x="184" y="476" width="118" height="14" rx="7" fill="#8E9DB3"/>
+  <rect x="520" y="170" width="572" height="330" rx="28" fill="#202A3A" stroke="#384960"/>
+  <rect x="584" y="234" width="444" height="202" rx="20" fill="#111926" stroke="#6AA3FF" stroke-opacity=".34"/>
+  <rect x="620" y="270" width="160" height="128" rx="18" fill="#243043" stroke="#6AA3FF" stroke-opacity=".45"/>
+  <rect x="802" y="270" width="190" height="128" rx="18" fill="#243043" stroke="#6AA3FF" stroke-opacity=".45"/>
+  <path d="M700 320C700 299.013 717.013 282 738 282H744C764.987 282 782 299.013 782 320V348C782 368.987 764.987 386 744 386H738C717.013 386 700 368.987 700 348V320Z" fill="#6AA3FF" fill-opacity=".14" stroke="#6AA3FF"/>
+  <path d="M870 288L886 304L902 288" stroke="#6AA3FF" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M870 380L886 364L902 380" stroke="#6AA3FF" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="600" y="98" width="214" height="44" rx="22" fill="#6AA3FF" fill-opacity=".15" stroke="#6AA3FF" stroke-opacity=".45"/>
+  <text x="707" y="126" text-anchor="middle" fill="#F5F6F8" font-family="Manrope, Arial, sans-serif" font-size="20" font-weight="700">Docker + VMware</text>
+  <text x="108" y="86" fill="#F5F6F8" font-family="Manrope, Arial, sans-serif" font-size="42" font-weight="700">Serveur web conteneurisé</text>
+  <text x="108" y="620" fill="#C8D0DC" font-family="Manrope, Arial, sans-serif" font-size="24">Virtualisation, conteneurisation et publication d’un service web</text>
+  <defs>
+    <linearGradient id="bg" x1="600" y1="36" x2="600" y2="639" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#202938"/>
+      <stop offset="1" stop-color="#161D29"/>
+    </linearGradient>
+  </defs>
+</svg>

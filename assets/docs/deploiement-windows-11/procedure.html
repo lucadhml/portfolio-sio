@@ -68,7 +68,9 @@
     document.querySelectorAll('[data-go-projects]').forEach((link) => {
       link.addEventListener('click', (event) => {
         event.preventDefault();
-        const target = new URL('../../../index.html#projets', window.location.href).href;
+        const target = window.location.protocol === 'file:'
+          ? 'file:///Users/luca_dhml/Documents/portfolio/index.html#projets'
+          : 'https://lucadhml.github.io/portfolio-sio/index.html#projets';
         window.location.assign(target);
       });
     });
