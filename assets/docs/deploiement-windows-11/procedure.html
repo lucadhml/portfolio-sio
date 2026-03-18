@@ -16,7 +16,7 @@
   <header class="site-header">
     <nav class="nav">
       <a class="logo" href="../../../index.html#accueil">Portfolio <span>|</span> Luca Duhamel</a>
-      <a class="nav-link" href="../../../index.html#projets" data-go-projects>Retour aux projets</a>
+      <a class="nav-link" href="../../../index.html" data-go-projects>Retour aux projets</a>
     </nav>
   </header>
   <main class="container">
@@ -26,7 +26,7 @@
         <h1 class="hero-title">Procédure de déploiement Windows 11</h1>
         <p class="hero-subtitle">Cette procédure détaille les étapes opérationnelles à suivre pour réaliser un déploiement Windows 11 clair, homogène et reproductible.</p>
         <div class="hero-actions">
-          <a class="btn" href="../../../index.html#projets" data-go-projects>Retour aux projets</a>
+          <a class="btn" href="../../../index.html" data-go-projects>Retour aux projets</a>
           <a class="btn btn-outline" href="procedure.pdf" download>Télécharger le PDF</a>
         </div>
         <div class="doc-meta">
@@ -67,11 +67,7 @@
   <script>
     document.querySelectorAll('[data-go-projects]').forEach((link) => {
       link.addEventListener('click', (event) => {
-        event.preventDefault();
-        const target = window.location.protocol === 'file:'
-          ? 'file:///Users/luca_dhml/Documents/portfolio/index.html#projets'
-          : 'https://lucadhml.github.io/portfolio-sio/index.html#projets';
-        window.location.assign(target);
+        sessionStorage.setItem('portfolio-scroll-target', '#projets');
       });
     });
   </script>

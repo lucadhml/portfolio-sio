@@ -15,6 +15,18 @@ navLinks?.querySelectorAll("a").forEach((link) => {
   });
 });
 
+// Retour depuis une page document vers la section projets
+window.addEventListener("DOMContentLoaded", () => {
+  const targetId = sessionStorage.getItem("portfolio-scroll-target");
+  if (!targetId) return;
+
+  sessionStorage.removeItem("portfolio-scroll-target");
+  const target = document.querySelector(targetId);
+  if (target) {
+    target.scrollIntoView({ behavior: "smooth", block: "start" });
+  }
+});
+
 // Animations au scroll (Intersection Observer)
 const reveals = document.querySelectorAll(".reveal");
 
