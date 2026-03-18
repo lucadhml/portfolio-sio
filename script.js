@@ -43,85 +43,49 @@ const projectsData = {
   "active-directory": {
     title: "Mise en place d’un serveur Active Directory",
     subtitle: "Infrastructure Windows Server avec gestion des identités.",
-    docUrl: "assets/docs/active-directory.html",
-    vmUrl: "assets/projects-data/active-directory/vm-maquettes/index.html",
     sections: [
-      { heading: "Contexte", content: "Déploiement d’un contrôleur de domaine et structuration des ressources avec AGDLP." },
-      { heading: "Actions", list: ["Création des OU et GPO", "Gestion des utilisateurs et groupes", "Politique de sécurité et de mots de passe"] },
-      { heading: "Compétences", list: ["Windows Server", "AD DS", "GPO"] }
-    ]
-  },
-  "reseau-campus-vlan": {
-    title: "Mise en place d’un réseau campus – VLAN",
-    subtitle: "Segmentation réseau et routage inter-VLAN.",
-    docUrl: "assets/docs/reseau-campus-vlan.html",
-    vmUrl: "assets/projects-data/reseau-campus-vlan/vm-maquettes/index.html",
-    sections: [
-      { heading: "Contexte", content: "Architecture campus simulée sous Cisco Packet Tracer." },
-      { heading: "Actions", list: ["Définition des VLAN", "Configuration des trunks", "Routage inter-VLAN"] },
-      { heading: "Compétences", list: ["VLAN", "Switching", "Routing"] }
-    ]
-  },
-  "reseau-campus-dhcp": {
-    title: "Mise en place d’un réseau campus – DHCP",
-    subtitle: "Adressage automatique pour plusieurs segments.",
-    docUrl: "assets/docs/reseau-campus-dhcp.html",
-    vmUrl: "assets/projects-data/reseau-campus-dhcp/vm-maquettes/index.html",
-    sections: [
-      { heading: "Contexte", content: "Attribution dynamique des IP sur différents VLAN." },
-      { heading: "Actions", list: ["Création des pools", "Relais DHCP", "Tests de baux"] },
-      { heading: "Compétences", list: ["DHCP", "IP Plan", "Packet Tracer"] }
-    ]
-  },
-  "reseau-campus-securite": {
-    title: "Mise en place d’un réseau campus – Sécurité",
-    subtitle: "Contrôle des accès et sécurisation des flux.",
-    docUrl: "assets/docs/reseau-campus-securite.html",
-    vmUrl: "assets/projects-data/reseau-campus-securite/vm-maquettes/index.html",
-    sections: [
-      { heading: "Contexte", content: "Renforcement de la sécurité réseau pour limiter les risques." },
-      { heading: "Actions", list: ["ACL et filtrage", "Segmentation", "Bonnes pratiques"] },
-      { heading: "Compétences", list: ["ACL", "Security", "Best Practices"] }
-    ]
-  },
-  "site-web-micro-entreprise": {
-    title: "Mise en place d’un site web pour une micro-entreprise",
-    subtitle: "Création, hébergement et DNS.",
-    docUrl: "assets/docs/site-web-micro-entreprise.html",
-    sections: [
-      { heading: "Contexte", content: "Mise en ligne d’un site vitrine accessible publiquement." },
-      { heading: "Actions", list: ["Création du site", "Mise en ligne", "Gestion DNS"] },
-      { heading: "Compétences", list: ["DNS", "Hébergement", "Déploiement"] }
+      { heading: "Contexte", content: "Ce projet a consisté à mettre en place un contrôleur de domaine afin de centraliser l’administration des utilisateurs et des ressources. Il m’a permis de structurer un environnement Windows Server avec une gestion claire des accès et des stratégies." },
+      { heading: "Environnement technique", list: ["Windows Server", "AD DS", "OU et groupes", "GPO", "Méthode AGDLP"] }
+    ],
+    documents: [
+      { label: "Dossier technique", url: "assets/docs/active-directory/dossier.html" }
+    ],
+    mockups: [
+      { label: "Maquettes VM", url: "assets/projects-data/active-directory/vm-maquettes/index.html" }
     ]
   },
   "infrastructure-nas": {
     title: "Mise en place d’une infrastructure NAS",
     subtitle: "Centralisation des données et sauvegardes.",
-    docUrl: "assets/docs/infrastructure-nas.html",
     sections: [
-      { heading: "Contexte", content: "Stockage centralisé et gestion des accès." },
-      { heading: "Actions", list: ["Création des partages", "Gestion des droits", "Plan de sauvegarde"] },
-      { heading: "Compétences", list: ["NAS", "Backup", "Permissions"] }
+      { heading: "Contexte", content: "L’objectif de ce projet était de centraliser les données dans un espace de stockage unique, accessible et sécurisé. Cette mise en place répond à un besoin de partage, de sauvegarde et de continuité d’accès en environnement professionnel." },
+      { heading: "Environnement technique", list: ["NAS", "Partages réseau", "Droits d’accès", "Permissions", "Sauvegarde"] }
+    ],
+    documents: [
+      { label: "Dossier technique", url: "assets/docs/infrastructure-nas/dossier.html" }
     ]
   },
   "mise-a-niveau-parc": {
     title: "Mise à niveau du parc informatique",
     subtitle: "Audit, optimisation et sécurité.",
-    docUrl: "assets/docs/mise-a-niveau-parc.html",
     sections: [
-      { heading: "Contexte", content: "Amélioration de la performance et de la sécurité des postes." },
-      { heading: "Actions", list: ["Audit matériel", "Optimisation", "Hardening"] },
-      { heading: "Compétences", list: ["Audit", "Maintenance", "Hardening"] }
+      { heading: "Contexte", content: "Ce projet vise à analyser l’état d’un parc informatique afin d’identifier les améliorations à apporter. L’enjeu était d’optimiser les postes de travail tout en renforçant leur fiabilité et leur niveau de sécurité." },
+      { heading: "Environnement technique", list: ["Audit matériel", "Maintenance", "Optimisation", "Mise à jour", "Sécurisation des postes"] }
+    ],
+    documents: [
+      { label: "Dossier technique", url: "assets/docs/mise-a-niveau-parc/dossier.html" }
     ]
   },
   "deploiement-windows-11": {
     title: "Déploiement de Windows 11",
     subtitle: "Déploiement multi-postes sécurisé.",
-    docUrl: "assets/docs/deploiement-windows-11.html",
     sections: [
-      { heading: "Contexte", content: "Uniformisation et sécurisation des postes utilisateurs." },
-      { heading: "Actions", list: ["Installation en série", "Configuration standard", "Sécurisation"] },
-      { heading: "Compétences", list: ["Windows 11", "Deployment", "Security"] }
+      { heading: "Contexte", content: "Ce projet a consisté à préparer et déployer Windows 11 sur plusieurs postes afin d’obtenir un environnement homogène. Il répond à un besoin de standardisation, de mise à jour du parc et de sécurisation des postes utilisateurs." },
+      { heading: "Environnement technique", list: ["Windows 11", "Déploiement multi-postes", "Configuration standard", "Mise à jour", "Sécurisation"] }
+    ],
+    documents: [
+      { label: "Dossier technique", url: "assets/docs/deploiement-windows-11/dossier.html" },
+      { label: "Procédure", url: "assets/docs/deploiement-windows-11/procedure.html" }
     ]
   }
 };
@@ -181,30 +145,61 @@ const openModal = (projectId) => {
     modalBody.appendChild(buildSection(section));
   });
 
-  if (data.docUrl) {
-    const actions = document.createElement('div');
-    actions.className = 'modal-actions';
+  if ((data.documents && data.documents.length) || (data.mockups && data.mockups.length)) {
+    const resources = document.createElement('div');
+    resources.className = 'project-resources';
 
-    const link = document.createElement('a');
-    link.className = 'btn btn-outline';
-    link.href = data.docUrl;
-    link.target = '_blank';
-    link.rel = 'noreferrer';
-    link.textContent = 'Voir la documentation';
+    if (data.documents && data.documents.length) {
+      const docsSection = document.createElement('div');
+      docsSection.className = 'modal-section';
 
-    actions.appendChild(link);
+      const docsTitle = document.createElement('h3');
+      docsTitle.textContent = 'Documents';
+      docsSection.appendChild(docsTitle);
 
-    if (data.vmUrl) {
-      const vmLink = document.createElement('a');
-      vmLink.className = 'btn';
-      vmLink.href = data.vmUrl;
-      vmLink.target = '_blank';
-      vmLink.rel = 'noreferrer';
-      vmLink.textContent = 'Voir les maquettes VM';
-      actions.appendChild(vmLink);
+      const docsActions = document.createElement('div');
+      docsActions.className = 'modal-actions';
+
+      data.documents.forEach((documentItem, index) => {
+        const link = document.createElement('a');
+        link.className = index === 0 ? 'btn' : 'btn btn-outline';
+        link.href = documentItem.url;
+        link.target = '_blank';
+        link.rel = 'noreferrer';
+        link.textContent = documentItem.label;
+        docsActions.appendChild(link);
+      });
+
+      docsSection.appendChild(docsActions);
+      resources.appendChild(docsSection);
     }
 
-    modalBody.appendChild(actions);
+    if (data.mockups && data.mockups.length) {
+      const mockupsSection = document.createElement('div');
+      mockupsSection.className = 'modal-section';
+
+      const mockupsTitle = document.createElement('h3');
+      mockupsTitle.textContent = 'Maquettes';
+      mockupsSection.appendChild(mockupsTitle);
+
+      const mockupsActions = document.createElement('div');
+      mockupsActions.className = 'modal-actions';
+
+      data.mockups.forEach((mockupItem) => {
+        const link = document.createElement('a');
+        link.className = 'btn btn-outline';
+        link.href = mockupItem.url;
+        link.target = '_blank';
+        link.rel = 'noreferrer';
+        link.textContent = mockupItem.label;
+        mockupsActions.appendChild(link);
+      });
+
+      mockupsSection.appendChild(mockupsActions);
+      resources.appendChild(mockupsSection);
+    }
+
+    modalBody.appendChild(resources);
   }
 
   modal.classList.add('open');
