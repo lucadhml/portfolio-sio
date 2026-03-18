@@ -16,7 +16,7 @@
   <header class="site-header">
     <nav class="nav">
       <a class="logo" href="../../../index.html#accueil">Portfolio <span>|</span> Luca Duhamel</a>
-      <a class="nav-link" href="../../../index.html#projets">Retour aux projets</a>
+      <a class="nav-link" href="../../../index.html#projets" data-go-projects>Retour aux projets</a>
     </nav>
   </header>
   <main class="container">
@@ -26,7 +26,7 @@
         <h1 class="hero-title">Mise à niveau du parc informatique</h1>
         <p class="hero-subtitle">Ce dossier détaille l’analyse du parc existant, les améliorations proposées et les actions menées pour renforcer la performance, la fiabilité et la sécurité des postes utilisateurs.</p>
         <div class="hero-actions">
-          <a class="btn" href="../../../index.html#projets">Retour aux projets</a>
+          <a class="btn" href="../../../index.html#projets" data-go-projects>Retour aux projets</a>
           <a class="btn btn-outline" href="dossier.pdf" download>Télécharger le PDF</a>
         </div>
         <div class="doc-meta">
@@ -65,5 +65,14 @@
       </div>
     </section>
   </main>
+  <script>
+    document.querySelectorAll('[data-go-projects]').forEach((link) => {
+      link.addEventListener('click', (event) => {
+        event.preventDefault();
+        const target = new URL('../../../index.html#projets', window.location.href).href;
+        window.location.assign(target);
+      });
+    });
+  </script>
 </body>
 </html>
