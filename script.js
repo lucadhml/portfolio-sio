@@ -184,8 +184,6 @@ const openModal = (projectId) => {
         const link = document.createElement('a');
         link.className = index === 0 ? 'btn' : 'btn btn-outline';
         link.href = documentItem.url;
-        link.target = '_blank';
-        link.rel = 'noreferrer';
         link.textContent = documentItem.label;
         docsActions.appendChild(link);
       });
@@ -209,8 +207,6 @@ const openModal = (projectId) => {
         const link = document.createElement('a');
         link.className = 'btn btn-outline';
         link.href = mockupItem.url;
-        link.target = '_blank';
-        link.rel = 'noreferrer';
         link.textContent = mockupItem.label;
         mockupsActions.appendChild(link);
       });

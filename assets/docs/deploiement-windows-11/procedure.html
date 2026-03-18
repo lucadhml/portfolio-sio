@@ -66,13 +66,16 @@
   </main>
   <script>
     document.querySelectorAll('[data-go-projects]').forEach((link) => {
-      const target = window.location.protocol === 'file:'
-        ? 'file:///Users/luca_dhml/Documents/portfolio/index.html'
-        : 'https://lucadhml.github.io/portfolio-sio/index.html';
-      link.setAttribute('href', target);
       link.addEventListener('click', (event) => {
         event.preventDefault();
         sessionStorage.setItem('portfolio-scroll-target', '#projets');
+        if (window.history.length > 1 && document.referrer) {
+          window.history.back();
+          return;
+        }
+        const target = window.location.protocol === 'file:'
+          ? 'file:///Users/luca_dhml/Documents/portfolio/index.html'
+          : 'https://lucadhml.github.io/portfolio-sio/index.html';
         window.location.assign(target);
       });
     });
