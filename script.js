@@ -72,6 +72,9 @@ const projectsData = {
     sections: [
       { heading: "Contexte", content: "Ce projet consiste à déployer un serveur web dans une machine virtuelle VMware, puis à y exécuter le service au sein d’un conteneur Docker. L’objectif est de mettre en place un environnement isolé, portable et plus simple à administrer." },
       { heading: "Environnement technique", list: ["VMware", "Docker", "Serveur web", "Linux", "Conteneurisation"] }
+    ],
+    documents: [
+      { label: "Dossier technique", url: "assets/docs/serveur-web-conteneurise/dossier.html" }
     ]
   },
   "infrastructure-nas": {
@@ -232,8 +235,14 @@ const closeModal = () => {
 
 document.querySelectorAll('.project-card[data-project]').forEach((card) => {
   card.addEventListener('click', (event) => {
-    event.preventDefault();
     const id = card.getAttribute('data-project');
+    const data = projectsData[id];
+
+    if (data?.documents?.length) {
+      return;
+    }
+
+    event.preventDefault();
     openModal(id);
   });
 });
