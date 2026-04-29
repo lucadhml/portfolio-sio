@@ -122,6 +122,30 @@
           <h2>Projets</h2>
           <p>Des réalisations techniques présentées avec leurs livrables et maquettes, dans un format clair pour le BTS SIO.</p>
         </div>
+        <div class="projects-overview reveal">
+          <div class="projects-overview-copy">
+            <p class="projects-overline">Sélection 2026</p>
+            <h3>5 projets techniques structurés autour des systèmes, du réseau et de l’infrastructure.</h3>
+            <p>
+              Chaque carte donne une lecture rapide du projet, de son environnement technique
+              et des livrables disponibles, pour faciliter la présentation à l’oral.
+            </p>
+          </div>
+          <div class="projects-overview-stats">
+            <div class="projects-stat-card">
+              <strong>5</strong>
+              <span>projets</span>
+            </div>
+            <div class="projects-stat-card">
+              <strong>6</strong>
+              <span>documents</span>
+            </div>
+            <div class="projects-stat-card">
+              <strong>1</strong>
+              <span>jeu de maquettes</span>
+            </div>
+          </div>
+        </div>
         <div class="projects-grid">
           <a class="project-card reveal" href="assets/docs/active-directory/dossier.html" data-project="active-directory">
             <div class="project-media">
@@ -133,9 +157,14 @@
               Déploiement d’un contrôleur de domaine Windows Server avec une
               organisation AGDLP, gestion des OU, GPO et des comptes utilisateurs.
             </p>
+            <div class="project-keywords">
+              <span>Windows Server</span>
+              <span>AD DS</span>
+              <span>GPO</span>
+              <span>AGDLP</span>
+            </div>
             <div class="project-links-preview">
               <span><i class="fa-regular fa-file-lines"></i> 1 document</span>
-              <span><i class="fa-solid fa-network-wired"></i> Maquettes</span>
             </div>
           </a>
 
@@ -149,6 +178,12 @@
               Déploiement d’un service web dans un environnement virtualisé,
               avec conteneurisation Docker et hébergement sous VMware.
             </p>
+            <div class="project-keywords">
+              <span>VMware</span>
+              <span>Docker</span>
+              <span>Linux</span>
+              <span>Serveur web</span>
+            </div>
             <div class="project-links-preview">
               <span><i class="fa-regular fa-file-lines"></i> 1 document</span>
             </div>
@@ -164,6 +199,12 @@
               Centralisation des données, gestion des droits d’accès et
               stratégie de sauvegarde pour un environnement professionnel.
             </p>
+            <div class="project-keywords">
+              <span>NAS</span>
+              <span>Partages</span>
+              <span>Permissions</span>
+              <span>Sauvegarde</span>
+            </div>
             <div class="project-links-preview">
               <span><i class="fa-regular fa-file-lines"></i> 1 document</span>
             </div>
@@ -179,6 +220,12 @@
               Audit matériel, optimisation des performances et amélioration de
               la sécurité des postes utilisateurs.
             </p>
+            <div class="project-keywords">
+              <span>Audit</span>
+              <span>Maintenance</span>
+              <span>Optimisation</span>
+              <span>Sécurisation</span>
+            </div>
             <div class="project-links-preview">
               <span><i class="fa-regular fa-file-lines"></i> 1 document</span>
             </div>
@@ -194,6 +241,12 @@
               Déploiement multi-postes, configuration et sécurisation du système
               pour un environnement homogène et stable.
             </p>
+            <div class="project-keywords">
+              <span>Windows 11</span>
+              <span>Déploiement</span>
+              <span>Standardisation</span>
+              <span>Sécurisation</span>
+            </div>
             <div class="project-links-preview">
               <span><i class="fa-regular fa-file-lines"></i> 2 documents</span>
             </div>
@@ -325,9 +378,76 @@
       <div class="container">
         <div class="section-header">
           <h2>Veille technologique</h2>
-          <p>Suivi régulier des tendances réseaux, systèmes et cybersécurité.</p>
+          <p>Deux axes de veille suivis pour structurer un travail régulier, documenté et exploitable en BTS SIO.</p>
         </div>
-        <div class="veille-placeholder" aria-hidden="true"></div>
+        <a class="veille-method reveal" href="veille/methodologie.html">
+          <div class="veille-method-icon">
+            <i class="fa-solid fa-rss"></i>
+          </div>
+          <div class="veille-method-content">
+            <div class="veille-card-top">
+              <h3>Comment j’organise ma veille</h3>
+              <span class="veille-badge">Méthodologie</span>
+            </div>
+            <p>
+              Présentation de ma méthode de veille hebdomadaire : collecte des informations
+              via un service de veille, regroupement des contenus, synthèse avec l’IA et
+              lecture hebdomadaire des résumés.
+            </p>
+            <div class="veille-method-points">
+              <span>Notifications automatiques</span>
+              <span>Regroupement</span>
+              <span>Résumé avec IA</span>
+              <span>Lecture hebdomadaire</span>
+            </div>
+            <span class="veille-link">
+              Voir la méthodologie
+              <i class="fa-solid fa-arrow-right"></i>
+            </span>
+          </div>
+        </a>
+        <div class="veille-grid">
+          <a class="veille-card reveal" href="veille/cybersecurite.html">
+            <div class="veille-card-top">
+              <span class="veille-icon"><i class="fa-solid fa-shield-halved"></i></span>
+              <span class="veille-badge">Sujet prioritaire</span>
+            </div>
+            <h3>Veille cybersécurité</h3>
+            <p>
+              Suivi des vulnérabilités, alertes, bonnes pratiques et évolutions
+              réglementaires applicables aux systèmes et réseaux.
+            </p>
+            <div class="veille-card-meta">
+              <span>ANSSI</span>
+              <span>CERT-FR</span>
+              <span>CNIL</span>
+            </div>
+            <span class="veille-link">
+              Consulter la veille
+              <i class="fa-solid fa-arrow-right"></i>
+            </span>
+          </a>
+          <a class="veille-card reveal" href="veille/intelligence-artificielle.html">
+            <div class="veille-card-top">
+              <span class="veille-icon"><i class="fa-solid fa-brain"></i></span>
+              <span class="veille-badge">Innovation</span>
+            </div>
+            <h3>Veille intelligence artificielle</h3>
+            <p>
+              Suivi des avancées de l’IA, des usages concrets, des enjeux de
+              sécurité et du cadre réglementaire autour des outils génératifs.
+            </p>
+            <div class="veille-card-meta">
+              <span>OpenAI</span>
+              <span>CNIL</span>
+              <span>UE</span>
+            </div>
+            <span class="veille-link">
+              Consulter la veille
+              <i class="fa-solid fa-arrow-right"></i>
+            </span>
+          </a>
+        </div>
       </div>
     </section>
 
