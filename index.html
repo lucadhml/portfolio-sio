@@ -79,38 +79,45 @@
       <div class="container">
         <div class="section-header">
           <h2>À propos</h2>
-          <p>Un profil SISR orienté production et cybersécurité</p>
+          <p>Un profil SISR construit autour des infrastructures, de la rigueur et de la montée en compétences.</p>
         </div>
-        <div class="about-grid about-grid-3">
-          <button class="about-block reveal about-card" type="button" data-about="profil">
-            <div class="about-card-title">
-              <h3>Profil</h3>
-              <i class="fa-solid fa-up-right-and-down-left-from-center" aria-hidden="true"></i>
-            </div>
-            <p>
-              Étudiant en BTS SIO SISR, orienté réseaux et administration système,
-              avec un objectif clair : disponibilité et sécurité des services.
-            </p>
-            <span class="about-card-hint">
-              <i class="fa-solid fa-mouse-pointer" aria-hidden="true"></i>
-              Voir plus
-            </span>
-          </button>
-          <button class="about-block reveal about-card" type="button" data-about="parcours">
-            <div class="about-card-title">
-              <h3>Parcours</h3>
-              <i class="fa-solid fa-up-right-and-down-left-from-center" aria-hidden="true"></i>
-            </div>
-            <p>
-              Bac STL, BTS ABM, 13 mois en laboratoire de cytogénétique, puis BTS
-              SIO SISR pour me spécialiser en infrastructures IT.
-            </p>
-            <span class="about-card-hint">
-              <i class="fa-solid fa-mouse-pointer" aria-hidden="true"></i>
-              Voir plus
-            </span>
-          </button>
-          
+        <div class="about-showcase">
+          <div class="about-grid">
+            <button class="about-block reveal about-card" type="button" data-about="profil">
+              <div class="about-card-title">
+                <div>
+                  <p class="about-card-label">Profil</p>
+                  <h3>Profil</h3>
+                </div>
+                <i class="fa-solid fa-up-right-and-down-left-from-center" aria-hidden="true"></i>
+              </div>
+              <p>
+                Présentation synthétique de mon profil, de mon orientation en
+                BTS SIO SISR et de mon positionnement professionnel.
+              </p>
+              <span class="about-card-hint">
+                Consulter le détail
+                <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+              </span>
+            </button>
+            <button class="about-block reveal about-card" type="button" data-about="parcours">
+              <div class="about-card-title">
+                <div>
+                  <p class="about-card-label">Parcours</p>
+                  <h3>Expériences & études</h3>
+                </div>
+                <i class="fa-solid fa-up-right-and-down-left-from-center" aria-hidden="true"></i>
+              </div>
+              <p>
+                Vue détaillée de mes expériences professionnelles, de mes formations
+                et de l’évolution de mon parcours jusqu’au BTS SIO.
+              </p>
+              <span class="about-card-hint">
+                Consulter le détail
+                <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+              </span>
+            </button>
+          </div>
         </div>
       </div>
     </section>
@@ -378,74 +385,64 @@
       <div class="container">
         <div class="section-header">
           <h2>Veille technologique</h2>
-          <p>Deux axes de veille suivis pour structurer un travail régulier, documenté et exploitable en BTS SIO.</p>
+          <p>Une veille structurée, datée et exploitable pour le BTS SIO, construite autour d’une méthode hebdomadaire et de deux axes de suivi.</p>
         </div>
-        <a class="veille-method reveal" href="veille/methodologie.html">
-          <div class="veille-method-icon">
-            <i class="fa-solid fa-rss"></i>
-          </div>
-          <div class="veille-method-content">
-            <div class="veille-card-top">
-              <h3>Comment j’organise ma veille</h3>
-              <span class="veille-badge">Méthodologie</span>
-            </div>
+
+        <a class="veille-overview reveal" href="veille/methodologie.html">
+          <div class="veille-overview-copy">
+            <p class="eyebrow">Méthodologie</p>
+            <h3>Une organisation simple, régulière et réutilisable</h3>
             <p>
-              Présentation de ma méthode de veille hebdomadaire : collecte des informations
-              via un service de veille, regroupement des contenus, synthèse avec l’IA et
-              lecture hebdomadaire des résumés.
+              Ma veille repose sur un cycle hebdomadaire : réception des informations,
+              tri des contenus utiles, synthèse avec l’IA puis relecture pour conserver
+              uniquement les éléments exploitables dans le cadre du BTS SIO SISR.
             </p>
-            <div class="veille-method-points">
-              <span>Notifications automatiques</span>
-              <span>Regroupement</span>
-              <span>Résumé avec IA</span>
-              <span>Lecture hebdomadaire</span>
-            </div>
-            <span class="veille-link">
-              Voir la méthodologie
-              <i class="fa-solid fa-arrow-right"></i>
-            </span>
+          </div>
+          <div class="veille-overview-stats">
+            <span><i class="fa-regular fa-calendar"></i> 1 revue par semaine</span>
+            <span><i class="fa-solid fa-rss"></i> Sources spécialisées</span>
+            <span><i class="fa-solid fa-wand-magic-sparkles"></i> Synthèse assistée par IA</span>
           </div>
         </a>
+
         <div class="veille-grid">
           <a class="veille-card reveal" href="veille/cybersecurite.html">
-            <div class="veille-card-top">
-              <span class="veille-icon"><i class="fa-solid fa-shield-halved"></i></span>
-              <span class="veille-badge">Sujet prioritaire</span>
+            <div class="veille-card-head">
+              <div class="veille-card-icon">
+                <i class="fa-solid fa-shield-halved"></i>
+              </div>
+              <span class="veille-chip">Sujet prioritaire</span>
             </div>
-            <h3>Veille cybersécurité</h3>
+            <h3>Cybersécurité</h3>
             <p>
-              Suivi des vulnérabilités, alertes, bonnes pratiques et évolutions
-              réglementaires applicables aux systèmes et réseaux.
+              Suivi des vulnérabilités, des recommandations de l’ANSSI et des alertes
+              techniques utiles pour comprendre les enjeux de sécurisation des systèmes
+              et réseaux.
             </p>
             <div class="veille-card-meta">
-              <span>ANSSI</span>
-              <span>CERT-FR</span>
-              <span>CNIL</span>
+              <span>Sources officielles</span>
+              <span>Synthèses datées</span>
+              <span>Exploitable à l’oral</span>
             </div>
-            <span class="veille-link">
-              Consulter la veille
-              <i class="fa-solid fa-arrow-right"></i>
-            </span>
           </a>
+
           <a class="veille-card reveal" href="veille/intelligence-artificielle.html">
-            <div class="veille-card-top">
-              <span class="veille-icon"><i class="fa-solid fa-brain"></i></span>
-              <span class="veille-badge">Innovation</span>
+            <div class="veille-card-head">
+              <div class="veille-card-icon">
+                <i class="fa-solid fa-brain"></i>
+              </div>
+              <span class="veille-chip">Sujet complémentaire</span>
             </div>
-            <h3>Veille intelligence artificielle</h3>
+            <h3>Intelligence artificielle</h3>
             <p>
-              Suivi des avancées de l’IA, des usages concrets, des enjeux de
-              sécurité et du cadre réglementaire autour des outils génératifs.
+              Suivi des évolutions de l’IA, de ses usages professionnels, de ses enjeux
+              de conformité et de son impact sur les outils et les pratiques informatiques.
             </p>
             <div class="veille-card-meta">
-              <span>OpenAI</span>
-              <span>CNIL</span>
-              <span>UE</span>
+              <span>Usages concrets</span>
+              <span>Enjeux RGPD</span>
+              <span>Impact métier</span>
             </div>
-            <span class="veille-link">
-              Consulter la veille
-              <i class="fa-solid fa-arrow-right"></i>
-            </span>
           </a>
         </div>
       </div>

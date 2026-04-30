@@ -1,0 +1,127 @@
+window.VEILLE_DATA = {
+  "updatedAt": "2026-04-30",
+  "methodologie": {
+    "title": "Méthodologie de veille",
+    "summary": "Ma veille technologique repose ici sur une source unique : IT-Connect. Chaque semaine, les dernières actualités du site peuvent être récupérées automatiquement, filtrées par thématique, puis publiées dans le portfolio pour conserver uniquement les sujets les plus utiles à mon BTS SIO SISR.",
+    "frequency": "1 mise à jour automatique par semaine",
+    "tooling": [
+      "IT-Connect comme source unique",
+      "Récupération automatique des actualités",
+      "Filtrage par mots-clés",
+      "Sélection des articles pertinents",
+      "Mise à jour du portfolio"
+    ],
+    "steps": [
+      {
+        "title": "1. Collecte automatique",
+        "description": "Les actualités publiées par IT-Connect sont récupérées automatiquement afin de centraliser la matière de veille sans saisie manuelle."
+      },
+      {
+        "title": "2. Filtrage thématique",
+        "description": "Les contenus sont triés selon deux thèmes : la cybersécurité et l’intelligence artificielle, à partir de mots-clés ciblés."
+      },
+      {
+        "title": "3. Sélection des articles utiles",
+        "description": "Le système conserve les articles les plus pertinents et les plus récents pour éviter une veille trop large ou peu exploitable."
+      },
+      {
+        "title": "4. Mise à jour du portfolio",
+        "description": "Les entrées retenues sont publiées sur le portfolio afin de garder une veille datée, lisible et réutilisable devant le jury."
+      }
+    ],
+    "criteria": [
+      "Une source clairement identifiée",
+      "Une mise à jour régulière et automatisée",
+      "Un tri cohérent avec l’option SISR",
+      "Des entrées directement exploitables dans le portfolio"
+    ]
+  },
+  "topics": {
+    "cybersecurite": {
+      "title": "Cybersécurité",
+      "subtitle": "Menaces, vulnérabilités et bonnes pratiques repérées automatiquement depuis IT-Connect.",
+      "objective": "Cette veille me permet de suivre les alertes, les failles et les mesures de protection publiées par IT-Connect sur des sujets proches de mon parcours SISR : Windows, sécurité des serveurs, correctifs critiques et durcissement des environnements.",
+      "interest": "L’intérêt de ce sujet est d’identifier rapidement des situations concrètes : vulnérabilités critiques, exploitation active, mises à jour à appliquer et réflexes d’administration. Cette veille alimente directement ma culture de sécurité sur les systèmes et les réseaux.",
+      "sources": [
+        {
+          "name": "IT-Connect",
+          "type": "Actualités IT & cybersécurité",
+          "url": "https://www.it-connect.fr/actualites/"
+        }
+      ],
+      "entries": [
+        {
+          "date": "17 avril 2026",
+          "title": "Windows : ce chercheur publie la faille RedSun pour se venger de Microsoft",
+          "source": "IT-Connect",
+          "url": "https://www.it-connect.fr/exploit-redsun-faille-zero-day-windows/",
+          "summary": "IT-Connect présente RedSun, une faille zero-day touchant Windows et Microsoft Defender, capable de donner les privilèges SYSTEM sur des machines pourtant à jour.",
+          "interest": "Cette actualité est utile dans mon parcours SISR car elle montre qu’un environnement Windows correctement mis à jour peut malgré tout rester exposé. Elle rappelle l’importance de la veille sécurité même sur des postes et serveurs standards."
+        },
+        {
+          "date": "17 avril 2026",
+          "title": "PHP Composer : ces deux failles ouvrent la porte à l’exécution de commande",
+          "source": "IT-Connect",
+          "url": "https://www.it-connect.fr/php-composer-ces-deux-failles-ouvrent-la-porte-a-lexecution-de-commande/",
+          "summary": "Deux vulnérabilités dans PHP Composer peuvent permettre l’exécution de commandes malveillantes sur un serveur vulnérable, notamment via des dépôts manipulés.",
+          "interest": "Je retiens cette entrée car elle illustre bien les risques liés aux outils très utilisés dans les environnements web et d’administration. Elle montre aussi qu’une dépendance ou un composant tiers peut devenir un point d’entrée critique."
+        },
+        {
+          "date": "16 avril 2026",
+          "title": "Cisco Webex – CVE-2026-20184 : cette faille critique nécessite une action de l’admin",
+          "source": "IT-Connect",
+          "url": "https://www.it-connect.fr/cisco-webex-cve-2026-20184-cette-faille-critique-necessite-une-action-de-ladmin/",
+          "summary": "IT-Connect explique qu’une faille critique corrigée côté Cisco Webex impose malgré tout une action manuelle de l’administrateur si l’intégration SSO est utilisée.",
+          "interest": "Cette veille est intéressante car elle rappelle qu’un correctif éditeur ne suffit pas toujours : l’administrateur doit parfois intervenir lui-même pour rétablir un niveau de sécurité cohérent."
+        },
+        {
+          "date": "16 avril 2026",
+          "title": "Vaultwarden 1.35.5 corrige trois vulnérabilités dans le Password Manager",
+          "source": "IT-Connect",
+          "url": "https://www.it-connect.fr/vaultwarden-1-35-5-corrige-trois-vulnerabilites-dans-le-password-manager/",
+          "summary": "Vaultwarden 1.35.5 corrige trois failles de sécurité et la mise à jour est fortement recommandée, avec un passage conseillé vers la version 1.35.7.",
+          "interest": "Je garde cette publication car elle montre l’importance des correctifs sur les outils de gestion des secrets et des mots de passe, qui sont des composants sensibles dans toute organisation."
+        }
+      ]
+    },
+    "intelligence-artificielle": {
+      "title": "Intelligence artificielle",
+      "subtitle": "Usages, outils et impacts de l’IA repérés automatiquement depuis IT-Connect.",
+      "objective": "Cette veille me permet de suivre les nouveautés liées à l’IA au travers d’IT-Connect, avec un angle concret : nouveaux modèles, usages professionnels, automatisation, sécurité et évolution des outils utilisés dans l’informatique.",
+      "interest": "L’intérêt de ce sujet est de comprendre comment l’IA transforme déjà les pratiques techniques et les outils du quotidien. Cela me permet de garder un regard réaliste sur ses apports, ses limites et ses impacts sur les métiers de l’IT.",
+      "sources": [
+        {
+          "name": "IT-Connect",
+          "type": "Actualités IT & IA",
+          "url": "https://www.it-connect.fr/actualites/"
+        }
+      ],
+      "entries": [
+        {
+          "date": "16 avril 2026",
+          "title": "IA – Plus autonome, plus précis : voici Claude Opus 4.7",
+          "source": "IT-Connect",
+          "url": "https://www.it-connect.fr/ia-plus-autonome-plus-precis-voici-claude-opus-4-7/",
+          "summary": "IT-Connect présente Claude Opus 4.7 comme un modèle amélioré pour les tâches complexes, le code, la vision et les exécutions longues, avec davantage d’autonomie.",
+          "interest": "Cette entrée m’intéresse car elle montre l’évolution rapide des outils d’IA vers des usages plus professionnels et plus autonomes, notamment pour le développement et l’automatisation."
+        },
+        {
+          "date": "15 avril 2026",
+          "title": "Cybersécurité : OpenAI fait sauter les garde-fous de l’IA pour GPT-5.4-Cyber",
+          "source": "IT-Connect",
+          "url": "https://www.it-connect.fr/cybersecurite-openai-fait-sauter-les-garde-fous-de-ia-pour-gpt-5-4-cyber/",
+          "summary": "IT-Connect explique qu’OpenAI propose une version de GPT dédiée à la cybersécurité défensive, avec des restrictions allégées pour mieux répondre aux besoins des chercheurs et équipes de sécurité.",
+          "interest": "Je retiens cet article car il relie directement l’IA à la cybersécurité, à la gouvernance des usages et à la question des limites à poser autour de modèles puissants."
+        },
+        {
+          "date": "16 avril 2026",
+          "title": "Nouveautés OpenSSL 4.0 : support d’ECH et nettoyage des options Legacy",
+          "source": "IT-Connect",
+          "url": "https://www.it-connect.fr/nouveautes-openssl-4-0-support-dech-et-nettoyage-des-options-legacy/",
+          "summary": "OpenSSL 4.0 introduit notamment le support d’ECH et fait évoluer ses options historiques. Même si le sujet n’est pas centré sur l’IA, il est souvent mis en perspective avec les nouvelles pratiques d’automatisation et d’infrastructure.",
+          "interest": "Je le conserve ici comme sujet complémentaire, car il rappelle que les évolutions techniques doivent être comprises dans un ensemble plus large où l’automatisation, les agents et les nouveaux outils transforment les architectures."
+        }
+      ]
+    }
+  }
+};

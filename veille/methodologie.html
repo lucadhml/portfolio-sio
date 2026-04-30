@@ -4,114 +4,69 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Méthodologie de veille | Portfolio Luca Duhamel</title>
+  <meta name="description" content="Méthodologie de veille technologique de Luca Duhamel, étudiant en BTS SIO SISR." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <style>
-    :root{--bg:#141922;--bg-soft:#1c2330;--card:#232b38;--text:#f5f6f8;--muted:#c8d0dc;--accent:#6aa3ff;--line:rgba(255,255,255,.08);--shadow:0 20px 60px rgba(7,9,13,.28)}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;min-height:100vh;background:radial-gradient(circle at top,rgba(106,163,255,.14) 0%,transparent 30%),linear-gradient(180deg,#161c27 0%,#121720 100%);color:var(--text);font-family:"Manrope",Arial,sans-serif}a{color:inherit}.site-header{position:sticky;top:0;z-index:20;backdrop-filter:blur(18px);background:rgba(20,25,34,.75);border-bottom:1px solid rgba(255,255,255,.06)}.nav{width:min(1240px,calc(100% - 32px));margin:0 auto;min-height:76px;display:flex;align-items:center;justify-content:space-between;gap:16px}.logo{text-decoration:none;font-weight:700;color:var(--text)}.logo span{color:var(--accent);margin:0 8px}.nav-link{color:var(--muted);text-decoration:none;font-weight:600}.container{width:min(1240px,calc(100% - 32px));margin:0 auto;padding:32px 0 40px}.hero{display:grid;grid-template-columns:minmax(0,1.45fr) minmax(280px,.9fr);gap:20px;margin-bottom:22px}.card{border-radius:24px;border:1px solid var(--line);box-shadow:var(--shadow)}.hero-card{padding:28px;background:radial-gradient(circle at top right,rgba(106,163,255,.16),transparent 36%),linear-gradient(180deg,rgba(255,255,255,.03),rgba(255,255,255,.015)),var(--card)}.eyebrow{margin:0;color:var(--accent);font-size:.82rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase}.hero-title{margin:0 0 12px;font-size:clamp(1.5rem,3vw,2.35rem);line-height:1.12}.hero-text{margin:0 0 18px;color:var(--muted);line-height:1.75;max-width:68ch}.hero-actions{display:flex;flex-wrap:wrap;gap:12px}.btn{display:inline-flex;align-items:center;gap:8px;border:1px solid rgba(106,163,255,.45);color:var(--text);background:rgba(106,163,255,.14);border-radius:999px;padding:10px 16px;text-decoration:none;font-weight:600}.meta-list{display:flex;flex-wrap:wrap;gap:10px;margin-top:20px}.meta-list span{display:inline-flex;align-items:center;gap:8px;padding:7px 12px;border-radius:999px;background:rgba(255,255,255,.05);color:var(--muted);font-size:.82rem}.summary-card{padding:24px;background:rgba(255,255,255,.035)}.summary-card h2,.wheel-card h2,.details-card h2{margin:0 0 14px;font-size:1.04rem}.summary-card p,.wheel-card p,.details-card p{margin:0;color:var(--muted);line-height:1.7}.summary-list{margin:16px 0 0;padding-left:18px;color:var(--muted);display:grid;gap:10px}.summary-list li::marker{color:var(--accent)}.wheel-card,.details-card{padding:26px;background:rgba(255,255,255,.035);margin-top:22px}.wheel-card-intro{margin-bottom:22px}.wheel-wrap{display:grid;place-items:center;padding:10px 0}.wheel{position:relative;width:min(100%,700px);aspect-ratio:1/1}.wheel-orbit{position:absolute;inset:50%;transform:translate(-50%,-50%);width:360px;height:360px;border-radius:50%;border:1px dashed rgba(255,255,255,.12);background:radial-gradient(circle,rgba(255,255,255,.02),transparent 68%)}.wheel-center{position:absolute;inset:50%;transform:translate(-50%,-50%);width:180px;height:180px;border-radius:50%;display:flex;align-items:center;justify-content:center;text-align:center;padding:20px;background:linear-gradient(180deg,rgba(106,163,255,.26),rgba(106,163,255,.09));border:1px solid rgba(106,163,255,.3);box-shadow:0 0 0 22px rgba(255,255,255,.018)}.wheel-center strong{font-size:1.04rem;line-height:1.45}.wheel-line{position:absolute;background:linear-gradient(180deg,rgba(106,163,255,.35),rgba(106,163,255,.08))}.wheel-line-vertical{left:50%;top:110px;transform:translateX(-50%);width:1px;height:480px}.wheel-line-horizontal{top:50%;left:110px;transform:translateY(-50%);height:1px;width:480px}.wheel-step{position:absolute;width:210px;min-height:126px;padding:18px 18px 16px;border-radius:22px;background:linear-gradient(180deg,rgba(255,255,255,.05),rgba(255,255,255,.03));border:1px solid rgba(255,255,255,.07);box-shadow:0 16px 36px rgba(7,9,13,.16)}.wheel-step h3{margin:0 0 8px;font-size:1rem;line-height:1.35}.wheel-step p{margin:0;color:var(--muted);font-size:.88rem;line-height:1.6}.step-number{display:inline-flex;align-items:center;justify-content:center;width:32px;height:32px;margin-bottom:12px;border-radius:50%;background:rgba(106,163,255,.16);border:1px solid rgba(106,163,255,.24);color:var(--accent);font-size:.9rem;font-weight:700}.wheel-step-1{top:12px;left:50%;transform:translateX(-50%)}.wheel-step-2{top:50%;right:12px;transform:translateY(-50%)}.wheel-step-3{bottom:12px;left:50%;transform:translateX(-50%)}.wheel-step-4{top:50%;left:12px;transform:translateY(-50%)}.details-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;margin-top:18px}.detail-item{padding:18px;border-radius:18px;background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.05)}.detail-item h3{margin:0 0 8px;font-size:1rem}.detail-item p{margin:0;color:var(--muted);line-height:1.6}@media (max-width:900px){.nav,.container{width:min(100% - 20px,1240px)}.container{padding:20px 0 28px}.hero{grid-template-columns:1fr}.hero-card,.summary-card,.wheel-card,.details-card{padding:18px;border-radius:18px}.wheel{width:min(100%,520px)}.wheel-orbit{width:250px;height:250px}.wheel-center{width:132px;height:132px;padding:12px;box-shadow:0 0 0 14px rgba(255,255,255,.018)}.wheel-center strong{font-size:.9rem}.wheel-line-vertical{top:84px;height:352px}.wheel-line-horizontal{left:84px;width:352px}.wheel-step{width:160px;min-height:110px;padding:14px}.wheel-step h3{font-size:.9rem}.wheel-step p{font-size:.8rem}.details-grid{grid-template-columns:1fr}}@media (max-width:640px){.wheel{display:grid;gap:14px;aspect-ratio:auto}.wheel-orbit,.wheel-center,.wheel-line{display:none}.wheel-step{position:static;transform:none;width:auto;min-height:auto}}
-  </style>
+  <link rel="stylesheet" href="veille.css" />
 </head>
-<body>
+<body class="veilles-page" data-veille-page="methodologie">
   <header class="site-header">
-    <nav class="nav">
-      <a class="logo" href="../index.html#accueil">Portfolio <span>|</span> Luca Duhamel</a>
-      <a class="nav-link" href="../index.html" data-go-veille>Retour à la veille</a>
+    <nav class="nav container">
+      <a class="logo" href="../index.html">Portfolio <span>|</span> Luca Duhamel</a>
+      <a class="nav-link" href="../index.html" data-go-veille><i class="fa-solid fa-arrow-left"></i> Retour à la veille</a>
     </nav>
   </header>
-  <main class="container">
-    <section class="hero">
-      <article class="card hero-card">
-        <p class="eyebrow">Veille technologique</p>
-        <h1 class="hero-title">Comment j’organise ma veille</h1>
-        <p class="hero-text">Ma veille technologique repose sur une organisation simple et régulière. Je reçois d’abord des informations via un service de veille, je regroupe ensuite les contenus utiles, puis j’utilise ChatGPT pour obtenir une synthèse claire. Enfin, une fois par semaine, je relis les résumés et je conserve les éléments les plus pertinents pour mon dossier BTS et ma présentation orale.</p>
-        <div class="hero-actions">
-          <a class="btn" href="../index.html" data-go-veille>Retour à la veille</a>
-        </div>
-        <div class="meta-list">
-          <span>Notifications automatiques</span>
-          <span>Regroupement des sources</span>
-          <span>Résumé avec ChatGPT</span>
-          <span>Lecture 1 fois / semaine</span>
-        </div>
-      </article>
-      <aside class="card summary-card">
-        <h2>Réponse attendue à l’oral</h2>
-        <p>Si l’on me demande comment j’organise ma veille, je peux expliquer que je m’appuie sur un service qui me remonte des informations, que je regroupe ensuite dans un même espace, puis que j’utilise ChatGPT pour en produire une synthèse. Je relis enfin ces résumés une fois par semaine pour garder uniquement les informations utiles.</p>
-        <ul class="summary-list">
-          <li>Réception automatique des informations</li>
-          <li>Regroupement des contenus</li>
-          <li>Synthèse avec ChatGPT</li>
-          <li>Lecture hebdomadaire des résumés</li>
-        </ul>
-      </aside>
-    </section>
 
-    <section class="card wheel-card">
-      <div class="wheel-card-intro">
-        <h2>Schéma en roue</h2>
-        <p>Ma veille suit un cycle simple, régulier et réutilisable d’une semaine à l’autre.</p>
-      </div>
-      <div class="wheel-wrap">
-        <div class="wheel">
-          <div class="wheel-orbit" aria-hidden="true"></div>
-          <div class="wheel-line wheel-line-vertical" aria-hidden="true"></div>
-          <div class="wheel-line wheel-line-horizontal" aria-hidden="true"></div>
-          <div class="wheel-center"><strong>Veille<br>hebdomadaire</strong></div>
-          <article class="wheel-step wheel-step-1">
-            <span class="step-number">1</span>
-            <h3>Notifications</h3>
-            <p>Un service de veille me remonte les informations liées à mes thèmes.</p>
-          </article>
-          <article class="wheel-step wheel-step-2">
-            <span class="step-number">2</span>
-            <h3>Regroupement</h3>
-            <p>Je rassemble les contenus utiles pour les traiter dans un même espace.</p>
-          </article>
-          <article class="wheel-step wheel-step-3">
-            <span class="step-number">3</span>
-            <h3>Résumé avec IA</h3>
-            <p>J’utilise ChatGPT pour obtenir une synthèse claire et exploitable.</p>
-          </article>
-          <article class="wheel-step wheel-step-4">
-            <span class="step-number">4</span>
-            <h3>Lecture hebdomadaire</h3>
-            <p>Une fois par semaine, je relis les résumés et je conserve l’essentiel.</p>
-          </article>
+  <main class="page-shell">
+    <div class="container">
+      <section class="hero-card">
+        <div>
+          <p class="eyebrow">Veille technologique</p>
+          <h1 class="hero-title">Comment j’organise ma veille</h1>
+          <p id="methodology-summary" class="hero-text"></p>
+          <div class="page-actions">
+            <a class="btn btn-outline" href="../index.html" data-go-veille>Retour à la veille</a>
+          </div>
         </div>
-      </div>
-    </section>
+        <aside class="hero-side">
+          <div class="side-card">
+            <strong>Fréquence</strong>
+            <span id="methodology-frequency"></span>
+          </div>
+          <div class="side-card">
+            <strong>Dernière mise à jour</strong>
+            <span id="methodology-updated"></span>
+          </div>
+          <div class="side-card">
+            <strong>Objectif</strong>
+            <p>Produire une veille régulière, datée et exploitable à l’écrit comme à l’oral.</p>
+          </div>
+        </aside>
+      </section>
 
-    <section class="card details-card">
-      <h2>Détails de la méthode</h2>
-      <div class="details-grid">
-        <article class="detail-item">
-          <h3>Fréquence</h3>
-          <p>Une lecture hebdomadaire des résumés pour garder un rythme réaliste et régulier.</p>
-        </article>
-        <article class="detail-item">
-          <h3>Collecte</h3>
-          <p>Un service de veille me permet de centraliser les informations reçues.</p>
-        </article>
-        <article class="detail-item">
-          <h3>Traitement</h3>
-          <p>Je regroupe les contenus importants puis je les fais résumer avec ChatGPT.</p>
-        </article>
-        <article class="detail-item">
-          <h3>Exploitation</h3>
-          <p>Je conserve les résumés utiles pour préparer mon dossier et ma présentation orale.</p>
-        </article>
-      </div>
-    </section>
+      <section class="section">
+        <h2>Outils et fonctionnement</h2>
+        <p class="section-intro">Cette organisation me permet de garder une veille simple à tenir dans la durée, tout en restant suffisamment structurée pour répondre aux attentes du BTS SIO.</p>
+        <div id="methodology-tools" class="chips"></div>
+      </section>
+
+      <section class="section">
+        <h2>Cycle hebdomadaire</h2>
+        <p class="section-intro">Ma veille suit un cycle court, répété chaque semaine, afin de conserver un fonctionnement réaliste et régulier.</p>
+        <div id="methodology-wheel" class="process-wheel"></div>
+      </section>
+
+      <section class="section">
+        <h2>Ce que cette méthode démontre</h2>
+        <p class="section-intro">Cette organisation répond aux critères attendus : méthode claire, sources identifiées, fréquence justifiable et synthèse réutilisable devant le jury.</p>
+        <div id="methodology-criteria" class="criteria-list"></div>
+      </section>
+    </div>
   </main>
-  <script>
-    document.querySelectorAll('[data-go-veille]').forEach((link) => {
-      link.addEventListener('click', (event) => {
-        event.preventDefault();
-        sessionStorage.setItem('portfolio-scroll-target', '#veille');
-        window.location.assign('../index.html');
-      });
-    });
-  </script>
+
+  <script src="../assets/data/veille-data.js"></script>
+  <script src="veille.js"></script>
 </body>
 </html>
