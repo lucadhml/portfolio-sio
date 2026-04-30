@@ -105,16 +105,22 @@ def slugify(text: str) -> str:
     return re.sub(r'\s+', ' ', text.strip().lower())
 
 
+def normalize_datetime(dt: datetime) -> datetime:
+    if dt.tzinfo is not None:
+        return dt.astimezone(timezone.utc).replace(tzinfo=None)
+    return dt
+
+
 def parse_date(value: str | None) -> datetime | None:
     if not value:
         return None
     value = value.strip()
     try:
-        return datetime.fromisoformat(value.replace('Z', '+00:00'))
+        return normalize_datetime(datetime.fromisoformat(value.replace('Z', '+00:00')))
     except Exception:
         pass
     try:
-        return parsedate_to_datetime(value)
+        return normalize_datetime(parsedate_to_datetime(value))
     except Exception:
         pass
 
