@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-30",
+  "updatedAt": "2026-05-04",
   "methodologie": {
     "title": "Méthodologie de veille",
     "summary": "Ma veille technologique s’appuie sur une source unique, IT-Connect. Chaque semaine, je récupère automatiquement les dernières actualités du site, je filtre les contenus les plus pertinents pour mes thèmes, puis je conserve uniquement les entrées utiles pour le BTS SIO SISR. Cela me permet d’avoir une veille régulière, ciblée et facile à exploiter.",
@@ -51,11 +51,11 @@
       ],
       "entries": [
         {
-          "date": "27 avril 2026",
-          "title": "Pack2TheRoot : cette vulnérabilité vieille de 12 ans menace Linux",
+          "date": "4 mai 2026",
+          "title": "Linux : les données des serveurs cPanel chiffrées par le ransomware Sorry",
           "source": "IT-Connect",
-          "url": "https://www.it-connect.fr/pack2theroot-cette-vulnerabilite-vieille-de-12-ans-menace-linux/",
-          "summary": "Pack2TheRoot (CVE-2026-41651), c’est le nom d’une faille de sécurité importante découverte dans un composant omniprésent sur Linux : PackageKit.",
+          "url": "https://www.it-connect.fr/linux-les-donnees-des-serveurs-cpanel-chiffrees-par-le-ransomware-sorry/",
+          "summary": "La faille de sécurité critique affectant cPanel et WHM, associée à la référence CVE-2026-41940, est exploitée massivement, y compris avec le ransomware Sorry.",
           "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une mesure de protection ou une pratique utile à connaître dans l’administration des systèmes et réseaux."
         },
         {
@@ -106,6 +106,14 @@
           "interest": "Cette publication alimente ma veille IA car elle montre une évolution d’outil, d’usage ou d’impact professionnel lié à l’intelligence artificielle."
         },
         {
+          "date": "30 avril 2026",
+          "title": "En 9 secondes, cet agent IA a détruit la base de prod de PocketOS",
+          "source": "IT-Connect",
+          "url": "https://www.it-connect.fr/en-9-secondes-cet-agent-ia-a-detruit-la-base-de-prod-de-pocketos/",
+          "summary": "Un agent IA a vrillé et en 9 secondes, il a supprimé la base de données de production utilisée par PocketOS. Est-il le seul coupable ? Pas vraiment.",
+          "interest": "Cette publication alimente ma veille IA car elle montre une évolution d’outil, d’usage ou d’impact professionnel lié à l’intelligence artificielle."
+        },
+        {
           "date": "29 avril 2026",
           "title": "Vols d’identifiants sur Windows : Microsoft révèle l’exploitation de la CVE-2026-32202",
           "source": "IT-Connect",
@@ -119,14 +127,6 @@
           "source": "IT-Connect",
           "url": "https://www.it-connect.fr/cours/docker-et-kubernetes-initiation-a-la-mise-en-production/",
           "summary": "Docker et Kubernetes : de l’initiation à la mise en production",
-          "interest": "Cette publication alimente ma veille IA car elle montre une évolution d’outil, d’usage ou d’impact professionnel lié à l’intelligence artificielle."
-        },
-        {
-          "date": "27 avril 2026",
-          "title": "Microsoft laisse les admins désinstaller Copilot facilement en entreprise !",
-          "source": "IT-Connect",
-          "url": "https://www.it-connect.fr/microsoft-laisse-les-admins-desinstaller-copilot-facilement-en-entreprise/",
-          "summary": "Suite à l’installation des mises à jour d’avril 2026, il est possible de désinstaller l’application Copilot de Windows 11 en entreprise grâce à ce paramètre.",
           "interest": "Cette publication alimente ma veille IA car elle montre une évolution d’outil, d’usage ou d’impact professionnel lié à l’intelligence artificielle."
         }
       ]
