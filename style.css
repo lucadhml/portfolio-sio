@@ -1311,3 +1311,132 @@ img {
   width: min(1100px, 98%);
   max-height: 92vh;
 }
+
+.footer-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+}
+
+.footer-links a {
+  color: var(--muted);
+  transition: color 0.25s ease;
+}
+
+.footer-links a:hover,
+.footer-links a:focus-visible {
+  color: var(--text);
+}
+
+.legal-page {
+  min-height: 100vh;
+}
+
+.legal-main {
+  padding-top: 120px;
+}
+
+.legal-layout {
+  display: grid;
+  gap: 24px;
+}
+
+.legal-header {
+  margin-bottom: 8px;
+}
+
+.legal-header h1 {
+  margin: 0 0 12px;
+  font-size: clamp(2rem, 3vw, 2.8rem);
+}
+
+.legal-card {
+  padding: 28px;
+  border-radius: 24px;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.04), rgba(255, 255, 255, 0.02));
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow: 0 18px 44px rgba(8, 11, 18, 0.18);
+}
+
+.legal-card h2 {
+  margin: 0 0 12px;
+  font-size: 1.3rem;
+}
+
+.legal-card p,
+.legal-card li {
+  color: var(--muted);
+  line-height: 1.75;
+}
+
+.legal-card ul {
+  margin: 14px 0 0;
+  padding-left: 18px;
+}
+
+.legal-card a {
+  color: #dce8ff;
+}
+
+.legal-nav-links {
+  display: flex;
+}
+
+@media (max-width: 720px) {
+  .footer-inner {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .footer-links {
+    justify-content: center;
+  }
+
+  .legal-card {
+    padding: 22px;
+  }
+
+  .legal-nav-links {
+    display: none;
+  }
+}
+
+.skills-summary-link {
+  margin-top: 24px;
+  padding: 18px 22px;
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.025);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 18px;
+}
+
+.skills-summary-link p {
+  margin: 0;
+  color: var(--muted);
+  line-height: 1.7;
+}
+
+.skills-summary-link .btn {
+  flex-shrink: 0;
+}
+
+@media (max-width: 760px) {
+  .skills-summary-link {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .skills-summary-link .btn {
+    width: 100%;
+  }
+}
