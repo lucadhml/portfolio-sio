@@ -1408,39 +1408,6 @@ img {
   }
 }
 
-.skills-summary-link {
-  margin-top: 24px;
-  padding: 18px 22px;
-  border-radius: 18px;
-  background: rgba(255, 255, 255, 0.025);
-  border: 1px solid rgba(255, 255, 255, 0.06);
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 18px;
-}
-
-.skills-summary-link p {
-  margin: 0;
-  color: var(--muted);
-  line-height: 1.7;
-}
-
-.skills-summary-link .btn {
-  flex-shrink: 0;
-}
-
-@media (max-width: 760px) {
-  .skills-summary-link {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
-  .skills-summary-link .btn {
-    width: 100%;
-  }
-}
-
 .contact-link-btn {
   display: inline-flex;
   align-items: center;
