@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-04",
+  "updatedAt": "2026-05-11",
   "methodologie": {
     "title": "Méthodologie de veille",
     "summary": "Ma veille technologique s’appuie sur une source unique, IT-Connect. Chaque semaine, je récupère automatiquement les dernières actualités du site, je filtre les contenus les plus pertinents pour mes thèmes, puis je conserve uniquement les entrées utiles pour le BTS SIO SISR. Cela me permet d’avoir une veille régulière, ciblée et facile à exploiter.",
@@ -51,35 +51,35 @@
       ],
       "entries": [
         {
-          "date": "4 mai 2026",
-          "title": "Linux : les données des serveurs cPanel chiffrées par le ransomware Sorry",
+          "date": "7 mai 2026",
+          "title": "Palo Alto Networks alerte sur une nouvelle zero-day déjà exploitée (CVE-2026-0300)",
           "source": "IT-Connect",
-          "url": "https://www.it-connect.fr/linux-les-donnees-des-serveurs-cpanel-chiffrees-par-le-ransomware-sorry/",
-          "summary": "La faille de sécurité critique affectant cPanel et WHM, associée à la référence CVE-2026-41940, est exploitée massivement, y compris avec le ransomware Sorry.",
+          "url": "https://www.it-connect.fr/palo-alto-networks-alerte-sur-une-nouvelle-zero-day-deja-exploitee-cve-2026-0300/",
+          "summary": "Palo Alto Networks (PAN-OS) : une faille de sécurité zero-day (CVE-2026-0300) exploitable sans authentification et déjà exploitée par des cybercriminels.",
           "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une mesure de protection ou une pratique utile à connaître dans l’administration des systèmes et réseaux."
         },
         {
-          "date": "29 avril 2026",
-          "title": "Cette faille GitHub est exploitable par un simple Git Push (CVE-2026-3854)",
+          "date": "6 mai 2026",
+          "title": "Faille Apache : deux simples trames suffisent à faire un déni de service (CVE-2026-23918)",
           "source": "IT-Connect",
-          "url": "https://www.it-connect.fr/cette-faille-github-est-exploitable-par-un-simple-git-push-cve-2026-3854/",
-          "summary": "Une simple commande git push pour compromettre un serveur ? C’est possible grâce à la faille CVE-2026-3854 qui affecte GitHub.com et GitHub Enterprise Server.",
+          "url": "https://www.it-connect.fr/faille-apache-deux-simples-trames-suffisent-a-faire-un-deni-de-service-cve-2026-23918/",
+          "summary": "Protégez vos serveurs Apache contre la faille CVE-2026-23918 dans le module HTTP/2. Cette vulnérabilité peut entraîner un DoS, et même une RCE.",
           "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une mesure de protection ou une pratique utile à connaître dans l’administration des systèmes et réseaux."
         },
         {
-          "date": "30 avril 2026",
-          "title": "GLPI 11.0.7 & GLPI 10.0.25 : une dizaine de vulnérabilités patchées !",
+          "date": "11 mai 2026",
+          "title": "Claude Mythos et la faille FreeBSD : l’IA a-t-elle vraiment fait une découverte inédite ?",
           "source": "IT-Connect",
-          "url": "https://www.it-connect.fr/glpi-11-0-7-glpi-10-0-25-une-dizaine-de-vulnerabilites-patchees/",
-          "summary": "GLPI vient de publier deux mises à jour de sécurité : 11.0.7 et 10.0.25. Au total, une dizaine de vulnérabilités ont été corrigées : voici l’essentiel à savoir.",
+          "url": "https://www.it-connect.fr/claude-mythos-et-la-faille-freebsd-ia-a-t-elle-vraiment-fait-une-decouverte-inedite/",
+          "summary": "La vulnérabilité CVE-2026-4747 de FreeBSD, vieille de décennies, suggère que l’IA peut aussi recycler des failles existantes notamment via le pattern-matching.",
           "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une mesure de protection ou une pratique utile à connaître dans l’administration des systèmes et réseaux."
         },
         {
-          "date": "29 avril 2026",
-          "title": "Patchez votre serveur : une faille critique a été découverte dans cPanel",
+          "date": "8 mai 2026",
+          "title": "Dirty Frag : cette faille zero-day donne les droits root sur Linux",
           "source": "IT-Connect",
-          "url": "https://www.it-connect.fr/patchez-votre-serveur-une-faille-critique-a-ete-decouverte-dans-cpanel/",
-          "summary": "Toutes les versions actuellement supportées de cPanel sont affectées par une faille pouvant permettre d’obtenir un accès non autorisé à l’interface de gestion.",
+          "url": "https://www.it-connect.fr/dirty-frag-cette-faille-zero-day-donne-les-droits-root-sur-linux/",
+          "summary": "Alerte Zero-Day : la faille critique Dirty Frag permet d’obtenir les droits root sur Linux. Les patchs sont en attente : voici comment se protéger.",
           "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une mesure de protection ou une pratique utile à connaître dans l’administration des systèmes et réseaux."
         }
       ]
@@ -98,27 +98,27 @@
       ],
       "entries": [
         {
-          "date": "28 avril 2026",
-          "title": "Ubuntu devrait intégrer de l’IA en 2026 : voici ce que l’on sait",
+          "date": "7 mai 2026",
+          "title": "Gemini Nano : Google Chrome déploie une IA de 4 Go, sans rien vous demander",
           "source": "IT-Connect",
-          "url": "https://www.it-connect.fr/ubuntu-devrait-integrer-de-lia-en-2026-voici-ce-que-lon-sait/",
-          "summary": "L’intelligence artificielle va s’inviter dans Ubuntu en 2026 : Canonical prépare déjà le terrain, tout en misant sur une approche locale.",
+          "url": "https://www.it-connect.fr/gemini-nano-google-chrome-deploie-une-ia-de-4-go-sans-rien-vous-demander/",
+          "summary": "Que ce soit sur macOS, Windows ou Linux, Google Chrome télécharge un modèle d’intelligence artificielle : Gemini Nano, d’une taille de 4 Go, sans votre accord.",
           "interest": "Cette publication alimente ma veille IA car elle montre une évolution d’outil, d’usage ou d’impact professionnel lié à l’intelligence artificielle."
         },
         {
-          "date": "30 avril 2026",
-          "title": "En 9 secondes, cet agent IA a détruit la base de prod de PocketOS",
+          "date": "11 mai 2026",
+          "title": "Claude Mythos et la faille FreeBSD : l’IA a-t-elle vraiment fait une découverte inédite ?",
           "source": "IT-Connect",
-          "url": "https://www.it-connect.fr/en-9-secondes-cet-agent-ia-a-detruit-la-base-de-prod-de-pocketos/",
-          "summary": "Un agent IA a vrillé et en 9 secondes, il a supprimé la base de données de production utilisée par PocketOS. Est-il le seul coupable ? Pas vraiment.",
+          "url": "https://www.it-connect.fr/claude-mythos-et-la-faille-freebsd-ia-a-t-elle-vraiment-fait-une-decouverte-inedite/",
+          "summary": "La vulnérabilité CVE-2026-4747 de FreeBSD, vieille de décennies, suggère que l’IA peut aussi recycler des failles existantes notamment via le pattern-matching.",
           "interest": "Cette publication alimente ma veille IA car elle montre une évolution d’outil, d’usage ou d’impact professionnel lié à l’intelligence artificielle."
         },
         {
-          "date": "29 avril 2026",
-          "title": "Vols d’identifiants sur Windows : Microsoft révèle l’exploitation de la CVE-2026-32202",
+          "date": "6 mai 2026",
+          "title": "CloudZ RAT : ce malware espionne vos SMS via l’application Mobile Connecté de Windows",
           "source": "IT-Connect",
-          "url": "https://www.it-connect.fr/vols-didentifiants-sur-windows-microsoft-revele-lexploitation-de-la-cve-2026-32202/",
-          "summary": "Microsoft a révisé son bulletin de sécurité associé à la CVE-2026-32202 pour informer de son exploitation. Quels sont les risques ? Voici l’essentiel à savoir.",
+          "url": "https://www.it-connect.fr/cloudz-rat-ce-malware-espionne-vos-sms-via-lapplication-mobile-connecte-de-windows/",
+          "summary": "Une nouvelle menace cible l’application Mobile Connecté de Microsoft, utilisant CloudZ RAT et Pheno pour exfiltrer discrètement vos données mobiles sur Windows.",
           "interest": "Cette publication alimente ma veille IA car elle montre une évolution d’outil, d’usage ou d’impact professionnel lié à l’intelligence artificielle."
         },
         {
