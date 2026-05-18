@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-11",
+  "updatedAt": "2026-05-18",
   "methodologie": {
     "title": "Méthodologie de veille",
     "summary": "Ma veille technologique s’appuie sur une source unique, IT-Connect. Chaque semaine, je récupère automatiquement les dernières actualités du site, je filtre les contenus les plus pertinents pour mes thèmes, puis je conserve uniquement les entrées utiles pour le BTS SIO SISR. Cela me permet d’avoir une veille régulière, ciblée et facile à exploiter.",
@@ -51,35 +51,35 @@
       ],
       "entries": [
         {
-          "date": "7 mai 2026",
-          "title": "Palo Alto Networks alerte sur une nouvelle zero-day déjà exploitée (CVE-2026-0300)",
+          "date": "15 mai 2026",
+          "title": "Exchange Server – CVE-2026-42897 : cette faille zero-day est déjà exploitée !",
           "source": "IT-Connect",
-          "url": "https://www.it-connect.fr/palo-alto-networks-alerte-sur-une-nouvelle-zero-day-deja-exploitee-cve-2026-0300/",
-          "summary": "Palo Alto Networks (PAN-OS) : une faille de sécurité zero-day (CVE-2026-0300) exploitable sans authentification et déjà exploitée par des cybercriminels.",
+          "url": "https://www.it-connect.fr/exchange-server-cve-2026-42897-cette-faille-zero-day-est-deja-exploitee/",
+          "summary": "La vulnérabilité CVE-2026-42897 affecte Exchange Server 2016, 2019 et SE. Découvrez les mesures d’urgence pour atténuer la menace sans patch officiel.",
           "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une mesure de protection ou une pratique utile à connaître dans l’administration des systèmes et réseaux."
         },
         {
-          "date": "6 mai 2026",
-          "title": "Faille Apache : deux simples trames suffisent à faire un déni de service (CVE-2026-23918)",
+          "date": "15 mai 2026",
+          "title": "Outlook – CVE-2026-40361 : cette faille zero-click menace les entreprises, patchez !",
           "source": "IT-Connect",
-          "url": "https://www.it-connect.fr/faille-apache-deux-simples-trames-suffisent-a-faire-un-deni-de-service-cve-2026-23918/",
-          "summary": "Protégez vos serveurs Apache contre la faille CVE-2026-23918 dans le module HTTP/2. Cette vulnérabilité peut entraîner un DoS, et même une RCE.",
+          "url": "https://www.it-connect.fr/outlook-cve-2026-40361-cette-faille-zero-click-menace-les-entreprises-patchez/",
+          "summary": "Le Patch Tuesday de mai 2026 publié par Microsoft corrige une faille de type zero-click affectant Outlook (et Word) : CVE-2026-40361. Voici comment se protéger.",
           "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une mesure de protection ou une pratique utile à connaître dans l’administration des systèmes et réseaux."
         },
         {
-          "date": "11 mai 2026",
-          "title": "Claude Mythos et la faille FreeBSD : l’IA a-t-elle vraiment fait une découverte inédite ?",
+          "date": "18 mai 2026",
+          "title": "Pwn2Own Berlin 2026 : 47 failles zero-day découvertes dans VMware, Windows, des outils IA, etc.",
           "source": "IT-Connect",
-          "url": "https://www.it-connect.fr/claude-mythos-et-la-faille-freebsd-ia-a-t-elle-vraiment-fait-une-decouverte-inedite/",
-          "summary": "La vulnérabilité CVE-2026-4747 de FreeBSD, vieille de décennies, suggère que l’IA peut aussi recycler des failles existantes notamment via le pattern-matching.",
+          "url": "https://www.it-connect.fr/pwn2own-berlin-2026-47-failles-zero-day-decouvertes-dans-vmware-windows-des-outils-ia-etc/",
+          "summary": "À l’occasion de l’édition 2026 du Pwn2Own de Berlin, les hackers ont pu découvrir 47 failles de sécurité zero-day au terme de trois jours de compétition.",
           "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une mesure de protection ou une pratique utile à connaître dans l’administration des systèmes et réseaux."
         },
         {
-          "date": "8 mai 2026",
-          "title": "Dirty Frag : cette faille zero-day donne les droits root sur Linux",
+          "date": "14 mai 2026",
+          "title": "NGINX Rift – CVE-2026-42945 : cette faille critique vieille de 18 ans menace vos serveurs Web",
           "source": "IT-Connect",
-          "url": "https://www.it-connect.fr/dirty-frag-cette-faille-zero-day-donne-les-droits-root-sur-linux/",
-          "summary": "Alerte Zero-Day : la faille critique Dirty Frag permet d’obtenir les droits root sur Linux. Les patchs sont en attente : voici comment se protéger.",
+          "url": "https://www.it-connect.fr/nginx-rift-cve-2026-42945-cette-faille-critique-de-18-ans-menace-vos-serveurs-web/",
+          "summary": "La faille NGINX Rift présente dans le code depuis 18 ans permet à un attaquant non authentifié d’exécuter du code à distance ou de faire planter le serveur Web.",
           "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une mesure de protection ou une pratique utile à connaître dans l’administration des systèmes et réseaux."
         }
       ]
@@ -98,35 +98,35 @@
       ],
       "entries": [
         {
-          "date": "7 mai 2026",
-          "title": "Gemini Nano : Google Chrome déploie une IA de 4 Go, sans rien vous demander",
+          "date": "18 mai 2026",
+          "title": "Mullvad VPN : les adresses IP de sortie pas si aléatoires que ça, découvrez pourquoi",
           "source": "IT-Connect",
-          "url": "https://www.it-connect.fr/gemini-nano-google-chrome-deploie-une-ia-de-4-go-sans-rien-vous-demander/",
-          "summary": "Que ce soit sur macOS, Windows ou Linux, Google Chrome télécharge un modèle d’intelligence artificielle : Gemini Nano, d’une taille de 4 Go, sans votre accord.",
+          "url": "https://www.it-connect.fr/mullvad-vpn-les-adresses-ip-de-sortie-pas-si-aleatoires-que-ca-decouvrez-pourquoi/",
+          "summary": "Un problème de confidentialité pour Mullvad VPN : les adresses IP de sortie WireGuard ne seraient pas si aléatoires… Ce qui ouvre la porte au fingerprinting.",
           "interest": "Cette publication alimente ma veille IA car elle montre une évolution d’outil, d’usage ou d’impact professionnel lié à l’intelligence artificielle."
         },
         {
-          "date": "11 mai 2026",
-          "title": "Claude Mythos et la faille FreeBSD : l’IA a-t-elle vraiment fait une découverte inédite ?",
+          "date": "18 mai 2026",
+          "title": "Pwn2Own Berlin 2026 : 47 failles zero-day découvertes dans VMware, Windows, des outils IA, etc.",
           "source": "IT-Connect",
-          "url": "https://www.it-connect.fr/claude-mythos-et-la-faille-freebsd-ia-a-t-elle-vraiment-fait-une-decouverte-inedite/",
-          "summary": "La vulnérabilité CVE-2026-4747 de FreeBSD, vieille de décennies, suggère que l’IA peut aussi recycler des failles existantes notamment via le pattern-matching.",
+          "url": "https://www.it-connect.fr/pwn2own-berlin-2026-47-failles-zero-day-decouvertes-dans-vmware-windows-des-outils-ia-etc/",
+          "summary": "À l’occasion de l’édition 2026 du Pwn2Own de Berlin, les hackers ont pu découvrir 47 failles de sécurité zero-day au terme de trois jours de compétition.",
           "interest": "Cette publication alimente ma veille IA car elle montre une évolution d’outil, d’usage ou d’impact professionnel lié à l’intelligence artificielle."
         },
         {
-          "date": "6 mai 2026",
-          "title": "CloudZ RAT : ce malware espionne vos SMS via l’application Mobile Connecté de Windows",
+          "date": "18 mai 2026",
+          "title": "OpenAI confirme un vol de données lié à une attaque supply chain sur TanStack",
           "source": "IT-Connect",
-          "url": "https://www.it-connect.fr/cloudz-rat-ce-malware-espionne-vos-sms-via-lapplication-mobile-connecte-de-windows/",
-          "summary": "Une nouvelle menace cible l’application Mobile Connecté de Microsoft, utilisant CloudZ RAT et Pheno pour exfiltrer discrètement vos données mobiles sur Windows.",
+          "url": "https://www.it-connect.fr/openai-confirme-un-vol-de-donnees-lie-a-une-attaque-supply-chain-sur-tanstack/",
+          "summary": "OpenAI a été victime d’une fuite de données suite à l’attaque ciblant TanStack : une mise à jour des applications est nécessaire sur Mac avant le 12 juin 2026.",
           "interest": "Cette publication alimente ma veille IA car elle montre une évolution d’outil, d’usage ou d’impact professionnel lié à l’intelligence artificielle."
         },
         {
-          "date": "Date non précisée",
-          "title": "Docker et Kubernetes : de l’initiation à la mise en production",
+          "date": "15 mai 2026",
+          "title": "OpenAI dégaine Daybreak : sa plateforme cybersécurité pour concurrencer Anthropic",
           "source": "IT-Connect",
-          "url": "https://www.it-connect.fr/cours/docker-et-kubernetes-initiation-a-la-mise-en-production/",
-          "summary": "Docker et Kubernetes : de l’initiation à la mise en production",
+          "url": "https://www.it-connect.fr/openai-degaine-daybreak-sa-plateforme-cybersecurite-pour-concurrencer-anthropic/",
+          "summary": "OpenAI se positionne face à Anthropic avec Daybreak, une plateforme intégrée de cybersécurité exploitant GPT-5.5 et Codex Security pour la cyberdéfense.",
           "interest": "Cette publication alimente ma veille IA car elle montre une évolution d’outil, d’usage ou d’impact professionnel lié à l’intelligence artificielle."
         }
       ]
