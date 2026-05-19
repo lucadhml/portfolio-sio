@@ -5,13 +5,15 @@ const navLinks = document.querySelector(".nav-links");
 if (navToggle) {
   navToggle.addEventListener("click", () => {
     navLinks.classList.toggle("open");
+    navToggle.classList.toggle("open");
   });
 }
 
-// Fermeture du menu après clic
+// Fermeture du menu après clic sur un lien
 navLinks?.querySelectorAll("a").forEach((link) => {
   link.addEventListener("click", () => {
     navLinks.classList.remove("open");
+    navToggle?.classList.remove("open");
   });
 });
 

@@ -117,7 +117,19 @@ img {
   height: 2px;
   background: var(--text);
   margin: 5px 0;
-  transition: transform 0.3s ease;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+/* Animation hamburger → croix */
+.nav-toggle.open span:nth-child(1) {
+  transform: translateY(7px) rotate(45deg);
+}
+.nav-toggle.open span:nth-child(2) {
+  opacity: 0;
+  transform: scaleX(0);
+}
+.nav-toggle.open span:nth-child(3) {
+  transform: translateY(-7px) rotate(-45deg);
 }
 
 .hero {
@@ -487,6 +499,33 @@ img {
   font-size: 0.72rem;
   font-weight: 600;
   letter-spacing: 0.01em;
+}
+
+.project-ref {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 10px;
+}
+
+.project-ref-label {
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--accent);
+  margin-right: 2px;
+}
+
+.project-ref span:not(.project-ref-label) {
+  padding: 3px 8px;
+  border-radius: 999px;
+  background: rgba(106, 163, 255, 0.08);
+  border: 1px solid rgba(106, 163, 255, 0.22);
+  color: #b8d4ff;
+  font-size: 0.7rem;
+  font-weight: 600;
 }
 
 .project-links-preview {
@@ -1432,34 +1471,34 @@ img {
 
 
 .skills-summary-link {
-  margin-top: 24px;
-  padding: 18px 22px;
-  border-radius: 18px;
-  background: rgba(255, 255, 255, 0.025);
-  border: 1px solid rgba(255, 255, 255, 0.06);
+  margin-top: 18px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  gap: 18px;
+  justify-content: flex-end;
+  gap: 16px;
 }
 
-.skills-summary-link p {
-  margin: 0;
+.skills-summary-link span {
   color: var(--muted);
-  line-height: 1.7;
+  font-size: 0.95rem;
 }
 
-.skills-summary-link .btn {
-  flex-shrink: 0;
+.skills-summary-btn {
+  padding-inline: 18px;
 }
 
 @media (max-width: 760px) {
   .skills-summary-link {
     flex-direction: column;
-    align-items: flex-start;
+    align-items: stretch;
+    gap: 10px;
   }
 
-  .skills-summary-link .btn {
+  .skills-summary-link span {
+    text-align: center;
+  }
+
+  .skills-summary-btn {
     width: 100%;
   }
 }

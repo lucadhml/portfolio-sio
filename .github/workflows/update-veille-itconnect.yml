@@ -1,4 +1,4 @@
-name: Update IT-Connect veille
+name: Update veille multi-sources
 
 on:
   workflow_dispatch:
@@ -26,7 +26,7 @@ jobs:
           python -m pip install --upgrade pip
           pip install requests beautifulsoup4
 
-      - name: Update veille data
+      - name: Update veille data (multi-sources)
         run: python scripts/update_itconnect_veille.py
 
       - name: Commit and push if changed
@@ -38,5 +38,5 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add assets/data/veille.json assets/data/veille-data.js
-          git commit -m "Update IT-Connect veille"
+          git commit -m "Update veille data"
           git push

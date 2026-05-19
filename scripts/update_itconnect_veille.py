@@ -4,81 +4,126 @@ from bs4 import BeautifulSoup
 from datetime import datetime, timezone
 from email.utils import parsedate_to_datetime
 from pathlib import Path
+from urllib.parse import urljoin
 import json
 import re
 import requests
-from urllib.parse import urljoin
+import xml.etree.ElementTree as ET
 
 ROOT = Path(__file__).resolve().parents[1]
 JSON_PATH = ROOT / 'assets' / 'data' / 'veille.json'
 JS_PATH = ROOT / 'assets' / 'data' / 'veille-data.js'
 
-SOURCES = [
-    'https://www.it-connect.fr/actualites/',
-    'https://www.it-connect.fr/'
-]
+SOURCE_DEFINITIONS = {
+    'it-connect': {
+        'name': 'IT-Connect',
+        'type': 'Presse technique',
+        'mode': 'html',
+        'url': 'https://www.it-connect.fr/actualites/'
+    },
+    'anssi': {
+        'name': 'ANSSI',
+        'type': 'Source institutionnelle',
+        'mode': 'rss',
+        'url': 'https://cyber.gouv.fr/actualites/rss/'
+    },
+    'cert-fr': {
+        'name': 'CERT-FR',
+        'type': 'Bulletins et alertes',
+        'mode': 'rss',
+        'url': 'https://www.cert.ssi.gouv.fr/actualite/feed/'
+    }
+}
 
 TOPICS = {
     'cybersecurite': {
         'title': 'Cybersécurité',
-        'subtitle': 'Menaces, vulnérabilités et bonnes pratiques repérées automatiquement depuis IT-Connect.',
-        'objective': 'Cette veille me permet de suivre les alertes, les vulnérabilités et les bonnes pratiques publiées par IT-Connect, afin d’alimenter ma culture sécurité sur les systèmes et les réseaux dans un cadre directement lié à l’option SISR.',
-        'interest': 'L’intérêt de cette veille est d’identifier rapidement des sujets concrets : failles, correctifs, sécurisation Windows, administration de serveurs et réactions à adopter face aux risques. Elle me permet de relier des actualités techniques à des réflexes professionnels.',
-        'source_label': 'IT-Connect',
-        'source_type': 'Actualités IT & cybersécurité',
-        'source_url': 'https://www.it-connect.fr/actualites/',
+        'subtitle': 'Menaces, vulnérabilités et recommandations suivies à partir de sources techniques et institutionnelles.',
+        'objective': 'Cette veille me permet de suivre les vulnérabilités critiques, les recommandations de sécurité et les tendances de la menace afin d’alimenter ma culture sécurité sur les systèmes et les réseaux dans un cadre cohérent avec l’option SISR.',
+        'interest': 'L’intérêt de ce sujet est de relier des publications techniques à des situations concrètes : gestion des vulnérabilités, correctifs, sécurité des postes, sécurisation des services et compréhension de la menace actuelle.',
+        'allowed_sources': ['it-connect', 'anssi', 'cert-fr'],
+        'source_bonus': {
+            'it-connect': 2,
+            'anssi': 4,
+            'cert-fr': 5
+        },
         'keywords': {
             'cybersécurité': 8,
             'cybersecurite': 8,
+            'cybermenace': 8,
             'faille': 8,
             'vulnérabilité': 8,
             'vulnerabilite': 8,
-            'cve': 9,
+            'cve': 10,
             'attaque': 7,
-            'attaques': 7,
-            'patch': 6,
-            'correctif': 6,
             'ransomware': 9,
-            'zero-day': 9,
+            'correctif': 6,
+            'patch': 6,
             'active directory': 6,
             'windows server': 5,
-            'microsoft defender': 5,
+            'secure boot': 7,
+            'github': 3,
+            'serveur': 4,
             'sécurité': 5,
             'securite': 5,
-            'mot de passe': 5,
-            'authentification': 5,
-            'serveur': 4
+            'nis 2': 6,
+            'remédiation': 6,
+            'remediation': 6,
+            'panorama de la cybermenace': 10
         },
-        'fallback_interest': 'Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une mesure de protection ou une pratique utile à connaître dans l’administration des systèmes et réseaux.'
+        'negative_keywords': {
+            'intelligence artificielle': 3,
+            'chatgpt': 2,
+            'openai': 2
+        },
+        'min_score': 8,
+        'fallback_interest': 'Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l’administration des systèmes et réseaux.'
     },
     'intelligence-artificielle': {
         'title': 'Intelligence artificielle',
-        'subtitle': 'Usages, outils et impacts de l’IA repérés automatiquement depuis IT-Connect.',
-        'objective': 'Cette veille me permet de suivre les évolutions de l’intelligence artificielle au travers d’articles IT-Connect portant sur les nouveaux outils, les usages en entreprise et les impacts potentiels sur les environnements techniques.',
-        'interest': 'L’intérêt de cette veille est de comprendre comment l’IA influence déjà les outils, la sécurité et les méthodes de travail en informatique. Cela m’aide à garder un regard concret sur les apports comme sur les limites de ces solutions.',
-        'source_label': 'IT-Connect',
-        'source_type': 'Actualités IT & IA',
-        'source_url': 'https://www.it-connect.fr/actualites/',
+        'subtitle': 'Usages, risques et enjeux de l’IA suivis depuis plusieurs sources spécialisées.',
+        'objective': 'Cette veille me permet de suivre les évolutions de l’intelligence artificielle dans un cadre professionnel : nouveaux usages, risques de sécurité, agents autonomes, conformité et impacts sur les outils informatiques.',
+        'interest': 'L’intérêt de ce sujet est de garder une vision réaliste de l’IA : à la fois ses apports pour les métiers de l’IT et les nouveaux risques qu’elle introduit en matière de sécurité, d’automatisation et de gouvernance.',
+        'allowed_sources': ['it-connect', 'anssi', 'cert-fr'],
+        'source_bonus': {
+            'it-connect': 2,
+            'anssi': 4,
+            'cert-fr': 4
+        },
         'keywords': {
-            'ia': 9,
-            'intelligence artificielle': 10,
+            'intelligence artificielle': 12,
+            'ia générative': 12,
+            'ia agentique': 12,
             'chatgpt': 10,
             'openai': 9,
-            'claude': 8,
-            'llm': 8,
-            'modèle': 4,
-            'modele': 4,
-            'agent': 6,
-            'agents': 6,
+            'claude': 9,
             'copilot': 8,
-            'génératif': 7,
-            'generatif': 7,
+            'llm': 8,
+            'agent': 4,
+            'agentique': 8,
             'deepfake': 8,
-            'prompt': 5,
-            'automatisation': 4,
-            'autonome': 4
+            'générative': 7,
+            'generative': 7,
+            'modèles d’ia': 8,
+            'modèles d\'ia': 8,
+            'modèle d’ia': 7,
+            'modèle d\'ia': 7,
+            'audit rgpd': 6,
+            'ia ': 4,
+            ' ia': 4
         },
-        'fallback_interest': 'Cette publication alimente ma veille IA car elle montre une évolution d’outil, d’usage ou d’impact professionnel lié à l’intelligence artificielle.'
+        'negative_keywords': {
+            'cve': 8,
+            'vulnérabilité': 6,
+            'vulnerabilite': 6,
+            'faille': 6,
+            'ransomware': 8,
+            'windows server': 4,
+            'docker et kubernetes': 10,
+            'serveur web': 5
+        },
+        'min_score': 10,
+        'fallback_interest': 'Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l’intelligence artificielle.'
     }
 }
 
@@ -99,6 +144,8 @@ MONTHS = {
     'décembre': 12,
     'decembre': 12,
 }
+
+HEADERS = {'User-Agent': 'portfolio-veille-bot/2.0'}
 
 
 def slugify(text: str) -> str:
@@ -129,7 +176,7 @@ def parse_date(value: str | None) -> datetime | None:
         day, month, year = map(int, match.groups())
         return datetime(year, month, day)
 
-    match = re.search(r'(\d{1,2})\s+([A-Za-zéèêëàâäîïôöùûüç-]+)\s+(\d{4})', value.lower())
+    match = re.search(r'(\d{1,2})\s+([A-Za-zéèêëàâäîïôöùûüç\-]+)\s+(\d{4})', value.lower())
     if match:
         day = int(match.group(1))
         month = MONTHS.get(match.group(2))
@@ -139,11 +186,16 @@ def parse_date(value: str | None) -> datetime | None:
     return None
 
 
-def extract_articles(url: str) -> list[dict]:
-    response = requests.get(url, timeout=20, headers={'User-Agent': 'portfolio-veille-bot/1.0'})
+def strip_html(text: str) -> str:
+    return ' '.join(BeautifulSoup(text or '', 'html.parser').get_text(' ', strip=True).split())
+
+
+def extract_itconnect_articles() -> list[dict]:
+    url = SOURCE_DEFINITIONS['it-connect']['url']
+    response = requests.get(url, timeout=20, headers=HEADERS)
     response.raise_for_status()
     soup = BeautifulSoup(response.text, 'html.parser')
-    results: list[dict] = []
+    results = []
 
     for article in soup.select('article'):
         title_anchor = None
@@ -160,9 +212,7 @@ def extract_articles(url: str) -> list[dict]:
             continue
 
         excerpt_node = article.select_one('p')
-        excerpt = ''
-        if excerpt_node:
-            excerpt = ' '.join(excerpt_node.get_text(' ', strip=True).split())
+        excerpt = strip_html(excerpt_node.get_text(' ', strip=True) if excerpt_node else '')
 
         date_value = None
         time_node = article.select_one('time')
@@ -174,15 +224,55 @@ def extract_articles(url: str) -> list[dict]:
             if match:
                 date_value = match.group(0)
 
-        parsed = parse_date(date_value)
-
         results.append({
+            'source_key': 'it-connect',
             'title': title,
             'url': urljoin(url, href),
             'excerpt': excerpt,
-            'date': parsed,
+            'date': parse_date(date_value)
         })
     return results
+
+
+def extract_rss_articles(source_key: str) -> list[dict]:
+    source = SOURCE_DEFINITIONS[source_key]
+    response = requests.get(source['url'], timeout=20, headers=HEADERS)
+    response.raise_for_status()
+    root = ET.fromstring(response.content)
+    results = []
+
+    for item in root.findall('.//item'):
+        title = (item.findtext('title') or '').strip()
+        link = (item.findtext('link') or '').strip()
+        description = strip_html(item.findtext('description') or '')
+        pub_date = parse_date(item.findtext('pubDate'))
+
+        if not title or not link:
+            continue
+
+        results.append({
+            'source_key': source_key,
+            'title': title,
+            'url': link,
+            'excerpt': description,
+            'date': pub_date
+        })
+    return results
+
+
+def collect_articles() -> list[dict]:
+    collected: list[dict] = []
+    try:
+        collected.extend(extract_itconnect_articles())
+    except Exception as exc:
+        print(f'Warning: unable to fetch IT-Connect: {exc}')
+
+    for source_key in ['anssi', 'cert-fr']:
+        try:
+            collected.extend(extract_rss_articles(source_key))
+        except Exception as exc:
+            print(f'Warning: unable to fetch {source_key}: {exc}')
+    return collected
 
 
 def dedupe(items: list[dict]) -> list[dict]:
@@ -196,21 +286,35 @@ def dedupe(items: list[dict]) -> list[dict]:
     return output
 
 
-def score_item(item: dict, keywords: dict[str, int]) -> int:
+def keyword_score(haystack: str, keyword: str, weight: int) -> int:
+    if keyword.strip() == 'ia':
+        return weight if re.search(r'\bia\b', haystack) else 0
+    return weight if keyword in haystack else 0
+
+
+def score_item(item: dict, topic_key: str) -> int:
+    config = TOPICS[topic_key]
+    if item['source_key'] not in config['allowed_sources']:
+        return -999
+
     haystack = slugify(f"{item['title']} {item['excerpt']}")
-    score = 0
-    for keyword, weight in keywords.items():
-        if keyword in haystack:
-            score += weight
+    score = config['source_bonus'].get(item['source_key'], 0)
+
+    for keyword, weight in config['keywords'].items():
+        score += keyword_score(haystack, keyword, weight)
+
+    for keyword, penalty in config['negative_keywords'].items():
+        score -= keyword_score(haystack, keyword, penalty)
+
     return score
 
 
 def build_summary(excerpt: str, title: str) -> str:
     text = excerpt.strip() or title.strip()
     text = re.sub(r'\s+', ' ', text)
-    if len(text) <= 220:
+    if len(text) <= 240:
         return text
-    return text[:217].rstrip() + '...'
+    return text[:237].rstrip() + '...'
 
 
 def format_date_fr(dt: datetime | None) -> str:
@@ -225,10 +329,10 @@ def format_date_fr(dt: datetime | None) -> str:
 
 def build_entries(items: list[dict], topic_key: str) -> list[dict]:
     config = TOPICS[topic_key]
-    scored = []
+    scored: list[tuple[int, dict]] = []
     for item in items:
-        score = score_item(item, config['keywords'])
-        if score <= 0:
+        score = score_item(item, topic_key)
+        if score < config['min_score']:
             continue
         scored.append((score, item))
 
@@ -237,10 +341,11 @@ def build_entries(items: list[dict], topic_key: str) -> list[dict]:
 
     entries = []
     for item in top:
+        source = SOURCE_DEFINITIONS[item['source_key']]
         entries.append({
             'date': format_date_fr(item['date']),
             'title': item['title'],
-            'source': 'IT-Connect',
+            'source': source['name'],
             'url': item['url'],
             'summary': build_summary(item['excerpt'], item['title']),
             'interest': config['fallback_interest']
@@ -248,54 +353,58 @@ def build_entries(items: list[dict], topic_key: str) -> list[dict]:
     return entries
 
 
+def build_sources(topic_key: str) -> list[dict]:
+    config = TOPICS[topic_key]
+    return [
+        {
+            'name': SOURCE_DEFINITIONS[key]['name'],
+            'type': SOURCE_DEFINITIONS[key]['type'],
+            'url': SOURCE_DEFINITIONS[key]['url']
+        }
+        for key in config['allowed_sources']
+    ]
+
+
 def main() -> None:
-    all_items: list[dict] = []
-    for source in SOURCES:
-        try:
-            all_items.extend(extract_articles(source))
-        except Exception as exc:
-            print(f'Warning: unable to fetch {source}: {exc}')
-
-    items = dedupe(all_items)
-
+    items = dedupe(collect_articles())
     updated = datetime.now(timezone.utc).astimezone().date().isoformat()
 
     data = {
         'updatedAt': updated,
         'methodologie': {
             'title': 'Méthodologie de veille',
-            'summary': 'Ma veille technologique s’appuie sur une source unique, IT-Connect. Chaque semaine, je récupère automatiquement les dernières actualités du site, je filtre les contenus les plus pertinents pour mes thèmes, puis je conserve uniquement les entrées utiles pour le BTS SIO SISR. Cela me permet d’avoir une veille régulière, ciblée et facile à exploiter.',
+            'summary': 'Ma veille technologique repose sur plusieurs sources complémentaires : IT-Connect pour les actualités techniques, l’ANSSI pour les publications institutionnelles et le CERT-FR pour les bulletins d’alerte et de sécurité. Chaque semaine, un script récupère automatiquement les nouvelles publications, filtre les contenus selon mes thèmes, puis conserve les entrées les plus pertinentes pour mon BTS SIO SISR.',
             'frequency': '1 mise à jour automatique par semaine',
             'tooling': [
-                'IT-Connect comme source unique',
-                'Récupération automatique des actualités',
-                'Filtrage par mots-clés et pertinence',
-                'Sélection des meilleures entrées',
-                'Mise à jour du portfolio'
+                'IT-Connect, ANSSI et CERT-FR',
+                'Collecte automatique des nouvelles publications',
+                'Filtrage par thème et par mots-clés',
+                'Sélection des entrées les plus pertinentes',
+                'Mise à jour automatique du portfolio'
             ],
             'steps': [
                 {
-                    'title': '1. Collecte automatique',
-                    'description': 'Un script récupère les dernières actualités publiées sur IT-Connect afin de centraliser les nouveautés sans saisie manuelle.'
+                    'title': '1. Collecte multi-sources',
+                    'description': 'Un script interroge plusieurs sources fiables afin de centraliser des contenus à la fois techniques, institutionnels et orientés sécurité.'
                 },
                 {
                     'title': '2. Filtrage thématique',
-                    'description': 'Les articles sont analysés selon des mots-clés liés à la cybersécurité et à l’intelligence artificielle pour ne conserver que les sujets utiles.'
+                    'description': 'Les publications sont analysées selon deux thèmes : la cybersécurité et l’intelligence artificielle, avec un score de pertinence basé sur des mots-clés.'
                 },
                 {
-                    'title': '3. Sélection des plus pertinents',
-                    'description': 'Le système classe les contenus selon leur pertinence et leur fraîcheur afin d’afficher en priorité les entrées les plus intéressantes.'
+                    'title': '3. Sélection des entrées utiles',
+                    'description': 'Le système conserve seulement les sujets les plus pertinents pour mon parcours SISR, afin d’éviter une veille trop large ou peu exploitable à l’oral.'
                 },
                 {
-                    'title': '4. Mise à jour du portfolio',
-                    'description': 'Les synthèses retenues sont publiées automatiquement sur le portfolio, ce qui me permet de présenter une veille actualisée chaque semaine.'
+                    'title': '4. Publication dans le portfolio',
+                    'description': 'Les entrées retenues sont publiées automatiquement sur le portfolio avec leur date, leur source et un résumé court.'
                 }
             ],
             'criteria': [
-                'Une source clairement identifiée',
+                'Des sources identifiées et crédibles',
                 'Une mise à jour régulière et automatisée',
                 'Un tri cohérent avec l’option SISR',
-                'Des entrées directement exploitables dans le portfolio'
+                'Des synthèses réutilisables devant le jury'
             ]
         },
         'topics': {}
@@ -307,13 +416,7 @@ def main() -> None:
             'subtitle': config['subtitle'],
             'objective': config['objective'],
             'interest': config['interest'],
-            'sources': [
-                {
-                    'name': config['source_label'],
-                    'type': config['source_type'],
-                    'url': config['source_url']
-                }
-            ],
+            'sources': build_sources(key),
             'entries': build_entries(items, key)
         }
 
