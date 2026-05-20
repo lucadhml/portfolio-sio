@@ -80,19 +80,13 @@ const renderTopic = (data, key) => {
     topic.sources.forEach((source) => {
       const card = el('article', 'source-card');
       card.appendChild(el('h3', '', source.name));
+      card.appendChild(el('span', 'source-type', source.type));
 
-      const meta = el('div', 'source-meta');
-      meta.appendChild(el('span', '', source.type));
-      card.appendChild(meta);
-
-      const p = el('p', '', `Source suivie pour alimenter cette veille sur ${topic.title.toLowerCase()}.`);
-      card.appendChild(p);
-
-      const link = el('a', 'source-link', 'Consulter la source');
+      const link = el('a', 'source-link');
       link.href = source.url;
       link.target = '_blank';
       link.rel = 'noreferrer';
-      link.innerHTML = 'Consulter la source <i class="fa-solid fa-arrow-up-right-from-square"></i>';
+      link.innerHTML = 'Consulter <i class="fa-solid fa-arrow-up-right-from-square"></i>';
       card.appendChild(link);
       sources.appendChild(card);
     });
@@ -101,26 +95,26 @@ const renderTopic = (data, key) => {
   if (entries) {
     topic.entries.forEach((entry) => {
       const card = el('article', 'entry-card');
-      card.appendChild(el('h3', '', entry.title));
 
-      const meta = el('div', 'entry-meta');
-      meta.appendChild(el('span', '', entry.date));
-      meta.appendChild(el('span', '', entry.source));
-      card.appendChild(meta);
+      // Header : titre + badges source & date
+      const header = el('div', 'entry-card-header');
+      header.appendChild(el('h3', '', entry.title));
 
-      const summary = el('p', '', entry.summary);
-      card.appendChild(summary);
+      const badges = el('div', 'entry-card-badges');
+      badges.appendChild(el('span', 'entry-badge-source', entry.source));
+      badges.appendChild(el('span', 'entry-badge-date', entry.date));
+      header.appendChild(badges);
+      card.appendChild(header);
 
-      const focus = el('div', 'focus-card');
-      focus.appendChild(el('h3', '', 'Pourquoi je la retiens'));
-      focus.appendChild(el('p', '', entry.interest));
-      card.appendChild(focus);
+      // Résumé
+      card.appendChild(el('p', 'entry-card-summary', entry.summary));
 
-      const link = el('a', 'entry-link', 'Voir la publication');
+      // Lien
+      const link = el('a', 'entry-link');
       link.href = entry.url;
       link.target = '_blank';
       link.rel = 'noreferrer';
-      link.innerHTML = 'Voir la publication <i class="fa-solid fa-arrow-up-right-from-square"></i>';
+      link.innerHTML = 'Lire l\'article <i class="fa-solid fa-arrow-up-right-from-square"></i>';
       card.appendChild(link);
 
       entries.appendChild(card);

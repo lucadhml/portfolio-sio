@@ -3,7 +3,7 @@ name: Update veille multi-sources
 on:
   workflow_dispatch:
   schedule:
-    - cron: '15 7 * * 1'
+    - cron: '15 7 * * *'
 
 permissions:
   contents: write

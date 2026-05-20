@@ -90,56 +90,91 @@
         </div>
         <div class="about-bento">
 
-          <!-- Carte profil principale -->
+          <!-- Carte profil -->
           <div class="about-profile reveal">
-            <div class="about-profile-top">
-              <div class="about-avatar">LD</div>
-              <div>
-                <h3 class="about-name">Luca Duhamel</h3>
-                <p class="about-role">Étudiant BTS SIO – Option SISR</p>
+            <div class="about-avatar">LD</div>
+            <div class="about-profile-content">
+              <h3 class="about-name">Luca Duhamel</h3>
+              <p class="about-role">Étudiant BTS SIO – Option SISR</p>
+              <p class="about-bio">
+                Avant de me tourner vers l’informatique, j’ai suivi un parcours scientifique
+                et médical (Bac STL, BTS ABM) et travaillé en laboratoire de cytogénétique.
+                Cette expérience m’a forgé un goût prononcé pour la rigueur et la méthode,
+                que j’applique aujourd’hui dans l’administration des systèmes et des réseaux.
+              </p>
+            </div>
+          </div>
+
+          <!-- Accordéon Expériences -->
+          <details class="about-accordion reveal">
+            <summary class="about-accordion-header">
+              <i class="fa-solid fa-briefcase about-accordion-icon"></i>
+              <span class="about-accordion-title">Expériences</span>
+              <span class="about-accordion-count">4</span>
+              <i class="fa-solid fa-chevron-down about-accordion-chevron"></i>
+            </summary>
+            <div class="about-accordion-body">
+              <div class="about-exp-card">
+                <div class="about-exp-top">
+                  <span class="about-exp-role">Technicien informatique</span>
+                  <span class="about-exp-badge">Alternance</span>
+                </div>
+                <p class="about-exp-company">Nestlé Purina · Montfort-sur-Risle</p>
+                <span class="about-exp-period">2024 – 2026</span>
+              </div>
+              <div class="about-exp-card">
+                <div class="about-exp-top">
+                  <span class="about-exp-role">Photographe indépendant</span>
+                  <span class="about-exp-badge">Micro-entreprise</span>
+                </div>
+                <p class="about-exp-company">Luca Dhml Photos</p>
+                <span class="about-exp-period">2022 – 2026</span>
+              </div>
+              <div class="about-exp-card">
+                <div class="about-exp-top">
+                  <span class="about-exp-role">Technicien de laboratoire</span>
+                  <span class="about-exp-badge">CDD</span>
+                </div>
+                <p class="about-exp-company">Centre Henri Becquerel · Rouen</p>
+                <span class="about-exp-period">2023 – 2024</span>
+              </div>
+              <div class="about-exp-card">
+                <div class="about-exp-top">
+                  <span class="about-exp-role">Technicien de laboratoire</span>
+                  <span class="about-exp-badge">Alternance</span>
+                </div>
+                <p class="about-exp-company">Laboratoire du Cèdre · Bois-Guillaume</p>
+                <span class="about-exp-period">2021 – 2023</span>
               </div>
             </div>
-            <p class="about-bio">
-              Avant de me tourner vers l’informatique, j’ai suivi un parcours scientifique
-              et médical (Bac STL, BTS ABM) et travaillé en laboratoire de cytogénétique.
-              Cette expérience m’a forgé un goût prononcé pour la rigueur et la méthode,
-              que j’applique aujourd’hui dans l’administration des systèmes et des réseaux.
-            </p>
-            <div class="about-skills-tags">
-              <span>Windows Server</span>
-              <span>Active Directory</span>
-              <span>Réseaux</span>
-              <span>Linux</span>
-              <span>Docker</span>
-              <span>Cybersécurité</span>
-            </div>
-          </div>
+          </details>
 
-          <!-- Mini carte formation -->
-          <div class="about-mini reveal">
-            <div class="about-mini-icon">
-              <i class="fa-solid fa-graduation-cap"></i>
+          <!-- Accordéon Formations -->
+          <details class="about-accordion about-accordion--edu reveal">
+            <summary class="about-accordion-header">
+              <i class="fa-solid fa-graduation-cap about-accordion-icon"></i>
+              <span class="about-accordion-title">Formations</span>
+              <span class="about-accordion-count">3</span>
+              <i class="fa-solid fa-chevron-down about-accordion-chevron"></i>
+            </summary>
+            <div class="about-accordion-body">
+              <div class="about-exp-card">
+                <span class="about-exp-role">BTS SIO option SISR</span>
+                <p class="about-exp-company">Médiaschool Iris · Rouen</p>
+                <span class="about-exp-period">2024 – 2026 · en cours</span>
+              </div>
+              <div class="about-exp-card">
+                <span class="about-exp-role">BTS Analyses de Biologie Médicale</span>
+                <p class="about-exp-company">AFBB · Paris</p>
+                <span class="about-exp-period">2021 – 2023</span>
+              </div>
+              <div class="about-exp-card">
+                <span class="about-exp-role">Baccalauréat STL</span>
+                <p class="about-exp-company">Lycée La Providence St Thérèse · Rouen</p>
+                <span class="about-exp-period">2020 – 2021</span>
+              </div>
             </div>
-            <div class="about-mini-body">
-              <p class="about-mini-label">Formation</p>
-              <h4>BTS SIO SISR</h4>
-              <p>Médiaschool Iris · Rouen</p>
-              <span class="about-mini-period">2024 – 2026</span>
-            </div>
-          </div>
-
-          <!-- Mini carte alternance -->
-          <div class="about-mini reveal">
-            <div class="about-mini-icon">
-              <i class="fa-solid fa-briefcase"></i>
-            </div>
-            <div class="about-mini-body">
-              <p class="about-mini-label">Alternance</p>
-              <h4>Technicien informatique</h4>
-              <p>Nestlé Purina · Montfort-sur-Risle</p>
-              <span class="about-mini-period">2024 – 2026</span>
-            </div>
-          </div>
+          </details>
 
         </div>
       </div>
@@ -408,58 +443,50 @@
       <div class="container">
         <div class="section-header">
           <h2>Veille technologique</h2>
-          <p>Une veille structurée, datée et exploitable pour le BTS SIO, construite autour d’une méthode hebdomadaire et d’un croisement de sources techniques et institutionnelles.</p>
+          <p>Deux thèmes suivis en continu, mis à jour quotidiennement depuis des sources techniques et institutionnelles.</p>
         </div>
 
-        <a class="veille-overview reveal" href="veille/methodologie.html">
-          <div class="veille-overview-copy">
-            <p class="eyebrow">Méthodologie</p>
-            <h3>Une organisation simple, régulière et réutilisable</h3>
-            <p>
-              Ma veille repose sur un cycle hebdomadaire : collecte depuis IT-Connect, l’ANSSI et le CERT-FR, tri des contenus utiles puis conservation des éléments les plus exploitables dans le cadre du BTS SIO SISR.
-            </p>
+        <!-- Banner méthodologie -->
+        <a class="veille-banner reveal" href="veille/methodologie.html">
+          <div class="veille-banner-left">
+            <div class="veille-banner-icon"><i class="fa-solid fa-rotate"></i></div>
+            <div>
+              <strong>Mise à jour quotidienne automatisée</strong>
+              <p>Script de collecte multi-sources · Score de pertinence par mots-clés · 4 meilleures entrées par thème</p>
+            </div>
           </div>
-          <div class="veille-overview-stats">
-            <span><i class="fa-regular fa-calendar"></i> 1 revue par semaine</span>
-            <span><i class="fa-solid fa-rss"></i> 3 sources croisées</span>
-            <span><i class="fa-solid fa-shield"></i> 2 thèmes suivis</span>
-          </div>
+          <span class="veille-banner-cta">Voir la méthodologie <i class="fa-solid fa-arrow-right"></i></span>
         </a>
 
+        <!-- Cartes sujets -->
         <div class="veille-grid">
-          <a class="veille-card reveal" href="veille/cybersecurite.html">
-            <div class="veille-card-head">
-              <div class="veille-card-icon">
-                <i class="fa-solid fa-shield-halved"></i>
+          <a class="veille-card veille-card--cyber reveal" href="veille/cybersecurite.html">
+            <div class="veille-card-top">
+              <div class="veille-card-icon"><i class="fa-solid fa-shield-halved"></i></div>
+              <div>
+                <h3>Cybersécurité</h3>
+                <p class="veille-card-sources">IT-Connect · ANSSI · CERT-FR</p>
               </div>
-              <span class="veille-chip">Sujet prioritaire</span>
             </div>
-            <h3>Cybersécurité</h3>
-            <p>
-              Suivi des vulnérabilités, des bulletins CERT-FR et des publications ANSSI pour mieux comprendre les enjeux de sécurisation des systèmes et réseaux.
-            </p>
-            <div class="veille-card-meta">
-              <span>Sources officielles</span>
-              <span>Synthèses datées</span>
-              <span>Exploitable à l’oral</span>
+            <p class="veille-card-desc">Vulnérabilités, CVE, correctifs et recommandations ANSSI — reliés directement à la sécurisation des systèmes et réseaux.</p>
+            <div class="veille-card-footer">
+              <span class="veille-card-last" id="veille-last-cyber"></span>
+              <span class="veille-card-cta">Voir les synthèses <i class="fa-solid fa-arrow-right"></i></span>
             </div>
           </a>
 
-          <a class="veille-card reveal" href="veille/intelligence-artificielle.html">
-            <div class="veille-card-head">
-              <div class="veille-card-icon">
-                <i class="fa-solid fa-brain"></i>
+          <a class="veille-card veille-card--ia reveal" href="veille/intelligence-artificielle.html">
+            <div class="veille-card-top">
+              <div class="veille-card-icon"><i class="fa-solid fa-brain"></i></div>
+              <div>
+                <h3>Intelligence artificielle</h3>
+                <p class="veille-card-sources">IT-Connect · MIT Tech Review · Korben</p>
               </div>
-              <span class="veille-chip">Sujet complémentaire</span>
             </div>
-            <h3>Intelligence artificielle</h3>
-            <p>
-              Suivi des usages de l’IA, de ses risques de sécurité, de ses impacts métiers et des publications récentes qui aident à garder une vision critique du sujet.
-            </p>
-            <div class="veille-card-meta">
-              <span>Usages concrets</span>
-              <span>Enjeux RGPD</span>
-              <span>Impact métier</span>
+            <p class="veille-card-desc">Usages professionnels, LLM, risques sécurité et régulation — pour garder une vision critique de l’IA dans les métiers IT.</p>
+            <div class="veille-card-footer">
+              <span class="veille-card-last" id="veille-last-ia"></span>
+              <span class="veille-card-cta">Voir les synthèses <i class="fa-solid fa-arrow-right"></i></span>
             </div>
           </a>
         </div>
@@ -536,6 +563,7 @@
     </div>
   </div>
 
+  <script src="assets/data/veille-data.js"></script>
   <script src="script.js"></script>
 </body>
 </html>

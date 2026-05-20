@@ -1,39 +1,39 @@
 window.VEILLE_DATA = {
-  "updatedAt": "2026-05-18",
+  "updatedAt": "2026-05-20",
   "methodologie": {
     "title": "Méthodologie de veille",
-    "summary": "Ma veille technologique repose sur plusieurs sources complémentaires : IT-Connect pour les actualités techniques, l'ANSSI pour les publications institutionnelles et le CERT-FR pour les bulletins d'alerte et de sécurité. Chaque semaine, un script récupère automatiquement les nouvelles publications, filtre les contenus selon mes thèmes, puis conserve les entrées les plus pertinentes pour mon BTS SIO SISR.",
-    "frequency": "1 mise à jour automatique par semaine",
+    "summary": "Ma veille technologique repose sur plusieurs sources complémentaires : IT-Connect et le CERT-FR pour la cybersécurité, MIT Technology Review et Korben pour l'IA. Chaque jour, un script récupère automatiquement les nouvelles publications, calcule un score de pertinence par mots-clés, et sélectionne les 4 meilleures entrées par thème.",
+    "frequency": "Mise à jour automatique quotidienne",
     "tooling": [
-      "IT-Connect, ANSSI et CERT-FR",
-      "Collecte automatique des nouvelles publications",
-      "Filtrage par thème et par mots-clés",
-      "Sélection des entrées les plus pertinentes",
-      "Mise à jour automatique du portfolio"
+      "IT-Connect, ANSSI, CERT-FR (cybersécurité)",
+      "MIT Technology Review, Korben (IA)",
+      "Collecte automatique quotidienne",
+      "Score de pertinence par mots-clés",
+      "Sélection des 4 meilleures entrées par thème"
     ],
     "steps": [
       {
         "title": "1. Collecte multi-sources",
-        "description": "Un script interroge plusieurs sources fiables afin de centraliser des contenus à la fois techniques, institutionnels et orientés sécurité."
+        "description": "Un script interroge chaque jour plusieurs sources fiables : presse technique, sources institutionnelles et revues spécialisées IA."
       },
       {
-        "title": "2. Filtrage thématique",
-        "description": "Les publications sont analysées selon deux thèmes : la cybersécurité et l'intelligence artificielle, avec un score de pertinence basé sur des mots-clés."
+        "title": "2. Score de pertinence",
+        "description": "Chaque publication reçoit un score basé sur ses mots-clés, sa source et son thème. Les scores négatifs permettent d'exclure les hors-sujets."
       },
       {
-        "title": "3. Sélection des entrées utiles",
-        "description": "Le système conserve seulement les sujets les plus pertinents pour mon parcours SISR, afin d'éviter une veille trop large ou peu exploitable à l'oral."
+        "title": "3. Sélection des meilleures entrées",
+        "description": "Le système conserve les 4 publications avec le score le plus élevé par thème, adaptées au parcours SISR."
       },
       {
-        "title": "4. Publication dans le portfolio",
-        "description": "Les entrées retenues sont publiées automatiquement sur le portfolio avec leur date, leur source et un résumé court."
+        "title": "4. Publication automatique",
+        "description": "Les entrées retenues sont publiées automatiquement sur le portfolio avec leur date, leur source et un résumé."
       }
     ],
     "criteria": [
-      "Des sources identifiées et crédibles",
-      "Une mise à jour régulière et automatisée",
-      "Un tri cohérent avec l'option SISR",
-      "Des synthèses réutilisables devant le jury"
+      "Sources identifiées et crédibles",
+      "Mise à jour quotidienne automatisée",
+      "Score de pertinence adapté à l'option SISR",
+      "Synthèses réutilisables devant le jury"
     ]
   },
   "topics": {
@@ -61,12 +61,20 @@ window.VEILLE_DATA = {
       ],
       "entries": [
         {
+          "date": "18 mai 2026",
+          "title": "Pwn2Own Berlin 2026 : 47 failles zero-day découvertes dans VMware, Windows, des outils IA, etc.",
+          "source": "IT-Connect",
+          "url": "https://www.it-connect.fr/pwn2own-berlin-2026-47-failles-zero-day-decouvertes-dans-vmware-windows-des-outils-ia-etc/",
+          "summary": "À l'occasion de l'édition 2026 du Pwn2Own de Berlin, les hackers ont pu découvrir 47 failles de sécurité zero-day au terme de trois jours de compétition.",
+          "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
+        },
+        {
           "date": "15 mai 2026",
           "title": "Exchange Server – CVE-2026-42897 : cette faille zero-day est déjà exploitée !",
           "source": "IT-Connect",
           "url": "https://www.it-connect.fr/exchange-server-cve-2026-42897-cette-faille-zero-day-est-deja-exploitee/",
           "summary": "La vulnérabilité CVE-2026-42897 affecte Exchange Server 2016, 2019 et SE. Découvrez les mesures d'urgence pour atténuer la menace sans patch officiel.",
-          "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une mesure de protection ou une pratique utile à connaître dans l'administration des systèmes et réseaux."
+          "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
         },
         {
           "date": "15 mai 2026",
@@ -74,15 +82,7 @@ window.VEILLE_DATA = {
           "source": "IT-Connect",
           "url": "https://www.it-connect.fr/outlook-cve-2026-40361-cette-faille-zero-click-menace-les-entreprises-patchez/",
           "summary": "Le Patch Tuesday de mai 2026 publié par Microsoft corrige une faille de type zero-click affectant Outlook (et Word) : CVE-2026-40361. Voici comment se protéger.",
-          "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une mesure de protection ou une pratique utile à connaître dans l'administration des systèmes et réseaux."
-        },
-        {
-          "date": "18 mai 2026",
-          "title": "Pwn2Own Berlin 2026 : 47 failles zero-day découvertes dans VMware, Windows, des outils IA, etc.",
-          "source": "IT-Connect",
-          "url": "https://www.it-connect.fr/pwn2own-berlin-2026-47-failles-zero-day-decouvertes-dans-vmware-windows-des-outils-ia-etc/",
-          "summary": "À l'occasion de l'édition 2026 du Pwn2Own de Berlin, les hackers ont pu découvrir 47 failles de sécurité zero-day au terme de trois jours de compétition.",
-          "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une mesure de protection ou une pratique utile à connaître dans l'administration des systèmes et réseaux."
+          "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
         },
         {
           "date": "14 mai 2026",
@@ -90,21 +90,16 @@ window.VEILLE_DATA = {
           "source": "IT-Connect",
           "url": "https://www.it-connect.fr/nginx-rift-cve-2026-42945-cette-faille-critique-de-18-ans-menace-vos-serveurs-web/",
           "summary": "La faille NGINX Rift présente dans le code depuis 18 ans permet à un attaquant non authentifié d'exécuter du code à distance ou de faire planter le serveur Web.",
-          "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une mesure de protection ou une pratique utile à connaître dans l'administration des systèmes et réseaux."
+          "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
         }
       ]
     },
     "intelligence-artificielle": {
       "title": "Intelligence artificielle",
-      "subtitle": "Usages, risques et enjeux de l'IA suivis depuis plusieurs sources spécialisées.",
+      "subtitle": "Usages, risques et enjeux de l'IA suivis depuis des sources spécialisées françaises et internationales.",
       "objective": "Cette veille me permet de suivre les évolutions de l'intelligence artificielle dans un cadre professionnel : nouveaux usages, risques de sécurité, agents autonomes, conformité et impacts sur les outils informatiques.",
       "interest": "L'intérêt de ce sujet est de garder une vision réaliste de l'IA : à la fois ses apports pour les métiers de l'IT et les nouveaux risques qu'elle introduit en matière de sécurité, d'automatisation et de gouvernance.",
       "sources": [
-        {
-          "name": "ANSSI",
-          "type": "Source institutionnelle",
-          "url": "https://cyber.gouv.fr/actualites"
-        },
         {
           "name": "IT-Connect",
           "type": "Presse technique",
@@ -114,16 +109,21 @@ window.VEILLE_DATA = {
           "name": "MIT Technology Review",
           "type": "Revue spécialisée IA",
           "url": "https://www.technologyreview.com/topic/artificial-intelligence/"
+        },
+        {
+          "name": "Korben",
+          "type": "Blog tech & IA",
+          "url": "https://korben.info"
         }
       ],
       "entries": [
         {
           "date": "18 mai 2026",
-          "title": "Mullvad VPN : les adresses IP de sortie pas si aléatoires que ça, découvrez pourquoi",
+          "title": "OpenAI confirme un vol de données lié à une attaque supply chain sur TanStack",
           "source": "IT-Connect",
-          "url": "https://www.it-connect.fr/mullvad-vpn-les-adresses-ip-de-sortie-pas-si-aleatoires-que-ca-decouvrez-pourquoi/",
-          "summary": "Un problème de confidentialité pour Mullvad VPN : les adresses IP de sortie WireGuard ne seraient pas si aléatoires… Ce qui ouvre la porte au fingerprinting.",
-          "interest": "Cette publication alimente ma veille IA car elle montre une évolution d'outil, d'usage ou d'impact professionnel lié à l'intelligence artificielle."
+          "url": "https://www.it-connect.fr/openai-confirme-un-vol-de-donnees-lie-a-une-attaque-supply-chain-sur-tanstack/",
+          "summary": "OpenAI a été victime d'une fuite de données suite à l'attaque ciblant TanStack : une mise à jour des applications est nécessaire sur Mac avant le 12 juin 2026.",
+          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
           "date": "18 mai 2026",
@@ -131,15 +131,7 @@ window.VEILLE_DATA = {
           "source": "IT-Connect",
           "url": "https://www.it-connect.fr/pwn2own-berlin-2026-47-failles-zero-day-decouvertes-dans-vmware-windows-des-outils-ia-etc/",
           "summary": "À l'occasion de l'édition 2026 du Pwn2Own de Berlin, les hackers ont pu découvrir 47 failles de sécurité zero-day au terme de trois jours de compétition.",
-          "interest": "Cette publication alimente ma veille IA car elle montre une évolution d'outil, d'usage ou d'impact professionnel lié à l'intelligence artificielle."
-        },
-        {
-          "date": "18 mai 2026",
-          "title": "OpenAI confirme un vol de données lié à une attaque supply chain sur TanStack",
-          "source": "IT-Connect",
-          "url": "https://www.it-connect.fr/openai-confirme-un-vol-de-donnees-lie-a-une-attaque-supply-chain-sur-tanstack/",
-          "summary": "OpenAI a été victime d'une fuite de données suite à l'attaque ciblant TanStack : une mise à jour des applications est nécessaire sur Mac avant le 12 juin 2026.",
-          "interest": "Cette publication alimente ma veille IA car elle montre une évolution d'outil, d'usage ou d'impact professionnel lié à l'intelligence artificielle."
+          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
           "date": "15 mai 2026",
@@ -147,7 +139,7 @@ window.VEILLE_DATA = {
           "source": "IT-Connect",
           "url": "https://www.it-connect.fr/openai-degaine-daybreak-sa-plateforme-cybersecurite-pour-concurrencer-anthropic/",
           "summary": "OpenAI se positionne face à Anthropic avec Daybreak, une plateforme intégrée de cybersécurité exploitant GPT-5.5 et Codex Security pour la cyberdéfense.",
-          "interest": "Cette publication alimente ma veille IA car elle montre une évolution d'outil, d'usage ou d'impact professionnel lié à l'intelligence artificielle."
+          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         }
       ]
     }

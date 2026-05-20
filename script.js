@@ -29,6 +29,24 @@ window.addEventListener("DOMContentLoaded", () => {
   }
 });
 
+// Veille — remplissage dynamique des dates de dernière entrée
+window.addEventListener("DOMContentLoaded", () => {
+  if (!window.VEILLE_DATA) return;
+  const data = window.VEILLE_DATA;
+
+  const fillLast = (elId, topicKey) => {
+    const el = document.getElementById(elId);
+    if (!el) return;
+    const entries = data.topics?.[topicKey]?.entries;
+    if (entries && entries.length > 0) {
+      el.textContent = "Dernière entrée : " + entries[0].date;
+    }
+  };
+
+  fillLast("veille-last-cyber", "cybersecurite");
+  fillLast("veille-last-ia", "intelligence-artificielle");
+});
+
 // Animations au scroll (Intersection Observer)
 const reveals = document.querySelectorAll(".reveal");
 

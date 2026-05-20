@@ -32,6 +32,18 @@ SOURCE_DEFINITIONS = {
         'type': 'Bulletins et alertes',
         'mode': 'rss',
         'url': 'https://www.cert.ssi.gouv.fr/actualite/feed/'
+    },
+    'mit-tech-review': {
+        'name': 'MIT Technology Review',
+        'type': 'Revue spécialisée IA',
+        'mode': 'rss',
+        'url': 'https://www.technologyreview.com/feed/'
+    },
+    'korben': {
+        'name': 'Korben',
+        'type': 'Blog tech & IA',
+        'mode': 'rss',
+        'url': 'https://korben.info/feed'
     }
 }
 
@@ -69,6 +81,9 @@ TOPICS = {
             'nis 2': 6,
             'remédiation': 6,
             'remediation': 6,
+            'zero-day': 9,
+            'zero day': 9,
+            'exploit': 7,
             'panorama de la cybermenace': 10
         },
         'negative_keywords': {
@@ -81,36 +96,48 @@ TOPICS = {
     },
     'intelligence-artificielle': {
         'title': 'Intelligence artificielle',
-        'subtitle': 'Usages, risques et enjeux de l’IA suivis depuis plusieurs sources spécialisées.',
+        'subtitle': 'Usages, risques et enjeux de l’IA suivis depuis des sources spécialisées françaises et internationales.',
         'objective': 'Cette veille me permet de suivre les évolutions de l’intelligence artificielle dans un cadre professionnel : nouveaux usages, risques de sécurité, agents autonomes, conformité et impacts sur les outils informatiques.',
         'interest': 'L’intérêt de ce sujet est de garder une vision réaliste de l’IA : à la fois ses apports pour les métiers de l’IT et les nouveaux risques qu’elle introduit en matière de sécurité, d’automatisation et de gouvernance.',
-        'allowed_sources': ['it-connect', 'anssi', 'cert-fr'],
+        'allowed_sources': ['it-connect', 'mit-tech-review', 'korben'],
         'source_bonus': {
-            'it-connect': 2,
-            'anssi': 4,
-            'cert-fr': 4
+            'it-connect': 3,
+            'mit-tech-review': 5,
+            'korben': 4
         },
         'keywords': {
             'intelligence artificielle': 12,
+            'artificial intelligence': 12,
             'ia générative': 12,
+            'generative ai': 12,
             'ia agentique': 12,
+            'agentic ai': 12,
             'chatgpt': 10,
             'openai': 9,
             'claude': 9,
+            'gemini': 8,
+            'mistral': 8,
             'copilot': 8,
-            'llm': 8,
+            'llm': 10,
+            'large language model': 10,
             'agent': 4,
             'agentique': 8,
             'deepfake': 8,
             'générative': 7,
             'generative': 7,
-            'modèles d’ia': 8,
-            'modèles d\'ia': 8,
-            'modèle d’ia': 7,
-            'modèle d\'ia': 7,
-            'audit rgpd': 6,
+            'machine learning': 8,
+            'deep learning': 8,
+            'modèle d’ia': 8,
+            'ai model': 8,
+            'gpt': 7,
+            'ai ': 4,
+            ' ai': 4,
             'ia ': 4,
-            ' ia': 4
+            ' ia': 4,
+            'regulation ia': 8,
+            'ai regulation': 8,
+            'eu ai act': 10,
+            'act ia': 8
         },
         'negative_keywords': {
             'cve': 8,
@@ -122,7 +149,7 @@ TOPICS = {
             'docker et kubernetes': 10,
             'serveur web': 5
         },
-        'min_score': 10,
+        'min_score': 8,
         'fallback_interest': 'Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l’intelligence artificielle.'
     }
 }
@@ -143,6 +170,19 @@ MONTHS = {
     'novembre': 11,
     'décembre': 12,
     'decembre': 12,
+    # English months
+    'january': 1,
+    'february': 2,
+    'march': 3,
+    'april': 4,
+    'may': 5,
+    'june': 6,
+    'july': 7,
+    'august': 8,
+    'september': 9,
+    'october': 10,
+    'november': 11,
+    'december': 12,
 }
 
 HEADERS = {'User-Agent': 'portfolio-veille-bot/2.0'}
@@ -267,7 +307,7 @@ def collect_articles() -> list[dict]:
     except Exception as exc:
         print(f'Warning: unable to fetch IT-Connect: {exc}')
 
-    for source_key in ['anssi', 'cert-fr']:
+    for source_key in ['anssi', 'cert-fr', 'mit-tech-review', 'korben']:
         try:
             collected.extend(extract_rss_articles(source_key))
         except Exception as exc:
@@ -287,8 +327,8 @@ def dedupe(items: list[dict]) -> list[dict]:
 
 
 def keyword_score(haystack: str, keyword: str, weight: int) -> int:
-    if keyword.strip() == 'ia':
-        return weight if re.search(r'\bia\b', haystack) else 0
+    if keyword.strip() in ('ia', 'ai'):
+        return weight if re.search(r'\b' + re.escape(keyword.strip()) + r'\b', haystack) else 0
     return weight if keyword in haystack else 0
 
 
@@ -373,38 +413,38 @@ def main() -> None:
         'updatedAt': updated,
         'methodologie': {
             'title': 'Méthodologie de veille',
-            'summary': 'Ma veille technologique repose sur plusieurs sources complémentaires : IT-Connect pour les actualités techniques, l’ANSSI pour les publications institutionnelles et le CERT-FR pour les bulletins d’alerte et de sécurité. Chaque semaine, un script récupère automatiquement les nouvelles publications, filtre les contenus selon mes thèmes, puis conserve les entrées les plus pertinentes pour mon BTS SIO SISR.',
-            'frequency': '1 mise à jour automatique par semaine',
+            'summary': 'Ma veille technologique repose sur plusieurs sources complémentaires : IT-Connect et le CERT-FR pour la cybersécurité, MIT Technology Review et Korben pour l’IA. Chaque jour, un script récupère automatiquement les nouvelles publications, calcule un score de pertinence par mots-clés, et sélectionne les 4 meilleures entrées par thème.',
+            'frequency': 'Mise à jour automatique quotidienne',
             'tooling': [
-                'IT-Connect, ANSSI et CERT-FR',
-                'Collecte automatique des nouvelles publications',
-                'Filtrage par thème et par mots-clés',
-                'Sélection des entrées les plus pertinentes',
-                'Mise à jour automatique du portfolio'
+                'IT-Connect, ANSSI, CERT-FR (cybersécurité)',
+                'MIT Technology Review, Korben (IA)',
+                'Collecte automatique quotidienne',
+                'Score de pertinence par mots-clés',
+                'Sélection des 4 meilleures entrées par thème'
             ],
             'steps': [
                 {
                     'title': '1. Collecte multi-sources',
-                    'description': 'Un script interroge plusieurs sources fiables afin de centraliser des contenus à la fois techniques, institutionnels et orientés sécurité.'
+                    'description': 'Un script interroge chaque jour plusieurs sources fiables : presse technique, sources institutionnelles et revues spécialisées IA.'
                 },
                 {
-                    'title': '2. Filtrage thématique',
-                    'description': 'Les publications sont analysées selon deux thèmes : la cybersécurité et l’intelligence artificielle, avec un score de pertinence basé sur des mots-clés.'
+                    'title': '2. Score de pertinence',
+                    'description': 'Chaque publication reçoit un score basé sur ses mots-clés, sa source et son thème. Les scores négatifs permettent d’exclure les hors-sujets.'
                 },
                 {
-                    'title': '3. Sélection des entrées utiles',
-                    'description': 'Le système conserve seulement les sujets les plus pertinents pour mon parcours SISR, afin d’éviter une veille trop large ou peu exploitable à l’oral.'
+                    'title': '3. Sélection des meilleures entrées',
+                    'description': 'Le système conserve les 4 publications avec le score le plus élevé par thème, adaptées au parcours SISR.'
                 },
                 {
-                    'title': '4. Publication dans le portfolio',
-                    'description': 'Les entrées retenues sont publiées automatiquement sur le portfolio avec leur date, leur source et un résumé court.'
+                    'title': '4. Publication automatique',
+                    'description': 'Les entrées retenues sont publiées automatiquement sur le portfolio avec leur date, leur source et un résumé.'
                 }
             ],
             'criteria': [
-                'Des sources identifiées et crédibles',
-                'Une mise à jour régulière et automatisée',
-                'Un tri cohérent avec l’option SISR',
-                'Des synthèses réutilisables devant le jury'
+                'Sources identifiées et crédibles',
+                'Mise à jour quotidienne automatisée',
+                'Score de pertinence adapté à l’option SISR',
+                'Synthèses réutilisables devant le jury'
             ]
         },
         'topics': {}
