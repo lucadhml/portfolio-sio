@@ -88,43 +88,59 @@
           <h2>À propos</h2>
           <p>Un profil SISR construit autour des infrastructures, de la rigueur et de la montée en compétences.</p>
         </div>
-        <div class="about-showcase">
-          <div class="about-grid">
-            <button class="about-block reveal about-card" type="button" data-about="profil">
-              <div class="about-card-title">
-                <div>
-                  <p class="about-card-label">Profil</p>
-                  <h3>Profil</h3>
-                </div>
-                <i class="fa-solid fa-up-right-and-down-left-from-center" aria-hidden="true"></i>
+        <div class="about-bento">
+
+          <!-- Carte profil principale -->
+          <div class="about-profile reveal">
+            <div class="about-profile-top">
+              <div class="about-avatar">LD</div>
+              <div>
+                <h3 class="about-name">Luca Duhamel</h3>
+                <p class="about-role">Étudiant BTS SIO – Option SISR</p>
               </div>
-              <p>
-                Présentation synthétique de mon profil, de mon orientation en
-                BTS SIO SISR et de mon positionnement professionnel.
-              </p>
-              <span class="about-card-hint">
-                Consulter le détail
-                <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
-              </span>
-            </button>
-            <button class="about-block reveal about-card" type="button" data-about="parcours">
-              <div class="about-card-title">
-                <div>
-                  <p class="about-card-label">Parcours</p>
-                  <h3>Expériences & études</h3>
-                </div>
-                <i class="fa-solid fa-up-right-and-down-left-from-center" aria-hidden="true"></i>
-              </div>
-              <p>
-                Vue détaillée de mes expériences professionnelles, de mes formations
-                et de l’évolution de mon parcours jusqu’au BTS SIO.
-              </p>
-              <span class="about-card-hint">
-                Consulter le détail
-                <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
-              </span>
-            </button>
+            </div>
+            <p class="about-bio">
+              Avant de me tourner vers l’informatique, j’ai suivi un parcours scientifique
+              et médical (Bac STL, BTS ABM) et travaillé en laboratoire de cytogénétique.
+              Cette expérience m’a forgé un goût prononcé pour la rigueur et la méthode,
+              que j’applique aujourd’hui dans l’administration des systèmes et des réseaux.
+            </p>
+            <div class="about-skills-tags">
+              <span>Windows Server</span>
+              <span>Active Directory</span>
+              <span>Réseaux</span>
+              <span>Linux</span>
+              <span>Docker</span>
+              <span>Cybersécurité</span>
+            </div>
           </div>
+
+          <!-- Mini carte formation -->
+          <div class="about-mini reveal">
+            <div class="about-mini-icon">
+              <i class="fa-solid fa-graduation-cap"></i>
+            </div>
+            <div class="about-mini-body">
+              <p class="about-mini-label">Formation</p>
+              <h4>BTS SIO SISR</h4>
+              <p>Médiaschool Iris · Rouen</p>
+              <span class="about-mini-period">2024 – 2026</span>
+            </div>
+          </div>
+
+          <!-- Mini carte alternance -->
+          <div class="about-mini reveal">
+            <div class="about-mini-icon">
+              <i class="fa-solid fa-briefcase"></i>
+            </div>
+            <div class="about-mini-body">
+              <p class="about-mini-label">Alternance</p>
+              <h4>Technicien informatique</h4>
+              <p>Nestlé Purina · Montfort-sur-Risle</p>
+              <span class="about-mini-period">2024 – 2026</span>
+            </div>
+          </div>
+
         </div>
       </div>
     </section>
@@ -134,16 +150,11 @@
       <div class="container">
         <div class="section-header">
           <h2>Projets</h2>
-          <p>Des réalisations techniques présentées avec leurs livrables et maquettes, dans un format clair pour le BTS SIO.</p>
         </div>
         <div class="projects-overview reveal">
           <div class="projects-overview-copy">
             <p class="projects-overline">Sélection 2026</p>
             <h3>5 projets techniques structurés autour des systèmes, du réseau et de l’infrastructure.</h3>
-            <p>
-              Chaque carte donne une lecture rapide du projet, de son environnement technique
-              et des livrables disponibles, pour faciliter la présentation à l’oral.
-            </p>
           </div>
           <div class="projects-overview-stats">
             <div class="projects-stat-card">
@@ -153,10 +164,6 @@
             <div class="projects-stat-card">
               <strong>6</strong>
               <span>documents</span>
-            </div>
-            <div class="projects-stat-card">
-              <strong>1</strong>
-              <span>jeu de maquettes</span>
             </div>
           </div>
         </div>
@@ -176,10 +183,6 @@
               <span>AD DS</span>
               <span>GPO</span>
               <span>AGDLP</span>
-            </div>
-            <div class="project-ref">
-              <span class="project-ref-label">Référentiel</span>
-              <span>B2.1</span><span>B2.2</span><span>B3.2</span>
             </div>
             <div class="project-links-preview">
               <span><i class="fa-regular fa-file-lines"></i> 1 document</span>
@@ -202,10 +205,6 @@
               <span>Linux</span>
               <span>Serveur web</span>
             </div>
-            <div class="project-ref">
-              <span class="project-ref-label">Référentiel</span>
-              <span>B2.1</span><span>B2.2</span><span>B2.3</span>
-            </div>
             <div class="project-links-preview">
               <span><i class="fa-regular fa-file-lines"></i> 1 document</span>
             </div>
@@ -226,10 +225,6 @@
               <span>Partages</span>
               <span>Permissions</span>
               <span>Sauvegarde</span>
-            </div>
-            <div class="project-ref">
-              <span class="project-ref-label">Référentiel</span>
-              <span>B2.2</span><span>B3.4</span>
             </div>
             <div class="project-links-preview">
               <span><i class="fa-regular fa-file-lines"></i> 1 document</span>
@@ -252,10 +247,6 @@
               <span>Optimisation</span>
               <span>Sécurisation</span>
             </div>
-            <div class="project-ref">
-              <span class="project-ref-label">Référentiel</span>
-              <span>B1.1</span><span>B1.5</span><span>B3.3</span>
-            </div>
             <div class="project-links-preview">
               <span><i class="fa-regular fa-file-lines"></i> 1 document</span>
             </div>
@@ -276,10 +267,6 @@
               <span>Déploiement</span>
               <span>Standardisation</span>
               <span>Sécurisation</span>
-            </div>
-            <div class="project-ref">
-              <span class="project-ref-label">Référentiel</span>
-              <span>B1.5</span><span>B2.2</span><span>B3.3</span>
             </div>
             <div class="project-links-preview">
               <span><i class="fa-regular fa-file-lines"></i> 2 documents</span>
