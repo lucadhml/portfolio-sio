@@ -42,12 +42,12 @@ img { max-width: 100%; display: block; }
 }
 
 .section {
-  padding: 100px 0;
+  padding: 72px 0;
   position: relative;
 }
 
 /* ─── Section headers ─────────────────────────────── */
-.section-header { margin-bottom: 48px; }
+.section-header { margin-bottom: 36px; }
 
 .section-header h2 {
   margin: 0 0 14px;
