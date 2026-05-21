@@ -1,8 +1,8 @@
 window.VEILLE_DATA = {
-  "updatedAt": "2026-05-20",
+  "updatedAt": "2026-05-21",
   "methodologie": {
     "title": "Méthodologie de veille",
-    "summary": "Ma veille technologique repose sur plusieurs sources complémentaires : IT-Connect et le CERT-FR pour la cybersécurité, MIT Technology Review et Korben pour l'IA. Chaque jour, un script récupère automatiquement les nouvelles publications, calcule un score de pertinence par mots-clés, et sélectionne les 4 meilleures entrées par thème.",
+    "summary": "Ma veille technologique repose sur plusieurs sources complémentaires : IT-Connect et le CERT-FR pour la cybersécurité, MIT Technology Review et Korben pour l’IA. Chaque jour, un script récupère automatiquement les nouvelles publications, calcule un score de pertinence par mots-clés, et sélectionne les 4 meilleures entrées par thème.",
     "frequency": "Mise à jour automatique quotidienne",
     "tooling": [
       "IT-Connect, ANSSI, CERT-FR (cybersécurité)",
@@ -18,7 +18,7 @@ window.VEILLE_DATA = {
       },
       {
         "title": "2. Score de pertinence",
-        "description": "Chaque publication reçoit un score basé sur ses mots-clés, sa source et son thème. Les scores négatifs permettent d'exclure les hors-sujets."
+        "description": "Chaque publication reçoit un score basé sur ses mots-clés, sa source et son thème. Les scores négatifs permettent d’exclure les hors-sujets."
       },
       {
         "title": "3. Sélection des meilleures entrées",
@@ -32,7 +32,7 @@ window.VEILLE_DATA = {
     "criteria": [
       "Sources identifiées et crédibles",
       "Mise à jour quotidienne automatisée",
-      "Score de pertinence adapté à l'option SISR",
+      "Score de pertinence adapté à l’option SISR",
       "Synthèses réutilisables devant le jury"
     ]
   },
@@ -40,8 +40,8 @@ window.VEILLE_DATA = {
     "cybersecurite": {
       "title": "Cybersécurité",
       "subtitle": "Menaces, vulnérabilités et recommandations suivies à partir de sources techniques et institutionnelles.",
-      "objective": "Cette veille me permet de suivre les vulnérabilités critiques, les recommandations de sécurité et les tendances de la menace afin d'alimenter ma culture sécurité sur les systèmes et les réseaux dans un cadre cohérent avec l'option SISR.",
-      "interest": "L'intérêt de ce sujet est de relier des publications techniques à des situations concrètes : gestion des vulnérabilités, correctifs, sécurité des postes, sécurisation des services et compréhension de la menace actuelle.",
+      "objective": "Cette veille me permet de suivre les vulnérabilités critiques, les recommandations de sécurité et les tendances de la menace afin d’alimenter ma culture sécurité sur les systèmes et les réseaux dans un cadre cohérent avec l’option SISR.",
+      "interest": "L’intérêt de ce sujet est de relier des publications techniques à des situations concrètes : gestion des vulnérabilités, correctifs, sécurité des postes, sécurisation des services et compréhension de la menace actuelle.",
       "sources": [
         {
           "name": "IT-Connect",
@@ -51,54 +51,54 @@ window.VEILLE_DATA = {
         {
           "name": "ANSSI",
           "type": "Source institutionnelle",
-          "url": "https://cyber.gouv.fr/actualites"
+          "url": "https://cyber.gouv.fr/actualites/rss/"
         },
         {
           "name": "CERT-FR",
           "type": "Bulletins et alertes",
-          "url": "https://www.cert.ssi.gouv.fr/actualite/"
+          "url": "https://www.cert.ssi.gouv.fr/actualite/feed/"
         }
       ],
       "entries": [
         {
-          "date": "18 mai 2026",
-          "title": "Pwn2Own Berlin 2026 : 47 failles zero-day découvertes dans VMware, Windows, des outils IA, etc.",
+          "date": "19 mai 2026",
+          "title": "+563 % pour Chrome, +180 % pour VMware : l’IA provoque un tsunami historique de failles",
           "source": "IT-Connect",
-          "url": "https://www.it-connect.fr/pwn2own-berlin-2026-47-failles-zero-day-decouvertes-dans-vmware-windows-des-outils-ia-etc/",
-          "summary": "À l'occasion de l'édition 2026 du Pwn2Own de Berlin, les hackers ont pu découvrir 47 failles de sécurité zero-day au terme de trois jours de compétition.",
-          "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
+          "url": "https://www.it-connect.fr/comment-ia-provoque-un-tsunami-historique-de-failles/",
+          "summary": "Découvrez comment l’IA accélère la découverte de vulnérabilités, entraînant une explosion des CVE en 2026, y compris dans le monde de l’open source.",
+          "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l’administration des systèmes et réseaux."
         },
         {
-          "date": "15 mai 2026",
-          "title": "Exchange Server – CVE-2026-42897 : cette faille zero-day est déjà exploitée !",
-          "source": "IT-Connect",
-          "url": "https://www.it-connect.fr/exchange-server-cve-2026-42897-cette-faille-zero-day-est-deja-exploitee/",
-          "summary": "La vulnérabilité CVE-2026-42897 affecte Exchange Server 2016, 2019 et SE. Découvrez les mesures d'urgence pour atténuer la menace sans patch officiel.",
-          "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
+          "date": "11 mars 2026",
+          "title": "Panorama de la cybermenace 2025 : La France toujours sous la pression des cyber attaquants",
+          "source": "ANSSI",
+          "url": "http://cyber.gouv.fr/actualites/panorama-de-la-cybermenace-2025/",
+          "summary": "Dans le Panorama de la cybermenace 2025, l’Agence nationale de la sécurité des systèmes d’information (ANSSI) présente le bilan d’une […]",
+          "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l’administration des systèmes et réseaux."
         },
         {
-          "date": "15 mai 2026",
-          "title": "Outlook – CVE-2026-40361 : cette faille zero-click menace les entreprises, patchez !",
-          "source": "IT-Connect",
-          "url": "https://www.it-connect.fr/outlook-cve-2026-40361-cette-faille-zero-click-menace-les-entreprises-patchez/",
-          "summary": "Le Patch Tuesday de mai 2026 publié par Microsoft corrige une faille de type zero-click affectant Outlook (et Word) : CVE-2026-40361. Voici comment se protéger.",
-          "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
+          "date": "30 janvier 2026",
+          "title": "La France prend la présidence du Groupe de travail sur la cybersécurité du G7",
+          "source": "ANSSI",
+          "url": "http://cyber.gouv.fr/actualites/la-france-prend-la-presidence-du-groupe-de-travail-sur-la-cybersecurite-du-g7/",
+          "summary": "Face à l’intensification et à la diversification des cybermenaces, la cybersécurité constitue un enjeu stratégique majeur pour la sécurité nationale […]",
+          "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l’administration des systèmes et réseaux."
         },
         {
-          "date": "14 mai 2026",
-          "title": "NGINX Rift – CVE-2026-42945 : cette faille critique vieille de 18 ans menace vos serveurs Web",
+          "date": "20 mai 2026",
+          "title": "La faille DirtyDecrypt menace les serveurs Linux : un PoC a été publié",
           "source": "IT-Connect",
-          "url": "https://www.it-connect.fr/nginx-rift-cve-2026-42945-cette-faille-critique-de-18-ans-menace-vos-serveurs-web/",
-          "summary": "La faille NGINX Rift présente dans le code depuis 18 ans permet à un attaquant non authentifié d'exécuter du code à distance ou de faire planter le serveur Web.",
-          "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
+          "url": "https://www.it-connect.fr/la-faille-dirtydecrypt-menace-les-serveurs-linux-un-poc-a-ete-publie/",
+          "summary": "Découvrez DirtyDecrypt, une nouvelle faille Linux (CVE-2026-31635) correspondant à une élévation de privilèges en local. Elle permet d’obtenir les droits root.",
+          "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l’administration des systèmes et réseaux."
         }
       ]
     },
     "intelligence-artificielle": {
       "title": "Intelligence artificielle",
-      "subtitle": "Usages, risques et enjeux de l'IA suivis depuis des sources spécialisées françaises et internationales.",
-      "objective": "Cette veille me permet de suivre les évolutions de l'intelligence artificielle dans un cadre professionnel : nouveaux usages, risques de sécurité, agents autonomes, conformité et impacts sur les outils informatiques.",
-      "interest": "L'intérêt de ce sujet est de garder une vision réaliste de l'IA : à la fois ses apports pour les métiers de l'IT et les nouveaux risques qu'elle introduit en matière de sécurité, d'automatisation et de gouvernance.",
+      "subtitle": "Usages, risques et enjeux de l’IA suivis depuis des sources spécialisées françaises et internationales.",
+      "objective": "Cette veille me permet de suivre les évolutions de l’intelligence artificielle dans un cadre professionnel : nouveaux usages, risques de sécurité, agents autonomes, conformité et impacts sur les outils informatiques.",
+      "interest": "L’intérêt de ce sujet est de garder une vision réaliste de l’IA : à la fois ses apports pour les métiers de l’IT et les nouveaux risques qu’elle introduit en matière de sécurité, d’automatisation et de gouvernance.",
       "sources": [
         {
           "name": "IT-Connect",
@@ -108,38 +108,46 @@ window.VEILLE_DATA = {
         {
           "name": "MIT Technology Review",
           "type": "Revue spécialisée IA",
-          "url": "https://www.technologyreview.com/topic/artificial-intelligence/"
+          "url": "https://www.technologyreview.com/feed/"
         },
         {
           "name": "Korben",
           "type": "Blog tech & IA",
-          "url": "https://korben.info"
+          "url": "https://korben.info/feed"
         }
       ],
       "entries": [
         {
-          "date": "18 mai 2026",
-          "title": "OpenAI confirme un vol de données lié à une attaque supply chain sur TanStack",
-          "source": "IT-Connect",
-          "url": "https://www.it-connect.fr/openai-confirme-un-vol-de-donnees-lie-a-une-attaque-supply-chain-sur-tanstack/",
-          "summary": "OpenAI a été victime d'une fuite de données suite à l'attaque ciblant TanStack : une mise à jour des applications est nécessaire sur Mac avant le 12 juin 2026.",
-          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
+          "date": "20 mai 2026",
+          "title": "WordPress Workspace - L'agent IA d'Automattic",
+          "source": "Korben",
+          "url": "https://korben.info/wordpress-workspace-app-mac-automattic.html",
+          "summary": "Si comme moi, vous bloguez encore à l'ancienne, c'est à dire depuis l'interface web de WordPress.com, sachez qu'Automattic vient de balancer une app pour Mac qui s'est donné pour mission de vraiment bousculer votre façon d'écrire. WordPr...",
+          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l’intelligence artificielle."
         },
         {
-          "date": "18 mai 2026",
-          "title": "Pwn2Own Berlin 2026 : 47 failles zero-day découvertes dans VMware, Windows, des outils IA, etc.",
-          "source": "IT-Connect",
-          "url": "https://www.it-connect.fr/pwn2own-berlin-2026-47-failles-zero-day-decouvertes-dans-vmware-windows-des-outils-ia-etc/",
-          "summary": "À l'occasion de l'édition 2026 du Pwn2Own de Berlin, les hackers ont pu découvrir 47 failles de sécurité zero-day au terme de trois jours de compétition.",
-          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
+          "date": "19 mai 2026",
+          "title": "Roundtables: Inside the Musk v. Altman Trial",
+          "source": "MIT Technology Review",
+          "url": "https://www.technologyreview.com/2026/05/19/1137454/roundtables-inside-the-musk-v-altman-trial/",
+          "summary": "Listen to the session or watch below Elon Musk lost his suit against OpenAI, in which he alleged CEO Sam Altman and President Greg Brockman had deceived him over the company’s non-profit status. Watch as AI reporter and attorney Michelle...",
+          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l’intelligence artificielle."
         },
         {
-          "date": "15 mai 2026",
-          "title": "OpenAI dégaine Daybreak : sa plateforme cybersécurité pour concurrencer Anthropic",
-          "source": "IT-Connect",
-          "url": "https://www.it-connect.fr/openai-degaine-daybreak-sa-plateforme-cybersecurite-pour-concurrencer-anthropic/",
-          "summary": "OpenAI se positionne face à Anthropic avec Daybreak, une plateforme intégrée de cybersécurité exploitant GPT-5.5 et Codex Security pour la cyberdéfense.",
-          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
+          "date": "20 mai 2026",
+          "title": "Anthropic rachète Stainless, l'outil qui fabrique aussi les SDK de ses concurrents",
+          "source": "Korben",
+          "url": "https://korben.info/anthropic-rachete-stainless-loutil-qui-fabrique-aussi-les-sdk-de-ses-concurrents.html",
+          "summary": "Anthropic, la boîte derrière l'IA Claude, a racheté Stainless pour plus de 300 millions de dollars. Stainless, c'est un nom que le grand public ne connaît pas, mais l'outil est partout : il transforme automatiquement la spécification d'u...",
+          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l’intelligence artificielle."
+        },
+        {
+          "date": "20 mai 2026",
+          "title": "Vim passe à GTK4, et Claude est crédité dans les commits",
+          "source": "Korben",
+          "url": "https://korben.info/vim-passe-a-gtk4-et-claude-est-credite-dans-les-commits.html",
+          "summary": "gVim, la version avec interface graphique du légendaire éditeur de texte Vim, récupère le support de GTK4. Pour situer, GTK c'est la boîte à outils qui dessine les fenêtres, les boutons et les menus des applications sous Linux. Vim tourn...",
+          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l’intelligence artificielle."
         }
       ]
     }
