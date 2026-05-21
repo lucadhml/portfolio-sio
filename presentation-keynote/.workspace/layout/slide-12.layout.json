@@ -1,0 +1,950 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/k0g7pd",
+    "id": "k0g7pd",
+    "slide": 12,
+    "layoutId": "3fb6630f-632f-4814-98b4-1ac3d12d3004",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "b81d15e6-e7dd-47cb-b04a-441fa6739bb7",
+    "masterLayoutName": "Master",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "Avenir Next"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "3fb6630f-632f-4814-98b4-1ac3d12d3004",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "b81d15e6-e7dd-47cb-b04a-441fa6739bb7",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "b81d15e6-e7dd-47cb-b04a-441fa6739bb7",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/d0z61032",
+      "id": "1",
+      "bbox": [
+        0,
+        0,
+        1280,
+        720
+      ],
+      "geometry": "rect",
+      "fillColor": "#141922",
+      "lineColor": "#141922",
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/29gr2p8n",
+      "id": "2",
+      "bbox": [
+        -90,
+        -150,
+        520,
+        520
+      ],
+      "geometry": "ellipse",
+      "fillColor": "rgba(106, 163, 255, 0.08627)",
+      "lineColor": "rgba(106, 163, 255, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/vu9knih4",
+      "id": "3",
+      "bbox": [
+        940,
+        -120,
+        420,
+        420
+      ],
+      "geometry": "ellipse",
+      "fillColor": "rgba(138, 182, 255, 0.06275)",
+      "lineColor": "rgba(138, 182, 255, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/knih4byh",
+      "id": "4",
+      "bbox": [
+        920,
+        470,
+        360,
+        260
+      ],
+      "geometry": "ellipse",
+      "fillColor": "rgba(106, 163, 255, 0.06275)",
+      "lineColor": "rgba(106, 163, 255, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/d8bat47y",
+      "id": "5",
+      "bbox": [
+        70,
+        50,
+        460,
+        18
+      ],
+      "geometry": "rect",
+      "text": "CONTACT",
+      "textPreview": "CONTACT",
+      "resolvedFontSize": 10,
+      "resolvedTextStyle": {
+        "fontSize": 10,
+        "typeface": "Avenir Next",
+        "bold": true,
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "CONTACT"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "CONTACT",
+          "runs": [
+            {
+              "index": 1,
+              "text": "CONTACT",
+              "fontSize": 10,
+              "typeface": "Avenir Next",
+              "color": "#6AA3FF",
+              "bold": true
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/2lszqtcj",
+      "id": "6",
+      "bbox": [
+        70,
+        78,
+        760,
+        54
+      ],
+      "geometry": "rect",
+      "text": "Merci pour votre attention",
+      "textPreview": "Merci pour votre attention",
+      "resolvedFontSize": 29,
+      "resolvedTextStyle": {
+        "fontSize": 29,
+        "typeface": "Avenir Next",
+        "bold": true,
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Merci pour votre attention"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Merci pour votre attention",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Merci pour votre attention",
+              "fontSize": 29,
+              "typeface": "Avenir Next",
+              "color": "#F5F6F8",
+              "bold": true
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/v6psfil0",
+      "id": "7",
+      "bbox": [
+        70,
+        136,
+        780,
+        36
+      ],
+      "geometry": "rect",
+      "text": "Un support de presentation prevu pour garder une solution fiable meme sans acces au portfolio web.",
+      "textPreview": "Un support de presentation prevu pour garder une solution fiable meme sans acces au portfolio web.",
+      "resolvedFontSize": 13.51,
+      "resolvedTextStyle": {
+        "fontSize": 13.51,
+        "typeface": "Avenir Next",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Un support de presentation prevu pour garder une solution fiable meme sans acces au portfolio web."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Un support de presentation prevu pour garder une solution fiable meme sans acces au portfolio web.",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Un support de presentation prevu pour garder une solution fiable meme sans acces au portfolio web.",
+              "fontSize": 13.51,
+              "typeface": "Avenir Next",
+              "color": "#C8D0DC"
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/kre1w7mp",
+      "id": "8",
+      "bbox": [
+        70,
+        218,
+        580,
+        292
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#1C2532",
+      "lineColor": "#34445A",
+      "lineWidth": 1
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/dcbulwva",
+      "id": "9",
+      "bbox": [
+        98,
+        248,
+        360,
+        20
+      ],
+      "geometry": "rect",
+      "text": "Ce support reprend l'identite du portfolio:",
+      "textPreview": "Ce support reprend l'identite du portfolio:",
+      "resolvedFontSize": 14,
+      "resolvedTextStyle": {
+        "fontSize": 14,
+        "typeface": "Avenir Next",
+        "bold": true,
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Ce support reprend l'identite du portfolio:"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Ce support reprend l'identite du portfolio:",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Ce support reprend l'identite du portfolio:",
+              "fontSize": 14,
+              "typeface": "Avenir Next",
+              "color": "#F5F6F8",
+              "bold": true
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/lszqtcj6",
+      "id": "10",
+      "bbox": [
+        98,
+        282,
+        456,
+        54
+      ],
+      "geometry": "rect",
+      "text": "palette bleu nuit, cartes epurees, navigation par sections, projets detaillees, competences et veille technologique.",
+      "textPreview": "palette bleu nuit, cartes epurees, navigation par sections, projets detaillees, competences et veille technologique.",
+      "resolvedFontSize": 14,
+      "resolvedTextStyle": {
+        "fontSize": 14,
+        "typeface": "Avenir Next",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "palette bleu nuit, cartes epurees, navigation par sections, projets"
+          },
+          {
+            "index": 2,
+            "text": "detaillees, competences et veille technologique."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "palette bleu nuit, cartes epurees, navigation par sections, projets detaillees, competences et veille technologique.",
+          "runs": [
+            {
+              "index": 1,
+              "text": "palette bleu nuit, cartes epurees, navigation par sections, projets detaillees, competences et veille technologique.",
+              "fontSize": 14,
+              "typeface": "Avenir Next",
+              "color": "#C8D0DC"
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/s72x4nap",
+      "id": "11",
+      "bbox": [
+        98,
+        366,
+        280,
+        18
+      ],
+      "geometry": "rect",
+      "text": "Utilisation conseillee a l'oral:",
+      "textPreview": "Utilisation conseillee a l'oral:",
+      "resolvedFontSize": 12,
+      "resolvedTextStyle": {
+        "fontSize": 12,
+        "typeface": "Avenir Next",
+        "bold": true,
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Utilisation conseillee a l'oral:"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Utilisation conseillee a l'oral:",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Utilisation conseillee a l'oral:",
+              "fontSize": 12,
+              "typeface": "Avenir Next",
+              "color": "#6AA3FF",
+              "bold": true
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 12,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/3m94fu18",
+      "id": "12",
+      "bbox": [
+        98,
+        392,
+        462,
+        48
+      ],
+      "geometry": "rect",
+      "text": "presenter le profil, enchaîner sur le parcours, puis choisir 2 ou 3 projets a detailler selon les questions du jury.",
+      "textPreview": "presenter le profil, enchaîner sur le parcours, puis choisir 2 ou 3 projets a detailler selon les questions du jury.",
+      "resolvedFontSize": 13,
+      "resolvedTextStyle": {
+        "fontSize": 13,
+        "typeface": "Avenir Next",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "presenter le profil, enchaîner sur le parcours, puis choisir 2 ou 3 projets a"
+          },
+          {
+            "index": 2,
+            "text": "detailler selon les questions du jury."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "presenter le profil, enchaîner sur le parcours, puis choisir 2 ou 3 projets a detailler selon les questions du jury.",
+          "runs": [
+            {
+              "index": 1,
+              "text": "presenter le profil, enchaîner sur le parcours, puis choisir 2 ou 3 projets a detailler selon les questions du jury.",
+              "fontSize": 13,
+              "typeface": "Avenir Next",
+              "color": "#EAF0F9"
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 13,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/a5gbq1or",
+      "id": "13",
+      "bbox": [
+        690,
+        218,
+        520,
+        292
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#1B2431",
+      "lineColor": "#34445A",
+      "lineWidth": 1
+    },
+    {
+      "order": 14,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/a1gvy90j",
+      "id": "14",
+      "bbox": [
+        722,
+        256,
+        28,
+        28
+      ],
+      "alt": "Mail icon",
+      "contentType": "image/svg+xml",
+      "asset": {
+        "assetId": "1bb82110-a2e9-4ff5-a18a-e8c01ada1a2f",
+        "contentType": "image/svg+xml",
+        "byteLength": 284
+      }
+    },
+    {
+      "order": 15,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/sji5snel",
+      "id": "15",
+      "bbox": [
+        770,
+        256,
+        160,
+        18
+      ],
+      "geometry": "rect",
+      "text": "Email",
+      "textPreview": "Email",
+      "resolvedFontSize": 12,
+      "resolvedTextStyle": {
+        "fontSize": 12,
+        "typeface": "Avenir Next",
+        "bold": true,
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Email"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Email",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Email",
+              "fontSize": 12,
+              "typeface": "Avenir Next",
+              "color": "#6AA3FF",
+              "bold": true
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 16,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/3ylc7u54",
+      "id": "16",
+      "bbox": [
+        770,
+        282,
+        280,
+        22
+      ],
+      "geometry": "rect",
+      "text": "duhamelluca76@gmail.com",
+      "textPreview": "duhamelluca76@gmail.com",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "fontSize": 18,
+        "typeface": "Avenir Next",
+        "bold": true,
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "duhamelluca76@gmail.com"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "duhamelluca76@gmail.com",
+          "runs": [
+            {
+              "index": 1,
+              "text": "duhamelluca76@gmail.com",
+              "fontSize": 18,
+              "typeface": "Avenir Next",
+              "color": "#F5F6F8",
+              "bold": true
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 17,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/hoza1gvy",
+      "id": "17",
+      "bbox": [
+        722,
+        348,
+        28,
+        28
+      ],
+      "alt": "Link icon",
+      "contentType": "image/svg+xml",
+      "asset": {
+        "assetId": "27d1da67-8e33-4a45-b708-000d5e83e59a",
+        "contentType": "image/svg+xml",
+        "byteLength": 327
+      }
+    },
+    {
+      "order": 18,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/hgn29gr2",
+      "id": "18",
+      "bbox": [
+        770,
+        348,
+        160,
+        18
+      ],
+      "geometry": "rect",
+      "text": "LinkedIn",
+      "textPreview": "LinkedIn",
+      "resolvedFontSize": 12,
+      "resolvedTextStyle": {
+        "fontSize": 12,
+        "typeface": "Avenir Next",
+        "bold": true,
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "LinkedIn"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "LinkedIn",
+          "runs": [
+            {
+              "index": 1,
+              "text": "LinkedIn",
+              "fontSize": 12,
+              "typeface": "Avenir Next",
+              "color": "#6AA3FF",
+              "bold": true
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 19,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/svu9knih",
+      "id": "19",
+      "bbox": [
+        770,
+        374,
+        330,
+        44
+      ],
+      "geometry": "rect",
+      "text": "linkedin.com/in/luca-duhamel-1939b8205",
+      "textPreview": "linkedin.com/in/luca-duhamel-1939b8205",
+      "resolvedFontSize": 16,
+      "resolvedTextStyle": {
+        "fontSize": 16,
+        "typeface": "Avenir Next",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "linkedin.com/in/luca-duhamel-1939b8205"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "linkedin.com/in/luca-duhamel-1939b8205",
+          "runs": [
+            {
+              "index": 1,
+              "text": "linkedin.com/in/luca-duhamel-1939b8205",
+              "fontSize": 16,
+              "typeface": "Avenir Next",
+              "color": "#F5F6F8"
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 20,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/4r65wjud",
+      "id": "20",
+      "bbox": [
+        70,
+        560,
+        1140,
+        74
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#18212D",
+      "lineColor": "#34445A",
+      "lineWidth": 1
+    },
+    {
+      "order": 21,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/xc3ylc7u",
+      "id": "21",
+      "bbox": [
+        98,
+        584,
+        620,
+        18
+      ],
+      "geometry": "rect",
+      "text": "Presentation de secours generee pour etre ouverte dans Keynote ou PowerPoint.",
+      "textPreview": "Presentation de secours generee pour etre ouverte dans Keynote ou PowerPoint.",
+      "resolvedFontSize": 12.51,
+      "resolvedTextStyle": {
+        "fontSize": 12.51,
+        "typeface": "Avenir Next",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Presentation de secours generee pour etre ouverte dans Keynote ou PowerPoint."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Presentation de secours generee pour etre ouverte dans Keynote ou PowerPoint.",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Presentation de secours generee pour etre ouverte dans Keynote ou PowerPoint.",
+              "fontSize": 12.51,
+              "typeface": "Avenir Next",
+              "color": "#EAF0F9"
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 22,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/mlkjm1cf",
+      "id": "22",
+      "bbox": [
+        70,
+        676,
+        1140,
+        1
+      ],
+      "geometry": "rect",
+      "fillColor": "rgba(58, 71, 92, 0.66667)",
+      "lineColor": "rgba(58, 71, 92, 0.66667)",
+      "lineWidth": 0
+    },
+    {
+      "order": 23,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/f6dcbulw",
+      "id": "23",
+      "bbox": [
+        70,
+        686,
+        900,
+        16
+      ],
+      "geometry": "rect",
+      "text": "Luca Duhamel • BTS SIO SISR",
+      "textPreview": "Luca Duhamel • BTS SIO SISR",
+      "resolvedFontSize": 8.51,
+      "resolvedTextStyle": {
+        "fontSize": 8.51,
+        "typeface": "Avenir Next",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Luca Duhamel • BTS SIO SISR"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Luca Duhamel • BTS SIO SISR",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Luca Duhamel • BTS SIO SISR",
+              "fontSize": 8.51,
+              "typeface": "Avenir Next",
+              "color": "#C8D0DC"
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 24,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/4zidonyd",
+      "id": "24",
+      "bbox": [
+        1160,
+        682,
+        50,
+        20
+      ],
+      "geometry": "rect",
+      "text": "12",
+      "textPreview": "12",
+      "resolvedFontSize": 11,
+      "resolvedTextStyle": {
+        "fontSize": 11,
+        "typeface": "Avenir Next",
+        "bold": true,
+        "alignment": "right"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "12"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "12",
+          "runs": [
+            {
+              "index": 1,
+              "text": "12",
+              "fontSize": 11,
+              "typeface": "Avenir Next",
+              "color": "#C8D0DC",
+              "bold": true
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

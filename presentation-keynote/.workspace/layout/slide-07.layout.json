@@ -1,0 +1,971 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/xyef36",
+    "id": "xyef36",
+    "slide": 7,
+    "layoutId": "3fb6630f-632f-4814-98b4-1ac3d12d3004",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "b81d15e6-e7dd-47cb-b04a-441fa6739bb7",
+    "masterLayoutName": "Master",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "Avenir Next"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "3fb6630f-632f-4814-98b4-1ac3d12d3004",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "b81d15e6-e7dd-47cb-b04a-441fa6739bb7",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "b81d15e6-e7dd-47cb-b04a-441fa6739bb7",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/9gr2p8nq",
+      "id": "1",
+      "bbox": [
+        0,
+        0,
+        1280,
+        720
+      ],
+      "geometry": "rect",
+      "fillColor": "#141922",
+      "lineColor": "#141922",
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/2p8nqxs7",
+      "id": "2",
+      "bbox": [
+        -90,
+        -150,
+        520,
+        520
+      ],
+      "geometry": "ellipse",
+      "fillColor": "rgba(106, 163, 255, 0.08627)",
+      "lineColor": "rgba(106, 163, 255, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ra5gbq1o",
+      "id": "3",
+      "bbox": [
+        940,
+        -120,
+        420,
+        420
+      ],
+      "geometry": "ellipse",
+      "fillColor": "rgba(138, 182, 255, 0.06275)",
+      "lineColor": "rgba(138, 182, 255, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/kjm1cfa9",
+      "id": "4",
+      "bbox": [
+        920,
+        470,
+        360,
+        260
+      ],
+      "geometry": "ellipse",
+      "fillColor": "rgba(106, 163, 255, 0.06275)",
+      "lineColor": "rgba(106, 163, 255, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/94fu18jq",
+      "id": "5",
+      "bbox": [
+        70,
+        50,
+        460,
+        18
+      ],
+      "geometry": "rect",
+      "text": "PROJET 3",
+      "textPreview": "PROJET 3",
+      "resolvedFontSize": 10,
+      "resolvedTextStyle": {
+        "fontSize": 10,
+        "typeface": "Avenir Next",
+        "bold": true,
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "PROJET 3"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "PROJET 3",
+          "runs": [
+            {
+              "index": 1,
+              "text": "PROJET 3",
+              "fontSize": 10,
+              "typeface": "Avenir Next",
+              "color": "#6AA3FF",
+              "bold": true
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/2hwfyxob",
+      "id": "6",
+      "bbox": [
+        70,
+        78,
+        760,
+        54
+      ],
+      "geometry": "rect",
+      "text": "Mise en place d'une infrastructure NAS",
+      "textPreview": "Mise en place d'une infrastructure NAS",
+      "resolvedFontSize": 29,
+      "resolvedTextStyle": {
+        "fontSize": 29,
+        "typeface": "Avenir Next",
+        "bold": true,
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Mise en place d'une infrastructure NAS"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Mise en place d'une infrastructure NAS",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Mise en place d'une infrastructure NAS",
+              "fontSize": 29,
+              "typeface": "Avenir Next",
+              "color": "#F5F6F8",
+              "bold": true
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/r2p8nqxs",
+      "id": "7",
+      "bbox": [
+        70,
+        136,
+        780,
+        36
+      ],
+      "geometry": "rect",
+      "text": "Centralisation des donnees, gestion des droits d'acces et strategie de sauvegarde dans un environnement professionnel.",
+      "textPreview": "Centralisation des donnees, gestion des droits d'acces et strategie de sauvegarde dans un environnement professionnel.",
+      "resolvedFontSize": 13.51,
+      "resolvedTextStyle": {
+        "fontSize": 13.51,
+        "typeface": "Avenir Next",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Centralisation des donnees, gestion des droits d'acces et strategie de sauvegarde dans un environnement professionnel."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Centralisation des donnees, gestion des droits d'acces et strategie de sauvegarde dans un environnement professionnel.",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Centralisation des donnees, gestion des droits d'acces et strategie de sauvegarde dans un environnement professionnel.",
+              "fontSize": 13.51,
+              "typeface": "Avenir Next",
+              "color": "#C8D0DC"
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/kb6xkf6d",
+      "id": "8",
+      "bbox": [
+        70,
+        216,
+        500,
+        340
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#1C2532",
+      "lineColor": "#34445A",
+      "lineWidth": 1
+    },
+    {
+      "order": 9,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/s72x4nap",
+      "id": "9",
+      "bbox": [
+        92,
+        240,
+        456,
+        292
+      ],
+      "alt": "Mise en place d'une infrastructure NAS",
+      "contentType": "image/png",
+      "asset": {
+        "assetId": "9a565970-eb9f-4212-a8b4-4e57b6dca8a6",
+        "contentType": "image/png",
+        "byteLength": 1895836
+      }
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/xczed8v6",
+      "id": "10",
+      "bbox": [
+        612,
+        216,
+        598,
+        340
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#1B2431",
+      "lineColor": "#34445A",
+      "lineWidth": 1
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/8v6psfil",
+      "id": "11",
+      "bbox": [
+        640,
+        244,
+        104,
+        24
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#314634",
+      "lineColor": "#55749D",
+      "lineWidth": 1
+    },
+    {
+      "order": 12,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/fa9w3m94",
+      "id": "12",
+      "bbox": [
+        652,
+        251,
+        80,
+        14
+      ],
+      "geometry": "rect",
+      "text": "Personnel",
+      "textPreview": "Personnel",
+      "resolvedFontSize": 9,
+      "resolvedTextStyle": {
+        "fontSize": 9,
+        "typeface": "Avenir Next",
+        "bold": true,
+        "alignment": "center"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Personnel"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Personnel",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Personnel",
+              "fontSize": 9,
+              "typeface": "Avenir Next",
+              "color": "#EAF0F9",
+              "bold": true
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 13,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/qpg3ex0n",
+      "id": "13",
+      "bbox": [
+        640,
+        288,
+        230,
+        22
+      ],
+      "geometry": "rect",
+      "text": "Objectifs et realisations",
+      "textPreview": "Objectifs et realisations",
+      "resolvedFontSize": 14,
+      "resolvedTextStyle": {
+        "fontSize": 14,
+        "typeface": "Avenir Next",
+        "bold": true,
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Objectifs et realisations"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Objectifs et realisations",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Objectifs et realisations",
+              "fontSize": 14,
+              "typeface": "Avenir Next",
+              "color": "#F5F6F8",
+              "bold": true
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 14,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/x4nap4r6",
+      "id": "14",
+      "bbox": [
+        640,
+        330,
+        7,
+        7
+      ],
+      "geometry": "ellipse",
+      "fillColor": "#6AA3FF",
+      "lineColor": "#6AA3FF",
+      "lineWidth": 0
+    },
+    {
+      "order": 15,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/8jqh0fep",
+      "id": "15",
+      "bbox": [
+        658,
+        322,
+        502,
+        36
+      ],
+      "geometry": "rect",
+      "text": "Partages reseau et droits",
+      "textPreview": "Partages reseau et droits",
+      "resolvedFontSize": 13,
+      "resolvedTextStyle": {
+        "fontSize": 13,
+        "typeface": "Avenir Next",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Partages reseau et droits"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Partages reseau et droits",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Partages reseau et droits",
+              "fontSize": 13,
+              "typeface": "Avenir Next",
+              "color": "#EAF0F9"
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 16,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/fyxobm58",
+      "id": "16",
+      "bbox": [
+        640,
+        366,
+        7,
+        7
+      ],
+      "geometry": "ellipse",
+      "fillColor": "#6AA3FF",
+      "lineColor": "#6AA3FF",
+      "lineWidth": 0
+    },
+    {
+      "order": 17,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/qd4vmtwr",
+      "id": "17",
+      "bbox": [
+        658,
+        358,
+        502,
+        36
+      ],
+      "geometry": "rect",
+      "text": "Permissions utilisateurs",
+      "textPreview": "Permissions utilisateurs",
+      "resolvedFontSize": 13,
+      "resolvedTextStyle": {
+        "fontSize": 13,
+        "typeface": "Avenir Next",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Permissions utilisateurs"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Permissions utilisateurs",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Permissions utilisateurs",
+              "fontSize": 13,
+              "typeface": "Avenir Next",
+              "color": "#EAF0F9"
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 18,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/xs72x4na",
+      "id": "18",
+      "bbox": [
+        640,
+        402,
+        7,
+        7
+      ],
+      "geometry": "ellipse",
+      "fillColor": "#6AA3FF",
+      "lineColor": "#6AA3FF",
+      "lineWidth": 0
+    },
+    {
+      "order": 19,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/87ed8bat",
+      "id": "19",
+      "bbox": [
+        658,
+        394,
+        502,
+        36
+      ],
+      "geometry": "rect",
+      "text": "Logique de sauvegarde et continuite d'acces",
+      "textPreview": "Logique de sauvegarde et continuite d'acces",
+      "resolvedFontSize": 13,
+      "resolvedTextStyle": {
+        "fontSize": 13,
+        "typeface": "Avenir Next",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Logique de sauvegarde et continuite d'acces"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Logique de sauvegarde et continuite d'acces",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Logique de sauvegarde et continuite d'acces",
+              "fontSize": 13,
+              "typeface": "Avenir Next",
+              "color": "#EAF0F9"
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 20,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/4fu18jqh",
+      "id": "20",
+      "bbox": [
+        640,
+        446,
+        160,
+        18
+      ],
+      "geometry": "rect",
+      "text": "Technologies",
+      "textPreview": "Technologies",
+      "resolvedFontSize": 12,
+      "resolvedTextStyle": {
+        "fontSize": 12,
+        "typeface": "Avenir Next",
+        "bold": true,
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Technologies"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Technologies",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Technologies",
+              "fontSize": 12,
+              "typeface": "Avenir Next",
+              "color": "#6AA3FF",
+              "bold": true
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 21,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/x0nuxc3y",
+      "id": "21",
+      "bbox": [
+        640,
+        472,
+        500,
+        18
+      ],
+      "geometry": "rect",
+      "text": "NAS • Partages • Permissions • Sauvegarde",
+      "textPreview": "NAS • Partages • Permissions • Sauvegarde",
+      "resolvedFontSize": 12,
+      "resolvedTextStyle": {
+        "fontSize": 12,
+        "typeface": "Avenir Next",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "NAS • Partages • Permissions • Sauvegarde"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "NAS • Partages • Permissions • Sauvegarde",
+          "runs": [
+            {
+              "index": 1,
+              "text": "NAS • Partages • Permissions • Sauvegarde",
+              "fontSize": 12,
+              "typeface": "Avenir Next",
+              "color": "#C8D0DC"
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 22,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/m94fu18j",
+      "id": "22",
+      "bbox": [
+        640,
+        510,
+        120,
+        18
+      ],
+      "geometry": "rect",
+      "text": "Livrables",
+      "textPreview": "Livrables",
+      "resolvedFontSize": 12,
+      "resolvedTextStyle": {
+        "fontSize": 12,
+        "typeface": "Avenir Next",
+        "bold": true,
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Livrables"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Livrables",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Livrables",
+              "fontSize": 12,
+              "typeface": "Avenir Next",
+              "color": "#6AA3FF",
+              "bold": true
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 23,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/fu18jqh0",
+      "id": "23",
+      "bbox": [
+        640,
+        536,
+        220,
+        18
+      ],
+      "geometry": "rect",
+      "text": "1 dossier technique",
+      "textPreview": "1 dossier technique",
+      "resolvedFontSize": 12,
+      "resolvedTextStyle": {
+        "fontSize": 12,
+        "typeface": "Avenir Next",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "1 dossier technique"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "1 dossier technique",
+          "runs": [
+            {
+              "index": 1,
+              "text": "1 dossier technique",
+              "fontSize": 12,
+              "typeface": "Avenir Next",
+              "color": "#C8D0DC"
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 24,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/83itgfml",
+      "id": "24",
+      "bbox": [
+        70,
+        676,
+        1140,
+        1
+      ],
+      "geometry": "rect",
+      "fillColor": "rgba(58, 71, 92, 0.66667)",
+      "lineColor": "rgba(58, 71, 92, 0.66667)",
+      "lineWidth": 0
+    },
+    {
+      "order": 25,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/xobm58z2",
+      "id": "25",
+      "bbox": [
+        70,
+        686,
+        900,
+        16
+      ],
+      "geometry": "rect",
+      "text": "Projet: Infrastructure NAS",
+      "textPreview": "Projet: Infrastructure NAS",
+      "resolvedFontSize": 8.51,
+      "resolvedTextStyle": {
+        "fontSize": 8.51,
+        "typeface": "Avenir Next",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Projet: Infrastructure NAS"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Projet: Infrastructure NAS",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Projet: Infrastructure NAS",
+              "fontSize": 8.51,
+              "typeface": "Avenir Next",
+              "color": "#C8D0DC"
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 26,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/qxs72x4n",
+      "id": "26",
+      "bbox": [
+        1160,
+        682,
+        50,
+        20
+      ],
+      "geometry": "rect",
+      "text": "07",
+      "textPreview": "07",
+      "resolvedFontSize": 11,
+      "resolvedTextStyle": {
+        "fontSize": 11,
+        "typeface": "Avenir Next",
+        "bold": true,
+        "alignment": "right"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "07"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "07",
+          "runs": [
+            {
+              "index": 1,
+              "text": "07",
+              "fontSize": 11,
+              "typeface": "Avenir Next",
+              "color": "#C8D0DC",
+              "bold": true
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

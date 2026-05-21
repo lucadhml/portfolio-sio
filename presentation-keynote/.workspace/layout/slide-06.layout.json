@@ -1,0 +1,971 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/du4zry",
+    "id": "du4zry",
+    "slide": 6,
+    "layoutId": "3fb6630f-632f-4814-98b4-1ac3d12d3004",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "b81d15e6-e7dd-47cb-b04a-441fa6739bb7",
+    "masterLayoutName": "Master",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "Avenir Next"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "3fb6630f-632f-4814-98b4-1ac3d12d3004",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "b81d15e6-e7dd-47cb-b04a-441fa6739bb7",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "b81d15e6-e7dd-47cb-b04a-441fa6739bb7",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/u9knih4b",
+      "id": "1",
+      "bbox": [
+        0,
+        0,
+        1280,
+        720
+      ],
+      "geometry": "rect",
+      "fillColor": "#141922",
+      "lineColor": "#141922",
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/1032lszq",
+      "id": "2",
+      "bbox": [
+        -90,
+        -150,
+        520,
+        520
+      ],
+      "geometry": "ellipse",
+      "fillColor": "rgba(106, 163, 255, 0.08627)",
+      "lineColor": "rgba(106, 163, 255, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/cfa9w3m9",
+      "id": "3",
+      "bbox": [
+        940,
+        -120,
+        420,
+        420
+      ],
+      "geometry": "ellipse",
+      "fillColor": "rgba(138, 182, 255, 0.06275)",
+      "lineColor": "rgba(138, 182, 255, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/jm1cfa9w",
+      "id": "4",
+      "bbox": [
+        920,
+        470,
+        360,
+        260
+      ],
+      "geometry": "ellipse",
+      "fillColor": "rgba(106, 163, 255, 0.06275)",
+      "lineColor": "rgba(106, 163, 255, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/u18jqh0f",
+      "id": "5",
+      "bbox": [
+        70,
+        50,
+        460,
+        18
+      ],
+      "geometry": "rect",
+      "text": "PROJET 2",
+      "textPreview": "PROJET 2",
+      "resolvedFontSize": 10,
+      "resolvedTextStyle": {
+        "fontSize": 10,
+        "typeface": "Avenir Next",
+        "bold": true,
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "PROJET 2"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "PROJET 2",
+          "runs": [
+            {
+              "index": 1,
+              "text": "PROJET 2",
+              "fontSize": 10,
+              "typeface": "Avenir Next",
+              "color": "#6AA3FF",
+              "bold": true
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/1orytsvu",
+      "id": "6",
+      "bbox": [
+        70,
+        78,
+        760,
+        54
+      ],
+      "geometry": "rect",
+      "text": "Serveur web conteneurise avec Docker sous VMware",
+      "textPreview": "Serveur web conteneurise avec Docker sous VMware",
+      "resolvedFontSize": 29,
+      "resolvedTextStyle": {
+        "fontSize": 29,
+        "typeface": "Avenir Next",
+        "bold": true,
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Serveur web conteneurise avec Docker sous VMware"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Serveur web conteneurise avec Docker sous VMware",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Serveur web conteneurise avec Docker sous VMware",
+              "fontSize": 29,
+              "typeface": "Avenir Next",
+              "color": "#F5F6F8",
+              "bold": true
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/c7u54zid",
+      "id": "7",
+      "bbox": [
+        70,
+        136,
+        780,
+        36
+      ],
+      "geometry": "rect",
+      "text": "Mise en place d'un service web dans une machine virtuelle avec Docker pour disposer d'un environnement portable et isole.",
+      "textPreview": "Mise en place d'un service web dans une machine virtuelle avec Docker pour disposer d'un environnement portable et isole.",
+      "resolvedFontSize": 13.51,
+      "resolvedTextStyle": {
+        "fontSize": 13.51,
+        "typeface": "Avenir Next",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Mise en place d'un service web dans une machine virtuelle avec Docker pour disposer d'un environnement portable et isole."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Mise en place d'un service web dans une machine virtuelle avec Docker pour disposer d'un environnement portable et isole.",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Mise en place d'un service web dans une machine virtuelle avec Docker pour disposer d'un environnement portable et isole.",
+              "fontSize": 13.51,
+              "typeface": "Avenir Next",
+              "color": "#C8D0DC"
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/nap4r65w",
+      "id": "8",
+      "bbox": [
+        70,
+        216,
+        500,
+        340
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#1C2532",
+      "lineColor": "#34445A",
+      "lineWidth": 1
+    },
+    {
+      "order": 9,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/neloj2t8",
+      "id": "9",
+      "bbox": [
+        92,
+        240,
+        456,
+        292
+      ],
+      "alt": "Serveur web conteneurise avec Docker sous VMware",
+      "contentType": "application/octet-stream",
+      "asset": {
+        "assetId": "d638c73d-0f95-4886-9ea8-ab2f8b1c1aa8",
+        "contentType": "application/octet-stream",
+        "byteLength": 3656
+      }
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/orytsvu9",
+      "id": "10",
+      "bbox": [
+        612,
+        216,
+        598,
+        340
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#1B2431",
+      "lineColor": "#34445A",
+      "lineWidth": 1
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/hcrmhk3q",
+      "id": "11",
+      "bbox": [
+        640,
+        244,
+        104,
+        24
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#2D3950",
+      "lineColor": "#55749D",
+      "lineWidth": 1
+    },
+    {
+      "order": 12,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/al87ed8b",
+      "id": "12",
+      "bbox": [
+        652,
+        251,
+        80,
+        14
+      ],
+      "geometry": "rect",
+      "text": "Ecole",
+      "textPreview": "Ecole",
+      "resolvedFontSize": 9,
+      "resolvedTextStyle": {
+        "fontSize": 9,
+        "typeface": "Avenir Next",
+        "bold": true,
+        "alignment": "center"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Ecole"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Ecole",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Ecole",
+              "fontSize": 9,
+              "typeface": "Avenir Next",
+              "color": "#EAF0F9",
+              "bold": true
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 13,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/z61032ls",
+      "id": "13",
+      "bbox": [
+        640,
+        288,
+        230,
+        22
+      ],
+      "geometry": "rect",
+      "text": "Objectifs et realisations",
+      "textPreview": "Objectifs et realisations",
+      "resolvedFontSize": 14,
+      "resolvedTextStyle": {
+        "fontSize": 14,
+        "typeface": "Avenir Next",
+        "bold": true,
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Objectifs et realisations"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Objectifs et realisations",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Objectifs et realisations",
+              "fontSize": 14,
+              "typeface": "Avenir Next",
+              "color": "#F5F6F8",
+              "bold": true
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 14,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/sfil0rqd",
+      "id": "14",
+      "bbox": [
+        640,
+        330,
+        7,
+        7
+      ],
+      "geometry": "ellipse",
+      "fillColor": "#6AA3FF",
+      "lineColor": "#6AA3FF",
+      "lineWidth": 0
+    },
+    {
+      "order": 15,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/h0fepkzu",
+      "id": "15",
+      "bbox": [
+        658,
+        322,
+        502,
+        36
+      ],
+      "geometry": "rect",
+      "text": "Preparation de la VM Linux",
+      "textPreview": "Preparation de la VM Linux",
+      "resolvedFontSize": 13,
+      "resolvedTextStyle": {
+        "fontSize": 13,
+        "typeface": "Avenir Next",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Preparation de la VM Linux"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Preparation de la VM Linux",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Preparation de la VM Linux",
+              "fontSize": 13,
+              "typeface": "Avenir Next",
+              "color": "#EAF0F9"
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 16,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/a9w3m94f",
+      "id": "16",
+      "bbox": [
+        640,
+        366,
+        7,
+        7
+      ],
+      "geometry": "ellipse",
+      "fillColor": "#6AA3FF",
+      "lineColor": "#6AA3FF",
+      "lineWidth": 0
+    },
+    {
+      "order": 17,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/zupwb2hw",
+      "id": "17",
+      "bbox": [
+        658,
+        358,
+        502,
+        36
+      ],
+      "geometry": "rect",
+      "text": "Execution du service dans un conteneur Docker",
+      "textPreview": "Execution du service dans un conteneur Docker",
+      "resolvedFontSize": 13,
+      "resolvedTextStyle": {
+        "fontSize": 13,
+        "typeface": "Avenir Next",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Execution du service dans un conteneur Docker"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Execution du service dans un conteneur Docker",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Execution du service dans un conteneur Docker",
+              "fontSize": 13,
+              "typeface": "Avenir Next",
+              "color": "#EAF0F9"
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 18,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/obm58z25",
+      "id": "18",
+      "bbox": [
+        640,
+        402,
+        7,
+        7
+      ],
+      "geometry": "ellipse",
+      "fillColor": "#6AA3FF",
+      "lineColor": "#6AA3FF",
+      "lineWidth": 0
+    },
+    {
+      "order": 19,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/hwfyxobm",
+      "id": "19",
+      "bbox": [
+        658,
+        394,
+        502,
+        36
+      ],
+      "geometry": "rect",
+      "text": "Structuration d'un hebergement simple a administrer",
+      "textPreview": "Structuration d'un hebergement simple a administrer",
+      "resolvedFontSize": 13,
+      "resolvedTextStyle": {
+        "fontSize": 13,
+        "typeface": "Avenir Next",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Structuration d'un hebergement simple a administrer"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Structuration d'un hebergement simple a administrer",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Structuration d'un hebergement simple a administrer",
+              "fontSize": 13,
+              "typeface": "Avenir Next",
+              "color": "#EAF0F9"
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 20,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/18jqh0fe",
+      "id": "20",
+      "bbox": [
+        640,
+        446,
+        160,
+        18
+      ],
+      "geometry": "rect",
+      "text": "Technologies",
+      "textPreview": "Technologies",
+      "resolvedFontSize": 12,
+      "resolvedTextStyle": {
+        "fontSize": 12,
+        "typeface": "Avenir Next",
+        "bold": true,
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Technologies"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Technologies",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Technologies",
+              "fontSize": 12,
+              "typeface": "Avenir Next",
+              "color": "#6AA3FF",
+              "bold": true
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 21,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/8nqxs72x",
+      "id": "21",
+      "bbox": [
+        640,
+        472,
+        500,
+        18
+      ],
+      "geometry": "rect",
+      "text": "VMware • Docker • Linux • Serveur web",
+      "textPreview": "VMware • Docker • Linux • Serveur web",
+      "resolvedFontSize": 12,
+      "resolvedTextStyle": {
+        "fontSize": 12,
+        "typeface": "Avenir Next",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "VMware • Docker • Linux • Serveur web"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "VMware • Docker • Linux • Serveur web",
+          "runs": [
+            {
+              "index": 1,
+              "text": "VMware • Docker • Linux • Serveur web",
+              "fontSize": 12,
+              "typeface": "Avenir Next",
+              "color": "#C8D0DC"
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 22,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/j2t83itg",
+      "id": "22",
+      "bbox": [
+        640,
+        510,
+        120,
+        18
+      ],
+      "geometry": "rect",
+      "text": "Livrables",
+      "textPreview": "Livrables",
+      "resolvedFontSize": 12,
+      "resolvedTextStyle": {
+        "fontSize": 12,
+        "typeface": "Avenir Next",
+        "bold": true,
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Livrables"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Livrables",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Livrables",
+              "fontSize": 12,
+              "typeface": "Avenir Next",
+              "color": "#6AA3FF",
+              "bold": true
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 23,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/qh0fepkz",
+      "id": "23",
+      "bbox": [
+        640,
+        536,
+        220,
+        18
+      ],
+      "geometry": "rect",
+      "text": "1 dossier technique",
+      "textPreview": "1 dossier technique",
+      "resolvedFontSize": 12,
+      "resolvedTextStyle": {
+        "fontSize": 12,
+        "typeface": "Avenir Next",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "1 dossier technique"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "1 dossier technique",
+          "runs": [
+            {
+              "index": 1,
+              "text": "1 dossier technique",
+              "fontSize": 12,
+              "typeface": "Avenir Next",
+              "color": "#C8D0DC"
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 24,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/1w7mp0bi",
+      "id": "24",
+      "bbox": [
+        70,
+        676,
+        1140,
+        1
+      ],
+      "geometry": "rect",
+      "fillColor": "rgba(58, 71, 92, 0.66667)",
+      "lineColor": "rgba(58, 71, 92, 0.66667)",
+      "lineWidth": 0
+    },
+    {
+      "order": 25,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/8bat47y1",
+      "id": "25",
+      "bbox": [
+        70,
+        686,
+        900,
+        16
+      ],
+      "geometry": "rect",
+      "text": "Projet: Serveur web conteneurise",
+      "textPreview": "Projet: Serveur web conteneurise",
+      "resolvedFontSize": 8.51,
+      "resolvedTextStyle": {
+        "fontSize": 8.51,
+        "typeface": "Avenir Next",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Projet: Serveur web conteneurise"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Projet: Serveur web conteneurise",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Projet: Serveur web conteneurise",
+              "fontSize": 8.51,
+              "typeface": "Avenir Next",
+              "color": "#C8D0DC"
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 26,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/jqh0fepk",
+      "id": "26",
+      "bbox": [
+        1160,
+        682,
+        50,
+        20
+      ],
+      "geometry": "rect",
+      "text": "06",
+      "textPreview": "06",
+      "resolvedFontSize": 11,
+      "resolvedTextStyle": {
+        "fontSize": 11,
+        "typeface": "Avenir Next",
+        "bold": true,
+        "alignment": "right"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "06"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "06",
+          "runs": [
+            {
+              "index": 1,
+              "text": "06",
+              "fontSize": 11,
+              "typeface": "Avenir Next",
+              "color": "#C8D0DC",
+              "bold": true
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

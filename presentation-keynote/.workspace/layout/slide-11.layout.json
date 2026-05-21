@@ -1,0 +1,1090 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/diix7j",
+    "id": "diix7j",
+    "slide": 11,
+    "layoutId": "3fb6630f-632f-4814-98b4-1ac3d12d3004",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "b81d15e6-e7dd-47cb-b04a-441fa6739bb7",
+    "masterLayoutName": "Master",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "Avenir Next"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "3fb6630f-632f-4814-98b4-1ac3d12d3004",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "b81d15e6-e7dd-47cb-b04a-441fa6739bb7",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "b81d15e6-e7dd-47cb-b04a-441fa6739bb7",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/j2t83itg",
+      "id": "1",
+      "bbox": [
+        0,
+        0,
+        1280,
+        720
+      ],
+      "geometry": "rect",
+      "fillColor": "#141922",
+      "lineColor": "#141922",
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/8nqxs72x",
+      "id": "2",
+      "bbox": [
+        -90,
+        -150,
+        520,
+        520
+      ],
+      "geometry": "ellipse",
+      "fillColor": "rgba(106, 163, 255, 0.08627)",
+      "lineColor": "rgba(106, 163, 255, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/18jqh0fe",
+      "id": "3",
+      "bbox": [
+        940,
+        -120,
+        420,
+        420
+      ],
+      "geometry": "ellipse",
+      "fillColor": "rgba(138, 182, 255, 0.06275)",
+      "lineColor": "rgba(138, 182, 255, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/q5o7qpg3",
+      "id": "4",
+      "bbox": [
+        920,
+        470,
+        360,
+        260
+      ],
+      "geometry": "ellipse",
+      "fillColor": "rgba(106, 163, 255, 0.06275)",
+      "lineColor": "rgba(106, 163, 255, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/jqh0fepk",
+      "id": "5",
+      "bbox": [
+        70,
+        50,
+        460,
+        18
+      ],
+      "geometry": "rect",
+      "text": "VEILLE TECHNOLOGIQUE",
+      "textPreview": "VEILLE TECHNOLOGIQUE",
+      "resolvedFontSize": 10,
+      "resolvedTextStyle": {
+        "fontSize": 10,
+        "typeface": "Avenir Next",
+        "bold": true,
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "VEILLE TECHNOLOGIQUE"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "VEILLE TECHNOLOGIQUE",
+          "runs": [
+            {
+              "index": 1,
+              "text": "VEILLE TECHNOLOGIQUE",
+              "fontSize": 10,
+              "typeface": "Avenir Next",
+              "color": "#6AA3FF",
+              "bold": true
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/8bat47y1",
+      "id": "6",
+      "bbox": [
+        70,
+        78,
+        760,
+        54
+      ],
+      "geometry": "rect",
+      "text": "Une veille simple, reguliere et reutilisable",
+      "textPreview": "Une veille simple, reguliere et reutilisable",
+      "resolvedFontSize": 29,
+      "resolvedTextStyle": {
+        "fontSize": 29,
+        "typeface": "Avenir Next",
+        "bold": true,
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Une veille simple, reguliere et reutilisable"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Une veille simple, reguliere et reutilisable",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Une veille simple, reguliere et reutilisable",
+              "fontSize": 29,
+              "typeface": "Avenir Next",
+              "color": "#F5F6F8",
+              "bold": true
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/1w7mp0bi",
+      "id": "7",
+      "bbox": [
+        70,
+        136,
+        780,
+        36
+      ],
+      "geometry": "rect",
+      "text": "Une veille structuree, datee et exploitable pour le BTS SIO.",
+      "textPreview": "Une veille structuree, datee et exploitable pour le BTS SIO.",
+      "resolvedFontSize": 13.51,
+      "resolvedTextStyle": {
+        "fontSize": 13.51,
+        "typeface": "Avenir Next",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Une veille structuree, datee et exploitable pour le BTS SIO."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Une veille structuree, datee et exploitable pour le BTS SIO.",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Une veille structuree, datee et exploitable pour le BTS SIO.",
+              "fontSize": 13.51,
+              "typeface": "Avenir Next",
+              "color": "#C8D0DC"
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/uxc3ylc7",
+      "id": "8",
+      "bbox": [
+        70,
+        206,
+        1140,
+        144
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#1C2532",
+      "lineColor": "#34445A",
+      "lineWidth": 1
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ji5snelo",
+      "id": "9",
+      "bbox": [
+        98,
+        236,
+        640,
+        76
+      ],
+      "geometry": "rect",
+      "text": "Ma veille repose sur un cycle hebdomadaire: reception des informations, tri des contenus utiles, synthese assistee par IA puis relecture pour conserver les elements exploitables dans le cadre du BTS SIO SISR.",
+      "textPreview": "Ma veille repose sur un cycle hebdomadaire: reception des informations, tri des contenus utiles, synthese assistee par IA puis relecture ...",
+      "resolvedFontSize": 14.51,
+      "resolvedTextStyle": {
+        "fontSize": 14.51,
+        "typeface": "Avenir Next",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Ma veille repose sur un cycle hebdomadaire: reception des informations, tri des contenus utiles,"
+          },
+          {
+            "index": 2,
+            "text": "synthese assistee par IA puis relecture pour conserver les elements exploitables dans le cadre du"
+          },
+          {
+            "index": 3,
+            "text": "BTS SIO SISR."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Ma veille repose sur un cycle hebdomadaire: reception des informations, tri des contenus utiles, synthese assistee par IA puis relecture pour conserver les elements exploitables dans le cadre du BTS SIO SISR.",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Ma veille repose sur un cycle hebdomadaire: reception des informations, tri des contenus utiles, synthese assistee par IA puis relecture pour conserver les elements exploitables dans le cadre du BTS SIO SISR.",
+              "fontSize": 14.51,
+              "typeface": "Avenir Next",
+              "color": "#C8D0DC"
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/vu9knih4",
+      "id": "10",
+      "bbox": [
+        790,
+        244,
+        7,
+        7
+      ],
+      "geometry": "ellipse",
+      "fillColor": "#6AA3FF",
+      "lineColor": "#6AA3FF",
+      "lineWidth": 0
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/29gr2p8n",
+      "id": "11",
+      "bbox": [
+        808,
+        236,
+        332,
+        28
+      ],
+      "geometry": "rect",
+      "text": "1 revue par semaine",
+      "textPreview": "1 revue par semaine",
+      "resolvedFontSize": 12.51,
+      "resolvedTextStyle": {
+        "fontSize": 12.51,
+        "typeface": "Avenir Next",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "1 revue par semaine"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "1 revue par semaine",
+          "runs": [
+            {
+              "index": 1,
+              "text": "1 revue par semaine",
+              "fontSize": 12.51,
+              "typeface": "Avenir Next",
+              "color": "#EAF0F9"
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 12,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/d0z61032",
+      "id": "12",
+      "bbox": [
+        790,
+        272,
+        7,
+        7
+      ],
+      "geometry": "ellipse",
+      "fillColor": "#6AA3FF",
+      "lineColor": "#6AA3FF",
+      "lineWidth": 0
+    },
+    {
+      "order": 13,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/kf6dcbul",
+      "id": "13",
+      "bbox": [
+        808,
+        264,
+        332,
+        28
+      ],
+      "geometry": "rect",
+      "text": "Sources specialisees et officielles",
+      "textPreview": "Sources specialisees et officielles",
+      "resolvedFontSize": 12.51,
+      "resolvedTextStyle": {
+        "fontSize": 12.51,
+        "typeface": "Avenir Next",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Sources specialisees et officielles"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Sources specialisees et officielles",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Sources specialisees et officielles",
+              "fontSize": 12.51,
+              "typeface": "Avenir Next",
+              "color": "#EAF0F9"
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 14,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/v6psfil0",
+      "id": "14",
+      "bbox": [
+        790,
+        300,
+        7,
+        7
+      ],
+      "geometry": "ellipse",
+      "fillColor": "#6AA3FF",
+      "lineColor": "#6AA3FF",
+      "lineWidth": 0
+    },
+    {
+      "order": 15,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/2lszqtcj",
+      "id": "15",
+      "bbox": [
+        808,
+        292,
+        332,
+        28
+      ],
+      "geometry": "rect",
+      "text": "Syntheses datees et exploitables a l'oral",
+      "textPreview": "Syntheses datees et exploitables a l'oral",
+      "resolvedFontSize": 12.51,
+      "resolvedTextStyle": {
+        "fontSize": 12.51,
+        "typeface": "Avenir Next",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Syntheses datees et exploitables a l'oral"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Syntheses datees et exploitables a l'oral",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Syntheses datees et exploitables a l'oral",
+              "fontSize": 12.51,
+              "typeface": "Avenir Next",
+              "color": "#EAF0F9"
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 16,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/d8bat47y",
+      "id": "16",
+      "bbox": [
+        70,
+        396,
+        540,
+        190
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#1B2431",
+      "lineColor": "#34445A",
+      "lineWidth": 1
+    },
+    {
+      "order": 17,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/fa9w3m94",
+      "id": "17",
+      "bbox": [
+        94,
+        424,
+        34,
+        34
+      ],
+      "alt": "Shield icon",
+      "contentType": "image/svg+xml",
+      "asset": {
+        "assetId": "7a7b27c3-0aa6-4944-a581-4646dad39361",
+        "contentType": "image/svg+xml",
+        "byteLength": 358
+      }
+    },
+    {
+      "order": 18,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/val87ed8",
+      "id": "18",
+      "bbox": [
+        452,
+        424,
+        130,
+        24
+      ],
+      "geometry": "roundRect",
+      "fillColor": "rgba(106, 163, 255, 0.10196)",
+      "lineColor": "rgba(106, 163, 255, 0.26667)",
+      "lineWidth": 1
+    },
+    {
+      "order": 19,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/6psfil0r",
+      "id": "19",
+      "bbox": [
+        464,
+        431,
+        106,
+        14
+      ],
+      "geometry": "rect",
+      "text": "Sujet prioritaire",
+      "textPreview": "Sujet prioritaire",
+      "resolvedFontSize": 9,
+      "resolvedTextStyle": {
+        "fontSize": 9,
+        "typeface": "Avenir Next",
+        "bold": true,
+        "alignment": "center"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Sujet prioritaire"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Sujet prioritaire",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Sujet prioritaire",
+              "fontSize": 9,
+              "typeface": "Avenir Next",
+              "color": "#EAF0F9",
+              "bold": true
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 20,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/a1gvy90j",
+      "id": "20",
+      "bbox": [
+        144,
+        424,
+        250,
+        24
+      ],
+      "geometry": "rect",
+      "text": "Cybersecurite",
+      "textPreview": "Cybersecurite",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "fontSize": 18,
+        "typeface": "Avenir Next",
+        "bold": true,
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Cybersecurite"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Cybersecurite",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Cybersecurite",
+              "fontSize": 18,
+              "typeface": "Avenir Next",
+              "color": "#F5F6F8",
+              "bold": true
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 21,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/zidonyd0",
+      "id": "21",
+      "bbox": [
+        94,
+        474,
+        488,
+        74
+      ],
+      "geometry": "rect",
+      "text": "Suivi des vulnerabilites, recommandations de l'ANSSI et alertes utiles pour la securisation des systemes et reseaux.",
+      "textPreview": "Suivi des vulnerabilites, recommandations de l'ANSSI et alertes utiles pour la securisation des systemes et reseaux.",
+      "resolvedFontSize": 13,
+      "resolvedTextStyle": {
+        "fontSize": 13,
+        "typeface": "Avenir Next",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Suivi des vulnerabilites, recommandations de l'ANSSI et alertes utiles pour la"
+          },
+          {
+            "index": 2,
+            "text": "securisation des systemes et reseaux."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Suivi des vulnerabilites, recommandations de l'ANSSI et alertes utiles pour la securisation des systemes et reseaux.",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Suivi des vulnerabilites, recommandations de l'ANSSI et alertes utiles pour la securisation des systemes et reseaux.",
+              "fontSize": 13,
+              "typeface": "Avenir Next",
+              "color": "#C8D0DC"
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 22,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/s36hcrmh",
+      "id": "22",
+      "bbox": [
+        640,
+        396,
+        540,
+        190
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#1B2431",
+      "lineColor": "#34445A",
+      "lineWidth": 1
+    },
+    {
+      "order": 23,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/ex0nuxc3",
+      "id": "23",
+      "bbox": [
+        664,
+        424,
+        34,
+        34
+      ],
+      "alt": "Brain icon",
+      "contentType": "image/svg+xml",
+      "asset": {
+        "assetId": "6f43504c-ddfa-402c-b30a-0a718dd406aa",
+        "contentType": "image/svg+xml",
+        "byteLength": 545
+      }
+    },
+    {
+      "order": 24,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ap4r65wj",
+      "id": "24",
+      "bbox": [
+        1022,
+        424,
+        130,
+        24
+      ],
+      "geometry": "roundRect",
+      "fillColor": "rgba(106, 163, 255, 0.10196)",
+      "lineColor": "rgba(106, 163, 255, 0.26667)",
+      "lineWidth": 1
+    },
+    {
+      "order": 25,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/za1gvy90",
+      "id": "25",
+      "bbox": [
+        1034,
+        431,
+        106,
+        14
+      ],
+      "geometry": "rect",
+      "text": "Sujet complementaire",
+      "textPreview": "Sujet complementaire",
+      "resolvedFontSize": 9,
+      "resolvedTextStyle": {
+        "fontSize": 9,
+        "typeface": "Avenir Next",
+        "bold": true,
+        "alignment": "center"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Sujet complementaire"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Sujet complementaire",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Sujet complementaire",
+              "fontSize": 9,
+              "typeface": "Avenir Next",
+              "color": "#EAF0F9",
+              "bold": true
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 26,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/svu9knih",
+      "id": "26",
+      "bbox": [
+        714,
+        424,
+        250,
+        24
+      ],
+      "geometry": "rect",
+      "text": "Intelligence artificielle",
+      "textPreview": "Intelligence artificielle",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "fontSize": 18,
+        "typeface": "Avenir Next",
+        "bold": true,
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Intelligence artificielle"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Intelligence artificielle",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Intelligence artificielle",
+              "fontSize": 18,
+              "typeface": "Avenir Next",
+              "color": "#F5F6F8",
+              "bold": true
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 27,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/hgn29gr2",
+      "id": "27",
+      "bbox": [
+        664,
+        474,
+        488,
+        74
+      ],
+      "geometry": "rect",
+      "text": "Suivi des evolutions de l'IA, de ses usages professionnels, de ses enjeux de conformite et de son impact sur les pratiques IT.",
+      "textPreview": "Suivi des evolutions de l'IA, de ses usages professionnels, de ses enjeux de conformite et de son impact sur les pratiques IT.",
+      "resolvedFontSize": 13,
+      "resolvedTextStyle": {
+        "fontSize": 13,
+        "typeface": "Avenir Next",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Suivi des evolutions de l'IA, de ses usages professionnels, de ses enjeux de"
+          },
+          {
+            "index": 2,
+            "text": "conformite et de son impact sur les pratiques IT."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Suivi des evolutions de l'IA, de ses usages professionnels, de ses enjeux de conformite et de son impact sur les pratiques IT.",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Suivi des evolutions de l'IA, de ses usages professionnels, de ses enjeux de conformite et de son impact sur les pratiques IT.",
+              "fontSize": 13,
+              "typeface": "Avenir Next",
+              "color": "#C8D0DC"
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 28,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/adsji5sn",
+      "id": "28",
+      "bbox": [
+        70,
+        676,
+        1140,
+        1
+      ],
+      "geometry": "rect",
+      "fillColor": "rgba(58, 71, 92, 0.66667)",
+      "lineColor": "rgba(58, 71, 92, 0.66667)",
+      "lineWidth": 0
+    },
+    {
+      "order": 29,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/3ylc7u54",
+      "id": "29",
+      "bbox": [
+        70,
+        686,
+        900,
+        16
+      ],
+      "geometry": "rect",
+      "text": "Portfolio BTS SIO SISR",
+      "textPreview": "Portfolio BTS SIO SISR",
+      "resolvedFontSize": 8.51,
+      "resolvedTextStyle": {
+        "fontSize": 8.51,
+        "typeface": "Avenir Next",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Portfolio BTS SIO SISR"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Portfolio BTS SIO SISR",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Portfolio BTS SIO SISR",
+              "fontSize": 8.51,
+              "typeface": "Avenir Next",
+              "color": "#C8D0DC"
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 30,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/5o7qpg3e",
+      "id": "30",
+      "bbox": [
+        1160,
+        682,
+        50,
+        20
+      ],
+      "geometry": "rect",
+      "text": "11",
+      "textPreview": "11",
+      "resolvedFontSize": 11,
+      "resolvedTextStyle": {
+        "fontSize": 11,
+        "typeface": "Avenir Next",
+        "bold": true,
+        "alignment": "right"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "11"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "11",
+          "runs": [
+            {
+              "index": 1,
+              "text": "11",
+              "fontSize": 11,
+              "typeface": "Avenir Next",
+              "color": "#C8D0DC",
+              "bold": true
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

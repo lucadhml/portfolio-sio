@@ -1,0 +1,971 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/wk7fht",
+    "id": "wk7fht",
+    "slide": 9,
+    "layoutId": "3fb6630f-632f-4814-98b4-1ac3d12d3004",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "b81d15e6-e7dd-47cb-b04a-441fa6739bb7",
+    "masterLayoutName": "Master",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "Avenir Next"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "3fb6630f-632f-4814-98b4-1ac3d12d3004",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "b81d15e6-e7dd-47cb-b04a-441fa6739bb7",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "b81d15e6-e7dd-47cb-b04a-441fa6739bb7",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/zupwb2hw",
+      "id": "1",
+      "bbox": [
+        0,
+        0,
+        1280,
+        720
+      ],
+      "geometry": "rect",
+      "fillColor": "#141922",
+      "lineColor": "#141922",
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/sfil0rqd",
+      "id": "2",
+      "bbox": [
+        -90,
+        -150,
+        520,
+        520
+      ],
+      "geometry": "ellipse",
+      "fillColor": "rgba(106, 163, 255, 0.08627)",
+      "lineColor": "rgba(106, 163, 255, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/h0fepkzu",
+      "id": "3",
+      "bbox": [
+        940,
+        -120,
+        420,
+        420
+      ],
+      "geometry": "ellipse",
+      "fillColor": "rgba(138, 182, 255, 0.06275)",
+      "lineColor": "rgba(138, 182, 255, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/al87ed8b",
+      "id": "4",
+      "bbox": [
+        920,
+        470,
+        360,
+        260
+      ],
+      "geometry": "ellipse",
+      "fillColor": "rgba(106, 163, 255, 0.06275)",
+      "lineColor": "rgba(106, 163, 255, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/z61032ls",
+      "id": "5",
+      "bbox": [
+        70,
+        50,
+        460,
+        18
+      ],
+      "geometry": "rect",
+      "text": "PROJET 5",
+      "textPreview": "PROJET 5",
+      "resolvedFontSize": 10,
+      "resolvedTextStyle": {
+        "fontSize": 10,
+        "typeface": "Avenir Next",
+        "bold": true,
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "PROJET 5"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "PROJET 5",
+          "runs": [
+            {
+              "index": 1,
+              "text": "PROJET 5",
+              "fontSize": 10,
+              "typeface": "Avenir Next",
+              "color": "#6AA3FF",
+              "bold": true
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/orytsvu9",
+      "id": "6",
+      "bbox": [
+        70,
+        78,
+        760,
+        54
+      ],
+      "geometry": "rect",
+      "text": "Deploiement de Windows 11",
+      "textPreview": "Deploiement de Windows 11",
+      "resolvedFontSize": 29,
+      "resolvedTextStyle": {
+        "fontSize": 29,
+        "typeface": "Avenir Next",
+        "bold": true,
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Deploiement de Windows 11"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Deploiement de Windows 11",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Deploiement de Windows 11",
+              "fontSize": 29,
+              "typeface": "Avenir Next",
+              "color": "#F5F6F8",
+              "bold": true
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/hcrmhk3q",
+      "id": "7",
+      "bbox": [
+        70,
+        136,
+        780,
+        36
+      ],
+      "geometry": "rect",
+      "text": "Deploiement multi-postes pour obtenir un environnement homogene, stable et securise.",
+      "textPreview": "Deploiement multi-postes pour obtenir un environnement homogene, stable et securise.",
+      "resolvedFontSize": 13.51,
+      "resolvedTextStyle": {
+        "fontSize": 13.51,
+        "typeface": "Avenir Next",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Deploiement multi-postes pour obtenir un environnement homogene, stable et securise."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Deploiement multi-postes pour obtenir un environnement homogene, stable et securise.",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Deploiement multi-postes pour obtenir un environnement homogene, stable et securise.",
+              "fontSize": 13.51,
+              "typeface": "Avenir Next",
+              "color": "#C8D0DC"
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/6xkf6dcb",
+      "id": "8",
+      "bbox": [
+        70,
+        216,
+        500,
+        340
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#1C2532",
+      "lineColor": "#34445A",
+      "lineWidth": 1
+    },
+    {
+      "order": 9,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/q5o7qpg3",
+      "id": "9",
+      "bbox": [
+        92,
+        240,
+        456,
+        292
+      ],
+      "alt": "Deploiement de Windows 11",
+      "contentType": "image/png",
+      "asset": {
+        "assetId": "5501bc69-1ca3-4667-a7e4-71ca56d1dea8",
+        "contentType": "image/png",
+        "byteLength": 2027142
+      }
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/n29gr2p8",
+      "id": "10",
+      "bbox": [
+        612,
+        216,
+        598,
+        340
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#1B2431",
+      "lineColor": "#34445A",
+      "lineWidth": 1
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/yhgn29gr",
+      "id": "11",
+      "bbox": [
+        640,
+        244,
+        104,
+        24
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#294664",
+      "lineColor": "#55749D",
+      "lineWidth": 1
+    },
+    {
+      "order": 12,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/58z25kb6",
+      "id": "12",
+      "bbox": [
+        652,
+        251,
+        80,
+        14
+      ],
+      "geometry": "rect",
+      "text": "Entreprise",
+      "textPreview": "Entreprise",
+      "resolvedFontSize": 9,
+      "resolvedTextStyle": {
+        "fontSize": 9,
+        "typeface": "Avenir Next",
+        "bold": true,
+        "alignment": "center"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Entreprise"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Entreprise",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Entreprise",
+              "fontSize": 9,
+              "typeface": "Avenir Next",
+              "color": "#EAF0F9",
+              "bold": true
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 13,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/gn29gr2p",
+      "id": "13",
+      "bbox": [
+        640,
+        288,
+        230,
+        22
+      ],
+      "geometry": "rect",
+      "text": "Objectifs et realisations",
+      "textPreview": "Objectifs et realisations",
+      "resolvedFontSize": 14,
+      "resolvedTextStyle": {
+        "fontSize": 14,
+        "typeface": "Avenir Next",
+        "bold": true,
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Objectifs et realisations"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Objectifs et realisations",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Objectifs et realisations",
+              "fontSize": 14,
+              "typeface": "Avenir Next",
+              "color": "#F5F6F8",
+              "bold": true
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 14,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/nuxc3ylc",
+      "id": "14",
+      "bbox": [
+        640,
+        330,
+        7,
+        7
+      ],
+      "geometry": "ellipse",
+      "fillColor": "#6AA3FF",
+      "lineColor": "#6AA3FF",
+      "lineWidth": 0
+    },
+    {
+      "order": 15,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/y90je9cv",
+      "id": "15",
+      "bbox": [
+        658,
+        322,
+        502,
+        36
+      ],
+      "geometry": "rect",
+      "text": "Preparation et standardisation des postes",
+      "textPreview": "Preparation et standardisation des postes",
+      "resolvedFontSize": 13,
+      "resolvedTextStyle": {
+        "fontSize": 13,
+        "typeface": "Avenir Next",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Preparation et standardisation des postes"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Preparation et standardisation des postes",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Preparation et standardisation des postes",
+              "fontSize": 13,
+              "typeface": "Avenir Next",
+              "color": "#EAF0F9"
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 16,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/5wjudg7a",
+      "id": "16",
+      "bbox": [
+        640,
+        366,
+        7,
+        7
+      ],
+      "geometry": "ellipse",
+      "fillColor": "#6AA3FF",
+      "lineColor": "#6AA3FF",
+      "lineWidth": 0
+    },
+    {
+      "order": 17,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/gbq1oryt",
+      "id": "17",
+      "bbox": [
+        658,
+        358,
+        502,
+        36
+      ],
+      "geometry": "rect",
+      "text": "Configuration et mise a jour",
+      "textPreview": "Configuration et mise a jour",
+      "resolvedFontSize": 13,
+      "resolvedTextStyle": {
+        "fontSize": 13,
+        "typeface": "Avenir Next",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Configuration et mise a jour"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Configuration et mise a jour",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Configuration et mise a jour",
+              "fontSize": 13,
+              "typeface": "Avenir Next",
+              "color": "#EAF0F9"
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 18,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/nqxs72x4",
+      "id": "18",
+      "bbox": [
+        640,
+        402,
+        7,
+        7
+      ],
+      "geometry": "ellipse",
+      "fillColor": "#6AA3FF",
+      "lineColor": "#6AA3FF",
+      "lineWidth": 0
+    },
+    {
+      "order": 19,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/u54zidon",
+      "id": "19",
+      "bbox": [
+        658,
+        394,
+        502,
+        36
+      ],
+      "geometry": "rect",
+      "text": "Procedure de deploiement documentee",
+      "textPreview": "Procedure de deploiement documentee",
+      "resolvedFontSize": 13,
+      "resolvedTextStyle": {
+        "fontSize": 13,
+        "typeface": "Avenir Next",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Procedure de deploiement documentee"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Procedure de deploiement documentee",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Procedure de deploiement documentee",
+              "fontSize": 13,
+              "typeface": "Avenir Next",
+              "color": "#EAF0F9"
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 20,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/29gr2p8n",
+      "id": "20",
+      "bbox": [
+        640,
+        446,
+        160,
+        18
+      ],
+      "geometry": "rect",
+      "text": "Technologies",
+      "textPreview": "Technologies",
+      "resolvedFontSize": 12,
+      "resolvedTextStyle": {
+        "fontSize": 12,
+        "typeface": "Avenir Next",
+        "bold": true,
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Technologies"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Technologies",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Technologies",
+              "fontSize": 12,
+              "typeface": "Avenir Next",
+              "color": "#6AA3FF",
+              "bold": true
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 21,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/vu9knih4",
+      "id": "21",
+      "bbox": [
+        640,
+        472,
+        500,
+        18
+      ],
+      "geometry": "rect",
+      "text": "Windows 11 • Deploiement • Standardisation • Securisation",
+      "textPreview": "Windows 11 • Deploiement • Standardisation • Securisation",
+      "resolvedFontSize": 12,
+      "resolvedTextStyle": {
+        "fontSize": 12,
+        "typeface": "Avenir Next",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Windows 11 • Deploiement • Standardisation • Securisation"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Windows 11 • Deploiement • Standardisation • Securisation",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Windows 11 • Deploiement • Standardisation • Securisation",
+              "fontSize": 12,
+              "typeface": "Avenir Next",
+              "color": "#C8D0DC"
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 22,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/kf6dcbul",
+      "id": "22",
+      "bbox": [
+        640,
+        510,
+        120,
+        18
+      ],
+      "geometry": "rect",
+      "text": "Livrables",
+      "textPreview": "Livrables",
+      "resolvedFontSize": 12,
+      "resolvedTextStyle": {
+        "fontSize": 12,
+        "typeface": "Avenir Next",
+        "bold": true,
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Livrables"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Livrables",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Livrables",
+              "fontSize": 12,
+              "typeface": "Avenir Next",
+              "color": "#6AA3FF",
+              "bold": true
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 23,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/d0z61032",
+      "id": "23",
+      "bbox": [
+        640,
+        536,
+        220,
+        18
+      ],
+      "geometry": "rect",
+      "text": "1 dossier technique + 1 procedure",
+      "textPreview": "1 dossier technique + 1 procedure",
+      "resolvedFontSize": 12,
+      "resolvedTextStyle": {
+        "fontSize": 12,
+        "typeface": "Avenir Next",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "1 dossier technique + 1 procedure"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "1 dossier technique + 1 procedure",
+          "runs": [
+            {
+              "index": 1,
+              "text": "1 dossier technique + 1 procedure",
+              "fontSize": 12,
+              "typeface": "Avenir Next",
+              "color": "#C8D0DC"
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 24,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/2lszqtcj",
+      "id": "24",
+      "bbox": [
+        70,
+        676,
+        1140,
+        1
+      ],
+      "geometry": "rect",
+      "fillColor": "rgba(58, 71, 92, 0.66667)",
+      "lineColor": "rgba(58, 71, 92, 0.66667)",
+      "lineWidth": 0
+    },
+    {
+      "order": 25,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/v6psfil0",
+      "id": "25",
+      "bbox": [
+        70,
+        686,
+        900,
+        16
+      ],
+      "geometry": "rect",
+      "text": "Projet: Deploiement Windows 11",
+      "textPreview": "Projet: Deploiement Windows 11",
+      "resolvedFontSize": 8.51,
+      "resolvedTextStyle": {
+        "fontSize": 8.51,
+        "typeface": "Avenir Next",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Projet: Deploiement Windows 11"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Projet: Deploiement Windows 11",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Projet: Deploiement Windows 11",
+              "fontSize": 8.51,
+              "typeface": "Avenir Next",
+              "color": "#C8D0DC"
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 26,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/knih4byh",
+      "id": "26",
+      "bbox": [
+        1160,
+        682,
+        50,
+        20
+      ],
+      "geometry": "rect",
+      "text": "09",
+      "textPreview": "09",
+      "resolvedFontSize": 11,
+      "resolvedTextStyle": {
+        "fontSize": 11,
+        "typeface": "Avenir Next",
+        "bold": true,
+        "alignment": "right"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "09"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "09",
+          "runs": [
+            {
+              "index": 1,
+              "text": "09",
+              "fontSize": 11,
+              "typeface": "Avenir Next",
+              "color": "#C8D0DC",
+              "bold": true
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

@@ -1,0 +1,1422 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/pwkq3j",
+    "id": "pwkq3j",
+    "slide": 2,
+    "layoutId": "3fb6630f-632f-4814-98b4-1ac3d12d3004",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "b81d15e6-e7dd-47cb-b04a-441fa6739bb7",
+    "masterLayoutName": "Master",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "Avenir Next"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "3fb6630f-632f-4814-98b4-1ac3d12d3004",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "b81d15e6-e7dd-47cb-b04a-441fa6739bb7",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "b81d15e6-e7dd-47cb-b04a-441fa6739bb7",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/65wjudg7",
+      "id": "1",
+      "bbox": [
+        0,
+        0,
+        1280,
+        720
+      ],
+      "geometry": "rect",
+      "fillColor": "#141922",
+      "lineColor": "#141922",
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/hwfyxobm",
+      "id": "2",
+      "bbox": [
+        -90,
+        -150,
+        520,
+        520
+      ],
+      "geometry": "ellipse",
+      "fillColor": "rgba(106, 163, 255, 0.08627)",
+      "lineColor": "rgba(106, 163, 255, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/obm58z25",
+      "id": "3",
+      "bbox": [
+        940,
+        -120,
+        420,
+        420
+      ],
+      "geometry": "ellipse",
+      "fillColor": "rgba(138, 182, 255, 0.06275)",
+      "lineColor": "rgba(138, 182, 255, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/zed8v6ps",
+      "id": "4",
+      "bbox": [
+        920,
+        470,
+        360,
+        260
+      ],
+      "geometry": "ellipse",
+      "fillColor": "rgba(106, 163, 255, 0.06275)",
+      "lineColor": "rgba(106, 163, 255, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/6xkf6dcb",
+      "id": "5",
+      "bbox": [
+        70,
+        50,
+        460,
+        18
+      ],
+      "geometry": "rect",
+      "text": "A PROPOS",
+      "textPreview": "A PROPOS",
+      "resolvedFontSize": 10,
+      "resolvedTextStyle": {
+        "fontSize": 10,
+        "typeface": "Avenir Next",
+        "bold": true,
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "A PROPOS"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "A PROPOS",
+          "runs": [
+            {
+              "index": 1,
+              "text": "A PROPOS",
+              "fontSize": 10,
+              "typeface": "Avenir Next",
+              "color": "#6AA3FF",
+              "bold": true
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/hk3q5o7q",
+      "id": "6",
+      "bbox": [
+        70,
+        78,
+        760,
+        54
+      ],
+      "geometry": "rect",
+      "text": "Profil",
+      "textPreview": "Profil",
+      "resolvedFontSize": 29,
+      "resolvedTextStyle": {
+        "fontSize": 29,
+        "typeface": "Avenir Next",
+        "bold": true,
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Profil"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Profil",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Profil",
+              "fontSize": 29,
+              "typeface": "Avenir Next",
+              "color": "#F5F6F8",
+              "bold": true
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/oza1gvy9",
+      "id": "7",
+      "bbox": [
+        70,
+        136,
+        780,
+        36
+      ],
+      "geometry": "rect",
+      "text": "Un profil SISR construit autour des infrastructures, de la rigueur et de la montee en competences.",
+      "textPreview": "Un profil SISR construit autour des infrastructures, de la rigueur et de la montee en competences.",
+      "resolvedFontSize": 13.51,
+      "resolvedTextStyle": {
+        "fontSize": 13.51,
+        "typeface": "Avenir Next",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Un profil SISR construit autour des infrastructures, de la rigueur et de la montee en competences."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Un profil SISR construit autour des infrastructures, de la rigueur et de la montee en competences.",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Un profil SISR construit autour des infrastructures, de la rigueur et de la montee en competences.",
+              "fontSize": 13.51,
+              "typeface": "Avenir Next",
+              "color": "#C8D0DC"
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/z61032ls",
+      "id": "8",
+      "bbox": [
+        70,
+        206,
+        610,
+        360
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#1B2431",
+      "lineColor": "#34445A",
+      "lineWidth": 1
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/al87ed8b",
+      "id": "9",
+      "bbox": [
+        96,
+        236,
+        560,
+        170
+      ],
+      "geometry": "rect",
+      "text": "Je m'appelle Luca Duhamel, j'ai 22 ans et je suis actuellement en deuxieme annee de BTS SIO, option SISR. Avant de me tourner vers l'informatique, j'ai suivi un parcours scientifique et medical. Mes experiences m'ont apporte rigueur, sens des procedures et logique de service, des qualites que je reinvestis aujourd'hui dans les systemes et reseaux.",
+      "textPreview": "Je m'appelle Luca Duhamel, j'ai 22 ans et je suis actuellement en deuxieme annee de BTS SIO, option SISR. Avant de me tourner vers l'info...",
+      "resolvedFontSize": 15.51,
+      "resolvedTextStyle": {
+        "fontSize": 15.51,
+        "typeface": "Avenir Next",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 5,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Je m'appelle Luca Duhamel, j'ai 22 ans et je suis actuellement en deuxieme"
+          },
+          {
+            "index": 2,
+            "text": "annee de BTS SIO, option SISR. Avant de me tourner vers l'informatique, j'ai"
+          },
+          {
+            "index": 3,
+            "text": "suivi un parcours scientifique et medical. Mes experiences m'ont apporte"
+          },
+          {
+            "index": 4,
+            "text": "rigueur, sens des procedures et logique de service, des qualites que je"
+          },
+          {
+            "index": 5,
+            "text": "reinvestis aujourd'hui dans les systemes et reseaux."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Je m'appelle Luca Duhamel, j'ai 22 ans et je suis actuellement en deuxieme annee de BTS SIO, option SISR. Avant de me tourner vers l'informatique, j'ai suivi un parcours scientifique et medical. Mes experiences m'ont apporte rigueur, sens des procedures et logique de service, des qualites que je reinvestis aujourd'hui dans les systemes et reseaux.",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Je m'appelle Luca Duhamel, j'ai 22 ans et je suis actuellement en deuxieme annee de BTS SIO, option SISR. Avant de me tourner vers l'informatique, j'ai suivi un parcours scientifique et medical. Mes experiences m'ont apporte rigueur, sens des procedures et logique de service, des qualites que je reinvestis aujourd'hui dans les systemes et reseaux.",
+              "fontSize": 15.51,
+              "typeface": "Avenir Next",
+              "color": "#C8D0DC"
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/k3q5o7qp",
+      "id": "10",
+      "bbox": [
+        96,
+        428,
+        180,
+        20
+      ],
+      "geometry": "rect",
+      "text": "Points cles",
+      "textPreview": "Points cles",
+      "resolvedFontSize": 14,
+      "resolvedTextStyle": {
+        "fontSize": 14,
+        "typeface": "Avenir Next",
+        "bold": true,
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Points cles"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Points cles",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Points cles",
+              "fontSize": 14,
+              "typeface": "Avenir Next",
+              "color": "#F5F6F8",
+              "bold": true
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/donyd0z6",
+      "id": "11",
+      "bbox": [
+        96,
+        466,
+        7,
+        7
+      ],
+      "geometry": "ellipse",
+      "fillColor": "#6AA3FF",
+      "lineColor": "#6AA3FF",
+      "lineWidth": 0
+    },
+    {
+      "order": 12,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/2x4nap4r",
+      "id": "12",
+      "bbox": [
+        114,
+        458,
+        512,
+        30
+      ],
+      "geometry": "rect",
+      "text": "Bac STL puis BTS ABM",
+      "textPreview": "Bac STL puis BTS ABM",
+      "resolvedFontSize": 13,
+      "resolvedTextStyle": {
+        "fontSize": 13,
+        "typeface": "Avenir Next",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Bac STL puis BTS ABM"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Bac STL puis BTS ABM",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Bac STL puis BTS ABM",
+              "fontSize": 13,
+              "typeface": "Avenir Next",
+              "color": "#EAF0F9"
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 13,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/vixczed8",
+      "id": "13",
+      "bbox": [
+        96,
+        496,
+        7,
+        7
+      ],
+      "geometry": "ellipse",
+      "fillColor": "#6AA3FF",
+      "lineColor": "#6AA3FF",
+      "lineWidth": 0
+    },
+    {
+      "order": 14,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/kre1w7mp",
+      "id": "14",
+      "bbox": [
+        114,
+        488,
+        512,
+        30
+      ],
+      "geometry": "rect",
+      "text": "Experience en laboratoire: rigueur et procedures",
+      "textPreview": "Experience en laboratoire: rigueur et procedures",
+      "resolvedFontSize": 13,
+      "resolvedTextStyle": {
+        "fontSize": 13,
+        "typeface": "Avenir Next",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Experience en laboratoire: rigueur et procedures"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Experience en laboratoire: rigueur et procedures",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Experience en laboratoire: rigueur et procedures",
+              "fontSize": 13,
+              "typeface": "Avenir Next",
+              "color": "#EAF0F9"
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 15,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/dcbulwva",
+      "id": "15",
+      "bbox": [
+        96,
+        526,
+        7,
+        7
+      ],
+      "geometry": "ellipse",
+      "fillColor": "#6AA3FF",
+      "lineColor": "#6AA3FF",
+      "lineWidth": 0
+    },
+    {
+      "order": 16,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/6psfil0r",
+      "id": "16",
+      "bbox": [
+        114,
+        518,
+        512,
+        30
+      ],
+      "geometry": "rect",
+      "text": "Reorientation vers l'informatique et les infrastructures",
+      "textPreview": "Reorientation vers l'informatique et les infrastructures",
+      "resolvedFontSize": 13,
+      "resolvedTextStyle": {
+        "fontSize": 13,
+        "typeface": "Avenir Next",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Reorientation vers l'informatique et les infrastructures"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Reorientation vers l'informatique et les infrastructures",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Reorientation vers l'informatique et les infrastructures",
+              "fontSize": 13,
+              "typeface": "Avenir Next",
+              "color": "#EAF0F9"
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 17,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/val87ed8",
+      "id": "17",
+      "bbox": [
+        96,
+        556,
+        7,
+        7
+      ],
+      "geometry": "ellipse",
+      "fillColor": "#6AA3FF",
+      "lineColor": "#6AA3FF",
+      "lineWidth": 0
+    },
+    {
+      "order": 18,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/knih4byh",
+      "id": "18",
+      "bbox": [
+        114,
+        548,
+        512,
+        30
+      ],
+      "geometry": "rect",
+      "text": "Alternance chez Nestle Purina en BTS SIO SISR",
+      "textPreview": "Alternance chez Nestle Purina en BTS SIO SISR",
+      "resolvedFontSize": 13,
+      "resolvedTextStyle": {
+        "fontSize": 13,
+        "typeface": "Avenir Next",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Alternance chez Nestle Purina en BTS SIO SISR"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Alternance chez Nestle Purina en BTS SIO SISR",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Alternance chez Nestle Purina en BTS SIO SISR",
+              "fontSize": 13,
+              "typeface": "Avenir Next",
+              "color": "#EAF0F9"
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 19,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/d8bat47y",
+      "id": "19",
+      "bbox": [
+        718,
+        206,
+        492,
+        360
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#1D2734",
+      "lineColor": "#34445A",
+      "lineWidth": 1
+    },
+    {
+      "order": 20,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/d4vmtwra",
+      "id": "20",
+      "bbox": [
+        748,
+        236,
+        188,
+        78
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#202A38",
+      "lineColor": "#34445A",
+      "lineWidth": 1
+    },
+    {
+      "order": 21,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/oj2t83it",
+      "id": "21",
+      "bbox": [
+        766,
+        250,
+        150,
+        28
+      ],
+      "geometry": "rect",
+      "text": "22",
+      "textPreview": "22",
+      "resolvedFontSize": 28,
+      "resolvedTextStyle": {
+        "fontSize": 28,
+        "typeface": "Avenir Next",
+        "bold": true,
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "22"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "22",
+          "runs": [
+            {
+              "index": 1,
+              "text": "22",
+              "fontSize": 28,
+              "typeface": "Avenir Next",
+              "color": "#F5F6F8",
+              "bold": true
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 22,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/vy90je9c",
+      "id": "22",
+      "bbox": [
+        766,
+        282,
+        156,
+        20
+      ],
+      "geometry": "rect",
+      "text": "ans",
+      "textPreview": "ans",
+      "resolvedFontSize": 12,
+      "resolvedTextStyle": {
+        "fontSize": 12,
+        "typeface": "Avenir Next",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "ans"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "ans",
+          "runs": [
+            {
+              "index": 1,
+              "text": "ans",
+              "fontSize": 12,
+              "typeface": "Avenir Next",
+              "color": "#C8D0DC"
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 23,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/6dcbulwv",
+      "id": "23",
+      "bbox": [
+        748,
+        340,
+        188,
+        78
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#243548",
+      "lineColor": "#51729C",
+      "lineWidth": 1
+    },
+    {
+      "order": 24,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/dsji5sne",
+      "id": "24",
+      "bbox": [
+        766,
+        354,
+        150,
+        28
+      ],
+      "geometry": "rect",
+      "text": "BTS SIO",
+      "textPreview": "BTS SIO",
+      "resolvedFontSize": 28,
+      "resolvedTextStyle": {
+        "fontSize": 28,
+        "typeface": "Avenir Next",
+        "bold": true,
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "BTS SIO"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "BTS SIO",
+          "runs": [
+            {
+              "index": 1,
+              "text": "BTS SIO",
+              "fontSize": 28,
+              "typeface": "Avenir Next",
+              "color": "#F5F6F8",
+              "bold": true
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 25,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/o7qpg3ex",
+      "id": "25",
+      "bbox": [
+        766,
+        386,
+        156,
+        20
+      ],
+      "geometry": "rect",
+      "text": "option SISR",
+      "textPreview": "option SISR",
+      "resolvedFontSize": 12,
+      "resolvedTextStyle": {
+        "fontSize": 12,
+        "typeface": "Avenir Next",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "option SISR"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "option SISR",
+          "runs": [
+            {
+              "index": 1,
+              "text": "option SISR",
+              "fontSize": 12,
+              "typeface": "Avenir Next",
+              "color": "#C8D0DC"
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 26,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/vmtwra5g",
+      "id": "26",
+      "bbox": [
+        748,
+        444,
+        188,
+        78
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#202A38",
+      "lineColor": "#34445A",
+      "lineWidth": 1
+    },
+    {
+      "order": 27,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/61032lsz",
+      "id": "27",
+      "bbox": [
+        766,
+        458,
+        150,
+        28
+      ],
+      "geometry": "rect",
+      "text": "2024-2026",
+      "textPreview": "2024-2026",
+      "resolvedFontSize": 28,
+      "resolvedTextStyle": {
+        "fontSize": 28,
+        "typeface": "Avenir Next",
+        "bold": true,
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "2024-202"
+          },
+          {
+            "index": 2,
+            "text": "6"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "2024-2026",
+          "runs": [
+            {
+              "index": 1,
+              "text": "2024-2026",
+              "fontSize": 28,
+              "typeface": "Avenir Next",
+              "color": "#F5F6F8",
+              "bold": true
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 28,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/dg7adsji",
+      "id": "28",
+      "bbox": [
+        766,
+        490,
+        156,
+        20
+      ],
+      "geometry": "rect",
+      "text": "alternance Nestle Purina",
+      "textPreview": "alternance Nestle Purina",
+      "resolvedFontSize": 12,
+      "resolvedTextStyle": {
+        "fontSize": 12,
+        "typeface": "Avenir Next",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "alternance Nestle Purina"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "alternance Nestle Purina",
+          "runs": [
+            {
+              "index": 1,
+              "text": "alternance Nestle Purina",
+              "fontSize": 12,
+              "typeface": "Avenir Next",
+              "color": "#C8D0DC"
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 29,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ovahoza1",
+      "id": "29",
+      "bbox": [
+        950,
+        236,
+        230,
+        286
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#141C28",
+      "lineColor": "#34445A",
+      "lineWidth": 1
+    },
+    {
+      "order": 30,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/yxobm58z",
+      "id": "30",
+      "bbox": [
+        970,
+        258,
+        160,
+        18
+      ],
+      "geometry": "rect",
+      "text": "Positionnement",
+      "textPreview": "Positionnement",
+      "resolvedFontSize": 10,
+      "resolvedTextStyle": {
+        "fontSize": 10,
+        "typeface": "Avenir Next",
+        "bold": true,
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Positionnement"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Positionnement",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Positionnement",
+              "fontSize": 10,
+              "typeface": "Avenir Next",
+              "color": "#6AA3FF",
+              "bold": true
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 31,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/nih4byhg",
+      "id": "31",
+      "bbox": [
+        970,
+        292,
+        170,
+        130
+      ],
+      "geometry": "rect",
+      "text": "Je me dirige vers des missions d'administration systeme, de support d'infrastructure et de securisation de l'environnement informatique.",
+      "textPreview": "Je me dirige vers des missions d'administration systeme, de support d'infrastructure et de securisation de l'environnement informatique.",
+      "resolvedFontSize": 13,
+      "resolvedTextStyle": {
+        "fontSize": 13,
+        "typeface": "Avenir Next",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 7,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Je me dirige vers des"
+          },
+          {
+            "index": 2,
+            "text": "missions d'administration"
+          },
+          {
+            "index": 3,
+            "text": "systeme, de support"
+          },
+          {
+            "index": 4,
+            "text": "d'infrastructure et de"
+          },
+          {
+            "index": 5,
+            "text": "securisation de"
+          },
+          {
+            "index": 6,
+            "text": "l'environnement"
+          },
+          {
+            "index": 7,
+            "text": "informatique."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Je me dirige vers des missions d'administration systeme, de support d'infrastructure et de securisation de l'environnement informatique.",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Je me dirige vers des missions d'administration systeme, de support d'infrastructure et de securisation de l'environnement informatique.",
+              "fontSize": 13,
+              "typeface": "Avenir Next",
+              "color": "#C8D0DC"
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 32,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/g3ex0nux",
+      "id": "32",
+      "bbox": [
+        970,
+        444,
+        120,
+        16
+      ],
+      "geometry": "rect",
+      "text": "Objectif oral:",
+      "textPreview": "Objectif oral:",
+      "resolvedFontSize": 10,
+      "resolvedTextStyle": {
+        "fontSize": 10,
+        "typeface": "Avenir Next",
+        "bold": true,
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Objectif oral:"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Objectif oral:",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Objectif oral:",
+              "fontSize": 10,
+              "typeface": "Avenir Next",
+              "color": "#6AA3FF",
+              "bold": true
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 33,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/5o7qpg3e",
+      "id": "33",
+      "bbox": [
+        970,
+        468,
+        170,
+        46
+      ],
+      "geometry": "rect",
+      "text": "montrer un parcours coherent, des projets concrets et une progression vers les metiers SISR.",
+      "textPreview": "montrer un parcours coherent, des projets concrets et une progression vers les metiers SISR.",
+      "resolvedFontSize": 12,
+      "resolvedTextStyle": {
+        "fontSize": 12,
+        "typeface": "Avenir Next",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 4,
+        "lines": [
+          {
+            "index": 1,
+            "text": "montrer un parcours coherent,"
+          },
+          {
+            "index": 2,
+            "text": "des projets concrets et une"
+          },
+          {
+            "index": 3,
+            "text": "progression vers les metiers"
+          },
+          {
+            "index": 4,
+            "text": "SISR."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "montrer un parcours coherent, des projets concrets et une progression vers les metiers SISR.",
+          "runs": [
+            {
+              "index": 1,
+              "text": "montrer un parcours coherent, des projets concrets et une progression vers les metiers SISR.",
+              "fontSize": 12,
+              "typeface": "Avenir Next",
+              "color": "#EAF0F9"
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 34,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ylc7u54z",
+      "id": "34",
+      "bbox": [
+        70,
+        676,
+        1140,
+        1
+      ],
+      "geometry": "rect",
+      "fillColor": "rgba(58, 71, 92, 0.66667)",
+      "lineColor": "rgba(58, 71, 92, 0.66667)",
+      "lineWidth": 0
+    },
+    {
+      "order": 35,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/r65wjudg",
+      "id": "35",
+      "bbox": [
+        70,
+        686,
+        900,
+        16
+      ],
+      "geometry": "rect",
+      "text": "Portfolio BTS SIO SISR",
+      "textPreview": "Portfolio BTS SIO SISR",
+      "resolvedFontSize": 8.51,
+      "resolvedTextStyle": {
+        "fontSize": 8.51,
+        "typeface": "Avenir Next",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Portfolio BTS SIO SISR"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Portfolio BTS SIO SISR",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Portfolio BTS SIO SISR",
+              "fontSize": 8.51,
+              "typeface": "Avenir Next",
+              "color": "#C8D0DC"
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 36,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/gr2p8nqx",
+      "id": "36",
+      "bbox": [
+        1160,
+        682,
+        50,
+        20
+      ],
+      "geometry": "rect",
+      "text": "02",
+      "textPreview": "02",
+      "resolvedFontSize": 11,
+      "resolvedTextStyle": {
+        "fontSize": 11,
+        "typeface": "Avenir Next",
+        "bold": true,
+        "alignment": "right"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "02"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "02",
+          "runs": [
+            {
+              "index": 1,
+              "text": "02",
+              "fontSize": 11,
+              "typeface": "Avenir Next",
+              "color": "#C8D0DC",
+              "bold": true
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

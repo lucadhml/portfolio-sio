@@ -7,7 +7,7 @@
   <meta name="description" content="Veille cybersécurité de Luca Duhamel : synthèses, sources et intérêt pour le BTS SIO SISR." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="veille.css" />
 </head>
@@ -15,60 +15,53 @@
   <header class="site-header">
     <nav class="nav container">
       <a class="logo" href="../index.html">Portfolio <span>|</span> Luca Duhamel</a>
-      <a class="nav-link" href="../index.html" data-go-veille><i class="fa-solid fa-arrow-left"></i> Retour à la veille</a>
+      <a class="nav-back" href="../index.html" data-go-veille>
+        <i class="fa-solid fa-arrow-left"></i> Retour
+      </a>
     </nav>
   </header>
 
   <main class="page-shell">
     <div class="container">
-      <section class="hero-card">
-        <div>
-          <p class="eyebrow">Veille technologique</p>
-          <h1 id="topic-title" class="hero-title"></h1>
-          <p id="topic-subtitle" class="hero-text"></p>
-          <div class="page-actions">
-            <a class="btn btn-outline" href="../index.html" data-go-veille>Retour à la veille</a>
-          </div>
+
+      <!-- Header -->
+      <div class="page-header">
+        <div class="page-header-icon topic-icon--cyber">
+          <i class="fa-solid fa-shield-halved"></i>
         </div>
-        <aside class="hero-side">
-          <div class="side-card">
-            <strong>Dernière mise à jour</strong>
-            <span id="topic-updated"></span>
-          </div>
-          <div class="side-card">
-            <strong>Angle de suivi</strong>
-            <p>Vulnérabilités, référentiels, bonnes pratiques et impact sur l’administration des systèmes et réseaux.</p>
-          </div>
-        </aside>
-      </section>
-
-      <div class="topic-layout">
-        <section class="section">
-          <h2>Objectif de la veille</h2>
-          <p id="topic-objective" class="section-intro"></p>
-          <div class="entry-section-title">
-            <div>
-              <h2>Dernières synthèses retenues</h2>
-              <p>Entrées datées, résumées et reliées à leur intérêt dans mon parcours SISR.</p>
-            </div>
-          </div>
-          <div id="topic-entries" class="entry-list"></div>
-        </section>
-
-        <aside>
-          <section class="section">
-            <h2>Pourquoi ce sujet</h2>
-            <p id="topic-interest" class="section-intro"></p>
-          </section>
-
-          <section class="section">
-            <h2>Sources suivies</h2>
-            <div id="topic-sources" class="source-grid"></div>
-          </section>
-        </aside>
+        <div class="page-header-content">
+          <p class="eyebrow">Veille technologique · mis à jour le <span id="topic-updated"></span></p>
+          <h1 id="topic-title" class="page-title"></h1>
+          <p id="topic-subtitle" class="page-header-sub"></p>
+        </div>
       </div>
 
-      <p class="footer-note">Les synthèses présentées ici sont sélectionnées pour leur intérêt dans le cadre du BTS SIO, option SISR.</p>
+      <!-- Sources en ligne -->
+      <div id="topic-sources" class="sources-row"></div>
+
+      <!-- Objectif + Pourquoi côte à côte -->
+      <div class="topic-intro-grid">
+        <div class="topic-section">
+          <h2>Objectif</h2>
+          <p id="topic-objective" class="section-text"></p>
+        </div>
+        <div class="topic-section">
+          <h2>Pourquoi ce sujet</h2>
+          <p id="topic-interest" class="section-text"></p>
+        </div>
+      </div>
+
+      <!-- Entrées -->
+      <div class="topic-section">
+        <div class="section-title-row">
+          <h2>Synthèses retenues</h2>
+          <span class="entry-count" id="topic-entry-count"></span>
+        </div>
+        <p class="section-hint">Entrées sélectionnées automatiquement par score de pertinence · mise à jour quotidienne</p>
+        <div id="topic-entries" class="entry-list"></div>
+      </div>
+
+      <p class="footer-note">Synthèses sélectionnées pour leur pertinence dans le cadre du BTS SIO, option SISR.</p>
     </div>
   </main>
 

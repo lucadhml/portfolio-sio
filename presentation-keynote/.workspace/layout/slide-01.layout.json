@@ -1,0 +1,1142 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/yja78w",
+    "id": "yja78w",
+    "slide": 1,
+    "layoutId": "3fb6630f-632f-4814-98b4-1ac3d12d3004",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "b81d15e6-e7dd-47cb-b04a-441fa6739bb7",
+    "masterLayoutName": "Master",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "Avenir Next"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "3fb6630f-632f-4814-98b4-1ac3d12d3004",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "b81d15e6-e7dd-47cb-b04a-441fa6739bb7",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "b81d15e6-e7dd-47cb-b04a-441fa6739bb7",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/s36hcrmh",
+      "id": "1",
+      "bbox": [
+        0,
+        0,
+        1280,
+        720
+      ],
+      "geometry": "rect",
+      "fillColor": "#141922",
+      "lineColor": "#141922",
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/zidonyd0",
+      "id": "2",
+      "bbox": [
+        -90,
+        -150,
+        520,
+        520
+      ],
+      "geometry": "ellipse",
+      "fillColor": "rgba(106, 163, 255, 0.08627)",
+      "lineColor": "rgba(106, 163, 255, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/a1gvy90j",
+      "id": "3",
+      "bbox": [
+        940,
+        -120,
+        420,
+        420
+      ],
+      "geometry": "ellipse",
+      "fillColor": "rgba(138, 182, 255, 0.06275)",
+      "lineColor": "rgba(138, 182, 255, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/hgn29gr2",
+      "id": "4",
+      "bbox": [
+        920,
+        470,
+        360,
+        260
+      ],
+      "geometry": "ellipse",
+      "fillColor": "rgba(106, 163, 255, 0.06275)",
+      "lineColor": "rgba(106, 163, 255, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/svu9knih",
+      "id": "5",
+      "bbox": [
+        76,
+        92,
+        420,
+        20
+      ],
+      "geometry": "rect",
+      "text": "RESEAUX • SYSTEMES • CYBERSECURITE",
+      "textPreview": "RESEAUX • SYSTEMES • CYBERSECURITE",
+      "resolvedFontSize": 10.51,
+      "resolvedTextStyle": {
+        "fontSize": 10.51,
+        "typeface": "Avenir Next",
+        "bold": true,
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "RESEAUX • SYSTEMES • CYBERSECURITE"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "RESEAUX • SYSTEMES • CYBERSECURITE",
+          "runs": [
+            {
+              "index": 1,
+              "text": "RESEAUX • SYSTEMES • CYBERSECURITE",
+              "fontSize": 10.51,
+              "typeface": "Avenir Next",
+              "color": "#6AA3FF",
+              "bold": true
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/za1gvy90",
+      "id": "6",
+      "bbox": [
+        76,
+        128,
+        530,
+        70
+      ],
+      "geometry": "rect",
+      "text": "Luca Duhamel",
+      "textPreview": "Luca Duhamel",
+      "resolvedFontSize": 42,
+      "resolvedTextStyle": {
+        "fontSize": 42,
+        "typeface": "Avenir Next",
+        "bold": true,
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Luca Duhamel"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Luca Duhamel",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Luca Duhamel",
+              "fontSize": 42,
+              "typeface": "Avenir Next",
+              "color": "#F5F6F8",
+              "bold": true
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ap4r65wj",
+      "id": "7",
+      "bbox": [
+        76,
+        198,
+        520,
+        28
+      ],
+      "geometry": "rect",
+      "text": "Etudiant en BTS SIO - Option SISR",
+      "textPreview": "Etudiant en BTS SIO - Option SISR",
+      "resolvedFontSize": 19,
+      "resolvedTextStyle": {
+        "fontSize": 19,
+        "typeface": "Avenir Next",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Etudiant en BTS SIO - Option SISR"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Etudiant en BTS SIO - Option SISR",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Etudiant en BTS SIO - Option SISR",
+              "fontSize": 19,
+              "typeface": "Avenir Next",
+              "color": "#C8D0DC"
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/h4byhgn2",
+      "id": "8",
+      "bbox": [
+        76,
+        252,
+        500,
+        102
+      ],
+      "geometry": "rect",
+      "text": "Passionne par l'administration systeme et les infrastructures reseau, je conçois des environnements fiables, securises et documentes pour accompagner les besoins des entreprises.",
+      "textPreview": "Passionne par l'administration systeme et les infrastructures reseau, je conçois des environnements fiables, securises et documentes pour...",
+      "resolvedFontSize": 15,
+      "resolvedTextStyle": {
+        "fontSize": 15,
+        "typeface": "Avenir Next",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Passionne par l'administration systeme et les infrastructures reseau, je"
+          },
+          {
+            "index": 2,
+            "text": "conçois des environnements fiables, securises et documentes pour"
+          },
+          {
+            "index": 3,
+            "text": "accompagner les besoins des entreprises."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Passionne par l'administration systeme et les infrastructures reseau, je conçois des environnements fiables, securises et documentes pour accompagner les besoins des entreprises.",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Passionne par l'administration systeme et les infrastructures reseau, je conçois des environnements fiables, securises et documentes pour accompagner les besoins des entreprises.",
+              "fontSize": 15,
+              "typeface": "Avenir Next",
+              "color": "#C8D0DC"
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/sji5snel",
+      "id": "9",
+      "bbox": [
+        730,
+        114,
+        420,
+        404
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#202A38",
+      "lineColor": "#314155",
+      "lineWidth": 1
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/qh0fepkz",
+      "id": "10",
+      "bbox": [
+        754,
+        138,
+        372,
+        356
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#1A2230",
+      "lineColor": "#3D4D65",
+      "lineWidth": 1
+    },
+    {
+      "order": 11,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/gn29gr2p",
+      "id": "11",
+      "bbox": [
+        788,
+        170,
+        46,
+        46
+      ],
+      "alt": "Server icon",
+      "contentType": "image/svg+xml",
+      "asset": {
+        "assetId": "c00d974a-130a-4811-bd3f-687c12a4ac67",
+        "contentType": "image/svg+xml",
+        "byteLength": 373
+      }
+    },
+    {
+      "order": 12,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/8nqxs72x",
+      "id": "12",
+      "bbox": [
+        852,
+        174,
+        180,
+        30
+      ],
+      "geometry": "rect",
+      "text": "Focus SISR",
+      "textPreview": "Focus SISR",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "Avenir Next",
+        "bold": true,
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Focus SISR"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Focus SISR",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Focus SISR",
+              "fontSize": 24,
+              "typeface": "Avenir Next",
+              "color": "#F5F6F8",
+              "bold": true
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 13,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/18jqh0fe",
+      "id": "13",
+      "bbox": [
+        788,
+        236,
+        300,
+        90
+      ],
+      "geometry": "rect",
+      "text": "Administration Windows, segmentation VLAN, securite reseau et deploiement de solutions adaptees aux contraintes metier.",
+      "textPreview": "Administration Windows, segmentation VLAN, securite reseau et deploiement de solutions adaptees aux contraintes metier.",
+      "resolvedFontSize": 14.51,
+      "resolvedTextStyle": {
+        "fontSize": 14.51,
+        "typeface": "Avenir Next",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Administration Windows, segmentation"
+          },
+          {
+            "index": 2,
+            "text": "VLAN, securite reseau et deploiement de"
+          },
+          {
+            "index": 3,
+            "text": "solutions adaptees aux contraintes metier."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Administration Windows, segmentation VLAN, securite reseau et deploiement de solutions adaptees aux contraintes metier.",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Administration Windows, segmentation VLAN, securite reseau et deploiement de solutions adaptees aux contraintes metier.",
+              "fontSize": 14.51,
+              "typeface": "Avenir Next",
+              "color": "#C8D0DC"
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 14,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/q5o7qpg3",
+      "id": "14",
+      "bbox": [
+        788,
+        346,
+        7,
+        7
+      ],
+      "geometry": "ellipse",
+      "fillColor": "#6AA3FF",
+      "lineColor": "#6AA3FF",
+      "lineWidth": 0
+    },
+    {
+      "order": 15,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/jqh0fepk",
+      "id": "15",
+      "bbox": [
+        806,
+        338,
+        242,
+        28
+      ],
+      "geometry": "rect",
+      "text": "Administration Windows",
+      "textPreview": "Administration Windows",
+      "resolvedFontSize": 12.51,
+      "resolvedTextStyle": {
+        "fontSize": 12.51,
+        "typeface": "Avenir Next",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Administration Windows"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Administration Windows",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Administration Windows",
+              "fontSize": 12.51,
+              "typeface": "Avenir Next",
+              "color": "#EAF0F9"
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 16,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/8bat47y1",
+      "id": "16",
+      "bbox": [
+        788,
+        374,
+        7,
+        7
+      ],
+      "geometry": "ellipse",
+      "fillColor": "#6AA3FF",
+      "lineColor": "#6AA3FF",
+      "lineWidth": 0
+    },
+    {
+      "order": 17,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/1w7mp0bi",
+      "id": "17",
+      "bbox": [
+        806,
+        366,
+        242,
+        28
+      ],
+      "geometry": "rect",
+      "text": "Segmentation VLAN",
+      "textPreview": "Segmentation VLAN",
+      "resolvedFontSize": 12.51,
+      "resolvedTextStyle": {
+        "fontSize": 12.51,
+        "typeface": "Avenir Next",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Segmentation VLAN"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Segmentation VLAN",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Segmentation VLAN",
+              "fontSize": 12.51,
+              "typeface": "Avenir Next",
+              "color": "#EAF0F9"
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 18,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/uxc3ylc7",
+      "id": "18",
+      "bbox": [
+        788,
+        402,
+        7,
+        7
+      ],
+      "geometry": "ellipse",
+      "fillColor": "#6AA3FF",
+      "lineColor": "#6AA3FF",
+      "lineWidth": 0
+    },
+    {
+      "order": 19,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ji5snelo",
+      "id": "19",
+      "bbox": [
+        806,
+        394,
+        242,
+        28
+      ],
+      "geometry": "rect",
+      "text": "Solutions adaptees au metier",
+      "textPreview": "Solutions adaptees au metier",
+      "resolvedFontSize": 12.51,
+      "resolvedTextStyle": {
+        "fontSize": 12.51,
+        "typeface": "Avenir Next",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Solutions adaptees au metier"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Solutions adaptees au metier",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Solutions adaptees au metier",
+              "fontSize": 12.51,
+              "typeface": "Avenir Next",
+              "color": "#EAF0F9"
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 20,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/bat47y1k",
+      "id": "20",
+      "bbox": [
+        788,
+        444,
+        100,
+        28
+      ],
+      "geometry": "roundRect",
+      "fillColor": "rgba(106, 163, 255, 0.10196)",
+      "lineColor": "rgba(106, 163, 255, 0.26667)",
+      "lineWidth": 1
+    },
+    {
+      "order": 21,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/mp0bi9s3",
+      "id": "21",
+      "bbox": [
+        800,
+        451,
+        76,
+        14
+      ],
+      "geometry": "rect",
+      "text": "Windows Server",
+      "textPreview": "Windows Server",
+      "resolvedFontSize": 9,
+      "resolvedTextStyle": {
+        "fontSize": 9,
+        "typeface": "Avenir Next",
+        "bold": true,
+        "alignment": "center"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Windows Server"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Windows Server",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Windows Server",
+              "fontSize": 9,
+              "typeface": "Avenir Next",
+              "color": "#EAF0F9",
+              "bold": true
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 22,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/tgfmlkjm",
+      "id": "22",
+      "bbox": [
+        898,
+        444,
+        100,
+        28
+      ],
+      "geometry": "roundRect",
+      "fillColor": "rgba(106, 163, 255, 0.10196)",
+      "lineColor": "rgba(106, 163, 255, 0.26667)",
+      "lineWidth": 1
+    },
+    {
+      "order": 23,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/4vmtwra5",
+      "id": "23",
+      "bbox": [
+        910,
+        451,
+        76,
+        14
+      ],
+      "geometry": "rect",
+      "text": "Reseaux",
+      "textPreview": "Reseaux",
+      "resolvedFontSize": 9,
+      "resolvedTextStyle": {
+        "fontSize": 9,
+        "typeface": "Avenir Next",
+        "bold": true,
+        "alignment": "center"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Reseaux"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Reseaux",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Reseaux",
+              "fontSize": 9,
+              "typeface": "Avenir Next",
+              "color": "#EAF0F9",
+              "bold": true
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 24,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/bm58z25k",
+      "id": "24",
+      "bbox": [
+        1008,
+        444,
+        100,
+        28
+      ],
+      "geometry": "roundRect",
+      "fillColor": "rgba(106, 163, 255, 0.10196)",
+      "lineColor": "rgba(106, 163, 255, 0.26667)",
+      "lineWidth": 1
+    },
+    {
+      "order": 25,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/m1cfa9w3",
+      "id": "25",
+      "bbox": [
+        1020,
+        451,
+        76,
+        14
+      ],
+      "geometry": "rect",
+      "text": "Securite",
+      "textPreview": "Securite",
+      "resolvedFontSize": 9,
+      "resolvedTextStyle": {
+        "fontSize": 9,
+        "typeface": "Avenir Next",
+        "bold": true,
+        "alignment": "center"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Securite"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Securite",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Securite",
+              "fontSize": 9,
+              "typeface": "Avenir Next",
+              "color": "#EAF0F9",
+              "bold": true
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 26,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/tsvu9kni",
+      "id": "26",
+      "bbox": [
+        76,
+        556,
+        350,
+        70
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#1C2532",
+      "lineColor": "#314055",
+      "lineWidth": 1
+    },
+    {
+      "order": 27,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/47y1kre1",
+      "id": "27",
+      "bbox": [
+        98,
+        574,
+        180,
+        18
+      ],
+      "geometry": "rect",
+      "text": "Support d'oral de secours",
+      "textPreview": "Support d'oral de secours",
+      "resolvedFontSize": 10,
+      "resolvedTextStyle": {
+        "fontSize": 10,
+        "typeface": "Avenir Next",
+        "bold": true,
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Support d'oral de secours"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Support d'oral de secours",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Support d'oral de secours",
+              "fontSize": 10,
+              "typeface": "Avenir Next",
+              "color": "#6AA3FF",
+              "bold": true
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 28,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/bq1oryts",
+      "id": "28",
+      "bbox": [
+        98,
+        596,
+        292,
+        22
+      ],
+      "geometry": "rect",
+      "text": "Presentation compatible Keynote en cas de probleme sur le portfolio web.",
+      "textPreview": "Presentation compatible Keynote en cas de probleme sur le portfolio web.",
+      "resolvedFontSize": 12,
+      "resolvedTextStyle": {
+        "fontSize": 12,
+        "typeface": "Avenir Next",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Presentation compatible Keynote en cas de"
+          },
+          {
+            "index": 2,
+            "text": "probleme sur le portfolio web."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Presentation compatible Keynote en cas de probleme sur le portfolio web.",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Presentation compatible Keynote en cas de probleme sur le portfolio web.",
+              "fontSize": 12,
+              "typeface": "Avenir Next",
+              "color": "#C8D0DC"
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 29,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/m58z25kb",
+      "id": "29",
+      "bbox": [
+        70,
+        676,
+        1140,
+        1
+      ],
+      "geometry": "rect",
+      "fillColor": "rgba(58, 71, 92, 0.66667)",
+      "lineColor": "rgba(58, 71, 92, 0.66667)",
+      "lineWidth": 0
+    },
+    {
+      "order": 30,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/w7mp0bi9",
+      "id": "30",
+      "bbox": [
+        70,
+        686,
+        900,
+        16
+      ],
+      "geometry": "rect",
+      "text": "Presentation de secours inspiree du portfolio web",
+      "textPreview": "Presentation de secours inspiree du portfolio web",
+      "resolvedFontSize": 8.51,
+      "resolvedTextStyle": {
+        "fontSize": 8.51,
+        "typeface": "Avenir Next",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Presentation de secours inspiree du portfolio web"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Presentation de secours inspiree du portfolio web",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Presentation de secours inspiree du portfolio web",
+              "fontSize": 8.51,
+              "typeface": "Avenir Next",
+              "color": "#C8D0DC"
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 31,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/psfil0rq",
+      "id": "31",
+      "bbox": [
+        1160,
+        682,
+        50,
+        20
+      ],
+      "geometry": "rect",
+      "text": "01",
+      "textPreview": "01",
+      "resolvedFontSize": 11,
+      "resolvedTextStyle": {
+        "fontSize": 11,
+        "typeface": "Avenir Next",
+        "bold": true,
+        "alignment": "right"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "01"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "01",
+          "runs": [
+            {
+              "index": 1,
+              "text": "01",
+              "fontSize": 11,
+              "typeface": "Avenir Next",
+              "color": "#C8D0DC",
+              "bold": true
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

@@ -7,7 +7,7 @@
   <meta name="description" content="Méthodologie de veille technologique de Luca Duhamel, étudiant en BTS SIO SISR." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="veille.css" />
 </head>
@@ -15,54 +15,53 @@
   <header class="site-header">
     <nav class="nav container">
       <a class="logo" href="../index.html">Portfolio <span>|</span> Luca Duhamel</a>
-      <a class="nav-link" href="../index.html" data-go-veille><i class="fa-solid fa-arrow-left"></i> Retour à la veille</a>
+      <a class="nav-back" href="../index.html" data-go-veille>
+        <i class="fa-solid fa-arrow-left"></i> Retour
+      </a>
     </nav>
   </header>
 
   <main class="page-shell">
     <div class="container">
-      <section class="hero-card">
-        <div>
-          <p class="eyebrow">Veille technologique</p>
-          <h1 class="hero-title">Comment j’organise ma veille</h1>
-          <p id="methodology-summary" class="hero-text"></p>
-          <div class="page-actions">
-            <a class="btn btn-outline" href="../index.html" data-go-veille>Retour à la veille</a>
-          </div>
+
+      <!-- Header page -->
+      <div class="page-header">
+        <div class="page-header-icon topic-icon--method">
+          <i class="fa-solid fa-rotate"></i>
         </div>
-        <aside class="hero-side">
-          <div class="side-card">
-            <strong>Fréquence</strong>
-            <span id="methodology-frequency"></span>
-          </div>
-          <div class="side-card">
-            <strong>Dernière mise à jour</strong>
-            <span id="methodology-updated"></span>
-          </div>
-          <div class="side-card">
-            <strong>Objectif</strong>
-            <p>Produire une veille régulière, datée et exploitable à l’écrit comme à l’oral.</p>
-          </div>
-        </aside>
+        <div class="page-header-content">
+          <p class="eyebrow">Veille technologique</p>
+          <h1 class="page-title">Méthodologie</h1>
+          <p id="methodology-summary" class="page-header-sub"></p>
+        </div>
+      </div>
+
+      <!-- Barre de méta -->
+      <div class="page-meta-bar">
+        <span><i class="fa-solid fa-rotate"></i> <strong id="methodology-frequency"></strong></span>
+        <span><i class="fa-regular fa-calendar-check"></i> Mis à jour le <strong id="methodology-updated"></strong></span>
+        <span><i class="fa-solid fa-shield"></i> 2 thèmes · 5 sources</span>
+      </div>
+
+      <!-- Étapes du cycle -->
+      <section class="topic-section">
+        <h2>Cycle de collecte</h2>
+        <p class="section-text">Chaque jour, un script automatisé parcourt les sources configurées, attribue un score de pertinence à chaque publication et conserve les meilleures entrées par thème.</p>
+        <div id="methodology-wheel" class="method-steps"></div>
       </section>
 
-      <section class="section">
-        <h2>Outils et fonctionnement</h2>
-        <p class="section-intro">Cette organisation me permet de garder une veille simple à tenir dans la durée, tout en restant suffisamment structurée pour répondre aux attentes du BTS SIO.</p>
-        <div id="methodology-tools" class="chips"></div>
+      <!-- Outils -->
+      <section class="topic-section">
+        <h2>Sources et outils</h2>
+        <div id="methodology-tools" class="tools-grid"></div>
       </section>
 
-      <section class="section">
-        <h2>Cycle hebdomadaire</h2>
-        <p class="section-intro">Ma veille suit un cycle court, répété chaque semaine, afin de conserver un fonctionnement réaliste et régulier.</p>
-        <div id="methodology-wheel" class="process-wheel"></div>
-      </section>
-
-      <section class="section">
+      <!-- Critères -->
+      <section class="topic-section">
         <h2>Ce que cette méthode démontre</h2>
-        <p class="section-intro">Cette organisation répond aux critères attendus : méthode claire, sources identifiées, fréquence justifiable et synthèse réutilisable devant le jury.</p>
         <div id="methodology-criteria" class="criteria-list"></div>
       </section>
+
     </div>
   </main>
 
