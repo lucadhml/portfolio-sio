@@ -33,17 +33,17 @@ SOURCE_DEFINITIONS = {
         'mode': 'rss',
         'url': 'https://www.cert.ssi.gouv.fr/actualite/feed/'
     },
-    'mit-tech-review': {
-        'name': 'MIT Technology Review',
-        'type': 'Revue spécialisée IA',
+    '01net': {
+        'name': '01net',
+        'type': 'Presse tech française',
         'mode': 'rss',
-        'url': 'https://www.technologyreview.com/feed/'
+        'url': 'https://www.01net.com/feed/'
     },
-    'korben': {
-        'name': 'Korben',
-        'type': 'Blog tech & IA',
+    'lemondeinformatique': {
+        'name': 'Le Monde Informatique',
+        'type': 'Presse IT professionnelle',
         'mode': 'rss',
-        'url': 'https://korben.info/feed'
+        'url': 'https://www.lemondeinformatique.fr/flux-rss/thematique/intelligence-artificielle/1.xml'
     }
 }
 
@@ -99,11 +99,11 @@ TOPICS = {
         'subtitle': 'Usages, risques et enjeux de l’IA suivis depuis des sources spécialisées françaises et internationales.',
         'objective': 'Cette veille me permet de suivre les évolutions de l’intelligence artificielle dans un cadre professionnel : nouveaux usages, risques de sécurité, agents autonomes, conformité et impacts sur les outils informatiques.',
         'interest': 'L’intérêt de ce sujet est de garder une vision réaliste de l’IA : à la fois ses apports pour les métiers de l’IT et les nouveaux risques qu’elle introduit en matière de sécurité, d’automatisation et de gouvernance.',
-        'allowed_sources': ['it-connect', 'mit-tech-review', 'korben'],
+        'allowed_sources': ['it-connect', '01net', 'lemondeinformatique'],
         'source_bonus': {
             'it-connect': 3,
-            'mit-tech-review': 5,
-            'korben': 4
+            '01net': 4,
+            'lemondeinformatique': 5
         },
         'keywords': {
             'intelligence artificielle': 12,
@@ -307,7 +307,7 @@ def collect_articles() -> list[dict]:
     except Exception as exc:
         print(f'Warning: unable to fetch IT-Connect: {exc}')
 
-    for source_key in ['anssi', 'cert-fr', 'mit-tech-review', 'korben']:
+    for source_key in ['anssi', 'cert-fr', '01net', 'lemondeinformatique']:
         try:
             collected.extend(extract_rss_articles(source_key))
         except Exception as exc:
@@ -413,11 +413,11 @@ def main() -> None:
         'updatedAt': updated,
         'methodologie': {
             'title': 'Méthodologie de veille',
-            'summary': 'Ma veille technologique repose sur plusieurs sources complémentaires : IT-Connect et le CERT-FR pour la cybersécurité, MIT Technology Review et Korben pour l’IA. Chaque jour, un script récupère automatiquement les nouvelles publications, calcule un score de pertinence par mots-clés, et sélectionne les 4 meilleures entrées par thème.',
+            ‘summary’: ‘Ma veille technologique repose sur plusieurs sources complémentaires : IT-Connect, ANSSI et le CERT-FR pour la cybersécurité, 01net et Le Monde Informatique pour l’IA. Chaque jour, un script récupère automatiquement les nouvelles publications, calcule un score de pertinence par mots-clés, et sélectionne les 4 meilleures entrées par thème.’,
             'frequency': 'Mise à jour automatique quotidienne',
             'tooling': [
                 'IT-Connect, ANSSI, CERT-FR (cybersécurité)',
-                'MIT Technology Review, Korben (IA)',
+                '01net, Le Monde Informatique (IA)',
                 'Collecte automatique quotidienne',
                 'Score de pertinence par mots-clés',
                 'Sélection des 4 meilleures entrées par thème'

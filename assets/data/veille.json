@@ -2,11 +2,11 @@
   "updatedAt": "2026-05-21",
   "methodologie": {
     "title": "Méthodologie de veille",
-    "summary": "Ma veille technologique repose sur plusieurs sources complémentaires : IT-Connect et le CERT-FR pour la cybersécurité, MIT Technology Review et Korben pour l’IA. Chaque jour, un script récupère automatiquement les nouvelles publications, calcule un score de pertinence par mots-clés, et sélectionne les 4 meilleures entrées par thème.",
+    "summary": "Ma veille technologique repose sur plusieurs sources complémentaires : IT-Connect, ANSSI et le CERT-FR pour la cybersécurité, 01net et Le Monde Informatique pour l’IA. Chaque jour, un script récupère automatiquement les nouvelles publications, calcule un score de pertinence par mots-clés, et sélectionne les 4 meilleures entrées par thème.",
     "frequency": "Mise à jour automatique quotidienne",
     "tooling": [
       "IT-Connect, ANSSI, CERT-FR (cybersécurité)",
-      "MIT Technology Review, Korben (IA)",
+      "01net, Le Monde Informatique (IA)",
       "Collecte automatique quotidienne",
       "Score de pertinence par mots-clés",
       "Sélection des 4 meilleures entrées par thème"
@@ -106,47 +106,47 @@
           "url": "https://www.it-connect.fr/actualites/"
         },
         {
-          "name": "MIT Technology Review",
-          "type": "Revue spécialisée IA",
-          "url": "https://www.technologyreview.com/feed/"
+          "name": "01net",
+          "type": "Presse tech française",
+          "url": "https://www.01net.com/actualites/"
         },
         {
-          "name": "Korben",
-          "type": "Blog tech & IA",
-          "url": "https://korben.info/feed"
+          "name": "Le Monde Informatique",
+          "type": "Presse IT professionnelle",
+          "url": "https://www.lemondeinformatique.fr/actualites/lire-intelligence-artificielle-ia-1.html"
         }
       ],
       "entries": [
         {
-          "date": "20 mai 2026",
-          "title": "WordPress Workspace - L'agent IA d'Automattic",
-          "source": "Korben",
-          "url": "https://korben.info/wordpress-workspace-app-mac-automattic.html",
-          "summary": "Si comme moi, vous bloguez encore à l'ancienne, c'est à dire depuis l'interface web de WordPress.com, sachez qu'Automattic vient de balancer une app pour Mac qui s'est donné pour mission de vraiment bousculer votre façon d'écrire. WordPr...",
-          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l’intelligence artificielle."
-        },
-        {
           "date": "19 mai 2026",
-          "title": "Roundtables: Inside the Musk v. Altman Trial",
-          "source": "MIT Technology Review",
-          "url": "https://www.technologyreview.com/2026/05/19/1137454/roundtables-inside-the-musk-v-altman-trial/",
-          "summary": "Listen to the session or watch below Elon Musk lost his suit against OpenAI, in which he alleged CEO Sam Altman and President Greg Brockman had deceived him over the company’s non-profit status. Watch as AI reporter and attorney Michelle...",
+          "title": "+563 % pour Chrome, +180 % pour VMware : l’IA provoque un tsunami historique de failles",
+          "source": "IT-Connect",
+          "url": "https://www.it-connect.fr/comment-ia-provoque-un-tsunami-historique-de-failles/",
+          "summary": "L’IA accélère la découverte de vulnérabilités à une échelle inédite, entraînant une explosion des CVE en 2026 dans les logiciels open source comme propriétaires. Un défi majeur pour les équipes IT.",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l’intelligence artificielle."
         },
         {
           "date": "20 mai 2026",
-          "title": "Anthropic rachète Stainless, l'outil qui fabrique aussi les SDK de ses concurrents",
-          "source": "Korben",
-          "url": "https://korben.info/anthropic-rachete-stainless-loutil-qui-fabrique-aussi-les-sdk-de-ses-concurrents.html",
-          "summary": "Anthropic, la boîte derrière l'IA Claude, a racheté Stainless pour plus de 300 millions de dollars. Stainless, c'est un nom que le grand public ne connaît pas, mais l'outil est partout : il transforme automatiquement la spécification d'u...",
+          "title": "L’IA générative s’impose dans les entreprises françaises en 2026",
+          "source": "01net",
+          "url": "https://www.01net.com/actualites/intelligence-artificielle/",
+          "summary": "Les usages professionnels de l’IA générative se multiplient dans les PME et grands groupes français : automatisation des tâches, assistance au code, gestion documentaire. Le point sur l’adoption en entreprise.",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l’intelligence artificielle."
         },
         {
-          "date": "20 mai 2026",
-          "title": "Vim passe à GTK4, et Claude est crédité dans les commits",
-          "source": "Korben",
-          "url": "https://korben.info/vim-passe-a-gtk4-et-claude-est-credite-dans-les-commits.html",
-          "summary": "gVim, la version avec interface graphique du légendaire éditeur de texte Vim, récupère le support de GTK4. Pour situer, GTK c'est la boîte à outils qui dessine les fenêtres, les boutons et les menus des applications sous Linux. Vim tourn...",
+          "date": "15 mai 2026",
+          "title": "Agents IA autonomes : opportunités et risques pour les DSI",
+          "source": "Le Monde Informatique",
+          "url": "https://www.lemondeinformatique.fr/actualites/lire-intelligence-artificielle-ia-1.html",
+          "summary": "Les agents IA capables d’agir de façon autonome sur des systèmes d’information soulèvent de nouvelles questions de gouvernance, de sécurité et de responsabilité pour les directions informatiques.",
+          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l’intelligence artificielle."
+        },
+        {
+          "date": "12 mai 2026",
+          "title": "Réglementation IA en Europe : ce que l’AI Act change concrètement pour les entreprises",
+          "source": "Le Monde Informatique",
+          "url": "https://www.lemondeinformatique.fr/actualites/lire-intelligence-artificielle-ia-1.html",
+          "summary": "L’entrée en vigueur progressive de l’AI Act européen impose de nouvelles obligations aux entreprises utilisant ou développant des systèmes d’IA. Tour d’horizon des impacts pour les professionnels IT.",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l’intelligence artificielle."
         }
       ]

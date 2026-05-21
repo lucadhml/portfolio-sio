@@ -17,8 +17,8 @@ const SOURCE_ICONS = {
   'IT-Connect':            'fa-newspaper',
   'ANSSI':                 'fa-shield-halved',
   'CERT-FR':               'fa-triangle-exclamation',
-  'MIT Technology Review': 'fa-flask',
-  'Korben':                'fa-code',
+  '01net':                 'fa-satellite-dish',
+  'Le Monde Informatique': 'fa-microchip',
 };
 
 const TOOL_ICONS = SOURCE_ICONS;
