@@ -1,5 +1,5 @@
 window.VEILLE_DATA = {
-  "updatedAt": "2026-05-25",
+  "updatedAt": "2026-05-28",
   "methodologie": {
     "title": "Méthodologie de veille",
     "summary": "Ma veille technologique repose sur plusieurs sources complémentaires : IT-Connect, ANSSI et le CERT-FR pour la cybersécurité, 01net et Le Monde Informatique pour l'IA. Chaque jour, un script récupère automatiquement les nouvelles publications, calcule un score de pertinence par mots-clés, et sélectionne les 4 meilleures entrées par thème.",
@@ -61,36 +61,36 @@ window.VEILLE_DATA = {
       ],
       "entries": [
         {
-          "date": "14 mai 2026",
-          "title": "Vulnérabilité dans Microsoft Exchange Server – CVE-2026-42897 activement exploitée",
-          "source": "CERT-FR",
-          "url": "https://www.cert.ssi.gouv.fr/alerte/CERTFR-2026-ALE-005/",
-          "summary": "Microsoft a publié un avis de sécurité concernant la CVE-2026-42897 affectant Exchange Server 2016, 2019 et SE. Elle permet à un attaquant non authentifié de déclencher une injection XSS à distance via Outlook Web Access. La vulnérabilité est activement exploitée.",
-          "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et des réseaux."
-        },
-        {
-          "date": "20 mai 2026",
-          "title": "Windows : comment se protéger de la faille zero-day YellowKey ?",
+          "date": "26 mai 2026",
+          "title": "Faille RCE dans SharePoint : Microsoft publie un patch pour la CVE-2026-45659",
           "source": "IT-Connect",
-          "url": "https://www.it-connect.fr/windows-comment-se-proteger-de-la-faille-zero-day-yellowkey/",
-          "summary": "Une faille zero-day baptisée YellowKey affecte Windows et fait l'objet d'une exploitation active. IT-Connect présente les mesures de mitigation à appliquer en urgence en attendant le correctif officiel de Microsoft.",
-          "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et des réseaux."
+          "url": "https://www.it-connect.fr/faille-rce-sharepoint-patch-cve-2026-45659/",
+          "summary": "Microsoft a publié un nouveau correctif de sécurité pour patcher une faille de sécurité RCE affectant plusieurs versions de SharePoint : CVE-2026-45659.",
+          "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
         },
         {
-          "date": "19 mai 2026",
-          "title": "Pierre & Vacances – Center Parcs : cyberattaque et fuite de 1,6 million de fichiers de réservation",
+          "date": "27 mai 2026",
+          "title": "Rocky Linux : un nouveau dépôt optionnel pour patcher les failles zero-day",
           "source": "IT-Connect",
-          "url": "https://www.it-connect.fr/actualites/actu-securite/",
-          "summary": "Le groupe Pierre & Vacances – Center Parcs a été victime d'une cyberattaque entraînant la fuite de données relatives à 1,6 million de fichiers de réservation. Cet incident illustre les risques persistants pesant sur les systèmes d'information d'entreprise.",
-          "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et des réseaux."
+          "url": "https://www.it-connect.fr/rocky-linux-un-nouveau-depot-optionnel-pour-patcher-les-failles-zero-day/",
+          "summary": "Rocky Linux a un nouveau dépôt optionnel disponible pour distribuer des patchs de sécurité (hotfix) afin de protéger les machines des failles zero-day.",
+          "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
         },
         {
-          "date": "6 mai 2026",
-          "title": "Publication du rapport d'activité 2025 de l'ANSSI",
+          "date": "11 mars 2026",
+          "title": "Panorama de la cybermenace 2025 : La France toujours sous la pression des cyber attaquants",
           "source": "ANSSI",
-          "url": "https://cyber.gouv.fr/actualites/publication-du-rapport-dactivite-2025-de-lanssi/",
-          "summary": "L'ANSSI publie son rapport d'activité 2025 et présente le Référentiel Cyber France (ReCyF), un ensemble de mesures recommandées pour atteindre les objectifs de sécurité fixés par la directive NIS 2 dans les organisations françaises.",
-          "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et des réseaux."
+          "url": "http://cyber.gouv.fr/actualites/panorama-de-la-cybermenace-2025/",
+          "summary": "Dans le Panorama de la cybermenace 2025, l’Agence nationale de la sécurité des systèmes d’information (ANSSI) présente le bilan d’une […]",
+          "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
+        },
+        {
+          "date": "30 janvier 2026",
+          "title": "La France prend la présidence du Groupe de travail sur la cybersécurité du G7",
+          "source": "ANSSI",
+          "url": "http://cyber.gouv.fr/actualites/la-france-prend-la-presidence-du-groupe-de-travail-sur-la-cybersecurite-du-g7/",
+          "summary": "Face à l’intensification et à la diversification des cybermenaces, la cybersécurité constitue un enjeu stratégique majeur pour la sécurité nationale […]",
+          "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
         }
       ]
     },
@@ -118,35 +118,35 @@ window.VEILLE_DATA = {
       ],
       "entries": [
         {
-          "date": "22 mai 2026",
-          "title": "Agents IA : une faille invisible dans les systèmes d'information",
-          "source": "Le Monde Informatique",
-          "url": "https://www.lemondeinformatique.fr/les-dossiers/lire-agents-ia-une-faille-invisible-dans-les-systemes-d-information-1698.html",
-          "summary": "Les agents IA autonomes, capables d'enchaîner des actions sans intervention humaine (interroger des bases de données, appeler des API, exécuter du code), introduisent de nouvelles surfaces d'attaque invisibles dans les systèmes d'information des entreprises.",
+          "date": "28 mai 2026",
+          "title": "Exclue de Mythos, la banque BNP Paribas choisit Mistral",
+          "source": "01net",
+          "url": "https://www.01net.com/actualites/exclue-de-mythos-la-banque-bnp-paribas-choisit-mistral.html",
+          "summary": "Privée d'accès à Mythos, l'IA cybersécurité d'Anthropic réservée aux Américains, BNP Paribas mise sur Mistral AI pour construire l'équivalent européen. Conférence de presse conjointe à Paris ce 26 mai.",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
-          "date": "20 mai 2026",
-          "title": "La demande en compétence agentique bondit de 60 % en France",
-          "source": "Le Monde Informatique",
-          "url": "https://www.lemondeinformatique.fr/actualites/lire-la-demande-en-competence-agentique-bondit-de-60-en-france-99943.html",
-          "summary": "Selon le rapport Tech Trends 2026, la demande de profils maîtrisant les agents IA a progressé de 60 % en un an en France. D'ici 2028, les grandes entreprises américaines déploieront chacune plus de 150 000 agents IA, selon Gartner.",
+          "date": "28 mai 2026",
+          "title": "Meta lance des abonnements payants pour Facebook, WhatsApp, Instagram et Meta AI",
+          "source": "01net",
+          "url": "https://www.01net.com/actualites/meta-lance-des-abonnements-payants-pour-facebook-whatsapp-instagram-et-meta-ai.html",
+          "summary": "Le géant des réseaux sociaux veut changer de stratégie en vous faisant passer à la caisse. Meta lance Meta Plus, un nouvel abonnement payant pour accéder à des fonctions exclusives sur ses différentes plates-formes, et Meta One, une nouv...",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
-          "date": "15 mai 2026",
-          "title": "LLM et agents IA : quelles évolutions à venir ?",
-          "source": "Le Monde Informatique",
-          "url": "https://www.lemondeinformatique.fr/actualites/lire-llm-et-agents-ia-quelles-evolutions-a-venir-99726.html",
-          "summary": "Les futurs modèles de langage apprendront à la volée en temps réel, en entrelacant informations numériques et données du monde réel. Cette évolution permettra aux LLM de piloter des actions robotiques et de s'adapter dynamiquement à leur environnement.",
+          "date": "26 mai 2026",
+          "title": "AI Slop : LinkedIn part à la chasse aux contenus IA",
+          "source": "IT-Connect",
+          "url": "https://www.it-connect.fr/ai-slop-linkedin-part-a-la-chasse-aux-contenus-ia/",
+          "summary": "Sur LinkedIn, de nouvelles mesures de détection ont été déployées pour limiter la visibilité des publications générées par IA. Voici ce que ça va changer.",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
-          "date": "12 mai 2026",
-          "title": "Cybermenaces pilotées par l'IA : quelle stratégie de défense ?",
-          "source": "Le Monde Informatique",
-          "url": "https://www.lemondeinformatique.fr/actualites/lire-cybermenaces-pilotees-par-l-ia-quelle-strategie-de-defense-99592.html",
-          "summary": "L'IA générative est désormais exploitée pour automatiser et sophistiquer les cyberattaques. Cet article explore les stratégies de défense adaptées face à des menaces pilotées par l'IA, incluant détection comportementale et réponse automatisée aux incidents.",
+          "date": "26 mai 2026",
+          "title": "Claude Mythos trouve 10 000 failles de sécurité en un mois et bouscule l’écosystème Tech",
+          "source": "IT-Connect",
+          "url": "https://www.it-connect.fr/claude-mythos-trouve-10-000-failles-de-securite-en-un-mois-et-bouscule-lecosysteme-tech/",
+          "summary": "Dans le cadre du projet Glasswing, l’intelligence artificielle Claude Mythos Preview d’Anthropic a découverte plus de 10 000 failles de sécurité en un mois.",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         }
       ]
