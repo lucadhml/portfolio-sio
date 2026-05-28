@@ -51,8 +51,8 @@ TOPICS = {
     'cybersecurite': {
         'title': 'Cybersécurité',
         'subtitle': 'Menaces, vulnérabilités et recommandations suivies à partir de sources techniques et institutionnelles.',
-        'objective': 'Cette veille me permet de suivre les vulnérabilités critiques, les recommandations de sécurité et les tendances de la menace afin d’alimenter ma culture sécurité sur les systèmes et les réseaux dans un cadre cohérent avec l’option SISR.',
-        'interest': 'L’intérêt de ce sujet est de relier des publications techniques à des situations concrètes : gestion des vulnérabilités, correctifs, sécurité des postes, sécurisation des services et compréhension de la menace actuelle.',
+        'objective': "Cette veille me permet de suivre les vulnérabilités critiques, les recommandations de sécurité et les tendances de la menace afin d'alimenter ma culture sécurité sur les systèmes et les réseaux dans un cadre cohérent avec l'option SISR.",
+        'interest': "L'intérêt de ce sujet est de relier des publications techniques à des situations concrètes : gestion des vulnérabilités, correctifs, sécurité des postes, sécurisation des services et compréhension de la menace actuelle.",
         'allowed_sources': ['it-connect', 'anssi', 'cert-fr'],
         'source_bonus': {
             'it-connect': 2,
@@ -92,13 +92,13 @@ TOPICS = {
             'openai': 2
         },
         'min_score': 8,
-        'fallback_interest': 'Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l’administration des systèmes et réseaux.'
+        'fallback_interest': "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
     },
     'intelligence-artificielle': {
         'title': 'Intelligence artificielle',
-        'subtitle': 'Usages, risques et enjeux de l’IA suivis depuis des sources spécialisées françaises et internationales.',
-        'objective': 'Cette veille me permet de suivre les évolutions de l’intelligence artificielle dans un cadre professionnel : nouveaux usages, risques de sécurité, agents autonomes, conformité et impacts sur les outils informatiques.',
-        'interest': 'L’intérêt de ce sujet est de garder une vision réaliste de l’IA : à la fois ses apports pour les métiers de l’IT et les nouveaux risques qu’elle introduit en matière de sécurité, d’automatisation et de gouvernance.',
+        'subtitle': "Usages, risques et enjeux de l'IA suivis depuis des sources spécialisées françaises et internationales.",
+        'objective': "Cette veille me permet de suivre les évolutions de l'intelligence artificielle dans un cadre professionnel : nouveaux usages, risques de sécurité, agents autonomes, conformité et impacts sur les outils informatiques.",
+        'interest': "L'intérêt de ce sujet est de garder une vision réaliste de l'IA : à la fois ses apports pour les métiers de l'IT et les nouveaux risques qu'elle introduit en matière de sécurité, d'automatisation et de gouvernance.",
         'allowed_sources': ['it-connect', '01net', 'lemondeinformatique'],
         'source_bonus': {
             'it-connect': 3,
@@ -127,7 +127,7 @@ TOPICS = {
             'generative': 7,
             'machine learning': 8,
             'deep learning': 8,
-            'modèle d’ia': 8,
+            "modèle d'ia": 8,
             'ai model': 8,
             'gpt': 7,
             'ai ': 4,
@@ -150,7 +150,7 @@ TOPICS = {
             'serveur web': 5
         },
         'min_score': 8,
-        'fallback_interest': 'Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l’intelligence artificielle.'
+        'fallback_interest': "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
     }
 }
 
@@ -405,15 +405,29 @@ def build_sources(topic_key: str) -> list[dict]:
     ]
 
 
+def load_existing_data() -> dict:
+    """Charge les données existantes depuis le fichier JSON, ou retourne un dict vide."""
+    if JSON_PATH.exists():
+        try:
+            return json.loads(JSON_PATH.read_text(encoding='utf-8'))
+        except Exception as exc:
+            print(f'Warning: impossible de lire le JSON existant : {exc}')
+    return {}
+
+
 def main() -> None:
     items = dedupe(collect_articles())
     updated = datetime.now(timezone.utc).astimezone().date().isoformat()
+
+    # Charger les données existantes pour préserver les entrées si les sources sont inaccessibles
+    existing = load_existing_data()
+    existing_topics = existing.get('topics', {})
 
     data = {
         'updatedAt': updated,
         'methodologie': {
             'title': 'Méthodologie de veille',
-            ‘summary’: ‘Ma veille technologique repose sur plusieurs sources complémentaires : IT-Connect, ANSSI et le CERT-FR pour la cybersécurité, 01net et Le Monde Informatique pour l’IA. Chaque jour, un script récupère automatiquement les nouvelles publications, calcule un score de pertinence par mots-clés, et sélectionne les 4 meilleures entrées par thème.’,
+            'summary': "Ma veille technologique repose sur plusieurs sources complémentaires : IT-Connect, ANSSI et le CERT-FR pour la cybersécurité, 01net et Le Monde Informatique pour l'IA. Chaque jour, un script récupère automatiquement les nouvelles publications, calcule un score de pertinence par mots-clés, et sélectionne les 4 meilleures entrées par thème.",
             'frequency': 'Mise à jour automatique quotidienne',
             'tooling': [
                 'IT-Connect, ANSSI, CERT-FR (cybersécurité)',
@@ -429,7 +443,7 @@ def main() -> None:
                 },
                 {
                     'title': '2. Score de pertinence',
-                    'description': 'Chaque publication reçoit un score basé sur ses mots-clés, sa source et son thème. Les scores négatifs permettent d’exclure les hors-sujets.'
+                    'description': "Chaque publication reçoit un score basé sur ses mots-clés, sa source et son thème. Les scores négatifs permettent d'exclure les hors-sujets."
                 },
                 {
                     'title': '3. Sélection des meilleures entrées',
@@ -443,22 +457,43 @@ def main() -> None:
             'criteria': [
                 'Sources identifiées et crédibles',
                 'Mise à jour quotidienne automatisée',
-                'Score de pertinence adapté à l’option SISR',
+                "Score de pertinence adapté à l'option SISR",
                 'Synthèses réutilisables devant le jury'
             ]
         },
         'topics': {}
     }
 
+    any_topic_updated = False
     for key, config in TOPICS.items():
+        new_entries = build_entries(items, key)
+
+        if new_entries:
+            # De nouvelles entrées ont été trouvées : on met à jour ce thème
+            entries = new_entries
+            any_topic_updated = True
+            print(f'Thème "{key}" : {len(entries)} nouvelles entrées collectées.')
+        else:
+            # Aucune entrée collectée pour ce thème : on conserve les entrées existantes
+            entries = existing_topics.get(key, {}).get('entries', [])
+            if entries:
+                print(f'Thème "{key}" : sources inaccessibles, {len(entries)} entrées existantes conservées.')
+            else:
+                print(f'Thème "{key}" : aucune entrée disponible (ni nouvelles ni existantes).')
+
         data['topics'][key] = {
             'title': config['title'],
             'subtitle': config['subtitle'],
             'objective': config['objective'],
             'interest': config['interest'],
             'sources': build_sources(key),
-            'entries': build_entries(items, key)
+            'entries': entries
         }
+
+    if not any_topic_updated:
+        # Aucune source n'a répondu : conserver la date de mise à jour précédente
+        data['updatedAt'] = existing.get('updatedAt', updated)
+        print('Aucune source accessible. Les données existantes sont conservées sans modification de la date.')
 
     JSON_PATH.write_text(json.dumps(data, ensure_ascii=False, indent=2) + '\n')
     JS_PATH.write_text('window.VEILLE_DATA = ' + json.dumps(data, ensure_ascii=False, indent=2) + ';\n')
