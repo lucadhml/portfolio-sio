@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-28",
+  "updatedAt": "2026-05-29",
   "methodologie": {
     "title": "Méthodologie de veille",
     "summary": "Ma veille technologique repose sur plusieurs sources complémentaires : IT-Connect, ANSSI et le CERT-FR pour la cybersécurité, 01net et Le Monde Informatique pour l'IA. Chaque jour, un script récupère automatiquement les nouvelles publications, calcule un score de pertinence par mots-clés, et sélectionne les 4 meilleures entrées par thème.",
@@ -119,34 +119,34 @@
       "entries": [
         {
           "date": "28 mai 2026",
-          "title": "Exclue de Mythos, la banque BNP Paribas choisit Mistral",
+          "title": "« Développer nos propres puces, ça devrait arriver à un moment donné » : Mistral AI pourrait bientôt se lancer dans les semi-conducteurs",
           "source": "01net",
-          "url": "https://www.01net.com/actualites/exclue-de-mythos-la-banque-bnp-paribas-choisit-mistral.html",
-          "summary": "Privée d'accès à Mythos, l'IA cybersécurité d'Anthropic réservée aux Américains, BNP Paribas mise sur Mistral AI pour construire l'équivalent européen. Conférence de presse conjointe à Paris ce 26 mai.",
+          "url": "https://www.01net.com/actualites/developper-nos-propres-puces-ca-devrait-arriver-a-un-moment-donne-mistral-ai-pourrait-bientot-se-lancer-dans-les-semi-conducteurs.html",
+          "summary": "Après les modèles de langage et les centres de données, la championne française de l'IA générative Mistral AI envisage de développer ses propres puces électroniques.",
+          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
+        },
+        {
+          "date": "29 mai 2026",
+          "title": "Le nouveau Siri se dévoile en images deux semaines avant la WWDC",
+          "source": "01net",
+          "url": "https://www.01net.com/actualites/le-nouveau-siri-se-devoile-en-images-deux-semaines-avant-la-wwdc.html",
+          "summary": "iOS 27 et son nouveau Siri se dévoilent avant la WWDC : IA générative, app dédiée, appareil photo repensé. Mais combien de ces fonctionnalités arriveront vraiment en Europe ?",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
           "date": "28 mai 2026",
-          "title": "Meta lance des abonnements payants pour Facebook, WhatsApp, Instagram et Meta AI",
+          "title": "Airbus choisit Mistral AI pour propulser l’IA dans ses avions et ses systèmes de défense",
           "source": "01net",
-          "url": "https://www.01net.com/actualites/meta-lance-des-abonnements-payants-pour-facebook-whatsapp-instagram-et-meta-ai.html",
-          "summary": "Le géant des réseaux sociaux veut changer de stratégie en vous faisant passer à la caisse. Meta lance Meta Plus, un nouvel abonnement payant pour accéder à des fonctions exclusives sur ses différentes plates-formes, et Meta One, une nouv...",
+          "url": "https://www.01net.com/actualites/airbus-choisit-mistral-ai-propulser-ia-avions-systemes-defense.html",
+          "summary": "Trois ans et déjà dans les cockpits. La startup française vient de décrocher l'accès aux quatre divisions d'Airbus, et elle n'a pas l'intention de s'arrêter là.",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
-          "date": "26 mai 2026",
-          "title": "AI Slop : LinkedIn part à la chasse aux contenus IA",
-          "source": "IT-Connect",
-          "url": "https://www.it-connect.fr/ai-slop-linkedin-part-a-la-chasse-aux-contenus-ia/",
-          "summary": "Sur LinkedIn, de nouvelles mesures de détection ont été déployées pour limiter la visibilité des publications générées par IA. Voici ce que ça va changer.",
-          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
-        },
-        {
-          "date": "26 mai 2026",
-          "title": "Claude Mythos trouve 10 000 failles de sécurité en un mois et bouscule l’écosystème Tech",
-          "source": "IT-Connect",
-          "url": "https://www.it-connect.fr/claude-mythos-trouve-10-000-failles-de-securite-en-un-mois-et-bouscule-lecosysteme-tech/",
-          "summary": "Dans le cadre du projet Glasswing, l’intelligence artificielle Claude Mythos Preview d’Anthropic a découverte plus de 10 000 failles de sécurité en un mois.",
+          "date": "29 mai 2026",
+          "title": "Claude Mythos : Anthropic va ouvrir les vannes de l’IA qui débusque les failles de sécurité",
+          "source": "01net",
+          "url": "https://www.01net.com/actualites/claude-mythos-anthropic-ouvrir-vannes-ia-debusque-failles-de-securite.html",
+          "summary": "Après plusieurs semaines d'accès restreint, Anthropic va ouvrir les portes de Claude Mythos à tous ses clients. Ce modèle d'IA a déjà permis de débusquer plus de 10 000 failles de sécurité. Les équipes de cybersécurité doivent se prépare...",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         }
       ]
