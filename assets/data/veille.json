@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-30",
+  "updatedAt": "2026-05-31",
   "methodologie": {
     "title": "Méthodologie de veille",
     "summary": "Ma veille technologique repose sur plusieurs sources complémentaires : IT-Connect, ANSSI et le CERT-FR pour la cybersécurité, 01net et Le Monde Informatique pour l'IA. Chaque jour, un script récupère automatiquement les nouvelles publications, calcule un score de pertinence par mots-clés, et sélectionne les 4 meilleures entrées par thème.",
@@ -118,35 +118,35 @@
       ],
       "entries": [
         {
-          "date": "28 mai 2026",
-          "title": "« Développer nos propres puces, ça devrait arriver à un moment donné » : Mistral AI pourrait bientôt se lancer dans les semi-conducteurs",
+          "date": "31 mai 2026",
+          "title": "On a vu la Anker SOLIX Solarbank 4 Pro en vrai : 8 faits que les photos officielles ne montrent pas",
           "source": "01net",
-          "url": "https://www.01net.com/actualites/developper-nos-propres-puces-ca-devrait-arriver-a-un-moment-donne-mistral-ai-pourrait-bientot-se-lancer-dans-les-semi-conducteurs.html",
-          "summary": "Après les modèles de langage et les centres de données, la championne française de l'IA générative Mistral AI envisage de développer ses propres puces électroniques.",
+          "url": "https://www.01net.com/actualites/on-a-vu-la-anker-solix-solarbank-4-pro-en-vrai-8-faits-que-les-photos-officielles-ne-montrent-pas.html",
+          "summary": "Anka propulsé par ChatGPT, 30 dB de bruit, retour sur investissement de 3 ans : ce que la conférence de lancement de la Solarbank 4 Pro a révélé sur scène.",
+          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
+        },
+        {
+          "date": "30 mai 2026",
+          "title": "La CNIL s’alarme des lunettes connectées, Meta en rajoute avec un collier IA",
+          "source": "01net",
+          "url": "https://www.01net.com/actualites/la-cnil-salarme-des-lunettes-connectees-meta-en-rajoute-avec-un-collier-ia.html",
+          "summary": "Alors que la CNIL alerte contre les lunettes connectées, Meta annonce un pendentif capable d'enregistrer vos conversations.",
+          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
+        },
+        {
+          "date": "30 mai 2026",
+          "title": "Apple veut compresser Gemini pour le faire tenir dans votre iPhone",
+          "source": "01net",
+          "url": "https://www.01net.com/actualites/apple-veut-compresser-gemini-pour-le-faire-tenir-dans-votre-iphone.html",
+          "summary": "Pour sauver Siri, Apple a obtenu un accès complet aux modèles Gemini de Google. L'objectif : les compresser pour qu'ils fonctionnent hors ligne sur l'iPhone.",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
           "date": "29 mai 2026",
-          "title": "Le nouveau Siri se dévoile en images deux semaines avant la WWDC",
+          "title": "ZTE présente le nubia Neo 5 GT un nouveau smartphone gaming équipé d’un ventilateur et d’une IA gaming",
           "source": "01net",
-          "url": "https://www.01net.com/actualites/le-nouveau-siri-se-devoile-en-images-deux-semaines-avant-la-wwdc.html",
-          "summary": "iOS 27 et son nouveau Siri se dévoilent avant la WWDC : IA générative, app dédiée, appareil photo repensé. Mais combien de ces fonctionnalités arriveront vraiment en Europe ?",
-          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
-        },
-        {
-          "date": "28 mai 2026",
-          "title": "Airbus choisit Mistral AI pour propulser l’IA dans ses avions et ses systèmes de défense",
-          "source": "01net",
-          "url": "https://www.01net.com/actualites/airbus-choisit-mistral-ai-propulser-ia-avions-systemes-defense.html",
-          "summary": "Trois ans et déjà dans les cockpits. La startup française vient de décrocher l'accès aux quatre divisions d'Airbus, et elle n'a pas l'intention de s'arrêter là.",
-          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
-        },
-        {
-          "date": "29 mai 2026",
-          "title": "Claude Mythos : Anthropic va ouvrir les vannes de l’IA qui débusque les failles de sécurité",
-          "source": "01net",
-          "url": "https://www.01net.com/actualites/claude-mythos-anthropic-ouvrir-vannes-ia-debusque-failles-de-securite.html",
-          "summary": "Après plusieurs semaines d'accès restreint, Anthropic va ouvrir les portes de Claude Mythos à tous ses clients. Ce modèle d'IA a déjà permis de débusquer plus de 10 000 failles de sécurité. Les équipes de cybersécurité doivent se prépare...",
+          "url": "https://www.01net.com/actualites/zte-presente-le-nubia-neo-5-gt-un-nouveau-smartphone-gaming-equipe-dun-ventilateur-et-dune-ia-gaming.html",
+          "summary": "ZTE annonce la sortie d’un smartphone gaming, le Nubia Neo 5 GT. Proposé à moins de 400 €, il est disponible dès à présent.",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         }
       ]
