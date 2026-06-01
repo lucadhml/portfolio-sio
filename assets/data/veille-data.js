@@ -1,5 +1,5 @@
 window.VEILLE_DATA = {
-  "updatedAt": "2026-05-31",
+  "updatedAt": "2026-06-01",
   "methodologie": {
     "title": "Méthodologie de veille",
     "summary": "Ma veille technologique repose sur plusieurs sources complémentaires : IT-Connect, ANSSI et le CERT-FR pour la cybersécurité, 01net et Le Monde Informatique pour l'IA. Chaque jour, un script récupère automatiquement les nouvelles publications, calcule un score de pertinence par mots-clés, et sélectionne les 4 meilleures entrées par thème.",
@@ -61,19 +61,11 @@ window.VEILLE_DATA = {
       ],
       "entries": [
         {
-          "date": "26 mai 2026",
-          "title": "Faille RCE dans SharePoint : Microsoft publie un patch pour la CVE-2026-45659",
+          "date": "1 juin 2026",
+          "title": "Palo Alto – CVE-2026-0257 : cette faille dans le VPN est activement exploitée !",
           "source": "IT-Connect",
-          "url": "https://www.it-connect.fr/faille-rce-sharepoint-patch-cve-2026-45659/",
-          "summary": "Microsoft a publié un nouveau correctif de sécurité pour patcher une faille de sécurité RCE affectant plusieurs versions de SharePoint : CVE-2026-45659.",
-          "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
-        },
-        {
-          "date": "27 mai 2026",
-          "title": "Rocky Linux : un nouveau dépôt optionnel pour patcher les failles zero-day",
-          "source": "IT-Connect",
-          "url": "https://www.it-connect.fr/rocky-linux-un-nouveau-depot-optionnel-pour-patcher-les-failles-zero-day/",
-          "summary": "Rocky Linux a un nouveau dépôt optionnel disponible pour distribuer des patchs de sécurité (hotfix) afin de protéger les machines des failles zero-day.",
+          "url": "https://www.it-connect.fr/palo-alto-cve-2026-0257-cette-faille-dans-le-vpn-est-activement-exploitee/",
+          "summary": "Une faille de sécurité découverte dans le service VPN GlobalProtect de Palo Alto Networks est actuellement exploitée par les cybercriminels : CVE-2026-0257.",
           "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
         },
         {
@@ -90,6 +82,14 @@ window.VEILLE_DATA = {
           "source": "ANSSI",
           "url": "http://cyber.gouv.fr/actualites/la-france-prend-la-presidence-du-groupe-de-travail-sur-la-cybersecurite-du-g7/",
           "summary": "Face à l’intensification et à la diversification des cybermenaces, la cybersécurité constitue un enjeu stratégique majeur pour la sécurité nationale […]",
+          "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
+        },
+        {
+          "date": "21 janvier 2026",
+          "title": "Vulnérabilité dans telnetd (21 janvier 2026)",
+          "source": "CERT-FR",
+          "url": "https://www.cert.ssi.gouv.fr/actualite/CERTFR-2026-ACT-003/",
+          "summary": "Le 20 janvier 2026, les détails de la vulnérabilité CVE-2026-24061, affectant *telnetd*, ont été publiés. Cette vulnérabilité permet à un attaquant de contourner l'authentification et de se connecter à une machine vulnérable en tant que...",
           "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
         }
       ]
@@ -118,35 +118,35 @@ window.VEILLE_DATA = {
       ],
       "entries": [
         {
-          "date": "31 mai 2026",
-          "title": "On a vu la Anker SOLIX Solarbank 4 Pro en vrai : 8 faits que les photos officielles ne montrent pas",
+          "date": "1 juin 2026",
+          "title": "ChatGPT : OpenAI supprime discrètement ces deux modèles historiques",
           "source": "01net",
-          "url": "https://www.01net.com/actualites/on-a-vu-la-anker-solix-solarbank-4-pro-en-vrai-8-faits-que-les-photos-officielles-ne-montrent-pas.html",
-          "summary": "Anka propulsé par ChatGPT, 30 dB de bruit, retour sur investissement de 3 ans : ce que la conférence de lancement de la Solarbank 4 Pro a révélé sur scène.",
+          "url": "https://www.01net.com/actualites/chatgpt-openai-supprime-discretement-ces-deux-modeles-historiques.html",
+          "summary": "OpenAI tourne définitivement la page de la génération GPT-4 en retirant les derniers modèles encore accessibles dans ChatGPT.",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
-          "date": "30 mai 2026",
-          "title": "La CNIL s’alarme des lunettes connectées, Meta en rajoute avec un collier IA",
-          "source": "01net",
-          "url": "https://www.01net.com/actualites/la-cnil-salarme-des-lunettes-connectees-meta-en-rajoute-avec-un-collier-ia.html",
-          "summary": "Alors que la CNIL alerte contre les lunettes connectées, Meta annonce un pendentif capable d'enregistrer vos conversations.",
+          "date": "1 juin 2026",
+          "title": "La Maison Blanche veut garder le contrôle de Claude Mythos : l’UE toujours écartée",
+          "source": "IT-Connect",
+          "url": "https://www.it-connect.fr/la-maison-blanche-veut-garder-le-controle-de-claude-mythos-lue-toujours-ecartee/",
+          "summary": "Face à la puissance du modèle IA Claude Mythos d’Anthropic, l’administration américaine est opposée à ce que l’Union européenne puisse y avoir accès.",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
-          "date": "30 mai 2026",
-          "title": "Apple veut compresser Gemini pour le faire tenir dans votre iPhone",
+          "date": "1 juin 2026",
+          "title": "Votre smartphone Galaxy est trop chaud ? Samsung travaille sur une nouvelle solution de refroidissement liquide",
           "source": "01net",
-          "url": "https://www.01net.com/actualites/apple-veut-compresser-gemini-pour-le-faire-tenir-dans-votre-iphone.html",
-          "summary": "Pour sauver Siri, Apple a obtenu un accès complet aux modèles Gemini de Google. L'objectif : les compresser pour qu'ils fonctionnent hors ligne sur l'iPhone.",
+          "url": "https://www.01net.com/actualites/votre-smartphone-galaxy-est-trop-chaud-samsung-travaille-sur-une-nouvelle-solution-de-refroidissement-liquide.html",
+          "summary": "Faire tourner une IA, un écran OLED éblouissant et une puce surpuissante dans un boîtier toujours plus fin, sans se brûler les doigts ni cramer la batterie : le casse-tête thermique des smartphones a trouvé un nouveau favori, la plomberie.",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
-          "date": "29 mai 2026",
-          "title": "ZTE présente le nubia Neo 5 GT un nouveau smartphone gaming équipé d’un ventilateur et d’une IA gaming",
+          "date": "1 juin 2026",
+          "title": "Avec le DLSS 4.5, NVIDIA veut transformer vos jeux avec l’IA : voici les premiers titres compatibles",
           "source": "01net",
-          "url": "https://www.01net.com/actualites/zte-presente-le-nubia-neo-5-gt-un-nouveau-smartphone-gaming-equipe-dun-ventilateur-et-dune-ia-gaming.html",
-          "summary": "ZTE annonce la sortie d’un smartphone gaming, le Nubia Neo 5 GT. Proposé à moins de 400 €, il est disponible dès à présent.",
+          "url": "https://www.01net.com/actualites/avec-le-dlss-4-5-nvidia-veut-transformer-vos-jeux-avec-lia-voici-les-premiers-titres-compatibles.html",
+          "summary": "NVIDIA lance le DLSS 4.5 Ray Reconstruction pour améliorer le rendu graphique des jeux sur cartes GeForce RTX. Cette technologie vise à améliorer la précision des éclairages, à réduire les scintillements de l'image et à limiter les effet...",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         }
       ]
