@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-01",
+  "updatedAt": "2026-06-02",
   "methodologie": {
     "title": "Méthodologie de veille",
     "summary": "Ma veille technologique repose sur plusieurs sources complémentaires : IT-Connect, ANSSI et le CERT-FR pour la cybersécurité, 01net et Le Monde Informatique pour l'IA. Chaque jour, un script récupère automatiquement les nouvelles publications, calcule un score de pertinence par mots-clés, et sélectionne les 4 meilleures entrées par thème.",
@@ -61,6 +61,14 @@
       ],
       "entries": [
         {
+          "date": "2 juin 2026",
+          "title": "Windows Server – CVE-2026-41089 : cette faille critique dans Netlogon est exploitée !",
+          "source": "IT-Connect",
+          "url": "https://www.it-connect.fr/windows-server-cve-2026-41089-cette-faille-critique-dans-netlogon-est-exploitee/",
+          "summary": "Le CCB a publié une alerte à propos de la CVE-2026-41089, une faille présente dans le service Netlogon de Windows Server : elle est exploitée par les pirates.",
+          "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
+        },
+        {
           "date": "1 juin 2026",
           "title": "Palo Alto – CVE-2026-0257 : cette faille dans le VPN est activement exploitée !",
           "source": "IT-Connect",
@@ -82,14 +90,6 @@
           "source": "ANSSI",
           "url": "http://cyber.gouv.fr/actualites/la-france-prend-la-presidence-du-groupe-de-travail-sur-la-cybersecurite-du-g7/",
           "summary": "Face à l’intensification et à la diversification des cybermenaces, la cybersécurité constitue un enjeu stratégique majeur pour la sécurité nationale […]",
-          "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
-        },
-        {
-          "date": "21 janvier 2026",
-          "title": "Vulnérabilité dans telnetd (21 janvier 2026)",
-          "source": "CERT-FR",
-          "url": "https://www.cert.ssi.gouv.fr/actualite/CERTFR-2026-ACT-003/",
-          "summary": "Le 20 janvier 2026, les détails de la vulnérabilité CVE-2026-24061, affectant *telnetd*, ont été publiés. Cette vulnérabilité permet à un attaquant de contourner l'authentification et de se connecter à une machine vulnérable en tant que...",
           "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
         }
       ]
@@ -118,11 +118,19 @@
       ],
       "entries": [
         {
-          "date": "1 juin 2026",
-          "title": "ChatGPT : OpenAI supprime discrètement ces deux modèles historiques",
+          "date": "2 juin 2026",
+          "title": "Scandale de sécurité chez Meta : l’IA permettait de pirater n’importe quel compte Instagram en quelques clics",
           "source": "01net",
-          "url": "https://www.01net.com/actualites/chatgpt-openai-supprime-discretement-ces-deux-modeles-historiques.html",
-          "summary": "OpenAI tourne définitivement la page de la génération GPT-4 en retirant les derniers modèles encore accessibles dans ChatGPT.",
+          "url": "https://www.01net.com/actualites/scandale-securite-meta-ia-permettait-pirater-nimporte-quel-compte-instagram-en-quelques-clics.html",
+          "summary": "Meta AI, le chatbot de Meta, a souffert d'une grave faille de sécurité. En conversant avec l'IA, il était possible de pirater un compte Instagram en quelques clics. En demandant simplement à l'intelligence artificielle de changer l'adres...",
+          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
+        },
+        {
+          "date": "2 juin 2026",
+          "title": "Pour financer l’IA, Google fait quelque chose de jamais vu depuis 2004",
+          "source": "01net",
+          "url": "https://www.01net.com/actualites/pour-financer-lia-google-fait-quelque-chose-de-jamais-vu-depuis-2004.html",
+          "summary": "Alphabet, la maison mère de Google, annonce une augmentation de capital de 80 milliards de dollars pour financer ses infrastructures d'intelligence artificielle. Il s'agit de sa première vente d'actions importante depuis son introduction...",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
@@ -134,19 +142,11 @@
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
-          "date": "1 juin 2026",
-          "title": "Votre smartphone Galaxy est trop chaud ? Samsung travaille sur une nouvelle solution de refroidissement liquide",
+          "date": "2 juin 2026",
+          "title": "Google Drive : ce nouveau bouton va ranger tous vos fichiers en vrac à votre place",
           "source": "01net",
-          "url": "https://www.01net.com/actualites/votre-smartphone-galaxy-est-trop-chaud-samsung-travaille-sur-une-nouvelle-solution-de-refroidissement-liquide.html",
-          "summary": "Faire tourner une IA, un écran OLED éblouissant et une puce surpuissante dans un boîtier toujours plus fin, sans se brûler les doigts ni cramer la batterie : le casse-tête thermique des smartphones a trouvé un nouveau favori, la plomberie.",
-          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
-        },
-        {
-          "date": "1 juin 2026",
-          "title": "Avec le DLSS 4.5, NVIDIA veut transformer vos jeux avec l’IA : voici les premiers titres compatibles",
-          "source": "01net",
-          "url": "https://www.01net.com/actualites/avec-le-dlss-4-5-nvidia-veut-transformer-vos-jeux-avec-lia-voici-les-premiers-titres-compatibles.html",
-          "summary": "NVIDIA lance le DLSS 4.5 Ray Reconstruction pour améliorer le rendu graphique des jeux sur cartes GeForce RTX. Cette technologie vise à améliorer la précision des éclairages, à réduire les scintillements de l'image et à limiter les effet...",
+          "url": "https://www.01net.com/actualites/google-drive-nouveau-bouton-va-ranger-fichiers-en-vrac-votre-place.html",
+          "summary": "Google déploie une nouvelle fonctionnalité pour mettre de l’ordre dans vos fichiers sur Drive : Gemini propose désormais de classer automatiquement vos fichiers en analysant la structure de vos dossiers existants.",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         }
       ]
