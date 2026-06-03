@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-02",
+  "updatedAt": "2026-06-03",
   "methodologie": {
     "title": "Méthodologie de veille",
     "summary": "Ma veille technologique repose sur plusieurs sources complémentaires : IT-Connect, ANSSI et le CERT-FR pour la cybersécurité, 01net et Le Monde Informatique pour l'IA. Chaque jour, un script récupère automatiquement les nouvelles publications, calcule un score de pertinence par mots-clés, et sélectionne les 4 meilleures entrées par thème.",
@@ -62,18 +62,18 @@
       "entries": [
         {
           "date": "2 juin 2026",
+          "title": "Android : le patch de juin 2026 corrige une faille zero-day déjà exploitée",
+          "source": "IT-Connect",
+          "url": "https://www.it-connect.fr/android-le-patch-de-juin-2026-corrige-une-faille-zero-day-deja-exploitee/",
+          "summary": "Les patchs de sécurité de juin 2026 pour Android corrigent 124 vulnérabilités, dont une faille de sécurité zero-day patchée par Google (CVE-2025-48595).",
+          "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
+        },
+        {
+          "date": "2 juin 2026",
           "title": "Windows Server – CVE-2026-41089 : cette faille critique dans Netlogon est exploitée !",
           "source": "IT-Connect",
           "url": "https://www.it-connect.fr/windows-server-cve-2026-41089-cette-faille-critique-dans-netlogon-est-exploitee/",
           "summary": "Le CCB a publié une alerte à propos de la CVE-2026-41089, une faille présente dans le service Netlogon de Windows Server : elle est exploitée par les pirates.",
-          "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
-        },
-        {
-          "date": "1 juin 2026",
-          "title": "Palo Alto – CVE-2026-0257 : cette faille dans le VPN est activement exploitée !",
-          "source": "IT-Connect",
-          "url": "https://www.it-connect.fr/palo-alto-cve-2026-0257-cette-faille-dans-le-vpn-est-activement-exploitee/",
-          "summary": "Une faille de sécurité découverte dans le service VPN GlobalProtect de Palo Alto Networks est actuellement exploitée par les cybercriminels : CVE-2026-0257.",
           "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
         },
         {
@@ -118,35 +118,35 @@
       ],
       "entries": [
         {
-          "date": "2 juin 2026",
-          "title": "Scandale de sécurité chez Meta : l’IA permettait de pirater n’importe quel compte Instagram en quelques clics",
+          "date": "3 juin 2026",
+          "title": "Après le « zéro régulation » en matière d’IA, Donald Trump impose des règles… facultatives",
           "source": "01net",
-          "url": "https://www.01net.com/actualites/scandale-securite-meta-ia-permettait-pirater-nimporte-quel-compte-instagram-en-quelques-clics.html",
-          "summary": "Meta AI, le chatbot de Meta, a souffert d'une grave faille de sécurité. En conversant avec l'IA, il était possible de pirater un compte Instagram en quelques clics. En demandant simplement à l'intelligence artificielle de changer l'adres...",
+          "url": "https://www.01net.com/actualites/apres-le-zero-regulation-en-matiere-dia-donald-trump-impose-des-regles-facultatives.html",
+          "summary": "Le président américain a signé, mardi 2 juin 2026, son décret sur l'intelligence artificielle visant à imposer certaines règles à OpenAI, Google et Anthropic. Contrairement à ce qu'il prônait jusqu'à présent, le locataire de la Maison Bl...",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
-          "date": "2 juin 2026",
-          "title": "Pour financer l’IA, Google fait quelque chose de jamais vu depuis 2004",
+          "date": "3 juin 2026",
+          "title": "Procès inédit contre OpenAI : un État américain s’attaque personnellement à Sam Altman",
           "source": "01net",
-          "url": "https://www.01net.com/actualites/pour-financer-lia-google-fait-quelque-chose-de-jamais-vu-depuis-2004.html",
-          "summary": "Alphabet, la maison mère de Google, annonce une augmentation de capital de 80 milliards de dollars pour financer ses infrastructures d'intelligence artificielle. Il s'agit de sa première vente d'actions importante depuis son introduction...",
+          "url": "https://www.01net.com/actualites/proces-inedit-contre-openai-un-etat-americain-sattaque-personnellement-a-sam-altman.html",
+          "summary": "Un État américain attaque OpenAI en justice et veut faire payer Sam Altman en personne. Une première aux États-Unis, sur fond de drames attribués à ChatGPT.",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
-          "date": "1 juin 2026",
-          "title": "La Maison Blanche veut garder le contrôle de Claude Mythos : l’UE toujours écartée",
+          "date": "3 juin 2026",
+          "title": "OnlyOffice 9.4 apporte Mistral AI sur mobile pour concurrencer Microsoft Office et Google Docs",
+          "source": "01net",
+          "url": "https://www.01net.com/actualites/onlyoffice-9-4-apporte-mistral-ai-sur-mobile-pour-concurrencer-microsoft-office-et-google-docs.html",
+          "summary": "OnlyOffice 9.4 intègre nativement Mistral AI sur mobile iOS. La suite bureautique open source renforce son alternative à Microsoft Office et Google Docs avec une IA souveraine française.",
+          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
+        },
+        {
+          "date": "3 juin 2026",
+          "title": "Microsoft lance MAI-Thinking-1, son premier modèle IA pour le raisonnement",
           "source": "IT-Connect",
-          "url": "https://www.it-connect.fr/la-maison-blanche-veut-garder-le-controle-de-claude-mythos-lue-toujours-ecartee/",
-          "summary": "Face à la puissance du modèle IA Claude Mythos d’Anthropic, l’administration américaine est opposée à ce que l’Union européenne puisse y avoir accès.",
-          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
-        },
-        {
-          "date": "2 juin 2026",
-          "title": "Google Drive : ce nouveau bouton va ranger tous vos fichiers en vrac à votre place",
-          "source": "01net",
-          "url": "https://www.01net.com/actualites/google-drive-nouveau-bouton-va-ranger-fichiers-en-vrac-votre-place.html",
-          "summary": "Google déploie une nouvelle fonctionnalité pour mettre de l’ordre dans vos fichiers sur Drive : Gemini propose désormais de classer automatiquement vos fichiers en analysant la structure de vos dossiers existants.",
+          "url": "https://www.it-connect.fr/microsoft-lance-mai-thinking-1-son-premier-modele-ia-pour-le-raisonnement/",
+          "summary": "Lors de la conférence Build 2026, Microsoft a dévoilé de nouveaux modèles IA développés en interne, dont son premier LLM pour le raisonnement : MAI-Thinking-1.",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         }
       ]
