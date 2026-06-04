@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-03",
+  "updatedAt": "2026-06-04",
   "methodologie": {
     "title": "Méthodologie de veille",
     "summary": "Ma veille technologique repose sur plusieurs sources complémentaires : IT-Connect, ANSSI et le CERT-FR pour la cybersécurité, 01net et Le Monde Informatique pour l'IA. Chaque jour, un script récupère automatiquement les nouvelles publications, calcule un score de pertinence par mots-clés, et sélectionne les 4 meilleures entrées par thème.",
@@ -69,11 +69,11 @@
           "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
         },
         {
-          "date": "2 juin 2026",
-          "title": "Windows Server – CVE-2026-41089 : cette faille critique dans Netlogon est exploitée !",
+          "date": "3 juin 2026",
+          "title": "VS Code : un chercheur publie une faille zero-day pour punir Microsoft",
           "source": "IT-Connect",
-          "url": "https://www.it-connect.fr/windows-server-cve-2026-41089-cette-faille-critique-dans-netlogon-est-exploitee/",
-          "summary": "Le CCB a publié une alerte à propos de la CVE-2026-41089, une faille présente dans le service Netlogon de Windows Server : elle est exploitée par les pirates.",
+          "url": "https://www.it-connect.fr/vs-code-un-chercheur-publie-une-faille-zero-day-pour-punir-microsoft/",
+          "summary": "Un chercheur en sécurité a divulgué une faille de sécurité zero-day affectant Visual Studio Code et plus particulièrement la version web via github.dev.",
           "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
         },
         {
@@ -118,27 +118,11 @@
       ],
       "entries": [
         {
-          "date": "3 juin 2026",
-          "title": "Après le « zéro régulation » en matière d’IA, Donald Trump impose des règles… facultatives",
+          "date": "4 juin 2026",
+          "title": "Amazon propose désormais des produits qui n’existent pas",
           "source": "01net",
-          "url": "https://www.01net.com/actualites/apres-le-zero-regulation-en-matiere-dia-donald-trump-impose-des-regles-facultatives.html",
-          "summary": "Le président américain a signé, mardi 2 juin 2026, son décret sur l'intelligence artificielle visant à imposer certaines règles à OpenAI, Google et Anthropic. Contrairement à ce qu'il prônait jusqu'à présent, le locataire de la Maison Bl...",
-          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
-        },
-        {
-          "date": "3 juin 2026",
-          "title": "Procès inédit contre OpenAI : un État américain s’attaque personnellement à Sam Altman",
-          "source": "01net",
-          "url": "https://www.01net.com/actualites/proces-inedit-contre-openai-un-etat-americain-sattaque-personnellement-a-sam-altman.html",
-          "summary": "Un État américain attaque OpenAI en justice et veut faire payer Sam Altman en personne. Une première aux États-Unis, sur fond de drames attribués à ChatGPT.",
-          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
-        },
-        {
-          "date": "3 juin 2026",
-          "title": "OnlyOffice 9.4 apporte Mistral AI sur mobile pour concurrencer Microsoft Office et Google Docs",
-          "source": "01net",
-          "url": "https://www.01net.com/actualites/onlyoffice-9-4-apporte-mistral-ai-sur-mobile-pour-concurrencer-microsoft-office-et-google-docs.html",
-          "summary": "OnlyOffice 9.4 intègre nativement Mistral AI sur mobile iOS. La suite bureautique open source renforce son alternative à Microsoft Office et Google Docs avec une IA souveraine française.",
+          "url": "https://www.01net.com/actualites/amazon-propose-produits-existent-pas.html",
+          "summary": "Amazon introduit une fonction d’IA qui génère des images de produits fictifs à partir des descriptions des utilisateurs. Autrement dit, l’intelligence artificielle met en avant des articles visuellement « parfaits » que personne ne vend....",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
@@ -147,6 +131,22 @@
           "source": "IT-Connect",
           "url": "https://www.it-connect.fr/microsoft-lance-mai-thinking-1-son-premier-modele-ia-pour-le-raisonnement/",
           "summary": "Lors de la conférence Build 2026, Microsoft a dévoilé de nouveaux modèles IA développés en interne, dont son premier LLM pour le raisonnement : MAI-Thinking-1.",
+          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
+        },
+        {
+          "date": "4 juin 2026",
+          "title": "Windows 11 : Microsoft plancherait sur un bouton pour désinstaller l’IA de votre PC",
+          "source": "01net",
+          "url": "https://www.01net.com/actualites/windows-11-microsoft-plancherait-sur-un-bouton-pour-desinstaller-lia-de-votre-pc.html",
+          "summary": "Microsoft travaillerait sur une nouvelle option permettant aux utilisateurs de PC Copilot+ de désinstaller en un clic les composants d’IA locaux. Une manière de libérer de l’espace de stockage pour les utilisateurs qui n’utilisent pas l’...",
+          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
+        },
+        {
+          "date": "4 juin 2026",
+          "title": "Acer lance à son tour ses propres lunettes connectées, et la réalité augmentée est au menu",
+          "source": "01net",
+          "url": "https://www.01net.com/actualites/acer-lance-a-son-tour-ses-propres-lunettes-connectees-et-la-realite-augmentee-est-au-menu.html",
+          "summary": "Acer lance deux modèles de lunettes connectées : AI GI0 et AR Vision GR0. Le premier modèle présente une caméra de 12 MP et intègre Gemini, tandis que le second propose une expérience de réalité augmentée. Ces deux modèles arriveront cet...",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         }
       ]
