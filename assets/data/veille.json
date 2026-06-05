@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-04",
+  "updatedAt": "2026-06-05",
   "methodologie": {
     "title": "Méthodologie de veille",
     "summary": "Ma veille technologique repose sur plusieurs sources complémentaires : IT-Connect, ANSSI et le CERT-FR pour la cybersécurité, 01net et Le Monde Informatique pour l'IA. Chaque jour, un script récupère automatiquement les nouvelles publications, calcule un score de pertinence par mots-clés, et sélectionne les 4 meilleures entrées par thème.",
@@ -118,11 +118,19 @@
       ],
       "entries": [
         {
-          "date": "4 juin 2026",
-          "title": "Amazon propose désormais des produits qui n’existent pas",
+          "date": "5 juin 2026",
+          "title": "ChatGPT ajoute une des meilleures fonctions payantes à la version gratuite",
           "source": "01net",
-          "url": "https://www.01net.com/actualites/amazon-propose-produits-existent-pas.html",
-          "summary": "Amazon introduit une fonction d’IA qui génère des images de produits fictifs à partir des descriptions des utilisateurs. Autrement dit, l’intelligence artificielle met en avant des articles visuellement « parfaits » que personne ne vend....",
+          "url": "https://www.01net.com/actualites/chatgpt-ajoute-une-des-meilleures-fonctions-payantes-a-la-version-gratuite.html",
+          "summary": "OpenAI lance Dreaming V3, une nouvelle version de la mémoire de ChatGPT qui retient désormais vos préférences automatiquement. Les comptes gratuits peuvent aussi en profiter.",
+          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
+        },
+        {
+          "date": "5 juin 2026",
+          "title": "Armes biologiques et IA : OpenAI et Anthropic tirent la sonnette d’alarme",
+          "source": "01net",
+          "url": "https://www.01net.com/actualites/armes-biologiques-et-ia-openai-et-anthropic-tirent-la-sonnette-dalarme.html",
+          "summary": "Plusieurs dirigeants de la tech, dont Sam Altman (OpenAI) et Dario Amodei (Anthropic), appellent le Congrès américain à renforcer les lois afin d’empêcher la création d’armes biologiques à l’aide de l’IA.",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
@@ -134,19 +142,11 @@
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
-          "date": "4 juin 2026",
-          "title": "Windows 11 : Microsoft plancherait sur un bouton pour désinstaller l’IA de votre PC",
-          "source": "01net",
-          "url": "https://www.01net.com/actualites/windows-11-microsoft-plancherait-sur-un-bouton-pour-desinstaller-lia-de-votre-pc.html",
-          "summary": "Microsoft travaillerait sur une nouvelle option permettant aux utilisateurs de PC Copilot+ de désinstaller en un clic les composants d’IA locaux. Une manière de libérer de l’espace de stockage pour les utilisateurs qui n’utilisent pas l’...",
-          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
-        },
-        {
-          "date": "4 juin 2026",
-          "title": "Acer lance à son tour ses propres lunettes connectées, et la réalité augmentée est au menu",
-          "source": "01net",
-          "url": "https://www.01net.com/actualites/acer-lance-a-son-tour-ses-propres-lunettes-connectees-et-la-realite-augmentee-est-au-menu.html",
-          "summary": "Acer lance deux modèles de lunettes connectées : AI GI0 et AR Vision GR0. Le premier modèle présente une caméra de 12 MP et intègre Gemini, tandis que le second propose une expérience de réalité augmentée. Ces deux modèles arriveront cet...",
+          "date": "3 juin 2026",
+          "title": "Microsoft Scout : un nouvel agent IA « Autopilot » propulsé par OpenClaw",
+          "source": "IT-Connect",
+          "url": "https://www.it-connect.fr/microsoft-scout-un-nouvel-agent-ia-autopilot-propulse-par-openclaw/",
+          "summary": "Autonome et toujours actif, voici comment l’on peut définir Scout, l’agent IA Autopilot présenté par Microsoft à l’occasion de la conférence Build 2026.",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         }
       ]
