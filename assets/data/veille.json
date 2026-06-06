@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-05",
+  "updatedAt": "2026-06-06",
   "methodologie": {
     "title": "Méthodologie de veille",
     "summary": "Ma veille technologique repose sur plusieurs sources complémentaires : IT-Connect, ANSSI et le CERT-FR pour la cybersécurité, 01net et Le Monde Informatique pour l'IA. Chaque jour, un script récupère automatiquement les nouvelles publications, calcule un score de pertinence par mots-clés, et sélectionne les 4 meilleures entrées par thème.",
@@ -118,19 +118,11 @@
       ],
       "entries": [
         {
-          "date": "5 juin 2026",
-          "title": "ChatGPT ajoute une des meilleures fonctions payantes à la version gratuite",
+          "date": "6 juin 2026",
+          "title": "Comment ChatGPT a trouvé la panne de notre MacBook Air en 10 minutes",
           "source": "01net",
-          "url": "https://www.01net.com/actualites/chatgpt-ajoute-une-des-meilleures-fonctions-payantes-a-la-version-gratuite.html",
-          "summary": "OpenAI lance Dreaming V3, une nouvelle version de la mémoire de ChatGPT qui retient désormais vos préférences automatiquement. Les comptes gratuits peuvent aussi en profiter.",
-          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
-        },
-        {
-          "date": "5 juin 2026",
-          "title": "Armes biologiques et IA : OpenAI et Anthropic tirent la sonnette d’alarme",
-          "source": "01net",
-          "url": "https://www.01net.com/actualites/armes-biologiques-et-ia-openai-et-anthropic-tirent-la-sonnette-dalarme.html",
-          "summary": "Plusieurs dirigeants de la tech, dont Sam Altman (OpenAI) et Dario Amodei (Anthropic), appellent le Congrès américain à renforcer les lois afin d’empêcher la création d’armes biologiques à l’aide de l’IA.",
+          "url": "https://www.01net.com/astuces/comment-chatgpt-a-trouve-la-panne-de-mon-macbook-air-en-10-minutes.html",
+          "summary": "L’intelligence artificielle peut dans certains cas être d’une précieuse aide pour résoudre un problème technique. En lui expliquant les symptômes d’un Mac en panne, ChatGPT a trouvé la panne en moins de 10 minutes.",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
@@ -147,6 +139,14 @@
           "source": "IT-Connect",
           "url": "https://www.it-connect.fr/microsoft-scout-un-nouvel-agent-ia-autopilot-propulse-par-openclaw/",
           "summary": "Autonome et toujours actif, voici comment l’on peut définir Scout, l’agent IA Autopilot présenté par Microsoft à l’occasion de la conférence Build 2026.",
+          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
+        },
+        {
+          "date": "2 juin 2026",
+          "title": "Intelligent Terminal : Microsoft dévoile une nouvelle console boostée à l’IA",
+          "source": "IT-Connect",
+          "url": "https://www.it-connect.fr/intelligent-terminal-microsoft-devoile-une-nouvelle-console-boostee-a-lia/",
+          "summary": "À l’occasion du Build 2026, Microsoft a dévoilé Intelligent Terminal en version 0.1 : un fork de Windows Terminal compatible avec les agents IA.",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         }
       ]
