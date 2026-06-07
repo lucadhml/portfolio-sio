@@ -1,5 +1,5 @@
 window.VEILLE_DATA = {
-  "updatedAt": "2026-06-06",
+  "updatedAt": "2026-06-07",
   "methodologie": {
     "title": "Méthodologie de veille",
     "summary": "Ma veille technologique repose sur plusieurs sources complémentaires : IT-Connect, ANSSI et le CERT-FR pour la cybersécurité, 01net et Le Monde Informatique pour l'IA. Chaque jour, un script récupère automatiquement les nouvelles publications, calcule un score de pertinence par mots-clés, et sélectionne les 4 meilleures entrées par thème.",
@@ -119,10 +119,10 @@ window.VEILLE_DATA = {
       "entries": [
         {
           "date": "6 juin 2026",
-          "title": "Comment ChatGPT a trouvé la panne de notre MacBook Air en 10 minutes",
+          "title": "IA et consommation d’énergie : l’Europe contre-attaque pour protéger son réseau électrique",
           "source": "01net",
-          "url": "https://www.01net.com/astuces/comment-chatgpt-a-trouve-la-panne-de-mon-macbook-air-en-10-minutes.html",
-          "summary": "L’intelligence artificielle peut dans certains cas être d’une précieuse aide pour résoudre un problème technique. En lui expliquant les symptômes d’un Mac en panne, ChatGPT a trouvé la panne en moins de 10 minutes.",
+          "url": "https://www.01net.com/actualites/ia-et-consommation-denergie-leurope-contre-attaque-pour-proteger-son-reseau-electrique.html",
+          "summary": "Les datacenters deviennent un véritable sujet industriel, et pour cause : leur consommation d'énergie a explosé avec la multiplication de projets destinés à l'IA générative. Pour éviter de menacer son réseau, l'Europe va encadrer l'infra...",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
