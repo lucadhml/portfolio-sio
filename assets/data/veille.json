@@ -51,12 +51,12 @@
         {
           "name": "ANSSI",
           "type": "Source institutionnelle",
-          "url": "https://cyber.gouv.fr/actualites/rss/"
+          "url": "https://cyber.gouv.fr/actualites/"
         },
         {
           "name": "CERT-FR",
           "type": "Bulletins et alertes",
-          "url": "https://www.cert.ssi.gouv.fr/actualite/feed/"
+          "url": "https://www.cert.ssi.gouv.fr/actualite/"
         }
       ],
       "entries": [
@@ -112,12 +112,12 @@
         {
           "name": "01net",
           "type": "Presse tech française",
-          "url": "https://www.01net.com/feed/"
+          "url": "https://www.01net.com/actualites/"
         },
         {
           "name": "Le Monde Informatique",
           "type": "Presse IT professionnelle",
-          "url": "https://www.lemondeinformatique.fr/flux-rss/thematique/intelligence-artificielle/1.xml"
+          "url": "https://www.lemondeinformatique.fr/intelligence-artificielle-154.html"
         }
       ],
       "entries": [
