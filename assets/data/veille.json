@@ -51,49 +51,45 @@
         {
           "name": "ANSSI",
           "type": "Source institutionnelle",
-          "url": "https://cyber.gouv.fr/actualites/"
+          "url": "https://cyber.gouv.fr/actualites/rss/"
         },
         {
           "name": "CERT-FR",
           "type": "Bulletins et alertes",
-          "url": "https://www.cert.ssi.gouv.fr/actualite/"
+          "url": "https://www.cert.ssi.gouv.fr/actualite/feed/"
         }
       ],
       "entries": [
         {
-          "theme": "cybersecurite",
           "date": "3 juin 2026",
-          "title": "Bulletin d'actualité CERTFR-2026-ACT-024 – Roundcube, GitLab, Veeam et Linux",
-          "source": "CERT-FR",
-          "url": "https://www.cert.ssi.gouv.fr/actualite/CERTFR-2026-ACT-024/",
-          "summary": "Le CERT-FR recense plusieurs vulnérabilités critiques publiées en fin de semaine 22 : Roundcube expose des failles d'exécution de code à distance et d'injection SQL sans authentification (corrigées en 1.6.16 et 1.7.1), tandis que des correctifs urgents touchent également GitLab, Veeam Backup & Replication, Centreon Web et plusieurs distributions Linux (Ubuntu, Red Hat, Debian).",
-          "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
-        },
-        {
-          "theme": "cybersecurite",
-          "date": "28 mai 2026",
-          "title": "CVE-2026-21643 – La faille critique de FortiClient EMS activement exploitée",
+          "title": "VS Code : un chercheur publie une faille zero-day pour punir Microsoft",
           "source": "IT-Connect",
-          "url": "https://www.it-connect.fr/cve-2026-21643-cette-faille-critique-dans-forticlient-ems-est-exploitee/",
-          "summary": "La CVE-2026-21643 est une injection SQL critique dans FortiClient EMS de Fortinet, exploitable à distance sans authentification. Des cybercriminels l'exploitent activement pour prendre le contrôle de systèmes non patchés. Fortinet a publié un correctif d'urgence à appliquer sans délai.",
+          "url": "https://www.it-connect.fr/vs-code-un-chercheur-publie-une-faille-zero-day-pour-punir-microsoft/",
+          "summary": "Un chercheur en sécurité a divulgué une faille de sécurité zero-day affectant Visual Studio Code et plus particulièrement la version web via github.dev.",
           "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
         },
         {
-          "theme": "cybersecurite",
-          "date": "4 juin 2026",
-          "title": "CVE-2026-32746 – Les serveurs Linux menacés par une nouvelle faille Telnet",
-          "source": "IT-Connect",
-          "url": "https://www.it-connect.fr/cve-2026-32746-les-serveurs-linux-menaces-par-une-nouvelle-faille-telnet/",
-          "summary": "Une faille critique CVE-2026-32746 a été découverte dans GNU InetUtils, au niveau de l'implémentation Telnet. Elle permet l'exécution de code à distance sur les serveurs Linux exposés. IT-Connect détaille les versions affectées et les mesures de mitigation recommandées.",
-          "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
-        },
-        {
-          "theme": "cybersecurite",
-          "date": "17 mars 2026",
-          "title": "NIS 2 : l'ANSSI poursuit et renforce sa dynamique d'accompagnement",
+          "date": "11 mars 2026",
+          "title": "Panorama de la cybermenace 2025 : La France toujours sous la pression des cyber attaquants",
           "source": "ANSSI",
-          "url": "https://cyber.gouv.fr/actualites/nis-2-lanssi-poursuit-et-renforce-sa-dynamique-daccompagnement/",
-          "summary": "L'ANSSI a réuni acteurs institutionnels, sectoriels et publics concernés par la directive NIS 2 pour encourager leur engagement dans la démarche de sécurisation nationale portée par le Référentiel Cyber France (ReCyF). Cette initiative vise à élever le niveau de sécurité numérique des entités françaises essentielles.",
+          "url": "http://cyber.gouv.fr/actualites/panorama-de-la-cybermenace-2025/",
+          "summary": "Dans le Panorama de la cybermenace 2025, l’Agence nationale de la sécurité des systèmes d’information (ANSSI) présente le bilan d’une […]",
+          "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
+        },
+        {
+          "date": "30 janvier 2026",
+          "title": "La France prend la présidence du Groupe de travail sur la cybersécurité du G7",
+          "source": "ANSSI",
+          "url": "http://cyber.gouv.fr/actualites/la-france-prend-la-presidence-du-groupe-de-travail-sur-la-cybersecurite-du-g7/",
+          "summary": "Face à l’intensification et à la diversification des cybermenaces, la cybersécurité constitue un enjeu stratégique majeur pour la sécurité nationale […]",
+          "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
+        },
+        {
+          "date": "21 janvier 2026",
+          "title": "Vulnérabilité dans telnetd (21 janvier 2026)",
+          "source": "CERT-FR",
+          "url": "https://www.cert.ssi.gouv.fr/actualite/CERTFR-2026-ACT-003/",
+          "summary": "Le 20 janvier 2026, les détails de la vulnérabilité CVE-2026-24061, affectant *telnetd*, ont été publiés. Cette vulnérabilité permet à un attaquant de contourner l'authentification et de se connecter à une machine vulnérable en tant que...",
           "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
         }
       ]
@@ -112,49 +108,45 @@
         {
           "name": "01net",
           "type": "Presse tech française",
-          "url": "https://www.01net.com/actualites/"
+          "url": "https://www.01net.com/feed/"
         },
         {
           "name": "Le Monde Informatique",
           "type": "Presse IT professionnelle",
-          "url": "https://www.lemondeinformatique.fr/intelligence-artificielle-154.html"
+          "url": "https://www.lemondeinformatique.fr/flux-rss/thematique/intelligence-artificielle/1.xml"
         }
       ],
       "entries": [
         {
-          "theme": "intelligence-artificielle",
+          "date": "8 juin 2026",
+          "title": "WWDC 2026 : comment suivre la keynote Apple et la présentation du nouveau Siri en direct ?",
+          "source": "01net",
+          "url": "https://www.01net.com/actualites/wwdc-2026-comment-suivre-keynote-apple-presentation-nouveau-siri-direct.html",
+          "summary": "Apple lève le rideau sur la WWDC 2026 dans quelques heures. La conférence annuelle du géant de Cupertino s'annonce chargée, avec iOS 27, macOS 27 et un Siri entièrement repensé grâce à l'IA générative. Cette édition a aussi une saveur pa...",
+          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
+        },
+        {
+          "date": "8 juin 2026",
+          "title": "ChatGPT se verrouille contre les cyberattaques : ce nouveau mode va mieux protéger vos données, comment l’activer ?",
+          "source": "01net",
+          "url": "https://www.01net.com/actualites/chatgpt-verrouille-contre-cyberattaques-openai-lance-nouveau-mode-proteger-donnees-comment-activer.html",
+          "summary": "OpenAI vient de déployer le « Lockdown Mode », une fonctionnalité de sécurité destinée à protéger les utilisateurs de ChatGPT contre les attaques par injection de requêtes. Disponible sur tous les abonnements, ce mode désactive volontair...",
+          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
+        },
+        {
           "date": "3 juin 2026",
-          "title": "OpenAI pousse les agents de codage vers l'orchestration",
-          "source": "Le Monde Informatique",
-          "url": "https://www.lemondeinformatique.fr/actualites/lire-openai-pousse-les-agents-de-codage-vers-l-orchestration-100049.html",
-          "summary": "OpenAI lance Frontier, une plateforme pour accompagner les entreprises dans la conception, le déploiement et la gestion d'agents IA de codage. En parallèle, la société a recruté Peter Steinberg, créateur d'OpenClaw, pour piloter sa stratégie d'agents personnels capables d'agir de façon autonome dans les environnements bureautiques.",
+          "title": "Microsoft lance MAI-Thinking-1, son premier modèle IA pour le raisonnement",
+          "source": "IT-Connect",
+          "url": "https://www.it-connect.fr/microsoft-lance-mai-thinking-1-son-premier-modele-ia-pour-le-raisonnement/",
+          "summary": "Lors de la conférence Build 2026, Microsoft a dévoilé de nouveaux modèles IA développés en interne, dont son premier LLM pour le raisonnement : MAI-Thinking-1.",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
-          "theme": "intelligence-artificielle",
-          "date": "5 juin 2026",
-          "title": "Polytechnique généralise l'enseignement de l'IA en 2e année",
-          "source": "Le Monde Informatique",
-          "url": "https://www.lemondeinformatique.fr/actualites/lire-polytechnique-generalise-l-enseignement-de-l-ia-en-2e-annee-100277.html",
-          "summary": "L'École Polytechnique intègre l'intelligence artificielle comme matière obligatoire en deuxième année du cycle ingénieur. Cette décision reflète la montée en puissance des compétences IA dans les formations d'élite françaises et signale l'importance croissante de ces savoirs dans tous les métiers de l'IT.",
-          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
-        },
-        {
-          "theme": "intelligence-artificielle",
-          "date": "22 mai 2026",
-          "title": "Agents IA : une faille invisible dans les systèmes d'information",
-          "source": "Le Monde Informatique",
-          "url": "https://www.lemondeinformatique.fr/les-dossiers/lire-agents-ia-une-faille-invisible-dans-les-systemes-d-information-1698.html",
-          "summary": "Les agents IA autonomes, capables d'enchaîner des actions sans intervention humaine (interroger des bases de données, appeler des API, exécuter du code), introduisent de nouvelles surfaces d'attaque invisibles dans les systèmes d'information des entreprises.",
-          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
-        },
-        {
-          "theme": "intelligence-artificielle",
-          "date": "20 mai 2026",
-          "title": "DeepSeek taille son LLM V4 pour les usages IA pointus",
-          "source": "Le Monde Informatique",
-          "url": "https://www.lemondeinformatique.fr/actualites/lire-deepseek-taille-son-llm-v4-pour-les-usages-ia-pointus-100019.html",
-          "summary": "DeepSeek publie son LLM V4, optimisé pour les usages agentiques avec des coûts d'inférence significativement réduits. Ce modèle rivalise avec les solutions américaines et s'impose comme une alternative crédible pour les entreprises européennes cherchant à déployer de l'IA sans dépendance aux grands fournisseurs US.",
+          "date": "8 juin 2026",
+          "title": "Ces smartphones Android pas chers vont enfin recevoir Gemini",
+          "source": "01net",
+          "url": "https://www.01net.com/actualites/ces-smartphones-android-pas-chers-vont-enfin-recevoir-gemini.html",
+          "summary": "Google déploie Gemini sur les smartphones Android abordables, remplaçant Assistant Go. Cette évolution vise à démocratiser l'accès à l'IA, même sur des appareils à faibles ressources. Gemini Go offre des fonctionnalités pratiques tout en...",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         }
       ]
