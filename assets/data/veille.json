@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-08",
+  "updatedAt": "2026-06-09",
   "methodologie": {
     "title": "Méthodologie de veille",
     "summary": "Ma veille technologique repose sur plusieurs sources complémentaires : IT-Connect, ANSSI et le CERT-FR pour la cybersécurité, 01net et Le Monde Informatique pour l'IA. Chaque jour, un script récupère automatiquement les nouvelles publications, calcule un score de pertinence par mots-clés, et sélectionne les 4 meilleures entrées par thème.",
@@ -61,6 +61,14 @@
       ],
       "entries": [
         {
+          "date": "8 juin 2026",
+          "title": "Ces trois failles offrent un accès root sur UniFi OS Server : patchez !",
+          "source": "IT-Connect",
+          "url": "https://www.it-connect.fr/ces-trois-failles-offrent-un-acces-root-sur-unifi-os-server-patchez/",
+          "summary": "CVE-2026-34908, CVE-2026-34909, et CVE-2026-34910 : exploitées ensemble, ces trois failles permettent d’exécuter du code en tant que root sur UniFi OS Server.",
+          "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
+        },
+        {
           "date": "3 juin 2026",
           "title": "VS Code : un chercheur publie une faille zero-day pour punir Microsoft",
           "source": "IT-Connect",
@@ -82,14 +90,6 @@
           "source": "ANSSI",
           "url": "http://cyber.gouv.fr/actualites/la-france-prend-la-presidence-du-groupe-de-travail-sur-la-cybersecurite-du-g7/",
           "summary": "Face à l’intensification et à la diversification des cybermenaces, la cybersécurité constitue un enjeu stratégique majeur pour la sécurité nationale […]",
-          "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
-        },
-        {
-          "date": "21 janvier 2026",
-          "title": "Vulnérabilité dans telnetd (21 janvier 2026)",
-          "source": "CERT-FR",
-          "url": "https://www.cert.ssi.gouv.fr/actualite/CERTFR-2026-ACT-003/",
-          "summary": "Le 20 janvier 2026, les détails de la vulnérabilité CVE-2026-24061, affectant *telnetd*, ont été publiés. Cette vulnérabilité permet à un attaquant de contourner l'authentification et de se connecter à une machine vulnérable en tant que...",
           "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
         }
       ]
@@ -119,34 +119,34 @@
       "entries": [
         {
           "date": "8 juin 2026",
-          "title": "WWDC 2026 : comment suivre la keynote Apple et la présentation du nouveau Siri en direct ?",
+          "title": "Apple lance enfin Siri AI : qu’est-ce que c’est ?",
           "source": "01net",
-          "url": "https://www.01net.com/actualites/wwdc-2026-comment-suivre-keynote-apple-presentation-nouveau-siri-direct.html",
-          "summary": "Apple lève le rideau sur la WWDC 2026 dans quelques heures. La conférence annuelle du géant de Cupertino s'annonce chargée, avec iOS 27, macOS 27 et un Siri entièrement repensé grâce à l'IA générative. Cette édition a aussi une saveur pa...",
+          "url": "https://www.01net.com/actualites/apple-rend-enfin-siri-intelligent-avec-siri-ai-mais-pas-tout-de-suite-en-europe.html",
+          "summary": "Siri va subir une transformation majeure en 2026 avec l'intégration de l'IA générative et de Gemini, offrant une expérience utilisateur améliorée. L'assistant bénéficiera d'un nouveau look, d'une voix ajustable et d'une meilleure compréh...",
+          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
+        },
+        {
+          "date": "9 juin 2026",
+          "title": "Le ChatGPT tel qu’on le connaît va bientôt disparaître",
+          "source": "01net",
+          "url": "https://www.01net.com/actualites/le-chatgpt-tel-quon-le-connait-va-bientot-disparaitre.html",
+          "summary": "OpenAI s'appelait ainsi parce que l'IA devait être ouverte à tous. En 2026, la version gratuite de ChatGPT va afficher de la publicité, et l'interface chat est officiellement « morte ».",
+          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
+        },
+        {
+          "date": "9 juin 2026",
+          "title": "Samsung veut supprimer une étape agaçante pour parler aux IA : cette nouveauté pourrait faire la différence",
+          "source": "01net",
+          "url": "https://www.01net.com/actualites/samsung-veut-supprimer-une-etape-agacante-pour-parler-aux-ia-cette-nouveaute-pourrait-faire-la-difference.html",
+          "summary": "Samsung simplifie l'accès à Bixby sur le Galaxy S26 avec One UI 9, ajoutant une option de déclenchement par geste. La nouvelle fonctionnalité Gesture Wake-up active Bixby automatiquement lorsque le téléphone est approché du visage. Cette...",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
           "date": "8 juin 2026",
-          "title": "ChatGPT se verrouille contre les cyberattaques : ce nouveau mode va mieux protéger vos données, comment l’activer ?",
-          "source": "01net",
-          "url": "https://www.01net.com/actualites/chatgpt-verrouille-contre-cyberattaques-openai-lance-nouveau-mode-proteger-donnees-comment-activer.html",
-          "summary": "OpenAI vient de déployer le « Lockdown Mode », une fonctionnalité de sécurité destinée à protéger les utilisateurs de ChatGPT contre les attaques par injection de requêtes. Disponible sur tous les abonnements, ce mode désactive volontair...",
-          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
-        },
-        {
-          "date": "3 juin 2026",
-          "title": "Microsoft lance MAI-Thinking-1, son premier modèle IA pour le raisonnement",
+          "title": "Coup de sang sur GitHub autour de Rsync et de l’utilisation de l’IA Claude",
           "source": "IT-Connect",
-          "url": "https://www.it-connect.fr/microsoft-lance-mai-thinking-1-son-premier-modele-ia-pour-le-raisonnement/",
-          "summary": "Lors de la conférence Build 2026, Microsoft a dévoilé de nouveaux modèles IA développés en interne, dont son premier LLM pour le raisonnement : MAI-Thinking-1.",
-          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
-        },
-        {
-          "date": "8 juin 2026",
-          "title": "Ces smartphones Android pas chers vont enfin recevoir Gemini",
-          "source": "01net",
-          "url": "https://www.01net.com/actualites/ces-smartphones-android-pas-chers-vont-enfin-recevoir-gemini.html",
-          "summary": "Google déploie Gemini sur les smartphones Android abordables, remplaçant Assistant Go. Cette évolution vise à démocratiser l'accès à l'IA, même sur des appareils à faibles ressources. Gemini Go offre des fonctionnalités pratiques tout en...",
+          "url": "https://www.it-connect.fr/coup-de-sang-sur-github-autour-de-rsync-et-de-lutilisation-de-ia-claude/",
+          "summary": "Rsync : une mise à jour perturbe les sauvegardes incrémentales, révélant des commits co-écrits avec l’IA Claude d’Anthropic. Qu’en est-il ?",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         }
       ]
