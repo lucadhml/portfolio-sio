@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-09",
+  "updatedAt": "2026-06-10",
   "methodologie": {
     "title": "Méthodologie de veille",
     "summary": "Ma veille technologique repose sur plusieurs sources complémentaires : IT-Connect, ANSSI et le CERT-FR pour la cybersécurité, 01net et Le Monde Informatique pour l'IA. Chaque jour, un script récupère automatiquement les nouvelles publications, calcule un score de pertinence par mots-clés, et sélectionne les 4 meilleures entrées par thème.",
@@ -61,6 +61,14 @@
       ],
       "entries": [
         {
+          "date": "10 juin 2026",
+          "title": "Google Chrome : 74 vulnérabilités patchées, dont une faille zero-day déjà exploitée !",
+          "source": "IT-Connect",
+          "url": "https://www.it-connect.fr/google-chrome-74-vulnerabilites-patchees-dont-une-faille-zero-day-deja-exploitee/",
+          "summary": "Mise à jour Google Chrome : 74 vulnérabilités corrigées, dont la CVE-2026-11645, une faille zero-day déjà exploitée. Voici comment vous protéger.",
+          "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
+        },
+        {
           "date": "8 juin 2026",
           "title": "Ces trois failles offrent un accès root sur UniFi OS Server : patchez !",
           "source": "IT-Connect",
@@ -82,14 +90,6 @@
           "source": "ANSSI",
           "url": "http://cyber.gouv.fr/actualites/panorama-de-la-cybermenace-2025/",
           "summary": "Dans le Panorama de la cybermenace 2025, l’Agence nationale de la sécurité des systèmes d’information (ANSSI) présente le bilan d’une […]",
-          "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
-        },
-        {
-          "date": "30 janvier 2026",
-          "title": "La France prend la présidence du Groupe de travail sur la cybersécurité du G7",
-          "source": "ANSSI",
-          "url": "http://cyber.gouv.fr/actualites/la-france-prend-la-presidence-du-groupe-de-travail-sur-la-cybersecurite-du-g7/",
-          "summary": "Face à l’intensification et à la diversification des cybermenaces, la cybersécurité constitue un enjeu stratégique majeur pour la sécurité nationale […]",
           "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
         }
       ]
@@ -118,27 +118,11 @@
       ],
       "entries": [
         {
-          "date": "8 juin 2026",
-          "title": "Apple lance enfin Siri AI : qu’est-ce que c’est ?",
+          "date": "10 juin 2026",
+          "title": "Anthropic dévoile Claude Fable 5, une version de Mythos qui s’auto-censure pour éviter de faire des dégâts",
           "source": "01net",
-          "url": "https://www.01net.com/actualites/apple-rend-enfin-siri-intelligent-avec-siri-ai-mais-pas-tout-de-suite-en-europe.html",
-          "summary": "Siri va subir une transformation majeure en 2026 avec l'intégration de l'IA générative et de Gemini, offrant une expérience utilisateur améliorée. L'assistant bénéficiera d'un nouveau look, d'une voix ajustable et d'une meilleure compréh...",
-          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
-        },
-        {
-          "date": "9 juin 2026",
-          "title": "Le ChatGPT tel qu’on le connaît va bientôt disparaître",
-          "source": "01net",
-          "url": "https://www.01net.com/actualites/le-chatgpt-tel-quon-le-connait-va-bientot-disparaitre.html",
-          "summary": "OpenAI s'appelait ainsi parce que l'IA devait être ouverte à tous. En 2026, la version gratuite de ChatGPT va afficher de la publicité, et l'interface chat est officiellement « morte ».",
-          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
-        },
-        {
-          "date": "9 juin 2026",
-          "title": "Samsung veut supprimer une étape agaçante pour parler aux IA : cette nouveauté pourrait faire la différence",
-          "source": "01net",
-          "url": "https://www.01net.com/actualites/samsung-veut-supprimer-une-etape-agacante-pour-parler-aux-ia-cette-nouveaute-pourrait-faire-la-difference.html",
-          "summary": "Samsung simplifie l'accès à Bixby sur le Galaxy S26 avec One UI 9, ajoutant une option de déclenchement par geste. La nouvelle fonctionnalité Gesture Wake-up active Bixby automatiquement lorsque le téléphone est approché du visage. Cette...",
+          "url": "https://www.01net.com/actualites/anthropic-devoile-claude-fable-5-version-mythos-qui-auto-censure-eviter-faire-degats.html",
+          "summary": "Quelques semaines à peine après avoir présenté Claude Mythos, Anthropic est de retour avec Claude Fable 5. Il s'agit d'une IA reposant sur le même modèle, mais encadrée par des garde-fous automatiques censés empêcher tous les abus, notam...",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
@@ -147,6 +131,22 @@
           "source": "IT-Connect",
           "url": "https://www.it-connect.fr/coup-de-sang-sur-github-autour-de-rsync-et-de-lutilisation-de-ia-claude/",
           "summary": "Rsync : une mise à jour perturbe les sauvegardes incrémentales, révélant des commits co-écrits avec l’IA Claude d’Anthropic. Qu’en est-il ?",
+          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
+        },
+        {
+          "date": "10 juin 2026",
+          "title": "Traduire en temps réel dans plus de 70 langues : Google présente Gemini 3.5 Translate",
+          "source": "01net",
+          "url": "https://www.01net.com/actualites/traduire-temps-reel-dans-70-langues-google-presente-gemini-3-5-translate.html",
+          "summary": "Google déploie Gemini 3.5 Live Translate, capable de traduire vos conversations en temps réel dans plus de 70 langues.",
+          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
+        },
+        {
+          "date": "5 juin 2026",
+          "title": "DSM 7.4 : quelles sont les nouveautés pour les NAS Synology ?",
+          "source": "IT-Connect",
+          "url": "https://www.it-connect.fr/dsm-7-4-quelles-sont-les-nouveautes-pour-les-nas-synology/",
+          "summary": "DSM 7.4 s’articule autour de trois axes : l’IA en local, la souveraineté et la sécurité des données. Voici les nouveautés prévues par Synology.",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         }
       ]
