@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-10",
+  "updatedAt": "2026-06-11",
   "methodologie": {
     "title": "Méthodologie de veille",
     "summary": "Ma veille technologique repose sur plusieurs sources complémentaires : IT-Connect, ANSSI et le CERT-FR pour la cybersécurité, 01net et Le Monde Informatique pour l'IA. Chaque jour, un script récupère automatiquement les nouvelles publications, calcule un score de pertinence par mots-clés, et sélectionne les 4 meilleures entrées par thème.",
@@ -69,19 +69,11 @@
           "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
         },
         {
-          "date": "8 juin 2026",
-          "title": "Ces trois failles offrent un accès root sur UniFi OS Server : patchez !",
+          "date": "10 juin 2026",
+          "title": "Patch Tuesday – Juin 2026 : 200 failles de sécurité patchées, dont 3 zero-day",
           "source": "IT-Connect",
-          "url": "https://www.it-connect.fr/ces-trois-failles-offrent-un-acces-root-sur-unifi-os-server-patchez/",
-          "summary": "CVE-2026-34908, CVE-2026-34909, et CVE-2026-34910 : exploitées ensemble, ces trois failles permettent d’exécuter du code en tant que root sur UniFi OS Server.",
-          "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
-        },
-        {
-          "date": "3 juin 2026",
-          "title": "VS Code : un chercheur publie une faille zero-day pour punir Microsoft",
-          "source": "IT-Connect",
-          "url": "https://www.it-connect.fr/vs-code-un-chercheur-publie-une-faille-zero-day-pour-punir-microsoft/",
-          "summary": "Un chercheur en sécurité a divulgué une faille de sécurité zero-day affectant Visual Studio Code et plus particulièrement la version web via github.dev.",
+          "url": "https://www.it-connect.fr/patch-tuesday-juin-2026-200-failles-de-securite-patchees-dont-3-zero-day/",
+          "summary": "Le programme du Patch Tuesday de juin 2026 publié par Microsoft est très chargé : 200 failles de sécurité ont été corrigées, dont 3 failles zero-day.",
           "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
         },
         {
@@ -90,6 +82,14 @@
           "source": "ANSSI",
           "url": "http://cyber.gouv.fr/actualites/panorama-de-la-cybermenace-2025/",
           "summary": "Dans le Panorama de la cybermenace 2025, l’Agence nationale de la sécurité des systèmes d’information (ANSSI) présente le bilan d’une […]",
+          "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
+        },
+        {
+          "date": "30 janvier 2026",
+          "title": "La France prend la présidence du Groupe de travail sur la cybersécurité du G7",
+          "source": "ANSSI",
+          "url": "http://cyber.gouv.fr/actualites/la-france-prend-la-presidence-du-groupe-de-travail-sur-la-cybersecurite-du-g7/",
+          "summary": "Face à l’intensification et à la diversification des cybermenaces, la cybersécurité constitue un enjeu stratégique majeur pour la sécurité nationale […]",
           "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
         }
       ]
@@ -118,35 +118,35 @@
       ],
       "entries": [
         {
-          "date": "10 juin 2026",
-          "title": "Anthropic dévoile Claude Fable 5, une version de Mythos qui s’auto-censure pour éviter de faire des dégâts",
+          "date": "11 juin 2026",
+          "title": "L’autre entreprise du PDG d’OpenAI est dans une mauvaise passe",
           "source": "01net",
-          "url": "https://www.01net.com/actualites/anthropic-devoile-claude-fable-5-version-mythos-qui-auto-censure-eviter-faire-degats.html",
-          "summary": "Quelques semaines à peine après avoir présenté Claude Mythos, Anthropic est de retour avec Claude Fable 5. Il s'agit d'une IA reposant sur le même modèle, mais encadrée par des garde-fous automatiques censés empêcher tous les abus, notam...",
+          "url": "https://www.01net.com/actualites/lautre-entreprise-du-pdg-dopenai-est-dans-une-mauvaise-passe.html",
+          "summary": "Il y a des semaines où la fortune sourit d'un côté du couloir et grimace de l'autre. Pendant qu'OpenAI déposait discrètement son dossier d'entrée en Bourse, promesse de l'une des plus grosses introductions de l'histoire de la tech, l'aut...",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
-          "date": "8 juin 2026",
-          "title": "Coup de sang sur GitHub autour de Rsync et de l’utilisation de l’IA Claude",
-          "source": "IT-Connect",
-          "url": "https://www.it-connect.fr/coup-de-sang-sur-github-autour-de-rsync-et-de-lutilisation-de-ia-claude/",
-          "summary": "Rsync : une mise à jour perturbe les sauvegardes incrémentales, révélant des commits co-écrits avec l’IA Claude d’Anthropic. Qu’en est-il ?",
+          "date": "11 juin 2026",
+          "title": "Qui va gagner la Coupe du Monde 2026 ? On a posé la question à 5 IA, voici leurs pronostics",
+          "source": "01net",
+          "url": "https://www.01net.com/actualites/qui-va-gagner-coupe-monde-2026-pose-question-cinq-ia-voici-pronostics.html",
+          "summary": "La Coupe du Monde 2026 débute ce 11 juin. Avant le coup d’envoi du premier match, on a demandé à cinq intelligences artificielles de prédire l’intégralité de la compétition, des phases de groupes jusqu’à la finale. Notre objectif est de...",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
           "date": "10 juin 2026",
-          "title": "Traduire en temps réel dans plus de 70 langues : Google présente Gemini 3.5 Translate",
+          "title": "Google déploie trois nouveautés majeures pour Google Home",
           "source": "01net",
-          "url": "https://www.01net.com/actualites/traduire-temps-reel-dans-70-langues-google-presente-gemini-3-5-translate.html",
-          "summary": "Google déploie Gemini 3.5 Live Translate, capable de traduire vos conversations en temps réel dans plus de 70 langues.",
+          "url": "https://www.01net.com/actualites/google-deploie-trois-nouveautes-majeures-pour-google-home.html",
+          "summary": "Grâce à une nouvelle mise à jour, les utilisateurs de Google Home pourront contrôler l’affichage des contenus multimédia par la voix. Les appareils Nest compatibles avec Gemini proposeront par ailleurs un suivi interactif et personnalisé...",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
-          "date": "5 juin 2026",
-          "title": "DSM 7.4 : quelles sont les nouveautés pour les NAS Synology ?",
-          "source": "IT-Connect",
-          "url": "https://www.it-connect.fr/dsm-7-4-quelles-sont-les-nouveautes-pour-les-nas-synology/",
-          "summary": "DSM 7.4 s’articule autour de trois axes : l’IA en local, la souveraineté et la sécurité des données. Voici les nouveautés prévues par Synology.",
+          "date": "10 juin 2026",
+          "title": "Insta360 s’allie à Leica pour réinventer la caméra de poche et faire trembler DJI",
+          "source": "01net",
+          "url": "https://www.01net.com/actualites/insta360-sallie-a-leica-pour-reinventer-la-camera-de-poche-et-faire-trembler-dji.html",
+          "summary": "Insta360 lance la Luna Ultra, une caméra gimbal 8K conçue avec Leica. Capteur 1 pouce, écran détachable et IA, on vous dévoile toutes les caractéristiques de la rivale de DJI.",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         }
       ]
