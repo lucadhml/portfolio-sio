@@ -1,5 +1,5 @@
 window.VEILLE_DATA = {
-  "updatedAt": "2026-06-11",
+  "updatedAt": "2026-06-12",
   "methodologie": {
     "title": "Méthodologie de veille",
     "summary": "Ma veille technologique repose sur plusieurs sources complémentaires : IT-Connect, ANSSI et le CERT-FR pour la cybersécurité, 01net et Le Monde Informatique pour l'IA. Chaque jour, un script récupère automatiquement les nouvelles publications, calcule un score de pertinence par mots-clés, et sélectionne les 4 meilleures entrées par thème.",
@@ -85,11 +85,11 @@ window.VEILLE_DATA = {
           "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
         },
         {
-          "date": "30 janvier 2026",
-          "title": "La France prend la présidence du Groupe de travail sur la cybersécurité du G7",
-          "source": "ANSSI",
-          "url": "http://cyber.gouv.fr/actualites/la-france-prend-la-presidence-du-groupe-de-travail-sur-la-cybersecurite-du-g7/",
-          "summary": "Face à l’intensification et à la diversification des cybermenaces, la cybersécurité constitue un enjeu stratégique majeur pour la sécurité nationale […]",
+          "date": "12 juin 2026",
+          "title": "Linux : une faille permet de devenir root à cause d’un unique caractère",
+          "source": "IT-Connect",
+          "url": "https://www.it-connect.fr/linux-une-faille-permet-de-devenir-root-a-cause-dun-unique-caractere/",
+          "summary": "Une simple erreur de syntaxe, réduite à un unique caractère dans le code du noyau Linux, est à l’origine d’une faille de sécurité : CVE-2026-23111.",
           "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
         }
       ]
@@ -119,6 +119,22 @@ window.VEILLE_DATA = {
       "entries": [
         {
           "date": "11 juin 2026",
+          "title": "Deezer détecte la musique générée par IA sur tous les services de streaming",
+          "source": "01net",
+          "url": "https://www.01net.com/actualites/deezer-detecte-la-musique-generee-par-ia-sur-tous-les-services-de-streaming.html",
+          "summary": "La plate-forme française de diffusion de musique en streaming vient d’annoncer l’arrivée d’un nouvel outil pour détecter si une musique a été générée par intelligence artificielle. Bonne nouvelle, ce détecteur de musique IA pourra être u...",
+          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
+        },
+        {
+          "date": "12 juin 2026",
+          "title": "Anthropic a saboté la dernière version de Claude, et les chercheurs sont furieux",
+          "source": "01net",
+          "url": "https://www.01net.com/actualites/anthropic-a-sabote-la-derniere-version-de-claude-et-les-chercheurs-sont-furieux.html",
+          "summary": "Anthropic a volontairement saboté certaines des réponses de Fable 5. L'IA a déclenché un vrai tollé chez de nombreux chercheurs, qui dénoncent un comportement « anti‑science » et un « sabotage secret ». Sous la pression de la communauté...",
+          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
+        },
+        {
+          "date": "11 juin 2026",
           "title": "L’autre entreprise du PDG d’OpenAI est dans une mauvaise passe",
           "source": "01net",
           "url": "https://www.01net.com/actualites/lautre-entreprise-du-pdg-dopenai-est-dans-une-mauvaise-passe.html",
@@ -126,27 +142,11 @@ window.VEILLE_DATA = {
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
-          "date": "11 juin 2026",
-          "title": "Qui va gagner la Coupe du Monde 2026 ? On a posé la question à 5 IA, voici leurs pronostics",
+          "date": "12 juin 2026",
+          "title": "Six ans après, Google va enfin relancer son enceinte connectée Google Home",
           "source": "01net",
-          "url": "https://www.01net.com/actualites/qui-va-gagner-coupe-monde-2026-pose-question-cinq-ia-voici-pronostics.html",
-          "summary": "La Coupe du Monde 2026 débute ce 11 juin. Avant le coup d’envoi du premier match, on a demandé à cinq intelligences artificielles de prédire l’intégralité de la compétition, des phases de groupes jusqu’à la finale. Notre objectif est de...",
-          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
-        },
-        {
-          "date": "10 juin 2026",
-          "title": "Google déploie trois nouveautés majeures pour Google Home",
-          "source": "01net",
-          "url": "https://www.01net.com/actualites/google-deploie-trois-nouveautes-majeures-pour-google-home.html",
-          "summary": "Grâce à une nouvelle mise à jour, les utilisateurs de Google Home pourront contrôler l’affichage des contenus multimédia par la voix. Les appareils Nest compatibles avec Gemini proposeront par ailleurs un suivi interactif et personnalisé...",
-          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
-        },
-        {
-          "date": "10 juin 2026",
-          "title": "Insta360 s’allie à Leica pour réinventer la caméra de poche et faire trembler DJI",
-          "source": "01net",
-          "url": "https://www.01net.com/actualites/insta360-sallie-a-leica-pour-reinventer-la-camera-de-poche-et-faire-trembler-dji.html",
-          "summary": "Insta360 lance la Luna Ultra, une caméra gimbal 8K conçue avec Leica. Capteur 1 pouce, écran détachable et IA, on vous dévoile toutes les caractéristiques de la rivale de DJI.",
+          "url": "https://www.01net.com/actualites/six-ans-apres-google-va-enfin-relancer-son-enceinte-connectee-google-home.html",
+          "summary": "L'enceinte fantôme promise pour le printemps sort enfin du bois, et la marque Nest reste au placard. Gemini s'installe au salon, l'abonnement n'est pas loin derrière.",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         }
       ]
