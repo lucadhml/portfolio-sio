@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-12",
+  "updatedAt": "2026-06-13",
   "methodologie": {
     "title": "Méthodologie de veille",
     "summary": "Ma veille technologique repose sur plusieurs sources complémentaires : IT-Connect, ANSSI et le CERT-FR pour la cybersécurité, 01net et Le Monde Informatique pour l'IA. Chaque jour, un script récupère automatiquement les nouvelles publications, calcule un score de pertinence par mots-clés, et sélectionne les 4 meilleures entrées par thème.",
@@ -118,11 +118,11 @@
       ],
       "entries": [
         {
-          "date": "11 juin 2026",
-          "title": "Deezer détecte la musique générée par IA sur tous les services de streaming",
+          "date": "13 juin 2026",
+          "title": "Anthropic prend une décision radicale et désactive Claude Fable 5 et Mythos 5 dans le monde entier",
           "source": "01net",
-          "url": "https://www.01net.com/actualites/deezer-detecte-la-musique-generee-par-ia-sur-tous-les-services-de-streaming.html",
-          "summary": "La plate-forme française de diffusion de musique en streaming vient d’annoncer l’arrivée d’un nouvel outil pour détecter si une musique a été générée par intelligence artificielle. Bonne nouvelle, ce détecteur de musique IA pourra être u...",
+          "url": "https://www.01net.com/actualites/anthropic-prend-decision-radicale-et-desactive-claude-fable-5-mythos-5-monde-entier.html",
+          "summary": "Trois jours seulement après leur lancement, les deux modèles d'IA les plus avancés d'Anthropic, Claude Fable 5 et Mythos 5, ont été désactivés. La start-up a été obligée de couper l'accès à ses IA suite à une décision de l'administration...",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
@@ -134,11 +134,11 @@
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
-          "date": "11 juin 2026",
-          "title": "L’autre entreprise du PDG d’OpenAI est dans une mauvaise passe",
+          "date": "12 juin 2026",
+          "title": "Le Galaxy Z Fold 7 récupère deux fonctionnalités hyper pratiques",
           "source": "01net",
-          "url": "https://www.01net.com/actualites/lautre-entreprise-du-pdg-dopenai-est-dans-une-mauvaise-passe.html",
-          "summary": "Il y a des semaines où la fortune sourit d'un côté du couloir et grimace de l'autre. Pendant qu'OpenAI déposait discrètement son dossier d'entrée en Bourse, promesse de l'une des plus grosses introductions de l'histoire de la tech, l'aut...",
+          "url": "https://www.01net.com/actualites/le-galaxy-z-fold-7-recupere-deux-fonctionnalites-hyper-pratiques.html",
+          "summary": "Le Galaxy Z Fold 7 reçoit une mise à jour avec deux nouvelles fonctionnalités basées sur l'IA : priorisation des notifications et résumé de documents. Ces ajouts visent à améliorer la productivité des utilisateurs en facilitant le tri de...",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
