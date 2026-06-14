@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-13",
+  "updatedAt": "2026-06-14",
   "methodologie": {
     "title": "Méthodologie de veille",
     "summary": "Ma veille technologique repose sur plusieurs sources complémentaires : IT-Connect, ANSSI et le CERT-FR pour la cybersécurité, 01net et Le Monde Informatique pour l'IA. Chaque jour, un script récupère automatiquement les nouvelles publications, calcule un score de pertinence par mots-clés, et sélectionne les 4 meilleures entrées par thème.",
@@ -126,11 +126,11 @@
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
-          "date": "12 juin 2026",
-          "title": "Anthropic a saboté la dernière version de Claude, et les chercheurs sont furieux",
+          "date": "13 juin 2026",
+          "title": "J’ai remplacé mon clavier et ma souris par le Steam Controller (Test vidéo)",
           "source": "01net",
-          "url": "https://www.01net.com/actualites/anthropic-a-sabote-la-derniere-version-de-claude-et-les-chercheurs-sont-furieux.html",
-          "summary": "Anthropic a volontairement saboté certaines des réponses de Fable 5. L'IA a déclenché un vrai tollé chez de nombreux chercheurs, qui dénoncent un comportement « anti‑science » et un « sabotage secret ». Sous la pression de la communauté...",
+          "url": "https://www.01net.com/actualites/jai-remplace-mon-clavier-et-ma-souris-par-cette-manette-et-je-ne-regrette-rien-test-video.html",
+          "summary": "Voici notre test en vidéo du Steam Controller, une manette pas comme les autres qui propose une polyvalence parfaite pour les joueurs PC les plus exigeants. Attention toutefois, l'objet n'est pas exempt de défauts.",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
