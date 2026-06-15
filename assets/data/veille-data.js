@@ -1,5 +1,5 @@
 window.VEILLE_DATA = {
-  "updatedAt": "2026-06-14",
+  "updatedAt": "2026-06-15",
   "methodologie": {
     "title": "Méthodologie de veille",
     "summary": "Ma veille technologique repose sur plusieurs sources complémentaires : IT-Connect, ANSSI et le CERT-FR pour la cybersécurité, 01net et Le Monde Informatique pour l'IA. Chaque jour, un script récupère automatiquement les nouvelles publications, calcule un score de pertinence par mots-clés, et sélectionne les 4 meilleures entrées par thème.",
@@ -62,14 +62,6 @@ window.VEILLE_DATA = {
       "entries": [
         {
           "date": "10 juin 2026",
-          "title": "Google Chrome : 74 vulnérabilités patchées, dont une faille zero-day déjà exploitée !",
-          "source": "IT-Connect",
-          "url": "https://www.it-connect.fr/google-chrome-74-vulnerabilites-patchees-dont-une-faille-zero-day-deja-exploitee/",
-          "summary": "Mise à jour Google Chrome : 74 vulnérabilités corrigées, dont la CVE-2026-11645, une faille zero-day déjà exploitée. Voici comment vous protéger.",
-          "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
-        },
-        {
-          "date": "10 juin 2026",
           "title": "Patch Tuesday – Juin 2026 : 200 failles de sécurité patchées, dont 3 zero-day",
           "source": "IT-Connect",
           "url": "https://www.it-connect.fr/patch-tuesday-juin-2026-200-failles-de-securite-patchees-dont-3-zero-day/",
@@ -90,6 +82,14 @@ window.VEILLE_DATA = {
           "source": "IT-Connect",
           "url": "https://www.it-connect.fr/linux-une-faille-permet-de-devenir-root-a-cause-dun-unique-caractere/",
           "summary": "Une simple erreur de syntaxe, réduite à un unique caractère dans le code du noyau Linux, est à l’origine d’une faille de sécurité : CVE-2026-23111.",
+          "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
+        },
+        {
+          "date": "30 janvier 2026",
+          "title": "La France prend la présidence du Groupe de travail sur la cybersécurité du G7",
+          "source": "ANSSI",
+          "url": "http://cyber.gouv.fr/actualites/la-france-prend-la-presidence-du-groupe-de-travail-sur-la-cybersecurite-du-g7/",
+          "summary": "Face à l’intensification et à la diversification des cybermenaces, la cybersécurité constitue un enjeu stratégique majeur pour la sécurité nationale […]",
           "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
         }
       ]
@@ -118,35 +118,35 @@ window.VEILLE_DATA = {
       ],
       "entries": [
         {
-          "date": "13 juin 2026",
-          "title": "Anthropic prend une décision radicale et désactive Claude Fable 5 et Mythos 5 dans le monde entier",
+          "date": "15 juin 2026",
+          "title": "Cette cyberattaque chinoise a fait « des centaines de milliers de victimes » avec Gemini, Google contre-attaque",
           "source": "01net",
-          "url": "https://www.01net.com/actualites/anthropic-prend-decision-radicale-et-desactive-claude-fable-5-mythos-5-monde-entier.html",
-          "summary": "Trois jours seulement après leur lancement, les deux modèles d'IA les plus avancés d'Anthropic, Claude Fable 5 et Mythos 5, ont été désactivés. La start-up a été obligée de couper l'accès à ses IA suite à une décision de l'administration...",
+          "url": "https://www.01net.com/actualites/cette-cyberattaque-chinoise-a-fait-des-centaines-de-milliers-de-victimes-google-contre-attaque.html",
+          "summary": "Un réseau criminel chinois a utilisé l'intelligence artificielle de Google pour déployer une vaste campagne de phishing. En trois ans, la plateforme Outsider Enterprise a volé les données de 3,8 millions de cartes bancaires, dérobé 1,9 m...",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
-          "date": "13 juin 2026",
-          "title": "J’ai remplacé mon clavier et ma souris par le Steam Controller (Test vidéo)",
+          "date": "15 juin 2026",
+          "title": "Anthropic vs Trump, la Chine, alerte d’Amazon…Les dessous de la suspension de Claude Fable 5 et Mythos 5",
           "source": "01net",
-          "url": "https://www.01net.com/actualites/jai-remplace-mon-clavier-et-ma-souris-par-cette-manette-et-je-ne-regrette-rien-test-video.html",
-          "summary": "Voici notre test en vidéo du Steam Controller, une manette pas comme les autres qui propose une polyvalence parfaite pour les joueurs PC les plus exigeants. Attention toutefois, l'objet n'est pas exempt de défauts.",
+          "url": "https://www.01net.com/actualites/alerte-amazon-vengeance-trump-contre-anthropic-exploitation-chinoise-dessous-suspension-nouvelles-versions-claude.html",
+          "summary": "Sous pression de l'administration Trump, Anthropic a été contraint de couper l'accès mondial à ses deux modèles d'IA les plus puissants, Claude Fable 5 et Mythos 5. Aux origines de l'injonction américaine, on trouve un avertissement émis...",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
-          "date": "12 juin 2026",
-          "title": "Le Galaxy Z Fold 7 récupère deux fonctionnalités hyper pratiques",
+          "date": "15 juin 2026",
+          "title": "Une IA surévalue sa voiture de 35 %, et BMW est forcé de payer la différence",
           "source": "01net",
-          "url": "https://www.01net.com/actualites/le-galaxy-z-fold-7-recupere-deux-fonctionnalites-hyper-pratiques.html",
-          "summary": "Le Galaxy Z Fold 7 reçoit une mise à jour avec deux nouvelles fonctionnalités basées sur l'IA : priorisation des notifications et résumé de documents. Ces ajouts visent à améliorer la productivité des utilisateurs en facilitant le tri de...",
+          "url": "https://www.01net.com/actualites/ia-surevalue-sa-voiture-35-constructeur-automobile-force-payer-difference.html",
+          "summary": "Un homme s’est vu offrir une proposition de reprise très intéressante pour sa BMW. Mais l’agent en face était une IA qui a largement surestimé la valeur de son véhicule. Reconnaissant son erreur, la marque a dû payer…",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
-          "date": "12 juin 2026",
-          "title": "Six ans après, Google va enfin relancer son enceinte connectée Google Home",
-          "source": "01net",
-          "url": "https://www.01net.com/actualites/six-ans-apres-google-va-enfin-relancer-son-enceinte-connectee-google-home.html",
-          "summary": "L'enceinte fantôme promise pour le printemps sort enfin du bois, et la marque Nest reste au placard. Gemini s'installe au salon, l'abonnement n'est pas loin derrière.",
+          "date": "10 juin 2026",
+          "title": "Claude Fable 5, la version grand public de Mythos est disponible, mais pour une durée limitée !",
+          "source": "IT-Connect",
+          "url": "https://www.it-connect.fr/claude-fable-5-la-version-grand-public-de-mythos-est-disponible-mais-pour-une-duree-limitee/",
+          "summary": "Anthropic a publié Claude Fable 5 pour le grand public et Mythos 5 pour certains partenaires. Jusqu’au 22 juin 2026, Fable 5 est intégré aux forfaits Claude.",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         }
       ]
