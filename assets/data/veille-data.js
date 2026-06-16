@@ -1,5 +1,5 @@
 window.VEILLE_DATA = {
-  "updatedAt": "2026-06-15",
+  "updatedAt": "2026-06-16",
   "methodologie": {
     "title": "Méthodologie de veille",
     "summary": "Ma veille technologique repose sur plusieurs sources complémentaires : IT-Connect, ANSSI et le CERT-FR pour la cybersécurité, 01net et Le Monde Informatique pour l'IA. Chaque jour, un script récupère automatiquement les nouvelles publications, calcule un score de pertinence par mots-clés, et sélectionne les 4 meilleures entrées par thème.",
@@ -61,18 +61,18 @@ window.VEILLE_DATA = {
       ],
       "entries": [
         {
-          "date": "10 juin 2026",
-          "title": "Patch Tuesday – Juin 2026 : 200 failles de sécurité patchées, dont 3 zero-day",
+          "date": "16 juin 2026",
+          "title": "SearchLeak : la faille qui transformait Copilot en outil de vol de données en un clic",
           "source": "IT-Connect",
-          "url": "https://www.it-connect.fr/patch-tuesday-juin-2026-200-failles-de-securite-patchees-dont-3-zero-day/",
-          "summary": "Le programme du Patch Tuesday de juin 2026 publié par Microsoft est très chargé : 200 failles de sécurité ont été corrigées, dont 3 failles zero-day.",
+          "url": "https://www.it-connect.fr/searchleak-la-faille-qui-transformait-copilot-en-outil-de-vol-de-donnees-en-un-clic/",
+          "summary": "L’attaque SearchLeak détourne l’IA Microsoft Copilot Enterprise pour exfiltrer e-mails, fichiers OneDrive et SharePoint via une URL piégée (CVE-2026-42824).",
           "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
         },
         {
           "date": "11 mars 2026",
           "title": "Panorama de la cybermenace 2025 : La France toujours sous la pression des cyber attaquants",
           "source": "ANSSI",
-          "url": "http://cyber.gouv.fr/actualites/panorama-de-la-cybermenace-2025/",
+          "url": "http://cyber.sites.beta.gouv.fr/actualites/panorama-de-la-cybermenace-2025/",
           "summary": "Dans le Panorama de la cybermenace 2025, l’Agence nationale de la sécurité des systèmes d’information (ANSSI) présente le bilan d’une […]",
           "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
         },
@@ -88,7 +88,7 @@ window.VEILLE_DATA = {
           "date": "30 janvier 2026",
           "title": "La France prend la présidence du Groupe de travail sur la cybersécurité du G7",
           "source": "ANSSI",
-          "url": "http://cyber.gouv.fr/actualites/la-france-prend-la-presidence-du-groupe-de-travail-sur-la-cybersecurite-du-g7/",
+          "url": "http://cyber.sites.beta.gouv.fr/actualites/la-france-prend-la-presidence-du-groupe-de-travail-sur-la-cybersecurite-du-g7/",
           "summary": "Face à l’intensification et à la diversification des cybermenaces, la cybersécurité constitue un enjeu stratégique majeur pour la sécurité nationale […]",
           "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
         }
@@ -119,34 +119,34 @@ window.VEILLE_DATA = {
       "entries": [
         {
           "date": "15 juin 2026",
-          "title": "Cette cyberattaque chinoise a fait « des centaines de milliers de victimes » avec Gemini, Google contre-attaque",
+          "title": "Emmanuel Macron réunit OpenAI, Anthropic et Google DeepMind à l’occasion du G7",
           "source": "01net",
-          "url": "https://www.01net.com/actualites/cette-cyberattaque-chinoise-a-fait-des-centaines-de-milliers-de-victimes-google-contre-attaque.html",
-          "summary": "Un réseau criminel chinois a utilisé l'intelligence artificielle de Google pour déployer une vaste campagne de phishing. En trois ans, la plateforme Outsider Enterprise a volé les données de 3,8 millions de cartes bancaires, dérobé 1,9 m...",
+          "url": "https://www.01net.com/actualites/emmanuel-macron-reunit-openai-anthropic-et-google-deepmind-a-loccasion-du-g7.html",
+          "summary": "Pour son G7, Emmanuel Macron a réussi un joli coup de casting : les patrons d'OpenAI, de Google DeepMind et d'Anthropic réunis au bord du Léman. La France y joue son rang de futur pôle européen de l'intelligence artificielle, avec des mi...",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
-          "date": "15 juin 2026",
-          "title": "Anthropic vs Trump, la Chine, alerte d’Amazon…Les dessous de la suspension de Claude Fable 5 et Mythos 5",
+          "date": "16 juin 2026",
+          "title": "100 experts en cybersécurité protestent contre la suspension de Claude Fable 5 et Mythos 5",
           "source": "01net",
-          "url": "https://www.01net.com/actualites/alerte-amazon-vengeance-trump-contre-anthropic-exploitation-chinoise-dessous-suspension-nouvelles-versions-claude.html",
-          "summary": "Sous pression de l'administration Trump, Anthropic a été contraint de couper l'accès mondial à ses deux modèles d'IA les plus puissants, Claude Fable 5 et Mythos 5. Aux origines de l'injonction américaine, on trouve un avertissement émis...",
+          "url": "https://www.01net.com/actualites/100-experts-cybersecurite-protestent-contre-suspension-claude-fable-5-mythos-5.html",
+          "summary": "Une centaine d'experts en cybersécurité protestent contre l'interdiction des deux derniers Claude déployés par Anthropic. Dans une lettre ouverte, ils estiment que les États-Unis se tirent une balle dans le pied, et dans celui de la cybe...",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
-          "date": "15 juin 2026",
-          "title": "Une IA surévalue sa voiture de 35 %, et BMW est forcé de payer la différence",
+          "date": "16 juin 2026",
+          "title": "Google Messages prépare une fonction très intéressante pour les images que vous recevez",
           "source": "01net",
-          "url": "https://www.01net.com/actualites/ia-surevalue-sa-voiture-35-constructeur-automobile-force-payer-difference.html",
-          "summary": "Un homme s’est vu offrir une proposition de reprise très intéressante pour sa BMW. Mais l’agent en face était une IA qui a largement surestimé la valeur de son véhicule. Reconnaissant son erreur, la marque a dû payer…",
+          "url": "https://www.01net.com/actualites/google-messages-prepare-fonction-tres-interessante-pour-images-que-vous-recevez.html",
+          "summary": "Google Messages prépare un outil pour identifier les images générées ou retouchées par intelligence artificielle directement dans vos conversations.",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
-          "date": "10 juin 2026",
-          "title": "Claude Fable 5, la version grand public de Mythos est disponible, mais pour une durée limitée !",
-          "source": "IT-Connect",
-          "url": "https://www.it-connect.fr/claude-fable-5-la-version-grand-public-de-mythos-est-disponible-mais-pour-une-duree-limitee/",
-          "summary": "Anthropic a publié Claude Fable 5 pour le grand public et Mythos 5 pour certains partenaires. Jusqu’au 22 juin 2026, Fable 5 est intégré aux forfaits Claude.",
+          "date": "16 juin 2026",
+          "title": "Nouvelle faille de Microsoft 365 Copilot : comment des pirates peuvent piller vos données en un « seul clic »",
+          "source": "01net",
+          "url": "https://www.01net.com/actualites/nouvelle-faille-microsoft-365-copilot-comment-pirates-peuvent-piller-donnees-seul-clic.html",
+          "summary": "Une faille critique a été débusquée dans le fonctionnement de Microsoft 365 Copilot Enterprise. En bernant l'assistant IA, un attaquant peut voler emails, codes d'authentification et fichiers confidentiels en n'envoyant qu'un simple lien...",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         }
       ]
