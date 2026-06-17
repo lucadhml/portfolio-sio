@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-16",
+  "updatedAt": "2026-06-17",
   "methodologie": {
     "title": "Méthodologie de veille",
     "summary": "Ma veille technologique repose sur plusieurs sources complémentaires : IT-Connect, ANSSI et le CERT-FR pour la cybersécurité, 01net et Le Monde Informatique pour l'IA. Chaque jour, un script récupère automatiquement les nouvelles publications, calcule un score de pertinence par mots-clés, et sélectionne les 4 meilleures entrées par thème.",
@@ -118,35 +118,35 @@
       ],
       "entries": [
         {
-          "date": "15 juin 2026",
-          "title": "Emmanuel Macron réunit OpenAI, Anthropic et Google DeepMind à l’occasion du G7",
+          "date": "17 juin 2026",
+          "title": "Après le suicide d’une utilisatrice de ChatGPT, OpenAI est la cible d’une nouvelle plainte",
           "source": "01net",
-          "url": "https://www.01net.com/actualites/emmanuel-macron-reunit-openai-anthropic-et-google-deepmind-a-loccasion-du-g7.html",
-          "summary": "Pour son G7, Emmanuel Macron a réussi un joli coup de casting : les patrons d'OpenAI, de Google DeepMind et d'Anthropic réunis au bord du Léman. La France y joue son rang de futur pôle européen de l'intelligence artificielle, avec des mi...",
+          "url": "https://www.01net.com/actualites/openai-de-nouveau-poursuivi-apres-suicide-utilisatrice-chatgpt.html",
+          "summary": "Une Canadienne accuse ChatGPT d’avoir encouragé les idées suicidaires de sa fille avant son décès et poursuit OpenAI en justice.",
+          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
+        },
+        {
+          "date": "17 juin 2026",
+          "title": "655 millions d’euros pour l’IA : le coup de force de la France à VivaTech vire à l’imbroglio géopolitique",
+          "source": "01net",
+          "url": "https://www.01net.com/actualites/655-millions-deuros-pour-lia-le-coup-de-force-de-la-france-a-vivatech-vire-a-limbroglio-geopolitique.html",
+          "summary": "Juste à temps pour l'ouverture de Vivatech, le Premier ministre Sébastien Lecornu acte un virage souverain : 655 millions d'euros pour l'IA, un chatbot Mistral pour un million d'agents de l'État, et un calendrier de rupture avec l'améric...",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
           "date": "16 juin 2026",
-          "title": "100 experts en cybersécurité protestent contre la suspension de Claude Fable 5 et Mythos 5",
+          "title": "Facebook ajoute de l’IA à son moteur de recherche, comment ça marche ?",
           "source": "01net",
-          "url": "https://www.01net.com/actualites/100-experts-cybersecurite-protestent-contre-suspension-claude-fable-5-mythos-5.html",
-          "summary": "Une centaine d'experts en cybersécurité protestent contre l'interdiction des deux derniers Claude déployés par Anthropic. Dans une lettre ouverte, ils estiment que les États-Unis se tirent une balle dans le pied, et dans celui de la cybe...",
+          "url": "https://www.01net.com/actualites/facebook-ia-moteur-recherche-comment-marche.html",
+          "summary": "Meta déploie un mode IA dans le moteur de recherche Facebook. Cette fonctionnalité repose sur l’intelligence artificielle pour générer des réponses à partir des publications, groupes, reels et annonces marketplace.",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
           "date": "16 juin 2026",
-          "title": "Google Messages prépare une fonction très intéressante pour les images que vous recevez",
+          "title": "Apple explique enfin pourquoi Siri AI a pris autant de retard",
           "source": "01net",
-          "url": "https://www.01net.com/actualites/google-messages-prepare-fonction-tres-interessante-pour-images-que-vous-recevez.html",
-          "summary": "Google Messages prépare un outil pour identifier les images générées ou retouchées par intelligence artificielle directement dans vos conversations.",
-          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
-        },
-        {
-          "date": "16 juin 2026",
-          "title": "Nouvelle faille de Microsoft 365 Copilot : comment des pirates peuvent piller vos données en un « seul clic »",
-          "source": "01net",
-          "url": "https://www.01net.com/actualites/nouvelle-faille-microsoft-365-copilot-comment-pirates-peuvent-piller-donnees-seul-clic.html",
-          "summary": "Une faille critique a été débusquée dans le fonctionnement de Microsoft 365 Copilot Enterprise. En bernant l'assistant IA, un attaquant peut voler emails, codes d'authentification et fichiers confidentiels en n'envoyant qu'un simple lien...",
+          "url": "https://www.01net.com/actualites/apple-explique-enfin-pourquoi-siri-ai-a-pris-autant-de-retard.html",
+          "summary": "Initialement, Apple prévoyait une mise à jour de Siri qui aurait permis quelques améliorations en matière d'IA. Après réflexion, l’entreprise à la pomme a opté pour une toute autre stratégie, à savoir une refonte de A à Z de Siri.",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         }
       ]
