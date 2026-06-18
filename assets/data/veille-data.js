@@ -1,5 +1,5 @@
 window.VEILLE_DATA = {
-  "updatedAt": "2026-06-17",
+  "updatedAt": "2026-06-18",
   "methodologie": {
     "title": "Méthodologie de veille",
     "summary": "Ma veille technologique repose sur plusieurs sources complémentaires : IT-Connect, ANSSI et le CERT-FR pour la cybersécurité, 01net et Le Monde Informatique pour l'IA. Chaque jour, un script récupère automatiquement les nouvelles publications, calcule un score de pertinence par mots-clés, et sélectionne les 4 meilleures entrées par thème.",
@@ -77,19 +77,19 @@ window.VEILLE_DATA = {
           "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
         },
         {
-          "date": "12 juin 2026",
-          "title": "Linux : une faille permet de devenir root à cause d’un unique caractère",
-          "source": "IT-Connect",
-          "url": "https://www.it-connect.fr/linux-une-faille-permet-de-devenir-root-a-cause-dun-unique-caractere/",
-          "summary": "Une simple erreur de syntaxe, réduite à un unique caractère dans le code du noyau Linux, est à l’origine d’une faille de sécurité : CVE-2026-23111.",
-          "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
-        },
-        {
           "date": "30 janvier 2026",
           "title": "La France prend la présidence du Groupe de travail sur la cybersécurité du G7",
           "source": "ANSSI",
           "url": "http://cyber.sites.beta.gouv.fr/actualites/la-france-prend-la-presidence-du-groupe-de-travail-sur-la-cybersecurite-du-g7/",
           "summary": "Face à l’intensification et à la diversification des cybermenaces, la cybersécurité constitue un enjeu stratégique majeur pour la sécurité nationale […]",
+          "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
+        },
+        {
+          "date": "15 juin 2026",
+          "title": "La pénurie de compétences Cyber s’amplifie en France",
+          "source": "IT-Connect",
+          "url": "https://www.it-connect.fr/la-penurie-de-competences-cyber-samplifie-en-france/",
+          "summary": "Le déraillement des compétences en cybersécurité expose PME et État: analyse des failles, besoins en formation et pistes de montée en maturité.",
           "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
         }
       ]
@@ -119,6 +119,22 @@ window.VEILLE_DATA = {
       "entries": [
         {
           "date": "17 juin 2026",
+          "title": "ChatGPT ne détient plus la majorité du marché de l’IA, c’est une première historique",
+          "source": "01net",
+          "url": "https://www.01net.com/actualites/chatgpt-ne-detient-plus-la-majorite-du-marche-de-lia-cest-une-premiere-historique.html",
+          "summary": "Pendant des mois, ChatGPT a représenté plus d'un assistant IA sur deux dans le monde. Ce n'est plus vrai depuis mars, et la dynamique qui a produit ce basculement mêle des erreurs de navigation d'OpenAI, la montée régulière de Gemini et...",
+          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
+        },
+        {
+          "date": "18 juin 2026",
+          "title": "Midjourney crée la surprise avec ce scanner médical digne de Star Wars : une IRM sans radiation en 60 secondes",
+          "source": "01net",
+          "url": "https://www.01net.com/actualites/midjourney-cree-la-surprise-avec-ce-scanner-medical-digne-de-star-wars-une-irm-sans-radiation-en-60-secondes.html",
+          "summary": "L'entreprise d'IA générative Midjourney dévoile son premier produit physique : un scanner corporel complet à ultrasons en 60 secondes. Un projet fou qui fera ses débuts dans un spa haut de gamme à San Francisco.",
+          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
+        },
+        {
+          "date": "17 juin 2026",
           "title": "Après le suicide d’une utilisatrice de ChatGPT, OpenAI est la cible d’une nouvelle plainte",
           "source": "01net",
           "url": "https://www.01net.com/actualites/openai-de-nouveau-poursuivi-apres-suicide-utilisatrice-chatgpt.html",
@@ -127,26 +143,10 @@ window.VEILLE_DATA = {
         },
         {
           "date": "17 juin 2026",
-          "title": "655 millions d’euros pour l’IA : le coup de force de la France à VivaTech vire à l’imbroglio géopolitique",
+          "title": "Claude coûte trop cher : Microsoft pourrait glisser l’IA chinoise DeepSeek dans Copilot",
           "source": "01net",
-          "url": "https://www.01net.com/actualites/655-millions-deuros-pour-lia-le-coup-de-force-de-la-france-a-vivatech-vire-a-limbroglio-geopolitique.html",
-          "summary": "Juste à temps pour l'ouverture de Vivatech, le Premier ministre Sébastien Lecornu acte un virage souverain : 655 millions d'euros pour l'IA, un chatbot Mistral pour un million d'agents de l'État, et un calendrier de rupture avec l'améric...",
-          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
-        },
-        {
-          "date": "16 juin 2026",
-          "title": "Facebook ajoute de l’IA à son moteur de recherche, comment ça marche ?",
-          "source": "01net",
-          "url": "https://www.01net.com/actualites/facebook-ia-moteur-recherche-comment-marche.html",
-          "summary": "Meta déploie un mode IA dans le moteur de recherche Facebook. Cette fonctionnalité repose sur l’intelligence artificielle pour générer des réponses à partir des publications, groupes, reels et annonces marketplace.",
-          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
-        },
-        {
-          "date": "16 juin 2026",
-          "title": "Apple explique enfin pourquoi Siri AI a pris autant de retard",
-          "source": "01net",
-          "url": "https://www.01net.com/actualites/apple-explique-enfin-pourquoi-siri-ai-a-pris-autant-de-retard.html",
-          "summary": "Initialement, Apple prévoyait une mise à jour de Siri qui aurait permis quelques améliorations en matière d'IA. Après réflexion, l’entreprise à la pomme a opté pour une toute autre stratégie, à savoir une refonte de A à Z de Siri.",
+          "url": "https://www.01net.com/actualites/claude-coute-trop-cher-microsoft-pourrait-glisser-lia-chinoise-deepseek-dans-copilot.html",
+          "summary": "Pour répondre à Anthropic et OpenClaw, MIcrosoft a lancé son assistant pour automatiser les tâches bureautiques il y a quelques mois, avec une tarification à la consommation. Pour alléger la facture d'inférence, la compagnie envisage d'i...",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         }
       ]
