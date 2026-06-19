@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-18",
+  "updatedAt": "2026-06-19",
   "methodologie": {
     "title": "Méthodologie de veille",
     "summary": "Ma veille technologique repose sur plusieurs sources complémentaires : IT-Connect, ANSSI et le CERT-FR pour la cybersécurité, 01net et Le Monde Informatique pour l'IA. Chaque jour, un script récupère automatiquement les nouvelles publications, calcule un score de pertinence par mots-clés, et sélectionne les 4 meilleures entrées par thème.",
@@ -85,11 +85,11 @@
           "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
         },
         {
-          "date": "15 juin 2026",
-          "title": "La pénurie de compétences Cyber s’amplifie en France",
-          "source": "IT-Connect",
-          "url": "https://www.it-connect.fr/la-penurie-de-competences-cyber-samplifie-en-france/",
-          "summary": "Le déraillement des compétences en cybersécurité expose PME et État: analyse des failles, besoins en formation et pistes de montée en maturité.",
+          "date": "21 janvier 2026",
+          "title": "Vulnérabilité dans telnetd (21 janvier 2026)",
+          "source": "CERT-FR",
+          "url": "https://www.cert.ssi.gouv.fr/actualite/CERTFR-2026-ACT-003/",
+          "summary": "Le 20 janvier 2026, les détails de la vulnérabilité CVE-2026-24061, affectant *telnetd*, ont été publiés. Cette vulnérabilité permet à un attaquant de contourner l'authentification et de se connecter à une machine vulnérable en tant que...",
           "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
         }
       ]
@@ -118,35 +118,35 @@
       ],
       "entries": [
         {
-          "date": "17 juin 2026",
-          "title": "ChatGPT ne détient plus la majorité du marché de l’IA, c’est une première historique",
+          "date": "19 juin 2026",
+          "title": "C’est « le goulag » chez Meta : la course à l’IA tourne au cauchemar pour les employés de Mark Zuckerberg",
           "source": "01net",
-          "url": "https://www.01net.com/actualites/chatgpt-ne-detient-plus-la-majorite-du-marche-de-lia-cest-une-premiere-historique.html",
-          "summary": "Pendant des mois, ChatGPT a représenté plus d'un assistant IA sur deux dans le monde. Ce n'est plus vrai depuis mars, et la dynamique qui a produit ce basculement mêle des erreurs de navigation d'OpenAI, la montée régulière de Gemini et...",
+          "url": "https://www.01net.com/actualites/cest-le-goulag-chez-meta-la-course-a-lia-tourne-au-cauchemar-pour-les-employes-de-mark-zuckerberg.html",
+          "summary": "« C'est littéralement le goulag. Du jour au lendemain, vous n'avez plus aucun but dans la vie ». Certains employés de Meta décrivent un climat de travail délétère au sein de l’entreprise. La course au développement de l’intelligence arti...",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
           "date": "18 juin 2026",
-          "title": "Midjourney crée la surprise avec ce scanner médical digne de Star Wars : une IRM sans radiation en 60 secondes",
+          "title": "Sur Android 17, Gemini ne vous quittera plus : l’IA sera toujours à portée de clic",
           "source": "01net",
-          "url": "https://www.01net.com/actualites/midjourney-cree-la-surprise-avec-ce-scanner-medical-digne-de-star-wars-une-irm-sans-radiation-en-60-secondes.html",
-          "summary": "L'entreprise d'IA générative Midjourney dévoile son premier produit physique : un scanner corporel complet à ultrasons en 60 secondes. Un projet fou qui fera ses débuts dans un spa haut de gamme à San Francisco.",
+          "url": "https://www.01net.com/actualites/sur-android-17-gemini-ne-vous-quittera-plus-lia-sera-toujours-a-portee-de-clic.html",
+          "summary": "Gemini sera bientôt accessible via une bulle flottante sur Android 17, permettant un multitâche facilité. L'utilisateur peut ainsi avoir une connexion en continu avec l'IA de Google.",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
-          "date": "17 juin 2026",
-          "title": "Après le suicide d’une utilisatrice de ChatGPT, OpenAI est la cible d’une nouvelle plainte",
+          "date": "19 juin 2026",
+          "title": "Google Gemini va tout faire pour que vous utilisiez cette nouvelle fonctionnalité",
           "source": "01net",
-          "url": "https://www.01net.com/actualites/openai-de-nouveau-poursuivi-apres-suicide-utilisatrice-chatgpt.html",
-          "summary": "Une Canadienne accuse ChatGPT d’avoir encouragé les idées suicidaires de sa fille avant son décès et poursuit OpenAI en justice.",
+          "url": "https://www.01net.com/actualites/google-gemini-va-tout-faire-pour-que-vous-utilisiez-nouvelle-fonctionnalite.html",
+          "summary": "Google prépare l'intégration directe des Notebooks de Gemini au menu de partage d'Android. De quoi envoyer n'importe quel fichier vers vos carnets de notes en un clin d'œil.",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
-          "date": "17 juin 2026",
-          "title": "Claude coûte trop cher : Microsoft pourrait glisser l’IA chinoise DeepSeek dans Copilot",
+          "date": "19 juin 2026",
+          "title": "Grâce à cette mise à jour la batterie des montres Google gagne 10% d’autonomie",
           "source": "01net",
-          "url": "https://www.01net.com/actualites/claude-coute-trop-cher-microsoft-pourrait-glisser-lia-chinoise-deepseek-dans-copilot.html",
-          "summary": "Pour répondre à Anthropic et OpenClaw, MIcrosoft a lancé son assistant pour automatiser les tâches bureautiques il y a quelques mois, avec une tarification à la consommation. Pour alléger la facture d'inférence, la compagnie envisage d'i...",
+          "url": "https://www.01net.com/actualites/grace-a-cette-mise-a-jour-la-batterie-des-montres-google-gagne-10-dautonomie.html",
+          "summary": "En parallèle du déploiement d’Android 17, Google lance Wear OS 7 pour les Pixel Watch. Au programme, de nouveaux widgets, jusqu’à 10 % d’autonomie supplémentaire et le promesse de l'intégration future de Gemini Intelligence.",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         }
       ]
