@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-19",
+  "updatedAt": "2026-06-20",
   "methodologie": {
     "title": "Méthodologie de veille",
     "summary": "Ma veille technologique repose sur plusieurs sources complémentaires : IT-Connect, ANSSI et le CERT-FR pour la cybersécurité, 01net et Le Monde Informatique pour l'IA. Chaque jour, un script récupère automatiquement les nouvelles publications, calcule un score de pertinence par mots-clés, et sélectionne les 4 meilleures entrées par thème.",
@@ -126,11 +126,19 @@
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
-          "date": "18 juin 2026",
-          "title": "Sur Android 17, Gemini ne vous quittera plus : l’IA sera toujours à portée de clic",
+          "date": "19 juin 2026",
+          "title": "Suspension de Claude Fable 5 et Mythos 5 : une semaine plus tard, où en sont les négociations entre Anthropic et Donald Trump ?",
           "source": "01net",
-          "url": "https://www.01net.com/actualites/sur-android-17-gemini-ne-vous-quittera-plus-lia-sera-toujours-a-portee-de-clic.html",
-          "summary": "Gemini sera bientôt accessible via une bulle flottante sur Android 17, permettant un multitâche facilité. L'utilisateur peut ainsi avoir une connexion en continu avec l'IA de Google.",
+          "url": "https://www.01net.com/actualites/suspension-de-claude-fable-5-et-mythos-5-une-semaine-plus-tard-ou-en-sont-les-negociations-entre-anthropic-et-donald-trump.html",
+          "summary": "Le Royaume-Uni et plusieurs membres du G7 ont demandé aux États-Unis d'amender l'interdiction des nouvelles IA d'Anthropic. Tandis que Washington a rejeté l’idée d’une exception pour ses alliés, des négociations plus directes s’ouvrent e...",
+          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
+        },
+        {
+          "date": "20 juin 2026",
+          "title": "Cette IA a un nez qui peut « sentir » la maladie dans votre souffle",
+          "source": "01net",
+          "url": "https://www.01net.com/actualites/cette-ia-nez-sentir-maladie-souffle.html",
+          "summary": "Souffler dans un capteur pour qu'une IA détermine si vous couvez une maladie respiratoire ou cardiaque grave : la startup Ainos vient de lancer une étude clinique à Taïwan pour tester exactement ça. La technologie est encore en phase de...",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
@@ -139,14 +147,6 @@
           "source": "01net",
           "url": "https://www.01net.com/actualites/google-gemini-va-tout-faire-pour-que-vous-utilisiez-nouvelle-fonctionnalite.html",
           "summary": "Google prépare l'intégration directe des Notebooks de Gemini au menu de partage d'Android. De quoi envoyer n'importe quel fichier vers vos carnets de notes en un clin d'œil.",
-          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
-        },
-        {
-          "date": "19 juin 2026",
-          "title": "Grâce à cette mise à jour la batterie des montres Google gagne 10% d’autonomie",
-          "source": "01net",
-          "url": "https://www.01net.com/actualites/grace-a-cette-mise-a-jour-la-batterie-des-montres-google-gagne-10-dautonomie.html",
-          "summary": "En parallèle du déploiement d’Android 17, Google lance Wear OS 7 pour les Pixel Watch. Au programme, de nouveaux widgets, jusqu’à 10 % d’autonomie supplémentaire et le promesse de l'intégration future de Gemini Intelligence.",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         }
       ]
