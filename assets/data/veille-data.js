@@ -1,5 +1,5 @@
 window.VEILLE_DATA = {
-  "updatedAt": "2026-06-20",
+  "updatedAt": "2026-06-21",
   "methodologie": {
     "title": "Méthodologie de veille",
     "summary": "Ma veille technologique repose sur plusieurs sources complémentaires : IT-Connect, ANSSI et le CERT-FR pour la cybersécurité, 01net et Le Monde Informatique pour l'IA. Chaque jour, un script récupère automatiquement les nouvelles publications, calcule un score de pertinence par mots-clés, et sélectionne les 4 meilleures entrées par thème.",
@@ -143,10 +143,10 @@ window.VEILLE_DATA = {
         },
         {
           "date": "19 juin 2026",
-          "title": "Google Gemini va tout faire pour que vous utilisiez cette nouvelle fonctionnalité",
-          "source": "01net",
-          "url": "https://www.01net.com/actualites/google-gemini-va-tout-faire-pour-que-vous-utilisiez-nouvelle-fonctionnalite.html",
-          "summary": "Google prépare l'intégration directe des Notebooks de Gemini au menu de partage d'Android. De quoi envoyer n'importe quel fichier vers vos carnets de notes en un clin d'œil.",
+          "title": "En France, la DGSI mise sur ChapsVision pour tourner la page Palantir !",
+          "source": "IT-Connect",
+          "url": "https://www.it-connect.fr/en-france-la-dgsi-mise-sur-chapsvision-pour-tourner-la-page-palantir/",
+          "summary": "La DGSI remplace progressivement Palantir par ChapsVision et sa plateforme ArgonOS. Souveraineté numérique, IA et renseignement : ce qu’il faut retenir.",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         }
       ]
