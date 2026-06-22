@@ -1,5 +1,5 @@
 window.VEILLE_DATA = {
-  "updatedAt": "2026-06-21",
+  "updatedAt": "2026-06-22",
   "methodologie": {
     "title": "Méthodologie de veille",
     "summary": "Ma veille technologique repose sur plusieurs sources complémentaires : IT-Connect, ANSSI et le CERT-FR pour la cybersécurité, 01net et Le Monde Informatique pour l'IA. Chaque jour, un script récupère automatiquement les nouvelles publications, calcule un score de pertinence par mots-clés, et sélectionne les 4 meilleures entrées par thème.",
@@ -118,35 +118,35 @@ window.VEILLE_DATA = {
       ],
       "entries": [
         {
-          "date": "19 juin 2026",
-          "title": "C’est « le goulag » chez Meta : la course à l’IA tourne au cauchemar pour les employés de Mark Zuckerberg",
+          "date": "22 juin 2026",
+          "title": "L’IA dépasse l’humain chez Amazon : la surveillance devient impossible",
           "source": "01net",
-          "url": "https://www.01net.com/actualites/cest-le-goulag-chez-meta-la-course-a-lia-tourne-au-cauchemar-pour-les-employes-de-mark-zuckerberg.html",
-          "summary": "« C'est littéralement le goulag. Du jour au lendemain, vous n'avez plus aucun but dans la vie ». Certains employés de Meta décrivent un climat de travail délétère au sein de l’entreprise. La course au développement de l’intelligence arti...",
+          "url": "https://www.01net.com/actualites/lia-depasse-lhumain-chez-amazon-la-surveillance-devient-impossible.html",
+          "summary": "L’IA agentique chez Amazon dépasse désormais les capacités humaines de suivi, rendant la supervision humaine étape par étape de plus en plus difficile. Le vice-président d’Amazon Security évoque la théorie de la normalisation de la dévia...",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
-          "date": "19 juin 2026",
-          "title": "Suspension de Claude Fable 5 et Mythos 5 : une semaine plus tard, où en sont les négociations entre Anthropic et Donald Trump ?",
+          "date": "22 juin 2026",
+          "title": "1h de cours d’IA par semaine dès 2027 : la France veut préparer les élèves dès la seconde",
           "source": "01net",
-          "url": "https://www.01net.com/actualites/suspension-de-claude-fable-5-et-mythos-5-une-semaine-plus-tard-ou-en-sont-les-negociations-entre-anthropic-et-donald-trump.html",
-          "summary": "Le Royaume-Uni et plusieurs membres du G7 ont demandé aux États-Unis d'amender l'interdiction des nouvelles IA d'Anthropic. Tandis que Washington a rejeté l’idée d’une exception pour ses alliés, des négociations plus directes s’ouvrent e...",
+          "url": "https://www.01net.com/actualites/1h-de-cours-dia-par-semaine-des-2027-la-france-veut-preparer-les-eleves-des-la-seconde.html",
+          "summary": "Le Premier ministre Sébastien Lecornu a annoncé l’intégration d’une heure de cours hebdomadaire dédiée à l’intelligence artificielle pour les élèves de seconde à partir de la rentrée 2027.",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
-          "date": "20 juin 2026",
-          "title": "Cette IA a un nez qui peut « sentir » la maladie dans votre souffle",
+          "date": "22 juin 2026",
+          "title": "Claude Mythos a piraté la « quasi-totalité des systèmes classifiés » de la NSA en « quelques heures », mais c’était un test",
           "source": "01net",
-          "url": "https://www.01net.com/actualites/cette-ia-nez-sentir-maladie-souffle.html",
-          "summary": "Souffler dans un capteur pour qu'une IA détermine si vous couvez une maladie respiratoire ou cardiaque grave : la startup Ainos vient de lancer une étude clinique à Taïwan pour tester exactement ça. La technologie est encore en phase de...",
+          "url": "https://www.01net.com/actualites/claude-mythos-penetre-quasi-totalite-systemes-classifies-nsa-quelques-heures-mais-simple-test.html",
+          "summary": "Mythos, le modèle d'IA d'Anthropic spécialisé dans la détection de failles de sécurité, a piraté les systèmes classifiés de la NSA en quelques heures. Ce test officiel, réalisé sous le contrôle des agences fédérales, a provoqué une vague...",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
-          "date": "19 juin 2026",
-          "title": "En France, la DGSI mise sur ChapsVision pour tourner la page Palantir !",
-          "source": "IT-Connect",
-          "url": "https://www.it-connect.fr/en-france-la-dgsi-mise-sur-chapsvision-pour-tourner-la-page-palantir/",
-          "summary": "La DGSI remplace progressivement Palantir par ChapsVision et sa plateforme ArgonOS. Souveraineté numérique, IA et renseignement : ce qu’il faut retenir.",
+          "date": "22 juin 2026",
+          "title": "Microsoft va tuer la meilleure fonction de son navigateur Edge",
+          "source": "01net",
+          "url": "https://www.01net.com/actualites/microsoft-va-tuer-la-meilleure-fonction-de-son-navigateur-edge.html",
+          "summary": "Microsoft a prévu de supprimer plusieurs fonctionnalités pourtant très pratiques dans son navigateur Web Edge pour les remplacer par des fonctions animées par l’intelligence artificielle.",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         }
       ]
