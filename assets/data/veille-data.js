@@ -1,5 +1,5 @@
 window.VEILLE_DATA = {
-  "updatedAt": "2026-06-22",
+  "updatedAt": "2026-06-23",
   "methodologie": {
     "title": "Méthodologie de veille",
     "summary": "Ma veille technologique repose sur plusieurs sources complémentaires : IT-Connect, ANSSI et le CERT-FR pour la cybersécurité, 01net et Le Monde Informatique pour l'IA. Chaque jour, un script récupère automatiquement les nouvelles publications, calcule un score de pertinence par mots-clés, et sélectionne les 4 meilleures entrées par thème.",
@@ -61,14 +61,6 @@ window.VEILLE_DATA = {
       ],
       "entries": [
         {
-          "date": "16 juin 2026",
-          "title": "SearchLeak : la faille qui transformait Copilot en outil de vol de données en un clic",
-          "source": "IT-Connect",
-          "url": "https://www.it-connect.fr/searchleak-la-faille-qui-transformait-copilot-en-outil-de-vol-de-donnees-en-un-clic/",
-          "summary": "L’attaque SearchLeak détourne l’IA Microsoft Copilot Enterprise pour exfiltrer e-mails, fichiers OneDrive et SharePoint via une URL piégée (CVE-2026-42824).",
-          "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
-        },
-        {
           "date": "11 mars 2026",
           "title": "Panorama de la cybermenace 2025 : La France toujours sous la pression des cyber attaquants",
           "source": "ANSSI",
@@ -90,6 +82,14 @@ window.VEILLE_DATA = {
           "source": "CERT-FR",
           "url": "https://www.cert.ssi.gouv.fr/actualite/CERTFR-2026-ACT-003/",
           "summary": "Le 20 janvier 2026, les détails de la vulnérabilité CVE-2026-24061, affectant *telnetd*, ont été publiés. Cette vulnérabilité permet à un attaquant de contourner l'authentification et de se connecter à une machine vulnérable en tant que...",
+          "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
+        },
+        {
+          "date": "2 avril 2026",
+          "title": "Expiration de certificats Secure Boot en juin 2026 (02 avril 2026)",
+          "source": "CERT-FR",
+          "url": "https://www.cert.ssi.gouv.fr/actualite/CERTFR-2026-ACT-014/",
+          "summary": "Le démarrage sécurisé (UEFI Secure Boot) est une fonctionnalité de sécurité disponible sur les ordinateurs PC clients et serveurs depuis 2011. Son rôle est de sécuriser la séquence de démarrage de l’appareil, en vérifiant l’intégrité du...",
           "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
         }
       ]
@@ -118,35 +118,35 @@ window.VEILLE_DATA = {
       ],
       "entries": [
         {
-          "date": "22 juin 2026",
-          "title": "L’IA dépasse l’humain chez Amazon : la surveillance devient impossible",
+          "date": "23 juin 2026",
+          "title": "PS6 repoussée à 2029 : pourquoi la prochaine PlayStation pourrait accuser du retard",
           "source": "01net",
-          "url": "https://www.01net.com/actualites/lia-depasse-lhumain-chez-amazon-la-surveillance-devient-impossible.html",
-          "summary": "L’IA agentique chez Amazon dépasse désormais les capacités humaines de suivi, rendant la supervision humaine étape par étape de plus en plus difficile. Le vice-président d’Amazon Security évoque la théorie de la normalisation de la dévia...",
+          "url": "https://www.01net.com/actualites/ps6-repoussee-a-2029-pourquoi-la-prochaine-playstation-pourrait-accuser-du-retard.html",
+          "summary": "Initialement espérée pour 2027, la PlayStation 6 pourrait subir un retard historique à cause de la crise de la RAM provoquée par l’IA. Le rapport annuel d'Embracer Group jette un froid sur le calendrier de Sony.",
+          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
+        },
+        {
+          "date": "23 juin 2026",
+          "title": "Google Sheets : Gemini peut maintenant résoudre votre pire cauchemar",
+          "source": "01net",
+          "url": "https://www.01net.com/actualites/google-sheets-gemini-peut-maintenant-resoudre-votre-pire-cauchemar.html",
+          "summary": "Gemini peut désormais diagnostiquer et corriger instantanément vos erreurs de formules sur Google Sheets.",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
           "date": "22 juin 2026",
-          "title": "1h de cours d’IA par semaine dès 2027 : la France veut préparer les élèves dès la seconde",
-          "source": "01net",
-          "url": "https://www.01net.com/actualites/1h-de-cours-dia-par-semaine-des-2027-la-france-veut-preparer-les-eleves-des-la-seconde.html",
-          "summary": "Le Premier ministre Sébastien Lecornu a annoncé l’intégration d’une heure de cours hebdomadaire dédiée à l’intelligence artificielle pour les élèves de seconde à partir de la rentrée 2027.",
+          "title": "Claude : Anthropic va vérifier l’âge et l’identité de ses utilisateurs dès le 8 juillet",
+          "source": "IT-Connect",
+          "url": "https://www.it-connect.fr/claude-anthropic-va-verifier-age-et-identite-de-ses-utilisateurs-des-le-8-juillet/",
+          "summary": "À partir du 8 juillet 2026, Anthropic pourra demander aux utilisateurs de Claude une pièce d’identité : et si c’était pour donner un accès à Fable 5 ?",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
-          "date": "22 juin 2026",
-          "title": "Claude Mythos a piraté la « quasi-totalité des systèmes classifiés » de la NSA en « quelques heures », mais c’était un test",
-          "source": "01net",
-          "url": "https://www.01net.com/actualites/claude-mythos-penetre-quasi-totalite-systemes-classifies-nsa-quelques-heures-mais-simple-test.html",
-          "summary": "Mythos, le modèle d'IA d'Anthropic spécialisé dans la détection de failles de sécurité, a piraté les systèmes classifiés de la NSA en quelques heures. Ce test officiel, réalisé sous le contrôle des agences fédérales, a provoqué une vague...",
-          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
-        },
-        {
-          "date": "22 juin 2026",
-          "title": "Microsoft va tuer la meilleure fonction de son navigateur Edge",
-          "source": "01net",
-          "url": "https://www.01net.com/actualites/microsoft-va-tuer-la-meilleure-fonction-de-son-navigateur-edge.html",
-          "summary": "Microsoft a prévu de supprimer plusieurs fonctionnalités pourtant très pratiques dans son navigateur Web Edge pour les remplacer par des fonctions animées par l’intelligence artificielle.",
+          "date": "19 juin 2026",
+          "title": "En France, la DGSI mise sur ChapsVision pour tourner la page Palantir !",
+          "source": "IT-Connect",
+          "url": "https://www.it-connect.fr/en-france-la-dgsi-mise-sur-chapsvision-pour-tourner-la-page-palantir/",
+          "summary": "La DGSI remplace progressivement Palantir par ChapsVision et sa plateforme ArgonOS. Souveraineté numérique, IA et renseignement : ce qu’il faut retenir.",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         }
       ]
