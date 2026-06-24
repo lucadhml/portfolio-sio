@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-23",
+  "updatedAt": "2026-06-24",
   "methodologie": {
     "title": "Méthodologie de veille",
     "summary": "Ma veille technologique repose sur plusieurs sources complémentaires : IT-Connect, ANSSI et le CERT-FR pour la cybersécurité, 01net et Le Monde Informatique pour l'IA. Chaque jour, un script récupère automatiquement les nouvelles publications, calcule un score de pertinence par mots-clés, et sélectionne les 4 meilleures entrées par thème.",
@@ -77,19 +77,19 @@
           "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
         },
         {
+          "date": "24 juin 2026",
+          "title": "PixelSmash : une faille FFmpeg expose Jellyfin au RCE",
+          "source": "IT-Connect",
+          "url": "https://www.it-connect.fr/pixelsmash-une-faille-ffmpeg-expose-jellyfin-au-rce/",
+          "summary": "PixelSmash est une faille critique de FFmpeg (CVE-2026-8461) permettant d’exécuter du code à distance sur un serveur Jellyfin via un simple fichier vidéo piégé.",
+          "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
+        },
+        {
           "date": "21 janvier 2026",
           "title": "Vulnérabilité dans telnetd (21 janvier 2026)",
           "source": "CERT-FR",
           "url": "https://www.cert.ssi.gouv.fr/actualite/CERTFR-2026-ACT-003/",
           "summary": "Le 20 janvier 2026, les détails de la vulnérabilité CVE-2026-24061, affectant *telnetd*, ont été publiés. Cette vulnérabilité permet à un attaquant de contourner l'authentification et de se connecter à une machine vulnérable en tant que...",
-          "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
-        },
-        {
-          "date": "2 avril 2026",
-          "title": "Expiration de certificats Secure Boot en juin 2026 (02 avril 2026)",
-          "source": "CERT-FR",
-          "url": "https://www.cert.ssi.gouv.fr/actualite/CERTFR-2026-ACT-014/",
-          "summary": "Le démarrage sécurisé (UEFI Secure Boot) est une fonctionnalité de sécurité disponible sur les ordinateurs PC clients et serveurs depuis 2011. Son rôle est de sécuriser la séquence de démarrage de l’appareil, en vérifiant l’intégrité du...",
           "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
         }
       ]
@@ -118,19 +118,19 @@
       ],
       "entries": [
         {
-          "date": "23 juin 2026",
-          "title": "PS6 repoussée à 2029 : pourquoi la prochaine PlayStation pourrait accuser du retard",
+          "date": "24 juin 2026",
+          "title": "UFS 5.0 : cette technologie est la botte secrète de Samsung pour le Galaxy S27",
           "source": "01net",
-          "url": "https://www.01net.com/actualites/ps6-repoussee-a-2029-pourquoi-la-prochaine-playstation-pourrait-accuser-du-retard.html",
-          "summary": "Initialement espérée pour 2027, la PlayStation 6 pourrait subir un retard historique à cause de la crise de la RAM provoquée par l’IA. Le rapport annuel d'Embracer Group jette un froid sur le calendrier de Sony.",
+          "url": "https://www.01net.com/actualites/ufs-5-0-cette-technologie-est-la-botte-secrete-de-samsung-pour-le-galaxy-s27.html",
+          "summary": "Samsung vient de dévoiler le stockage mobile le plus rapide du marché. Deux fois plus véloce, 40 % plus sobre, et pensé pour faire tourner l'IA directement dans votre poche. Les premiers servis seront sans doute les Galaxy S27.",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
           "date": "23 juin 2026",
-          "title": "Google Sheets : Gemini peut maintenant résoudre votre pire cauchemar",
+          "title": "Tesla prépare Megapod : ce projet secret pourrait connecter ses Superchargeurs à l’IA",
           "source": "01net",
-          "url": "https://www.01net.com/actualites/google-sheets-gemini-peut-maintenant-resoudre-votre-pire-cauchemar.html",
-          "summary": "Gemini peut désormais diagnostiquer et corriger instantanément vos erreurs de formules sur Google Sheets.",
+          "url": "https://www.01net.com/actualites/tesla-prepare-megapod-ce-projet-secret-pourrait-connecter-ses-superchargeurs-a-lia.html",
+          "summary": "Tesla a déposé la marque « Megapod » aux États-Unis. Ce projet de datacenter modulaire clé en main marque un tournant stratégique pour Elon Musk, axé sur l'infrastructure et l'énergie plutôt que sur les puces.",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
@@ -142,11 +142,11 @@
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
-          "date": "19 juin 2026",
-          "title": "En France, la DGSI mise sur ChapsVision pour tourner la page Palantir !",
+          "date": "23 juin 2026",
+          "title": "FixMyCV : 7 recruteurs IA relisent votre CV avant les vrais",
           "source": "IT-Connect",
-          "url": "https://www.it-connect.fr/en-france-la-dgsi-mise-sur-chapsvision-pour-tourner-la-page-palantir/",
-          "summary": "La DGSI remplace progressivement Palantir par ChapsVision et sa plateforme ArgonOS. Souveraineté numérique, IA et renseignement : ce qu’il faut retenir.",
+          "url": "https://www.it-connect.fr/fixmycv-7-recruteurs-ia-relisent-votre-cv-avant-les-vrais/",
+          "summary": "FixMyCV, un outil web gratuit français, fait passer votre CV devant 7 recruteurs IA : analyse, lettre de motivation et simulation d’entretien au programme.",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         }
       ]
