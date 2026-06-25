@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-24",
+  "updatedAt": "2026-06-25",
   "methodologie": {
     "title": "Méthodologie de veille",
     "summary": "Ma veille technologique repose sur plusieurs sources complémentaires : IT-Connect, ANSSI et le CERT-FR pour la cybersécurité, 01net et Le Monde Informatique pour l'IA. Chaque jour, un script récupère automatiquement les nouvelles publications, calcule un score de pertinence par mots-clés, et sélectionne les 4 meilleures entrées par thème.",
@@ -61,19 +61,19 @@
       ],
       "entries": [
         {
+          "date": "25 juin 2026",
+          "title": "GLPI 11.0.8 et 10.0.26 : 16 failles patchées, dont 2 critiques",
+          "source": "IT-Connect",
+          "url": "https://www.it-connect.fr/glpi-11-0-8-et-10-0-26-16-failles-patchees-dont-2-critiques/",
+          "summary": "GLPI reçoit deux patchs de sécurité : 11.0.8 et 10.0.26. 16 vulnérabilités ont été patchées dans GLPI 11, dont 2 critiques : une RCE et un contournement du MFA.",
+          "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
+        },
+        {
           "date": "11 mars 2026",
           "title": "Panorama de la cybermenace 2025 : La France toujours sous la pression des cyber attaquants",
           "source": "ANSSI",
           "url": "http://cyber.sites.beta.gouv.fr/actualites/panorama-de-la-cybermenace-2025/",
           "summary": "Dans le Panorama de la cybermenace 2025, l’Agence nationale de la sécurité des systèmes d’information (ANSSI) présente le bilan d’une […]",
-          "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
-        },
-        {
-          "date": "30 janvier 2026",
-          "title": "La France prend la présidence du Groupe de travail sur la cybersécurité du G7",
-          "source": "ANSSI",
-          "url": "http://cyber.sites.beta.gouv.fr/actualites/la-france-prend-la-presidence-du-groupe-de-travail-sur-la-cybersecurite-du-g7/",
-          "summary": "Face à l’intensification et à la diversification des cybermenaces, la cybersécurité constitue un enjeu stratégique majeur pour la sécurité nationale […]",
           "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
         },
         {
@@ -118,35 +118,35 @@
       ],
       "entries": [
         {
+          "date": "25 juin 2026",
+          "title": "Patch the Planet : OpenAI met son IA au service de l’open source",
+          "source": "IT-Connect",
+          "url": "https://www.it-connect.fr/patch-the-planet-openai-met-son-ia-au-service-de-lopen-source/",
+          "summary": "OpenAI étend Daybreak : plugin Codex Security, version complète de GPT-5.5-Cyber et l’initiative open source Patch the Planet. Voici ce qu’il faut retenir.",
+          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
+        },
+        {
+          "date": "25 juin 2026",
+          "title": "« Il est temps de jouer cartes sur table » : l’ONU s’attaque au coût écologique caché de l’IA",
+          "source": "01net",
+          "url": "https://www.01net.com/actualites/il-est-temps-de-jouer-cartes-sur-table-lonu-sattaque-au-cout-ecologique-cache-de-lia.html",
+          "summary": "Lors de la London Climate Action Week, le secrétaire général de l'ONU a lancé une offensive contre les géants de l'intelligence artificielle. Objectif : publier la facture énergétique réelle des datacenters.",
+          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
+        },
+        {
           "date": "24 juin 2026",
-          "title": "UFS 5.0 : cette technologie est la botte secrète de Samsung pour le Galaxy S27",
+          "title": "Claude Tag : l’IA débarque dans Slack avec un énorme pouvoir",
           "source": "01net",
-          "url": "https://www.01net.com/actualites/ufs-5-0-cette-technologie-est-la-botte-secrete-de-samsung-pour-le-galaxy-s27.html",
-          "summary": "Samsung vient de dévoiler le stockage mobile le plus rapide du marché. Deux fois plus véloce, 40 % plus sobre, et pensé pour faire tourner l'IA directement dans votre poche. Les premiers servis seront sans doute les Galaxy S27.",
+          "url": "https://www.01net.com/actualites/claude-tag-lia-debarque-dans-slack-avec-un-enorme-pouvoir.html",
+          "summary": "Bienvenue dans l'ère du collègue qui ne déjeune pas et lit toutes vos conversations. Anthropic vient de lancer Claude Tag dans Slack : une IA qui peut agir sans même qu'on la sollicite.",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
-          "date": "23 juin 2026",
-          "title": "Tesla prépare Megapod : ce projet secret pourrait connecter ses Superchargeurs à l’IA",
-          "source": "01net",
-          "url": "https://www.01net.com/actualites/tesla-prepare-megapod-ce-projet-secret-pourrait-connecter-ses-superchargeurs-a-lia.html",
-          "summary": "Tesla a déposé la marque « Megapod » aux États-Unis. Ce projet de datacenter modulaire clé en main marque un tournant stratégique pour Elon Musk, axé sur l'infrastructure et l'énergie plutôt que sur les puces.",
-          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
-        },
-        {
-          "date": "22 juin 2026",
-          "title": "Claude : Anthropic va vérifier l’âge et l’identité de ses utilisateurs dès le 8 juillet",
+          "date": "24 juin 2026",
+          "title": "GitHub submergé par l’IA : Microsoft contraint de faire appel à AWS",
           "source": "IT-Connect",
-          "url": "https://www.it-connect.fr/claude-anthropic-va-verifier-age-et-identite-de-ses-utilisateurs-des-le-8-juillet/",
-          "summary": "À partir du 8 juillet 2026, Anthropic pourra demander aux utilisateurs de Claude une pièce d’identité : et si c’était pour donner un accès à Fable 5 ?",
-          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
-        },
-        {
-          "date": "23 juin 2026",
-          "title": "FixMyCV : 7 recruteurs IA relisent votre CV avant les vrais",
-          "source": "IT-Connect",
-          "url": "https://www.it-connect.fr/fixmycv-7-recruteurs-ia-relisent-votre-cv-avant-les-vrais/",
-          "summary": "FixMyCV, un outil web gratuit français, fait passer votre CV devant 7 recruteurs IA : analyse, lettre de motivation et simulation d’entretien au programme.",
+          "url": "https://www.it-connect.fr/github-submerge-par-ia-microsoft-contraint-de-faire-appel-a-aws/",
+          "summary": "Claude Code génère déjà au moins 4% des commits publics de GitHub (135 000/jour). Une vague de code IA qui pousserait Microsoft à louer de la capacité chez AWS.",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         }
       ]
