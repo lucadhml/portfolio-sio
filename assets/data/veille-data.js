@@ -1,5 +1,5 @@
 window.VEILLE_DATA = {
-  "updatedAt": "2026-06-25",
+  "updatedAt": "2026-06-26",
   "methodologie": {
     "title": "Méthodologie de veille",
     "summary": "Ma veille technologique repose sur plusieurs sources complémentaires : IT-Connect, ANSSI et le CERT-FR pour la cybersécurité, 01net et Le Monde Informatique pour l'IA. Chaque jour, un script récupère automatiquement les nouvelles publications, calcule un score de pertinence par mots-clés, et sélectionne les 4 meilleures entrées par thème.",
@@ -118,6 +118,14 @@ window.VEILLE_DATA = {
       ],
       "entries": [
         {
+          "date": "26 juin 2026",
+          "title": "GPT-5.6 limité : l’administration Trump décidera qui pourra l’utiliser",
+          "source": "01net",
+          "url": "https://www.01net.com/actualites/gpt-5-6-limite-ladministration-trump-decidera-qui-pourra-lutiliser.html",
+          "summary": "Le modèle GPT-5.6 d'OpenAI sera d'abord accessible à un nombre limité d'entreprises. Son utilisation sera approuvée au cas par cas par l'administration Trump. Après avoir favorisé un développement rapide de l'intelligence artificielle, l...",
+          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
+        },
+        {
           "date": "25 juin 2026",
           "title": "Patch the Planet : OpenAI met son IA au service de l’open source",
           "source": "IT-Connect",
@@ -126,27 +134,19 @@ window.VEILLE_DATA = {
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
-          "date": "25 juin 2026",
-          "title": "« Il est temps de jouer cartes sur table » : l’ONU s’attaque au coût écologique caché de l’IA",
-          "source": "01net",
-          "url": "https://www.01net.com/actualites/il-est-temps-de-jouer-cartes-sur-table-lonu-sattaque-au-cout-ecologique-cache-de-lia.html",
-          "summary": "Lors de la London Climate Action Week, le secrétaire général de l'ONU a lancé une offensive contre les géants de l'intelligence artificielle. Objectif : publier la facture énergétique réelle des datacenters.",
-          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
-        },
-        {
-          "date": "24 juin 2026",
-          "title": "Claude Tag : l’IA débarque dans Slack avec un énorme pouvoir",
-          "source": "01net",
-          "url": "https://www.01net.com/actualites/claude-tag-lia-debarque-dans-slack-avec-un-enorme-pouvoir.html",
-          "summary": "Bienvenue dans l'ère du collègue qui ne déjeune pas et lit toutes vos conversations. Anthropic vient de lancer Claude Tag dans Slack : une IA qui peut agir sans même qu'on la sollicite.",
-          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
-        },
-        {
           "date": "24 juin 2026",
           "title": "GitHub submergé par l’IA : Microsoft contraint de faire appel à AWS",
           "source": "IT-Connect",
           "url": "https://www.it-connect.fr/github-submerge-par-ia-microsoft-contraint-de-faire-appel-a-aws/",
           "summary": "Claude Code génère déjà au moins 4% des commits publics de GitHub (135 000/jour). Une vague de code IA qui pousserait Microsoft à louer de la capacité chez AWS.",
+          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
+        },
+        {
+          "date": "25 juin 2026",
+          "title": "Oppo Reno 16 : la nouvelle gamme de smartphones arrive en France avec un dos « magique », mais les prix s’envolent",
+          "source": "01net",
+          "url": "https://www.01net.com/actualites/oppo-reno-16-la-nouvelle-gamme-de-smartphones-arrive-en-france-avec-un-dos-magique-mais-les-prix-senvolent.html",
+          "summary": "Oppo officialise le lancement en France de sa série Reno16, composée des Reno16, Pro, F et FS. Au programme : surcouche ColorOS 16 truffée d'IA, grosse batterie et design HoloVerse 3D, mais l'addition devient salée.",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         }
       ]
