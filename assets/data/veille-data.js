@@ -1,5 +1,5 @@
 window.VEILLE_DATA = {
-  "updatedAt": "2026-06-26",
+  "updatedAt": "2026-06-27",
   "methodologie": {
     "title": "Méthodologie de veille",
     "summary": "Ma veille technologique repose sur plusieurs sources complémentaires : IT-Connect, ANSSI et le CERT-FR pour la cybersécurité, 01net et Le Monde Informatique pour l'IA. Chaque jour, un script récupère automatiquement les nouvelles publications, calcule un score de pertinence par mots-clés, et sélectionne les 4 meilleures entrées par thème.",
@@ -142,11 +142,11 @@ window.VEILLE_DATA = {
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
-          "date": "25 juin 2026",
-          "title": "Oppo Reno 16 : la nouvelle gamme de smartphones arrive en France avec un dos « magique », mais les prix s’envolent",
-          "source": "01net",
-          "url": "https://www.01net.com/actualites/oppo-reno-16-la-nouvelle-gamme-de-smartphones-arrive-en-france-avec-un-dos-magique-mais-les-prix-senvolent.html",
-          "summary": "Oppo officialise le lancement en France de sa série Reno16, composée des Reno16, Pro, F et FS. Au programme : surcouche ColorOS 16 truffée d'IA, grosse batterie et design HoloVerse 3D, mais l'addition devient salée.",
+          "date": "22 juin 2026",
+          "title": "Claude : Anthropic va vérifier l’âge et l’identité de ses utilisateurs dès le 8 juillet",
+          "source": "IT-Connect",
+          "url": "https://www.it-connect.fr/claude-anthropic-va-verifier-age-et-identite-de-ses-utilisateurs-des-le-8-juillet/",
+          "summary": "À partir du 8 juillet 2026, Anthropic pourra demander aux utilisateurs de Claude une pièce d’identité : et si c’était pour donner un accès à Fable 5 ?",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         }
       ]
