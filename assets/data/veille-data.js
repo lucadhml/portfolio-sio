@@ -1,5 +1,5 @@
 window.VEILLE_DATA = {
-  "updatedAt": "2026-06-27",
+  "updatedAt": "2026-06-28",
   "methodologie": {
     "title": "Méthodologie de veille",
     "summary": "Ma veille technologique repose sur plusieurs sources complémentaires : IT-Connect, ANSSI et le CERT-FR pour la cybersécurité, 01net et Le Monde Informatique pour l'IA. Chaque jour, un script récupère automatiquement les nouvelles publications, calcule un score de pertinence par mots-clés, et sélectionne les 4 meilleures entrées par thème.",
@@ -118,14 +118,6 @@ window.VEILLE_DATA = {
       ],
       "entries": [
         {
-          "date": "26 juin 2026",
-          "title": "GPT-5.6 limité : l’administration Trump décidera qui pourra l’utiliser",
-          "source": "01net",
-          "url": "https://www.01net.com/actualites/gpt-5-6-limite-ladministration-trump-decidera-qui-pourra-lutiliser.html",
-          "summary": "Le modèle GPT-5.6 d'OpenAI sera d'abord accessible à un nombre limité d'entreprises. Son utilisation sera approuvée au cas par cas par l'administration Trump. Après avoir favorisé un développement rapide de l'intelligence artificielle, l...",
-          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
-        },
-        {
           "date": "25 juin 2026",
           "title": "Patch the Planet : OpenAI met son IA au service de l’open source",
           "source": "IT-Connect",
@@ -147,6 +139,14 @@ window.VEILLE_DATA = {
           "source": "IT-Connect",
           "url": "https://www.it-connect.fr/claude-anthropic-va-verifier-age-et-identite-de-ses-utilisateurs-des-le-8-juillet/",
           "summary": "À partir du 8 juillet 2026, Anthropic pourra demander aux utilisateurs de Claude une pièce d’identité : et si c’était pour donner un accès à Fable 5 ?",
+          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
+        },
+        {
+          "date": "23 juin 2026",
+          "title": "FixMyCV : 7 recruteurs IA relisent votre CV avant les vrais",
+          "source": "IT-Connect",
+          "url": "https://www.it-connect.fr/fixmycv-7-recruteurs-ia-relisent-votre-cv-avant-les-vrais/",
+          "summary": "FixMyCV, un outil web gratuit français, fait passer votre CV devant 7 recruteurs IA : analyse, lettre de motivation et simulation d’entretien au programme.",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         }
       ]
