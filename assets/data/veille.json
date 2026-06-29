@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-28",
+  "updatedAt": "2026-06-29",
   "methodologie": {
     "title": "Méthodologie de veille",
     "summary": "Ma veille technologique repose sur plusieurs sources complémentaires : IT-Connect, ANSSI et le CERT-FR pour la cybersécurité, 01net et Le Monde Informatique pour l'IA. Chaque jour, un script récupère automatiquement les nouvelles publications, calcule un score de pertinence par mots-clés, et sélectionne les 4 meilleures entrées par thème.",
@@ -134,19 +134,19 @@
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
-          "date": "22 juin 2026",
-          "title": "Claude : Anthropic va vérifier l’âge et l’identité de ses utilisateurs dès le 8 juillet",
-          "source": "IT-Connect",
-          "url": "https://www.it-connect.fr/claude-anthropic-va-verifier-age-et-identite-de-ses-utilisateurs-des-le-8-juillet/",
-          "summary": "À partir du 8 juillet 2026, Anthropic pourra demander aux utilisateurs de Claude une pièce d’identité : et si c’était pour donner un accès à Fable 5 ?",
+          "date": "29 juin 2026",
+          "title": "Gemini peut désormais vous aider à trouver et installer des applications Google Play",
+          "source": "01net",
+          "url": "https://www.01net.com/actualites/gemini-peut-desormais-vous-aider-trouver-installer-applications-google-play.html",
+          "summary": "Trouver une application Android va devenir beaucoup plus simple avec Gemini. Google commence à déployer une nouvelle fonctionnalité permettant à son chatbot de fouiller le Play Store pour vous, afin que vous puissiez télécharger directem...",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
-          "date": "23 juin 2026",
-          "title": "FixMyCV : 7 recruteurs IA relisent votre CV avant les vrais",
-          "source": "IT-Connect",
-          "url": "https://www.it-connect.fr/fixmycv-7-recruteurs-ia-relisent-votre-cv-avant-les-vrais/",
-          "summary": "FixMyCV, un outil web gratuit français, fait passer votre CV devant 7 recruteurs IA : analyse, lettre de motivation et simulation d’entretien au programme.",
+          "date": "28 juin 2026",
+          "title": "Google Home peut détecter les pannes de climatisation avant qu’elles arrivent",
+          "source": "01net",
+          "url": "https://www.01net.com/actualites/google-home-peut-detecter-les-pannes-de-climatisation-avant-quelles-arrivent.html",
+          "summary": "Google Home 4.20 peut repérer une panne de compresseur de clim avant que vous n'en subissiez les conséquences. L'IA domestique ajoute la surveillance à la commande.",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         }
       ]
