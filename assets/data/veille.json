@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-29",
+  "updatedAt": "2026-06-30",
   "methodologie": {
     "title": "Méthodologie de veille",
     "summary": "Ma veille technologique repose sur plusieurs sources complémentaires : IT-Connect, ANSSI et le CERT-FR pour la cybersécurité, 01net et Le Monde Informatique pour l'IA. Chaque jour, un script récupère automatiquement les nouvelles publications, calcule un score de pertinence par mots-clés, et sélectionne les 4 meilleures entrées par thème.",
@@ -134,19 +134,19 @@
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
-          "date": "29 juin 2026",
-          "title": "Gemini peut désormais vous aider à trouver et installer des applications Google Play",
+          "date": "30 juin 2026",
+          "title": "Renault remplace Google Assistant par Gemini : voici ce que ça change à bord",
           "source": "01net",
-          "url": "https://www.01net.com/actualites/gemini-peut-desormais-vous-aider-trouver-installer-applications-google-play.html",
-          "summary": "Trouver une application Android va devenir beaucoup plus simple avec Gemini. Google commence à déployer une nouvelle fonctionnalité permettant à son chatbot de fouiller le Play Store pour vous, afin que vous puissiez télécharger directem...",
+          "url": "https://www.01net.com/actualites/renault-remplace-google-assistant-par-gemini-voici-ce-que-ca-change-a-bord.html",
+          "summary": "Renault remplace Google Assistant par Gemini sur ses véhicules équipés du système openR link. La mise à jour est gratuite et s’effectuera automatiquement à distance. Commandes en langage naturel, établissement d’itinéraires, contrôle du...",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
-          "date": "28 juin 2026",
-          "title": "Google Home peut détecter les pannes de climatisation avant qu’elles arrivent",
+          "date": "29 juin 2026",
+          "title": "Pénurie de RAM ou énorme complot ? Les trois géants de la mémoire traînés en justice pour entente illégale",
           "source": "01net",
-          "url": "https://www.01net.com/actualites/google-home-peut-detecter-les-pannes-de-climatisation-avant-quelles-arrivent.html",
-          "summary": "Google Home 4.20 peut repérer une panne de compresseur de clim avant que vous n'en subissiez les conséquences. L'IA domestique ajoute la surveillance à la commande.",
+          "url": "https://www.01net.com/actualites/penurie-de-ram-ou-enorme-complot-les-trois-geants-de-la-memoire-traines-en-justice-pour-entente-illegale.html",
+          "summary": "L'explosion des prix de la mémoire vive se termine devant les tribunaux. Une action collective en Californie accuse Samsung, SK Hynix et Micron d'avoir artificiellement restreint l'offre de DRAM au profit de l'IA pour gonfler leurs marges.",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         }
       ]
