@@ -1,5 +1,5 @@
 window.VEILLE_DATA = {
-  "updatedAt": "2026-06-30",
+  "updatedAt": "2026-07-01",
   "methodologie": {
     "title": "Méthodologie de veille",
     "summary": "Ma veille technologique repose sur plusieurs sources complémentaires : IT-Connect, ANSSI et le CERT-FR pour la cybersécurité, 01net et Le Monde Informatique pour l'IA. Chaque jour, un script récupère automatiquement les nouvelles publications, calcule un score de pertinence par mots-clés, et sélectionne les 4 meilleures entrées par thème.",
@@ -61,6 +61,14 @@ window.VEILLE_DATA = {
       ],
       "entries": [
         {
+          "date": "30 juin 2026",
+          "title": "Exploitarium : un chercheur dévoile des failles zero-day dans 15 logiciels open source",
+          "source": "IT-Connect",
+          "url": "https://www.it-connect.fr/exploitarium-un-chercheur-devoile-des-failles-zero-day-dans-15-logiciels-open-source/",
+          "summary": "Un chercheur anonyme a publié sur GitHub des codes d’exploitation pour des failles zero-day dans 15 logiciels open source. Deux sont déjà exploitées.",
+          "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
+        },
+        {
           "date": "25 juin 2026",
           "title": "GLPI 11.0.8 et 10.0.26 : 16 failles patchées, dont 2 critiques",
           "source": "IT-Connect",
@@ -74,14 +82,6 @@ window.VEILLE_DATA = {
           "source": "ANSSI",
           "url": "http://cyber.sites.beta.gouv.fr/actualites/panorama-de-la-cybermenace-2025/",
           "summary": "Dans le Panorama de la cybermenace 2025, l’Agence nationale de la sécurité des systèmes d’information (ANSSI) présente le bilan d’une […]",
-          "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
-        },
-        {
-          "date": "24 juin 2026",
-          "title": "PixelSmash : une faille FFmpeg expose Jellyfin au RCE",
-          "source": "IT-Connect",
-          "url": "https://www.it-connect.fr/pixelsmash-une-faille-ffmpeg-expose-jellyfin-au-rce/",
-          "summary": "PixelSmash est une faille critique de FFmpeg (CVE-2026-8461) permettant d’exécuter du code à distance sur un serveur Jellyfin via un simple fichier vidéo piégé.",
           "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
         },
         {
@@ -118,6 +118,22 @@ window.VEILLE_DATA = {
       ],
       "entries": [
         {
+          "date": "1 juillet 2026",
+          "title": "Anthropic dévoile Claude Sonnet 5, sa nouvelle IA par défaut : voici tout ce qui change",
+          "source": "01net",
+          "url": "https://www.01net.com/actualites/anthropic-devoile-claude-sonnet-5-sa-nouvelle-ia-par-defaut-voici-tout-ce-qui-change.html",
+          "summary": "Anthropic dévoile Claude Sonnet 5, un nouveau modèle d'IA amélioré et moins coûteux. Il rivalise à de nombreux égards avec le puissant Opus 4.8 tout en devenant le choix par défaut des utilisateurs gratuits et des abonnés Pro. Avec cette...",
+          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
+        },
+        {
+          "date": "1 juillet 2026",
+          "title": "Anthropic annonce le retour de Claude Fable 5 et Mythos 5, les États-Unis ont levé l’interdiction",
+          "source": "01net",
+          "url": "https://www.01net.com/actualites/anthropic-annonce-retour-claude-fable-5-mythos-5-etats-unis-leve-interdiction.html",
+          "summary": "Après trois semaines de suspension mondiale, les deux modèles d'intelligence artificielle les plus puissants d'Anthropic, Claude Fable 5 et Claude Mythos 5, font leur retour. Le département américain du Commerce a officiellement levé les...",
+          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
+        },
+        {
           "date": "25 juin 2026",
           "title": "Patch the Planet : OpenAI met son IA au service de l’open source",
           "source": "IT-Connect",
@@ -126,27 +142,11 @@ window.VEILLE_DATA = {
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
-          "date": "24 juin 2026",
-          "title": "GitHub submergé par l’IA : Microsoft contraint de faire appel à AWS",
-          "source": "IT-Connect",
-          "url": "https://www.it-connect.fr/github-submerge-par-ia-microsoft-contraint-de-faire-appel-a-aws/",
-          "summary": "Claude Code génère déjà au moins 4% des commits publics de GitHub (135 000/jour). Une vague de code IA qui pousserait Microsoft à louer de la capacité chez AWS.",
-          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
-        },
-        {
-          "date": "30 juin 2026",
-          "title": "Renault remplace Google Assistant par Gemini : voici ce que ça change à bord",
+          "date": "1 juillet 2026",
+          "title": "Windows 11 : cette version du Bloc-notes ne pèse que 2,5 Ko et s’affranchit de Copilot",
           "source": "01net",
-          "url": "https://www.01net.com/actualites/renault-remplace-google-assistant-par-gemini-voici-ce-que-ca-change-a-bord.html",
-          "summary": "Renault remplace Google Assistant par Gemini sur ses véhicules équipés du système openR link. La mise à jour est gratuite et s’effectuera automatiquement à distance. Commandes en langage naturel, établissement d’itinéraires, contrôle du...",
-          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
-        },
-        {
-          "date": "29 juin 2026",
-          "title": "Pénurie de RAM ou énorme complot ? Les trois géants de la mémoire traînés en justice pour entente illégale",
-          "source": "01net",
-          "url": "https://www.01net.com/actualites/penurie-de-ram-ou-enorme-complot-les-trois-geants-de-la-memoire-traines-en-justice-pour-entente-illegale.html",
-          "summary": "L'explosion des prix de la mémoire vive se termine devant les tribunaux. Une action collective en Californie accuse Samsung, SK Hynix et Micron d'avoir artificiellement restreint l'offre de DRAM au profit de l'IA pour gonfler leurs marges.",
+          "url": "https://www.01net.com/actualites/windows-11-cette-version-du-bloc-notes-ne-pese-que-25-ko-et-saffranchit-de-copilot.html",
+          "summary": "Un ancien ingénieur de Microsoft a développé et mis en ligne une version minimaliste du Bloc-notes de Windows. Avec seulement 2,5 Ko, TinyRetroPad ressuscite un Bloc-notes original dénué d’intelligence artificielle inutile.",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         }
       ]
