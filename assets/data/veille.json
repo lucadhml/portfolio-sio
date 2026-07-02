@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-01",
+  "updatedAt": "2026-07-02",
   "methodologie": {
     "title": "Méthodologie de veille",
     "summary": "Ma veille technologique repose sur plusieurs sources complémentaires : IT-Connect, ANSSI et le CERT-FR pour la cybersécurité, 01net et Le Monde Informatique pour l'IA. Chaque jour, un script récupère automatiquement les nouvelles publications, calcule un score de pertinence par mots-clés, et sélectionne les 4 meilleures entrées par thème.",
@@ -69,14 +69,6 @@
           "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
         },
         {
-          "date": "25 juin 2026",
-          "title": "GLPI 11.0.8 et 10.0.26 : 16 failles patchées, dont 2 critiques",
-          "source": "IT-Connect",
-          "url": "https://www.it-connect.fr/glpi-11-0-8-et-10-0-26-16-failles-patchees-dont-2-critiques/",
-          "summary": "GLPI reçoit deux patchs de sécurité : 11.0.8 et 10.0.26. 16 vulnérabilités ont été patchées dans GLPI 11, dont 2 critiques : une RCE et un contournement du MFA.",
-          "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
-        },
-        {
           "date": "11 mars 2026",
           "title": "Panorama de la cybermenace 2025 : La France toujours sous la pression des cyber attaquants",
           "source": "ANSSI",
@@ -90,6 +82,14 @@
           "source": "CERT-FR",
           "url": "https://www.cert.ssi.gouv.fr/actualite/CERTFR-2026-ACT-003/",
           "summary": "Le 20 janvier 2026, les détails de la vulnérabilité CVE-2026-24061, affectant *telnetd*, ont été publiés. Cette vulnérabilité permet à un attaquant de contourner l'authentification et de se connecter à une machine vulnérable en tant que...",
+          "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
+        },
+        {
+          "date": "29 juin 2026",
+          "title": "Plugins GLPI : 15 failles patchées, dont une RCE critique !",
+          "source": "IT-Connect",
+          "url": "https://www.it-connect.fr/plugins-glpi-15-failles-patchees-dont-une-rce-critique/",
+          "summary": "GLPI alerte sur plusieurs failles dans ses plugins communautaires, dont une RCE critique (CVSS 8,9) dans GenericObject. Les correctifs sont disponibles.",
           "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
         }
       ]
@@ -126,14 +126,6 @@
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
-          "date": "1 juillet 2026",
-          "title": "Anthropic annonce le retour de Claude Fable 5 et Mythos 5, les États-Unis ont levé l’interdiction",
-          "source": "01net",
-          "url": "https://www.01net.com/actualites/anthropic-annonce-retour-claude-fable-5-mythos-5-etats-unis-leve-interdiction.html",
-          "summary": "Après trois semaines de suspension mondiale, les deux modèles d'intelligence artificielle les plus puissants d'Anthropic, Claude Fable 5 et Claude Mythos 5, font leur retour. Le département américain du Commerce a officiellement levé les...",
-          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
-        },
-        {
           "date": "25 juin 2026",
           "title": "Patch the Planet : OpenAI met son IA au service de l’open source",
           "source": "IT-Connect",
@@ -147,6 +139,14 @@
           "source": "01net",
           "url": "https://www.01net.com/actualites/windows-11-cette-version-du-bloc-notes-ne-pese-que-25-ko-et-saffranchit-de-copilot.html",
           "summary": "Un ancien ingénieur de Microsoft a développé et mis en ligne une version minimaliste du Bloc-notes de Windows. Avec seulement 2,5 Ko, TinyRetroPad ressuscite un Bloc-notes original dénué d’intelligence artificielle inutile.",
+          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
+        },
+        {
+          "date": "1 juillet 2026",
+          "title": "Microsoft préparerait une nouvelle vague de licenciements",
+          "source": "01net",
+          "url": "https://www.01net.com/actualites/microsoft-preparerait-une-nouvelle-vague-de-licenciements.html",
+          "summary": "Microsoft prévoirait une nouvelle vague de licenciements touchant 2,5 % de ses effectifs, soit environ 5.500 employés. Cette décision s'inscrit notamment dans le cadre d'investissements massifs dans l'intelligence artificielle et d'une r...",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         }
       ]
