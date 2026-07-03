@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-02",
+  "updatedAt": "2026-07-03",
   "methodologie": {
     "title": "Méthodologie de veille",
     "summary": "Ma veille technologique repose sur plusieurs sources complémentaires : IT-Connect, ANSSI et le CERT-FR pour la cybersécurité, 01net et Le Monde Informatique pour l'IA. Chaque jour, un script récupère automatiquement les nouvelles publications, calcule un score de pertinence par mots-clés, et sélectionne les 4 meilleures entrées par thème.",
@@ -77,19 +77,19 @@
           "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
         },
         {
+          "date": "3 juillet 2026",
+          "title": "Google Chrome : 382 failles corrigées d’un coup, un record largement porté par l’IA",
+          "source": "IT-Connect",
+          "url": "https://www.it-connect.fr/google-chrome-151-382-failles-corrigees-ia/",
+          "summary": "Google a publié Chrome 151 et a corrigé 382 vulnérabilités, dont 15 critiques, via une seule mise à jour. Un correctif record largement porté par l’IA.",
+          "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
+        },
+        {
           "date": "21 janvier 2026",
           "title": "Vulnérabilité dans telnetd (21 janvier 2026)",
           "source": "CERT-FR",
           "url": "https://www.cert.ssi.gouv.fr/actualite/CERTFR-2026-ACT-003/",
           "summary": "Le 20 janvier 2026, les détails de la vulnérabilité CVE-2026-24061, affectant *telnetd*, ont été publiés. Cette vulnérabilité permet à un attaquant de contourner l'authentification et de se connecter à une machine vulnérable en tant que...",
-          "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
-        },
-        {
-          "date": "29 juin 2026",
-          "title": "Plugins GLPI : 15 failles patchées, dont une RCE critique !",
-          "source": "IT-Connect",
-          "url": "https://www.it-connect.fr/plugins-glpi-15-failles-patchees-dont-une-rce-critique/",
-          "summary": "GLPI alerte sur plusieurs failles dans ses plugins communautaires, dont une RCE critique (CVSS 8,9) dans GenericObject. Les correctifs sont disponibles.",
           "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
         }
       ]
@@ -118,35 +118,35 @@
       ],
       "entries": [
         {
-          "date": "1 juillet 2026",
-          "title": "Anthropic dévoile Claude Sonnet 5, sa nouvelle IA par défaut : voici tout ce qui change",
-          "source": "01net",
-          "url": "https://www.01net.com/actualites/anthropic-devoile-claude-sonnet-5-sa-nouvelle-ia-par-defaut-voici-tout-ce-qui-change.html",
-          "summary": "Anthropic dévoile Claude Sonnet 5, un nouveau modèle d'IA amélioré et moins coûteux. Il rivalise à de nombreux égards avec le puissant Opus 4.8 tout en devenant le choix par défaut des utilisateurs gratuits et des abonnés Pro. Avec cette...",
-          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
-        },
-        {
-          "date": "25 juin 2026",
-          "title": "Patch the Planet : OpenAI met son IA au service de l’open source",
+          "date": "2 juillet 2026",
+          "title": "Ornith 1.0, l’IA open source qui dépasse Claude Opus 4.7",
           "source": "IT-Connect",
-          "url": "https://www.it-connect.fr/patch-the-planet-openai-met-son-ia-au-service-de-lopen-source/",
-          "summary": "OpenAI étend Daybreak : plugin Codex Security, version complète de GPT-5.5-Cyber et l’initiative open source Patch the Planet. Voici ce qu’il faut retenir.",
+          "url": "https://www.it-connect.fr/ornith-1-0-ia-open-source-qui-depasse-claude-opus-4-7/",
+          "summary": "DeepReinforce publie Ornith-1.0, une IA open source pour le coding qui apprend à bâtir son propre harnais. Sa version 397B devance Claude Opus 4.7.",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
-          "date": "1 juillet 2026",
-          "title": "Windows 11 : cette version du Bloc-notes ne pèse que 2,5 Ko et s’affranchit de Copilot",
+          "date": "2 juillet 2026",
+          "title": "Projet Aion : Microsoft a pensé remplacer Windows 11 par Copilot OS",
           "source": "01net",
-          "url": "https://www.01net.com/actualites/windows-11-cette-version-du-bloc-notes-ne-pese-que-25-ko-et-saffranchit-de-copilot.html",
-          "summary": "Un ancien ingénieur de Microsoft a développé et mis en ligne une version minimaliste du Bloc-notes de Windows. Avec seulement 2,5 Ko, TinyRetroPad ressuscite un Bloc-notes original dénué d’intelligence artificielle inutile.",
+          "url": "https://www.01net.com/actualites/projet-aion-microsoft-a-pense-remplacer-windows-11-par-copilot-os.html",
+          "summary": "Une vidéo en fuite révèle que Microsoft a travaillé sur un projet de nouveau système d’exploitation entièrement piloté par l’IA. Basé sur une version simplifiée de Windows, cet OS qui privilégierait des applications Web, s’appuierait pri...",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
-          "date": "1 juillet 2026",
-          "title": "Microsoft préparerait une nouvelle vague de licenciements",
+          "date": "3 juillet 2026",
+          "title": "Le retour de Claude Fable 5 déçoit : les utilisateurs sont frustrés par les restrictions",
           "source": "01net",
-          "url": "https://www.01net.com/actualites/microsoft-preparerait-une-nouvelle-vague-de-licenciements.html",
-          "summary": "Microsoft prévoirait une nouvelle vague de licenciements touchant 2,5 % de ses effectifs, soit environ 5.500 employés. Cette décision s'inscrit notamment dans le cadre d'investissements massifs dans l'intelligence artificielle et d'une r...",
+          "url": "https://www.01net.com/actualites/retour-claude-fable-5-decoit-utilisateurs-sont-frustres-restrictions.html",
+          "summary": "Après trois semaines de suspension, Anthropic a réactivé Claude Fable 5. Quotas rabotés, tarification à l'usage, et garde-fous de sécurité qui font de l'excès de zèle... Ce grand retour tourne au fiasco. Les utilisateurs sont très déçus....",
+          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
+        },
+        {
+          "date": "2 juillet 2026",
+          "title": "Microsoft Teams va intégrer une IA qui écoute vos réunions et explique ce que vous ne comprenez pas",
+          "source": "01net",
+          "url": "https://www.01net.com/actualites/microsoft-teams-va-integrer-une-ia-qui-ecoute-vos-reunions-et-vous-explique-ce-que-vous-ne-comprenez-pas.html",
+          "summary": "Microsoft s’apprête à lancer son Facilitateur dans Teams. Cette nouvelle fonction d’IA aura pour mission d’écouter les échanges pendant une réunion et de les analyser pour identifier vos lacunes et vous proposer automatiquement des expli...",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         }
       ]
