@@ -1,5 +1,5 @@
 window.VEILLE_DATA = {
-  "updatedAt": "2026-07-05",
+  "updatedAt": "2026-07-06",
   "methodologie": {
     "title": "Méthodologie de veille",
     "summary": "Ma veille technologique repose sur plusieurs sources complémentaires : IT-Connect, ANSSI et le CERT-FR pour la cybersécurité, 01net et Le Monde Informatique pour l'IA. Chaque jour, un script récupère automatiquement les nouvelles publications, calcule un score de pertinence par mots-clés, et sélectionne les 4 meilleures entrées par thème.",
@@ -61,14 +61,6 @@ window.VEILLE_DATA = {
       ],
       "entries": [
         {
-          "date": "30 juin 2026",
-          "title": "Exploitarium : un chercheur dévoile des failles zero-day dans 15 logiciels open source",
-          "source": "IT-Connect",
-          "url": "https://www.it-connect.fr/exploitarium-un-chercheur-devoile-des-failles-zero-day-dans-15-logiciels-open-source/",
-          "summary": "Un chercheur anonyme a publié sur GitHub des codes d’exploitation pour des failles zero-day dans 15 logiciels open source. Deux sont déjà exploitées.",
-          "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
-        },
-        {
           "date": "11 mars 2026",
           "title": "Panorama de la cybermenace 2025 : La France toujours sous la pression des cyber attaquants",
           "source": "ANSSI",
@@ -90,6 +82,14 @@ window.VEILLE_DATA = {
           "source": "CERT-FR",
           "url": "https://www.cert.ssi.gouv.fr/actualite/CERTFR-2026-ACT-003/",
           "summary": "Le 20 janvier 2026, les détails de la vulnérabilité CVE-2026-24061, affectant *telnetd*, ont été publiés. Cette vulnérabilité permet à un attaquant de contourner l'authentification et de se connecter à une machine vulnérable en tant que...",
+          "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
+        },
+        {
+          "date": "3 juillet 2026",
+          "title": "OpenVPN : 7 failles corrigées, risque de crash du serveur",
+          "source": "IT-Connect",
+          "url": "https://www.it-connect.fr/openvpn-7-failles-corrigees-risque-de-crash-du-serveur/",
+          "summary": "OpenVPN 2.7.5 corrige sept vulnérabilités : use-after-free, fuites mémoire et débordements de tampon, dont plusieurs peuvent faire planter un serveur VPN.",
           "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
         }
       ]
@@ -134,19 +134,11 @@ window.VEILLE_DATA = {
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
-          "date": "3 juillet 2026",
-          "title": "Le retour de Claude Fable 5 déçoit : les utilisateurs sont frustrés par les restrictions",
-          "source": "01net",
-          "url": "https://www.01net.com/actualites/retour-claude-fable-5-decoit-utilisateurs-sont-frustres-restrictions.html",
-          "summary": "Après trois semaines de suspension, Anthropic a réactivé Claude Fable 5. Quotas rabotés, tarification à l'usage, et garde-fous de sécurité qui font de l'excès de zèle... Ce grand retour tourne au fiasco. Les utilisateurs sont très déçus....",
-          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
-        },
-        {
-          "date": "3 juillet 2026",
-          "title": "J’ai acheté mes lunettes huit fois moins cher sur BlackSheep : je ne m’attendais pas à ce résultat",
-          "source": "01net",
-          "url": "https://www.01net.com/tests/jai-achete-mes-lunettes-huit-fois-moins-cher-sur-blacksheep-je-ne-mattendais-pas-a-ce-resultat.html",
-          "summary": "Peut-on vraiment faire confiance aux lunettes achetées en ligne quand on porte une correction prononcée ? J'ai commandé sur BlackSheep et soumis les verres à une ophtalmologue pour le savoir.",
+          "date": "1 juillet 2026",
+          "title": "Claude Fable 5 est de retour, et Anthropic lance Sonnet 5 dans la foulée",
+          "source": "IT-Connect",
+          "url": "https://www.it-connect.fr/claude-fable-5-est-de-retour-et-anthropic-lance-sonnet-5-dans-la-foulee/",
+          "summary": "Anthropic rétablit l’accès à Claude Fable 5 ce mercredi 1er juillet 2026 et lance Sonnet 5, presque aussi performant qu’Opus 4.8 mais moins cher.",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         }
       ]
