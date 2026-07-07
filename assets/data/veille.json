@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-06",
+  "updatedAt": "2026-07-07",
   "methodologie": {
     "title": "Méthodologie de veille",
     "summary": "Ma veille technologique repose sur plusieurs sources complémentaires : IT-Connect, ANSSI et le CERT-FR pour la cybersécurité, 01net et Le Monde Informatique pour l'IA. Chaque jour, un script récupère automatiquement les nouvelles publications, calcule un score de pertinence par mots-clés, et sélectionne les 4 meilleures entrées par thème.",
@@ -126,19 +126,19 @@
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
+          "date": "7 juillet 2026",
+          "title": "Un « accès conscient » : Anthropic fait une révélation étonnante sur Claude",
+          "source": "01net",
+          "url": "https://www.01net.com/actualites/acces-conscient-anthropic-revelation-etonnante-claude.html",
+          "summary": "Anthropic annonce avoir découvert une structure inconnue à l'intérieur de Claude. Cette architecture, très similaire à celle de l'esprit humain, permet au modèle d'IA de raisonner. Elle n'a jamais été implémentée par les chercheurs d'Ant...",
+          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
+        },
+        {
           "date": "2 juillet 2026",
           "title": "Ornith 1.0, l’IA open source qui dépasse Claude Opus 4.7",
           "source": "IT-Connect",
           "url": "https://www.it-connect.fr/ornith-1-0-ia-open-source-qui-depasse-claude-opus-4-7/",
           "summary": "DeepReinforce publie Ornith-1.0, une IA open source pour le coding qui apprend à bâtir son propre harnais. Sa version 397B devance Claude Opus 4.7.",
-          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
-        },
-        {
-          "date": "1 juillet 2026",
-          "title": "Claude Fable 5 est de retour, et Anthropic lance Sonnet 5 dans la foulée",
-          "source": "IT-Connect",
-          "url": "https://www.it-connect.fr/claude-fable-5-est-de-retour-et-anthropic-lance-sonnet-5-dans-la-foulee/",
-          "summary": "Anthropic rétablit l’accès à Claude Fable 5 ce mercredi 1er juillet 2026 et lance Sonnet 5, presque aussi performant qu’Opus 4.8 mais moins cher.",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         }
       ]
