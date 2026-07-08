@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-07",
+  "updatedAt": "2026-07-08",
   "methodologie": {
     "title": "Méthodologie de veille",
     "summary": "Ma veille technologique repose sur plusieurs sources complémentaires : IT-Connect, ANSSI et le CERT-FR pour la cybersécurité, 01net et Le Monde Informatique pour l'IA. Chaque jour, un script récupère automatiquement les nouvelles publications, calcule un score de pertinence par mots-clés, et sélectionne les 4 meilleures entrées par thème.",
@@ -118,6 +118,14 @@
       ],
       "entries": [
         {
+          "date": "8 juillet 2026",
+          "title": "GPT-5.6 : OpenAI obtient le feu vert de Donald Trump, le nouveau ChatGPT arrive ce jeudi",
+          "source": "01net",
+          "url": "https://www.01net.com/actualites/gpt-5-6-openai-obtient-feu-vert-donald-trump-nouveau-chatgpt-arrive-jeudi.html",
+          "summary": "OpenAI annonce le déploiement mondial de sa nouvelle gamme d'IA. Dès ce jeudi, les trois modèles GPT-5.6 seront déployés dans le monde entier. La start-up a fini par obtenir l'accord de l'administration Trump, qui s'inquiétait pour la sé...",
+          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
+        },
+        {
           "date": "3 juillet 2026",
           "title": "Project Aion : le Windows 100 % IA que Microsoft a caché",
           "source": "IT-Connect",
@@ -134,11 +142,11 @@
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
-          "date": "2 juillet 2026",
-          "title": "Ornith 1.0, l’IA open source qui dépasse Claude Opus 4.7",
-          "source": "IT-Connect",
-          "url": "https://www.it-connect.fr/ornith-1-0-ia-open-source-qui-depasse-claude-opus-4-7/",
-          "summary": "DeepReinforce publie Ornith-1.0, une IA open source pour le coding qui apprend à bâtir son propre harnais. Sa version 397B devance Claude Opus 4.7.",
+          "date": "7 juillet 2026",
+          "title": "Ce ransomware IA peut mener une cyberattaque sans l’aide d’un être humain… enfin presque",
+          "source": "01net",
+          "url": "https://www.01net.com/actualites/ce-ransomware-ia-peut-mener-une-cyberattaque-sans-laide-dun-etre-humain-enfin-presque.html",
+          "summary": "La première cyberattaque par ransomware entièrement pilotée par un agent d'intelligence artificielle vient d'être découverte. L'offensive se distingue par un niveau élevé d'automatisation, mais elle a nécessité le travail d'un pirate de...",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         }
       ]
