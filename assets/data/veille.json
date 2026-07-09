@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-08",
+  "updatedAt": "2026-07-09",
   "methodologie": {
     "title": "Méthodologie de veille",
     "summary": "Ma veille technologique repose sur plusieurs sources complémentaires : IT-Connect, ANSSI et le CERT-FR pour la cybersécurité, 01net et Le Monde Informatique pour l'IA. Chaque jour, un script récupère automatiquement les nouvelles publications, calcule un score de pertinence par mots-clés, et sélectionne les 4 meilleures entrées par thème.",
@@ -69,14 +69,6 @@
           "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
         },
         {
-          "date": "3 juillet 2026",
-          "title": "Google Chrome : 382 failles corrigées d’un coup, un record largement porté par l’IA",
-          "source": "IT-Connect",
-          "url": "https://www.it-connect.fr/google-chrome-151-382-failles-corrigees-ia/",
-          "summary": "Google a publié Chrome 151 et a corrigé 382 vulnérabilités, dont 15 critiques, via une seule mise à jour. Un correctif record largement porté par l’IA.",
-          "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
-        },
-        {
           "date": "21 janvier 2026",
           "title": "Vulnérabilité dans telnetd (21 janvier 2026)",
           "source": "CERT-FR",
@@ -85,11 +77,19 @@
           "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
         },
         {
-          "date": "3 juillet 2026",
-          "title": "OpenVPN : 7 failles corrigées, risque de crash du serveur",
+          "date": "9 juillet 2026",
+          "title": "RoguePlanet : Microsoft corrige la zero-day qui donnait les privilèges SYSTEM",
           "source": "IT-Connect",
-          "url": "https://www.it-connect.fr/openvpn-7-failles-corrigees-risque-de-crash-du-serveur/",
-          "summary": "OpenVPN 2.7.5 corrige sept vulnérabilités : use-after-free, fuites mémoire et débordements de tampon, dont plusieurs peuvent faire planter un serveur VPN.",
+          "url": "https://www.it-connect.fr/microsoft-corrige-faille-zero-day-rogueplanet-defender/",
+          "summary": "Microsoft a corrigé RoguePlanet (CVE-2026-50656), la zero-day de Defender qui donnait les privilèges SYSTEM sur Windows 10 et 11. Voici comment se protéger.",
+          "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
+        },
+        {
+          "date": "2 avril 2026",
+          "title": "Expiration de certificats Secure Boot en juin 2026 (02 avril 2026)",
+          "source": "CERT-FR",
+          "url": "https://www.cert.ssi.gouv.fr/actualite/CERTFR-2026-ACT-014/",
+          "summary": "Le démarrage sécurisé (UEFI Secure Boot) est une fonctionnalité de sécurité disponible sur les ordinateurs PC clients et serveurs depuis 2011. Son rôle est de sécuriser la séquence de démarrage de l’appareil, en vérifiant l’intégrité du...",
           "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
         }
       ]
@@ -119,6 +119,14 @@
       "entries": [
         {
           "date": "8 juillet 2026",
+          "title": "La mise à jour de ChatGPT qu’on attendait tous : l’IA parle désormais comme un être humain, c’est bluffant",
+          "source": "01net",
+          "url": "https://www.01net.com/actualites/mise-jour-chatgpt-attendait-ia-parle-desormais-comme-humain-bluffant.html",
+          "summary": "OpenAI dévoile GPT-Live-1 et GPT-Live-1 mini, deux nouveaux modèles destinés à améliorer les échanges vocaux avec ChatGPT. Selon la start-up, les modèles doivent enfin rapprocher les conversations avec l'IA d'un échange naturel avec un h...",
+          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
+        },
+        {
+          "date": "8 juillet 2026",
           "title": "GPT-5.6 : OpenAI obtient le feu vert de Donald Trump, le nouveau ChatGPT arrive ce jeudi",
           "source": "01net",
           "url": "https://www.01net.com/actualites/gpt-5-6-openai-obtient-feu-vert-donald-trump-nouveau-chatgpt-arrive-jeudi.html",
@@ -126,27 +134,19 @@
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
-          "date": "3 juillet 2026",
-          "title": "Project Aion : le Windows 100 % IA que Microsoft a caché",
-          "source": "IT-Connect",
-          "url": "https://www.it-connect.fr/project-aion-os-ia-microsoft/",
-          "summary": "La démo interne de Project Aion a fuité : un OS agentique de Microsoft bâti sur Edge, où Copilot remplace le menu Démarrer et l’IA pilote tout.",
+          "date": "8 juillet 2026",
+          "title": "8 400 comptes bannis sans raison : Discord face aux dérives de la modération IA",
+          "source": "01net",
+          "url": "https://www.01net.com/actualites/8-400-comptes-bannis-sans-raison-discord-confronte-derives-moderation-ia.html",
+          "summary": "En l’espace de deux mois, 8 400 comptes Discord ont été suspendus sans raison. Le système de modération par intelligence artificielle avait identifié des éléments inoffensifs comme des contenus constitutifs de délits.",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
-          "date": "7 juillet 2026",
-          "title": "Un « accès conscient » : Anthropic fait une révélation étonnante sur Claude",
+          "date": "9 juillet 2026",
+          "title": "Mistral se lance dans la robotique avec une IA qui apprend à se déplacer toute seule",
           "source": "01net",
-          "url": "https://www.01net.com/actualites/acces-conscient-anthropic-revelation-etonnante-claude.html",
-          "summary": "Anthropic annonce avoir découvert une structure inconnue à l'intérieur de Claude. Cette architecture, très similaire à celle de l'esprit humain, permet au modèle d'IA de raisonner. Elle n'a jamais été implémentée par les chercheurs d'Ant...",
-          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
-        },
-        {
-          "date": "7 juillet 2026",
-          "title": "Ce ransomware IA peut mener une cyberattaque sans l’aide d’un être humain… enfin presque",
-          "source": "01net",
-          "url": "https://www.01net.com/actualites/ce-ransomware-ia-peut-mener-une-cyberattaque-sans-laide-dun-etre-humain-enfin-presque.html",
-          "summary": "La première cyberattaque par ransomware entièrement pilotée par un agent d'intelligence artificielle vient d'être découverte. L'offensive se distingue par un niveau élevé d'automatisation, mais elle a nécessité le travail d'un pirate de...",
+          "url": "https://www.01net.com/actualites/mistral-se-lance-robotique-ia-qui-apprend-deplacer-toute-seule.html",
+          "summary": "Mistral se lance dans la robotique avec le modèle Robostral Navigate. Celui-ci peut permettre à des robots de se déplacer de façon autonome dans des environnements complexes. Il peut par ailleurs apprendre tout seul de ses erreurs.",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         }
       ]
