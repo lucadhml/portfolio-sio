@@ -1,5 +1,5 @@
 window.VEILLE_DATA = {
-  "updatedAt": "2026-07-09",
+  "updatedAt": "2026-07-10",
   "methodologie": {
     "title": "Méthodologie de veille",
     "summary": "Ma veille technologique repose sur plusieurs sources complémentaires : IT-Connect, ANSSI et le CERT-FR pour la cybersécurité, 01net et Le Monde Informatique pour l'IA. Chaque jour, un script récupère automatiquement les nouvelles publications, calcule un score de pertinence par mots-clés, et sélectionne les 4 meilleures entrées par thème.",
@@ -77,19 +77,19 @@ window.VEILLE_DATA = {
           "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
         },
         {
+          "date": "10 juillet 2026",
+          "title": "Microsoft prévient : l’IA va faire gonfler vos Patch Tuesday",
+          "source": "IT-Connect",
+          "url": "https://www.it-connect.fr/microsoft-ia-plus-de-mises-a-jour-securite-windows/",
+          "summary": "Microsoft prévient que le volume de correctifs par Patch Tuesday va augmenter : son système MDASH découvre désormais les failles de Windows à l’aide de l’IA.",
+          "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
+        },
+        {
           "date": "9 juillet 2026",
           "title": "RoguePlanet : Microsoft corrige la zero-day qui donnait les privilèges SYSTEM",
           "source": "IT-Connect",
           "url": "https://www.it-connect.fr/microsoft-corrige-faille-zero-day-rogueplanet-defender/",
           "summary": "Microsoft a corrigé RoguePlanet (CVE-2026-50656), la zero-day de Defender qui donnait les privilèges SYSTEM sur Windows 10 et 11. Voici comment se protéger.",
-          "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
-        },
-        {
-          "date": "2 avril 2026",
-          "title": "Expiration de certificats Secure Boot en juin 2026 (02 avril 2026)",
-          "source": "CERT-FR",
-          "url": "https://www.cert.ssi.gouv.fr/actualite/CERTFR-2026-ACT-014/",
-          "summary": "Le démarrage sécurisé (UEFI Secure Boot) est une fonctionnalité de sécurité disponible sur les ordinateurs PC clients et serveurs depuis 2011. Son rôle est de sécuriser la séquence de démarrage de l’appareil, en vérifiant l’intégrité du...",
           "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
         }
       ]
@@ -118,27 +118,19 @@ window.VEILLE_DATA = {
       ],
       "entries": [
         {
-          "date": "8 juillet 2026",
-          "title": "La mise à jour de ChatGPT qu’on attendait tous : l’IA parle désormais comme un être humain, c’est bluffant",
+          "date": "10 juillet 2026",
+          "title": "OpenAI lance ChatGPT Work, un agent IA qui va travailler à votre place",
           "source": "01net",
-          "url": "https://www.01net.com/actualites/mise-jour-chatgpt-attendait-ia-parle-desormais-comme-humain-bluffant.html",
-          "summary": "OpenAI dévoile GPT-Live-1 et GPT-Live-1 mini, deux nouveaux modèles destinés à améliorer les échanges vocaux avec ChatGPT. Selon la start-up, les modèles doivent enfin rapprocher les conversations avec l'IA d'un échange naturel avec un h...",
+          "url": "https://www.01net.com/actualites/openai-lance-chatgpt-work-agent-ia-qui-travailler-votre-place.html",
+          "summary": "OpenAI a dévoilé ChatGPT Word. Basé sur son dernier modèle, cet agent IA peut accéder à vos applications et fichiers pour créer des documents, des diapositives et effectuer des tâches répétitives.",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
-          "date": "8 juillet 2026",
-          "title": "GPT-5.6 : OpenAI obtient le feu vert de Donald Trump, le nouveau ChatGPT arrive ce jeudi",
+          "date": "9 juillet 2026",
+          "title": "La pub va bientôt envahir ChatGPT en France",
           "source": "01net",
-          "url": "https://www.01net.com/actualites/gpt-5-6-openai-obtient-feu-vert-donald-trump-nouveau-chatgpt-arrive-jeudi.html",
-          "summary": "OpenAI annonce le déploiement mondial de sa nouvelle gamme d'IA. Dès ce jeudi, les trois modèles GPT-5.6 seront déployés dans le monde entier. La start-up a fini par obtenir l'accord de l'administration Trump, qui s'inquiétait pour la sé...",
-          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
-        },
-        {
-          "date": "8 juillet 2026",
-          "title": "8 400 comptes bannis sans raison : Discord face aux dérives de la modération IA",
-          "source": "01net",
-          "url": "https://www.01net.com/actualites/8-400-comptes-bannis-sans-raison-discord-confronte-derives-moderation-ia.html",
-          "summary": "En l’espace de deux mois, 8 400 comptes Discord ont été suspendus sans raison. Le système de modération par intelligence artificielle avait identifié des éléments inoffensifs comme des contenus constitutifs de délits.",
+          "url": "https://www.01net.com/actualites/chatgpt-pub-arrive-tres-bientot-france.html",
+          "summary": "ChatGPT prépare son arrivée publicitaire en France, et payer un abonnement ne protégera pas tout le monde. La méthode est déjà rodée : déploiement par paliers, et des utilisateurs qui ferment de moins en moins les pubs.",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
@@ -147,6 +139,14 @@ window.VEILLE_DATA = {
           "source": "01net",
           "url": "https://www.01net.com/actualites/mistral-se-lance-robotique-ia-qui-apprend-deplacer-toute-seule.html",
           "summary": "Mistral se lance dans la robotique avec le modèle Robostral Navigate. Celui-ci peut permettre à des robots de se déplacer de façon autonome dans des environnements complexes. Il peut par ailleurs apprendre tout seul de ses erreurs.",
+          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
+        },
+        {
+          "date": "9 juillet 2026",
+          "title": "Google Photos introduit un outil de montage vidéo piloté par l’IA de Gemini Omni",
+          "source": "01net",
+          "url": "https://www.01net.com/actualites/google-photos-introduit-un-outil-de-montage-video-pilote-par-lia-de-gemini-omni.html",
+          "summary": "Google lance une nouvelle fonction de montage vidéo animé par l’IA dans Google Photos. Propulsé par Gemini Omni, Video Remix, c’est son nom, est en cours de déploiement dans plusieurs pays, mais il faudra encore attendre pour y accéder d...",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         }
       ]
