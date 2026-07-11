@@ -1,5 +1,5 @@
 window.VEILLE_DATA = {
-  "updatedAt": "2026-07-10",
+  "updatedAt": "2026-07-11",
   "methodologie": {
     "title": "Méthodologie de veille",
     "summary": "Ma veille technologique repose sur plusieurs sources complémentaires : IT-Connect, ANSSI et le CERT-FR pour la cybersécurité, 01net et Le Monde Informatique pour l'IA. Chaque jour, un script récupère automatiquement les nouvelles publications, calcule un score de pertinence par mots-clés, et sélectionne les 4 meilleures entrées par thème.",
@@ -126,27 +126,27 @@ window.VEILLE_DATA = {
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
+          "date": "10 juillet 2026",
+          "title": "Accro à Claude ? Anthropic lance Reflect, l’outil qui analyse à quel point vous êtes dépendant de l’IA",
+          "source": "01net",
+          "url": "https://www.01net.com/actualites/anthropic-lance-reflect-loutil-qui-analyse-dependance-claude.html",
+          "summary": "Anthropic lance Reflect, une fonctionnalité qui analyse votre utilisation de Claude afin de vous aider à mieux comprendre la place qu’occupe l’IA dans votre quotidien. Reflect propose un tableau de bord détaillant vos habitudes d’utilisa...",
+          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
+        },
+        {
+          "date": "11 juillet 2026",
+          "title": "Apple dépose plainte contre OpenAI : le roi de l’IA est accusé d’espionnage et de vol de secrets",
+          "source": "01net",
+          "url": "https://www.01net.com/actualites/apple-depose-plainte-contre-openai-le-roi-de-lia-est-accuse-espionnage-vol-secrets.html",
+          "summary": "Apple a déposé plainte contre OpenAI. Deux des anciens salariés du groupe californien, désormais employés par OpenAI, sont également visés. Apple les accuse d'avoir détourné des secrets d'affaires au profit de leur nouvel employeur.",
+          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
+        },
+        {
           "date": "9 juillet 2026",
           "title": "La pub va bientôt envahir ChatGPT en France",
           "source": "01net",
           "url": "https://www.01net.com/actualites/chatgpt-pub-arrive-tres-bientot-france.html",
           "summary": "ChatGPT prépare son arrivée publicitaire en France, et payer un abonnement ne protégera pas tout le monde. La méthode est déjà rodée : déploiement par paliers, et des utilisateurs qui ferment de moins en moins les pubs.",
-          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
-        },
-        {
-          "date": "9 juillet 2026",
-          "title": "Mistral se lance dans la robotique avec une IA qui apprend à se déplacer toute seule",
-          "source": "01net",
-          "url": "https://www.01net.com/actualites/mistral-se-lance-robotique-ia-qui-apprend-deplacer-toute-seule.html",
-          "summary": "Mistral se lance dans la robotique avec le modèle Robostral Navigate. Celui-ci peut permettre à des robots de se déplacer de façon autonome dans des environnements complexes. Il peut par ailleurs apprendre tout seul de ses erreurs.",
-          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
-        },
-        {
-          "date": "9 juillet 2026",
-          "title": "Google Photos introduit un outil de montage vidéo piloté par l’IA de Gemini Omni",
-          "source": "01net",
-          "url": "https://www.01net.com/actualites/google-photos-introduit-un-outil-de-montage-video-pilote-par-lia-de-gemini-omni.html",
-          "summary": "Google lance une nouvelle fonction de montage vidéo animé par l’IA dans Google Photos. Propulsé par Gemini Omni, Video Remix, c’est son nom, est en cours de déploiement dans plusieurs pays, mais il faudra encore attendre pour y accéder d...",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         }
       ]
