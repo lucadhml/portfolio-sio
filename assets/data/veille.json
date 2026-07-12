@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-11",
+  "updatedAt": "2026-07-12",
   "methodologie": {
     "title": "Méthodologie de veille",
     "summary": "Ma veille technologique repose sur plusieurs sources complémentaires : IT-Connect, ANSSI et le CERT-FR pour la cybersécurité, 01net et Le Monde Informatique pour l'IA. Chaque jour, un script récupère automatiquement les nouvelles publications, calcule un score de pertinence par mots-clés, et sélectionne les 4 meilleures entrées par thème.",
@@ -134,19 +134,19 @@
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
+          "date": "12 juillet 2026",
+          "title": "Vos photos de vacances sont un danger : avec l’IA, les criminels peuvent vous localiser pour vous piéger",
+          "source": "01net",
+          "url": "https://www.01net.com/actualites/photos-vacances-danger-ia-criminels-peuvent-deviner-pieger.html",
+          "summary": "Une simple photo de vacances est susceptible de vous mettre en danger. Avec l'IA générative, les cybercriminels peuvent facilement deviner où vous êtes parti en vacances. Sur base des informations collectées, ils peuvent ensuite mettre a...",
+          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
+        },
+        {
           "date": "11 juillet 2026",
           "title": "Apple dépose plainte contre OpenAI : le roi de l’IA est accusé d’espionnage et de vol de secrets",
           "source": "01net",
           "url": "https://www.01net.com/actualites/apple-depose-plainte-contre-openai-le-roi-de-lia-est-accuse-espionnage-vol-secrets.html",
           "summary": "Apple a déposé plainte contre OpenAI. Deux des anciens salariés du groupe californien, désormais employés par OpenAI, sont également visés. Apple les accuse d'avoir détourné des secrets d'affaires au profit de leur nouvel employeur.",
-          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
-        },
-        {
-          "date": "9 juillet 2026",
-          "title": "La pub va bientôt envahir ChatGPT en France",
-          "source": "01net",
-          "url": "https://www.01net.com/actualites/chatgpt-pub-arrive-tres-bientot-france.html",
-          "summary": "ChatGPT prépare son arrivée publicitaire en France, et payer un abonnement ne protégera pas tout le monde. La méthode est déjà rodée : déploiement par paliers, et des utilisateurs qui ferment de moins en moins les pubs.",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         }
       ]
