@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-12",
+  "updatedAt": "2026-07-13",
   "methodologie": {
     "title": "Méthodologie de veille",
     "summary": "Ma veille technologique repose sur plusieurs sources complémentaires : IT-Connect, ANSSI et le CERT-FR pour la cybersécurité, 01net et Le Monde Informatique pour l'IA. Chaque jour, un script récupère automatiquement les nouvelles publications, calcule un score de pertinence par mots-clés, et sélectionne les 4 meilleures entrées par thème.",
@@ -118,22 +118,6 @@
       ],
       "entries": [
         {
-          "date": "10 juillet 2026",
-          "title": "OpenAI lance ChatGPT Work, un agent IA qui va travailler à votre place",
-          "source": "01net",
-          "url": "https://www.01net.com/actualites/openai-lance-chatgpt-work-agent-ia-qui-travailler-votre-place.html",
-          "summary": "OpenAI a dévoilé ChatGPT Word. Basé sur son dernier modèle, cet agent IA peut accéder à vos applications et fichiers pour créer des documents, des diapositives et effectuer des tâches répétitives.",
-          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
-        },
-        {
-          "date": "10 juillet 2026",
-          "title": "Accro à Claude ? Anthropic lance Reflect, l’outil qui analyse à quel point vous êtes dépendant de l’IA",
-          "source": "01net",
-          "url": "https://www.01net.com/actualites/anthropic-lance-reflect-loutil-qui-analyse-dependance-claude.html",
-          "summary": "Anthropic lance Reflect, une fonctionnalité qui analyse votre utilisation de Claude afin de vous aider à mieux comprendre la place qu’occupe l’IA dans votre quotidien. Reflect propose un tableau de bord détaillant vos habitudes d’utilisa...",
-          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
-        },
-        {
           "date": "12 juillet 2026",
           "title": "Vos photos de vacances sont un danger : avec l’IA, les criminels peuvent vous localiser pour vous piéger",
           "source": "01net",
@@ -143,10 +127,26 @@
         },
         {
           "date": "11 juillet 2026",
-          "title": "Apple dépose plainte contre OpenAI : le roi de l’IA est accusé d’espionnage et de vol de secrets",
+          "title": "Apple accuse OpenAI d’espionnage industriel, le roi de l’IA dément",
           "source": "01net",
           "url": "https://www.01net.com/actualites/apple-depose-plainte-contre-openai-le-roi-de-lia-est-accuse-espionnage-vol-secrets.html",
-          "summary": "Apple a déposé plainte contre OpenAI. Deux des anciens salariés du groupe californien, désormais employés par OpenAI, sont également visés. Apple les accuse d'avoir détourné des secrets d'affaires au profit de leur nouvel employeur.",
+          "summary": "Apple a déposé plainte contre OpenAI. Deux des anciens salariés du groupe californien, désormais employés par la start-up de Sam Altman, sont également visés par l'action en justice. Apple les accuse d'avoir détourné des secrets d'affair...",
+          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
+        },
+        {
+          "date": "13 juillet 2026",
+          "title": "Instagram : Meta n’autorisera finalement pas tout le monde à utiliser vos contenus publics avec l’IA",
+          "source": "01net",
+          "url": "https://www.01net.com/actualites/instagram-meta-nautorisera-finalement-pas-tout-le-monde-a-utiliser-vos-contenus-publics-avec-lia.html",
+          "summary": "Le déploiement du nouveau modèle de génération d’images de Meta AI devait permettre à tout le monde d’utiliser les photos et vidéos des comptes Instagram publics pour les modifier avec l’IA. Mais devant le tollé créé par cette nouvelle f...",
+          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
+        },
+        {
+          "date": "13 juillet 2026",
+          "title": "Test Google Home Speaker avec Gemini : une révolution vocale au son décevant",
+          "source": "01net",
+          "url": "https://www.01net.com/tests/test-google-home-speaker-avis.html",
+          "summary": "Après six ans d'absence, Google relance enfin sa gamme d'enceintes connectées avec la Home Speaker, vendue 119,99 euros. Une enceinte pensée avant tout pour accueillir Gemini, le nouvel assistant vocal maison, quitte à reléguer la qualit...",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         }
       ]
