@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-13",
+  "updatedAt": "2026-07-14",
   "methodologie": {
     "title": "Méthodologie de veille",
     "summary": "Ma veille technologique repose sur plusieurs sources complémentaires : IT-Connect, ANSSI et le CERT-FR pour la cybersécurité, 01net et Le Monde Informatique pour l'IA. Chaque jour, un script récupère automatiquement les nouvelles publications, calcule un score de pertinence par mots-clés, et sélectionne les 4 meilleures entrées par thème.",
@@ -85,11 +85,11 @@
           "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
         },
         {
-          "date": "9 juillet 2026",
-          "title": "RoguePlanet : Microsoft corrige la zero-day qui donnait les privilèges SYSTEM",
-          "source": "IT-Connect",
-          "url": "https://www.it-connect.fr/microsoft-corrige-faille-zero-day-rogueplanet-defender/",
-          "summary": "Microsoft a corrigé RoguePlanet (CVE-2026-50656), la zero-day de Defender qui donnait les privilèges SYSTEM sur Windows 10 et 11. Voici comment se protéger.",
+          "date": "2 avril 2026",
+          "title": "Expiration de certificats Secure Boot en juin 2026 (02 avril 2026)",
+          "source": "CERT-FR",
+          "url": "https://www.cert.ssi.gouv.fr/actualite/CERTFR-2026-ACT-014/",
+          "summary": "Le démarrage sécurisé (UEFI Secure Boot) est une fonctionnalité de sécurité disponible sur les ordinateurs PC clients et serveurs depuis 2011. Son rôle est de sécuriser la séquence de démarrage de l’appareil, en vérifiant l’intégrité du...",
           "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
         }
       ]
@@ -118,19 +118,19 @@
       ],
       "entries": [
         {
-          "date": "12 juillet 2026",
-          "title": "Vos photos de vacances sont un danger : avec l’IA, les criminels peuvent vous localiser pour vous piéger",
+          "date": "13 juillet 2026",
+          "title": "WhatsApp a viré ChatGPT en janvier, l’Europe vient de l’y remettre de force",
           "source": "01net",
-          "url": "https://www.01net.com/actualites/photos-vacances-danger-ia-criminels-peuvent-deviner-pieger.html",
-          "summary": "Une simple photo de vacances est susceptible de vous mettre en danger. Avec l'IA générative, les cybercriminels peuvent facilement deviner où vous êtes parti en vacances. Sur base des informations collectées, ils peuvent ensuite mettre a...",
+          "url": "https://www.01net.com/actualites/whatsapp-a-vire-chatgpt-en-janvier-leurope-vient-de-ly-remettre-de-force.html",
+          "summary": "OpenAI annonce le retour de ChatGPT sur WhatsApp dans l'Union européenne, en Suisse, en Islande, au Liechtenstein et en Norvège. Une annonce qui fait suite à une décision antitrust de la Commission européenne contre Meta.",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
-          "date": "11 juillet 2026",
-          "title": "Apple accuse OpenAI d’espionnage industriel, le roi de l’IA dément",
+          "date": "13 juillet 2026",
+          "title": "Waze déploie une mise à jour majeure avec Gemini : cette option va enfin le rendre moins agaçant",
           "source": "01net",
-          "url": "https://www.01net.com/actualites/apple-depose-plainte-contre-openai-le-roi-de-lia-est-accuse-espionnage-vol-secrets.html",
-          "summary": "Apple a déposé plainte contre OpenAI. Deux des anciens salariés du groupe californien, désormais employés par la start-up de Sam Altman, sont également visés par l'action en justice. Apple les accuse d'avoir détourné des secrets d'affair...",
+          "url": "https://www.01net.com/actualites/waze-deploie-une-mise-a-jour-majeure-avec-gemini-cette-option-va-enfin-le-rendre-moins-agacant.html",
+          "summary": "Google injecte son IA Gemini au cœur de Waze. Au programme de cette mise à jour majeure de juillet 2026 : des signalements vocaux plus fluides, un mode « Moins bavard » et un vrai profil dédié aux motos.",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
@@ -143,10 +143,10 @@
         },
         {
           "date": "13 juillet 2026",
-          "title": "Test Google Home Speaker avec Gemini : une révolution vocale au son décevant",
-          "source": "01net",
-          "url": "https://www.01net.com/tests/test-google-home-speaker-avis.html",
-          "summary": "Après six ans d'absence, Google relance enfin sa gamme d'enceintes connectées avec la Home Speaker, vendue 119,99 euros. Une enceinte pensée avant tout pour accueillir Gemini, le nouvel assistant vocal maison, quitte à reléguer la qualit...",
+          "title": "Test Geekom A9 Max 2026 Edition : un mini PC haut de gamme",
+          "source": "IT-Connect",
+          "url": "https://www.it-connect.fr/test-geekom-a9-max-2026-edition/",
+          "summary": "Test du Geekom A9 Max 2026 Edition : Ryzen AI 9 HX 470, NPU 55 TOPS, Radeon 890M. Ce qui change face à la génération 2025 et ce qu’il vaut pour l’IA locale.",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         }
       ]
