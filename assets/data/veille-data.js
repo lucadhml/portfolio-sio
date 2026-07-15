@@ -1,5 +1,5 @@
 window.VEILLE_DATA = {
-  "updatedAt": "2026-07-14",
+  "updatedAt": "2026-07-15",
   "methodologie": {
     "title": "Méthodologie de veille",
     "summary": "Ma veille technologique repose sur plusieurs sources complémentaires : IT-Connect, ANSSI et le CERT-FR pour la cybersécurité, 01net et Le Monde Informatique pour l'IA. Chaque jour, un script récupère automatiquement les nouvelles publications, calcule un score de pertinence par mots-clés, et sélectionne les 4 meilleures entrées par thème.",
@@ -61,6 +61,14 @@ window.VEILLE_DATA = {
       ],
       "entries": [
         {
+          "date": "15 juillet 2026",
+          "title": "Microsoft dévoile son plus gros Patch Tuesday de l’histoire avec 570 failles et 3 zero-day",
+          "source": "IT-Connect",
+          "url": "https://www.it-connect.fr/patch-tuesday-juillet-2026-570-failles-de-securite-corrigees-dont-3-zero-day/",
+          "summary": "Microsoft signe le plus gros lot de correctifs de son histoire, avec trois failles zero-day dont deux exploitées, et au total 570 vulnérabilités patchées.",
+          "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
+        },
+        {
           "date": "11 mars 2026",
           "title": "Panorama de la cybermenace 2025 : La France toujours sous la pression des cyber attaquants",
           "source": "ANSSI",
@@ -74,14 +82,6 @@ window.VEILLE_DATA = {
           "source": "CERT-FR",
           "url": "https://www.cert.ssi.gouv.fr/actualite/CERTFR-2026-ACT-003/",
           "summary": "Le 20 janvier 2026, les détails de la vulnérabilité CVE-2026-24061, affectant *telnetd*, ont été publiés. Cette vulnérabilité permet à un attaquant de contourner l'authentification et de se connecter à une machine vulnérable en tant que...",
-          "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
-        },
-        {
-          "date": "10 juillet 2026",
-          "title": "Microsoft prévient : l’IA va faire gonfler vos Patch Tuesday",
-          "source": "IT-Connect",
-          "url": "https://www.it-connect.fr/microsoft-ia-plus-de-mises-a-jour-securite-windows/",
-          "summary": "Microsoft prévient que le volume de correctifs par Patch Tuesday va augmenter : son système MDASH découvre désormais les failles de Windows à l’aide de l’IA.",
           "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
         },
         {
@@ -127,26 +127,26 @@ window.VEILLE_DATA = {
         },
         {
           "date": "13 juillet 2026",
-          "title": "Waze déploie une mise à jour majeure avec Gemini : cette option va enfin le rendre moins agaçant",
-          "source": "01net",
-          "url": "https://www.01net.com/actualites/waze-deploie-une-mise-a-jour-majeure-avec-gemini-cette-option-va-enfin-le-rendre-moins-agacant.html",
-          "summary": "Google injecte son IA Gemini au cœur de Waze. Au programme de cette mise à jour majeure de juillet 2026 : des signalements vocaux plus fluides, un mode « Moins bavard » et un vrai profil dédié aux motos.",
-          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
-        },
-        {
-          "date": "13 juillet 2026",
-          "title": "Instagram : Meta n’autorisera finalement pas tout le monde à utiliser vos contenus publics avec l’IA",
-          "source": "01net",
-          "url": "https://www.01net.com/actualites/instagram-meta-nautorisera-finalement-pas-tout-le-monde-a-utiliser-vos-contenus-publics-avec-lia.html",
-          "summary": "Le déploiement du nouveau modèle de génération d’images de Meta AI devait permettre à tout le monde d’utiliser les photos et vidéos des comptes Instagram publics pour les modifier avec l’IA. Mais devant le tollé créé par cette nouvelle f...",
-          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
-        },
-        {
-          "date": "13 juillet 2026",
           "title": "Test Geekom A9 Max 2026 Edition : un mini PC haut de gamme",
           "source": "IT-Connect",
           "url": "https://www.it-connect.fr/test-geekom-a9-max-2026-edition/",
           "summary": "Test du Geekom A9 Max 2026 Edition : Ryzen AI 9 HX 470, NPU 55 TOPS, Radeon 890M. Ce qui change face à la génération 2025 et ce qu’il vaut pour l’IA locale.",
+          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
+        },
+        {
+          "date": "13 juillet 2026",
+          "title": "Apple lancerait le produit le plus cher de son histoire en 2028",
+          "source": "01net",
+          "url": "https://www.01net.com/actualites/apple-lancerait-le-produit-le-plus-cher-de-son-histoire-en-2028.html",
+          "summary": "Apple aurait décidé de laisser tomber les variantes haut de gamme de la puce M6 pour se concentrer sur les puces M7, davantage adaptées à l’intelligence artificielle. Cependant, le Mac Studio équipé de la puce M7 Ultra, prévu pour 2028,...",
+          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
+        },
+        {
+          "date": "15 juillet 2026",
+          "title": "Vous retardez vos mises à jour Windows ? Microsoft épingle cette mauvaise habitude pour une bonne raison",
+          "source": "01net",
+          "url": "https://www.01net.com/actualites/vous-retardez-mises-jour-windows-microsoft-epingle-mauvaise-habitude-raison-serieuse.html",
+          "summary": "Repousser la mise à jour Windows du mardi soir, c'était presque un art de vivre. Microsoft vient d'y mettre fin : trois jours de délai maximum, parce que les pirates ont désormais une IA plus rapide que votre procrastination.",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         }
       ]
