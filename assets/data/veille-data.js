@@ -1,5 +1,5 @@
 window.VEILLE_DATA = {
-  "updatedAt": "2026-07-15",
+  "updatedAt": "2026-07-16",
   "methodologie": {
     "title": "Méthodologie de veille",
     "summary": "Ma veille technologique repose sur plusieurs sources complémentaires : IT-Connect, ANSSI et le CERT-FR pour la cybersécurité, 01net et Le Monde Informatique pour l'IA. Chaque jour, un script récupère automatiquement les nouvelles publications, calcule un score de pertinence par mots-clés, et sélectionne les 4 meilleures entrées par thème.",
@@ -118,11 +118,19 @@ window.VEILLE_DATA = {
       ],
       "entries": [
         {
-          "date": "13 juillet 2026",
-          "title": "WhatsApp a viré ChatGPT en janvier, l’Europe vient de l’y remettre de force",
+          "date": "15 juillet 2026",
+          "title": "Une enceinte avec ChatGPT : le mystérieux projet d’OpenAI continue de se dévoiler, des mois avant l’annonce",
           "source": "01net",
-          "url": "https://www.01net.com/actualites/whatsapp-a-vire-chatgpt-en-janvier-leurope-vient-de-ly-remettre-de-force.html",
-          "summary": "OpenAI annonce le retour de ChatGPT sur WhatsApp dans l'Union européenne, en Suisse, en Islande, au Liechtenstein et en Norvège. Une annonce qui fait suite à une décision antitrust de la Commission européenne contre Meta.",
+          "url": "https://www.01net.com/actualites/enceinte-chatgpt-mysterieux-projet-openai-continue-devoiler-annonce.html",
+          "summary": "Une nouvelle fuite divulgue le mystérieux appareil IA conçu par OpenAI. Selon les sources interrogées, il s'agirait d'une enceinte connectée sans écran, pensée comme un compagnon IA capable de créer un lien avec son utilisateur. Le produ...",
+          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
+        },
+        {
+          "date": "16 juillet 2026",
+          "title": "OpenAI vient de lancer son premier appareil, mais ce n’est pas celui que vous croyez",
+          "source": "01net",
+          "url": "https://www.01net.com/actualites/openai-vient-lancer-premier-appareil-mais-pas-celui-que-vous-croyez.html",
+          "summary": "OpenAI a lancé son premier appareil physique. Il ne s'agit pas de la mystérieuse enceinte ChatGPT imaginée en collaboration avec Jony Ive, mais d'un mini-clavier en édition limitée destiné aux développeurs. Vendu 230 dollars et conçu ave...",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
@@ -134,19 +142,11 @@ window.VEILLE_DATA = {
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
-          "date": "13 juillet 2026",
-          "title": "Apple lancerait le produit le plus cher de son histoire en 2028",
+          "date": "16 juillet 2026",
+          "title": "Snapdragon X2 Elite : la nouvelle ère du PC portable",
           "source": "01net",
-          "url": "https://www.01net.com/actualites/apple-lancerait-le-produit-le-plus-cher-de-son-histoire-en-2028.html",
-          "summary": "Apple aurait décidé de laisser tomber les variantes haut de gamme de la puce M6 pour se concentrer sur les puces M7, davantage adaptées à l’intelligence artificielle. Cependant, le Mac Studio équipé de la puce M7 Ultra, prévu pour 2028,...",
-          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
-        },
-        {
-          "date": "15 juillet 2026",
-          "title": "Vous retardez vos mises à jour Windows ? Microsoft épingle cette mauvaise habitude pour une bonne raison",
-          "source": "01net",
-          "url": "https://www.01net.com/actualites/vous-retardez-mises-jour-windows-microsoft-epingle-mauvaise-habitude-raison-serieuse.html",
-          "summary": "Repousser la mise à jour Windows du mardi soir, c'était presque un art de vivre. Microsoft vient d'y mettre fin : trois jours de délai maximum, parce que les pirates ont désormais une IA plus rapide que votre procrastination.",
+          "url": "https://www.01net.com/bons-plans/snapdragon-x2-elite-la-nouvelle-ere-du-pc-portable.html",
+          "summary": "La nouvelle puce Snapdragon® X2 Elite ambitionne de réinventer l'expérience que l'on connaît du PC. Autonomie incroyable, performances stables (même sur batterie), intelligence artificielle embarquée... L'ordinateur portable aurait-il en...",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         }
       ]
