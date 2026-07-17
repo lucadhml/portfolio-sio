@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-16",
+  "updatedAt": "2026-07-17",
   "methodologie": {
     "title": "Méthodologie de veille",
     "summary": "Ma veille technologique repose sur plusieurs sources complémentaires : IT-Connect, ANSSI et le CERT-FR pour la cybersécurité, 01net et Le Monde Informatique pour l'IA. Chaque jour, un script récupère automatiquement les nouvelles publications, calcule un score de pertinence par mots-clés, et sélectionne les 4 meilleures entrées par thème.",
@@ -118,27 +118,19 @@
       ],
       "entries": [
         {
-          "date": "15 juillet 2026",
-          "title": "Une enceinte avec ChatGPT : le mystérieux projet d’OpenAI continue de se dévoiler, des mois avant l’annonce",
+          "date": "16 juillet 2026",
+          "title": "OpenAI dévoile GPT‑Red, la redoutable IA qui pirate ChatGPT, mais c’est pour son bien",
           "source": "01net",
-          "url": "https://www.01net.com/actualites/enceinte-chatgpt-mysterieux-projet-openai-continue-devoiler-annonce.html",
-          "summary": "Une nouvelle fuite divulgue le mystérieux appareil IA conçu par OpenAI. Selon les sources interrogées, il s'agirait d'une enceinte connectée sans écran, pensée comme un compagnon IA capable de créer un lien avec son utilisateur. Le produ...",
+          "url": "https://www.01net.com/actualites/openai-devoile-gpt%e2%80%91red-redoutable-ia-chargee-pirater-chatgpt.html",
+          "summary": "OpenAI a dévoilé GPT‑Red, un modèle d'intelligence artificielle entièrement dédié à la traque des failles de sécurité au sein de ses propres systèmes. L'outil est chargé de simuler des cyberattaques réelles contre les IA qui font tourner...",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
           "date": "16 juillet 2026",
-          "title": "OpenAI vient de lancer son premier appareil, mais ce n’est pas celui que vous croyez",
+          "title": "Mort de ChatGPT Atlas : comment la menace Anthropic a forcé OpenAI à tuer ses « quêtes secondaires »",
           "source": "01net",
-          "url": "https://www.01net.com/actualites/openai-vient-lancer-premier-appareil-mais-pas-celui-que-vous-croyez.html",
-          "summary": "OpenAI a lancé son premier appareil physique. Il ne s'agit pas de la mystérieuse enceinte ChatGPT imaginée en collaboration avec Jony Ive, mais d'un mini-clavier en édition limitée destiné aux développeurs. Vendu 230 dollars et conçu ave...",
-          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
-        },
-        {
-          "date": "13 juillet 2026",
-          "title": "Test Geekom A9 Max 2026 Edition : un mini PC haut de gamme",
-          "source": "IT-Connect",
-          "url": "https://www.it-connect.fr/test-geekom-a9-max-2026-edition/",
-          "summary": "Test du Geekom A9 Max 2026 Edition : Ryzen AI 9 HX 470, NPU 55 TOPS, Radeon 890M. Ce qui change face à la génération 2025 et ce qu’il vaut pour l’IA locale.",
+          "url": "https://www.01net.com/actualites/mort-de-chatgpt-atlas-comment-la-menace-anthropic-a-force-openai-a-tuer-ses-quetes-secondaires.html",
+          "summary": "ChatGPT Atlas est abandonné par OpenAI moins d'un an après son lancement. Un pivot stratégique dicté par la concurrence d'Anthropic vers une « super-app ».",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
@@ -147,6 +139,14 @@
           "source": "01net",
           "url": "https://www.01net.com/bons-plans/snapdragon-x2-elite-la-nouvelle-ere-du-pc-portable.html",
           "summary": "La nouvelle puce Snapdragon® X2 Elite ambitionne de réinventer l'expérience que l'on connaît du PC. Autonomie incroyable, performances stables (même sur batterie), intelligence artificielle embarquée... L'ordinateur portable aurait-il en...",
+          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
+        },
+        {
+          "date": "17 juillet 2026",
+          "title": "Adieu NotebookLM, bonjour Gemini Notebook",
+          "source": "01net",
+          "url": "https://www.01net.com/actualites/adieu-notebooklm-bonjour-gemini-notebook.html",
+          "summary": "Lancé comme un simple projet expérimental en 2023, NotebookLM tire sa révérence et devient officiellement Gemini Notebook.",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         }
       ]
