@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-17",
+  "updatedAt": "2026-07-18",
   "methodologie": {
     "title": "Méthodologie de veille",
     "summary": "Ma veille technologique repose sur plusieurs sources complémentaires : IT-Connect, ANSSI et le CERT-FR pour la cybersécurité, 01net et Le Monde Informatique pour l'IA. Chaque jour, un script récupère automatiquement les nouvelles publications, calcule un score de pertinence par mots-clés, et sélectionne les 4 meilleures entrées par thème.",
@@ -118,35 +118,35 @@
       ],
       "entries": [
         {
-          "date": "16 juillet 2026",
-          "title": "OpenAI dévoile GPT‑Red, la redoutable IA qui pirate ChatGPT, mais c’est pour son bien",
+          "date": "17 juillet 2026",
+          "title": "Netflix admet avoir utilisé l’IA pour modifier 300 films et séries",
           "source": "01net",
-          "url": "https://www.01net.com/actualites/openai-devoile-gpt%e2%80%91red-redoutable-ia-chargee-pirater-chatgpt.html",
-          "summary": "OpenAI a dévoilé GPT‑Red, un modèle d'intelligence artificielle entièrement dédié à la traque des failles de sécurité au sein de ses propres systèmes. L'outil est chargé de simuler des cyberattaques réelles contre les IA qui font tourner...",
+          "url": "https://www.01net.com/actualites/netflix-admet-avoir-utilise-lia-pour-modifier-300-films-et-series.html",
+          "summary": "Netflix a annoncé avoir utilisé l'intelligence artificielle pour modifier 300 films et séries en postproduction. La plateforme de streaming assure que certaines scènes n’auraient jamais vu le jour autrement.",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
-          "date": "16 juillet 2026",
-          "title": "Mort de ChatGPT Atlas : comment la menace Anthropic a forcé OpenAI à tuer ses « quêtes secondaires »",
+          "date": "18 juillet 2026",
+          "title": "« Le casse de la mémoire » de Claude : comment un site piégé a poussé l’IA à divulguer toutes vos données",
           "source": "01net",
-          "url": "https://www.01net.com/actualites/mort-de-chatgpt-atlas-comment-la-menace-anthropic-a-force-openai-a-tuer-ses-quetes-secondaires.html",
-          "summary": "ChatGPT Atlas est abandonné par OpenAI moins d'un an après son lancement. Un pivot stratégique dicté par la concurrence d'Anthropic vers une « super-app ».",
-          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
-        },
-        {
-          "date": "16 juillet 2026",
-          "title": "Snapdragon X2 Elite : la nouvelle ère du PC portable",
-          "source": "01net",
-          "url": "https://www.01net.com/bons-plans/snapdragon-x2-elite-la-nouvelle-ere-du-pc-portable.html",
-          "summary": "La nouvelle puce Snapdragon® X2 Elite ambitionne de réinventer l'expérience que l'on connaît du PC. Autonomie incroyable, performances stables (même sur batterie), intelligence artificielle embarquée... L'ordinateur portable aurait-il en...",
+          "url": "https://www.01net.com/actualites/casse-memoire-claude-comment-site-piege-pousse-ia-divulguer-toutes-donnees.html",
+          "summary": "Un chercheur a démontré qu’un simple site web piégé pouvait pousser Claude à divulguer le nom, l’employeur et la ville d'origine de son utilisateur. Des réponses à des questions de sécurité peuvent même être compromises. L'attaque repose...",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
           "date": "17 juillet 2026",
-          "title": "Adieu NotebookLM, bonjour Gemini Notebook",
+          "title": "Un des meilleurs outils de Google change de nom",
           "source": "01net",
           "url": "https://www.01net.com/actualites/adieu-notebooklm-bonjour-gemini-notebook.html",
           "summary": "Lancé comme un simple projet expérimental en 2023, NotebookLM tire sa révérence et devient officiellement Gemini Notebook.",
+          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
+        },
+        {
+          "date": "16 juillet 2026",
+          "title": "La plus populaire des IA musicales a été entraînée sur des millions de titres volés, quelle surprise !",
+          "source": "01net",
+          "url": "https://www.01net.com/actualites/la-plus-populaire-des-ia-musicales-a-ete-entrainee-sur-des-millions-de-titres-voles-quelle-surprise.html",
+          "summary": "On savait Suno gourmande en musique d'autrui. Un piratage vient de transformer les soupçons en inventaire détaillé : des millions de titres aspirés sur YouTube, Deezer et Genius pour entraîner l'IA. À quinze jours d'un verdict décisif en...",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         }
       ]
