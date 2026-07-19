@@ -1,5 +1,5 @@
 window.VEILLE_DATA = {
-  "updatedAt": "2026-07-18",
+  "updatedAt": "2026-07-19",
   "methodologie": {
     "title": "Méthodologie de veille",
     "summary": "Ma veille technologique repose sur plusieurs sources complémentaires : IT-Connect, ANSSI et le CERT-FR pour la cybersécurité, 01net et Le Monde Informatique pour l'IA. Chaque jour, un script récupère automatiquement les nouvelles publications, calcule un score de pertinence par mots-clés, et sélectionne les 4 meilleures entrées par thème.",
@@ -134,19 +134,19 @@ window.VEILLE_DATA = {
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
+          "date": "19 juillet 2026",
+          "title": "Meta rêve d’un coach sportif qui espionne vos émotions",
+          "source": "01net",
+          "url": "https://www.01net.com/actualites/meta-reve-dun-coach-sportif-qui-espionne-vos-emotions.html",
+          "summary": "Soupirs, éclats de rire, silences gênés : un brevet fraîchement publié décrit une IA Meta qui écoute tout, tout le temps. Amazon avait tenté le même pari. Ses clients s'en souviennent encore.",
+          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
+        },
+        {
           "date": "17 juillet 2026",
           "title": "Un des meilleurs outils de Google change de nom",
           "source": "01net",
           "url": "https://www.01net.com/actualites/adieu-notebooklm-bonjour-gemini-notebook.html",
           "summary": "Lancé comme un simple projet expérimental en 2023, NotebookLM tire sa révérence et devient officiellement Gemini Notebook.",
-          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
-        },
-        {
-          "date": "16 juillet 2026",
-          "title": "La plus populaire des IA musicales a été entraînée sur des millions de titres volés, quelle surprise !",
-          "source": "01net",
-          "url": "https://www.01net.com/actualites/la-plus-populaire-des-ia-musicales-a-ete-entrainee-sur-des-millions-de-titres-voles-quelle-surprise.html",
-          "summary": "On savait Suno gourmande en musique d'autrui. Un piratage vient de transformer les soupçons en inventaire détaillé : des millions de titres aspirés sur YouTube, Deezer et Genius pour entraîner l'IA. À quinze jours d'un verdict décisif en...",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         }
       ]
