@@ -1,5 +1,5 @@
 window.VEILLE_DATA = {
-  "updatedAt": "2026-07-19",
+  "updatedAt": "2026-07-20",
   "methodologie": {
     "title": "Méthodologie de veille",
     "summary": "Ma veille technologique repose sur plusieurs sources complémentaires : IT-Connect, ANSSI et le CERT-FR pour la cybersécurité, 01net et Le Monde Informatique pour l'IA. Chaque jour, un script récupère automatiquement les nouvelles publications, calcule un score de pertinence par mots-clés, et sélectionne les 4 meilleures entrées par thème.",
@@ -118,11 +118,11 @@ window.VEILLE_DATA = {
       ],
       "entries": [
         {
-          "date": "17 juillet 2026",
-          "title": "Netflix admet avoir utilisé l’IA pour modifier 300 films et séries",
+          "date": "20 juillet 2026",
+          "title": "Anthropic annonce une mauvaise nouvelle aux utilisateurs de Claude Fable 5",
           "source": "01net",
-          "url": "https://www.01net.com/actualites/netflix-admet-avoir-utilise-lia-pour-modifier-300-films-et-series.html",
-          "summary": "Netflix a annoncé avoir utilisé l'intelligence artificielle pour modifier 300 films et séries en postproduction. La plateforme de streaming assure que certaines scènes n’auraient jamais vu le jour autrement.",
+          "url": "https://www.01net.com/actualites/anthropic-annonce-une-mauvaise-nouvelle-aux-utilisateurs-de-claude-fable-5.html",
+          "summary": "Claude Fable 5 n'est plus accessible à tous les abonnés d'Anthropic. Le modèle d'IA le plus puissant de la gamme Claude reste inclus dans les forfaits Max et Team Premium, mais avec un accès plafonné. Les abonnés Pro et Team Standard, eu...",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
@@ -134,19 +134,19 @@ window.VEILLE_DATA = {
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
+          "date": "20 juillet 2026",
+          "title": "TikTok dévoile sa technologie anti-deepfake, le timing n’est pas anodin",
+          "source": "01net",
+          "url": "https://www.01net.com/actualites/tiktok-devoile-sa-technologie-anti-deepfake-le-timing-nest-pas-anodin.html",
+          "summary": "Votre visage tourne peut-être déjà dans des vidéos que vous n'avez jamais filmées. TikTok dégaine son détecteur de clones, deux semaines avant que Bruxelles ne sorte le carnet d'amendes.",
+          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
+        },
+        {
           "date": "19 juillet 2026",
           "title": "Meta rêve d’un coach sportif qui espionne vos émotions",
           "source": "01net",
           "url": "https://www.01net.com/actualites/meta-reve-dun-coach-sportif-qui-espionne-vos-emotions.html",
           "summary": "Soupirs, éclats de rire, silences gênés : un brevet fraîchement publié décrit une IA Meta qui écoute tout, tout le temps. Amazon avait tenté le même pari. Ses clients s'en souviennent encore.",
-          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
-        },
-        {
-          "date": "17 juillet 2026",
-          "title": "Un des meilleurs outils de Google change de nom",
-          "source": "01net",
-          "url": "https://www.01net.com/actualites/adieu-notebooklm-bonjour-gemini-notebook.html",
-          "summary": "Lancé comme un simple projet expérimental en 2023, NotebookLM tire sa révérence et devient officiellement Gemini Notebook.",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         }
       ]
