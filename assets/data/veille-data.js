@@ -1,5 +1,5 @@
 window.VEILLE_DATA = {
-  "updatedAt": "2026-07-20",
+  "updatedAt": "2026-07-21",
   "methodologie": {
     "title": "Méthodologie de veille",
     "summary": "Ma veille technologique repose sur plusieurs sources complémentaires : IT-Connect, ANSSI et le CERT-FR pour la cybersécurité, 01net et Le Monde Informatique pour l'IA. Chaque jour, un script récupère automatiquement les nouvelles publications, calcule un score de pertinence par mots-clés, et sélectionne les 4 meilleures entrées par thème.",
@@ -61,14 +61,6 @@ window.VEILLE_DATA = {
       ],
       "entries": [
         {
-          "date": "15 juillet 2026",
-          "title": "Microsoft dévoile son plus gros Patch Tuesday de l’histoire avec 570 failles et 3 zero-day",
-          "source": "IT-Connect",
-          "url": "https://www.it-connect.fr/patch-tuesday-juillet-2026-570-failles-de-securite-corrigees-dont-3-zero-day/",
-          "summary": "Microsoft signe le plus gros lot de correctifs de son histoire, avec trois failles zero-day dont deux exploitées, et au total 570 vulnérabilités patchées.",
-          "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
-        },
-        {
           "date": "11 mars 2026",
           "title": "Panorama de la cybermenace 2025 : La France toujours sous la pression des cyber attaquants",
           "source": "ANSSI",
@@ -77,19 +69,27 @@ window.VEILLE_DATA = {
           "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
         },
         {
+          "date": "21 juillet 2026",
+          "title": "HollowByte : une faille DoS dans OpenSSL corrigée en silence, sans CVE",
+          "source": "IT-Connect",
+          "url": "https://www.it-connect.fr/openssl-hollowbyte-faille-dos-11-octets/",
+          "summary": "La faille HollowByte sature la mémoire d’un serveur OpenSSL avec un paquet de 11 octets. Corrigée en silence depuis la version 4.0.1, et sans aucun CVE.",
+          "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
+        },
+        {
+          "date": "20 juillet 2026",
+          "title": "NGINX – CVE-2026-42533 : cette faille peut faire planter votre serveur Web",
+          "source": "IT-Connect",
+          "url": "https://www.it-connect.fr/nginx-cve-2026-42533-faille-critique-map-regex/",
+          "summary": "F5 a corrigé la CVE-2026-42533, une faille critique de NGINX qui peut faire planter les workers et, parfois, permettre une exécution de code à distance.",
+          "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
+        },
+        {
           "date": "21 janvier 2026",
           "title": "Vulnérabilité dans telnetd (21 janvier 2026)",
           "source": "CERT-FR",
           "url": "https://www.cert.ssi.gouv.fr/actualite/CERTFR-2026-ACT-003/",
           "summary": "Le 20 janvier 2026, les détails de la vulnérabilité CVE-2026-24061, affectant *telnetd*, ont été publiés. Cette vulnérabilité permet à un attaquant de contourner l'authentification et de se connecter à une machine vulnérable en tant que...",
-          "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
-        },
-        {
-          "date": "2 avril 2026",
-          "title": "Expiration de certificats Secure Boot en juin 2026 (02 avril 2026)",
-          "source": "CERT-FR",
-          "url": "https://www.cert.ssi.gouv.fr/actualite/CERTFR-2026-ACT-014/",
-          "summary": "Le démarrage sécurisé (UEFI Secure Boot) est une fonctionnalité de sécurité disponible sur les ordinateurs PC clients et serveurs depuis 2011. Son rôle est de sécuriser la séquence de démarrage de l’appareil, en vérifiant l’intégrité du...",
           "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
         }
       ]
@@ -119,6 +119,14 @@ window.VEILLE_DATA = {
       "entries": [
         {
           "date": "20 juillet 2026",
+          "title": "Google repousse la sortie de sa plus puissante IA : ce gros défaut qui bloque tout en interne",
+          "source": "01net",
+          "url": "https://www.01net.com/actualites/google-repousse-la-sortie-de-sa-plus-puissante-ia-ce-gros-defaut-qui-bloque-tout-en-interne.html",
+          "summary": "Attendu pour juin 2026, le surpuissant modèle d'intelligence artificielle Gemini 3.5 Pro de Google accuse un sérieux retard. En interne, ses lacunes en programmation informatique inquiètent.",
+          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
+        },
+        {
+          "date": "20 juillet 2026",
           "title": "Anthropic annonce une mauvaise nouvelle aux utilisateurs de Claude Fable 5",
           "source": "01net",
           "url": "https://www.01net.com/actualites/anthropic-annonce-une-mauvaise-nouvelle-aux-utilisateurs-de-claude-fable-5.html",
@@ -126,27 +134,19 @@ window.VEILLE_DATA = {
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
-          "date": "18 juillet 2026",
-          "title": "« Le casse de la mémoire » de Claude : comment un site piégé a poussé l’IA à divulguer toutes vos données",
+          "date": "20 juillet 2026",
+          "title": "Nubia dévoile le smartphone du futur : un agent IA capable de tout faire à votre place",
           "source": "01net",
-          "url": "https://www.01net.com/actualites/casse-memoire-claude-comment-site-piege-pousse-ia-divulguer-toutes-donnees.html",
-          "summary": "Un chercheur a démontré qu’un simple site web piégé pouvait pousser Claude à divulguer le nom, l’employeur et la ville d'origine de son utilisateur. Des réponses à des questions de sécurité peuvent même être compromises. L'attaque repose...",
+          "url": "https://www.01net.com/actualites/nubia-devoile-le-smartphone-du-futur-un-agent-ia-capable-de-tout-faire-a-votre-place.html",
+          "summary": "Nubia a présenté le NaviX Ultra, un smartphone intégrant une intelligence artificielle au cœur même de son système. Ici, pas d’application dédiée ni de simples fonctionnalités IA ajoutées à l’appareil : le téléphone est entièrement pensé...",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
           "date": "20 juillet 2026",
-          "title": "TikTok dévoile sa technologie anti-deepfake, le timing n’est pas anodin",
-          "source": "01net",
-          "url": "https://www.01net.com/actualites/tiktok-devoile-sa-technologie-anti-deepfake-le-timing-nest-pas-anodin.html",
-          "summary": "Votre visage tourne peut-être déjà dans des vidéos que vous n'avez jamais filmées. TikTok dégaine son détecteur de clones, deux semaines avant que Bruxelles ne sorte le carnet d'amendes.",
-          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
-        },
-        {
-          "date": "19 juillet 2026",
-          "title": "Meta rêve d’un coach sportif qui espionne vos émotions",
-          "source": "01net",
-          "url": "https://www.01net.com/actualites/meta-reve-dun-coach-sportif-qui-espionne-vos-emotions.html",
-          "summary": "Soupirs, éclats de rire, silences gênés : un brevet fraîchement publié décrit une IA Meta qui écoute tout, tout le temps. Amazon avait tenté le même pari. Ses clients s'en souviennent encore.",
+          "title": "1Password laisse Claude se connecter à vos comptes, sans jamais lui confier vos mots de passe",
+          "source": "IT-Connect",
+          "url": "https://www.it-connect.fr/1password-for-claude-connexion-sans-mot-de-passe/",
+          "summary": "Avec 1Password for Claude, l’IA se connecte à vos comptes dans le navigateur, sans jamais voir vos mots de passe ni vos codes (MFA).",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         }
       ]
