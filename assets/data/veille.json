@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-23",
+  "updatedAt": "2026-07-24",
   "methodologie": {
     "title": "Méthodologie de veille",
     "summary": "Ma veille technologique repose sur plusieurs sources complémentaires : IT-Connect, ANSSI et le CERT-FR pour la cybersécurité, 01net et Le Monde Informatique pour l'IA. Chaque jour, un script récupère automatiquement les nouvelles publications, calcule un score de pertinence par mots-clés, et sélectionne les 4 meilleures entrées par thème.",
@@ -134,19 +134,19 @@
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
-          "date": "20 juillet 2026",
-          "title": "1Password laisse Claude se connecter à vos comptes, sans jamais lui confier vos mots de passe",
-          "source": "IT-Connect",
-          "url": "https://www.it-connect.fr/1password-for-claude-connexion-sans-mot-de-passe/",
-          "summary": "Avec 1Password for Claude, l’IA se connecte à vos comptes dans le navigateur, sans jamais voir vos mots de passe ni vos codes (MFA).",
+          "date": "24 juillet 2026",
+          "title": "Windows 11 : Microsoft vous permettra bientôt de désactiver la touche Copilot de votre clavier",
+          "source": "01net",
+          "url": "https://www.01net.com/actualites/windows-11-microsoft-vous-permettra-bientot-de-desactiver-la-touche-copilot-de-votre-clavier.html",
+          "summary": "La touche Copilot que Microsoft a imposée aux fabricants de PC et dont personne ne se sert pourra bientôt être désactivée. Microsoft prépare une option dans les Paramètres de son système d’exploitation pour la rendre encore plus inutile...",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
-          "date": "22 juillet 2026",
-          "title": "Samsung dévoile ses Galaxy Glasses, les lunettes connectées qui rêvent de détrôner les Ray-Ban Meta",
+          "date": "24 juillet 2026",
+          "title": "Votre vieux Google Home Mini gagne une seconde vie grâce à Gemini Live",
           "source": "01net",
-          "url": "https://www.01net.com/actualites/samsung-devoile-ses-galaxy-glasses-les-lunettes-connectees-qui-revent-de-detroner-les-ray-ban-meta.html",
-          "summary": "À l'occasion de son Unpacked 2026, Samsung a détaillé ses lunettes connectées propulsées par l'IA. Au programme : un design léger co-créé avec de grands lunetiers, une intégration poussée à l'écosystème Galaxy, et une endurance prometteuse.",
+          "url": "https://www.01net.com/actualites/votre-vieux-google-home-mini-gagne-seconde-vie-grace-gemini-live.html",
+          "summary": "Google déploie Gemini Live sur les enceintes Google Home Mini et Google Nest Hub de première génération pour les abonnés Google Home Premium. Cette mise à jour apporte aussi quelques nouveautés intéressantes.",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         }
       ]
