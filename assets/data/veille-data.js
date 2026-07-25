@@ -1,5 +1,5 @@
 window.VEILLE_DATA = {
-  "updatedAt": "2026-07-24",
+  "updatedAt": "2026-07-25",
   "methodologie": {
     "title": "Méthodologie de veille",
     "summary": "Ma veille technologique repose sur plusieurs sources complémentaires : IT-Connect, ANSSI et le CERT-FR pour la cybersécurité, 01net et Le Monde Informatique pour l'IA. Chaque jour, un script récupère automatiquement les nouvelles publications, calcule un score de pertinence par mots-clés, et sélectionne les 4 meilleures entrées par thème.",
@@ -77,11 +77,11 @@ window.VEILLE_DATA = {
           "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
         },
         {
-          "date": "21 juillet 2026",
-          "title": "HollowByte : une faille DoS dans OpenSSL corrigée en silence, sans CVE",
+          "date": "24 juillet 2026",
+          "title": "Certighost (CVE-2026-54121) : un compte AD standard suffit pour usurper un contrôleur de domaine",
           "source": "IT-Connect",
-          "url": "https://www.it-connect.fr/openssl-hollowbyte-faille-dos-11-octets/",
-          "summary": "La faille HollowByte sature la mémoire d’un serveur OpenSSL avec un paquet de 11 octets. Corrigée en silence depuis la version 4.0.1, et sans aucun CVE.",
+          "url": "https://www.it-connect.fr/certighost-cve-2026-54121-ad-cs-controleur-de-domaine/",
+          "summary": "Certighost (CVE-2026-54121) : cette faille dans AD CS permet à un utilisateur standard de compromettre un domaine Active Directory. Protégez-vous.",
           "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
         },
         {
@@ -126,11 +126,19 @@ window.VEILLE_DATA = {
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
-          "date": "22 juillet 2026",
-          "title": "Google relance la bataille de l’IA avec 3 nouveaux modèles Gemini",
+          "date": "24 juillet 2026",
+          "title": "SharedRoot : l’agent IA de Claude Cowork peut s’évader de sa VM et lire vos fichiers",
+          "source": "IT-Connect",
+          "url": "https://www.it-connect.fr/sharedroot-claude-cowork-evasion-sandbox-mac/",
+          "summary": "Des chercheurs ont fait sortir l’agent IA de Claude Cowork de sa machine virtuelle pour lire et écrire sur le Mac hôte. Anthropic n’a pas publié de correctif.",
+          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
+        },
+        {
+          "date": "25 juillet 2026",
+          "title": "Un hacker russe se sert de Gemini pour piloter son botnet à sa place",
           "source": "01net",
-          "url": "https://www.01net.com/actualites/google-relance-la-bataille-de-lia-avec-3-nouveaux-modeles-gemini.html",
-          "summary": "Google a dévoilé trois nouveaux modèles d’IA : Gemini 3.6 Flash, Gemini 3.5 Flash-Lite et Gemini 3.5 Flash Cyber. Cette annonce s’inscrit dans un calendrier particulier pour l’entreprise.",
+          "url": "https://www.01net.com/actualites/hacker-russe-sert-gemini-piloter-botnet-place.html",
+          "summary": "Un pirate russe a détourné Gemini pour piloter à distance un botnet. Pour convaincre l'IA de se plier à ses demandes, le hacker s'est servi de tactiques de manipulation très simples.",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
@@ -139,14 +147,6 @@ window.VEILLE_DATA = {
           "source": "01net",
           "url": "https://www.01net.com/actualites/windows-11-microsoft-vous-permettra-bientot-de-desactiver-la-touche-copilot-de-votre-clavier.html",
           "summary": "La touche Copilot que Microsoft a imposée aux fabricants de PC et dont personne ne se sert pourra bientôt être désactivée. Microsoft prépare une option dans les Paramètres de son système d’exploitation pour la rendre encore plus inutile...",
-          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
-        },
-        {
-          "date": "24 juillet 2026",
-          "title": "Votre vieux Google Home Mini gagne une seconde vie grâce à Gemini Live",
-          "source": "01net",
-          "url": "https://www.01net.com/actualites/votre-vieux-google-home-mini-gagne-seconde-vie-grace-gemini-live.html",
-          "summary": "Google déploie Gemini Live sur les enceintes Google Home Mini et Google Nest Hub de première génération pour les abonnés Google Home Premium. Cette mise à jour apporte aussi quelques nouveautés intéressantes.",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         }
       ]
