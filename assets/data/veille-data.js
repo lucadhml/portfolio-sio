@@ -1,5 +1,5 @@
 window.VEILLE_DATA = {
-  "updatedAt": "2026-07-25",
+  "updatedAt": "2026-07-26",
   "methodologie": {
     "title": "Méthodologie de veille",
     "summary": "Ma veille technologique repose sur plusieurs sources complémentaires : IT-Connect, ANSSI et le CERT-FR pour la cybersécurité, 01net et Le Monde Informatique pour l'IA. Chaque jour, un script récupère automatiquement les nouvelles publications, calcule un score de pertinence par mots-clés, et sélectionne les 4 meilleures entrées par thème.",
@@ -135,18 +135,18 @@ window.VEILLE_DATA = {
         },
         {
           "date": "25 juillet 2026",
+          "title": "Claude Opus 5 : ce qu’Anthropic ne vous a pas dit sur sa nouvelle IA",
+          "source": "01net",
+          "url": "https://www.01net.com/actualites/claude-opus-5-ce-quanthropic-ne-vous-a-pas-dit-sur-sa-nouvelle-ia.html",
+          "summary": "Le nouveau modèle d'Anthropic est arrivé vendredi avec un rapport de 194 pages. Dedans, une expérience que personne n'avait encore publiée : la lecture de ce qui se passe dans la machine pendant qu'elle vous répond.",
+          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
+        },
+        {
+          "date": "25 juillet 2026",
           "title": "Un hacker russe se sert de Gemini pour piloter son botnet à sa place",
           "source": "01net",
           "url": "https://www.01net.com/actualites/hacker-russe-sert-gemini-piloter-botnet-place.html",
           "summary": "Un pirate russe a détourné Gemini pour piloter à distance un botnet. Pour convaincre l'IA de se plier à ses demandes, le hacker s'est servi de tactiques de manipulation très simples.",
-          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
-        },
-        {
-          "date": "24 juillet 2026",
-          "title": "Windows 11 : Microsoft vous permettra bientôt de désactiver la touche Copilot de votre clavier",
-          "source": "01net",
-          "url": "https://www.01net.com/actualites/windows-11-microsoft-vous-permettra-bientot-de-desactiver-la-touche-copilot-de-votre-clavier.html",
-          "summary": "La touche Copilot que Microsoft a imposée aux fabricants de PC et dont personne ne se sert pourra bientôt être désactivée. Microsoft prépare une option dans les Paramètres de son système d’exploitation pour la rendre encore plus inutile...",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         }
       ]
