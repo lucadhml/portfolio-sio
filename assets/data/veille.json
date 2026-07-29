@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-28",
+  "updatedAt": "2026-07-29",
   "methodologie": {
     "title": "Méthodologie de veille",
     "summary": "Ma veille technologique repose sur plusieurs sources complémentaires : IT-Connect, ANSSI et le CERT-FR pour la cybersécurité, 01net et Le Monde Informatique pour l'IA. Chaque jour, un script récupère automatiquement les nouvelles publications, calcule un score de pertinence par mots-clés, et sélectionne les 4 meilleures entrées par thème.",
@@ -118,19 +118,19 @@
       ],
       "entries": [
         {
-          "date": "27 juillet 2026",
-          "title": "L’IA consomme-t-elle trop d’électricité ? L’Arcep veut faire le point",
-          "source": "01net",
-          "url": "https://www.01net.com/actualites/lia-consomme-t-elle-trop-delectricite-larcep-veut-faire-le-point.html",
-          "summary": "Le régulateur des télécoms prépare une collecte de données environnementales chez les fournisseurs d'IA générative. Un secteur qui communique jusqu'ici davantage sur ses économies d'énergie que sur sa facture.",
-          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
-        },
-        {
           "date": "24 juillet 2026",
           "title": "SharedRoot : l’agent IA de Claude Cowork peut s’évader de sa VM et lire vos fichiers",
           "source": "IT-Connect",
           "url": "https://www.it-connect.fr/sharedroot-claude-cowork-evasion-sandbox-mac/",
           "summary": "Des chercheurs ont fait sortir l’agent IA de Claude Cowork de sa machine virtuelle pour lire et écrire sur le Mac hôte. Anthropic n’a pas publié de correctif.",
+          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
+        },
+        {
+          "date": "28 juillet 2026",
+          "title": "Le double jeu d’OpenAI et Anthropic contre l’IA gratuite fait scandale",
+          "source": "01net",
+          "url": "https://www.01net.com/actualites/le-double-jeu-dopenai-et-anthropic-contre-lia-gratuite-fait-scandale.html",
+          "summary": "En public, tout le monde adore l'open source. En coulisses, les deux stars de l'IA plaideraient à Washington pour la brider. La révélation a mis la Silicon Valley en ébullition, et forcé Anthropic à sortir du bois.",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
@@ -142,11 +142,11 @@
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
-          "date": "27 juillet 2026",
-          "title": "Après la « première cyberattaque » menée par l’IA, la victime demande des comptes à OpenAI",
-          "source": "01net",
-          "url": "https://www.01net.com/actualites/cyberattaque-ia-victime-demande-compte-openai.html",
-          "summary": "Deux modèles d'OpenAI se sont échappés et se sont lancés à l'assaut de Hugging Face, la célèbre plateforme d'IA open source. Le PDG de Hugging Face, Clem Delangue, exige désormais une « transparence radicale » et 100 millions de dollars...",
+          "date": "29 juillet 2026",
+          "title": "Kimi K3 : le plus gros modèle IA ouvert est désormais téléchargeable gratuitement",
+          "source": "IT-Connect",
+          "url": "https://www.it-connect.fr/kimi-k3-poids-ouverts-moonshot-licence/",
+          "summary": "Moonshot AI a publié les poids de Kimi K3, son modèle IA avec 2 800 milliards de paramètres. Un record pour un modèle ouvert, mais le matériel pose des limites.",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         }
       ]
