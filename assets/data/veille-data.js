@@ -1,5 +1,5 @@
 window.VEILLE_DATA = {
-  "updatedAt": "2026-07-29",
+  "updatedAt": "2026-07-30",
   "methodologie": {
     "title": "Méthodologie de veille",
     "summary": "Ma veille technologique repose sur plusieurs sources complémentaires : IT-Connect, ANSSI et le CERT-FR pour la cybersécurité, 01net et Le Monde Informatique pour l'IA. Chaque jour, un script récupère automatiquement les nouvelles publications, calcule un score de pertinence par mots-clés, et sélectionne les 4 meilleures entrées par thème.",
@@ -69,6 +69,14 @@ window.VEILLE_DATA = {
           "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
         },
         {
+          "date": "30 juillet 2026",
+          "title": "VMware : 3 failles critiques dans vCenter et ESX, dont une évasion de machine virtuelle",
+          "source": "IT-Connect",
+          "url": "https://www.it-connect.fr/vmware-3-failles-critiques-vcenter-esx-juillet-2026/",
+          "summary": "Le 29 juillet 2026, Broadcom a dévoilé cinq vulnérabilités dans les solutions VMware ESX, dont la CVE-2026-47876 qui est de type VM escape.",
+          "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
+        },
+        {
           "date": "11 mars 2026",
           "title": "Panorama de la cybermenace 2025 : La France toujours sous la pression des cyber attaquants",
           "source": "ANSSI",
@@ -77,19 +85,11 @@ window.VEILLE_DATA = {
           "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
         },
         {
-          "date": "24 juillet 2026",
-          "title": "Certighost (CVE-2026-54121) : un compte AD standard suffit pour usurper un contrôleur de domaine",
+          "date": "29 juillet 2026",
+          "title": "Apple : plus de 200 failles patchées dans tous ses systèmes, dont 11 trouvées avec l’IA",
           "source": "IT-Connect",
-          "url": "https://www.it-connect.fr/certighost-cve-2026-54121-ad-cs-controleur-de-domaine/",
-          "summary": "Certighost (CVE-2026-54121) : cette faille dans AD CS permet à un utilisateur standard de compromettre un domaine Active Directory. Protégez-vous.",
-          "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
-        },
-        {
-          "date": "21 janvier 2026",
-          "title": "Vulnérabilité dans telnetd (21 janvier 2026)",
-          "source": "CERT-FR",
-          "url": "https://www.cert.ssi.gouv.fr/actualite/CERTFR-2026-ACT-003/",
-          "summary": "Le 20 janvier 2026, les détails de la vulnérabilité CVE-2026-24061, affectant *telnetd*, ont été publiés. Cette vulnérabilité permet à un attaquant de contourner l'authentification et de se connecter à une machine vulnérable en tant que...",
+          "url": "https://www.it-connect.fr/apple-plus-de-200-failles-patchees-tous-ses-systemes/",
+          "summary": "Patchs Apple : contournements de Gatekeeper, accès root sur macOS, faille dans le noyau. Aucun zero-day, mais onze failles découvertes avec l’IA.",
           "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
         }
       ]
@@ -118,35 +118,35 @@ window.VEILLE_DATA = {
       ],
       "entries": [
         {
-          "date": "24 juillet 2026",
-          "title": "SharedRoot : l’agent IA de Claude Cowork peut s’évader de sa VM et lire vos fichiers",
-          "source": "IT-Connect",
-          "url": "https://www.it-connect.fr/sharedroot-claude-cowork-evasion-sandbox-mac/",
-          "summary": "Des chercheurs ont fait sortir l’agent IA de Claude Cowork de sa machine virtuelle pour lire et écrire sur le Mac hôte. Anthropic n’a pas publié de correctif.",
-          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
-        },
-        {
-          "date": "28 juillet 2026",
-          "title": "Le double jeu d’OpenAI et Anthropic contre l’IA gratuite fait scandale",
+          "date": "29 juillet 2026",
+          "title": "OpenAI fait une révélation inattendue sur la cyberattaque lancée par un ChatGPT tricheur",
           "source": "01net",
-          "url": "https://www.01net.com/actualites/le-double-jeu-dopenai-et-anthropic-contre-lia-gratuite-fait-scandale.html",
-          "summary": "En public, tout le monde adore l'open source. En coulisses, les deux stars de l'IA plaideraient à Washington pour la brider. La révélation a mis la Silicon Valley en ébullition, et forcé Anthropic à sortir du bois.",
-          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
-        },
-        {
-          "date": "28 juillet 2026",
-          "title": "Un « rappel des enjeux » : Sam Altman revient sur la cyberattaque provoquée par une IA d’OpenAI",
-          "source": "01net",
-          "url": "https://www.01net.com/actualites/rappel-enjeux-sam-altman-revient-cyberattaque-provoquee-par-ia-dopenai.html",
-          "summary": "Plusieurs jours après la fuite de deux modèles d’IA d’OpenAI et le piratage de Hugging Face, Sam Altman s'est pour la première fois exprimé sur l'incident. Le PDG d’OpenAI qualifie l’incident de « véritable rappel des enjeux » et estime...",
+          "url": "https://www.01net.com/actualites/cyberattaque-menee-ia-openai-fait-revelation-inattendue.html",
+          "summary": "Deux IA d'OpenAI se sont échappées de leur cage numérique et ont piraté Hugging Face en toute autonomie. Une semaine après les faits, OpenAI révèle que la cyberattaque ne s'est pas limitée à la plateforme open source. On apprend aussi qu...",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
           "date": "29 juillet 2026",
-          "title": "Kimi K3 : le plus gros modèle IA ouvert est désormais téléchargeable gratuitement",
+          "title": "Google Docs s’appuie désormais sur Gemini pour illustrer vos documents",
+          "source": "01net",
+          "url": "https://www.01net.com/actualites/google-docs-sappuie-desormais-sur-gemini-pour-generer-des-visuels-dans-vos-documents.html",
+          "summary": "Google vient d’annoncer l’intégration de Gemini dans Google Docs. L’intelligence artificielle pourra être exploitée pour créer et modifier des visuels, mais aussi générer des diagrammes et des infographies.",
+          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
+        },
+        {
+          "date": "29 juillet 2026",
+          "title": "Piratage de Hugging Face : l’agent IA d’OpenAI a aussi détourné 4 comptes externes",
           "source": "IT-Connect",
-          "url": "https://www.it-connect.fr/kimi-k3-poids-ouverts-moonshot-licence/",
-          "summary": "Moonshot AI a publié les poids de Kimi K3, son modèle IA avec 2 800 milliards de paramètres. Un record pour un modèle ouvert, mais le matériel pose des limites.",
+          "url": "https://www.it-connect.fr/openai-agent-ia-quatre-comptes-services-hugging-face/",
+          "summary": "OpenAI révèle que ses modèles IA ont utilisé des identifiants exposés sur quatre services tiers pendant l’intrusion chez Hugging Face. Modal Labs est concerné.",
+          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
+        },
+        {
+          "date": "29 juillet 2026",
+          "title": "Coup de tonnerre : les rois de l’IA demandent à être encadrés",
+          "source": "01net",
+          "url": "https://www.01net.com/actualites/coup-de-tonnerre-les-rois-de-lia-demandent-a-etre-encadres.html",
+          "summary": "Plus de 1 100 salariés d'OpenAI, d'Anthropic, de Google DeepMind et de Meta ont signé mardi le même texte. Leur demande : que quelqu'un fabrique la pédale de frein qu'aucun d'entre eux n'a le droit d'actionner.",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         }
       ]
