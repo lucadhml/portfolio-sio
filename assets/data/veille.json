@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-30",
+  "updatedAt": "2026-07-31",
   "methodologie": {
     "title": "Méthodologie de veille",
     "summary": "Ma veille technologique repose sur plusieurs sources complémentaires : IT-Connect, ANSSI et le CERT-FR pour la cybersécurité, 01net et Le Monde Informatique pour l'IA. Chaque jour, un script récupère automatiquement les nouvelles publications, calcule un score de pertinence par mots-clés, et sélectionne les 4 meilleures entrées par thème.",
@@ -118,6 +118,14 @@
       ],
       "entries": [
         {
+          "date": "30 juillet 2026",
+          "title": "Une « famille d’appareils » ChatGPT : OpenAI évoque l’avenir de son intelligence artificielle",
+          "source": "01net",
+          "url": "https://www.01net.com/actualites/famille-appareils-chatgpt-openai-evoque-avenir-intelligence-artificielle.html",
+          "summary": "OpenAI prépare un nouvel appareil qui pourrait changer notre manière d’utiliser ChatGPT. Très ambitieuse, la start-up planche même sur une famille complète d'appareils qui permettront de communiquer avec l'IA. Cette « famille d'appareils...",
+          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
+        },
+        {
           "date": "29 juillet 2026",
           "title": "OpenAI fait une révélation inattendue sur la cyberattaque lancée par un ChatGPT tricheur",
           "source": "01net",
@@ -126,27 +134,19 @@
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
-          "date": "29 juillet 2026",
-          "title": "Google Docs s’appuie désormais sur Gemini pour illustrer vos documents",
+          "date": "31 juillet 2026",
+          "title": "Anthropic révèle que Claude a piraté 3 entreprises, l’IA était hors de contrôle",
           "source": "01net",
-          "url": "https://www.01net.com/actualites/google-docs-sappuie-desormais-sur-gemini-pour-generer-des-visuels-dans-vos-documents.html",
-          "summary": "Google vient d’annoncer l’intégration de Gemini dans Google Docs. L’intelligence artificielle pourra être exploitée pour créer et modifier des visuels, mais aussi générer des diagrammes et des infographies.",
+          "url": "https://www.01net.com/actualites/anthropic-revele-claude-pirate-3-entreprises-ia-hors-controle.html",
+          "summary": "Après OpenAI, c'est au tour d'Anthropic d'admettre l'impensable. La start-up révèle avoir perdu le contrôle de trois versions de Claude au cours d'un test de cybersécurité. Les trois IA se sont connectées à Internet pour pirater trois en...",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
-          "date": "29 juillet 2026",
-          "title": "Piratage de Hugging Face : l’agent IA d’OpenAI a aussi détourné 4 comptes externes",
-          "source": "IT-Connect",
-          "url": "https://www.it-connect.fr/openai-agent-ia-quatre-comptes-services-hugging-face/",
-          "summary": "OpenAI révèle que ses modèles IA ont utilisé des identifiants exposés sur quatre services tiers pendant l’intrusion chez Hugging Face. Modal Labs est concerné.",
-          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
-        },
-        {
-          "date": "29 juillet 2026",
-          "title": "Coup de tonnerre : les rois de l’IA demandent à être encadrés",
+          "date": "30 juillet 2026",
+          "title": "« Se connecter avec ChatGPT » : OpenAI lance une alternative à la création de comptes avec Apple, Google, et Facebook",
           "source": "01net",
-          "url": "https://www.01net.com/actualites/coup-de-tonnerre-les-rois-de-lia-demandent-a-etre-encadres.html",
-          "summary": "Plus de 1 100 salariés d'OpenAI, d'Anthropic, de Google DeepMind et de Meta ont signé mardi le même texte. Leur demande : que quelqu'un fabrique la pédale de frein qu'aucun d'entre eux n'a le droit d'actionner.",
+          "url": "https://www.01net.com/actualites/connecter-chatgpt-openai-lance-alternative-creation-comptes-apple-google-facebook.html",
+          "summary": "OpenAI introduit l'option « Se connecter avec ChatGPT » pour simplifier la création de comptes en ligne. Cette fonctionnalité est, pour l'instant, réservée à certains de ses partenaires, comme GitLab et Notion. Peu à peu, un compte ChatG...",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         }
       ]
