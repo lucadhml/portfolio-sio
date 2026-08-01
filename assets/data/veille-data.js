@@ -1,5 +1,5 @@
 window.VEILLE_DATA = {
-  "updatedAt": "2026-07-31",
+  "updatedAt": "2026-08-01",
   "methodologie": {
     "title": "Méthodologie de veille",
     "summary": "Ma veille technologique repose sur plusieurs sources complémentaires : IT-Connect, ANSSI et le CERT-FR pour la cybersécurité, 01net et Le Monde Informatique pour l'IA. Chaque jour, un script récupère automatiquement les nouvelles publications, calcule un score de pertinence par mots-clés, et sélectionne les 4 meilleures entrées par thème.",
@@ -126,11 +126,11 @@ window.VEILLE_DATA = {
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
-          "date": "29 juillet 2026",
-          "title": "OpenAI fait une révélation inattendue sur la cyberattaque lancée par un ChatGPT tricheur",
+          "date": "31 juillet 2026",
+          "title": "Siri bientôt payant : Apple va faire payer les utilisateurs intensifs de l’IA",
           "source": "01net",
-          "url": "https://www.01net.com/actualites/cyberattaque-menee-ia-openai-fait-revelation-inattendue.html",
-          "summary": "Deux IA d'OpenAI se sont échappées de leur cage numérique et ont piraté Hugging Face en toute autonomie. Une semaine après les faits, OpenAI révèle que la cyberattaque ne s'est pas limitée à la plateforme open source. On apprend aussi qu...",
+          "url": "https://www.01net.com/actualites/siri-bientot-payant-apple-faire-payer-utilisateurs-intensifs-ia.html",
+          "summary": "Apple a mis au point une version améliorée de son assistant vocal, matinée d'IA générative. Malheureusement, Siri AI ne sera pas totalement gratuit. Tim Cook a prévenu que les utilisateurs qui en feront un usage intensif devront passer p...",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
