@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-01",
+  "updatedAt": "2026-08-02",
   "methodologie": {
     "title": "Méthodologie de veille",
     "summary": "Ma veille technologique repose sur plusieurs sources complémentaires : IT-Connect, ANSSI et le CERT-FR pour la cybersécurité, 01net et Le Monde Informatique pour l'IA. Chaque jour, un script récupère automatiquement les nouvelles publications, calcule un score de pertinence par mots-clés, et sélectionne les 4 meilleures entrées par thème.",
@@ -118,19 +118,19 @@
       ],
       "entries": [
         {
-          "date": "30 juillet 2026",
-          "title": "Une « famille d’appareils » ChatGPT : OpenAI évoque l’avenir de son intelligence artificielle",
-          "source": "01net",
-          "url": "https://www.01net.com/actualites/famille-appareils-chatgpt-openai-evoque-avenir-intelligence-artificielle.html",
-          "summary": "OpenAI prépare un nouvel appareil qui pourrait changer notre manière d’utiliser ChatGPT. Très ambitieuse, la start-up planche même sur une famille complète d'appareils qui permettront de communiquer avec l'IA. Cette « famille d'appareils...",
-          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
-        },
-        {
           "date": "31 juillet 2026",
           "title": "Siri bientôt payant : Apple va faire payer les utilisateurs intensifs de l’IA",
           "source": "01net",
           "url": "https://www.01net.com/actualites/siri-bientot-payant-apple-faire-payer-utilisateurs-intensifs-ia.html",
           "summary": "Apple a mis au point une version améliorée de son assistant vocal, matinée d'IA générative. Malheureusement, Siri AI ne sera pas totalement gratuit. Tim Cook a prévenu que les utilisateurs qui en feront un usage intensif devront passer p...",
+          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
+        },
+        {
+          "date": "2 août 2026",
+          "title": "Pourquoi l’IA de Google Earth a été désactivée d’urgence",
+          "source": "01net",
+          "url": "https://www.01net.com/actualites/pourquoi-lia-de-google-earth-a-ete-desactivee-durgence.html",
+          "summary": "Google a eu la main lourde avec l'intelligence artificielle générative. À peine intégré à Google Earth, l'outil Nano Banana 2 a permis à n'importe quel internaute de fabriquer de fausses images satellite susceptibles de propager des fake...",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
@@ -142,11 +142,11 @@
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
-          "date": "30 juillet 2026",
-          "title": "« Se connecter avec ChatGPT » : OpenAI lance une alternative à la création de comptes avec Apple, Google, et Facebook",
+          "date": "31 juillet 2026",
+          "title": "Microsoft va lancer une seule super app pour Copilot",
           "source": "01net",
-          "url": "https://www.01net.com/actualites/connecter-chatgpt-openai-lance-alternative-creation-comptes-apple-google-facebook.html",
-          "summary": "OpenAI introduit l'option « Se connecter avec ChatGPT » pour simplifier la création de comptes en ligne. Cette fonctionnalité est, pour l'instant, réservée à certains de ses partenaires, comme GitLab et Notion. Peu à peu, un compte ChatG...",
+          "url": "https://www.01net.com/actualites/microsoft-va-lancer-une-seule-super-app-pour-copilot.html",
+          "summary": "Chat, Cowork, agents Autopilot et même le code : tout doit converger « ce trimestre » dans une application unique, pour le grand public comme pour les entreprises. L'annonce tombe pile la semaine où OpenAI reconnaît avoir raté la sienne.",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         }
       ]
