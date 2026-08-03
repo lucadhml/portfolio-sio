@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-02",
+  "updatedAt": "2026-08-03",
   "methodologie": {
     "title": "Méthodologie de veille",
     "summary": "Ma veille technologique repose sur plusieurs sources complémentaires : IT-Connect, ANSSI et le CERT-FR pour la cybersécurité, 01net et Le Monde Informatique pour l'IA. Chaque jour, un script récupère automatiquement les nouvelles publications, calcule un score de pertinence par mots-clés, et sélectionne les 4 meilleures entrées par thème.",
@@ -118,14 +118,6 @@
       ],
       "entries": [
         {
-          "date": "31 juillet 2026",
-          "title": "Siri bientôt payant : Apple va faire payer les utilisateurs intensifs de l’IA",
-          "source": "01net",
-          "url": "https://www.01net.com/actualites/siri-bientot-payant-apple-faire-payer-utilisateurs-intensifs-ia.html",
-          "summary": "Apple a mis au point une version améliorée de son assistant vocal, matinée d'IA générative. Malheureusement, Siri AI ne sera pas totalement gratuit. Tim Cook a prévenu que les utilisateurs qui en feront un usage intensif devront passer p...",
-          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
-        },
-        {
           "date": "2 août 2026",
           "title": "Pourquoi l’IA de Google Earth a été désactivée d’urgence",
           "source": "01net",
@@ -134,19 +126,27 @@
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
-          "date": "31 juillet 2026",
-          "title": "Anthropic révèle que Claude a piraté 3 entreprises, l’IA était hors de contrôle",
-          "source": "01net",
-          "url": "https://www.01net.com/actualites/anthropic-revele-claude-pirate-3-entreprises-ia-hors-controle.html",
-          "summary": "Après OpenAI, c'est au tour d'Anthropic d'admettre l'impensable. La start-up révèle avoir perdu le contrôle de trois versions de Claude au cours d'un test de cybersécurité. Les trois IA se sont connectées à Internet pour pirater trois en...",
+          "date": "29 juillet 2026",
+          "title": "Piratage de Hugging Face : l’agent IA d’OpenAI a aussi détourné 4 comptes externes",
+          "source": "IT-Connect",
+          "url": "https://www.it-connect.fr/openai-agent-ia-quatre-comptes-services-hugging-face/",
+          "summary": "OpenAI révèle que ses modèles IA ont utilisé des identifiants exposés sur quatre services tiers pendant l’intrusion chez Hugging Face. Modal Labs est concerné.",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
-          "date": "31 juillet 2026",
-          "title": "Microsoft va lancer une seule super app pour Copilot",
+          "date": "2 août 2026",
+          "title": "ChatGPT n’écrit plus à la manière de vos auteurs préférés",
           "source": "01net",
-          "url": "https://www.01net.com/actualites/microsoft-va-lancer-une-seule-super-app-pour-copilot.html",
-          "summary": "Chat, Cowork, agents Autopilot et même le code : tout doit converger « ce trimestre » dans une application unique, pour le grand public comme pour les entreprises. L'annonce tombe pile la semaine où OpenAI reconnaît avoir raté la sienne.",
+          "url": "https://www.01net.com/actualites/chatgpt-necrit-plus-a-la-maniere-de-vos-auteurs-preferes.html",
+          "summary": "Demandez du Stephen King à ChatGPT : il décline poliment et propose « une ambiance similaire ». Une pudeur toute neuve pour une entreprise qui a englouti des bibliothèques entières sans demander l'avis des intéressés.",
+          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
+        },
+        {
+          "date": "29 juillet 2026",
+          "title": "Kimi K3 : le plus gros modèle IA ouvert est désormais téléchargeable gratuitement",
+          "source": "IT-Connect",
+          "url": "https://www.it-connect.fr/kimi-k3-poids-ouverts-moonshot-licence/",
+          "summary": "Moonshot AI a publié les poids de Kimi K3, son modèle IA avec 2 800 milliards de paramètres. Un record pour un modèle ouvert, mais le matériel pose des limites.",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         }
       ]
