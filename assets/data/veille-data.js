@@ -1,5 +1,5 @@
 window.VEILLE_DATA = {
-  "updatedAt": "2026-08-03",
+  "updatedAt": "2026-08-04",
   "methodologie": {
     "title": "Méthodologie de veille",
     "summary": "Ma veille technologique repose sur plusieurs sources complémentaires : IT-Connect, ANSSI et le CERT-FR pour la cybersécurité, 01net et Le Monde Informatique pour l'IA. Chaque jour, un script récupère automatiquement les nouvelles publications, calcule un score de pertinence par mots-clés, et sélectionne les 4 meilleures entrées par thème.",
@@ -118,11 +118,27 @@ window.VEILLE_DATA = {
       ],
       "entries": [
         {
-          "date": "2 août 2026",
-          "title": "Pourquoi l’IA de Google Earth a été désactivée d’urgence",
+          "date": "3 août 2026",
+          "title": "Le futur ChatGPT a résolu 10 énigmes mathématiques réputées insolubles",
           "source": "01net",
-          "url": "https://www.01net.com/actualites/pourquoi-lia-de-google-earth-a-ete-desactivee-durgence.html",
-          "summary": "Google a eu la main lourde avec l'intelligence artificielle générative. À peine intégré à Google Earth, l'outil Nano Banana 2 a permis à n'importe quel internaute de fabriquer de fausses images satellite susceptibles de propager des fake...",
+          "url": "https://www.01net.com/actualites/nouveau-chatgpt-resolu-10-enigmes-mathematiques-reputees-insolubles.html",
+          "summary": "Astra, la prochaine intelligence artificielle qui animera ChatGPT, vient de réaliser plusieurs percées historiques. OpenAI révèle que l'IA a résolu dix problèmes mathématiques restés insolubles depuis des décennies. Ces prouesses n'ont c...",
+          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
+        },
+        {
+          "date": "3 août 2026",
+          "title": "Chatbots, deepfakes, IA : l’Europe impose de nouvelles règles",
+          "source": "01net",
+          "url": "https://www.01net.com/actualites/chatbots-deepfakes-ia-leurope-impose-de-nouvelles-regles.html",
+          "summary": "Depuis le 2 août 2026, l’article 50 de l’AI Act impose de nouvelles règles aux fournisseurs de systèmes d’IA et aux plateformes en ligne. Voici tout ce qu’il faut savoir.",
+          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
+        },
+        {
+          "date": "4 août 2026",
+          "title": "Les IA d’OpenAI et d’Anthropic piratent des entreprises, l’Europe s’en mêle",
+          "source": "01net",
+          "url": "https://www.01net.com/actualites/ia-dopenai-anthropic-piratent-entreprises-bruxelles-mele.html",
+          "summary": "Des agents IA censés jouer aux pirates dans des bacs à sable ont fini par s'attaquer à de vraies entreprises. La Commission européenne demande des explications, au moment précis où elle obtient le droit de frapper au portefeuille.",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
@@ -131,22 +147,6 @@ window.VEILLE_DATA = {
           "source": "IT-Connect",
           "url": "https://www.it-connect.fr/openai-agent-ia-quatre-comptes-services-hugging-face/",
           "summary": "OpenAI révèle que ses modèles IA ont utilisé des identifiants exposés sur quatre services tiers pendant l’intrusion chez Hugging Face. Modal Labs est concerné.",
-          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
-        },
-        {
-          "date": "2 août 2026",
-          "title": "ChatGPT n’écrit plus à la manière de vos auteurs préférés",
-          "source": "01net",
-          "url": "https://www.01net.com/actualites/chatgpt-necrit-plus-a-la-maniere-de-vos-auteurs-preferes.html",
-          "summary": "Demandez du Stephen King à ChatGPT : il décline poliment et propose « une ambiance similaire ». Une pudeur toute neuve pour une entreprise qui a englouti des bibliothèques entières sans demander l'avis des intéressés.",
-          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
-        },
-        {
-          "date": "29 juillet 2026",
-          "title": "Kimi K3 : le plus gros modèle IA ouvert est désormais téléchargeable gratuitement",
-          "source": "IT-Connect",
-          "url": "https://www.it-connect.fr/kimi-k3-poids-ouverts-moonshot-licence/",
-          "summary": "Moonshot AI a publié les poids de Kimi K3, son modèle IA avec 2 800 milliards de paramètres. Un record pour un modèle ouvert, mais le matériel pose des limites.",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         }
       ]
