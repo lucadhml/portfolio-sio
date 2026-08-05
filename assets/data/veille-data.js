@@ -1,5 +1,5 @@
 window.VEILLE_DATA = {
-  "updatedAt": "2026-08-04",
+  "updatedAt": "2026-08-05",
   "methodologie": {
     "title": "Méthodologie de veille",
     "summary": "Ma veille technologique repose sur plusieurs sources complémentaires : IT-Connect, ANSSI et le CERT-FR pour la cybersécurité, 01net et Le Monde Informatique pour l'IA. Chaque jour, un script récupère automatiquement les nouvelles publications, calcule un score de pertinence par mots-clés, et sélectionne les 4 meilleures entrées par thème.",
@@ -118,27 +118,11 @@ window.VEILLE_DATA = {
       ],
       "entries": [
         {
-          "date": "3 août 2026",
-          "title": "Le futur ChatGPT a résolu 10 énigmes mathématiques réputées insolubles",
+          "date": "5 août 2026",
+          "title": "ChatGPT et Claude ont échappé à tout contrôle : les IA ont lancé 2 nouvelles cyberattaques « dans le monde réel »",
           "source": "01net",
-          "url": "https://www.01net.com/actualites/nouveau-chatgpt-resolu-10-enigmes-mathematiques-reputees-insolubles.html",
-          "summary": "Astra, la prochaine intelligence artificielle qui animera ChatGPT, vient de réaliser plusieurs percées historiques. OpenAI révèle que l'IA a résolu dix problèmes mathématiques restés insolubles depuis des décennies. Ces prouesses n'ont c...",
-          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
-        },
-        {
-          "date": "3 août 2026",
-          "title": "Chatbots, deepfakes, IA : l’Europe impose de nouvelles règles",
-          "source": "01net",
-          "url": "https://www.01net.com/actualites/chatbots-deepfakes-ia-leurope-impose-de-nouvelles-regles.html",
-          "summary": "Depuis le 2 août 2026, l’article 50 de l’AI Act impose de nouvelles règles aux fournisseurs de systèmes d’IA et aux plateformes en ligne. Voici tout ce qu’il faut savoir.",
-          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
-        },
-        {
-          "date": "4 août 2026",
-          "title": "Les IA d’OpenAI et d’Anthropic piratent des entreprises, l’Europe s’en mêle",
-          "source": "01net",
-          "url": "https://www.01net.com/actualites/ia-dopenai-anthropic-piratent-entreprises-bruxelles-mele.html",
-          "summary": "Des agents IA censés jouer aux pirates dans des bacs à sable ont fini par s'attaquer à de vraies entreprises. La Commission européenne demande des explications, au moment précis où elle obtient le droit de frapper au portefeuille.",
+          "url": "https://www.01net.com/actualites/chatgpt-claude-echappe-tout-controle-ia-lance-2-nouvelles-cyberattaques-monde-reel.html",
+          "summary": "Deux nouvelles cyberattaques ont été orchestrées par des IA hors de contrôle. Lors de tests réalisés par des tiers, Claude et ChatGPT se sont en effet retrouvés en roue libre sur Internet. Les deux IA se sont attaquées à des personnes ré...",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
@@ -147,6 +131,22 @@ window.VEILLE_DATA = {
           "source": "IT-Connect",
           "url": "https://www.it-connect.fr/openai-agent-ia-quatre-comptes-services-hugging-face/",
           "summary": "OpenAI révèle que ses modèles IA ont utilisé des identifiants exposés sur quatre services tiers pendant l’intrusion chez Hugging Face. Modal Labs est concerné.",
+          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
+        },
+        {
+          "date": "29 juillet 2026",
+          "title": "Kimi K3 : le plus gros modèle IA ouvert est désormais téléchargeable gratuitement",
+          "source": "IT-Connect",
+          "url": "https://www.it-connect.fr/kimi-k3-poids-ouverts-moonshot-licence/",
+          "summary": "Moonshot AI a publié les poids de Kimi K3, son modèle IA avec 2 800 milliards de paramètres. Un record pour un modèle ouvert, mais le matériel pose des limites.",
+          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
+        },
+        {
+          "date": "5 août 2026",
+          "title": "Comment le Snapdragon X2 Elite transforme votre PC en assistant personnel",
+          "source": "01net",
+          "url": "https://www.01net.com/bons-plans/comment-le-snapdragon-x2-elite-transforme-votre-pc-en-assistant-personnel.html",
+          "summary": "Jusqu'à présent, votre ordinateur se contentait d'obéir. Vous cliquiez, il exécutait la tâche, et le reste du travail vous revenait. Aujourd'hui, le Snapdragon® X2 Elite renverse ce rapport. Son processeur dédié à l'intelligence artifici...",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         }
       ]
