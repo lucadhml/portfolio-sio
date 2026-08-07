@@ -1,5 +1,5 @@
 window.VEILLE_DATA = {
-  "updatedAt": "2026-08-06",
+  "updatedAt": "2026-08-07",
   "methodologie": {
     "title": "Méthodologie de veille",
     "summary": "Ma veille technologique repose sur plusieurs sources complémentaires : IT-Connect, ANSSI et le CERT-FR pour la cybersécurité, 01net et Le Monde Informatique pour l'IA. Chaque jour, un script récupère automatiquement les nouvelles publications, calcule un score de pertinence par mots-clés, et sélectionne les 4 meilleures entrées par thème.",
@@ -118,19 +118,27 @@ window.VEILLE_DATA = {
       ],
       "entries": [
         {
-          "date": "5 août 2026",
-          "title": "ChatGPT et Claude ont échappé à tout contrôle : les IA ont lancé 2 nouvelles cyberattaques « dans le monde réel »",
+          "date": "6 août 2026",
+          "title": "Après ChatGPT et Claude, Meta AI a dérapé et piraté une entreprise",
           "source": "01net",
-          "url": "https://www.01net.com/actualites/chatgpt-claude-echappe-tout-controle-ia-lance-2-nouvelles-cyberattaques-monde-reel.html",
-          "summary": "Deux nouvelles cyberattaques ont été orchestrées par des IA hors de contrôle. Lors de tests réalisés par des tiers, Claude et ChatGPT se sont en effet retrouvés en roue libre sur Internet. Les deux IA se sont attaquées à des personnes ré...",
+          "url": "https://www.01net.com/actualites/apres-chatgpt-claude-meta-ai-derape-pirate-entreprise.html",
+          "summary": "L’une des IA les plus performantes de Meta s'est échappée sur Internet durant une évaluation. Une fois en ligne, Meta AI a découvert et exploité une faille de sécurité dans le système d'une entreprise. Comme ChatGPT et Claude, Meta AI a...",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
-          "date": "5 août 2026",
-          "title": "Paré pour le futur : Samsung dévoile une puce de nouvelle génération taillée pour l’IA",
+          "date": "7 août 2026",
+          "title": "Une mise à jour de ChatGPT corrige deux gros défauts et supprime une limite majeure",
           "source": "01net",
-          "url": "https://www.01net.com/actualites/pare-pour-le-futur-samsung-devoile-une-puce-de-nouvelle-generation-taillee-pour-lia.html",
-          "summary": "Samsung a dévoilé la puce V10 BV-NAND, capable d’empiler plus de 400 couches de mémoire flash. Son objectif ? Répondre aux besoins des futurs systèmes et applications d'intelligence artificielle.",
+          "url": "https://www.01net.com/actualites/une-mise-a-jour-de-chatgpt-corrige-deux-gros-defauts-et-supprime-une-limite-majeure.html",
+          "summary": "OpenAI a décidé de supprimer la limite d’utilisation de GPT-5.6 pour les utilisateurs Free et Go. De plus, l’entreprise assure avoir travaillé pour corriger deux des plus gros défauts du modèle de langage.",
+          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
+        },
+        {
+          "date": "7 août 2026",
+          "title": "300 dollars pour un donut ChatGPT : le mystérieux projet d’OpenAI continue de se dévoiler",
+          "source": "01net",
+          "url": "https://www.01net.com/actualites/300-dollars-donut-ia-pari-fou-openai-continue-devoiler.html",
+          "summary": "Un donut, un palet de hockey, un design déjà vu, des pièces mobiles, et un métal haut de gamme. C'est ce qui ressort d'un nouveau rapport Bloomberg consacré au premier appareil mystérieux conçu par OpenAI. L'appareil, taillé pour donner...",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
@@ -139,14 +147,6 @@ window.VEILLE_DATA = {
           "source": "IT-Connect",
           "url": "https://www.it-connect.fr/openai-agent-ia-quatre-comptes-services-hugging-face/",
           "summary": "OpenAI révèle que ses modèles IA ont utilisé des identifiants exposés sur quatre services tiers pendant l’intrusion chez Hugging Face. Modal Labs est concerné.",
-          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
-        },
-        {
-          "date": "29 juillet 2026",
-          "title": "Kimi K3 : le plus gros modèle IA ouvert est désormais téléchargeable gratuitement",
-          "source": "IT-Connect",
-          "url": "https://www.it-connect.fr/kimi-k3-poids-ouverts-moonshot-licence/",
-          "summary": "Moonshot AI a publié les poids de Kimi K3, son modèle IA avec 2 800 milliards de paramètres. Un record pour un modèle ouvert, mais le matériel pose des limites.",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         }
       ]
