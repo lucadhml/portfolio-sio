@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-08",
+  "updatedAt": "2026-08-09",
   "methodologie": {
     "title": "Méthodologie de veille",
     "summary": "Ma veille technologique repose sur plusieurs sources complémentaires : IT-Connect, ANSSI et le CERT-FR pour la cybersécurité, 01net et Le Monde Informatique pour l'IA. Chaque jour, un script récupère automatiquement les nouvelles publications, calcule un score de pertinence par mots-clés, et sélectionne les 4 meilleures entrées par thème.",
@@ -118,6 +118,14 @@
       ],
       "entries": [
         {
+          "date": "8 août 2026",
+          "title": "OpenAI dévoile les coulisses étonnantes de la première cyberattaque orchestrée par ChatGPT",
+          "source": "01net",
+          "url": "https://www.01net.com/actualites/openai-devoile-coulisses-etonnantes-premiere-cyberattaque-orchestree-ia.html",
+          "summary": "OpenAI revient sur les circonstances de la toute première cyberattaque orchestrée en toute autonomie par ChatGPT. La start-up révèle que l'attaque découle en fait d'un forum secret, mis au point par ses agents IA. Sur ce forum, les agent...",
+          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
+        },
+        {
           "date": "7 août 2026",
           "title": "Une mise à jour de ChatGPT corrige deux gros défauts et supprime une limite majeure",
           "source": "01net",
@@ -139,14 +147,6 @@
           "source": "IT-Connect",
           "url": "https://www.it-connect.fr/openai-agent-ia-quatre-comptes-services-hugging-face/",
           "summary": "OpenAI révèle que ses modèles IA ont utilisé des identifiants exposés sur quatre services tiers pendant l’intrusion chez Hugging Face. Modal Labs est concerné.",
-          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
-        },
-        {
-          "date": "6 août 2026",
-          "title": "« Pourrie jusqu’à la moelle » : OpenAI accuse Apple de vouloir masquer ses échecs dans l’IA",
-          "source": "01net",
-          "url": "https://www.01net.com/actualites/pourrie-jusqua-la-moelle-openai-accuse-apple-de-vouloir-masquer-ses-echecs-dans-lia.html",
-          "summary": "Dans le cadre d’une affaire liée à des soupçons de vol de secrets commerciaux impliquant d’anciens employés d’Apple, l’entreprise à la pomme a demandé au tribunal d’ordonner une procédure accélérée de communication de pièces. OpenAI a de...",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         }
       ]
