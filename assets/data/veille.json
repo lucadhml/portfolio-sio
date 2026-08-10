@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-09",
+  "updatedAt": "2026-08-10",
   "methodologie": {
     "title": "Méthodologie de veille",
     "summary": "Ma veille technologique repose sur plusieurs sources complémentaires : IT-Connect, ANSSI et le CERT-FR pour la cybersécurité, 01net et Le Monde Informatique pour l'IA. Chaque jour, un script récupère automatiquement les nouvelles publications, calcule un score de pertinence par mots-clés, et sélectionne les 4 meilleures entrées par thème.",
@@ -126,19 +126,11 @@
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
-          "date": "7 août 2026",
-          "title": "Une mise à jour de ChatGPT corrige deux gros défauts et supprime une limite majeure",
+          "date": "10 août 2026",
+          "title": "OpenAI ralentit le développement de ChatGPT 6 pour des raisons de sécurité",
           "source": "01net",
-          "url": "https://www.01net.com/actualites/une-mise-a-jour-de-chatgpt-corrige-deux-gros-defauts-et-supprime-une-limite-majeure.html",
-          "summary": "OpenAI a décidé de supprimer la limite d’utilisation de GPT-5.6 pour les utilisateurs Free et Go. De plus, l’entreprise assure avoir travaillé pour corriger deux des plus gros défauts du modèle de langage.",
-          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
-        },
-        {
-          "date": "7 août 2026",
-          "title": "300 dollars pour un donut ChatGPT : le mystérieux projet d’OpenAI continue de se dévoiler",
-          "source": "01net",
-          "url": "https://www.01net.com/actualites/300-dollars-donut-ia-pari-fou-openai-continue-devoiler.html",
-          "summary": "Un donut, un palet de hockey, un design déjà vu, des pièces mobiles, et un métal haut de gamme. C'est ce qui ressort d'un nouveau rapport Bloomberg consacré au premier appareil mystérieux conçu par OpenAI. L'appareil, taillé pour donner...",
+          "url": "https://www.01net.com/actualites/openai-met-gpt-6-sous-cloche-juge-trop-doue-en-piratage-apres-lepisode-hugging-face.html",
+          "summary": "OpenAI vient de mettre à l'arrêt une partie du développement de son prochain modèle. Motif invoqué : l'entreprise ne parvient plus à exclure qu'Astra sache repérer et exploiter des failles inédites, seul, sans la moindre aide humaine.",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
@@ -147,6 +139,14 @@
           "source": "IT-Connect",
           "url": "https://www.it-connect.fr/openai-agent-ia-quatre-comptes-services-hugging-face/",
           "summary": "OpenAI révèle que ses modèles IA ont utilisé des identifiants exposés sur quatre services tiers pendant l’intrusion chez Hugging Face. Modal Labs est concerné.",
+          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
+        },
+        {
+          "date": "29 juillet 2026",
+          "title": "Kimi K3 : le plus gros modèle IA ouvert est désormais téléchargeable gratuitement",
+          "source": "IT-Connect",
+          "url": "https://www.it-connect.fr/kimi-k3-poids-ouverts-moonshot-licence/",
+          "summary": "Moonshot AI a publié les poids de Kimi K3, son modèle IA avec 2 800 milliards de paramètres. Un record pour un modèle ouvert, mais le matériel pose des limites.",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         }
       ]
