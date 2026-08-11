@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-10",
+  "updatedAt": "2026-08-11",
   "methodologie": {
     "title": "Méthodologie de veille",
     "summary": "Ma veille technologique repose sur plusieurs sources complémentaires : IT-Connect, ANSSI et le CERT-FR pour la cybersécurité, 01net et Le Monde Informatique pour l'IA. Chaque jour, un script récupère automatiquement les nouvelles publications, calcule un score de pertinence par mots-clés, et sélectionne les 4 meilleures entrées par thème.",
@@ -118,16 +118,16 @@
       ],
       "entries": [
         {
-          "date": "8 août 2026",
-          "title": "OpenAI dévoile les coulisses étonnantes de la première cyberattaque orchestrée par ChatGPT",
+          "date": "11 août 2026",
+          "title": "OpenAI dégaine un nouveau ChatGPT programmé pour traquer les failles de sécurité… et les exploiter",
           "source": "01net",
-          "url": "https://www.01net.com/actualites/openai-devoile-coulisses-etonnantes-premiere-cyberattaque-orchestree-ia.html",
-          "summary": "OpenAI revient sur les circonstances de la toute première cyberattaque orchestrée en toute autonomie par ChatGPT. La start-up révèle que l'attaque découle en fait d'un forum secret, mis au point par ses agents IA. Sur ce forum, les agent...",
+          "url": "https://www.01net.com/actualites/openai-degaine-un-nouveau-chatgpt-programme-pour-traquer-les-failles-de-securite-et-les-exploiter.html",
+          "summary": "OpenAI vient d'annoncer GPT-5.6-Cyber, une toute nouvelle intelligence artificielle capable de traquer les failles zero-day et de bâtir des chaînes d'exploitation complètes. Réservé aux professionnels vérifiés du fameux programme Daybrea...",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
           "date": "10 août 2026",
-          "title": "OpenAI ralentit le développement de ChatGPT 6 pour des raisons de sécurité",
+          "title": "OpenAI suspend une partie du développement du futur ChatGPT pour des raisons de sécurité",
           "source": "01net",
           "url": "https://www.01net.com/actualites/openai-met-gpt-6-sous-cloche-juge-trop-doue-en-piratage-apres-lepisode-hugging-face.html",
           "summary": "OpenAI vient de mettre à l'arrêt une partie du développement de son prochain modèle. Motif invoqué : l'entreprise ne parvient plus à exclure qu'Astra sache repérer et exploiter des failles inédites, seul, sans la moindre aide humaine.",
@@ -142,11 +142,11 @@
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
-          "date": "29 juillet 2026",
-          "title": "Kimi K3 : le plus gros modèle IA ouvert est désormais téléchargeable gratuitement",
-          "source": "IT-Connect",
-          "url": "https://www.it-connect.fr/kimi-k3-poids-ouverts-moonshot-licence/",
-          "summary": "Moonshot AI a publié les poids de Kimi K3, son modèle IA avec 2 800 milliards de paramètres. Un record pour un modèle ouvert, mais le matériel pose des limites.",
+          "date": "10 août 2026",
+          "title": "Google Chrome change d’interface sur Android pour imposer son bouton Gemini",
+          "source": "01net",
+          "url": "https://www.01net.com/actualites/google-chrome-change-dinterface-sur-android-pour-imposer-son-bouton-gemini.html",
+          "summary": "Google déploie une nouvelle interface sur Chrome pour Android. La barre de navigation s'enrichit d'un bouton dédié à l'IA Gemini pour analyser vos onglets.",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         }
       ]
