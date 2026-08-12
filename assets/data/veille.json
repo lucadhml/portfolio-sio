@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-11",
+  "updatedAt": "2026-08-12",
   "methodologie": {
     "title": "Méthodologie de veille",
     "summary": "Ma veille technologique repose sur plusieurs sources complémentaires : IT-Connect, ANSSI et le CERT-FR pour la cybersécurité, 01net et Le Monde Informatique pour l'IA. Chaque jour, un script récupère automatiquement les nouvelles publications, calcule un score de pertinence par mots-clés, et sélectionne les 4 meilleures entrées par thème.",
@@ -126,11 +126,19 @@
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
-          "date": "10 août 2026",
-          "title": "OpenAI suspend une partie du développement du futur ChatGPT pour des raisons de sécurité",
+          "date": "11 août 2026",
+          "title": "Anthropic va marquer tous les textes générés par Claude, mais l’idée a « ses limites »",
           "source": "01net",
-          "url": "https://www.01net.com/actualites/openai-met-gpt-6-sous-cloche-juge-trop-doue-en-piratage-apres-lepisode-hugging-face.html",
-          "summary": "OpenAI vient de mettre à l'arrêt une partie du développement de son prochain modèle. Motif invoqué : l'entreprise ne parvient plus à exclure qu'Astra sache repérer et exploiter des failles inédites, seul, sans la moindre aide humaine.",
+          "url": "https://www.01net.com/actualites/anthropic-marquer-textes-generes-claude.html",
+          "summary": "Afin de se conformer aux nouvelles règles de l’Union européenne, Anthropic va mettre en place un système d’étiquetage des contenus générés par l’intelligence artificielle. Celui-ci repose sur des filigranes intégrés au texte et des métad...",
+          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
+        },
+        {
+          "date": "12 août 2026",
+          "title": "Ne cherchez plus sur Google : Ford ajoute une IA survoltée pour tout contrôler dans votre voiture",
+          "source": "01net",
+          "url": "https://www.01net.com/actualites/ne-cherchez-plus-google-ford-integre-ia-pour-tout-controler-voiture.html",
+          "summary": "Ford déploie sur son application mobile un assistant dopé à l’intelligence artificielle pour assister l’utilisateur dans ses demandes. Il sera par exemple possible de consulter son niveau de carburant ou encore la capacité de chargement...",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
@@ -139,14 +147,6 @@
           "source": "IT-Connect",
           "url": "https://www.it-connect.fr/openai-agent-ia-quatre-comptes-services-hugging-face/",
           "summary": "OpenAI révèle que ses modèles IA ont utilisé des identifiants exposés sur quatre services tiers pendant l’intrusion chez Hugging Face. Modal Labs est concerné.",
-          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
-        },
-        {
-          "date": "10 août 2026",
-          "title": "Google Chrome change d’interface sur Android pour imposer son bouton Gemini",
-          "source": "01net",
-          "url": "https://www.01net.com/actualites/google-chrome-change-dinterface-sur-android-pour-imposer-son-bouton-gemini.html",
-          "summary": "Google déploie une nouvelle interface sur Chrome pour Android. La barre de navigation s'enrichit d'un bouton dédié à l'IA Gemini pour analyser vos onglets.",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         }
       ]
