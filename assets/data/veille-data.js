@@ -1,5 +1,5 @@
 window.VEILLE_DATA = {
-  "updatedAt": "2026-08-12",
+  "updatedAt": "2026-08-13",
   "methodologie": {
     "title": "Méthodologie de veille",
     "summary": "Ma veille technologique repose sur plusieurs sources complémentaires : IT-Connect, ANSSI et le CERT-FR pour la cybersécurité, 01net et Le Monde Informatique pour l'IA. Chaque jour, un script récupère automatiquement les nouvelles publications, calcule un score de pertinence par mots-clés, et sélectionne les 4 meilleures entrées par thème.",
@@ -118,22 +118,6 @@ window.VEILLE_DATA = {
       ],
       "entries": [
         {
-          "date": "11 août 2026",
-          "title": "OpenAI dégaine un nouveau ChatGPT programmé pour traquer les failles de sécurité… et les exploiter",
-          "source": "01net",
-          "url": "https://www.01net.com/actualites/openai-degaine-un-nouveau-chatgpt-programme-pour-traquer-les-failles-de-securite-et-les-exploiter.html",
-          "summary": "OpenAI vient d'annoncer GPT-5.6-Cyber, une toute nouvelle intelligence artificielle capable de traquer les failles zero-day et de bâtir des chaînes d'exploitation complètes. Réservé aux professionnels vérifiés du fameux programme Daybrea...",
-          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
-        },
-        {
-          "date": "11 août 2026",
-          "title": "Anthropic va marquer tous les textes générés par Claude, mais l’idée a « ses limites »",
-          "source": "01net",
-          "url": "https://www.01net.com/actualites/anthropic-marquer-textes-generes-claude.html",
-          "summary": "Afin de se conformer aux nouvelles règles de l’Union européenne, Anthropic va mettre en place un système d’étiquetage des contenus générés par l’intelligence artificielle. Celui-ci repose sur des filigranes intégrés au texte et des métad...",
-          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
-        },
-        {
           "date": "12 août 2026",
           "title": "Ne cherchez plus sur Google : Ford ajoute une IA survoltée pour tout contrôler dans votre voiture",
           "source": "01net",
@@ -147,6 +131,22 @@ window.VEILLE_DATA = {
           "source": "IT-Connect",
           "url": "https://www.it-connect.fr/openai-agent-ia-quatre-comptes-services-hugging-face/",
           "summary": "OpenAI révèle que ses modèles IA ont utilisé des identifiants exposés sur quatre services tiers pendant l’intrusion chez Hugging Face. Modal Labs est concerné.",
+          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
+        },
+        {
+          "date": "29 juillet 2026",
+          "title": "Kimi K3 : le plus gros modèle IA ouvert est désormais téléchargeable gratuitement",
+          "source": "IT-Connect",
+          "url": "https://www.it-connect.fr/kimi-k3-poids-ouverts-moonshot-licence/",
+          "summary": "Moonshot AI a publié les poids de Kimi K3, son modèle IA avec 2 800 milliards de paramètres. Un record pour un modèle ouvert, mais le matériel pose des limites.",
+          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
+        },
+        {
+          "date": "12 août 2026",
+          "title": "Insta360 X6 : cette caméra 360 veut monter vos vidéos à votre place",
+          "source": "01net",
+          "url": "https://www.01net.com/actualites/insta360-x6-cette-camera-360-veut-monter-vos-videos-a-votre-place.html",
+          "summary": "Insta360 vient d'officialiser la X6, une nouvelle caméra à 360 degrés qui mise sur des capteurs agrandis, l'enregistrement vidéo en 8K et la compatibilité Dolby Vision pour séduire les créateurs, tout en s'appuyant sur un montage entière...",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         }
       ]
