@@ -1,5 +1,5 @@
 window.VEILLE_DATA = {
-  "updatedAt": "2026-08-13",
+  "updatedAt": "2026-08-14",
   "methodologie": {
     "title": "Méthodologie de veille",
     "summary": "Ma veille technologique repose sur plusieurs sources complémentaires : IT-Connect, ANSSI et le CERT-FR pour la cybersécurité, 01net et Le Monde Informatique pour l'IA. Chaque jour, un script récupère automatiquement les nouvelles publications, calcule un score de pertinence par mots-clés, et sélectionne les 4 meilleures entrées par thème.",
@@ -118,11 +118,11 @@ window.VEILLE_DATA = {
       ],
       "entries": [
         {
-          "date": "12 août 2026",
-          "title": "Ne cherchez plus sur Google : Ford ajoute une IA survoltée pour tout contrôler dans votre voiture",
+          "date": "13 août 2026",
+          "title": "Amazon va utiliser les données des utilisateurs Twitch pour entraîner son IA, comment s’y opposer ?",
           "source": "01net",
-          "url": "https://www.01net.com/actualites/ne-cherchez-plus-google-ford-integre-ia-pour-tout-controler-voiture.html",
-          "summary": "Ford déploie sur son application mobile un assistant dopé à l’intelligence artificielle pour assister l’utilisateur dans ses demandes. Il sera par exemple possible de consulter son niveau de carburant ou encore la capacité de chargement...",
+          "url": "https://www.01net.com/actualites/amazon-utiliser-donnees-utilisateurs-twitch-entrainer-ia-voici-comment-opposer.html",
+          "summary": "Amazon va utiliser les contenus des chaînes Twitch pour entraîner un nouveau modèle d’intelligence artificielle générative. Heureusement, il est possible de s’y opposer. Voici comment faire.",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
@@ -142,11 +142,11 @@ window.VEILLE_DATA = {
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
-          "date": "12 août 2026",
-          "title": "Insta360 X6 : cette caméra 360 veut monter vos vidéos à votre place",
-          "source": "01net",
-          "url": "https://www.01net.com/actualites/insta360-x6-cette-camera-360-veut-monter-vos-videos-a-votre-place.html",
-          "summary": "Insta360 vient d'officialiser la X6, une nouvelle caméra à 360 degrés qui mise sur des capteurs agrandis, l'enregistrement vidéo en 8K et la compatibilité Dolby Vision pour séduire les créateurs, tout en s'appuyant sur un montage entière...",
+          "date": "30 juillet 2026",
+          "title": "Copilot pour Word : ce ver IA se propage tout seul de document en document",
+          "source": "IT-Connect",
+          "url": "https://www.it-connect.fr/copilot-word-ver-ia-auto-propage-documents/",
+          "summary": "Un chercheur a démontré un ver caché en texte blanc dans un document Word. Copilot le recopie dans les fichiers qu’il rédige, et la faille reste exploitable.",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         }
       ]
