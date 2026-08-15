@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-14",
+  "updatedAt": "2026-08-15",
   "methodologie": {
     "title": "Méthodologie de veille",
     "summary": "Ma veille technologique repose sur plusieurs sources complémentaires : IT-Connect, ANSSI et le CERT-FR pour la cybersécurité, 01net et Le Monde Informatique pour l'IA. Chaque jour, un script récupère automatiquement les nouvelles publications, calcule un score de pertinence par mots-clés, et sélectionne les 4 meilleures entrées par thème.",
@@ -126,6 +126,14 @@
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
+          "date": "14 août 2026",
+          "title": "Le ChatGPT le plus intelligent peut maintenant répondre 14 fois plus vite : à quoi ça sert ?",
+          "source": "01net",
+          "url": "https://www.01net.com/actualites/le-chatgpt-le-plus-intelligent-peut-maintenant-repondre-14-fois-plus-vite-a-quoi-ca-sert.html",
+          "summary": "Le modèle le plus intelligent d'OpenAI vient de gagner un mode turbo. Sauf qu'il n'arrivera pas dans ChatGPT, qu'aucun tarif n'a été annoncé, et qu'une poignée d'entreprises seulement y ont accès.",
+          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
+        },
+        {
           "date": "29 juillet 2026",
           "title": "Piratage de Hugging Face : l’agent IA d’OpenAI a aussi détourné 4 comptes externes",
           "source": "IT-Connect",
@@ -134,19 +142,11 @@
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
-          "date": "29 juillet 2026",
-          "title": "Kimi K3 : le plus gros modèle IA ouvert est désormais téléchargeable gratuitement",
-          "source": "IT-Connect",
-          "url": "https://www.it-connect.fr/kimi-k3-poids-ouverts-moonshot-licence/",
-          "summary": "Moonshot AI a publié les poids de Kimi K3, son modèle IA avec 2 800 milliards de paramètres. Un record pour un modèle ouvert, mais le matériel pose des limites.",
-          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
-        },
-        {
-          "date": "30 juillet 2026",
-          "title": "Copilot pour Word : ce ver IA se propage tout seul de document en document",
-          "source": "IT-Connect",
-          "url": "https://www.it-connect.fr/copilot-word-ver-ia-auto-propage-documents/",
-          "summary": "Un chercheur a démontré un ver caché en texte blanc dans un document Word. Copilot le recopie dans les fichiers qu’il rédige, et la faille reste exploitable.",
+          "date": "15 août 2026",
+          "title": "Gemini 3.7 Flash : Google délaisse les modèles de pointe pour affronter les IA chinoises sur le prix",
+          "source": "01net",
+          "url": "https://www.01net.com/actualites/gemini-3-7-flash-google-delaisse-les-modeles-de-pointe-pour-affronter-les-ia-chinoises-sur-le-prix.html",
+          "summary": "Trois semaines après le précédent, Google sort un nouveau modèle et divise son tarif par deux. Son modèle de pointe, lui, se fait toujours attendre depuis le mois de mai.",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         }
       ]
