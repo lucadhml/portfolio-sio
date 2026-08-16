@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-15",
+  "updatedAt": "2026-08-16",
   "methodologie": {
     "title": "Méthodologie de veille",
     "summary": "Ma veille technologique repose sur plusieurs sources complémentaires : IT-Connect, ANSSI et le CERT-FR pour la cybersécurité, 01net et Le Monde Informatique pour l'IA. Chaque jour, un script récupère automatiquement les nouvelles publications, calcule un score de pertinence par mots-clés, et sélectionne les 4 meilleures entrées par thème.",
@@ -118,11 +118,11 @@
       ],
       "entries": [
         {
-          "date": "13 août 2026",
-          "title": "Amazon va utiliser les données des utilisateurs Twitch pour entraîner son IA, comment s’y opposer ?",
+          "date": "15 août 2026",
+          "title": "ChatGPT affichera des publicités en France dès la fin du mois",
           "source": "01net",
-          "url": "https://www.01net.com/actualites/amazon-utiliser-donnees-utilisateurs-twitch-entrainer-ia-voici-comment-opposer.html",
-          "summary": "Amazon va utiliser les contenus des chaînes Twitch pour entraîner un nouveau modèle d’intelligence artificielle générative. Heureusement, il est possible de s’y opposer. Voici comment faire.",
+          "url": "https://www.01net.com/actualites/chatgpt-affichera-des-publicites-en-france-des-la-fin-du-mois.html",
+          "summary": "Fini le tête-à-tête : vos conversations avec ChatGPT accueilleront bientôt un troisième participant, l'annonceur. OpenAI a prévenu ses utilisateurs européens, la publicité arrive fin août.",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
