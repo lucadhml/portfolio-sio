@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-17",
+  "updatedAt": "2026-08-18",
   "methodologie": {
     "title": "Méthodologie de veille",
     "summary": "Ma veille technologique repose sur plusieurs sources complémentaires : IT-Connect, ANSSI et le CERT-FR pour la cybersécurité, 01net et Le Monde Informatique pour l'IA. Chaque jour, un script récupère automatiquement les nouvelles publications, calcule un score de pertinence par mots-clés, et sélectionne les 4 meilleures entrées par thème.",
@@ -61,19 +61,19 @@
       ],
       "entries": [
         {
+          "date": "18 août 2026",
+          "title": "Patch Tuesday Août 2026 : 421 failles corrigées et une zero-day exploitée par Lazarus",
+          "source": "IT-Connect",
+          "url": "https://www.it-connect.fr/patch-tuesday-aout-2026-421-failles-corrigees-3-zero-day/",
+          "summary": "Microsoft a corrigé 421 vulnérabilités en août 2026, dont 3 zero-day. L’une d’elles était déjà exploitée par Lazarus pour déployer son rootkit FudModule.",
+          "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
+        },
+        {
           "date": "21 juillet 2026",
           "title": "Exigences du CRA : processus de notification pour les organismes notifiés",
           "source": "ANSSI",
           "url": "http://cyber.sites.beta.gouv.fr/actualites/exigences-du-cra-processus-de-notification-pour-les-organismes-notifies/",
           "summary": "Dans un contexte marqué par l’exploitation croissante de vulnérabilités affectant des produits numériques ayant un niveau de cybersécurité insuffisant, le […]",
-          "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
-        },
-        {
-          "date": "30 juillet 2026",
-          "title": "VMware : 3 failles critiques dans vCenter et ESX, dont une évasion de machine virtuelle",
-          "source": "IT-Connect",
-          "url": "https://www.it-connect.fr/vmware-3-failles-critiques-vcenter-esx-juillet-2026/",
-          "summary": "Le 29 juillet 2026, Broadcom a dévoilé cinq vulnérabilités dans les solutions VMware ESX, dont la CVE-2026-47876 qui est de type VM escape.",
           "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
         },
         {
@@ -85,11 +85,11 @@
           "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
         },
         {
-          "date": "29 juillet 2026",
-          "title": "Apple : plus de 200 failles patchées dans tous ses systèmes, dont 11 trouvées avec l’IA",
-          "source": "IT-Connect",
-          "url": "https://www.it-connect.fr/apple-plus-de-200-failles-patchees-tous-ses-systemes/",
-          "summary": "Patchs Apple : contournements de Gatekeeper, accès root sur macOS, faille dans le noyau. Aucun zero-day, mais onze failles découvertes avec l’IA.",
+          "date": "21 janvier 2026",
+          "title": "Vulnérabilité dans telnetd (21 janvier 2026)",
+          "source": "CERT-FR",
+          "url": "https://www.cert.ssi.gouv.fr/actualite/CERTFR-2026-ACT-003/",
+          "summary": "Le 20 janvier 2026, les détails de la vulnérabilité CVE-2026-24061, affectant *telnetd*, ont été publiés. Cette vulnérabilité permet à un attaquant de contourner l'authentification et de se connecter à une machine vulnérable en tant que...",
           "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
         }
       ]
@@ -118,35 +118,35 @@
       ],
       "entries": [
         {
-          "date": "15 août 2026",
-          "title": "ChatGPT affichera des publicités en France dès la fin du mois",
+          "date": "17 août 2026",
+          "title": "« ChatGPT m’a gâché mon voyage » : le cauchemar des touristes qui font aveuglément confiance à l’IA",
           "source": "01net",
-          "url": "https://www.01net.com/actualites/chatgpt-affichera-des-publicites-en-france-des-la-fin-du-mois.html",
-          "summary": "Fini le tête-à-tête : vos conversations avec ChatGPT accueilleront bientôt un troisième participant, l'annonceur. OpenAI a prévenu ses utilisateurs européens, la publicité arrive fin août.",
+          "url": "https://www.01net.com/actualites/chatgpt-ma-gache-mon-voyage-le-cauchemar-des-touristes-qui-font-aveuglement-confiance-a-lia.html",
+          "summary": "Restaurants fantômes, visas oubliés et itinéraires de randonnée dangereux : utiliser l'intelligence artificielle pour organiser ses vacances peut être un pari très risqué.",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
-          "date": "14 août 2026",
-          "title": "Le ChatGPT le plus intelligent peut maintenant répondre 14 fois plus vite : à quoi ça sert ?",
-          "source": "01net",
-          "url": "https://www.01net.com/actualites/le-chatgpt-le-plus-intelligent-peut-maintenant-repondre-14-fois-plus-vite-a-quoi-ca-sert.html",
-          "summary": "Le modèle le plus intelligent d'OpenAI vient de gagner un mode turbo. Sauf qu'il n'arrivera pas dans ChatGPT, qu'aucun tarif n'a été annoncé, et qu'une poignée d'entreprises seulement y ont accès.",
-          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
-        },
-        {
-          "date": "29 juillet 2026",
-          "title": "Piratage de Hugging Face : l’agent IA d’OpenAI a aussi détourné 4 comptes externes",
+          "date": "30 juillet 2026",
+          "title": "Copilot pour Word : ce ver IA se propage tout seul de document en document",
           "source": "IT-Connect",
-          "url": "https://www.it-connect.fr/openai-agent-ia-quatre-comptes-services-hugging-face/",
-          "summary": "OpenAI révèle que ses modèles IA ont utilisé des identifiants exposés sur quatre services tiers pendant l’intrusion chez Hugging Face. Modal Labs est concerné.",
+          "url": "https://www.it-connect.fr/copilot-word-ver-ia-auto-propage-documents/",
+          "summary": "Un chercheur a démontré un ver caché en texte blanc dans un document Word. Copilot le recopie dans les fichiers qu’il rédige, et la faille reste exploitable.",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
-          "date": "15 août 2026",
-          "title": "Gemini 3.7 Flash : Google délaisse les modèles de pointe pour affronter les IA chinoises sur le prix",
-          "source": "01net",
-          "url": "https://www.01net.com/actualites/gemini-3-7-flash-google-delaisse-les-modeles-de-pointe-pour-affronter-les-ia-chinoises-sur-le-prix.html",
-          "summary": "Trois semaines après le précédent, Google sort un nouveau modèle et divise son tarif par deux. Son modèle de pointe, lui, se fait toujours attendre depuis le mois de mai.",
+          "date": "31 juillet 2026",
+          "title": "Anthropic l’avoue : Claude a piraté 3 entreprises pendant ses tests cyber",
+          "source": "IT-Connect",
+          "url": "https://www.it-connect.fr/anthropic-claude-incidents-tests-cybersecurite-pypi/",
+          "summary": "Anthropic affirme que, dans le cadre de tests cyber, Claude a compromis de vraies entreprises et publié un paquet malveillant sur PyPI.",
+          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
+        },
+        {
+          "date": "17 août 2026",
+          "title": "Lundi 17 août 2026 : Microsoft confirme que GitHub est en panne à l’échelle mondiale !",
+          "source": "IT-Connect",
+          "url": "https://www.it-connect.fr/panne-mondiale-github-lundi-17-aout-2026/",
+          "summary": "GitHub subit une panne mondiale ce 17 août 2026 : 20 % d’erreurs sur le web et l’API, Actions, Copilot et les pull requests dégradés. Voici ce que l’on sait.",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         }
       ]
