@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-18",
+  "updatedAt": "2026-08-19",
   "methodologie": {
     "title": "Méthodologie de veille",
     "summary": "Ma veille technologique repose sur plusieurs sources complémentaires : IT-Connect, ANSSI et le CERT-FR pour la cybersécurité, 01net et Le Monde Informatique pour l'IA. Chaque jour, un script récupère automatiquement les nouvelles publications, calcule un score de pertinence par mots-clés, et sélectionne les 4 meilleures entrées par thème.",
@@ -77,19 +77,19 @@
           "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
         },
         {
+          "date": "18 août 2026",
+          "title": "ShieldBreak : cette faille zero-day menace Windows, Microsoft prépare un patch",
+          "source": "IT-Connect",
+          "url": "https://www.it-connect.fr/shieldbreak-zero-day-defender-cve-2026-69414/",
+          "summary": "Nightmare Eclipse a publié ShieldBreak, une faille zero-day qui contourne le patch RoguePlanet de Microsoft Defender. Microsoft dit travailler sur un correctif.",
+          "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
+        },
+        {
           "date": "11 mars 2026",
           "title": "Panorama de la cybermenace 2025 : La France toujours sous la pression des cyber attaquants",
           "source": "ANSSI",
           "url": "http://cyber.sites.beta.gouv.fr/actualites/panorama-de-la-cybermenace-2025/",
           "summary": "Dans le Panorama de la cybermenace 2025, l’Agence nationale de la sécurité des systèmes d’information (ANSSI) présente le bilan d’une […]",
-          "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
-        },
-        {
-          "date": "21 janvier 2026",
-          "title": "Vulnérabilité dans telnetd (21 janvier 2026)",
-          "source": "CERT-FR",
-          "url": "https://www.cert.ssi.gouv.fr/actualite/CERTFR-2026-ACT-003/",
-          "summary": "Le 20 janvier 2026, les détails de la vulnérabilité CVE-2026-24061, affectant *telnetd*, ont été publiés. Cette vulnérabilité permet à un attaquant de contourner l'authentification et de se connecter à une machine vulnérable en tant que...",
           "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
         }
       ]
@@ -118,35 +118,35 @@
       ],
       "entries": [
         {
-          "date": "17 août 2026",
-          "title": "« ChatGPT m’a gâché mon voyage » : le cauchemar des touristes qui font aveuglément confiance à l’IA",
+          "date": "18 août 2026",
+          "title": "ChatGPT pour les ados : OpenAI lance des comptes dédiés pour les moins de 18 ans",
           "source": "01net",
-          "url": "https://www.01net.com/actualites/chatgpt-ma-gache-mon-voyage-le-cauchemar-des-touristes-qui-font-aveuglement-confiance-a-lia.html",
-          "summary": "Restaurants fantômes, visas oubliés et itinéraires de randonnée dangereux : utiliser l'intelligence artificielle pour organiser ses vacances peut être un pari très risqué.",
+          "url": "https://www.01net.com/actualites/chatgpt-pour-les-ados-openai-lance-des-comptes-dedies-pour-les-moins-de-18-ans.html",
+          "summary": "OpenAI lance les comptes pour adolescents. Ceux-ci intègrent un mode Étude, ainsi que des garde-fous pour préserver le bien-être des plus jeunes.",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
-          "date": "30 juillet 2026",
-          "title": "Copilot pour Word : ce ver IA se propage tout seul de document en document",
-          "source": "IT-Connect",
-          "url": "https://www.it-connect.fr/copilot-word-ver-ia-auto-propage-documents/",
-          "summary": "Un chercheur a démontré un ver caché en texte blanc dans un document Word. Copilot le recopie dans les fichiers qu’il rédige, et la faille reste exploitable.",
+          "date": "18 août 2026",
+          "title": "La nouveauté la plus impressionnante des Pixel 11 n’est clairement pas celle que l’on croit",
+          "source": "01net",
+          "url": "https://www.01net.com/actualites/la-nouveaute-la-plus-impressionnante-des-pixel-11-nest-clairement-pas-celle-que-lon-croit.html",
+          "summary": "À l'occasion du lancement des Pixel 11, Google DeepMind a dévoilé SL2T, un modèle d'IA capable de traduire la langue des signes en texte en temps réel. Intégré à Gboard et à Live Transcribe, il permet aux utilisateurs sourds et malentend...",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
-          "date": "31 juillet 2026",
-          "title": "Anthropic l’avoue : Claude a piraté 3 entreprises pendant ses tests cyber",
-          "source": "IT-Connect",
-          "url": "https://www.it-connect.fr/anthropic-claude-incidents-tests-cybersecurite-pypi/",
-          "summary": "Anthropic affirme que, dans le cadre de tests cyber, Claude a compromis de vraies entreprises et publié un paquet malveillant sur PyPI.",
+          "date": "19 août 2026",
+          "title": "Microsoft optimise Windows pour les PC avec 8 Go de RAM…mais refuse toujours le label Copilot+",
+          "source": "01net",
+          "url": "https://www.01net.com/actualites/microsoft-optimise-windows-pour-les-pc-avec-8-go-de-ram-mais-refuse-toujours-le-label-copilot.html",
+          "summary": "Windows 11 va enfin apprendre à vivre avec 8 Go de RAM. L'IA maison, elle, campe derrière ses 16 Go. Les PC pas chers auront un système plus léger, et toujours pas de Copilot+.",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
-          "date": "17 août 2026",
-          "title": "Lundi 17 août 2026 : Microsoft confirme que GitHub est en panne à l’échelle mondiale !",
-          "source": "IT-Connect",
-          "url": "https://www.it-connect.fr/panne-mondiale-github-lundi-17-aout-2026/",
-          "summary": "GitHub subit une panne mondiale ce 17 août 2026 : 20 % d’erreurs sur le web et l’API, Actions, Copilot et les pull requests dégradés. Voici ce que l’on sait.",
+          "date": "19 août 2026",
+          "title": "Après Anthropic, Amazon découpe à son tour des livres pour entraîner son IA",
+          "source": "01net",
+          "url": "https://www.01net.com/actualites/apres-anthropic-amazon-decoupe-a-son-tour-des-livres-pour-entrainer-son-ia.html",
+          "summary": "Un AirTag glissé entre deux pages, des semaines de route, et une découverte au bout : l'ancien libraire du web massicote des livres rares pour nourrir ses modèles. Anthropic avait ouvert la voie, Amazon industrialise.",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         }
       ]
