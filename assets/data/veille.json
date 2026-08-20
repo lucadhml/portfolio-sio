@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-19",
+  "updatedAt": "2026-08-20",
   "methodologie": {
     "title": "Méthodologie de veille",
     "summary": "Ma veille technologique repose sur plusieurs sources complémentaires : IT-Connect, ANSSI et le CERT-FR pour la cybersécurité, 01net et Le Monde Informatique pour l'IA. Chaque jour, un script récupère automatiquement les nouvelles publications, calcule un score de pertinence par mots-clés, et sélectionne les 4 meilleures entrées par thème.",
@@ -118,35 +118,35 @@
       ],
       "entries": [
         {
-          "date": "18 août 2026",
-          "title": "ChatGPT pour les ados : OpenAI lance des comptes dédiés pour les moins de 18 ans",
+          "date": "19 août 2026",
+          "title": "Un « niveau critique » : OpenAI suspend le développement de son prochain ChatGPT",
           "source": "01net",
-          "url": "https://www.01net.com/actualites/chatgpt-pour-les-ados-openai-lance-des-comptes-dedies-pour-les-moins-de-18-ans.html",
-          "summary": "OpenAI lance les comptes pour adolescents. Ceux-ci intègrent un mode Étude, ainsi que des garde-fous pour préserver le bien-être des plus jeunes.",
+          "url": "https://www.01net.com/actualites/un-seuil-de-capacite-critique-openai-suspend-le-developpement-de-son-prochain-chatgpt.html",
+          "summary": "OpenAI affronte un problème d'un genre nouveau : son futur modèle Astra progresse si vite en piratage que l'entreprise refuse de le pousser à fond. Et la surveillance qui va avec dévore une part folle de sa puissance de calcul.",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
-          "date": "18 août 2026",
-          "title": "La nouveauté la plus impressionnante des Pixel 11 n’est clairement pas celle que l’on croit",
+          "date": "20 août 2026",
+          "title": "Gmail : Claude peut désormais cliquer sur « Envoyer » sans vous demander la permission",
           "source": "01net",
-          "url": "https://www.01net.com/actualites/la-nouveaute-la-plus-impressionnante-des-pixel-11-nest-clairement-pas-celle-que-lon-croit.html",
-          "summary": "À l'occasion du lancement des Pixel 11, Google DeepMind a dévoilé SL2T, un modèle d'IA capable de traduire la langue des signes en texte en temps réel. Intégré à Gboard et à Live Transcribe, il permet aux utilisateurs sourds et malentend...",
+          "url": "https://www.01net.com/actualites/gmail-claude-peut-desormais-cliquer-sur-envoyer-sans-vous-demander-la-permission.html",
+          "summary": "Claude franchit une nouvelle étape dans son intégration à Gmail : l'assistant IA d'Anthropic peut désormais répondre, transférer et envoyer des e-mails directement, sans validation systématique de l'utilisateur. Une option pratique pour...",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
           "date": "19 août 2026",
-          "title": "Microsoft optimise Windows pour les PC avec 8 Go de RAM…mais refuse toujours le label Copilot+",
+          "title": "L’arrivée de Siri AI sur Apple TV 4K se confirme, mais l’Europe pose problème",
           "source": "01net",
-          "url": "https://www.01net.com/actualites/microsoft-optimise-windows-pour-les-pc-avec-8-go-de-ram-mais-refuse-toujours-le-label-copilot.html",
-          "summary": "Windows 11 va enfin apprendre à vivre avec 8 Go de RAM. L'IA maison, elle, campe derrière ses 16 Go. Les PC pas chers auront un système plus léger, et toujours pas de Copilot+.",
+          "url": "https://www.01net.com/actualites/larrivee-siri-ai-apple-tv-4k-confirme-mais-europe-pose-probleme.html",
+          "summary": "tvOS 27 intègre désormais une application SiriAI. Celle-ci n’est pour l’instant pas fonctionnelle, mais elle annonce clairement l’arrivée du nouvel assistant IA d’Apple sur l’Apple TV 4K. Il reste à voir si les citoyens européens pourron...",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
-          "date": "19 août 2026",
-          "title": "Après Anthropic, Amazon découpe à son tour des livres pour entraîner son IA",
+          "date": "20 août 2026",
+          "title": "Recherche IA et onglets qui se rangent tout seuls : le Smart Window de Firefox 154 snobe l’Europe",
           "source": "01net",
-          "url": "https://www.01net.com/actualites/apres-anthropic-amazon-decoupe-a-son-tour-des-livres-pour-entrainer-son-ia.html",
-          "summary": "Un AirTag glissé entre deux pages, des semaines de route, et une découverte au bout : l'ancien libraire du web massicote des livres rares pour nourrir ses modèles. Anthropic avait ouvert la voie, Amazon industrialise.",
+          "url": "https://www.01net.com/actualites/recherche-ia-et-onglets-qui-se-rangent-tout-seuls-le-smart-window-de-firefox-154-snobe-leurope.html",
+          "summary": "Mozilla gonfle sa fenêtre intelligente : recherche IA qui cite ses sources, onglets regroupés tout seuls, doublons chassés en un clic. Les utilisateurs européens, eux, contemplent la démonstration derrière la vitrine.",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         }
       ]
