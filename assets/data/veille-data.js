@@ -1,5 +1,5 @@
 window.VEILLE_DATA = {
-  "updatedAt": "2026-08-20",
+  "updatedAt": "2026-08-21",
   "methodologie": {
     "title": "Méthodologie de veille",
     "summary": "Ma veille technologique repose sur plusieurs sources complémentaires : IT-Connect, ANSSI et le CERT-FR pour la cybersécurité, 01net et Le Monde Informatique pour l'IA. Chaque jour, un script récupère automatiquement les nouvelles publications, calcule un score de pertinence par mots-clés, et sélectionne les 4 meilleures entrées par thème.",
@@ -118,35 +118,27 @@ window.VEILLE_DATA = {
       ],
       "entries": [
         {
-          "date": "19 août 2026",
-          "title": "Un « niveau critique » : OpenAI suspend le développement de son prochain ChatGPT",
+          "date": "20 août 2026",
+          "title": "Google Photos : cette nouvelle fonction va complètement changer la façon de retrouver vos photos",
           "source": "01net",
-          "url": "https://www.01net.com/actualites/un-seuil-de-capacite-critique-openai-suspend-le-developpement-de-son-prochain-chatgpt.html",
-          "summary": "OpenAI affronte un problème d'un genre nouveau : son futur modèle Astra progresse si vite en piratage que l'entreprise refuse de le pousser à fond. Et la surveillance qui va avec dévore une part folle de sa puissance de calcul.",
+          "url": "https://www.01net.com/actualites/google-photos-nouvelle-fonction-changer-facon-retrouver-vos-photos.html",
+          "summary": "Google prépare une évolution bienvenue pour « Demander à Photos », son outil de recherche dopé à l’intelligence artificielle. En effet, une nouvelle option d'affichage qui prend la forme d’une carte géographique est en cours de développe...",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
           "date": "20 août 2026",
-          "title": "Gmail : Claude peut désormais cliquer sur « Envoyer » sans vous demander la permission",
-          "source": "01net",
-          "url": "https://www.01net.com/actualites/gmail-claude-peut-desormais-cliquer-sur-envoyer-sans-vous-demander-la-permission.html",
-          "summary": "Claude franchit une nouvelle étape dans son intégration à Gmail : l'assistant IA d'Anthropic peut désormais répondre, transférer et envoyer des e-mails directement, sans validation systématique de l'utilisateur. Une option pratique pour...",
+          "title": "Votre PC utilise-t-il vraiment son NPU ? Windows 11 peut vous le dire",
+          "source": "IT-Connect",
+          "url": "https://www.it-connect.fr/windows-11-gestionnaire-taches-surveillance-npu-charges-ia/",
+          "summary": "Microsoft explique comment lire les colonnes NPU et GPU du Gestionnaire des tâches pour savoir si vos applications exploitent le matériel IA de la machine.",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
-          "date": "19 août 2026",
-          "title": "L’arrivée de Siri AI sur Apple TV 4K se confirme, mais l’Europe pose problème",
-          "source": "01net",
-          "url": "https://www.01net.com/actualites/larrivee-siri-ai-apple-tv-4k-confirme-mais-europe-pose-probleme.html",
-          "summary": "tvOS 27 intègre désormais une application SiriAI. Celle-ci n’est pour l’instant pas fonctionnelle, mais elle annonce clairement l’arrivée du nouvel assistant IA d’Apple sur l’Apple TV 4K. Il reste à voir si les citoyens européens pourron...",
-          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
-        },
-        {
-          "date": "20 août 2026",
-          "title": "Recherche IA et onglets qui se rangent tout seuls : le Smart Window de Firefox 154 snobe l’Europe",
-          "source": "01net",
-          "url": "https://www.01net.com/actualites/recherche-ia-et-onglets-qui-se-rangent-tout-seuls-le-smart-window-de-firefox-154-snobe-leurope.html",
-          "summary": "Mozilla gonfle sa fenêtre intelligente : recherche IA qui cite ses sources, onglets regroupés tout seuls, doublons chassés en un clic. Les utilisateurs européens, eux, contemplent la démonstration derrière la vitrine.",
+          "date": "18 août 2026",
+          "title": "IA : il cache une injection de prompt dans un document judiciaire, le juge le sanctionne",
+          "source": "IT-Connect",
+          "url": "https://www.it-connect.fr/injection-prompt-document-judiciaire-connecticut-sanction/",
+          "summary": "Un plaignant a caché du texte blanc dans ses écritures pour manipuler toute IA lisant le document. Le juge lui a retiré l’accès au dépôt en ligne.",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         }
       ]
