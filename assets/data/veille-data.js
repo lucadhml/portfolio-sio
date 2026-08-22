@@ -1,5 +1,5 @@
 window.VEILLE_DATA = {
-  "updatedAt": "2026-08-21",
+  "updatedAt": "2026-08-22",
   "methodologie": {
     "title": "Méthodologie de veille",
     "summary": "Ma veille technologique repose sur plusieurs sources complémentaires : IT-Connect, ANSSI et le CERT-FR pour la cybersécurité, 01net et Le Monde Informatique pour l'IA. Chaque jour, un script récupère automatiquement les nouvelles publications, calcule un score de pertinence par mots-clés, et sélectionne les 4 meilleures entrées par thème.",
@@ -61,11 +61,19 @@ window.VEILLE_DATA = {
       ],
       "entries": [
         {
-          "date": "18 août 2026",
-          "title": "Patch Tuesday Août 2026 : 421 failles corrigées et une zero-day exploitée par Lazarus",
+          "date": "21 août 2026",
+          "title": "Entra ID : une faille critique a été exploitée, mais vous n’avez rien à patcher",
           "source": "IT-Connect",
-          "url": "https://www.it-connect.fr/patch-tuesday-aout-2026-421-failles-corrigees-3-zero-day/",
-          "summary": "Microsoft a corrigé 421 vulnérabilités en août 2026, dont 3 zero-day. L’une d’elles était déjà exploitée par Lazarus pour déployer son rootkit FudModule.",
+          "url": "https://www.it-connect.fr/entra-id-cve-2026-69836-faille-cvss-10-exploitee/",
+          "summary": "Microsoft a corrigé la CVE-2026-69836, une faille critique dans Entra ID déjà exploitée dans la nature. La bonne nouvelle : vous n’avez rien à faire.",
+          "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
+        },
+        {
+          "date": "21 août 2026",
+          "title": "GitLab : la faille critique CVE-2026-19478 est déjà exploitée, deux jours après le correctif",
+          "source": "IT-Connect",
+          "url": "https://www.it-connect.fr/gitlab-cve-2026-19478-faille-critique-exploitee/",
+          "summary": "Deux jours après le correctif publié par GitLab, la faille critique CVE-2026-19478 fait l’objet de tentatives d’exploitation par les pirates.",
           "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
         },
         {
@@ -77,19 +85,11 @@ window.VEILLE_DATA = {
           "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
         },
         {
-          "date": "18 août 2026",
-          "title": "ShieldBreak : cette faille zero-day menace Windows, Microsoft prépare un patch",
+          "date": "21 août 2026",
+          "title": "Citrix NetScaler (CVE-2026-19490) : cette faille critique permet de contourner l’authentification",
           "source": "IT-Connect",
-          "url": "https://www.it-connect.fr/shieldbreak-zero-day-defender-cve-2026-69414/",
-          "summary": "Nightmare Eclipse a publié ShieldBreak, une faille zero-day qui contourne le patch RoguePlanet de Microsoft Defender. Microsoft dit travailler sur un correctif.",
-          "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
-        },
-        {
-          "date": "11 mars 2026",
-          "title": "Panorama de la cybermenace 2025 : La France toujours sous la pression des cyber attaquants",
-          "source": "ANSSI",
-          "url": "http://cyber.sites.beta.gouv.fr/actualites/panorama-de-la-cybermenace-2025/",
-          "summary": "Dans le Panorama de la cybermenace 2025, l’Agence nationale de la sécurité des systèmes d’information (ANSSI) présente le bilan d’une […]",
+          "url": "https://www.it-connect.fr/citrix-netscaler-cve-2026-19490-contournement-authentification/",
+          "summary": "Citrix a corrigé deux vulnérabilités dans NetScaler ADC et Gateway. La CVE-2026-19490 ouvre la porte à un contournement de l’authentification à distance.",
           "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
         }
       ]
@@ -118,11 +118,19 @@ window.VEILLE_DATA = {
       ],
       "entries": [
         {
-          "date": "20 août 2026",
-          "title": "Google Photos : cette nouvelle fonction va complètement changer la façon de retrouver vos photos",
+          "date": "21 août 2026",
+          "title": "ChatGPT peut maintenant écrire et envoyer vos textos, mais peut-on lui faire confiance ?",
           "source": "01net",
-          "url": "https://www.01net.com/actualites/google-photos-nouvelle-fonction-changer-facon-retrouver-vos-photos.html",
-          "summary": "Google prépare une évolution bienvenue pour « Demander à Photos », son outil de recherche dopé à l’intelligence artificielle. En effet, une nouvelle option d'affichage qui prend la forme d’une carte géographique est en cours de développe...",
+          "url": "https://www.01net.com/actualites/chatgpt-peut-maintenant-ecrire-et-envoyer-vos-textos.html",
+          "summary": "OpenAI lance une extension Apple Messages pour son application macOS qui permet à ChatGPT de lire, chercher et envoyer des textos directement depuis votre ordinateur. Oui, il faut avoir confiance.",
+          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
+        },
+        {
+          "date": "21 août 2026",
+          "title": "Graft, l’outil open source qui cartographie votre code pour les agents IA",
+          "source": "IT-Connect",
+          "url": "https://www.it-connect.fr/graft-contexte-open-source-agents-ia-codage/",
+          "summary": "Graft, outil open source signé Nanonets, transforme votre dépôt en graphe Markdown lisible par Claude Code, Cursor ou Codex. De quoi brûler moins de tokens.",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
@@ -131,14 +139,6 @@ window.VEILLE_DATA = {
           "source": "IT-Connect",
           "url": "https://www.it-connect.fr/windows-11-gestionnaire-taches-surveillance-npu-charges-ia/",
           "summary": "Microsoft explique comment lire les colonnes NPU et GPU du Gestionnaire des tâches pour savoir si vos applications exploitent le matériel IA de la machine.",
-          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
-        },
-        {
-          "date": "18 août 2026",
-          "title": "IA : il cache une injection de prompt dans un document judiciaire, le juge le sanctionne",
-          "source": "IT-Connect",
-          "url": "https://www.it-connect.fr/injection-prompt-document-judiciaire-connecticut-sanction/",
-          "summary": "Un plaignant a caché du texte blanc dans ses écritures pour manipuler toute IA lisant le document. Le juge lui a retiré l’accès au dépôt en ligne.",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         }
       ]
