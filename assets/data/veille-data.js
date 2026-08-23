@@ -1,5 +1,5 @@
 window.VEILLE_DATA = {
-  "updatedAt": "2026-08-22",
+  "updatedAt": "2026-08-23",
   "methodologie": {
     "title": "Méthodologie de veille",
     "summary": "Ma veille technologique repose sur plusieurs sources complémentaires : IT-Connect, ANSSI et le CERT-FR pour la cybersécurité, 01net et Le Monde Informatique pour l'IA. Chaque jour, un script récupère automatiquement les nouvelles publications, calcule un score de pertinence par mots-clés, et sélectionne les 4 meilleures entrées par thème.",
@@ -62,7 +62,7 @@ window.VEILLE_DATA = {
       "entries": [
         {
           "date": "21 août 2026",
-          "title": "Entra ID : une faille critique a été exploitée, mais vous n’avez rien à patcher",
+          "title": "Entra ID : une faille critique a été patchée, mais vous n’avez rien à faire",
           "source": "IT-Connect",
           "url": "https://www.it-connect.fr/entra-id-cve-2026-69836-faille-cvss-10-exploitee/",
           "summary": "Microsoft a corrigé la CVE-2026-69836, une faille critique dans Entra ID déjà exploitée dans la nature. La bonne nouvelle : vous n’avez rien à faire.",
@@ -119,18 +119,26 @@ window.VEILLE_DATA = {
       "entries": [
         {
           "date": "21 août 2026",
-          "title": "ChatGPT peut maintenant écrire et envoyer vos textos, mais peut-on lui faire confiance ?",
-          "source": "01net",
-          "url": "https://www.01net.com/actualites/chatgpt-peut-maintenant-ecrire-et-envoyer-vos-textos.html",
-          "summary": "OpenAI lance une extension Apple Messages pour son application macOS qui permet à ChatGPT de lire, chercher et envoyer des textos directement depuis votre ordinateur. Oui, il faut avoir confiance.",
-          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
-        },
-        {
-          "date": "21 août 2026",
           "title": "Graft, l’outil open source qui cartographie votre code pour les agents IA",
           "source": "IT-Connect",
           "url": "https://www.it-connect.fr/graft-contexte-open-source-agents-ia-codage/",
           "summary": "Graft, outil open source signé Nanonets, transforme votre dépôt en graphe Markdown lisible par Claude Code, Cursor ou Codex. De quoi brûler moins de tokens.",
+          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
+        },
+        {
+          "date": "22 août 2026",
+          "title": "Test Aiper Scuba V3 : le robot piscine avec une caméra pour voir sous l’eau",
+          "source": "01net",
+          "url": "https://www.01net.com/tests/avis-aiper-scuba-v3-test.html",
+          "summary": "Le Scuba V3 est un robot de piscine qui ne se contente plus de quadriller le fond et les parois. Aiper lui ajoute, pour la première fois, une caméra et une intelligence artificielle censées affiner son comportement au fil des semaines. P...",
+          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
+        },
+        {
+          "date": "22 août 2026",
+          "title": "Midjourney et les autres IA deviennent trop gros pour être pris en flagrant délit de plagiat",
+          "source": "01net",
+          "url": "https://www.01net.com/actualites/midjourney-et-les-autres-ia-deviennent-trop-gros-pour-etre-pris-en-flagrant-delit-de-plagiat.html",
+          "summary": "Plus une IA d'images avale de données, moins on peut prouver qu'elle recopie. Des chercheurs du MIT viennent de le démontrer, et les avocats des artistes ne vont pas aimer la suite.",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
