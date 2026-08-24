@@ -1,5 +1,5 @@
 window.VEILLE_DATA = {
-  "updatedAt": "2026-08-23",
+  "updatedAt": "2026-08-24",
   "methodologie": {
     "title": "Méthodologie de veille",
     "summary": "Ma veille technologique repose sur plusieurs sources complémentaires : IT-Connect, ANSSI et le CERT-FR pour la cybersécurité, 01net et Le Monde Informatique pour l'IA. Chaque jour, un script récupère automatiquement les nouvelles publications, calcule un score de pertinence par mots-clés, et sélectionne les 4 meilleures entrées par thème.",
@@ -126,27 +126,19 @@ window.VEILLE_DATA = {
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
-          "date": "22 août 2026",
-          "title": "Test Aiper Scuba V3 : le robot piscine avec une caméra pour voir sous l’eau",
+          "date": "23 août 2026",
+          "title": "Arnaque aux faux colis IA : ce SMS circule toujours, voici comment éviter le piège",
           "source": "01net",
-          "url": "https://www.01net.com/tests/avis-aiper-scuba-v3-test.html",
-          "summary": "Le Scuba V3 est un robot de piscine qui ne se contente plus de quadriller le fond et les parois. Aiper lui ajoute, pour la première fois, une caméra et une intelligence artificielle censées affiner son comportement au fil des semaines. P...",
+          "url": "https://www.01net.com/actualites/arnaque-aux-faux-colis-ia-ce-sms-circule-toujours-voici-comment-eviter-le-piege.html",
+          "summary": "Plusieurs mois après son apparition, l'arnaque au faux colis généré par IA continue de piéger les Français. Le Ministère de l'Intérieur alerte à nouveau, on vous explique comment la repérer.",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
-          "date": "22 août 2026",
-          "title": "Midjourney et les autres IA deviennent trop gros pour être pris en flagrant délit de plagiat",
-          "source": "01net",
-          "url": "https://www.01net.com/actualites/midjourney-et-les-autres-ia-deviennent-trop-gros-pour-etre-pris-en-flagrant-delit-de-plagiat.html",
-          "summary": "Plus une IA d'images avale de données, moins on peut prouver qu'elle recopie. Des chercheurs du MIT viennent de le démontrer, et les avocats des artistes ne vont pas aimer la suite.",
-          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
-        },
-        {
-          "date": "20 août 2026",
-          "title": "Votre PC utilise-t-il vraiment son NPU ? Windows 11 peut vous le dire",
+          "date": "24 août 2026",
+          "title": "Amazon découpe des livres rares pour entraîner son IA : un AirTag a suivi le colis jusqu’à Las Vegas",
           "source": "IT-Connect",
-          "url": "https://www.it-connect.fr/windows-11-gestionnaire-taches-surveillance-npu-charges-ia/",
-          "summary": "Microsoft explique comment lire les colonnes NPU et GPU du Gestionnaire des tâches pour savoir si vos applications exploitent le matériel IA de la machine.",
+          "url": "https://www.it-connect.fr/amazon-detruit-livres-rares-entrainement-ia/",
+          "summary": "Un AirTag glissé dans un livre a mené des journalistes jusqu’à un entrepôt Amazon de Las Vegas, où les reliures sont découpées et les pages scannées pour l’IA.",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         }
       ]
