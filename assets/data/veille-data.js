@@ -1,5 +1,5 @@
 window.VEILLE_DATA = {
-  "updatedAt": "2026-08-24",
+  "updatedAt": "2026-08-25",
   "methodologie": {
     "title": "Méthodologie de veille",
     "summary": "Ma veille technologique repose sur plusieurs sources complémentaires : IT-Connect, ANSSI et le CERT-FR pour la cybersécurité, 01net et Le Monde Informatique pour l'IA. Chaque jour, un script récupère automatiquement les nouvelles publications, calcule un score de pertinence par mots-clés, et sélectionne les 4 meilleures entrées par thème.",
@@ -123,14 +123,6 @@ window.VEILLE_DATA = {
           "source": "IT-Connect",
           "url": "https://www.it-connect.fr/graft-contexte-open-source-agents-ia-codage/",
           "summary": "Graft, outil open source signé Nanonets, transforme votre dépôt en graphe Markdown lisible par Claude Code, Cursor ou Codex. De quoi brûler moins de tokens.",
-          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
-        },
-        {
-          "date": "23 août 2026",
-          "title": "Arnaque aux faux colis IA : ce SMS circule toujours, voici comment éviter le piège",
-          "source": "01net",
-          "url": "https://www.01net.com/actualites/arnaque-aux-faux-colis-ia-ce-sms-circule-toujours-voici-comment-eviter-le-piege.html",
-          "summary": "Plusieurs mois après son apparition, l'arnaque au faux colis généré par IA continue de piéger les Français. Le Ministère de l'Intérieur alerte à nouveau, on vous explique comment la repérer.",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
