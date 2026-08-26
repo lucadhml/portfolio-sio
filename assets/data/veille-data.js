@@ -1,5 +1,5 @@
 window.VEILLE_DATA = {
-  "updatedAt": "2026-08-25",
+  "updatedAt": "2026-08-26",
   "methodologie": {
     "title": "Méthodologie de veille",
     "summary": "Ma veille technologique repose sur plusieurs sources complémentaires : IT-Connect, ANSSI et le CERT-FR pour la cybersécurité, 01net et Le Monde Informatique pour l'IA. Chaque jour, un script récupère automatiquement les nouvelles publications, calcule un score de pertinence par mots-clés, et sélectionne les 4 meilleures entrées par thème.",
@@ -118,11 +118,27 @@ window.VEILLE_DATA = {
       ],
       "entries": [
         {
+          "date": "26 août 2026",
+          "title": "Piratée par ChatGPT, valorisée à 13 milliards de dollars : l’été fou de la plateforme IA Hugging Face en 3 actes",
+          "source": "01net",
+          "url": "https://www.01net.com/actualites/piratee-par-chatgpt-valorisee-a-13-milliards-de-dollars-lete-fou-de-la-plateforme-ia-hugging-face-en-3-actes.html",
+          "summary": "Piraté en juillet par des ChatGPT, courtisé en août par des acheteurs à 13 milliards de dollars. Pour Hugging Face, l'été de tous les dangers tourne au jackpot, et même ses défenses racontent une histoire.",
+          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
+        },
+        {
           "date": "21 août 2026",
           "title": "Graft, l’outil open source qui cartographie votre code pour les agents IA",
           "source": "IT-Connect",
           "url": "https://www.it-connect.fr/graft-contexte-open-source-agents-ia-codage/",
           "summary": "Graft, outil open source signé Nanonets, transforme votre dépôt en graphe Markdown lisible par Claude Code, Cursor ou Codex. De quoi brûler moins de tokens.",
+          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
+        },
+        {
+          "date": "25 août 2026",
+          "title": "Apple dévoile le nouveau Mac Studio : un ordinateur pensé pour l’ère de l’IA",
+          "source": "01net",
+          "url": "https://www.01net.com/actualites/apple-devoile-le-nouveau-mac-studio-un-ordinateur-pense-pour-lere-de-lia.html",
+          "summary": "Le nouveau Mac Studio se décline en deux versions : l’une équipée d’une puce M5 Max et l’autre d’une puce M5 Ultra, soit les deux puces les plus puissantes jamais commercialisées par Apple à ce jour. Les prix débutent à 2 499 dollars pou...",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
