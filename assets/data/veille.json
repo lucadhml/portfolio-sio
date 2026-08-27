@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-26",
+  "updatedAt": "2026-08-27",
   "methodologie": {
     "title": "Méthodologie de veille",
     "summary": "Ma veille technologique repose sur plusieurs sources complémentaires : IT-Connect, ANSSI et le CERT-FR pour la cybersécurité, 01net et Le Monde Informatique pour l'IA. Chaque jour, un script récupère automatiquement les nouvelles publications, calcule un score de pertinence par mots-clés, et sélectionne les 4 meilleures entrées par thème.",
@@ -61,22 +61,6 @@
       ],
       "entries": [
         {
-          "date": "21 août 2026",
-          "title": "Entra ID : une faille critique a été patchée, mais vous n’avez rien à faire",
-          "source": "IT-Connect",
-          "url": "https://www.it-connect.fr/entra-id-cve-2026-69836-faille-cvss-10-exploitee/",
-          "summary": "Microsoft a corrigé la CVE-2026-69836, une faille critique dans Entra ID déjà exploitée dans la nature. La bonne nouvelle : vous n’avez rien à faire.",
-          "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
-        },
-        {
-          "date": "21 août 2026",
-          "title": "GitLab : la faille critique CVE-2026-19478 est déjà exploitée, deux jours après le correctif",
-          "source": "IT-Connect",
-          "url": "https://www.it-connect.fr/gitlab-cve-2026-19478-faille-critique-exploitee/",
-          "summary": "Deux jours après le correctif publié par GitLab, la faille critique CVE-2026-19478 fait l’objet de tentatives d’exploitation par les pirates.",
-          "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
-        },
-        {
           "date": "21 juillet 2026",
           "title": "Exigences du CRA : processus de notification pour les organismes notifiés",
           "source": "ANSSI",
@@ -85,11 +69,27 @@
           "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
         },
         {
-          "date": "21 août 2026",
-          "title": "Citrix NetScaler (CVE-2026-19490) : cette faille critique permet de contourner l’authentification",
+          "date": "27 août 2026",
+          "title": "Zimbra : plus de 270 serveurs de messagerie compromis à cause de la faille CVE-2026-73570",
           "source": "IT-Connect",
-          "url": "https://www.it-connect.fr/citrix-netscaler-cve-2026-19490-contournement-authentification/",
-          "summary": "Citrix a corrigé deux vulnérabilités dans NetScaler ADC et Gateway. La CVE-2026-19490 ouvre la porte à un contournement de l’authentification à distance.",
+          "url": "https://www.it-connect.fr/zimbra-cve-2026-73570-serveurs-compromis/",
+          "summary": "Plus de 270 serveurs de messagerie Zimbra ont été compromis via la faille de sécurité CVE-2026-73570. Voici comment se protéger de cette menace.",
+          "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
+        },
+        {
+          "date": "11 mars 2026",
+          "title": "Panorama de la cybermenace 2025 : La France toujours sous la pression des cyber attaquants",
+          "source": "ANSSI",
+          "url": "http://cyber.sites.beta.gouv.fr/actualites/panorama-de-la-cybermenace-2025/",
+          "summary": "Dans le Panorama de la cybermenace 2025, l’Agence nationale de la sécurité des systèmes d’information (ANSSI) présente le bilan d’une […]",
+          "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
+        },
+        {
+          "date": "21 janvier 2026",
+          "title": "Vulnérabilité dans telnetd (21 janvier 2026)",
+          "source": "CERT-FR",
+          "url": "https://www.cert.ssi.gouv.fr/actualite/CERTFR-2026-ACT-003/",
+          "summary": "Le 20 janvier 2026, les détails de la vulnérabilité CVE-2026-24061, affectant *telnetd*, ont été publiés. Cette vulnérabilité permet à un attaquant de contourner l'authentification et de se connecter à une machine vulnérable en tant que...",
           "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
         }
       ]
@@ -118,35 +118,35 @@
       ],
       "entries": [
         {
-          "date": "26 août 2026",
-          "title": "Piratée par ChatGPT, valorisée à 13 milliards de dollars : l’été fou de la plateforme IA Hugging Face en 3 actes",
+          "date": "27 août 2026",
+          "title": "Un vrai film de science-fiction : OpenAI révèle enfin comment ChatGPT a lancé sa première cyberattaque",
           "source": "01net",
-          "url": "https://www.01net.com/actualites/piratee-par-chatgpt-valorisee-a-13-milliards-de-dollars-lete-fou-de-la-plateforme-ia-hugging-face-en-3-actes.html",
-          "summary": "Piraté en juillet par des ChatGPT, courtisé en août par des acheteurs à 13 milliards de dollars. Pour Hugging Face, l'été de tous les dangers tourne au jackpot, et même ses défenses racontent une histoire.",
+          "url": "https://www.01net.com/actualites/coup-semonce-openai-revele-enfin-comment-chatgpt-lance-premiere-cyberattaque.html",
+          "summary": "Sans que personne ne s'en aperçoive, des centaines d'agents IA d'OpenAI se sont mis à discuter en secret entre eux cet été. Dirigés par un ChatGPT hors de contrôle, ils ont lancé une vaste cyberattaque. Quelques semaines après cet incide...",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
-          "date": "21 août 2026",
-          "title": "Graft, l’outil open source qui cartographie votre code pour les agents IA",
-          "source": "IT-Connect",
-          "url": "https://www.it-connect.fr/graft-contexte-open-source-agents-ia-codage/",
-          "summary": "Graft, outil open source signé Nanonets, transforme votre dépôt en graphe Markdown lisible par Claude Code, Cursor ou Codex. De quoi brûler moins de tokens.",
-          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
-        },
-        {
-          "date": "25 août 2026",
-          "title": "Apple dévoile le nouveau Mac Studio : un ordinateur pensé pour l’ère de l’IA",
+          "date": "27 août 2026",
+          "title": "Claude n’a plus besoin de Google Chrome pour surfer sur Internet",
           "source": "01net",
-          "url": "https://www.01net.com/actualites/apple-devoile-le-nouveau-mac-studio-un-ordinateur-pense-pour-lere-de-lia.html",
-          "summary": "Le nouveau Mac Studio se décline en deux versions : l’une équipée d’une puce M5 Max et l’autre d’une puce M5 Ultra, soit les deux puces les plus puissantes jamais commercialisées par Apple à ce jour. Les prix débutent à 2 499 dollars pou...",
+          "url": "https://www.01net.com/actualites/claude-na-plus-besoin-de-google-chrome-pour-surfer-sur-internet.html",
+          "summary": "L'IA d'Anthropic s'offre un navigateur rien qu'à elle pour remplir vos formulaires et éplucher le Web. Vos onglets, vos favoris et vos mots de passe restent à la porte, et c'est précisément l'argument.",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
-          "date": "24 août 2026",
-          "title": "Amazon découpe des livres rares pour entraîner son IA : un AirTag a suivi le colis jusqu’à Las Vegas",
-          "source": "IT-Connect",
-          "url": "https://www.it-connect.fr/amazon-detruit-livres-rares-entrainement-ia/",
-          "summary": "Un AirTag glissé dans un livre a mené des journalistes jusqu’à un entrepôt Amazon de Las Vegas, où les reliures sont découpées et les pages scannées pour l’IA.",
+          "date": "27 août 2026",
+          "title": "Nvidia aurait racheté la plateforme d’IA Hugging Face pour 12,9 milliards de dollars",
+          "source": "01net",
+          "url": "https://www.01net.com/actualites/nvidia-aurait-rachete-la-plateforme-dia-hugging-face-pour-129-milliards-de-dollars.html",
+          "summary": "Selon The Information, Nvidia aurait racheté Hugging Face pour 12,9 milliards de dollars. Mais pourquoi le géant Nvidia veut-il mettre la main sur cette plateforme ?",
+          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
+        },
+        {
+          "date": "27 août 2026",
+          "title": "Mieux que des AirPods ? Plaud lance des écouteurs IA qui travaillent à votre place",
+          "source": "01net",
+          "url": "https://www.01net.com/actualites/mieux-airpods-plaud-lance-ecouteurs-ia-qui-travaillent-place.html",
+          "summary": "Après le Plaud Note et le badge connecté NotePin, la marque américaine dévoile le Plaud One, une paire d'écouteurs capable d'écouter vos conversations, d'en saisir le sens, et d'agir directement dans vos outils de travail. Les écouteurs...",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         }
       ]
