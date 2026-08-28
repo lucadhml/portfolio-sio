@@ -1,5 +1,5 @@
 window.VEILLE_DATA = {
-  "updatedAt": "2026-08-27",
+  "updatedAt": "2026-08-28",
   "methodologie": {
     "title": "Méthodologie de veille",
     "summary": "Ma veille technologique repose sur plusieurs sources complémentaires : IT-Connect, ANSSI et le CERT-FR pour la cybersécurité, 01net et Le Monde Informatique pour l'IA. Chaque jour, un script récupère automatiquement les nouvelles publications, calcule un score de pertinence par mots-clés, et sélectionne les 4 meilleures entrées par thème.",
@@ -126,27 +126,27 @@ window.VEILLE_DATA = {
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
+          "date": "28 août 2026",
+          "title": "« Réponse mondiale » d’urgence : OpenAI, Google, Anthropic et plus de 100 entreprises s’inquiètent des cyberattaques IA",
+          "source": "01net",
+          "url": "https://www.01net.com/actualites/reponse-mondiale-durgence-openai-google-anthropic-et-plus-de-100-entreprises-sinquietent-des-cyberattaques-ia.html",
+          "summary": "OpenAI, Google, Anthropic et plus de cent entreprises ont publié une lettre ouverte réclamant une « réponse mondiale » aux cyberattaques IA. Ce cri d'alarme collectif fait suite à un été marqué par plusieurs IA sorties de leur cadre de t...",
+          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
+        },
+        {
+          "date": "28 août 2026",
+          "title": "Une IA qui surpasse l’humain : OpenAI s’approche du but",
+          "source": "01net",
+          "url": "https://www.01net.com/actualites/une-ia-qui-surpasse-lhumain-openai-sapproche-du-but.html",
+          "summary": "Une IA qui abat la semaine de travail d'un chercheur, pendant que ses propres créateurs appuient sur le bouton pause. Le grand écart de la rentrée se joue à San Francisco.",
+          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
+        },
+        {
           "date": "27 août 2026",
           "title": "Claude n’a plus besoin de Google Chrome pour surfer sur Internet",
           "source": "01net",
           "url": "https://www.01net.com/actualites/claude-na-plus-besoin-de-google-chrome-pour-surfer-sur-internet.html",
           "summary": "L'IA d'Anthropic s'offre un navigateur rien qu'à elle pour remplir vos formulaires et éplucher le Web. Vos onglets, vos favoris et vos mots de passe restent à la porte, et c'est précisément l'argument.",
-          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
-        },
-        {
-          "date": "27 août 2026",
-          "title": "Nvidia aurait racheté la plateforme d’IA Hugging Face pour 12,9 milliards de dollars",
-          "source": "01net",
-          "url": "https://www.01net.com/actualites/nvidia-aurait-rachete-la-plateforme-dia-hugging-face-pour-129-milliards-de-dollars.html",
-          "summary": "Selon The Information, Nvidia aurait racheté Hugging Face pour 12,9 milliards de dollars. Mais pourquoi le géant Nvidia veut-il mettre la main sur cette plateforme ?",
-          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
-        },
-        {
-          "date": "27 août 2026",
-          "title": "Mieux que des AirPods ? Plaud lance des écouteurs IA qui travaillent à votre place",
-          "source": "01net",
-          "url": "https://www.01net.com/actualites/mieux-airpods-plaud-lance-ecouteurs-ia-qui-travaillent-place.html",
-          "summary": "Après le Plaud Note et le badge connecté NotePin, la marque américaine dévoile le Plaud One, une paire d'écouteurs capable d'écouter vos conversations, d'en saisir le sens, et d'agir directement dans vos outils de travail. Les écouteurs...",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         }
       ]
