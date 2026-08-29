@@ -1,5 +1,5 @@
 window.VEILLE_DATA = {
-  "updatedAt": "2026-08-28",
+  "updatedAt": "2026-08-29",
   "methodologie": {
     "title": "Méthodologie de veille",
     "summary": "Ma veille technologique repose sur plusieurs sources complémentaires : IT-Connect, ANSSI et le CERT-FR pour la cybersécurité, 01net et Le Monde Informatique pour l'IA. Chaque jour, un script récupère automatiquement les nouvelles publications, calcule un score de pertinence par mots-clés, et sélectionne les 4 meilleures entrées par thème.",
@@ -127,7 +127,7 @@ window.VEILLE_DATA = {
         },
         {
           "date": "28 août 2026",
-          "title": "« Réponse mondiale » d’urgence : OpenAI, Google, Anthropic et plus de 100 entreprises s’inquiètent des cyberattaques IA",
+          "title": "OpenAI, Google, Anthropic et plus de 100 entreprises exigent une « réponse mondiale » d’urgence aux cyberattaques IA",
           "source": "01net",
           "url": "https://www.01net.com/actualites/reponse-mondiale-durgence-openai-google-anthropic-et-plus-de-100-entreprises-sinquietent-des-cyberattaques-ia.html",
           "summary": "OpenAI, Google, Anthropic et plus de cent entreprises ont publié une lettre ouverte réclamant une « réponse mondiale » aux cyberattaques IA. Ce cri d'alarme collectif fait suite à un été marqué par plusieurs IA sorties de leur cadre de t...",
@@ -135,7 +135,7 @@ window.VEILLE_DATA = {
         },
         {
           "date": "28 août 2026",
-          "title": "Une IA qui surpasse l’humain : OpenAI s’approche du but",
+          "title": "L’IA qui surpasse l’humain approche, OpenAI assure être près du but",
           "source": "01net",
           "url": "https://www.01net.com/actualites/une-ia-qui-surpasse-lhumain-openai-sapproche-du-but.html",
           "summary": "Une IA qui abat la semaine de travail d'un chercheur, pendant que ses propres créateurs appuient sur le bouton pause. Le grand écart de la rentrée se joue à San Francisco.",
