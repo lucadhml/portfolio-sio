@@ -1,5 +1,5 @@
 window.VEILLE_DATA = {
-  "updatedAt": "2026-08-29",
+  "updatedAt": "2026-08-30",
   "methodologie": {
     "title": "Méthodologie de veille",
     "summary": "Ma veille technologique repose sur plusieurs sources complémentaires : IT-Connect, ANSSI et le CERT-FR pour la cybersécurité, 01net et Le Monde Informatique pour l'IA. Chaque jour, un script récupère automatiquement les nouvelles publications, calcule un score de pertinence par mots-clés, et sélectionne les 4 meilleures entrées par thème.",
@@ -118,14 +118,6 @@ window.VEILLE_DATA = {
       ],
       "entries": [
         {
-          "date": "27 août 2026",
-          "title": "Un vrai film de science-fiction : OpenAI révèle enfin comment ChatGPT a lancé sa première cyberattaque",
-          "source": "01net",
-          "url": "https://www.01net.com/actualites/coup-semonce-openai-revele-enfin-comment-chatgpt-lance-premiere-cyberattaque.html",
-          "summary": "Sans que personne ne s'en aperçoive, des centaines d'agents IA d'OpenAI se sont mis à discuter en secret entre eux cet été. Dirigés par un ChatGPT hors de contrôle, ils ont lancé une vaste cyberattaque. Quelques semaines après cet incide...",
-          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
-        },
-        {
           "date": "28 août 2026",
           "title": "OpenAI, Google, Anthropic et plus de 100 entreprises exigent une « réponse mondiale » d’urgence aux cyberattaques IA",
           "source": "01net",
@@ -134,19 +126,27 @@ window.VEILLE_DATA = {
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
-          "date": "28 août 2026",
-          "title": "L’IA qui surpasse l’humain approche, OpenAI assure être près du but",
+          "date": "29 août 2026",
+          "title": "OpenAI veut enterrer définitivement le procès contre Apple pour vol de secrets",
           "source": "01net",
-          "url": "https://www.01net.com/actualites/une-ia-qui-surpasse-lhumain-openai-sapproche-du-but.html",
-          "summary": "Une IA qui abat la semaine de travail d'un chercheur, pendant que ses propres créateurs appuient sur le bouton pause. Le grand écart de la rentrée se joue à San Francisco.",
+          "url": "https://www.01net.com/actualites/openai-veut-enterrer-definitivement-le-proces-contre-apple-pour-vol-de-secrets.html",
+          "summary": "Apple accuse, OpenAI balaie, et un juge californien tranchera le 1er octobre. La dernière requête en date réclame mieux qu'un simple rejet : l'interdiction pure et simple, pour Apple, de revenir à la charge.",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
-          "date": "27 août 2026",
-          "title": "Claude n’a plus besoin de Google Chrome pour surfer sur Internet",
+          "date": "30 août 2026",
+          "title": "Bill Gates veut réserver des métiers aux humains et taxer les machines",
           "source": "01net",
-          "url": "https://www.01net.com/actualites/claude-na-plus-besoin-de-google-chrome-pour-surfer-sur-internet.html",
-          "summary": "L'IA d'Anthropic s'offre un navigateur rien qu'à elle pour remplir vos formulaires et éplucher le Web. Vos onglets, vos favoris et vos mots de passe restent à la porte, et c'est précisément l'argument.",
+          "url": "https://www.01net.com/actualites/bill-gates-veut-reserver-des-metiers-aux-humains-et-taxer-les-machines.html",
+          "summary": "Le milliardaire qui balayait toute idée de pause sur l’IA en 2023 réclame aujourd’hui de taxer les machines. Entre deux conseils aux gouvernements, le cofondateur de Microsoft découvre que l’innovation peut laisser des dégâts derrière elle.",
+          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
+        },
+        {
+          "date": "28 août 2026",
+          "title": "Free perd patience face à l’administration française, il faut une éternité pour des data centers IA",
+          "source": "01net",
+          "url": "https://www.01net.com/actualites/free-perd-patience-face-a-ladministration-francaise-il-faut-une-eternite-pour-des-data-centers-ia.html",
+          "summary": "Le groupe de Xavier Niel a le terrain, les 700 mégawatts et les 4 milliards. La pièce manquante du dossier dort quelque part dans une pile de parapheurs, et personne ne sait pour combien de temps.",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         }
       ]
