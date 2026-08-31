@@ -1,5 +1,5 @@
 window.VEILLE_DATA = {
-  "updatedAt": "2026-08-30",
+  "updatedAt": "2026-08-31",
   "methodologie": {
     "title": "Méthodologie de veille",
     "summary": "Ma veille technologique repose sur plusieurs sources complémentaires : IT-Connect, ANSSI et le CERT-FR pour la cybersécurité, 01net et Le Monde Informatique pour l'IA. Chaque jour, un script récupère automatiquement les nouvelles publications, calcule un score de pertinence par mots-clés, et sélectionne les 4 meilleures entrées par thème.",
@@ -61,19 +61,19 @@ window.VEILLE_DATA = {
       ],
       "entries": [
         {
+          "date": "31 août 2026",
+          "title": "PaperCut NG/MF : deux failles exploitées et un premier correctif contourné",
+          "source": "IT-Connect",
+          "url": "https://www.it-connect.fr/papercut-ng-mf-cve-2026-81578-82078-deuxieme-correctif-urgence/",
+          "summary": "PaperCut NG et MF sont visés par 2 failles déjà exploitées : CVE-2026-81578 et CVE-2026-82078. Le premier correctif a été contourné, un second est disponible.",
+          "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
+        },
+        {
           "date": "21 juillet 2026",
           "title": "Exigences du CRA : processus de notification pour les organismes notifiés",
           "source": "ANSSI",
           "url": "http://cyber.sites.beta.gouv.fr/actualites/exigences-du-cra-processus-de-notification-pour-les-organismes-notifies/",
           "summary": "Dans un contexte marqué par l’exploitation croissante de vulnérabilités affectant des produits numériques ayant un niveau de cybersécurité insuffisant, le […]",
-          "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
-        },
-        {
-          "date": "27 août 2026",
-          "title": "Zimbra : plus de 270 serveurs de messagerie compromis à cause de la faille CVE-2026-73570",
-          "source": "IT-Connect",
-          "url": "https://www.it-connect.fr/zimbra-cve-2026-73570-serveurs-compromis/",
-          "summary": "Plus de 270 serveurs de messagerie Zimbra ont été compromis via la faille de sécurité CVE-2026-73570. Voici comment se protéger de cette menace.",
           "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
         },
         {
@@ -118,35 +118,35 @@ window.VEILLE_DATA = {
       ],
       "entries": [
         {
-          "date": "28 août 2026",
-          "title": "OpenAI, Google, Anthropic et plus de 100 entreprises exigent une « réponse mondiale » d’urgence aux cyberattaques IA",
-          "source": "01net",
-          "url": "https://www.01net.com/actualites/reponse-mondiale-durgence-openai-google-anthropic-et-plus-de-100-entreprises-sinquietent-des-cyberattaques-ia.html",
-          "summary": "OpenAI, Google, Anthropic et plus de cent entreprises ont publié une lettre ouverte réclamant une « réponse mondiale » aux cyberattaques IA. Ce cri d'alarme collectif fait suite à un été marqué par plusieurs IA sorties de leur cadre de t...",
+          "date": "31 août 2026",
+          "title": "Debian autorise officiellement l’IA générative, mais le contributeur reste responsable",
+          "source": "IT-Connect",
+          "url": "https://www.it-connect.fr/debian-vote-ia-generative-resolution-generale/",
+          "summary": "Les développeurs Debian ont voté : l’IA générative n’est ni interdite ni recommandée, mais celui qui soumet une contribution en assume toute la responsabilité.",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
-          "date": "29 août 2026",
-          "title": "OpenAI veut enterrer définitivement le procès contre Apple pour vol de secrets",
+          "date": "31 août 2026",
+          "title": "OpenAI aurait vidé les stocks de Mac mini et de Mac Studio pour entraîner ses IA",
           "source": "01net",
-          "url": "https://www.01net.com/actualites/openai-veut-enterrer-definitivement-le-proces-contre-apple-pour-vol-de-secrets.html",
-          "summary": "Apple accuse, OpenAI balaie, et un juge californien tranchera le 1er octobre. La dernière requête en date réclame mieux qu'un simple rejet : l'interdiction pure et simple, pour Apple, de revenir à la charge.",
+          "url": "https://www.01net.com/actualites/openai-aurait-vide-les-stocks-de-mac-mini-et-de-mac-studio-pour-entrainer-ses-ia.html",
+          "summary": "Des dizaines de milliers de Mac mini seraient partis dans les labos d'OpenAI. Chez Nvidia, les premiers PC RTX Spark sont réservés avant d'exister. Le particulier, lui, regarde les délais s'allonger et les prix grimper.",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
-          "date": "30 août 2026",
-          "title": "Bill Gates veut réserver des métiers aux humains et taxer les machines",
+          "date": "31 août 2026",
+          "title": "Android TV : ce prompt Claude promet d’améliorer votre téléviseur, mais attention aux dérives",
           "source": "01net",
-          "url": "https://www.01net.com/actualites/bill-gates-veut-reserver-des-metiers-aux-humains-et-taxer-les-machines.html",
-          "summary": "Le milliardaire qui balayait toute idée de pause sur l’IA en 2023 réclame aujourd’hui de taxer les machines. Entre deux conseils aux gouvernements, le cofondateur de Microsoft découvre que l’innovation peut laisser des dégâts derrière elle.",
+          "url": "https://www.01net.com/actualites/android-tv-ce-prompt-claude-promet-dameliorer-votre-televiseur-mais-attention-aux-derives.html",
+          "summary": "Un prompt Claude promet de débarrasser Android TV des bloatwares en 20 minutes. Entre retours enthousiastes et dérive vers le rootage, la prudence reste de mise.",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
-          "date": "28 août 2026",
-          "title": "Free perd patience face à l’administration française, il faut une éternité pour des data centers IA",
+          "date": "31 août 2026",
+          "title": "Piratage de Claude : Anthropic alerte ses clients d’une cyberattaque, 6 virus à l’assaut de votre PC",
           "source": "01net",
-          "url": "https://www.01net.com/actualites/free-perd-patience-face-a-ladministration-francaise-il-faut-une-eternite-pour-des-data-centers-ia.html",
-          "summary": "Le groupe de Xavier Niel a le terrain, les 700 mégawatts et les 4 milliards. La pièce manquante du dossier dort quelque part dans une pile de parapheurs, et personne ne sait pour combien de temps.",
+          "url": "https://www.01net.com/actualites/piratage-claude-anthropic-alerte-clients-cyberattaque-reposant-s6-virus.html",
+          "summary": "Anthropic met en garde les utilisateurs de Claude d'une cyberattaque en cours. Depuis fin août 2026, des cybercriminels utilisent des logiciels espions pour s'introduire dans les comptes Claude, sans mot de passe. L'entreprise a alerté p...",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         }
       ]
