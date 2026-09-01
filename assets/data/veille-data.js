@@ -1,5 +1,5 @@
 window.VEILLE_DATA = {
-  "updatedAt": "2026-08-31",
+  "updatedAt": "2026-09-01",
   "methodologie": {
     "title": "Méthodologie de veille",
     "summary": "Ma veille technologique repose sur plusieurs sources complémentaires : IT-Connect, ANSSI et le CERT-FR pour la cybersécurité, 01net et Le Monde Informatique pour l'IA. Chaque jour, un script récupère automatiquement les nouvelles publications, calcule un score de pertinence par mots-clés, et sélectionne les 4 meilleures entrées par thème.",
@@ -119,6 +119,14 @@ window.VEILLE_DATA = {
       "entries": [
         {
           "date": "31 août 2026",
+          "title": "OpenAI révolutionne la facturation de ChatGPT : fini de payer sans résultat",
+          "source": "01net",
+          "url": "https://www.01net.com/actualites/openai-revolutionne-la-facturation-de-chatgpt-fini-de-payer-sans-resultat.html",
+          "summary": "OpenAI opère un changement de taille concernant la facturation de certains de ses gros clients. Fini les jetons brûlés sans bénéfice concret, place à une facturation à la performance. L’entreprise de Sam Altman espère notamment rassurer...",
+          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
+        },
+        {
+          "date": "31 août 2026",
           "title": "Debian autorise officiellement l’IA générative, mais le contributeur reste responsable",
           "source": "IT-Connect",
           "url": "https://www.it-connect.fr/debian-vote-ia-generative-resolution-generale/",
@@ -126,27 +134,19 @@ window.VEILLE_DATA = {
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
-          "date": "31 août 2026",
-          "title": "OpenAI aurait vidé les stocks de Mac mini et de Mac Studio pour entraîner ses IA",
+          "date": "1 septembre 2026",
+          "title": "Une IA gratuite pour tous les citoyens : ce pays passe à la vitesse supérieure",
           "source": "01net",
-          "url": "https://www.01net.com/actualites/openai-aurait-vide-les-stocks-de-mac-mini-et-de-mac-studio-pour-entrainer-ses-ia.html",
-          "summary": "Des dizaines de milliers de Mac mini seraient partis dans les labos d'OpenAI. Chez Nvidia, les premiers PC RTX Spark sont réservés avant d'exister. Le particulier, lui, regarde les délais s'allonger et les prix grimper.",
+          "url": "https://www.01net.com/actualites/une-ia-gratuite-pour-tous-les-citoyens-ce-pays-passe-a-la-vitesse-superieure.html",
+          "summary": "La Corée du Sud va mettre à la disposition de sa population une intelligence artificielle gratuite et sans limite d’utilisation. Avec son programme « IA pour tous », l’objectif du gouvernement est double.",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
-          "date": "31 août 2026",
-          "title": "Android TV : ce prompt Claude promet d’améliorer votre téléviseur, mais attention aux dérives",
+          "date": "1 septembre 2026",
+          "title": "ChatGPT, Reddit et Roblox dans le viseur de l’Europe : qu’est-ce qui va changer ?",
           "source": "01net",
-          "url": "https://www.01net.com/actualites/android-tv-ce-prompt-claude-promet-dameliorer-votre-televiseur-mais-attention-aux-derives.html",
-          "summary": "Un prompt Claude promet de débarrasser Android TV des bloatwares en 20 minutes. Entre retours enthousiastes et dérive vers le rootage, la prudence reste de mise.",
-          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
-        },
-        {
-          "date": "31 août 2026",
-          "title": "Piratage de Claude : Anthropic alerte ses clients d’une cyberattaque, 6 virus à l’assaut de votre PC",
-          "source": "01net",
-          "url": "https://www.01net.com/actualites/piratage-claude-anthropic-alerte-clients-cyberattaque-reposant-s6-virus.html",
-          "summary": "Anthropic met en garde les utilisateurs de Claude d'une cyberattaque en cours. Depuis fin août 2026, des cybercriminels utilisent des logiciels espions pour s'introduire dans les comptes Claude, sans mot de passe. L'entreprise a alerté p...",
+          "url": "https://www.01net.com/actualites/chatgpt-reddit-et-roblox-dans-le-viseur-de-leurope-quest-ce-qui-va-changer.html",
+          "summary": "À partir de janvier 2027, ChatGPT, Reddit et Roblox seront soumis aux règles les plus strictes du DSA. En cas de non-respect de ces règles, des amendes pouvant atteindre 6 % de leur chiffre d'affaires annuel mondial pourront être infligé...",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         }
       ]
