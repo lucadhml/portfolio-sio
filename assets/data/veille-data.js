@@ -1,5 +1,5 @@
 window.VEILLE_DATA = {
-  "updatedAt": "2026-09-01",
+  "updatedAt": "2026-09-02",
   "methodologie": {
     "title": "Méthodologie de veille",
     "summary": "Ma veille technologique repose sur plusieurs sources complémentaires : IT-Connect, ANSSI et le CERT-FR pour la cybersécurité, 01net et Le Monde Informatique pour l'IA. Chaque jour, un script récupère automatiquement les nouvelles publications, calcule un score de pertinence par mots-clés, et sélectionne les 4 meilleures entrées par thème.",
@@ -118,11 +118,11 @@ window.VEILLE_DATA = {
       ],
       "entries": [
         {
-          "date": "31 août 2026",
-          "title": "OpenAI révolutionne la facturation de ChatGPT : fini de payer sans résultat",
+          "date": "2 septembre 2026",
+          "title": "ChatGPT franchit un cap « critique » :  l’IA la plus redoutable jamais créée par OpenAI arrive « bientôt »",
           "source": "01net",
-          "url": "https://www.01net.com/actualites/openai-revolutionne-la-facturation-de-chatgpt-fini-de-payer-sans-resultat.html",
-          "summary": "OpenAI opère un changement de taille concernant la facturation de certains de ses gros clients. Fini les jetons brûlés sans bénéfice concret, place à une facturation à la performance. L’entreprise de Sam Altman espère notamment rassurer...",
+          "url": "https://www.01net.com/actualites/chatgpt-franchit-cap-critique-ia-plus-redoutable-jamais-creee-par-openai-arrive-bientot.html",
+          "summary": "OpenAI a révélé qu'Astra, son futur modèle destiné à ChatGPT, a franchi pour la première fois le seuil « critique » lors d'une évaluation de sécurité. L'IA est capable de découvrir des failles inconnues et de monter seule des cyberattaqu...",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
@@ -135,18 +135,18 @@ window.VEILLE_DATA = {
         },
         {
           "date": "1 septembre 2026",
-          "title": "Une IA gratuite pour tous les citoyens : ce pays passe à la vitesse supérieure",
-          "source": "01net",
-          "url": "https://www.01net.com/actualites/une-ia-gratuite-pour-tous-les-citoyens-ce-pays-passe-a-la-vitesse-superieure.html",
-          "summary": "La Corée du Sud va mettre à la disposition de sa population une intelligence artificielle gratuite et sans limite d’utilisation. Avec son programme « IA pour tous », l’objectif du gouvernement est double.",
-          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
-        },
-        {
-          "date": "1 septembre 2026",
           "title": "ChatGPT, Reddit et Roblox dans le viseur de l’Europe : qu’est-ce qui va changer ?",
           "source": "01net",
           "url": "https://www.01net.com/actualites/chatgpt-reddit-et-roblox-dans-le-viseur-de-leurope-quest-ce-qui-va-changer.html",
           "summary": "À partir de janvier 2027, ChatGPT, Reddit et Roblox seront soumis aux règles les plus strictes du DSA. En cas de non-respect de ces règles, des amendes pouvant atteindre 6 % de leur chiffre d'affaires annuel mondial pourront être infligé...",
+          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
+        },
+        {
+          "date": "2 septembre 2026",
+          "title": "DSA : l’Europe place ChatGPT, Reddit et Roblox sous surveillance renforcée",
+          "source": "IT-Connect",
+          "url": "https://www.it-connect.fr/dsa-chatgpt-reddit-roblox-designation-vlop-vlose/",
+          "summary": "La Commission européenne désigne ChatGPT comme grand moteur de recherche, Reddit et Roblox comme grandes plateformes. Quatre mois pour être conforme au DSA.",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         }
       ]
