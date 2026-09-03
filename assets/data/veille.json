@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-02",
+  "updatedAt": "2026-09-03",
   "methodologie": {
     "title": "Méthodologie de veille",
     "summary": "Ma veille technologique repose sur plusieurs sources complémentaires : IT-Connect, ANSSI et le CERT-FR pour la cybersécurité, 01net et Le Monde Informatique pour l'IA. Chaque jour, un script récupère automatiquement les nouvelles publications, calcule un score de pertinence par mots-clés, et sélectionne les 4 meilleures entrées par thème.",
@@ -61,14 +61,6 @@
       ],
       "entries": [
         {
-          "date": "31 août 2026",
-          "title": "PaperCut NG/MF : deux failles exploitées et un premier correctif contourné",
-          "source": "IT-Connect",
-          "url": "https://www.it-connect.fr/papercut-ng-mf-cve-2026-81578-82078-deuxieme-correctif-urgence/",
-          "summary": "PaperCut NG et MF sont visés par 2 failles déjà exploitées : CVE-2026-81578 et CVE-2026-82078. Le premier correctif a été contourné, un second est disponible.",
-          "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
-        },
-        {
           "date": "21 juillet 2026",
           "title": "Exigences du CRA : processus de notification pour les organismes notifiés",
           "source": "ANSSI",
@@ -77,19 +69,27 @@
           "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
         },
         {
-          "date": "11 mars 2026",
-          "title": "Panorama de la cybermenace 2025 : La France toujours sous la pression des cyber attaquants",
-          "source": "ANSSI",
-          "url": "http://cyber.sites.beta.gouv.fr/actualites/panorama-de-la-cybermenace-2025/",
-          "summary": "Dans le Panorama de la cybermenace 2025, l’Agence nationale de la sécurité des systèmes d’information (ANSSI) présente le bilan d’une […]",
-          "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
-        },
-        {
           "date": "21 janvier 2026",
           "title": "Vulnérabilité dans telnetd (21 janvier 2026)",
           "source": "CERT-FR",
           "url": "https://www.cert.ssi.gouv.fr/actualite/CERTFR-2026-ACT-003/",
           "summary": "Le 20 janvier 2026, les détails de la vulnérabilité CVE-2026-24061, affectant *telnetd*, ont été publiés. Cette vulnérabilité permet à un attaquant de contourner l'authentification et de se connecter à une machine vulnérable en tant que...",
+          "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
+        },
+        {
+          "date": "2 septembre 2026",
+          "title": "Exchange Server : près de 22 000 serveurs exposés sont vulnérables à la CVE-2026-62911",
+          "source": "IT-Connect",
+          "url": "https://www.it-connect.fr/microsoft-exchange-cve-2026-62911/",
+          "summary": "Exchange exposé sur Internet: tout savoir sur la CVE-2026-62911, les risques, les chiffres Shadowserver et les correctifs à appliquer rapidement.",
+          "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
+        },
+        {
+          "date": "2 avril 2026",
+          "title": "Expiration de certificats Secure Boot en juin 2026 (02 avril 2026)",
+          "source": "CERT-FR",
+          "url": "https://www.cert.ssi.gouv.fr/actualite/CERTFR-2026-ACT-014/",
+          "summary": "Le démarrage sécurisé (UEFI Secure Boot) est une fonctionnalité de sécurité disponible sur les ordinateurs PC clients et serveurs depuis 2011. Son rôle est de sécuriser la séquence de démarrage de l’appareil, en vérifiant l’intégrité du...",
           "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
         }
       ]
@@ -119,26 +119,10 @@
       "entries": [
         {
           "date": "2 septembre 2026",
-          "title": "ChatGPT franchit un cap « critique » :  l’IA la plus redoutable jamais créée par OpenAI arrive « bientôt »",
+          "title": "Anthropic dégaine 2 nouvelles versions de Claude, et elles font des prouesses",
           "source": "01net",
-          "url": "https://www.01net.com/actualites/chatgpt-franchit-cap-critique-ia-plus-redoutable-jamais-creee-par-openai-arrive-bientot.html",
-          "summary": "OpenAI a révélé qu'Astra, son futur modèle destiné à ChatGPT, a franchi pour la première fois le seuil « critique » lors d'une évaluation de sécurité. L'IA est capable de découvrir des failles inconnues et de monter seule des cyberattaqu...",
-          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
-        },
-        {
-          "date": "31 août 2026",
-          "title": "Debian autorise officiellement l’IA générative, mais le contributeur reste responsable",
-          "source": "IT-Connect",
-          "url": "https://www.it-connect.fr/debian-vote-ia-generative-resolution-generale/",
-          "summary": "Les développeurs Debian ont voté : l’IA générative n’est ni interdite ni recommandée, mais celui qui soumet une contribution en assume toute la responsabilité.",
-          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
-        },
-        {
-          "date": "1 septembre 2026",
-          "title": "ChatGPT, Reddit et Roblox dans le viseur de l’Europe : qu’est-ce qui va changer ?",
-          "source": "01net",
-          "url": "https://www.01net.com/actualites/chatgpt-reddit-et-roblox-dans-le-viseur-de-leurope-quest-ce-qui-va-changer.html",
-          "summary": "À partir de janvier 2027, ChatGPT, Reddit et Roblox seront soumis aux règles les plus strictes du DSA. En cas de non-respect de ces règles, des amendes pouvant atteindre 6 % de leur chiffre d'affaires annuel mondial pourront être infligé...",
+          "url": "https://www.01net.com/actualites/anthropic-degaine-2-nouvelles-versions-de-claude-et-elles-font-des-prouesses.html",
+          "summary": "Anthropic vient de sortir deux nouveaux modèles d'IA pour animer Claude, à savoir Claude Fable 5.1 et Claude Mythos 5.1. Le duo s'est illustré par une série de prouesses dans le domaine de la cybersécurité et de la science. Ils sont auss...",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
@@ -147,6 +131,22 @@
           "source": "IT-Connect",
           "url": "https://www.it-connect.fr/dsa-chatgpt-reddit-roblox-designation-vlop-vlose/",
           "summary": "La Commission européenne désigne ChatGPT comme grand moteur de recherche, Reddit et Roblox comme grandes plateformes. Quatre mois pour être conforme au DSA.",
+          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
+        },
+        {
+          "date": "3 septembre 2026",
+          "title": "Pentest et IA : le dilemme de la souveraineté face à l’industrialisation des attaques",
+          "source": "IT-Connect",
+          "url": "https://www.it-connect.fr/pentest-et-ia-le-dilemme-de-la-souverainete-face-a-lindustrialisation-des-attaques/",
+          "summary": "Construire son agent d’audit : avantages, risques et cadres (MITRE ATLAS, OWASP) pour garder maîtrise et traçabilité. Quand l’IA rencontre le pentest.",
+          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
+        },
+        {
+          "date": "3 septembre 2026",
+          "title": "642 km d’autonomie, recharge en 24 minutes et IA : le Renault Scénic reçoit une mise à jour majeure pour devenir imbattable",
+          "source": "01net",
+          "url": "https://www.01net.com/actualites/642-km-autonomie-recharge-24-minutes-ia-renault-scenic-recoit-mise-a-jour-majeure-imbattable.html",
+          "summary": "Renault met à jour le Scénic en optimisant sensiblement sa technique. Si l’on ne peut pas parler de restylage, les évolutions sont suffisamment marquées pour faire du SUV français l'un des leaders du marché.",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         }
       ]
