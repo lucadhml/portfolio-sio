@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-03",
+  "updatedAt": "2026-09-04",
   "methodologie": {
     "title": "Méthodologie de veille",
     "summary": "Ma veille technologique repose sur plusieurs sources complémentaires : IT-Connect, ANSSI et le CERT-FR pour la cybersécurité, 01net et Le Monde Informatique pour l'IA. Chaque jour, un script récupère automatiquement les nouvelles publications, calcule un score de pertinence par mots-clés, et sélectionne les 4 meilleures entrées par thème.",
@@ -118,35 +118,35 @@
       ],
       "entries": [
         {
-          "date": "2 septembre 2026",
-          "title": "Anthropic dégaine 2 nouvelles versions de Claude, et elles font des prouesses",
+          "date": "4 septembre 2026",
+          "title": "OpenAI dévoile GPT-6 Astra, le ChatGPT « le plus intelligent et le plus avancé » à ce jour",
           "source": "01net",
-          "url": "https://www.01net.com/actualites/anthropic-degaine-2-nouvelles-versions-de-claude-et-elles-font-des-prouesses.html",
-          "summary": "Anthropic vient de sortir deux nouveaux modèles d'IA pour animer Claude, à savoir Claude Fable 5.1 et Claude Mythos 5.1. Le duo s'est illustré par une série de prouesses dans le domaine de la cybersécurité et de la science. Ils sont auss...",
-          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
-        },
-        {
-          "date": "2 septembre 2026",
-          "title": "DSA : l’Europe place ChatGPT, Reddit et Roblox sous surveillance renforcée",
-          "source": "IT-Connect",
-          "url": "https://www.it-connect.fr/dsa-chatgpt-reddit-roblox-designation-vlop-vlose/",
-          "summary": "La Commission européenne désigne ChatGPT comme grand moteur de recherche, Reddit et Roblox comme grandes plateformes. Quatre mois pour être conforme au DSA.",
+          "url": "https://www.01net.com/actualites/openai-devoile-gpt-6-astra-le-chatgpt-le-plus-intelligent-et-le-plus-avance-a-ce-jour.html",
+          "summary": "OpenAI a dévoilé GPT-6 Astra : « le modèle le plus intelligent et le plus avancé jamais lancé » par l’entreprise. Le dirigeant d'OpenAI estime que nous assistons avec ce nouveau modèle à l’avènement de l’intelligence artificielle général...",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
           "date": "3 septembre 2026",
-          "title": "Pentest et IA : le dilemme de la souveraineté face à l’industrialisation des attaques",
-          "source": "IT-Connect",
-          "url": "https://www.it-connect.fr/pentest-et-ia-le-dilemme-de-la-souverainete-face-a-lindustrialisation-des-attaques/",
-          "summary": "Construire son agent d’audit : avantages, risques et cadres (MITRE ATLAS, OWASP) pour garder maîtrise et traçabilité. Quand l’IA rencontre le pentest.",
+          "title": "Après le piratage des impôts, des ingénieurs de Mistral vont s’installer dans les ministères",
+          "source": "01net",
+          "url": "https://www.01net.com/actualites/apres-le-piratage-des-impots-des-ingenieurs-de-mistral-vont-sinstaller-dans-les-ministeres.html",
+          "summary": "Piraté cet été, épinglé pour ses défenses numériques, l'État sort le chéquier et s'offre les services de Mistral pour blinder ses ministères. Un détail complique le tableau : ses propres agents préfèrent ChatGPT.",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
           "date": "3 septembre 2026",
-          "title": "642 km d’autonomie, recharge en 24 minutes et IA : le Renault Scénic reçoit une mise à jour majeure pour devenir imbattable",
+          "title": "Tablettes et PC Yoga : Lenovo étoffe son catalogue et construit un écosystème complet autour de son IA Qira",
           "source": "01net",
-          "url": "https://www.01net.com/actualites/642-km-autonomie-recharge-24-minutes-ia-renault-scenic-recoit-mise-a-jour-majeure-imbattable.html",
-          "summary": "Renault met à jour le Scénic en optimisant sensiblement sa technique. Si l’on ne peut pas parler de restylage, les évolutions sont suffisamment marquées pour faire du SUV français l'un des leaders du marché.",
+          "url": "https://www.01net.com/actualites/lenovo-ifa-2026-etoffe-catalogue-yoga-ideapad-ideacentre-construit-ecosysteme-complet-autour-ia-qira.html",
+          "summary": "Comme chaque année à la rentrée, Lenovo tient son Innovation World à Berlin, en marge de l'IFA ; l'occasion pour le constructeur de présenter ses nouveautés en matière d'ordinateurs portables et de stations de travail, le tout saupoudré...",
+          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
+        },
+        {
+          "date": "3 septembre 2026",
+          "title": "Gemini Flash 3.8 : Google sacrifie ses prix pour contrer les IA chinoises",
+          "source": "01net",
+          "url": "https://www.01net.com/actualites/gemini-flash-3-8-google-sacrifie-ses-prix-pour-contrer-les-ia-chinoises.html",
+          "summary": "Google empile les modèles à prix cassé pendant que son modèle de pointe se fait toujours attendre. Derrière la cadence de mitraillette, un objectif qui n'a rien de philanthropique : équiper tout le monde, et récolter vos données.",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         }
       ]
