@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-04",
+  "updatedAt": "2026-09-05",
   "methodologie": {
     "title": "Méthodologie de veille",
     "summary": "Ma veille technologique repose sur plusieurs sources complémentaires : IT-Connect, ANSSI et le CERT-FR pour la cybersécurité, 01net et Le Monde Informatique pour l'IA. Chaque jour, un script récupère automatiquement les nouvelles publications, calcule un score de pertinence par mots-clés, et sélectionne les 4 meilleures entrées par thème.",
@@ -61,6 +61,14 @@
       ],
       "entries": [
         {
+          "date": "4 septembre 2026",
+          "title": "Google Chrome : la 6ème faille zero-day de 2026 est là, patchez sans attendre",
+          "source": "IT-Connect",
+          "url": "https://www.it-connect.fr/google-chrome-cve-2026-85046-faille-zero-day/",
+          "summary": "Google a corrigé 12 failles dans Chrome 152, dont la CVE-2026-85046, une faille zero-day dans le moteur JavaScript V8 déjà exploitée. La sixième de 2026.",
+          "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
+        },
+        {
           "date": "21 juillet 2026",
           "title": "Exigences du CRA : processus de notification pour les organismes notifiés",
           "source": "ANSSI",
@@ -74,14 +82,6 @@
           "source": "CERT-FR",
           "url": "https://www.cert.ssi.gouv.fr/actualite/CERTFR-2026-ACT-003/",
           "summary": "Le 20 janvier 2026, les détails de la vulnérabilité CVE-2026-24061, affectant *telnetd*, ont été publiés. Cette vulnérabilité permet à un attaquant de contourner l'authentification et de se connecter à une machine vulnérable en tant que...",
-          "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
-        },
-        {
-          "date": "2 septembre 2026",
-          "title": "Exchange Server : près de 22 000 serveurs exposés sont vulnérables à la CVE-2026-62911",
-          "source": "IT-Connect",
-          "url": "https://www.it-connect.fr/microsoft-exchange-cve-2026-62911/",
-          "summary": "Exchange exposé sur Internet: tout savoir sur la CVE-2026-62911, les risques, les chiffres Shadowserver et les correctifs à appliquer rapidement.",
           "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
         },
         {
@@ -118,35 +118,35 @@
       ],
       "entries": [
         {
+          "date": "2 septembre 2026",
+          "title": "DSA : l’Europe place ChatGPT, Reddit et Roblox sous surveillance renforcée",
+          "source": "IT-Connect",
+          "url": "https://www.it-connect.fr/dsa-chatgpt-reddit-roblox-designation-vlop-vlose/",
+          "summary": "La Commission européenne désigne ChatGPT comme grand moteur de recherche, Reddit et Roblox comme grandes plateformes. Quatre mois pour être conforme au DSA.",
+          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
+        },
+        {
           "date": "4 septembre 2026",
-          "title": "OpenAI dévoile GPT-6 Astra, le ChatGPT « le plus intelligent et le plus avancé » à ce jour",
-          "source": "01net",
-          "url": "https://www.01net.com/actualites/openai-devoile-gpt-6-astra-le-chatgpt-le-plus-intelligent-et-le-plus-avance-a-ce-jour.html",
-          "summary": "OpenAI a dévoilé GPT-6 Astra : « le modèle le plus intelligent et le plus avancé jamais lancé » par l’entreprise. Le dirigeant d'OpenAI estime que nous assistons avec ce nouveau modèle à l’avènement de l’intelligence artificielle général...",
+          "title": "OpenAI a publié une version bridée de GPT-6 Astra, ce modèle redoutable en cyber",
+          "source": "IT-Connect",
+          "url": "https://www.it-connect.fr/gpt-6-astra-exploitbench-openai-bride-exploits/",
+          "summary": "OpenAI dévoile GPT-6 Astra : 100 % sur ExploitBench, deux zero-day découvertes en test, mais la version publique est volontairement bridée et c’est tant mieux.",
+          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
+        },
+        {
+          "date": "4 septembre 2026",
+          "title": "UGREEN HomeAgent : quand le NAS devient un hub avec de l’IA locale pour la domotique",
+          "source": "IT-Connect",
+          "url": "https://www.it-connect.fr/ugreen-homeagent-hub-ia-locale-domotique/",
+          "summary": "UGREEN a dévoilé HomeAgent à l’IFA 2026 : trois hubs d’IA locale sous UGOS Pro, dont un modèle NVIDIA Jetson Thor, pour la domotique. Précommandes ouvertes.",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
           "date": "3 septembre 2026",
-          "title": "Après le piratage des impôts, des ingénieurs de Mistral vont s’installer dans les ministères",
-          "source": "01net",
-          "url": "https://www.01net.com/actualites/apres-le-piratage-des-impots-des-ingenieurs-de-mistral-vont-sinstaller-dans-les-ministeres.html",
-          "summary": "Piraté cet été, épinglé pour ses défenses numériques, l'État sort le chéquier et s'offre les services de Mistral pour blinder ses ministères. Un détail complique le tableau : ses propres agents préfèrent ChatGPT.",
-          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
-        },
-        {
-          "date": "3 septembre 2026",
-          "title": "Tablettes et PC Yoga : Lenovo étoffe son catalogue et construit un écosystème complet autour de son IA Qira",
-          "source": "01net",
-          "url": "https://www.01net.com/actualites/lenovo-ifa-2026-etoffe-catalogue-yoga-ideapad-ideacentre-construit-ecosysteme-complet-autour-ia-qira.html",
-          "summary": "Comme chaque année à la rentrée, Lenovo tient son Innovation World à Berlin, en marge de l'IFA ; l'occasion pour le constructeur de présenter ses nouveautés en matière d'ordinateurs portables et de stations de travail, le tout saupoudré...",
-          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
-        },
-        {
-          "date": "3 septembre 2026",
-          "title": "Gemini Flash 3.8 : Google sacrifie ses prix pour contrer les IA chinoises",
-          "source": "01net",
-          "url": "https://www.01net.com/actualites/gemini-flash-3-8-google-sacrifie-ses-prix-pour-contrer-les-ia-chinoises.html",
-          "summary": "Google empile les modèles à prix cassé pendant que son modèle de pointe se fait toujours attendre. Derrière la cadence de mitraillette, un objectif qui n'a rien de philanthropique : équiper tout le monde, et récolter vos données.",
+          "title": "Pentest et IA : le dilemme de la souveraineté face à l’industrialisation des attaques",
+          "source": "IT-Connect",
+          "url": "https://www.it-connect.fr/pentest-et-ia-le-dilemme-de-la-souverainete-face-a-lindustrialisation-des-attaques/",
+          "summary": "Construire son agent d’audit : avantages, risques et cadres (MITRE ATLAS, OWASP) pour garder maîtrise et traçabilité. Quand l’IA rencontre le pentest.",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         }
       ]
