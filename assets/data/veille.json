@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-06",
+  "updatedAt": "2026-09-07",
   "methodologie": {
     "title": "Méthodologie de veille",
     "summary": "Ma veille technologique repose sur plusieurs sources complémentaires : IT-Connect, ANSSI et le CERT-FR pour la cybersécurité, 01net et Le Monde Informatique pour l'IA. Chaque jour, un script récupère automatiquement les nouvelles publications, calcule un score de pertinence par mots-clés, et sélectionne les 4 meilleures entrées par thème.",
@@ -118,11 +118,11 @@
       ],
       "entries": [
         {
-          "date": "2 septembre 2026",
-          "title": "DSA : l’Europe place ChatGPT, Reddit et Roblox sous surveillance renforcée",
-          "source": "IT-Connect",
-          "url": "https://www.it-connect.fr/dsa-chatgpt-reddit-roblox-designation-vlop-vlose/",
-          "summary": "La Commission européenne désigne ChatGPT comme grand moteur de recherche, Reddit et Roblox comme grandes plateformes. Quatre mois pour être conforme au DSA.",
+          "date": "7 septembre 2026",
+          "title": "Plusieurs ChatGPT ont piraté un site web pour le transformer en forum secret",
+          "source": "01net",
+          "url": "https://www.01net.com/actualites/ia-openai-pirate-site-web-transformer-forum-secret.html",
+          "summary": "Des agents d'intelligence artificielle d'OpenAI ont détourné un site allemand, des semaines avant le piratage de Hugging Face. Le site a été transformé de force en forum clandestin pour les agents d'IA. Au courant de l'incident, OpenAI a...",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
@@ -142,11 +142,11 @@
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
-          "date": "3 septembre 2026",
-          "title": "Pentest et IA : le dilemme de la souveraineté face à l’industrialisation des attaques",
-          "source": "IT-Connect",
-          "url": "https://www.it-connect.fr/pentest-et-ia-le-dilemme-de-la-souverainete-face-a-lindustrialisation-des-attaques/",
-          "summary": "Construire son agent d’audit : avantages, risques et cadres (MITRE ATLAS, OWASP) pour garder maîtrise et traçabilité. Quand l’IA rencontre le pentest.",
+          "date": "7 septembre 2026",
+          "title": "J’ai testé ce smartphone increvable avec une caméra qui se détache, et il pèse une tonne",
+          "source": "01net",
+          "url": "https://www.01net.com/actualites/jai-teste-ce-smartphone-increvable-avec-une-camera-qui-se-detache-et-il-pese-une-tonne.html",
+          "summary": "On a pris en main le RugOne Xsnap 7 Pro à l'IFA 2026 : un smartphone durci doté d'une caméra d'action détachable, mais aussi très lourd et vendu via Kickstarter.",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         }
       ]
