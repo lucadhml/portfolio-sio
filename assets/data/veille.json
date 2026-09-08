@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-07",
+  "updatedAt": "2026-09-08",
   "methodologie": {
     "title": "Méthodologie de veille",
     "summary": "Ma veille technologique repose sur plusieurs sources complémentaires : IT-Connect, ANSSI et le CERT-FR pour la cybersécurité, 01net et Le Monde Informatique pour l'IA. Chaque jour, un script récupère automatiquement les nouvelles publications, calcule un score de pertinence par mots-clés, et sélectionne les 4 meilleures entrées par thème.",
@@ -77,19 +77,19 @@
           "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
         },
         {
-          "date": "21 janvier 2026",
-          "title": "Vulnérabilité dans telnetd (21 janvier 2026)",
-          "source": "CERT-FR",
-          "url": "https://www.cert.ssi.gouv.fr/actualite/CERTFR-2026-ACT-003/",
-          "summary": "Le 20 janvier 2026, les détails de la vulnérabilité CVE-2026-24061, affectant *telnetd*, ont été publiés. Cette vulnérabilité permet à un attaquant de contourner l'authentification et de se connecter à une machine vulnérable en tant que...",
+          "date": "8 septembre 2026",
+          "title": "Cette faille Proxmox corrigée en 2023 est activement exploitée (CVE-2023-54391)",
+          "source": "IT-Connect",
+          "url": "https://www.it-connect.fr/proxmox-ve-cve-2023-54391-contournement-authentification/",
+          "summary": "Cette faille dans Proxmox VE a été corrigée il y a 3 ans, et pourtant, elle est activement exploitée par les cybercriminels. Méfiez-vous de la CVE-2023-54391.",
           "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
         },
         {
-          "date": "2 avril 2026",
-          "title": "Expiration de certificats Secure Boot en juin 2026 (02 avril 2026)",
-          "source": "CERT-FR",
-          "url": "https://www.cert.ssi.gouv.fr/actualite/CERTFR-2026-ACT-014/",
-          "summary": "Le démarrage sécurisé (UEFI Secure Boot) est une fonctionnalité de sécurité disponible sur les ordinateurs PC clients et serveurs depuis 2011. Son rôle est de sécuriser la séquence de démarrage de l’appareil, en vérifiant l’intégrité du...",
+          "date": "7 septembre 2026",
+          "title": "FalconFlank : une faille zero-day dans CrowdStrike Falcon menace Windows",
+          "source": "IT-Connect",
+          "url": "https://www.it-connect.fr/falconflank-zero-day-crowdstrike-falcon-privileges-system/",
+          "summary": "La nouvelle faille zero-day FalconFlank donne les privilèges SYSTEM sur Windows en détournant la remédiation des macros Office de CrowdStrike Falcon.",
           "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
         }
       ]
@@ -118,11 +118,11 @@
       ],
       "entries": [
         {
-          "date": "7 septembre 2026",
-          "title": "Plusieurs ChatGPT ont piraté un site web pour le transformer en forum secret",
+          "date": "8 septembre 2026",
+          "title": "« Personne n’est préparé » : OpenAI admet perdre le contrôle de ses IA",
           "source": "01net",
-          "url": "https://www.01net.com/actualites/ia-openai-pirate-site-web-transformer-forum-secret.html",
-          "summary": "Des agents d'intelligence artificielle d'OpenAI ont détourné un site allemand, des semaines avant le piratage de Hugging Face. Le site a été transformé de force en forum clandestin pour les agents d'IA. Au courant de l'incident, OpenAI a...",
+          "url": "https://www.01net.com/actualites/personne-prepare-openai-admet-perdre-controle-ia.html",
+          "summary": "Le directeur scientifique d'OpenAI est inquiet au sujet de l'évolution de l'intelligence artificielle. Le chercheur estime que « personne n'est préparé » aux conséquences des progrès de l'IA, notamment en matière de cybersécurité. Il ajo...",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
@@ -134,19 +134,19 @@
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
+          "date": "8 septembre 2026",
+          "title": "WhatsApp ouvre enfin ses portes aux IA tierces",
+          "source": "01net",
+          "url": "https://www.01net.com/actualites/whatsapp-ouvre-enfin-ses-portes-aux-ia-tierces.html",
+          "summary": "WhatsApp va enfin permettre à ses utilisateurs d’ajouter des agents IA tiers au sein de l’application. Il sera possible d’ajouter jusqu’à 5 IA tierces par compte et de personnaliser chacune d’entre elles. Attention, les conversations ave...",
+          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
+        },
+        {
           "date": "4 septembre 2026",
           "title": "UGREEN HomeAgent : quand le NAS devient un hub avec de l’IA locale pour la domotique",
           "source": "IT-Connect",
           "url": "https://www.it-connect.fr/ugreen-homeagent-hub-ia-locale-domotique/",
           "summary": "UGREEN a dévoilé HomeAgent à l’IFA 2026 : trois hubs d’IA locale sous UGOS Pro, dont un modèle NVIDIA Jetson Thor, pour la domotique. Précommandes ouvertes.",
-          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
-        },
-        {
-          "date": "7 septembre 2026",
-          "title": "J’ai testé ce smartphone increvable avec une caméra qui se détache, et il pèse une tonne",
-          "source": "01net",
-          "url": "https://www.01net.com/actualites/jai-teste-ce-smartphone-increvable-avec-une-camera-qui-se-detache-et-il-pese-une-tonne.html",
-          "summary": "On a pris en main le RugOne Xsnap 7 Pro à l'IFA 2026 : un smartphone durci doté d'une caméra d'action détachable, mais aussi très lourd et vendu via Kickstarter.",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         }
       ]
