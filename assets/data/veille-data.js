@@ -1,5 +1,5 @@
 window.VEILLE_DATA = {
-  "updatedAt": "2026-09-08",
+  "updatedAt": "2026-09-09",
   "methodologie": {
     "title": "Méthodologie de veille",
     "summary": "Ma veille technologique repose sur plusieurs sources complémentaires : IT-Connect, ANSSI et le CERT-FR pour la cybersécurité, 01net et Le Monde Informatique pour l'IA. Chaque jour, un script récupère automatiquement les nouvelles publications, calcule un score de pertinence par mots-clés, et sélectionne les 4 meilleures entrées par thème.",
@@ -61,11 +61,19 @@ window.VEILLE_DATA = {
       ],
       "entries": [
         {
-          "date": "4 septembre 2026",
-          "title": "Google Chrome : la 6ème faille zero-day de 2026 est là, patchez sans attendre",
+          "date": "9 septembre 2026",
+          "title": "Magento : la faille zero-day StyleSmuggler est corrigée, mais des boutiques sont déjà piratées",
           "source": "IT-Connect",
-          "url": "https://www.it-connect.fr/google-chrome-cve-2026-85046-faille-zero-day/",
-          "summary": "Google a corrigé 12 failles dans Chrome 152, dont la CVE-2026-85046, une faille zero-day dans le moteur JavaScript V8 déjà exploitée. La sixième de 2026.",
+          "url": "https://www.it-connect.fr/magento-adobe-commerce-faille-zero-day-stylesmuggler-cve-2026-75650/",
+          "summary": "Exploitée depuis le 4 septembre 2026, la faille StyleSmuggler (CVE-2026-75650) permet de pirater Magento et Adobe Commerce. Un patch est disponible.",
+          "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
+        },
+        {
+          "date": "9 septembre 2026",
+          "title": "Patch Tuesday – Septembre 2026 : 973 failles corrigées, 2 zero-day exploitées et 20 failles wormables",
+          "source": "IT-Connect",
+          "url": "https://www.it-connect.fr/patch-tuesday-septembre-2026-recapitulatif/",
+          "summary": "Microsoft a corrigé 973 vulnérabilités avec le Patch Tuesday de septembre 2026, un record. Deux failles zero-day sont déjà exploitées, voici un récapitulatif.",
           "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
         },
         {
@@ -82,14 +90,6 @@ window.VEILLE_DATA = {
           "source": "IT-Connect",
           "url": "https://www.it-connect.fr/proxmox-ve-cve-2023-54391-contournement-authentification/",
           "summary": "Cette faille dans Proxmox VE a été corrigée il y a 3 ans, et pourtant, elle est activement exploitée par les cybercriminels. Méfiez-vous de la CVE-2023-54391.",
-          "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
-        },
-        {
-          "date": "7 septembre 2026",
-          "title": "FalconFlank : une faille zero-day dans CrowdStrike Falcon menace Windows",
-          "source": "IT-Connect",
-          "url": "https://www.it-connect.fr/falconflank-zero-day-crowdstrike-falcon-privileges-system/",
-          "summary": "La nouvelle faille zero-day FalconFlank donne les privilèges SYSTEM sur Windows en détournant la remédiation des macros Office de CrowdStrike Falcon.",
           "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
         }
       ]
@@ -118,6 +118,14 @@ window.VEILLE_DATA = {
       ],
       "entries": [
         {
+          "date": "9 septembre 2026",
+          "title": "ChatGPT a résolu une équation vieille de 200 ans, mais un mathématicien accuse OpenAI de plagiat",
+          "source": "01net",
+          "url": "https://www.01net.com/actualites/openai-revele-chatgpt-resolu-equation-vieille-200-ans-mathematicien-accuse-plagiat.html",
+          "summary": "OpenAI affirme que ChatGPT a résolu l'équation de Navier-Stokes, un problème mathématique posé en 1822, en seulement 88 heures. Cette prouesse de l'IA a rapidement été ternie par les accusations de plagiat de deux chercheurs. Ils soupçon...",
+          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
+        },
+        {
           "date": "8 septembre 2026",
           "title": "« Personne n’est préparé » : OpenAI admet perdre le contrôle de ses IA",
           "source": "01net",
@@ -126,11 +134,11 @@ window.VEILLE_DATA = {
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
-          "date": "4 septembre 2026",
-          "title": "OpenAI a publié une version bridée de GPT-6 Astra, ce modèle redoutable en cyber",
-          "source": "IT-Connect",
-          "url": "https://www.it-connect.fr/gpt-6-astra-exploitbench-openai-bride-exploits/",
-          "summary": "OpenAI dévoile GPT-6 Astra : 100 % sur ExploitBench, deux zero-day découvertes en test, mais la version publique est volontairement bridée et c’est tant mieux.",
+          "date": "9 septembre 2026",
+          "title": "Record historique sur Windows : Microsoft corrige près de 1000 failles en un seul Patch Tuesday !",
+          "source": "01net",
+          "url": "https://www.01net.com/actualites/record-historique-sur-windows-microsoft-corrige-pres-de-1000-failles-en-un-seul-patch-tuesday.html",
+          "summary": "Microsoft vient de déployer le plus imposant Patch Tuesday de son histoire. Avec le patch de septembre 2026, l'éditeur corrige près de 1000 failles de sécurité identifiées dans le code de Windows à l'aide de l'IA générative. On trouve su...",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
@@ -139,14 +147,6 @@ window.VEILLE_DATA = {
           "source": "01net",
           "url": "https://www.01net.com/actualites/whatsapp-ouvre-enfin-ses-portes-aux-ia-tierces.html",
           "summary": "WhatsApp va enfin permettre à ses utilisateurs d’ajouter des agents IA tiers au sein de l’application. Il sera possible d’ajouter jusqu’à 5 IA tierces par compte et de personnaliser chacune d’entre elles. Attention, les conversations ave...",
-          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
-        },
-        {
-          "date": "4 septembre 2026",
-          "title": "UGREEN HomeAgent : quand le NAS devient un hub avec de l’IA locale pour la domotique",
-          "source": "IT-Connect",
-          "url": "https://www.it-connect.fr/ugreen-homeagent-hub-ia-locale-domotique/",
-          "summary": "UGREEN a dévoilé HomeAgent à l’IFA 2026 : trois hubs d’IA locale sous UGOS Pro, dont un modèle NVIDIA Jetson Thor, pour la domotique. Précommandes ouvertes.",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         }
       ]
