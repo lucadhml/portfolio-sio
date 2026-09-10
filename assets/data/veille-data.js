@@ -1,5 +1,5 @@
 window.VEILLE_DATA = {
-  "updatedAt": "2026-09-09",
+  "updatedAt": "2026-09-10",
   "methodologie": {
     "title": "Méthodologie de veille",
     "summary": "Ma veille technologique repose sur plusieurs sources complémentaires : IT-Connect, ANSSI et le CERT-FR pour la cybersécurité, 01net et Le Monde Informatique pour l'IA. Chaque jour, un script récupère automatiquement les nouvelles publications, calcule un score de pertinence par mots-clés, et sélectionne les 4 meilleures entrées par thème.",
@@ -77,19 +77,19 @@ window.VEILLE_DATA = {
           "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
         },
         {
+          "date": "10 septembre 2026",
+          "title": "Android : le patch de septembre 2026 corrige une faille critique exploitable à distance sans interaction",
+          "source": "IT-Connect",
+          "url": "https://www.it-connect.fr/android-patch-septembre-2026-faille-critique-rce/",
+          "summary": "Google a publié le bulletin de sécurité de septembre 2026 pour Android : il corrige 180 vulnérabilités, dont une faille critique exploitable à distance.",
+          "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
+        },
+        {
           "date": "21 juillet 2026",
           "title": "Exigences du CRA : processus de notification pour les organismes notifiés",
           "source": "ANSSI",
           "url": "http://cyber.sites.beta.gouv.fr/actualites/exigences-du-cra-processus-de-notification-pour-les-organismes-notifies/",
           "summary": "Dans un contexte marqué par l’exploitation croissante de vulnérabilités affectant des produits numériques ayant un niveau de cybersécurité insuffisant, le […]",
-          "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
-        },
-        {
-          "date": "8 septembre 2026",
-          "title": "Cette faille Proxmox corrigée en 2023 est activement exploitée (CVE-2023-54391)",
-          "source": "IT-Connect",
-          "url": "https://www.it-connect.fr/proxmox-ve-cve-2023-54391-contournement-authentification/",
-          "summary": "Cette faille dans Proxmox VE a été corrigée il y a 3 ans, et pourtant, elle est activement exploitée par les cybercriminels. Méfiez-vous de la CVE-2023-54391.",
           "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
         }
       ]
@@ -118,35 +118,11 @@ window.VEILLE_DATA = {
       ],
       "entries": [
         {
-          "date": "9 septembre 2026",
-          "title": "ChatGPT a résolu une équation vieille de 200 ans, mais un mathématicien accuse OpenAI de plagiat",
+          "date": "10 septembre 2026",
+          "title": "Apple réinvente Siri : ce que la nouvelle version va changer dans votre quotidien",
           "source": "01net",
-          "url": "https://www.01net.com/actualites/openai-revele-chatgpt-resolu-equation-vieille-200-ans-mathematicien-accuse-plagiat.html",
-          "summary": "OpenAI affirme que ChatGPT a résolu l'équation de Navier-Stokes, un problème mathématique posé en 1822, en seulement 88 heures. Cette prouesse de l'IA a rapidement été ternie par les accusations de plagiat de deux chercheurs. Ils soupçon...",
-          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
-        },
-        {
-          "date": "8 septembre 2026",
-          "title": "« Personne n’est préparé » : OpenAI admet perdre le contrôle de ses IA",
-          "source": "01net",
-          "url": "https://www.01net.com/actualites/personne-prepare-openai-admet-perdre-controle-ia.html",
-          "summary": "Le directeur scientifique d'OpenAI est inquiet au sujet de l'évolution de l'intelligence artificielle. Le chercheur estime que « personne n'est préparé » aux conséquences des progrès de l'IA, notamment en matière de cybersécurité. Il ajo...",
-          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
-        },
-        {
-          "date": "9 septembre 2026",
-          "title": "Record historique sur Windows : Microsoft corrige près de 1000 failles en un seul Patch Tuesday !",
-          "source": "01net",
-          "url": "https://www.01net.com/actualites/record-historique-sur-windows-microsoft-corrige-pres-de-1000-failles-en-un-seul-patch-tuesday.html",
-          "summary": "Microsoft vient de déployer le plus imposant Patch Tuesday de son histoire. Avec le patch de septembre 2026, l'éditeur corrige près de 1000 failles de sécurité identifiées dans le code de Windows à l'aide de l'IA générative. On trouve su...",
-          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
-        },
-        {
-          "date": "8 septembre 2026",
-          "title": "WhatsApp ouvre enfin ses portes aux IA tierces",
-          "source": "01net",
-          "url": "https://www.01net.com/actualites/whatsapp-ouvre-enfin-ses-portes-aux-ia-tierces.html",
-          "summary": "WhatsApp va enfin permettre à ses utilisateurs d’ajouter des agents IA tiers au sein de l’application. Il sera possible d’ajouter jusqu’à 5 IA tierces par compte et de personnaliser chacune d’entre elles. Attention, les conversations ave...",
+          "url": "https://www.01net.com/actualites/apple-reinvente-siri-ce-que-la-nouvelle-version-va-changer-dans-votre-quotidien.html",
+          "summary": "En marge de la présentation de ses nouveaux iPhone, Apple a dévoilé les importants changements à venir dans son assistant intelligent. Siri AI, c’est son nouveau nom, va vivre une véritable révolution.",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         }
       ]
