@@ -1,5 +1,5 @@
 window.VEILLE_DATA = {
-  "updatedAt": "2026-09-10",
+  "updatedAt": "2026-09-11",
   "methodologie": {
     "title": "Méthodologie de veille",
     "summary": "Ma veille technologique repose sur plusieurs sources complémentaires : IT-Connect, ANSSI et le CERT-FR pour la cybersécurité, 01net et Le Monde Informatique pour l'IA. Chaque jour, un script récupère automatiquement les nouvelles publications, calcule un score de pertinence par mots-clés, et sélectionne les 4 meilleures entrées par thème.",
@@ -69,11 +69,11 @@ window.VEILLE_DATA = {
           "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
         },
         {
-          "date": "9 septembre 2026",
-          "title": "Patch Tuesday – Septembre 2026 : 973 failles corrigées, 2 zero-day exploitées et 20 failles wormables",
+          "date": "10 septembre 2026",
+          "title": "ShieldCrash : cette nouvelle zero-day Microsoft Defender offre un accès système",
           "source": "IT-Connect",
-          "url": "https://www.it-connect.fr/patch-tuesday-septembre-2026-recapitulatif/",
-          "summary": "Microsoft a corrigé 973 vulnérabilités avec le Patch Tuesday de septembre 2026, un record. Deux failles zero-day sont déjà exploitées, voici un récapitulatif.",
+          "url": "https://www.it-connect.fr/shieldcrash-zero-day-defender-contournement-patch-shieldbreak/",
+          "summary": "L’exploit ShieldCrash contourne le correctif de Microsoft pour la faille ShieldBreak et permet de lire n’importe quel fichier sur Windows et Windows Server.",
           "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
         },
         {
@@ -117,6 +117,22 @@ window.VEILLE_DATA = {
         }
       ],
       "entries": [
+        {
+          "date": "11 septembre 2026",
+          "title": "Google lance son appli Gemini sur Windows",
+          "source": "01net",
+          "url": "https://www.01net.com/actualites/google-lance-son-appli-gemini-sur-windows.html",
+          "summary": "L’assistant IA de Google est décliné sous la forme d’une application native pour Windows 11. Vous pouvez désormais l’interroger depuis votre PC à l’aide d’un simple raccourci clavier.",
+          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
+        },
+        {
+          "date": "10 septembre 2026",
+          "title": "iPhone 18 Pro : la fonctionnalité secrète d’Apple pour démasquer les fausses photos",
+          "source": "01net",
+          "url": "https://www.01net.com/actualites/iphone-18-pro-fonctionnalite-secrete-apple-pour-demasquer-fausses-photos.html",
+          "summary": "Pendant la présentation de ses iPhone 18 Pro, Apple a mis en avant une nouvelle fonction baptisée « Apple Reference Image » qui permet de garantir l'authenticité des photos prises avec l’appareil et de certifier qu'un cliché n'a subi auc...",
+          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
+        },
         {
           "date": "10 septembre 2026",
           "title": "Apple réinvente Siri : ce que la nouvelle version va changer dans votre quotidien",
