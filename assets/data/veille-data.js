@@ -1,5 +1,5 @@
 window.VEILLE_DATA = {
-  "updatedAt": "2026-09-11",
+  "updatedAt": "2026-09-12",
   "methodologie": {
     "title": "Méthodologie de veille",
     "summary": "Ma veille technologique repose sur plusieurs sources complémentaires : IT-Connect, ANSSI et le CERT-FR pour la cybersécurité, 01net et Le Monde Informatique pour l'IA. Chaque jour, un script récupère automatiquement les nouvelles publications, calcule un score de pertinence par mots-clés, et sélectionne les 4 meilleures entrées par thème.",
@@ -119,26 +119,34 @@ window.VEILLE_DATA = {
       "entries": [
         {
           "date": "11 septembre 2026",
-          "title": "Google lance son appli Gemini sur Windows",
+          "title": "Course à l’IA : OpenAI se dit prêt à lever le pied, mais refuse d’être le seul",
           "source": "01net",
-          "url": "https://www.01net.com/actualites/google-lance-son-appli-gemini-sur-windows.html",
-          "summary": "L’assistant IA de Google est décliné sous la forme d’une application native pour Windows 11. Vous pouvez désormais l’interroger depuis votre PC à l’aide d’un simple raccourci clavier.",
+          "url": "https://www.01net.com/actualites/course-a-lia-openai-se-dit-pret-a-lever-le-pied-mais-refuse-detre-le-seul.html",
+          "summary": "Alors que les alertes sur les dérives potentielles de l’intelligence artificielle se multiplient, OpenAI se dit prêt à lever le pied. Sam Altman souhaite toutefois que sa société ne soit pas la seule à ralentir ses activités. Le PDG appe...",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
-          "date": "10 septembre 2026",
-          "title": "iPhone 18 Pro : la fonctionnalité secrète d’Apple pour démasquer les fausses photos",
+          "date": "11 septembre 2026",
+          "title": "ChatGPT : OpenAI ne suit plus et suspend les abonnements Pro",
           "source": "01net",
-          "url": "https://www.01net.com/actualites/iphone-18-pro-fonctionnalite-secrete-apple-pour-demasquer-fausses-photos.html",
-          "summary": "Pendant la présentation de ses iPhone 18 Pro, Apple a mis en avant une nouvelle fonction baptisée « Apple Reference Image » qui permet de garantir l'authenticité des photos prises avec l’appareil et de certifier qu'un cliché n'a subi auc...",
+          "url": "https://www.01net.com/actualites/chatgpt-openai-ne-suit-plus-et-suspend-les-abonnements-pro.html",
+          "summary": "Une semaine après avoir proclamé « le début de l'ère de l'AGI », OpenAI ferme la porte à ceux qui voulaient payer 200 dollars par mois pour y entrer. Les serveurs, eux, n'avaient visiblement pas lu le communiqué.",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
-          "date": "10 septembre 2026",
-          "title": "Apple réinvente Siri : ce que la nouvelle version va changer dans votre quotidien",
+          "date": "12 septembre 2026",
+          "title": "Cette start-up française veut que vous trouviez votre logement en discutant simplement avec ChatGPT",
           "source": "01net",
-          "url": "https://www.01net.com/actualites/apple-reinvente-siri-ce-que-la-nouvelle-version-va-changer-dans-votre-quotidien.html",
-          "summary": "En marge de la présentation de ses nouveaux iPhone, Apple a dévoilé les importants changements à venir dans son assistant intelligent. Siri AI, c’est son nouveau nom, va vivre une véritable révolution.",
+          "url": "https://www.01net.com/actualites/cette-start-up-francaise-veut-que-vous-trouviez-votre-logement-en-discutant-simplement-avec-chatgpt.html",
+          "summary": "La start-up française Omny lance sur ChatGPT une application permettant de mener toute une recherche immobilière par conversation, jusqu'à la prise de rendez-vous avec un agent.",
+          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
+        },
+        {
+          "date": "12 septembre 2026",
+          "title": "Selon Anthropic, les plombiers et électriciens pourraient être les grands gagnants de l’IA",
+          "source": "01net",
+          "url": "https://www.01net.com/actualites/plombiers-electriciens-pourraient-grands-gagnants-ia.html",
+          "summary": "Le créateur de Claude a modélisé l'économie américaine de 2030 : dans tous les cas, le pays s'enrichit. Pour les diplômés derrière un écran, c'est une autre histoire. Et les prophéties de son propre PDG y laissent des plumes.",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         }
       ]
