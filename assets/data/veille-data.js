@@ -1,5 +1,5 @@
 window.VEILLE_DATA = {
-  "updatedAt": "2026-09-13",
+  "updatedAt": "2026-09-14",
   "methodologie": {
     "title": "Méthodologie de veille",
     "summary": "Ma veille technologique repose sur plusieurs sources complémentaires : IT-Connect, ANSSI et le CERT-FR pour la cybersécurité, 01net et Le Monde Informatique pour l'IA. Chaque jour, un script récupère automatiquement les nouvelles publications, calcule un score de pertinence par mots-clés, et sélectionne les 4 meilleures entrées par thème.",
@@ -118,35 +118,27 @@ window.VEILLE_DATA = {
       ],
       "entries": [
         {
-          "date": "11 septembre 2026",
-          "title": "Course à l’IA : OpenAI se dit prêt à lever le pied, mais refuse d’être le seul",
+          "date": "14 septembre 2026",
+          "title": "« Prendre le contrôle » d’Internet dès 2027 : OpenAI, Anthropic et Elon Musk veulent freiner la course à l’IA, Trump et la Chine refusent",
           "source": "01net",
-          "url": "https://www.01net.com/actualites/course-a-lia-openai-se-dit-pret-a-lever-le-pied-mais-refuse-detre-le-seul.html",
-          "summary": "Alors que les alertes sur les dérives potentielles de l’intelligence artificielle se multiplient, OpenAI se dit prêt à lever le pied. Sam Altman souhaite toutefois que sa société ne soit pas la seule à ralentir ses activités. Le PDG appe...",
+          "url": "https://www.01net.com/actualites/prendre-controle-internet-2027-openai-anthropic-elon-musk-veulent-freiner-course-ia-trump-chine-refusent.html",
+          "summary": "Le PDG d'Anthropic alerte à nouveau sur les dangers de l'intelligence artificielle. Il craint qu'un groupe d'agents IA autonomes soit capable, d'ici 6 à 12 mois, de prendre le contrôle de l'ensemble d'Internet. OpenAI et Elon Musk abonde...",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
-          "date": "11 septembre 2026",
-          "title": "ChatGPT : OpenAI ne suit plus et suspend les abonnements Pro",
+          "date": "14 septembre 2026",
+          "title": "OpenAI, Google et Anthropic prépareraient leur propre gendarme de l’IA",
           "source": "01net",
-          "url": "https://www.01net.com/actualites/chatgpt-openai-ne-suit-plus-et-suspend-les-abonnements-pro.html",
-          "summary": "Une semaine après avoir proclamé « le début de l'ère de l'AGI », OpenAI ferme la porte à ceux qui voulaient payer 200 dollars par mois pour y entrer. Les serveurs, eux, n'avaient visiblement pas lu le communiqué.",
+          "url": "https://www.01net.com/actualites/openai-google-anthropic-prepareraient-propre-gendarme-ia.html",
+          "summary": "OpenAI, Google et Anthropic travailleraient sur l’élaboration d’un organisme centré sur le contrôle de l'intelligence artificielle. Indépendamment du gouvernement américain, des entreprises farouchement concurrentes établiraient ainsi el...",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
-          "date": "12 septembre 2026",
-          "title": "Cette start-up française veut que vous trouviez votre logement en discutant simplement avec ChatGPT",
+          "date": "13 septembre 2026",
+          "title": "Vous pensiez parler à DeepSeek et Kimi, c’était peut-être Claude : les révélations d’Anthropic",
           "source": "01net",
-          "url": "https://www.01net.com/actualites/cette-start-up-francaise-veut-que-vous-trouviez-votre-logement-en-discutant-simplement-avec-chatgpt.html",
-          "summary": "La start-up française Omny lance sur ChatGPT une application permettant de mener toute une recherche immobilière par conversation, jusqu'à la prise de rendez-vous avec un agent.",
-          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
-        },
-        {
-          "date": "12 septembre 2026",
-          "title": "Selon Anthropic, les plombiers et électriciens pourraient être les grands gagnants de l’IA",
-          "source": "01net",
-          "url": "https://www.01net.com/actualites/plombiers-electriciens-pourraient-grands-gagnants-ia.html",
-          "summary": "Le créateur de Claude a modélisé l'économie américaine de 2030 : dans tous les cas, le pays s'enrichit. Pour les diplômés derrière un écran, c'est une autre histoire. Et les prophéties de son propre PDG y laissent des plumes.",
+          "url": "https://www.01net.com/actualites/vous-pensiez-parler-a-deepseek-et-kimi-cetait-peut-etre-claude-les-revelations-danthropic.html",
+          "summary": "Sept labos chinois, près de 200 millions d'échanges détournés, et des utilisateurs de Kimi ou de DeepSeek qui parlaient sans le savoir au modèle d'un concurrent américain. Le rapport d'Anthropic se lit comme un polar industriel, à charge.",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         }
       ]
