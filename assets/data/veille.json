@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-14",
+  "updatedAt": "2026-09-15",
   "methodologie": {
     "title": "Méthodologie de veille",
     "summary": "Ma veille technologique repose sur plusieurs sources complémentaires : IT-Connect, ANSSI et le CERT-FR pour la cybersécurité, 01net et Le Monde Informatique pour l'IA. Chaque jour, un script récupère automatiquement les nouvelles publications, calcule un score de pertinence par mots-clés, et sélectionne les 4 meilleures entrées par thème.",
@@ -61,14 +61,6 @@
       ],
       "entries": [
         {
-          "date": "9 septembre 2026",
-          "title": "Magento : la faille zero-day StyleSmuggler est corrigée, mais des boutiques sont déjà piratées",
-          "source": "IT-Connect",
-          "url": "https://www.it-connect.fr/magento-adobe-commerce-faille-zero-day-stylesmuggler-cve-2026-75650/",
-          "summary": "Exploitée depuis le 4 septembre 2026, la faille StyleSmuggler (CVE-2026-75650) permet de pirater Magento et Adobe Commerce. Un patch est disponible.",
-          "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
-        },
-        {
           "date": "10 septembre 2026",
           "title": "ShieldCrash : cette nouvelle zero-day Microsoft Defender offre un accès système",
           "source": "IT-Connect",
@@ -90,6 +82,14 @@
           "source": "ANSSI",
           "url": "http://cyber.sites.beta.gouv.fr/actualites/exigences-du-cra-processus-de-notification-pour-les-organismes-notifies/",
           "summary": "Dans un contexte marqué par l’exploitation croissante de vulnérabilités affectant des produits numériques ayant un niveau de cybersécurité insuffisant, le […]",
+          "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
+        },
+        {
+          "date": "21 janvier 2026",
+          "title": "Vulnérabilité dans telnetd (21 janvier 2026)",
+          "source": "CERT-FR",
+          "url": "https://www.cert.ssi.gouv.fr/actualite/CERTFR-2026-ACT-003/",
+          "summary": "Le 20 janvier 2026, les détails de la vulnérabilité CVE-2026-24061, affectant *telnetd*, ont été publiés. Cette vulnérabilité permet à un attaquant de contourner l'authentification et de se connecter à une machine vulnérable en tant que...",
           "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
         }
       ]
@@ -118,27 +118,35 @@
       ],
       "entries": [
         {
-          "date": "14 septembre 2026",
-          "title": "« Prendre le contrôle » d’Internet dès 2027 : OpenAI, Anthropic et Elon Musk veulent freiner la course à l’IA, Trump et la Chine refusent",
+          "date": "15 septembre 2026",
+          "title": "« Nous n’allons pas laisser cela se produire » : Trump appelle le patron de Nvidia en pleine conférence",
           "source": "01net",
-          "url": "https://www.01net.com/actualites/prendre-controle-internet-2027-openai-anthropic-elon-musk-veulent-freiner-course-ia-trump-chine-refusent.html",
-          "summary": "Le PDG d'Anthropic alerte à nouveau sur les dangers de l'intelligence artificielle. Il craint qu'un groupe d'agents IA autonomes soit capable, d'ici 6 à 12 mois, de prendre le contrôle de l'ensemble d'Internet. OpenAI et Elon Musk abonde...",
+          "url": "https://www.01net.com/actualites/nous-nallons-pas-laisser-cela-se-produire-trump-appelle-le-patron-de-nvidia-en-pleine-conference.html",
+          "summary": "Alors qu’il participait à un podcast sur une scène du sommet All-In, Jensen Huang, PDG de Nvidia, a reçu un appel de Donald Trump. Si les appels à ralentir le rythme de développement de l’IA se sont multipliés ces derniers temps, le patr...",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
           "date": "14 septembre 2026",
-          "title": "OpenAI, Google et Anthropic prépareraient leur propre gendarme de l’IA",
+          "title": "J’ai testé le Valve Steam Frame, c’est une tuerie… mais vaut-il vraiment vos 1 049 euros ?",
           "source": "01net",
-          "url": "https://www.01net.com/actualites/openai-google-anthropic-prepareraient-propre-gendarme-ia.html",
-          "summary": "OpenAI, Google et Anthropic travailleraient sur l’élaboration d’un organisme centré sur le contrôle de l'intelligence artificielle. Indépendamment du gouvernement américain, des entreprises farouchement concurrentes établiraient ainsi el...",
+          "url": "https://www.01net.com/tests/test-valve-steam-frame-fr-casque-vr-steamos.html",
+          "summary": "Valve reprend la main sur son destin en VR avec le Steam Frame, un casque autonome à 1 049 euros qui mise sur SteamOS, une puce ARM de smartphone et une bibliothèque Steam étonnamment exploitable dès le lancement. Après une semaine de te...",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
-          "date": "13 septembre 2026",
-          "title": "Vous pensiez parler à DeepSeek et Kimi, c’était peut-être Claude : les révélations d’Anthropic",
+          "date": "14 septembre 2026",
+          "title": "L’Europe veut interdire les réseaux sociaux aux plus jeunes, voici ce qui pourrait changer",
           "source": "01net",
-          "url": "https://www.01net.com/actualites/vous-pensiez-parler-a-deepseek-et-kimi-cetait-peut-etre-claude-les-revelations-danthropic.html",
-          "summary": "Sept labos chinois, près de 200 millions d'échanges détournés, et des utilisateurs de Kimi ou de DeepSeek qui parlaient sans le savoir au modèle d'un concurrent américain. Le rapport d'Anthropic se lit comme un polar industriel, à charge.",
+          "url": "https://www.01net.com/actualites/europe-veut-limiter-lacces-des-plus-jeunes-aux-reseaux-sociaux-changer.html",
+          "summary": "La Commission européenne présentera ce jeudi 17 septembre l’EU KIDS Act, soit un ensemble de règles visant à protéger les plus jeunes en ligne. Les réseaux sociaux, les plateformes de partage de vidéos ou encore les assistants IA sont co...",
+          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
+        },
+        {
+          "date": "14 septembre 2026",
+          "title": "PaperCut NG/MF : 395 organisations dans 48 pays compromises par des agents IA",
+          "source": "IT-Connect",
+          "url": "https://www.it-connect.fr/papercut-agents-ia-395-organisations-greynoise/",
+          "summary": "Des centaines d’agents IA ont exploité deux failles PaperCut NG/MF et compromis 440 serveurs chez 395 organisations dans 48 pays, dont 31 en France.",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         }
       ]
