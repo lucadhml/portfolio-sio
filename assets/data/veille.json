@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-15",
+  "updatedAt": "2026-09-16",
   "methodologie": {
     "title": "Méthodologie de veille",
     "summary": "Ma veille technologique repose sur plusieurs sources complémentaires : IT-Connect, ANSSI et le CERT-FR pour la cybersécurité, 01net et Le Monde Informatique pour l'IA. Chaque jour, un script récupère automatiquement les nouvelles publications, calcule un score de pertinence par mots-clés, et sélectionne les 4 meilleures entrées par thème.",
@@ -61,22 +61,6 @@
       ],
       "entries": [
         {
-          "date": "10 septembre 2026",
-          "title": "ShieldCrash : cette nouvelle zero-day Microsoft Defender offre un accès système",
-          "source": "IT-Connect",
-          "url": "https://www.it-connect.fr/shieldcrash-zero-day-defender-contournement-patch-shieldbreak/",
-          "summary": "L’exploit ShieldCrash contourne le correctif de Microsoft pour la faille ShieldBreak et permet de lire n’importe quel fichier sur Windows et Windows Server.",
-          "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
-        },
-        {
-          "date": "10 septembre 2026",
-          "title": "Android : le patch de septembre 2026 corrige une faille critique exploitable à distance sans interaction",
-          "source": "IT-Connect",
-          "url": "https://www.it-connect.fr/android-patch-septembre-2026-faille-critique-rce/",
-          "summary": "Google a publié le bulletin de sécurité de septembre 2026 pour Android : il corrige 180 vulnérabilités, dont une faille critique exploitable à distance.",
-          "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
-        },
-        {
           "date": "21 juillet 2026",
           "title": "Exigences du CRA : processus de notification pour les organismes notifiés",
           "source": "ANSSI",
@@ -85,11 +69,27 @@
           "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
         },
         {
-          "date": "21 janvier 2026",
-          "title": "Vulnérabilité dans telnetd (21 janvier 2026)",
-          "source": "CERT-FR",
-          "url": "https://www.cert.ssi.gouv.fr/actualite/CERTFR-2026-ACT-003/",
-          "summary": "Le 20 janvier 2026, les détails de la vulnérabilité CVE-2026-24061, affectant *telnetd*, ont été publiés. Cette vulnérabilité permet à un attaquant de contourner l'authentification et de se connecter à une machine vulnérable en tant que...",
+          "date": "16 septembre 2026",
+          "title": "iOS 27 et macOS Golden Gate 27 : Apple corrige plus de 200 failles, dont 20 dans le noyau d’iOS",
+          "source": "IT-Connect",
+          "url": "https://www.it-connect.fr/apple-ios-27-macos-golden-gate-27-plus-de-200-failles-corrigees/",
+          "summary": "Apple a publié iOS 27 et macOS Golden Gate 27 avec plus de 200 correctifs de sécurité, dont une faille CoreMedia exploitable via une simple image.",
+          "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
+        },
+        {
+          "date": "15 septembre 2026",
+          "title": "Logitech Options+ : une faille donne les privilèges SYSTEM à n’importe quel utilisateur Windows",
+          "source": "IT-Connect",
+          "url": "https://www.it-connect.fr/logitech-options-plus-faille-system-cve-2026-12518/",
+          "summary": "Une faille dans Logitech Options+ (CVE-2026-12518) permet à un utilisateur standard d’obtenir les privilèges SYSTEM sur Windows. Un correctif est disponible.",
+          "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
+        },
+        {
+          "date": "16 septembre 2026",
+          "title": "Nintendo Switch : une faille permet d’exécuter du code via le code QR affiché à l’écran",
+          "source": "IT-Connect",
+          "url": "https://www.it-connect.fr/nintendo-switch-faille-code-qr-cve-2026-82079/",
+          "summary": "Une faille de sécurité dans la Nintendo Switch : CVE-2026-82079. Un attaquant à proximité qui scanne le code QR affiché par la console peut exécuter du code.",
           "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
         }
       ]
@@ -118,6 +118,22 @@
       ],
       "entries": [
         {
+          "date": "16 septembre 2026",
+          "title": "La pause de l’IA divise : Meta refuse de ralentir, Mistral dénonce la stratégie d’OpenAI et Anthropic",
+          "source": "01net",
+          "url": "https://www.01net.com/actualites/pause-ia-divise-meta-refuse-ralentir-mistral-denonce-strategie-openai-anthropic.html",
+          "summary": "Entre Anthropic, OpenAI, Meta et Mistral AI, la course à l'intelligence artificielle divise plus que jamais. Alors que Dario Amodei et Sam Altman réclament un ralentissement des recherches, Mark Zuckerberg s'y oppose fermement, estimant...",
+          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
+        },
+        {
+          "date": "16 septembre 2026",
+          "title": "MediaTek dévoile la puce la plus fine jamais produite, juste avant Qualcomm",
+          "source": "01net",
+          "url": "https://www.01net.com/actualites/mediatek-devoile-la-puce-la-plus-fine-jamais-produite-juste-avant-qualcomm.html",
+          "summary": "MediaTek dégaine la première puce pour smartphone gravée en 2 nanomètres, une semaine avant le grand raout de Qualcomm. Au programme : de l'autonomie récupérée et une IA format XXL qui se passe du cloud.",
+          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
+        },
+        {
           "date": "15 septembre 2026",
           "title": "« Nous n’allons pas laisser cela se produire » : Trump appelle le patron de Nvidia en pleine conférence",
           "source": "01net",
@@ -126,27 +142,11 @@
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
-          "date": "14 septembre 2026",
-          "title": "J’ai testé le Valve Steam Frame, c’est une tuerie… mais vaut-il vraiment vos 1 049 euros ?",
-          "source": "01net",
-          "url": "https://www.01net.com/tests/test-valve-steam-frame-fr-casque-vr-steamos.html",
-          "summary": "Valve reprend la main sur son destin en VR avec le Steam Frame, un casque autonome à 1 049 euros qui mise sur SteamOS, une puce ARM de smartphone et une bibliothèque Steam étonnamment exploitable dès le lancement. Après une semaine de te...",
-          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
-        },
-        {
-          "date": "14 septembre 2026",
-          "title": "L’Europe veut interdire les réseaux sociaux aux plus jeunes, voici ce qui pourrait changer",
-          "source": "01net",
-          "url": "https://www.01net.com/actualites/europe-veut-limiter-lacces-des-plus-jeunes-aux-reseaux-sociaux-changer.html",
-          "summary": "La Commission européenne présentera ce jeudi 17 septembre l’EU KIDS Act, soit un ensemble de règles visant à protéger les plus jeunes en ligne. Les réseaux sociaux, les plateformes de partage de vidéos ou encore les assistants IA sont co...",
-          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
-        },
-        {
-          "date": "14 septembre 2026",
-          "title": "PaperCut NG/MF : 395 organisations dans 48 pays compromises par des agents IA",
+          "date": "15 septembre 2026",
+          "title": "WordPress : les mises à jour de plugins jugées à risque désormais bloquées grâce à l’IA !",
           "source": "IT-Connect",
-          "url": "https://www.it-connect.fr/papercut-agents-ia-395-organisations-greynoise/",
-          "summary": "Des centaines d’agents IA ont exploité deux failles PaperCut NG/MF et compromis 440 serveurs chez 395 organisations dans 48 pays, dont 31 en France.",
+          "url": "https://www.it-connect.fr/wordpress-controle-securite-automatise-mises-a-jour-plugins/",
+          "summary": "WordPress.org analyse désormais chaque mise à jour de plugin par IA et bloque automatiquement les versions à risque, après une porte dérobée stoppée en juillet.",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         }
       ]
