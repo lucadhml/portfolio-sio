@@ -1,5 +1,5 @@
 window.VEILLE_DATA = {
-  "updatedAt": "2026-09-16",
+  "updatedAt": "2026-09-17",
   "methodologie": {
     "title": "Méthodologie de veille",
     "summary": "Ma veille technologique repose sur plusieurs sources complémentaires : IT-Connect, ANSSI et le CERT-FR pour la cybersécurité, 01net et Le Monde Informatique pour l'IA. Chaque jour, un script récupère automatiquement les nouvelles publications, calcule un score de pertinence par mots-clés, et sélectionne les 4 meilleures entrées par thème.",
@@ -118,6 +118,14 @@ window.VEILLE_DATA = {
       ],
       "entries": [
         {
+          "date": "17 septembre 2026",
+          "title": "Six ChatGPT hors de contrôle : OpenAI reconnaît plusieurs nouveaux dérapages « préoccupants »",
+          "source": "01net",
+          "url": "https://www.01net.com/actualites/six-chatgpt-hors-controle-openai-reconnait-plusieurs-nouveaux-derapages-preoccupants.html",
+          "summary": "OpenAI a dévoilé six nouveaux incidents impliquant des versions instables de ChatGPT. Ces IA ont menti et tenté d'échapper à leur contrôle en multipliant les tactiques. Cette annonce relance les appels de Sam Altman à ralentir le dévelop...",
+          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
+        },
+        {
           "date": "16 septembre 2026",
           "title": "La pause de l’IA divise : Meta refuse de ralentir, Mistral dénonce la stratégie d’OpenAI et Anthropic",
           "source": "01net",
@@ -126,27 +134,19 @@ window.VEILLE_DATA = {
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
-          "date": "16 septembre 2026",
-          "title": "MediaTek dévoile la puce la plus fine jamais produite, juste avant Qualcomm",
+          "date": "17 septembre 2026",
+          "title": "Mozilla choisit Mistral : l’IA française s’installe au cœur de Firefox",
           "source": "01net",
-          "url": "https://www.01net.com/actualites/mediatek-devoile-la-puce-la-plus-fine-jamais-produite-juste-avant-qualcomm.html",
-          "summary": "MediaTek dégaine la première puce pour smartphone gravée en 2 nanomètres, une semaine avant le grand raout de Qualcomm. Au programme : de l'autonomie récupérée et une IA format XXL qui se passe du cloud.",
+          "url": "https://www.01net.com/actualites/mozilla-choisit-mistral-lia-francaise-sinstalle-au-coeur-de-firefox.html",
+          "summary": "Firefox s'équipe d'une IA maison, et pour une fois, elle ne sort pas d'un campus californien. Mistral s'installe dans la Fenêtre intelligente du navigateur, et la France est servie avant presque tout le monde.",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
-          "date": "15 septembre 2026",
-          "title": "« Nous n’allons pas laisser cela se produire » : Trump appelle le patron de Nvidia en pleine conférence",
+          "date": "17 septembre 2026",
+          "title": "Snapchat lance ses lunettes connectées IA en France, avec un forfait Orange",
           "source": "01net",
-          "url": "https://www.01net.com/actualites/nous-nallons-pas-laisser-cela-se-produire-trump-appelle-le-patron-de-nvidia-en-pleine-conference.html",
-          "summary": "Alors qu’il participait à un podcast sur une scène du sommet All-In, Jensen Huang, PDG de Nvidia, a reçu un appel de Donald Trump. Si les appels à ralentir le rythme de développement de l’IA se sont multipliés ces derniers temps, le patr...",
-          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
-        },
-        {
-          "date": "15 septembre 2026",
-          "title": "WordPress : les mises à jour de plugins jugées à risque désormais bloquées grâce à l’IA !",
-          "source": "IT-Connect",
-          "url": "https://www.it-connect.fr/wordpress-controle-securite-automatise-mises-a-jour-plugins/",
-          "summary": "WordPress.org analyse désormais chaque mise à jour de plugin par IA et bloque automatiquement les versions à risque, après une porte dérobée stoppée en juillet.",
+          "url": "https://www.01net.com/actualites/snapchat-lance-ses-lunettes-connectees-ia-en-france-avec-un-forfait-orange.html",
+          "summary": "2 195 dollars les lunettes, 200 dollars d'acompte, et un forfait Orange pour les faire vivre sans smartphone dans la poche. Snap place la France dans le premier cercle de ses Specs. Reste à savoir qui signera le chèque.",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         }
       ]
