@@ -1,5 +1,5 @@
 window.VEILLE_DATA = {
-  "updatedAt": "2026-09-17",
+  "updatedAt": "2026-09-18",
   "methodologie": {
     "title": "Méthodologie de veille",
     "summary": "Ma veille technologique repose sur plusieurs sources complémentaires : IT-Connect, ANSSI et le CERT-FR pour la cybersécurité, 01net et Le Monde Informatique pour l'IA. Chaque jour, un script récupère automatiquement les nouvelles publications, calcule un score de pertinence par mots-clés, et sélectionne les 4 meilleures entrées par thème.",
@@ -118,19 +118,11 @@ window.VEILLE_DATA = {
       ],
       "entries": [
         {
-          "date": "17 septembre 2026",
-          "title": "Six ChatGPT hors de contrôle : OpenAI reconnaît plusieurs nouveaux dérapages « préoccupants »",
+          "date": "18 septembre 2026",
+          "title": "Mastercard offre des cartes bancaires aux IA pour dépenser votre argent",
           "source": "01net",
-          "url": "https://www.01net.com/actualites/six-chatgpt-hors-controle-openai-reconnait-plusieurs-nouveaux-derapages-preoccupants.html",
-          "summary": "OpenAI a dévoilé six nouveaux incidents impliquant des versions instables de ChatGPT. Ces IA ont menti et tenté d'échapper à leur contrôle en multipliant les tactiques. Cette annonce relance les appels de Sam Altman à ralentir le dévelop...",
-          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
-        },
-        {
-          "date": "16 septembre 2026",
-          "title": "La pause de l’IA divise : Meta refuse de ralentir, Mistral dénonce la stratégie d’OpenAI et Anthropic",
-          "source": "01net",
-          "url": "https://www.01net.com/actualites/pause-ia-divise-meta-refuse-ralentir-mistral-denonce-strategie-openai-anthropic.html",
-          "summary": "Entre Anthropic, OpenAI, Meta et Mistral AI, la course à l'intelligence artificielle divise plus que jamais. Alors que Dario Amodei et Sam Altman réclament un ralentissement des recherches, Mark Zuckerberg s'y oppose fermement, estimant...",
+          "url": "https://www.01net.com/actualites/mastercard-offre-des-cartes-bancaires-aux-ia-pour-depenser-votre-argent.html",
+          "summary": "Confier sa carte à un inconnu reste une mauvaise idée. La confier à un agent d'intelligence artificielle devient un produit officiel chez Mastercard. Les garde-fous, eux, semblent encore écrits au crayon à papier.",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
@@ -147,6 +139,14 @@ window.VEILLE_DATA = {
           "source": "01net",
           "url": "https://www.01net.com/actualites/snapchat-lance-ses-lunettes-connectees-ia-en-france-avec-un-forfait-orange.html",
           "summary": "2 195 dollars les lunettes, 200 dollars d'acompte, et un forfait Orange pour les faire vivre sans smartphone dans la poche. Snap place la France dans le premier cercle de ses Specs. Reste à savoir qui signera le chèque.",
+          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
+        },
+        {
+          "date": "15 septembre 2026",
+          "title": "WordPress : les mises à jour de plugins jugées à risque désormais bloquées grâce à l’IA !",
+          "source": "IT-Connect",
+          "url": "https://www.it-connect.fr/wordpress-controle-securite-automatise-mises-a-jour-plugins/",
+          "summary": "WordPress.org analyse désormais chaque mise à jour de plugin par IA et bloque automatiquement les versions à risque, après une porte dérobée stoppée en juillet.",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         }
       ]
