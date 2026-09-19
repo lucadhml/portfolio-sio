@@ -1,5 +1,5 @@
 window.VEILLE_DATA = {
-  "updatedAt": "2026-09-18",
+  "updatedAt": "2026-09-19",
   "methodologie": {
     "title": "Méthodologie de veille",
     "summary": "Ma veille technologique repose sur plusieurs sources complémentaires : IT-Connect, ANSSI et le CERT-FR pour la cybersécurité, 01net et Le Monde Informatique pour l'IA. Chaque jour, un script récupère automatiquement les nouvelles publications, calcule un score de pertinence par mots-clés, et sélectionne les 4 meilleures entrées par thème.",
@@ -126,19 +126,11 @@ window.VEILLE_DATA = {
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
-          "date": "17 septembre 2026",
-          "title": "Mozilla choisit Mistral : l’IA française s’installe au cœur de Firefox",
+          "date": "18 septembre 2026",
+          "title": "OpenAI a été piraté grâce à l’IA de son grand rival",
           "source": "01net",
-          "url": "https://www.01net.com/actualites/mozilla-choisit-mistral-lia-francaise-sinstalle-au-coeur-de-firefox.html",
-          "summary": "Firefox s'équipe d'une IA maison, et pour une fois, elle ne sort pas d'un campus californien. Mistral s'installe dans la Fenêtre intelligente du navigateur, et la France est servie avant presque tout le monde.",
-          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
-        },
-        {
-          "date": "17 septembre 2026",
-          "title": "Snapchat lance ses lunettes connectées IA en France, avec un forfait Orange",
-          "source": "01net",
-          "url": "https://www.01net.com/actualites/snapchat-lance-ses-lunettes-connectees-ia-en-france-avec-un-forfait-orange.html",
-          "summary": "2 195 dollars les lunettes, 200 dollars d'acompte, et un forfait Orange pour les faire vivre sans smartphone dans la poche. Snap place la France dans le premier cercle de ses Specs. Reste à savoir qui signera le chèque.",
+          "url": "https://www.01net.com/actualites/openai-a-ete-pirate-grace-a-lia-de-son-grand-rival.html",
+          "summary": "Un forum communautaire, une bibliothèque d'images vieillissante et une IA sortie de la veille : il n'en fallait pas plus pour entrouvrir les systèmes internes d'OpenAI. Les cambrioleurs, heureusement, étaient payés pour prévenir.",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
