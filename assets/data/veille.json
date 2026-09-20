@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-19",
+  "updatedAt": "2026-09-20",
   "methodologie": {
     "title": "Méthodologie de veille",
     "summary": "Ma veille technologique repose sur plusieurs sources complémentaires : IT-Connect, ANSSI et le CERT-FR pour la cybersécurité, 01net et Le Monde Informatique pour l'IA. Chaque jour, un script récupère automatiquement les nouvelles publications, calcule un score de pertinence par mots-clés, et sélectionne les 4 meilleures entrées par thème.",
@@ -134,11 +134,19 @@
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
-          "date": "15 septembre 2026",
-          "title": "WordPress : les mises à jour de plugins jugées à risque désormais bloquées grâce à l’IA !",
+          "date": "20 septembre 2026",
+          "title": "Des robots débarquent dans 30 appartements pour faire le ménage : voici le résultat",
+          "source": "01net",
+          "url": "https://www.01net.com/actualites/des-robots-debarquent-dans-30-appartements-pour-faire-le-menage-voici-le-resultat.html",
+          "summary": "Afin de démontrer les capacités de son nouveau modèle d’IA, Helix 2.5, l’entreprise a réservé 30 logements à San Francisco et y a lâché ses robots Figure 03. Voici les résultats.",
+          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
+        },
+        {
+          "date": "19 septembre 2026",
+          "title": "UGREEN Nexode Pro : deux chargeurs avec écran intelligent, dont un que j’ai pris en main",
           "source": "IT-Connect",
-          "url": "https://www.it-connect.fr/wordpress-controle-securite-automatise-mises-a-jour-plugins/",
-          "summary": "WordPress.org analyse désormais chaque mise à jour de plugin par IA et bloque automatiquement les versions à risque, après une porte dérobée stoppée en juillet.",
+          "url": "https://www.it-connect.fr/ugreen-nexode-pro-chargeurs-ecran-intelligent-160w-300w/",
+          "summary": "UGREEN a étoffé sa gamme Nexode Pro avec un chargeur mural de 160 watts et un chargeur de bureau de 300 watts. Ils ont le droit à un écran intelligent.",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         }
       ]
