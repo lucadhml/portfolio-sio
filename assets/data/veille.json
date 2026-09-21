@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-20",
+  "updatedAt": "2026-09-21",
   "methodologie": {
     "title": "Méthodologie de veille",
     "summary": "Ma veille technologique repose sur plusieurs sources complémentaires : IT-Connect, ANSSI et le CERT-FR pour la cybersécurité, 01net et Le Monde Informatique pour l'IA. Chaque jour, un script récupère automatiquement les nouvelles publications, calcule un score de pertinence par mots-clés, et sélectionne les 4 meilleures entrées par thème.",
@@ -77,19 +77,19 @@
           "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
         },
         {
-          "date": "15 septembre 2026",
-          "title": "Logitech Options+ : une faille donne les privilèges SYSTEM à n’importe quel utilisateur Windows",
-          "source": "IT-Connect",
-          "url": "https://www.it-connect.fr/logitech-options-plus-faille-system-cve-2026-12518/",
-          "summary": "Une faille dans Logitech Options+ (CVE-2026-12518) permet à un utilisateur standard d’obtenir les privilèges SYSTEM sur Windows. Un correctif est disponible.",
-          "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
-        },
-        {
           "date": "16 septembre 2026",
           "title": "Nintendo Switch : une faille permet d’exécuter du code via le code QR affiché à l’écran",
           "source": "IT-Connect",
           "url": "https://www.it-connect.fr/nintendo-switch-faille-code-qr-cve-2026-82079/",
           "summary": "Une faille de sécurité dans la Nintendo Switch : CVE-2026-82079. Un attaquant à proximité qui scanne le code QR affiché par la console peut exécuter du code.",
+          "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
+        },
+        {
+          "date": "21 janvier 2026",
+          "title": "Vulnérabilité dans telnetd (21 janvier 2026)",
+          "source": "CERT-FR",
+          "url": "https://www.cert.ssi.gouv.fr/actualite/CERTFR-2026-ACT-003/",
+          "summary": "Le 20 janvier 2026, les détails de la vulnérabilité CVE-2026-24061, affectant *telnetd*, ont été publiés. Cette vulnérabilité permet à un attaquant de contourner l'authentification et de se connecter à une machine vulnérable en tant que...",
           "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
         }
       ]
@@ -118,35 +118,35 @@
       ],
       "entries": [
         {
-          "date": "18 septembre 2026",
-          "title": "Mastercard offre des cartes bancaires aux IA pour dépenser votre argent",
+          "date": "21 septembre 2026",
+          "title": "Dérapage chez Google : Gemini a piraté 3 entreprises pendant un test qui a mal tourné",
           "source": "01net",
-          "url": "https://www.01net.com/actualites/mastercard-offre-des-cartes-bancaires-aux-ia-pour-depenser-votre-argent.html",
-          "summary": "Confier sa carte à un inconnu reste une mauvaise idée. La confier à un agent d'intelligence artificielle devient un produit officiel chez Mastercard. Les garde-fous, eux, semblent encore écrits au crayon à papier.",
+          "url": "https://www.01net.com/actualites/derapage-chez-google-gemini-pirate-3-entreprises-pendant-test-qui-mal-tourne.html",
+          "summary": "Après ChatGPT et Claude, c'est Gemini qui s'est lancé à l'attaque de plusieurs entreprises. L'IA de Google s'est introduite sans autorisation dans les systèmes de plusieurs firmes, notamment en devinant des mots de passe. L'incident s'es...",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
-          "date": "18 septembre 2026",
-          "title": "OpenAI a été piraté grâce à l’IA de son grand rival",
+          "date": "21 septembre 2026",
+          "title": "Un complot pour ralentir l’IA ? Une plainte accuse OpenAI, Google, Anthropic et xAI de manipulation anticoncurrentielle",
           "source": "01net",
-          "url": "https://www.01net.com/actualites/openai-a-ete-pirate-grace-a-lia-de-son-grand-rival.html",
-          "summary": "Un forum communautaire, une bibliothèque d'images vieillissante et une IA sortie de la veille : il n'en fallait pas plus pour entrouvrir les systèmes internes d'OpenAI. Les cambrioleurs, heureusement, étaient payés pour prévenir.",
+          "url": "https://www.01net.com/actualites/complot-pour-ralentir-ia-plainte-accuse-openai-google-anthropic-xai-manipulation.html",
+          "summary": "Anthropic, OpenAI, Google DeepMind et xAI réclament un ralentissement collectif de l'IA. Selon une plainte déposée aux États-Unis, cet appel commun n'est rien d'autre qu'une entente anticoncurrentielle, qui enfreint la loi.",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
-          "date": "20 septembre 2026",
-          "title": "Des robots débarquent dans 30 appartements pour faire le ménage : voici le résultat",
+          "date": "21 septembre 2026",
+          "title": "« Le plus grand vol de travail de l’histoire » : en coulisses, Microsoft ne mâche pas ses mots sur l’IA",
           "source": "01net",
-          "url": "https://www.01net.com/actualites/des-robots-debarquent-dans-30-appartements-pour-faire-le-menage-voici-le-resultat.html",
-          "summary": "Afin de démontrer les capacités de son nouveau modèle d’IA, Helix 2.5, l’entreprise a réservé 30 logements à San Francisco et y a lâché ses robots Figure 03. Voici les résultats.",
+          "url": "https://www.01net.com/actualites/microsoft-qualifiait-interne-pillage-ia-plus-grand-vol-travail-histoire.html",
+          "summary": "Défendre l'entraînement des IA devant les tribunaux le jour, le qualifier de « vol » dans les messageries internes le soir. Les pièces descellées du procès du New York Times offrent à Microsoft et OpenAI un grand écart mémorable.",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
-          "date": "19 septembre 2026",
-          "title": "UGREEN Nexode Pro : deux chargeurs avec écran intelligent, dont un que j’ai pris en main",
-          "source": "IT-Connect",
-          "url": "https://www.it-connect.fr/ugreen-nexode-pro-chargeurs-ecran-intelligent-160w-300w/",
-          "summary": "UGREEN a étoffé sa gamme Nexode Pro avec un chargeur mural de 160 watts et un chargeur de bureau de 300 watts. Ils ont le droit à un écran intelligent.",
+          "date": "21 septembre 2026",
+          "title": "Le HomePod avec écran se précise : Siri AI, reconnaissance faciale, modèles… voici ce qui vous attend",
+          "source": "01net",
+          "url": "https://www.01net.com/actualites/le-homepod-avec-ecran-se-precise-siri-ai-reconnaissance-faciale-modeles-voici-ce-qui-vous-attend.html",
+          "summary": "Absent de la keynote de rentrée d’Apple, le HomePod avec écran semble pourtant arriver bientôt. Le toujours très bien informé Mark Gurman, journaliste chez Bloomberg, est venu une nouvelle fois confirmer une fenêtre de sortie, tout en pr...",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         }
       ]
