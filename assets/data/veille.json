@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-21",
+  "updatedAt": "2026-09-22",
   "methodologie": {
     "title": "Méthodologie de veille",
     "summary": "Ma veille technologique repose sur plusieurs sources complémentaires : IT-Connect, ANSSI et le CERT-FR pour la cybersécurité, 01net et Le Monde Informatique pour l'IA. Chaque jour, un script récupère automatiquement les nouvelles publications, calcule un score de pertinence par mots-clés, et sélectionne les 4 meilleures entrées par thème.",
@@ -69,27 +69,27 @@
           "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
         },
         {
-          "date": "16 septembre 2026",
-          "title": "iOS 27 et macOS Golden Gate 27 : Apple corrige plus de 200 failles, dont 20 dans le noyau d’iOS",
-          "source": "IT-Connect",
-          "url": "https://www.it-connect.fr/apple-ios-27-macos-golden-gate-27-plus-de-200-failles-corrigees/",
-          "summary": "Apple a publié iOS 27 et macOS Golden Gate 27 avec plus de 200 correctifs de sécurité, dont une faille CoreMedia exploitable via une simple image.",
-          "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
-        },
-        {
-          "date": "16 septembre 2026",
-          "title": "Nintendo Switch : une faille permet d’exécuter du code via le code QR affiché à l’écran",
-          "source": "IT-Connect",
-          "url": "https://www.it-connect.fr/nintendo-switch-faille-code-qr-cve-2026-82079/",
-          "summary": "Une faille de sécurité dans la Nintendo Switch : CVE-2026-82079. Un attaquant à proximité qui scanne le code QR affiché par la console peut exécuter du code.",
-          "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
-        },
-        {
           "date": "21 janvier 2026",
           "title": "Vulnérabilité dans telnetd (21 janvier 2026)",
           "source": "CERT-FR",
           "url": "https://www.cert.ssi.gouv.fr/actualite/CERTFR-2026-ACT-003/",
           "summary": "Le 20 janvier 2026, les détails de la vulnérabilité CVE-2026-24061, affectant *telnetd*, ont été publiés. Cette vulnérabilité permet à un attaquant de contourner l'authentification et de se connecter à une machine vulnérable en tant que...",
+          "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
+        },
+        {
+          "date": "2 avril 2026",
+          "title": "Expiration de certificats Secure Boot en juin 2026 (02 avril 2026)",
+          "source": "CERT-FR",
+          "url": "https://www.cert.ssi.gouv.fr/actualite/CERTFR-2026-ACT-014/",
+          "summary": "Le démarrage sécurisé (UEFI Secure Boot) est une fonctionnalité de sécurité disponible sur les ordinateurs PC clients et serveurs depuis 2011. Son rôle est de sécuriser la séquence de démarrage de l’appareil, en vérifiant l’intégrité du...",
+          "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
+        },
+        {
+          "date": "16 juin 2026",
+          "title": "Appel à manifestation d‘intérêt – Sécurité des écosystèmes de cybersécurité",
+          "source": "ANSSI",
+          "url": "http://cyber.sites.beta.gouv.fr/actualites/appel-a-manifestation-dinteret-securite-des-ecosystemes-de-cybersecurite/",
+          "summary": "L'ANSSI ouvre un appel à manifestation d‘intérêt pour le soutien à la création et le développement d’entités chargées de l’accompagnement […]",
           "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
         }
       ]
@@ -118,35 +118,27 @@
       ],
       "entries": [
         {
-          "date": "21 septembre 2026",
-          "title": "Dérapage chez Google : Gemini a piraté 3 entreprises pendant un test qui a mal tourné",
+          "date": "22 septembre 2026",
+          "title": "« 0 % de chance » : Nvidia ne croit pas à l’apocalypse de l’IA",
           "source": "01net",
-          "url": "https://www.01net.com/actualites/derapage-chez-google-gemini-pirate-3-entreprises-pendant-test-qui-mal-tourne.html",
-          "summary": "Après ChatGPT et Claude, c'est Gemini qui s'est lancé à l'attaque de plusieurs entreprises. L'IA de Google s'est introduite sans autorisation dans les systèmes de plusieurs firmes, notamment en devinant des mots de passe. L'incident s'es...",
+          "url": "https://www.01net.com/actualites/0-chance-nvidia-ne-croit-pas-apocalypse-ia.html",
+          "summary": "Pour Jensen Huang, l'IA ne signera pas la fin de l'humanité. Le patron de Nvidia balaie les avertissements d'Anthropic, OpenAI, Google et Elon Musk. Il rejette aussi le besoin de nouvelles lois pour encadrer le secteur de l'IA.",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
-          "date": "21 septembre 2026",
-          "title": "Un complot pour ralentir l’IA ? Une plainte accuse OpenAI, Google, Anthropic et xAI de manipulation anticoncurrentielle",
+          "date": "22 septembre 2026",
+          "title": "Les ventes de lunettes connectées explosent dans le monde, Meta domine le marché",
           "source": "01net",
-          "url": "https://www.01net.com/actualites/complot-pour-ralentir-ia-plainte-accuse-openai-google-anthropic-xai-manipulation.html",
-          "summary": "Anthropic, OpenAI, Google DeepMind et xAI réclament un ralentissement collectif de l'IA. Selon une plainte déposée aux États-Unis, cet appel commun n'est rien d'autre qu'une entente anticoncurrentielle, qui enfreint la loi.",
+          "url": "https://www.01net.com/actualites/ventes-lunettes-connectees-explosent-monde-meta-domine-marche.html",
+          "summary": "Les lunettes IA ont le vent en poupe. Les ventes ont explosé au premier semestre 2026 dans le monde entier. Meta rafle évidemment la quasi-totalité du marché, en attendant l'arrivée tant attendue d'Apple.",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
-          "date": "21 septembre 2026",
-          "title": "« Le plus grand vol de travail de l’histoire » : en coulisses, Microsoft ne mâche pas ses mots sur l’IA",
-          "source": "01net",
-          "url": "https://www.01net.com/actualites/microsoft-qualifiait-interne-pillage-ia-plus-grand-vol-travail-histoire.html",
-          "summary": "Défendre l'entraînement des IA devant les tribunaux le jour, le qualifier de « vol » dans les messageries internes le soir. Les pièces descellées du procès du New York Times offrent à Microsoft et OpenAI un grand écart mémorable.",
-          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
-        },
-        {
-          "date": "21 septembre 2026",
-          "title": "Le HomePod avec écran se précise : Siri AI, reconnaissance faciale, modèles… voici ce qui vous attend",
-          "source": "01net",
-          "url": "https://www.01net.com/actualites/le-homepod-avec-ecran-se-precise-siri-ai-reconnaissance-faciale-modeles-voici-ce-qui-vous-attend.html",
-          "summary": "Absent de la keynote de rentrée d’Apple, le HomePod avec écran semble pourtant arriver bientôt. Le toujours très bien informé Mark Gurman, journaliste chez Bloomberg, est venu une nouvelle fois confirmer une fenêtre de sortie, tout en pr...",
+          "date": "19 septembre 2026",
+          "title": "UGREEN Nexode Pro : deux chargeurs avec écran intelligent, dont un que j’ai pris en main",
+          "source": "IT-Connect",
+          "url": "https://www.it-connect.fr/ugreen-nexode-pro-chargeurs-ecran-intelligent-160w-300w/",
+          "summary": "UGREEN a étoffé sa gamme Nexode Pro avec un chargeur mural de 160 watts et un chargeur de bureau de 300 watts. Ils ont le droit à un écran intelligent.",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         }
       ]
