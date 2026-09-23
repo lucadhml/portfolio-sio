@@ -1,5 +1,5 @@
 window.VEILLE_DATA = {
-  "updatedAt": "2026-09-22",
+  "updatedAt": "2026-09-23",
   "methodologie": {
     "title": "Méthodologie de veille",
     "summary": "Ma veille technologique repose sur plusieurs sources complémentaires : IT-Connect, ANSSI et le CERT-FR pour la cybersécurité, 01net et Le Monde Informatique pour l'IA. Chaque jour, un script récupère automatiquement les nouvelles publications, calcule un score de pertinence par mots-clés, et sélectionne les 4 meilleures entrées par thème.",
@@ -85,11 +85,11 @@ window.VEILLE_DATA = {
           "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
         },
         {
-          "date": "16 juin 2026",
-          "title": "Appel à manifestation d‘intérêt – Sécurité des écosystèmes de cybersécurité",
-          "source": "ANSSI",
-          "url": "http://cyber.sites.beta.gouv.fr/actualites/appel-a-manifestation-dinteret-securite-des-ecosystemes-de-cybersecurite/",
-          "summary": "L'ANSSI ouvre un appel à manifestation d‘intérêt pour le soutien à la création et le développement d’entités chargées de l’accompagnement […]",
+          "date": "23 septembre 2026",
+          "title": "BigDiskBuster : cette nouvelle zero-day empêche Microsoft Defender de se mettre à jour",
+          "source": "IT-Connect",
+          "url": "https://www.it-connect.fr/bigdiskbuster-zero-day-defender-bloque-mises-a-jour/",
+          "summary": "BigDiskBuster, la nouvelle faille zero-day de Nightmare Eclipse, sature le disque pour empêcher Microsoft Defender de se mettre à jour sur Windows.",
           "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
         }
       ]
@@ -118,19 +118,27 @@ window.VEILLE_DATA = {
       ],
       "entries": [
         {
-          "date": "22 septembre 2026",
-          "title": "« 0 % de chance » : Nvidia ne croit pas à l’apocalypse de l’IA",
+          "date": "23 septembre 2026",
+          "title": "ChatGPT vs Claude : OpenAI et Anthropic dégainent des IA moins chers et plus efficaces… au lieu de ralentir",
           "source": "01net",
-          "url": "https://www.01net.com/actualites/0-chance-nvidia-ne-croit-pas-apocalypse-ia.html",
-          "summary": "Pour Jensen Huang, l'IA ne signera pas la fin de l'humanité. Le patron de Nvidia balaie les avertissements d'Anthropic, OpenAI, Google et Elon Musk. Il rejette aussi le besoin de nouvelles lois pour encadrer le secteur de l'IA.",
+          "url": "https://www.01net.com/actualites/chatgpt-vs-claude-openai-et-anthropic-degainent-ia-moins-chers-lieu-ralentir.html",
+          "summary": "Coup sur coup, OpenAI et Anthropic ont lancé de nouvelles IA bien moins chères que les précédentes. GPT-6 Sol et Luna d'un côté, Claude Opus 5.5 de l'autre. La guerre des prix de l'IA s'intensifie en pleine polémique sur le ralentissemen...",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
-          "date": "22 septembre 2026",
-          "title": "Les ventes de lunettes connectées explosent dans le monde, Meta domine le marché",
+          "date": "23 septembre 2026",
+          "title": "J’ai raté 3 fois le CCNA en formation intensive : l’histoire de Damien Soulages, fondateur de Formip",
+          "source": "IT-Connect",
+          "url": "https://www.it-connect.fr/jai-rate-3-fois-le-ccna-en-formation-intensive-lhistoire-de-damien-soulages-fondateur-de-formip/",
+          "summary": "Comment sortir de l’échec CCNA ? Découvrez l’itinéraire de Damien Formip: méthode pratique, apprentissage actif et IA au service de la réussite.",
+          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
+        },
+        {
+          "date": "23 septembre 2026",
+          "title": "Le futur avion de chasse de la France fait voler deux IA 100 % françaises",
           "source": "01net",
-          "url": "https://www.01net.com/actualites/ventes-lunettes-connectees-explosent-monde-meta-domine-marche.html",
-          "summary": "Les lunettes IA ont le vent en poupe. Les ventes ont explosé au premier semestre 2026 dans le monde entier. Meta rafle évidemment la quasi-totalité du marché, en attendant l'arrivée tant attendue d'Apple.",
+          "url": "https://www.01net.com/actualites/le-futur-avion-de-chasse-de-la-france-fait-voler-deux-ia-100-francaises.html",
+          "summary": "Deux algorithmes tricolores viennent de prendre l'air à bord d'un avion de chasse. Leur rôle exact ? Motus. Depuis l'abandon du chasseur européen, chaque avionneur français trace sa propre route vers l'IA de combat.",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
