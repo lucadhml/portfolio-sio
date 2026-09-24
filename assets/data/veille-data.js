@@ -1,5 +1,5 @@
 window.VEILLE_DATA = {
-  "updatedAt": "2026-09-23",
+  "updatedAt": "2026-09-24",
   "methodologie": {
     "title": "Méthodologie de veille",
     "summary": "Ma veille technologique repose sur plusieurs sources complémentaires : IT-Connect, ANSSI et le CERT-FR pour la cybersécurité, 01net et Le Monde Informatique pour l'IA. Chaque jour, un script récupère automatiquement les nouvelles publications, calcule un score de pertinence par mots-clés, et sélectionne les 4 meilleures entrées par thème.",
@@ -118,11 +118,27 @@ window.VEILLE_DATA = {
       ],
       "entries": [
         {
-          "date": "23 septembre 2026",
-          "title": "ChatGPT vs Claude : OpenAI et Anthropic dégainent des IA moins chers et plus efficaces… au lieu de ralentir",
+          "date": "24 septembre 2026",
+          "title": "ChatGPT a lancé une nouvelle cyberattaque : le site d’un gouvernement a été piraté",
           "source": "01net",
-          "url": "https://www.01net.com/actualites/chatgpt-vs-claude-openai-et-anthropic-degainent-ia-moins-chers-lieu-ralentir.html",
-          "summary": "Coup sur coup, OpenAI et Anthropic ont lancé de nouvelles IA bien moins chères que les précédentes. GPT-6 Sol et Luna d'un côté, Claude Opus 5.5 de l'autre. La guerre des prix de l'IA s'intensifie en pleine polémique sur le ralentissemen...",
+          "url": "https://www.01net.com/actualites/chatgpt-lance-nouvelle-cyberattaque-site-gouvernement-pirate.html",
+          "summary": "Une version de ChatGPT s'est introduite sans la moindre autorisation dans un portail du gouvernement australien. Bloqué par une restriction, le modèle d'IA a cherché des solutions de contournement. OpenAI a pris plusieurs mois pour décel...",
+          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
+        },
+        {
+          "date": "24 septembre 2026",
+          "title": "Gemini Omni, le générateur vidéo IA de Google, devient gratuit dans Google Vids",
+          "source": "01net",
+          "url": "https://www.01net.com/actualites/gemini-omni-le-generateur-video-ia-de-google-devient-gratuit-dans-google-vids.html",
+          "summary": "La plate-forme de montage vidéo en ligne de Google donne désormais accès gratuitement au générateur de vidéos par Intelligence artificielle Gemini Omni pour les utilisateurs avec un compte individuel.",
+          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
+        },
+        {
+          "date": "24 septembre 2026",
+          "title": "Malgré le fiscao de l’Ai Pin, Meta dévoile Muse Charm, son propre pendentif IA",
+          "source": "01net",
+          "url": "https://www.01net.com/actualites/meta-devoile-muse-charm-gadget-ia-facon-tamagotchi.html",
+          "summary": "Meta vient de dévoiler le Muse Charm. Ce petit boîtier, à porter en pendentif, permet de converser avec Muse, l'assistant IA du groupe, sans smartphone ni lunettes connectées. Le gadget sera commercialisé dans le courant de la fin de l'a...",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
@@ -131,22 +147,6 @@ window.VEILLE_DATA = {
           "source": "IT-Connect",
           "url": "https://www.it-connect.fr/jai-rate-3-fois-le-ccna-en-formation-intensive-lhistoire-de-damien-soulages-fondateur-de-formip/",
           "summary": "Comment sortir de l’échec CCNA ? Découvrez l’itinéraire de Damien Formip: méthode pratique, apprentissage actif et IA au service de la réussite.",
-          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
-        },
-        {
-          "date": "23 septembre 2026",
-          "title": "Le futur avion de chasse de la France fait voler deux IA 100 % françaises",
-          "source": "01net",
-          "url": "https://www.01net.com/actualites/le-futur-avion-de-chasse-de-la-france-fait-voler-deux-ia-100-francaises.html",
-          "summary": "Deux algorithmes tricolores viennent de prendre l'air à bord d'un avion de chasse. Leur rôle exact ? Motus. Depuis l'abandon du chasseur européen, chaque avionneur français trace sa propre route vers l'IA de combat.",
-          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
-        },
-        {
-          "date": "19 septembre 2026",
-          "title": "UGREEN Nexode Pro : deux chargeurs avec écran intelligent, dont un que j’ai pris en main",
-          "source": "IT-Connect",
-          "url": "https://www.it-connect.fr/ugreen-nexode-pro-chargeurs-ecran-intelligent-160w-300w/",
-          "summary": "UGREEN a étoffé sa gamme Nexode Pro avec un chargeur mural de 160 watts et un chargeur de bureau de 300 watts. Ils ont le droit à un écran intelligent.",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         }
       ]
