@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-24",
+  "updatedAt": "2026-09-25",
   "methodologie": {
     "title": "Méthodologie de veille",
     "summary": "Ma veille technologique repose sur plusieurs sources complémentaires : IT-Connect, ANSSI et le CERT-FR pour la cybersécurité, 01net et Le Monde Informatique pour l'IA. Chaque jour, un script récupère automatiquement les nouvelles publications, calcule un score de pertinence par mots-clés, et sélectionne les 4 meilleures entrées par thème.",
@@ -69,6 +69,14 @@
           "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
         },
         {
+          "date": "24 septembre 2026",
+          "title": "Veeam Agent pour Windows : la faille CVE-2026-32996 offre les privilèges SYSTEM, un exploit est public",
+          "source": "IT-Connect",
+          "url": "https://www.it-connect.fr/veeam-agent-windows-faille-cve-2026-32996-privileges-system/",
+          "summary": "Un exploit public cible la faille CVE-2026-32996 de Veeam Agent pour Windows, qui offre les privilèges SYSTEM et qui serait exploitée activement.",
+          "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
+        },
+        {
           "date": "21 janvier 2026",
           "title": "Vulnérabilité dans telnetd (21 janvier 2026)",
           "source": "CERT-FR",
@@ -77,19 +85,11 @@
           "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
         },
         {
-          "date": "2 avril 2026",
-          "title": "Expiration de certificats Secure Boot en juin 2026 (02 avril 2026)",
-          "source": "CERT-FR",
-          "url": "https://www.cert.ssi.gouv.fr/actualite/CERTFR-2026-ACT-014/",
-          "summary": "Le démarrage sécurisé (UEFI Secure Boot) est une fonctionnalité de sécurité disponible sur les ordinateurs PC clients et serveurs depuis 2011. Son rôle est de sécuriser la séquence de démarrage de l’appareil, en vérifiant l’intégrité du...",
-          "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
-        },
-        {
-          "date": "23 septembre 2026",
-          "title": "BigDiskBuster : cette nouvelle zero-day empêche Microsoft Defender de se mettre à jour",
+          "date": "24 septembre 2026",
+          "title": "GLPI 11.0.9 et 10.0.27 : 12 failles patchées et un rythme de mises à jour qui s’accélère",
           "source": "IT-Connect",
-          "url": "https://www.it-connect.fr/bigdiskbuster-zero-day-defender-bloque-mises-a-jour/",
-          "summary": "BigDiskBuster, la nouvelle faille zero-day de Nightmare Eclipse, sature le disque pour empêcher Microsoft Defender de se mettre à jour sur Windows.",
+          "url": "https://www.it-connect.fr/glpi-11-0-9-10-0-27-failles-securite-patch/",
+          "summary": "GLPI 11.0.9 et 10.0.27 corrigent 12 failles, dont une injection SQL sans authentification. Teclib’ annonce un patch de sécurité toutes les deux semaines.",
           "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
         }
       ]
@@ -118,27 +118,27 @@
       ],
       "entries": [
         {
-          "date": "24 septembre 2026",
-          "title": "ChatGPT a lancé une nouvelle cyberattaque : le site d’un gouvernement a été piraté",
-          "source": "01net",
-          "url": "https://www.01net.com/actualites/chatgpt-lance-nouvelle-cyberattaque-site-gouvernement-pirate.html",
-          "summary": "Une version de ChatGPT s'est introduite sans la moindre autorisation dans un portail du gouvernement australien. Bloqué par une restriction, le modèle d'IA a cherché des solutions de contournement. OpenAI a pris plusieurs mois pour décel...",
+          "date": "25 septembre 2026",
+          "title": "Jev : cette IA qui ne génère aucun texte défie les LLM",
+          "source": "IT-Connect",
+          "url": "https://www.it-connect.fr/jev-typesafe-ia-decisions-typees-llm/",
+          "summary": "Jev de TypeSafe AI renvoie des décisions et des probabilités au lieu de texte. Tarif, latence, limites et différences avec les LLM d’OpenAI et Anthropic.",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
-          "date": "24 septembre 2026",
-          "title": "Gemini Omni, le générateur vidéo IA de Google, devient gratuit dans Google Vids",
+          "date": "25 septembre 2026",
+          "title": "Un partenariat « en dessous des attentes » : les utilisateurs d’iPhone ont boudé ChatGPT dans Apple Intelligence",
           "source": "01net",
-          "url": "https://www.01net.com/actualites/gemini-omni-le-generateur-video-ia-de-google-devient-gratuit-dans-google-vids.html",
-          "summary": "La plate-forme de montage vidéo en ligne de Google donne désormais accès gratuitement au générateur de vidéos par Intelligence artificielle Gemini Omni pour les utilisateurs avec un compte individuel.",
+          "url": "https://www.01net.com/actualites/un-partenariat-en-dessous-des-attentes-les-utilisateurs-diphone-ont-boude-chatgpt-dans-apple-intelligence.html",
+          "summary": "OpenAI présentait son intégration dans Siri comme la vitrine de son partenariat avec Apple. Dans une pièce judiciaire déposée au Texas, l'entreprise décrit désormais une fonction que presque personne n'utilisait.",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
-          "date": "24 septembre 2026",
-          "title": "Malgré le fiscao de l’Ai Pin, Meta dévoile Muse Charm, son propre pendentif IA",
-          "source": "01net",
-          "url": "https://www.01net.com/actualites/meta-devoile-muse-charm-gadget-ia-facon-tamagotchi.html",
-          "summary": "Meta vient de dévoiler le Muse Charm. Ce petit boîtier, à porter en pendentif, permet de converser avec Muse, l'assistant IA du groupe, sans smartphone ni lunettes connectées. Le gadget sera commercialisé dans le courant de la fin de l'a...",
+          "date": "25 septembre 2026",
+          "title": "Un agent IA d’OpenAI a piraté un portail du gouvernement australien",
+          "source": "IT-Connect",
+          "url": "https://www.it-connect.fr/openai-agent-ia-portail-medicare-australie/",
+          "summary": "Un agent IA d’OpenAI a accédé à des fichiers non publics d’un portail Medicare australien. OpenAI a mis près de trois mois à prévenir le gouvernement.",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
