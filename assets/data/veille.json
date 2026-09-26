@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-25",
+  "updatedAt": "2026-09-26",
   "methodologie": {
     "title": "Méthodologie de veille",
     "summary": "Ma veille technologique repose sur plusieurs sources complémentaires : IT-Connect, ANSSI et le CERT-FR pour la cybersécurité, 01net et Le Monde Informatique pour l'IA. Chaque jour, un script récupère automatiquement les nouvelles publications, calcule un score de pertinence par mots-clés, et sélectionne les 4 meilleures entrées par thème.",
@@ -118,6 +118,14 @@
       ],
       "entries": [
         {
+          "date": "26 septembre 2026",
+          "title": "ChatGPT a tenté de pirater plusieurs sites du gouvernement américain",
+          "source": "01net",
+          "url": "https://www.01net.com/actualites/ia-openai-chatgpt-sonde-sites-gouvernement-americain.html",
+          "summary": "Des agents IA d'OpenAI ont fouillé plusieurs sites du gouvernement américain cet été. Le ministère de l'Éducation, le Bureau du recensement et la gendarme boursier sont concernés. OpenAI assure qu'aucune donnée n'a été volée, mais reconn...",
+          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
+        },
+        {
           "date": "25 septembre 2026",
           "title": "Jev : cette IA qui ne génère aucun texte défie les LLM",
           "source": "IT-Connect",
@@ -127,10 +135,10 @@
         },
         {
           "date": "25 septembre 2026",
-          "title": "Un partenariat « en dessous des attentes » : les utilisateurs d’iPhone ont boudé ChatGPT dans Apple Intelligence",
+          "title": "Microsoft dévoile son nouveau Copilot, une « super app » pour toutes ses IA",
           "source": "01net",
-          "url": "https://www.01net.com/actualites/un-partenariat-en-dessous-des-attentes-les-utilisateurs-diphone-ont-boude-chatgpt-dans-apple-intelligence.html",
-          "summary": "OpenAI présentait son intégration dans Siri comme la vitrine de son partenariat avec Apple. Dans une pièce judiciaire déposée au Texas, l'entreprise décrit désormais une fonction que presque personne n'utilisait.",
+          "url": "https://www.01net.com/actualites/microsoft-devoile-son-nouveau-copilot-une-super-app-pour-toutes-ses-ia.html",
+          "summary": "Microsoft vient d’annoncer l’arrivée d’une nouvelle version de son Copilot. Destiné principalement aux entreprises, ce nouvel assistant se présentera désormais comme une plateforme unifiée regroupant tous ses outils d’intelligence artifi...",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
@@ -139,14 +147,6 @@
           "source": "IT-Connect",
           "url": "https://www.it-connect.fr/openai-agent-ia-portail-medicare-australie/",
           "summary": "Un agent IA d’OpenAI a accédé à des fichiers non publics d’un portail Medicare australien. OpenAI a mis près de trois mois à prévenir le gouvernement.",
-          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
-        },
-        {
-          "date": "23 septembre 2026",
-          "title": "J’ai raté 3 fois le CCNA en formation intensive : l’histoire de Damien Soulages, fondateur de Formip",
-          "source": "IT-Connect",
-          "url": "https://www.it-connect.fr/jai-rate-3-fois-le-ccna-en-formation-intensive-lhistoire-de-damien-soulages-fondateur-de-formip/",
-          "summary": "Comment sortir de l’échec CCNA ? Découvrez l’itinéraire de Damien Formip: méthode pratique, apprentissage actif et IA au service de la réussite.",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         }
       ]
