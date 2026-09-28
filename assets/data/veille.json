@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-27",
+  "updatedAt": "2026-09-28",
   "methodologie": {
     "title": "Méthodologie de veille",
     "summary": "Ma veille technologique repose sur plusieurs sources complémentaires : IT-Connect, ANSSI et le CERT-FR pour la cybersécurité, 01net et Le Monde Informatique pour l'IA. Chaque jour, un script récupère automatiquement les nouvelles publications, calcule un score de pertinence par mots-clés, et sélectionne les 4 meilleures entrées par thème.",
@@ -77,19 +77,19 @@
           "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
         },
         {
+          "date": "28 septembre 2026",
+          "title": "« Éteignez vos NetScaler » : Citrix confirme 2 failles zero-day critiques déjà exploitées",
+          "source": "IT-Connect",
+          "url": "https://www.it-connect.fr/citrix-netscaler-cve-2026-88771-cve-2026-88772-zero-day-exploitees/",
+          "summary": "Citrix confirme l’exploitation de deux nouvelles failles zero-day critiques dans NetScaler ADC et Gateway. Voici les versions à installer pour se protéger.",
+          "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
+        },
+        {
           "date": "21 janvier 2026",
           "title": "Vulnérabilité dans telnetd (21 janvier 2026)",
           "source": "CERT-FR",
           "url": "https://www.cert.ssi.gouv.fr/actualite/CERTFR-2026-ACT-003/",
           "summary": "Le 20 janvier 2026, les détails de la vulnérabilité CVE-2026-24061, affectant *telnetd*, ont été publiés. Cette vulnérabilité permet à un attaquant de contourner l'authentification et de se connecter à une machine vulnérable en tant que...",
-          "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
-        },
-        {
-          "date": "24 septembre 2026",
-          "title": "GLPI 11.0.9 et 10.0.27 : 12 failles patchées et un rythme de mises à jour qui s’accélère",
-          "source": "IT-Connect",
-          "url": "https://www.it-connect.fr/glpi-11-0-9-10-0-27-failles-securite-patch/",
-          "summary": "GLPI 11.0.9 et 10.0.27 corrigent 12 failles, dont une injection SQL sans authentification. Teclib’ annonce un patch de sécurité toutes les deux semaines.",
           "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
         }
       ]
@@ -119,7 +119,7 @@
       "entries": [
         {
           "date": "26 septembre 2026",
-          "title": "ChatGPT a tenté de pirater plusieurs sites du gouvernement américain",
+          "title": "ChatGPT a encore dérapé : OpenAI suspend l’entraînement de ses IA jusqu’à nouvel ordre",
           "source": "01net",
           "url": "https://www.01net.com/actualites/ia-openai-chatgpt-sonde-sites-gouvernement-americain.html",
           "summary": "Des agents IA d'OpenAI ont fouillé plusieurs sites du gouvernement américain cet été. Le ministère de l'Éducation, le Bureau du recensement et la gendarme boursier sont concernés. OpenAI assure qu'aucune donnée n'a été volée, mais reconn...",
@@ -134,19 +134,19 @@
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
-          "date": "25 septembre 2026",
-          "title": "Microsoft dévoile son nouveau Copilot, une « super app » pour toutes ses IA",
+          "date": "28 septembre 2026",
+          "title": "Scandale chez OpenAI : ChatGPT a publié les images de certains utilisateurs sur Internet",
           "source": "01net",
-          "url": "https://www.01net.com/actualites/microsoft-devoile-son-nouveau-copilot-une-super-app-pour-toutes-ses-ia.html",
-          "summary": "Microsoft vient d’annoncer l’arrivée d’une nouvelle version de son Copilot. Destiné principalement aux entreprises, ce nouvel assistant se présentera désormais comme une plateforme unifiée regroupant tous ses outils d’intelligence artifi...",
+          "url": "https://www.01net.com/actualites/scandale-chez-openai-chatgpt-a-publie-les-images-de-certains-utilisateurs-sur-internet.html",
+          "summary": "Des agents de ChatGPT ont publié sur le Web des photos envoyées par des utilisateurs, de leur propre initiative. OpenAI a retiré l'essentiel des fichiers, sans pouvoir prévenir les personnes concernées.",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
-          "date": "25 septembre 2026",
-          "title": "Un agent IA d’OpenAI a piraté un portail du gouvernement australien",
-          "source": "IT-Connect",
-          "url": "https://www.it-connect.fr/openai-agent-ia-portail-medicare-australie/",
-          "summary": "Un agent IA d’OpenAI a accédé à des fichiers non publics d’un portail Medicare australien. OpenAI a mis près de trois mois à prévenir le gouvernement.",
+          "date": "28 septembre 2026",
+          "title": "« Un milliard de morts » : Bill Gates tire la sonnette d’alarme au sujet de l’IA",
+          "source": "01net",
+          "url": "https://www.01net.com/actualites/milliard-morts-bill-gates-tire-sonnette-alarme-sujet-ia.html",
+          "summary": "À son tour, Bill Gates tire la sonnette d'alarme sur l’intelligence artificielle. Mal utilisée, cette technologie pourrait provoquer « un milliard de morts », estime le milliardaire. Dans le sillage d'OpenAI, Anthropic, Google et Elon Mu...",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         }
       ]
