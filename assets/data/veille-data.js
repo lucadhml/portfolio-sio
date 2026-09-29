@@ -1,5 +1,5 @@
 window.VEILLE_DATA = {
-  "updatedAt": "2026-09-28",
+  "updatedAt": "2026-09-29",
   "methodologie": {
     "title": "Méthodologie de veille",
     "summary": "Ma veille technologique repose sur plusieurs sources complémentaires : IT-Connect, ANSSI et le CERT-FR pour la cybersécurité, 01net et Le Monde Informatique pour l'IA. Chaque jour, un script récupère automatiquement les nouvelles publications, calcule un score de pertinence par mots-clés, et sélectionne les 4 meilleures entrées par thème.",
@@ -118,11 +118,11 @@ window.VEILLE_DATA = {
       ],
       "entries": [
         {
-          "date": "26 septembre 2026",
-          "title": "ChatGPT a encore dérapé : OpenAI suspend l’entraînement de ses IA jusqu’à nouvel ordre",
+          "date": "29 septembre 2026",
+          "title": "OpenAI annule la sortie du nouveau ChatGPT pour « garantir la sécurité » de ses IA",
           "source": "01net",
-          "url": "https://www.01net.com/actualites/ia-openai-chatgpt-sonde-sites-gouvernement-americain.html",
-          "summary": "Des agents IA d'OpenAI ont fouillé plusieurs sites du gouvernement américain cet été. Le ministère de l'Éducation, le Bureau du recensement et la gendarme boursier sont concernés. OpenAI assure qu'aucune donnée n'a été volée, mais reconn...",
+          "url": "https://www.01net.com/actualites/openai-annule-sortie-nouveau-chatgpt-garantir-securite.html",
+          "summary": "OpenAI a décidé de ne pas lancer GPT-6.1 Astra, le prochain grand modèle d’IA qui doit animer ChatGPT, prévu en octobre. Selon le géant de l'IA, il ne respectait pas ses exigences de sécurité. L’annonce survient dans un climat de fortes...",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
