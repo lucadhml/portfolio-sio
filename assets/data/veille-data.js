@@ -1,5 +1,5 @@
 window.VEILLE_DATA = {
-  "updatedAt": "2026-09-29",
+  "updatedAt": "2026-09-30",
   "methodologie": {
     "title": "Méthodologie de veille",
     "summary": "Ma veille technologique repose sur plusieurs sources complémentaires : IT-Connect, ANSSI et le CERT-FR pour la cybersécurité, 01net et Le Monde Informatique pour l'IA. Chaque jour, un script récupère automatiquement les nouvelles publications, calcule un score de pertinence par mots-clés, et sélectionne les 4 meilleures entrées par thème.",
@@ -61,19 +61,19 @@ window.VEILLE_DATA = {
       ],
       "entries": [
         {
+          "date": "30 septembre 2026",
+          "title": "Apple a corrigé une faille CoreGraphics exploitée pour cibler des utilisateurs d’iPhone (CVE-2026-86950)",
+          "source": "IT-Connect",
+          "url": "https://www.it-connect.fr/apple-cve-2026-86950-faille-zero-day-coregraphics/",
+          "summary": "Apple a corrigé la CVE-2026-86950, une faille zero-day dans CoreGraphics possiblement exploitée contre des iPhone. Voici les mises à jour à installer d’urgence.",
+          "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
+        },
+        {
           "date": "21 juillet 2026",
           "title": "Exigences du CRA : processus de notification pour les organismes notifiés",
           "source": "ANSSI",
           "url": "http://cyber.sites.beta.gouv.fr/actualites/exigences-du-cra-processus-de-notification-pour-les-organismes-notifies/",
           "summary": "Dans un contexte marqué par l’exploitation croissante de vulnérabilités affectant des produits numériques ayant un niveau de cybersécurité insuffisant, le […]",
-          "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
-        },
-        {
-          "date": "24 septembre 2026",
-          "title": "Veeam Agent pour Windows : la faille CVE-2026-32996 offre les privilèges SYSTEM, un exploit est public",
-          "source": "IT-Connect",
-          "url": "https://www.it-connect.fr/veeam-agent-windows-faille-cve-2026-32996-privileges-system/",
-          "summary": "Un exploit public cible la faille CVE-2026-32996 de Veeam Agent pour Windows, qui offre les privilèges SYSTEM et qui serait exploitée activement.",
           "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
         },
         {
@@ -119,34 +119,34 @@ window.VEILLE_DATA = {
       "entries": [
         {
           "date": "29 septembre 2026",
-          "title": "OpenAI annule la sortie du nouveau ChatGPT pour « garantir la sécurité » de ses IA",
+          "title": "OpenAI lance ChatGPT Dots, des assistants IA qui travaillent 24 h/24 à votre place",
           "source": "01net",
-          "url": "https://www.01net.com/actualites/openai-annule-sortie-nouveau-chatgpt-garantir-securite.html",
-          "summary": "OpenAI a décidé de ne pas lancer GPT-6.1 Astra, le prochain grand modèle d’IA qui doit animer ChatGPT, prévu en octobre. Selon le géant de l'IA, il ne respectait pas ses exigences de sécurité. L’annonce survient dans un climat de fortes...",
+          "url": "https://www.01net.com/actualites/openai-dots-agents-ia-chatgpt-spaces.html",
+          "summary": "Sam Altman vient de dévoiler « Dots » lors de la conférence d’ouverture des Dev Days d'OpenAI. Ces agents d’intelligence artificielle, intégrés à ChatGPT, agissent 24 h/24 à la place de l’utilisateur. L’entreprise lance aussi « ChatGPT S...",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
-          "date": "25 septembre 2026",
-          "title": "Jev : cette IA qui ne génère aucun texte défie les LLM",
-          "source": "IT-Connect",
-          "url": "https://www.it-connect.fr/jev-typesafe-ia-decisions-typees-llm/",
-          "summary": "Jev de TypeSafe AI renvoie des décisions et des probabilités au lieu de texte. Tarif, latence, limites et différences avec les LLM d’OpenAI et Anthropic.",
+          "date": "30 septembre 2026",
+          "title": "Android dit non à l’Union européenne : Google refuse d’ouvrir l’OS à ChatGPT et Claude",
+          "source": "01net",
+          "url": "https://www.01net.com/actualites/android-dit-non-a-lunion-europeenne-google-refuse-douvrir-los-a-chatgpt-et-claude.html",
+          "summary": "Votre prochain téléphone Android devait vous laisser convoquer ChatGPT ou Claude à la voix, comme Gemini aujourd'hui. Google a saisi la justice européenne pour que ce jour n'arrive pas de sitôt.",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
-          "date": "28 septembre 2026",
-          "title": "Scandale chez OpenAI : ChatGPT a publié les images de certains utilisateurs sur Internet",
+          "date": "29 septembre 2026",
+          "title": "Le nouvel abonnement ChatGPT Pro va vous coûter cher… mais il en vaut peut-être la peine",
           "source": "01net",
-          "url": "https://www.01net.com/actualites/scandale-chez-openai-chatgpt-a-publie-les-images-de-certains-utilisateurs-sur-internet.html",
-          "summary": "Des agents de ChatGPT ont publié sur le Web des photos envoyées par des utilisateurs, de leur propre initiative. OpenAI a retiré l'essentiel des fichiers, sans pouvoir prévenir les personnes concernées.",
+          "url": "https://www.01net.com/actualites/le-nouvel-abonnement-chatgpt-pro-va-vous-couter-un-rein.html",
+          "summary": "Vingt-quatre heures après avoir divisé la valeur de son abonnement Pro, OpenAI présente la suite du plan : une formule à 500 dollars par mois qui redonne, en payant plus, ce qui vient d'être retiré.",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
-          "date": "28 septembre 2026",
-          "title": "« Un milliard de morts » : Bill Gates tire la sonnette d’alarme au sujet de l’IA",
+          "date": "29 septembre 2026",
+          "title": "OpenAI crève l’abcès : l’abonnement ChatGPT à 200€ revient… et offrira 2 fois moins",
           "source": "01net",
-          "url": "https://www.01net.com/actualites/milliard-morts-bill-gates-tire-sonnette-alarme-sujet-ia.html",
-          "summary": "À son tour, Bill Gates tire la sonnette d'alarme sur l’intelligence artificielle. Mal utilisée, cette technologie pourrait provoquer « un milliard de morts », estime le milliardaire. Dans le sillage d'OpenAI, Anthropic, Google et Elon Mu...",
+          "url": "https://www.01net.com/actualites/openai-creve-labces-labonnement-a-200e-revient-et-vous-offrira-2-fois-moins.html",
+          "summary": "Suspendu depuis trois semaines, l'abonnement Pro de ChatGPT rouvre ses portes avec une surprise dans le contrat : à tarif inchangé, la valeur d'usage fond de moitié. L'aveu vient d'OpenAI, à quelques heures de son DevDay.",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         }
       ]
