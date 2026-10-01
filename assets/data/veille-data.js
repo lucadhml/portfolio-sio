@@ -1,5 +1,5 @@
 window.VEILLE_DATA = {
-  "updatedAt": "2026-09-30",
+  "updatedAt": "2026-10-01",
   "methodologie": {
     "title": "Méthodologie de veille",
     "summary": "Ma veille technologique repose sur plusieurs sources complémentaires : IT-Connect, ANSSI et le CERT-FR pour la cybersécurité, 01net et Le Monde Informatique pour l'IA. Chaque jour, un script récupère automatiquement les nouvelles publications, calcule un score de pertinence par mots-clés, et sélectionne les 4 meilleures entrées par thème.",
@@ -77,19 +77,19 @@ window.VEILLE_DATA = {
           "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
         },
         {
-          "date": "28 septembre 2026",
-          "title": "« Éteignez vos NetScaler » : Citrix confirme 2 failles zero-day critiques déjà exploitées",
-          "source": "IT-Connect",
-          "url": "https://www.it-connect.fr/citrix-netscaler-cve-2026-88771-cve-2026-88772-zero-day-exploitees/",
-          "summary": "Citrix confirme l’exploitation de deux nouvelles failles zero-day critiques dans NetScaler ADC et Gateway. Voici les versions à installer pour se protéger.",
-          "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
-        },
-        {
           "date": "21 janvier 2026",
           "title": "Vulnérabilité dans telnetd (21 janvier 2026)",
           "source": "CERT-FR",
           "url": "https://www.cert.ssi.gouv.fr/actualite/CERTFR-2026-ACT-003/",
           "summary": "Le 20 janvier 2026, les détails de la vulnérabilité CVE-2026-24061, affectant *telnetd*, ont été publiés. Cette vulnérabilité permet à un attaquant de contourner l'authentification et de se connecter à une machine vulnérable en tant que...",
+          "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
+        },
+        {
+          "date": "2 avril 2026",
+          "title": "Expiration de certificats Secure Boot en juin 2026 (02 avril 2026)",
+          "source": "CERT-FR",
+          "url": "https://www.cert.ssi.gouv.fr/actualite/CERTFR-2026-ACT-014/",
+          "summary": "Le démarrage sécurisé (UEFI Secure Boot) est une fonctionnalité de sécurité disponible sur les ordinateurs PC clients et serveurs depuis 2011. Son rôle est de sécuriser la séquence de démarrage de l’appareil, en vérifiant l’intégrité du...",
           "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
         }
       ]
@@ -118,11 +118,11 @@ window.VEILLE_DATA = {
       ],
       "entries": [
         {
-          "date": "29 septembre 2026",
-          "title": "OpenAI lance ChatGPT Dots, des assistants IA qui travaillent 24 h/24 à votre place",
+          "date": "1 octobre 2026",
+          "title": "Gemini 4 Argon s’attaque à ChatGPT et Claude : Google dévoile son IA la plus puissante",
           "source": "01net",
-          "url": "https://www.01net.com/actualites/openai-dots-agents-ia-chatgpt-spaces.html",
-          "summary": "Sam Altman vient de dévoiler « Dots » lors de la conférence d’ouverture des Dev Days d'OpenAI. Ces agents d’intelligence artificielle, intégrés à ChatGPT, agissent 24 h/24 à la place de l’utilisateur. L’entreprise lance aussi « ChatGPT S...",
+          "url": "https://www.01net.com/actualites/gemini-4-argon-google-ia-plus-puissante.html",
+          "summary": "Google vient de présenter Gemini 4 Argon, son nouveau modèle d’intelligence artificielle haut de gamme. Il est pour l’instant réservé à un petit cercle de spécialistes en cybersécurité. Le grand public devra patienter avant de pouvoir te...",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
@@ -134,19 +134,19 @@ window.VEILLE_DATA = {
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
-          "date": "29 septembre 2026",
-          "title": "Le nouvel abonnement ChatGPT Pro va vous coûter cher… mais il en vaut peut-être la peine",
-          "source": "01net",
-          "url": "https://www.01net.com/actualites/le-nouvel-abonnement-chatgpt-pro-va-vous-couter-un-rein.html",
-          "summary": "Vingt-quatre heures après avoir divisé la valeur de son abonnement Pro, OpenAI présente la suite du plan : une formule à 500 dollars par mois qui redonne, en payant plus, ce qui vient d'être retiré.",
+          "date": "30 septembre 2026",
+          "title": "OpenAI lance dots, l’agent IA qui travaille même quand vous dormez",
+          "source": "IT-Connect",
+          "url": "https://www.it-connect.fr/openai-dots-agents-ia-toujours-actifs/",
+          "summary": "OpenAI lance dots, des agents IA toujours actifs dotés de leur propre ordinateur dans le cloud. Disponibilité, garde-fous, Agent 365 : voici l’essentiel.",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
-          "date": "29 septembre 2026",
-          "title": "OpenAI crève l’abcès : l’abonnement ChatGPT à 200€ revient… et offrira 2 fois moins",
+          "date": "1 octobre 2026",
+          "title": "La nouvelle IA de Donald Trump le contredit… et se fait censurer",
           "source": "01net",
-          "url": "https://www.01net.com/actualites/openai-creve-labces-labonnement-a-200e-revient-et-vous-offrira-2-fois-moins.html",
-          "summary": "Suspendu depuis trois semaines, l'abonnement Pro de ChatGPT rouvre ses portes avec une surprise dans le contrat : à tarif inchangé, la valeur d'usage fond de moitié. L'aveu vient d'OpenAI, à quelques heures de son DevDay.",
+          "url": "https://www.01net.com/actualites/la-nouvelle-ia-de-donald-trump-le-contredit-et-se-fait-censurer.html",
+          "summary": "Donald Trump a dévoilé la plateforme gouvernementale America.gov. Cette plateforme a pour objectif d’aider les Américains dans leurs démarches administratives. Il est par ailleurs possible de poser des questions à un chatbot. Un journali...",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         }
       ]
