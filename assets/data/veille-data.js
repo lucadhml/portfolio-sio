@@ -1,5 +1,5 @@
 window.VEILLE_DATA = {
-  "updatedAt": "2026-10-01",
+  "updatedAt": "2026-10-02",
   "methodologie": {
     "title": "Méthodologie de veille",
     "summary": "Ma veille technologique repose sur plusieurs sources complémentaires : IT-Connect, ANSSI et le CERT-FR pour la cybersécurité, 01net et Le Monde Informatique pour l'IA. Chaque jour, un script récupère automatiquement les nouvelles publications, calcule un score de pertinence par mots-clés, et sélectionne les 4 meilleures entrées par thème.",
@@ -85,11 +85,11 @@ window.VEILLE_DATA = {
           "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
         },
         {
-          "date": "2 avril 2026",
-          "title": "Expiration de certificats Secure Boot en juin 2026 (02 avril 2026)",
-          "source": "CERT-FR",
-          "url": "https://www.cert.ssi.gouv.fr/actualite/CERTFR-2026-ACT-014/",
-          "summary": "Le démarrage sécurisé (UEFI Secure Boot) est une fonctionnalité de sécurité disponible sur les ordinateurs PC clients et serveurs depuis 2011. Son rôle est de sécuriser la séquence de démarrage de l’appareil, en vérifiant l’intégrité du...",
+          "date": "2 octobre 2026",
+          "title": "TeamViewer a corrigé 5 failles de sécurité, dont une exploitable à distance",
+          "source": "IT-Connect",
+          "url": "https://www.it-connect.fr/teamviewer-5-failles-securite-version-15-82/",
+          "summary": "TeamViewer a corrigé cinq failles dans ses clients Windows, Linux et macOS, dont une exploitable à distance (CVSS 8,8 sur 10). Voici les versions à installer.",
           "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
         }
       ]
@@ -118,19 +118,11 @@ window.VEILLE_DATA = {
       ],
       "entries": [
         {
-          "date": "1 octobre 2026",
-          "title": "Gemini 4 Argon s’attaque à ChatGPT et Claude : Google dévoile son IA la plus puissante",
+          "date": "2 octobre 2026",
+          "title": "Fuite de données chez OpenAI : le roi de l’IA licencie 3 employés qui ont partagé des « informations sensibles »",
           "source": "01net",
-          "url": "https://www.01net.com/actualites/gemini-4-argon-google-ia-plus-puissante.html",
-          "summary": "Google vient de présenter Gemini 4 Argon, son nouveau modèle d’intelligence artificielle haut de gamme. Il est pour l’instant réservé à un petit cercle de spécialistes en cybersécurité. Le grand public devra patienter avant de pouvoir te...",
-          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
-        },
-        {
-          "date": "30 septembre 2026",
-          "title": "Android dit non à l’Union européenne : Google refuse d’ouvrir l’OS à ChatGPT et Claude",
-          "source": "01net",
-          "url": "https://www.01net.com/actualites/android-dit-non-a-lunion-europeenne-google-refuse-douvrir-los-a-chatgpt-et-claude.html",
-          "summary": "Votre prochain téléphone Android devait vous laisser convoquer ChatGPT ou Claude à la voix, comme Gemini aujourd'hui. Google a saisi la justice européenne pour que ce jour n'arrive pas de sitôt.",
+          "url": "https://www.01net.com/actualites/fuite-donnees-openai-roi-ia-licencie-3-employes-partage-informations-sensibles.html",
+          "summary": "OpenAI, la société à l'origine de ChatGPT, a annoncé le licenciement de trois employés. La start-up leur reproche d’avoir partagé des informations sensibles avec un organisme extérieur, spécialisé dans l’analyse des IA.",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
@@ -142,11 +134,11 @@ window.VEILLE_DATA = {
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
-          "date": "1 octobre 2026",
-          "title": "La nouvelle IA de Donald Trump le contredit… et se fait censurer",
-          "source": "01net",
-          "url": "https://www.01net.com/actualites/la-nouvelle-ia-de-donald-trump-le-contredit-et-se-fait-censurer.html",
-          "summary": "Donald Trump a dévoilé la plateforme gouvernementale America.gov. Cette plateforme a pour objectif d’aider les Américains dans leurs démarches administratives. Il est par ailleurs possible de poser des questions à un chatbot. Un journali...",
+          "date": "29 septembre 2026",
+          "title": "Claude Code : Anthropic offre jusqu’à 250 dollars de crédit, mais seulement pour les sessions cloud",
+          "source": "IT-Connect",
+          "url": "https://www.it-connect.fr/claude-code-sessions-cloud-credit-offert/",
+          "summary": "Abonné à Claude Pro ou Max ? Anthropic vous offre jusqu’à 250 dollars de crédit pour tester les sessions cloud de Claude Code. Voici comment en profiter.",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         }
       ]
