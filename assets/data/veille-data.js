@@ -1,5 +1,5 @@
 window.VEILLE_DATA = {
-  "updatedAt": "2026-10-03",
+  "updatedAt": "2026-10-04",
   "methodologie": {
     "title": "Méthodologie de veille",
     "summary": "Ma veille technologique repose sur plusieurs sources complémentaires : IT-Connect, ANSSI et le CERT-FR pour la cybersécurité, 01net et Le Monde Informatique pour l'IA. Chaque jour, un script récupère automatiquement les nouvelles publications, calcule un score de pertinence par mots-clés, et sélectionne les 4 meilleures entrées par thème.",
@@ -123,14 +123,6 @@ window.VEILLE_DATA = {
           "source": "IT-Connect",
           "url": "https://www.it-connect.fr/openai-dots-agents-ia-toujours-actifs/",
           "summary": "OpenAI lance dots, des agents IA toujours actifs dotés de leur propre ordinateur dans le cloud. Disponibilité, garde-fous, Agent 365 : voici l’essentiel.",
-          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
-        },
-        {
-          "date": "2 octobre 2026",
-          "title": "Des jeux PS5 plus beaux que jamais : comment Sony va doper sa console gratuitement, 6 ans après sa sortie",
-          "source": "01net",
-          "url": "https://www.01net.com/actualites/des-jeux-ps5-plus-beaux-que-jamais-comment-sony-va-doper-sa-console-gratuitement-6-ans-apres-sa-sortie.html",
-          "summary": "Réservée à la PS5 Pro depuis deux ans, la mise à l'échelle par intelligence artificielle débarque sur la PS5 de base. Deux jeux en profitent déjà, et Sony promet d'ouvrir sa technologie à tous les studios PlayStation.",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
