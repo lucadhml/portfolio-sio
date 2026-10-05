@@ -1,5 +1,5 @@
 window.VEILLE_DATA = {
-  "updatedAt": "2026-10-04",
+  "updatedAt": "2026-10-05",
   "methodologie": {
     "title": "Méthodologie de veille",
     "summary": "Ma veille technologique repose sur plusieurs sources complémentaires : IT-Connect, ANSSI et le CERT-FR pour la cybersécurité, 01net et Le Monde Informatique pour l'IA. Chaque jour, un script récupère automatiquement les nouvelles publications, calcule un score de pertinence par mots-clés, et sélectionne les 4 meilleures entrées par thème.",
@@ -118,19 +118,35 @@ window.VEILLE_DATA = {
       ],
       "entries": [
         {
+          "date": "5 octobre 2026",
+          "title": "« Pas assez prudents » : un responsable OpenAI claque la porte et descend l’approche des rois de l’IA",
+          "source": "01net",
+          "url": "https://www.01net.com/actualites/pas-assez-prudents-responsable-openai-claque-porte-descend-approche-rois-ia.html",
+          "summary": "David Robinson a quitté OpenAI cette semaine. Pendant trois ans et demi, il était chargé de superviser les rapports de sécurité de la start-up à l'origine de ChatGPT. Dans une longue tribune, il explique que les laboratoires d’IA ne sont...",
+          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
+        },
+        {
+          "date": "5 octobre 2026",
+          "title": "« Aucun moyen d’éviter l’attaque » : la Corée du Nord lance un missile balistique piloté par IA",
+          "source": "01net",
+          "url": "https://www.01net.com/actualites/missile-balistique-pilote-ia-voici-derniere-experience-coree-du-nord.html",
+          "summary": "Les médias d'État de la Corée du Nord ont déclaré que l'armée avait utilisé l'intelligence artificielle pour lancer un missile balistique. L'IA permettrait à ce dernier de changer sa trajectoire, le rendant « impossible à éviter ».",
+          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
+        },
+        {
+          "date": "5 octobre 2026",
+          "title": "Gemini va connaitre un changement majeur le 9 octobre (et ce n’est pas une bonne nouvelle)",
+          "source": "01net",
+          "url": "https://www.01net.com/actualites/gemini-google-revoit-baisse-modeles-sur-certains-abonnements.html",
+          "summary": "Google revoit entièrement l'accès à ses modèles d'intelligence artificielle dans Gemini pour les différents abonnements. Dès le 9 octobre 2026, les règles changent.",
+          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
+        },
+        {
           "date": "30 septembre 2026",
           "title": "OpenAI lance dots, l’agent IA qui travaille même quand vous dormez",
           "source": "IT-Connect",
           "url": "https://www.it-connect.fr/openai-dots-agents-ia-toujours-actifs/",
           "summary": "OpenAI lance dots, des agents IA toujours actifs dotés de leur propre ordinateur dans le cloud. Disponibilité, garde-fous, Agent 365 : voici l’essentiel.",
-          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
-        },
-        {
-          "date": "29 septembre 2026",
-          "title": "Claude Code : Anthropic offre jusqu’à 250 dollars de crédit, mais seulement pour les sessions cloud",
-          "source": "IT-Connect",
-          "url": "https://www.it-connect.fr/claude-code-sessions-cloud-credit-offert/",
-          "summary": "Abonné à Claude Pro ou Max ? Anthropic vous offre jusqu’à 250 dollars de crédit pour tester les sessions cloud de Claude Code. Voici comment en profiter.",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         }
       ]
