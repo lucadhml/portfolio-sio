@@ -1,5 +1,5 @@
 window.VEILLE_DATA = {
-  "updatedAt": "2026-10-05",
+  "updatedAt": "2026-10-06",
   "methodologie": {
     "title": "Méthodologie de veille",
     "summary": "Ma veille technologique repose sur plusieurs sources complémentaires : IT-Connect, ANSSI et le CERT-FR pour la cybersécurité, 01net et Le Monde Informatique pour l'IA. Chaque jour, un script récupère automatiquement les nouvelles publications, calcule un score de pertinence par mots-clés, et sélectionne les 4 meilleures entrées par thème.",
@@ -61,19 +61,19 @@ window.VEILLE_DATA = {
       ],
       "entries": [
         {
-          "date": "30 septembre 2026",
-          "title": "Apple a corrigé une faille CoreGraphics exploitée pour cibler des utilisateurs d’iPhone (CVE-2026-86950)",
-          "source": "IT-Connect",
-          "url": "https://www.it-connect.fr/apple-cve-2026-86950-faille-zero-day-coregraphics/",
-          "summary": "Apple a corrigé la CVE-2026-86950, une faille zero-day dans CoreGraphics possiblement exploitée contre des iPhone. Voici les mises à jour à installer d’urgence.",
-          "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
-        },
-        {
           "date": "21 juillet 2026",
           "title": "Exigences du CRA : processus de notification pour les organismes notifiés",
           "source": "ANSSI",
           "url": "http://cyber.sites.beta.gouv.fr/actualites/exigences-du-cra-processus-de-notification-pour-les-organismes-notifies/",
           "summary": "Dans un contexte marqué par l’exploitation croissante de vulnérabilités affectant des produits numériques ayant un niveau de cybersécurité insuffisant, le […]",
+          "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
+        },
+        {
+          "date": "6 octobre 2026",
+          "title": "Dell PowerEdge : une faille critique permet d’exécuter du code en tant que root sur les serveurs",
+          "source": "IT-Connect",
+          "url": "https://www.it-connect.fr/dell-system-update-faille-critique-cve-2026-86360/",
+          "summary": "Dell a corrigé cinq failles dans Dell System Update, dont la CVE-2026-86360 (9,6/10) qui permet d’exécuter du code en tant que root sur les serveurs PowerEdge.",
           "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
         },
         {
@@ -118,35 +118,35 @@ window.VEILLE_DATA = {
       ],
       "entries": [
         {
-          "date": "5 octobre 2026",
-          "title": "« Pas assez prudents » : un responsable OpenAI claque la porte et descend l’approche des rois de l’IA",
+          "date": "6 octobre 2026",
+          "title": "ChatGPT va bientôt signer tous les textes qu’il écrit à votre place",
           "source": "01net",
-          "url": "https://www.01net.com/actualites/pas-assez-prudents-responsable-openai-claque-porte-descend-approche-rois-ia.html",
-          "summary": "David Robinson a quitté OpenAI cette semaine. Pendant trois ans et demi, il était chargé de superviser les rapports de sécurité de la start-up à l'origine de ChatGPT. Dans une longue tribune, il explique que les laboratoires d’IA ne sont...",
+          "url": "https://www.01net.com/actualites/chatgpt-filigrane-invisible-textes-union-europeenne-ai-act.html",
+          "summary": "OpenAI a annoncé l'arrivée d'une signature invisible sur ChatGPT et Codex. Tous les textes produits par l'IA dans l’Union européenne seront marqués d'un filigrane « dans les prochaines semaines » pour tous les abonnements, gratuits comme...",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
-          "date": "5 octobre 2026",
-          "title": "« Aucun moyen d’éviter l’attaque » : la Corée du Nord lance un missile balistique piloté par IA",
-          "source": "01net",
-          "url": "https://www.01net.com/actualites/missile-balistique-pilote-ia-voici-derniere-experience-coree-du-nord.html",
-          "summary": "Les médias d'État de la Corée du Nord ont déclaré que l'armée avait utilisé l'intelligence artificielle pour lancer un missile balistique. L'IA permettrait à ce dernier de changer sa trajectoire, le rendant « impossible à éviter ».",
-          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
-        },
-        {
-          "date": "5 octobre 2026",
-          "title": "Gemini va connaitre un changement majeur le 9 octobre (et ce n’est pas une bonne nouvelle)",
-          "source": "01net",
-          "url": "https://www.01net.com/actualites/gemini-google-revoit-baisse-modeles-sur-certains-abonnements.html",
-          "summary": "Google revoit entièrement l'accès à ses modèles d'intelligence artificielle dans Gemini pour les différents abonnements. Dès le 9 octobre 2026, les règles changent.",
-          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
-        },
-        {
-          "date": "30 septembre 2026",
-          "title": "OpenAI lance dots, l’agent IA qui travaille même quand vous dormez",
+          "date": "6 octobre 2026",
+          "title": "OpenAI va ajouter un filigrane invisible aux textes de ChatGPT et Codex dans l’UE",
           "source": "IT-Connect",
-          "url": "https://www.it-connect.fr/openai-dots-agents-ia-toujours-actifs/",
-          "summary": "OpenAI lance dots, des agents IA toujours actifs dotés de leur propre ordinateur dans le cloud. Disponibilité, garde-fous, Agent 365 : voici l’essentiel.",
+          "url": "https://www.it-connect.fr/openai-filigrane-invisible-textes-chatgpt-codex-ue/",
+          "summary": "AI Act oblige, OpenAI va glisser un filigrane invisible dans les textes de ChatGPT et Codex en Europe. Une méthode qui a ses limites, selon OpenAI.",
+          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
+        },
+        {
+          "date": "6 octobre 2026",
+          "title": "ChatGPT a trouvé un nouvel endroit où mettre des publicités",
+          "source": "01net",
+          "url": "https://www.01net.com/actualites/chatgpt-a-trouve-un-nouvel-endroit-ou-mettre-des-publicites.html",
+          "summary": "OpenAI teste un nouveau format de publicités dans ChatGPT : des annonces sponsorisées durant la génération d'images. Des publicités qui seront déployées dans un premier temps aux États-Unis.",
+          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
+        },
+        {
+          "date": "6 octobre 2026",
+          "title": "IA et jeux vidéo : les créateurs de Resident Evil ont trouvé la recette magique",
+          "source": "01net",
+          "url": "https://www.01net.com/actualites/ia-et-jeux-video-les-createurs-de-resident-evil-ont-trouve-la-recette-magique.html",
+          "summary": "Le créateur de Resident Evil prépare un RE Engine repensé pour que l'intelligence artificielle écrive du code et traque les bugs à la place des humains. Les contenus générés par IA restent, eux, interdits de séjour dans ses jeux.",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         }
       ]
