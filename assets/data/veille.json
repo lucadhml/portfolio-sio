@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-06",
+  "updatedAt": "2026-10-07",
   "methodologie": {
     "title": "Méthodologie de veille",
     "summary": "Ma veille technologique repose sur plusieurs sources complémentaires : IT-Connect, ANSSI et le CERT-FR pour la cybersécurité, 01net et Le Monde Informatique pour l'IA. Chaque jour, un script récupère automatiquement les nouvelles publications, calcule un score de pertinence par mots-clés, et sélectionne les 4 meilleures entrées par thème.",
@@ -69,27 +69,27 @@
           "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
         },
         {
+          "date": "7 octobre 2026",
+          "title": "Pwn2Own Ireland 2026 : le Samsung Galaxy S26 piraté trois fois dès le premier jour",
+          "source": "IT-Connect",
+          "url": "https://www.it-connect.fr/pwn2own-ireland-2026-samsung-galaxy-s26-pirate/",
+          "summary": "Le Galaxy S26 piraté trois fois dès le premier jour du Pwn2Own Ireland 2026, avec des exploits mêlant nouvelles failles zero-day et anciennes failles.",
+          "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
+        },
+        {
+          "date": "7 octobre 2026",
+          "title": "Microsoft Exchange : la faille CVE-2026-96940 permet de lire les boîtes aux lettres des autres utilisateurs",
+          "source": "IT-Connect",
+          "url": "https://www.it-connect.fr/exchange-server-cve-2026-96940/",
+          "summary": "La faille CVE-2026-96940 découverte dans Exchange Server permet à un utilisateur authentifié de lire les e-mails de ses collègues. Un patch est disponible.",
+          "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
+        },
+        {
           "date": "6 octobre 2026",
           "title": "Dell PowerEdge : une faille critique permet d’exécuter du code en tant que root sur les serveurs",
           "source": "IT-Connect",
           "url": "https://www.it-connect.fr/dell-system-update-faille-critique-cve-2026-86360/",
           "summary": "Dell a corrigé cinq failles dans Dell System Update, dont la CVE-2026-86360 (9,6/10) qui permet d’exécuter du code en tant que root sur les serveurs PowerEdge.",
-          "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
-        },
-        {
-          "date": "21 janvier 2026",
-          "title": "Vulnérabilité dans telnetd (21 janvier 2026)",
-          "source": "CERT-FR",
-          "url": "https://www.cert.ssi.gouv.fr/actualite/CERTFR-2026-ACT-003/",
-          "summary": "Le 20 janvier 2026, les détails de la vulnérabilité CVE-2026-24061, affectant *telnetd*, ont été publiés. Cette vulnérabilité permet à un attaquant de contourner l'authentification et de se connecter à une machine vulnérable en tant que...",
-          "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
-        },
-        {
-          "date": "2 octobre 2026",
-          "title": "TeamViewer a corrigé 5 failles de sécurité, dont une exploitable à distance",
-          "source": "IT-Connect",
-          "url": "https://www.it-connect.fr/teamviewer-5-failles-securite-version-15-82/",
-          "summary": "TeamViewer a corrigé cinq failles dans ses clients Windows, Linux et macOS, dont une exploitable à distance (CVSS 8,8 sur 10). Voici les versions à installer.",
           "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
         }
       ]
@@ -119,10 +119,18 @@
       "entries": [
         {
           "date": "6 octobre 2026",
-          "title": "ChatGPT va bientôt signer tous les textes qu’il écrit à votre place",
+          "title": "Mistral lance Le Chonk, la nouvelle IA française qui réduit l’écart avec ChatGPT et Claude",
           "source": "01net",
-          "url": "https://www.01net.com/actualites/chatgpt-filigrane-invisible-textes-union-europeenne-ai-act.html",
-          "summary": "OpenAI a annoncé l'arrivée d'une signature invisible sur ChatGPT et Codex. Tous les textes produits par l'IA dans l’Union européenne seront marqués d'un filigrane « dans les prochaines semaines » pour tous les abonnements, gratuits comme...",
+          "url": "https://www.01net.com/actualites/mistral-chonk-nouvelle-ia-francaise-defie-chatgpt-claude-chine.html",
+          "summary": "Mistral AI a dévoilé un tout nouveau modèle d’intelligence artificielle, Mistral Large 4. Surnommé « Le Chonk » par la start-up française, le modèle d'IA doit venir prouver que l’Europe peut rivaliser avec ChatGPT, Claude et les IA chino...",
+          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
+        },
+        {
+          "date": "6 octobre 2026",
+          "title": "Des ChatGPT « voyous » ont pris d’assaut Wikipedia avec des millions de requêtes, que s’est-il passé ?",
+          "source": "01net",
+          "url": "https://www.01net.com/actualites/des-chatgpt-voyous-ont-pris-dassaut-wikipedia-avec-des-millions-de-requetes-que-sest-il-passe.html",
+          "summary": "Selon la directrice des produits et de la technologie de la Wikimedia Foundation, des agents IA « voyous » d’OpenAI ont effectué des millions de requêtes et visité des millions de pages sur différentes plateformes de la fondation. OpenAI...",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
@@ -134,19 +142,11 @@
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
-          "date": "6 octobre 2026",
-          "title": "ChatGPT a trouvé un nouvel endroit où mettre des publicités",
+          "date": "7 octobre 2026",
+          "title": "129 000 failles débusquées : Anthropic dévoile le bilan impressionnant de Claude Mythos",
           "source": "01net",
-          "url": "https://www.01net.com/actualites/chatgpt-a-trouve-un-nouvel-endroit-ou-mettre-des-publicites.html",
-          "summary": "OpenAI teste un nouveau format de publicités dans ChatGPT : des annonces sponsorisées durant la génération d'images. Des publicités qui seront déployées dans un premier temps aux États-Unis.",
-          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
-        },
-        {
-          "date": "6 octobre 2026",
-          "title": "IA et jeux vidéo : les créateurs de Resident Evil ont trouvé la recette magique",
-          "source": "01net",
-          "url": "https://www.01net.com/actualites/ia-et-jeux-video-les-createurs-de-resident-evil-ont-trouve-la-recette-magique.html",
-          "summary": "Le créateur de Resident Evil prépare un RE Engine repensé pour que l'intelligence artificielle écrive du code et traque les bugs à la place des humains. Les contenus générés par IA restent, eux, interdits de séjour dans ses jeux.",
+          "url": "https://www.01net.com/actualites/129-000-failles-debusquees-anthropic-devoile-le-bilan-impressionnant-claude-mythos.html",
+          "summary": "Anthropic révèle que Claude Mythos a débusqué au moins 129 000 failles en quelques mois. En réaction, la start-up a décidé d'élargir l'accès à son IA taillée pour la cybersécurité.",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         }
       ]
