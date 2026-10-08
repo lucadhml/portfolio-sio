@@ -1,5 +1,5 @@
 window.VEILLE_DATA = {
-  "updatedAt": "2026-10-07",
+  "updatedAt": "2026-10-08",
   "methodologie": {
     "title": "Méthodologie de veille",
     "summary": "Ma veille technologique repose sur plusieurs sources complémentaires : IT-Connect, ANSSI et le CERT-FR pour la cybersécurité, 01net et Le Monde Informatique pour l'IA. Chaque jour, un script récupère automatiquement les nouvelles publications, calcule un score de pertinence par mots-clés, et sélectionne les 4 meilleures entrées par thème.",
@@ -69,6 +69,14 @@ window.VEILLE_DATA = {
           "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
         },
         {
+          "date": "8 octobre 2026",
+          "title": "Atlassian : une faille critique permet de lire des fichiers sur Jira, Confluence et Bitbucket",
+          "source": "IT-Connect",
+          "url": "https://www.it-connect.fr/atlassian-cve-2026-21589-faille-critique-jira-confluence-bitbucket/",
+          "summary": "CVE-2026-21589 : une faille critique (9,3/10) permet de lire des fichiers sans authentification sur Jira, Confluence et Bitbucket Data Center. Patchez.",
+          "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
+        },
+        {
           "date": "7 octobre 2026",
           "title": "Pwn2Own Ireland 2026 : le Samsung Galaxy S26 piraté trois fois dès le premier jour",
           "source": "IT-Connect",
@@ -82,14 +90,6 @@ window.VEILLE_DATA = {
           "source": "IT-Connect",
           "url": "https://www.it-connect.fr/exchange-server-cve-2026-96940/",
           "summary": "La faille CVE-2026-96940 découverte dans Exchange Server permet à un utilisateur authentifié de lire les e-mails de ses collègues. Un patch est disponible.",
-          "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
-        },
-        {
-          "date": "6 octobre 2026",
-          "title": "Dell PowerEdge : une faille critique permet d’exécuter du code en tant que root sur les serveurs",
-          "source": "IT-Connect",
-          "url": "https://www.it-connect.fr/dell-system-update-faille-critique-cve-2026-86360/",
-          "summary": "Dell a corrigé cinq failles dans Dell System Update, dont la CVE-2026-86360 (9,6/10) qui permet d’exécuter du code en tant que root sur les serveurs PowerEdge.",
           "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
         }
       ]
@@ -118,19 +118,19 @@ window.VEILLE_DATA = {
       ],
       "entries": [
         {
-          "date": "6 octobre 2026",
-          "title": "Mistral lance Le Chonk, la nouvelle IA française qui réduit l’écart avec ChatGPT et Claude",
+          "date": "8 octobre 2026",
+          "title": "Claude Haiku 5.5 : Anthropic lance une IA 4 fois moins chère pour rivaliser avec ChatGPT",
           "source": "01net",
-          "url": "https://www.01net.com/actualites/mistral-chonk-nouvelle-ia-francaise-defie-chatgpt-claude-chine.html",
-          "summary": "Mistral AI a dévoilé un tout nouveau modèle d’intelligence artificielle, Mistral Large 4. Surnommé « Le Chonk » par la start-up française, le modèle d'IA doit venir prouver que l’Europe peut rivaliser avec ChatGPT, Claude et les IA chino...",
+          "url": "https://www.01net.com/actualites/claude-haiku-5-5-anthropic-ia-4-fois-moins-chere.html",
+          "summary": "Anthropic vient de dégainer Claude Haiku 5.5, un nouveau modèle d'IA. Plus rapide et plus performant que son prédécesseur, il est surtout 75 % moins cher. Avec cette nouvelle solution économique, la start-up rivale d'OpenAI veut rendre l...",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
-          "date": "6 octobre 2026",
-          "title": "Des ChatGPT « voyous » ont pris d’assaut Wikipedia avec des millions de requêtes, que s’est-il passé ?",
+          "date": "8 octobre 2026",
+          "title": "ChatGPT fait peau neuve pour l’arrivée de GPT-6, voici tout ce qui change",
           "source": "01net",
-          "url": "https://www.01net.com/actualites/des-chatgpt-voyous-ont-pris-dassaut-wikipedia-avec-des-millions-de-requetes-que-sest-il-passe.html",
-          "summary": "Selon la directrice des produits et de la technologie de la Wikimedia Foundation, des agents IA « voyous » d’OpenAI ont effectué des millions de requêtes et visité des millions de pages sur différentes plateformes de la fondation. OpenAI...",
+          "url": "https://www.01net.com/actualites/chatgpt-gpt-6-intelligent-ui-ce-qui-change.html",
+          "summary": "Graphiques, boutons, mini-applications… OpenAI vient de bousculer l'interface de ChatGPT à l'occasion de l'arrivée de GPT-6. Grâce à une nouvelle fonction, baptisée « Intelligent UI », l'IA ne se contente plus de répondre par du texte à...",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
@@ -142,11 +142,11 @@ window.VEILLE_DATA = {
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
-          "date": "7 octobre 2026",
-          "title": "129 000 failles débusquées : Anthropic dévoile le bilan impressionnant de Claude Mythos",
+          "date": "8 octobre 2026",
+          "title": "« Les pirates n’étaient pas humains » : Netflix dévoile un documentaire sur la première cyberattaque signée ChatGPT",
           "source": "01net",
-          "url": "https://www.01net.com/actualites/129-000-failles-debusquees-anthropic-devoile-le-bilan-impressionnant-claude-mythos.html",
-          "summary": "Anthropic révèle que Claude Mythos a débusqué au moins 129 000 failles en quelques mois. En réaction, la start-up a décidé d'élargir l'accès à son IA taillée pour la cybersécurité.",
+          "url": "https://www.01net.com/actualites/les-pirates-netaient-pas-humains-netflix-devoile-un-documentaire-sur-la-premiere-cyberattaque-signee-chatgpt.html",
+          "summary": "Netflix sort ce 12 octobre « Instadocs: AI Gone Wild », un documentaire inédit sur la cyberattaque contre Hugging Face, perpétrée par des ChatGPT hors de contrôle.",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         }
       ]
