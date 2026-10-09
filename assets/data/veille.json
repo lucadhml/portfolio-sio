@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-08",
+  "updatedAt": "2026-10-09",
   "methodologie": {
     "title": "Méthodologie de veille",
     "summary": "Ma veille technologique repose sur plusieurs sources complémentaires : IT-Connect, ANSSI et le CERT-FR pour la cybersécurité, 01net et Le Monde Informatique pour l'IA. Chaque jour, un script récupère automatiquement les nouvelles publications, calcule un score de pertinence par mots-clés, et sélectionne les 4 meilleures entrées par thème.",
@@ -118,22 +118,6 @@
       ],
       "entries": [
         {
-          "date": "8 octobre 2026",
-          "title": "Claude Haiku 5.5 : Anthropic lance une IA 4 fois moins chère pour rivaliser avec ChatGPT",
-          "source": "01net",
-          "url": "https://www.01net.com/actualites/claude-haiku-5-5-anthropic-ia-4-fois-moins-chere.html",
-          "summary": "Anthropic vient de dégainer Claude Haiku 5.5, un nouveau modèle d'IA. Plus rapide et plus performant que son prédécesseur, il est surtout 75 % moins cher. Avec cette nouvelle solution économique, la start-up rivale d'OpenAI veut rendre l...",
-          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
-        },
-        {
-          "date": "8 octobre 2026",
-          "title": "ChatGPT fait peau neuve pour l’arrivée de GPT-6, voici tout ce qui change",
-          "source": "01net",
-          "url": "https://www.01net.com/actualites/chatgpt-gpt-6-intelligent-ui-ce-qui-change.html",
-          "summary": "Graphiques, boutons, mini-applications… OpenAI vient de bousculer l'interface de ChatGPT à l'occasion de l'arrivée de GPT-6. Grâce à une nouvelle fonction, baptisée « Intelligent UI », l'IA ne se contente plus de répondre par du texte à...",
-          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
-        },
-        {
           "date": "6 octobre 2026",
           "title": "OpenAI va ajouter un filigrane invisible aux textes de ChatGPT et Codex dans l’UE",
           "source": "IT-Connect",
@@ -147,6 +131,22 @@
           "source": "01net",
           "url": "https://www.01net.com/actualites/les-pirates-netaient-pas-humains-netflix-devoile-un-documentaire-sur-la-premiere-cyberattaque-signee-chatgpt.html",
           "summary": "Netflix sort ce 12 octobre « Instadocs: AI Gone Wild », un documentaire inédit sur la cyberattaque contre Hugging Face, perpétrée par des ChatGPT hors de contrôle.",
+          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
+        },
+        {
+          "date": "9 octobre 2026",
+          "title": "« Abusif ou cruel » : Anthropic vous interdit de malmener Claude",
+          "source": "01net",
+          "url": "https://www.01net.com/actualites/abusif-ou-cruel-anthropic-vous-interdit-de-malmener-claude.html",
+          "summary": "Anthropic a mis à jour les conditions d’utilisation de Claude afin de limiter les usages abusifs de l'IA, notamment dans le cadre de campagnes électorales, du développement d’outils de surveillance et de la robotique. Surtout, Anthropic...",
+          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
+        },
+        {
+          "date": "9 octobre 2026",
+          "title": "Furieux contre Adobe, il recrée Photoshop et six autres logiciels avec l’IA",
+          "source": "01net",
+          "url": "https://www.01net.com/actualites/furieux-contre-adobe-il-recree-photoshop-et-six-autres-logiciels-avec-lia.html",
+          "summary": "Un développeur d'Atlanta publie des clones gratuits et open source de sept logiciels phares d'Adobe, codés en Rust avec Claude. Détail piquant : Adobe et Anthropic sont officiellement partenaires depuis avril.",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         }
       ]
