@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-09",
+  "updatedAt": "2026-10-10",
   "methodologie": {
     "title": "Méthodologie de veille",
     "summary": "Ma veille technologique repose sur plusieurs sources complémentaires : IT-Connect, ANSSI et le CERT-FR pour la cybersécurité, 01net et Le Monde Informatique pour l'IA. Chaque jour, un script récupère automatiquement les nouvelles publications, calcule un score de pertinence par mots-clés, et sélectionne les 4 meilleures entrées par thème.",
@@ -118,22 +118,6 @@
       ],
       "entries": [
         {
-          "date": "6 octobre 2026",
-          "title": "OpenAI va ajouter un filigrane invisible aux textes de ChatGPT et Codex dans l’UE",
-          "source": "IT-Connect",
-          "url": "https://www.it-connect.fr/openai-filigrane-invisible-textes-chatgpt-codex-ue/",
-          "summary": "AI Act oblige, OpenAI va glisser un filigrane invisible dans les textes de ChatGPT et Codex en Europe. Une méthode qui a ses limites, selon OpenAI.",
-          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
-        },
-        {
-          "date": "8 octobre 2026",
-          "title": "« Les pirates n’étaient pas humains » : Netflix dévoile un documentaire sur la première cyberattaque signée ChatGPT",
-          "source": "01net",
-          "url": "https://www.01net.com/actualites/les-pirates-netaient-pas-humains-netflix-devoile-un-documentaire-sur-la-premiere-cyberattaque-signee-chatgpt.html",
-          "summary": "Netflix sort ce 12 octobre « Instadocs: AI Gone Wild », un documentaire inédit sur la cyberattaque contre Hugging Face, perpétrée par des ChatGPT hors de contrôle.",
-          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
-        },
-        {
           "date": "9 octobre 2026",
           "title": "« Abusif ou cruel » : Anthropic vous interdit de malmener Claude",
           "source": "01net",
@@ -147,6 +131,22 @@
           "source": "01net",
           "url": "https://www.01net.com/actualites/furieux-contre-adobe-il-recree-photoshop-et-six-autres-logiciels-avec-lia.html",
           "summary": "Un développeur d'Atlanta publie des clones gratuits et open source de sept logiciels phares d'Adobe, codés en Rust avec Claude. Détail piquant : Adobe et Anthropic sont officiellement partenaires depuis avril.",
+          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
+        },
+        {
+          "date": "9 octobre 2026",
+          "title": "« Nous sommes déçus de Mistral » : le moteur de recherche Ecosia abandonne l’IA française pour des modèles chinois",
+          "source": "01net",
+          "url": "https://www.01net.com/actualites/nous-sommes-decus-mistral-moteur-recherche-ecosia-abandonne-mistral-profit-ia-chinoises.html",
+          "summary": "Le dirigeant d’Ecosia estime que les modèles de Mistral n’ont pas répondu aux attentes. Il pointe par ailleurs du doigt l’énergie nucléaire et des enjeux de souveraineté numérique. Cette annonce est tombée le jour où Mistral a lancé son...",
+          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
+        },
+        {
+          "date": "7 octobre 2026",
+          "title": "SynthID Detector : Google ouvre à tous son outil pour repérer les contenus générés par IA",
+          "source": "IT-Connect",
+          "url": "https://www.it-connect.fr/google-synthid-detector-grand-public/",
+          "summary": "Google ouvre SynthID Detector à tous : l’outil vérifie si une image, une vidéo ou un audio vient de l’IA de Google, OpenAI, NVIDIA ou Kakao. Pas des autres.",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         }
       ]
