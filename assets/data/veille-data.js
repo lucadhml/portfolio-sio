@@ -1,5 +1,5 @@
 window.VEILLE_DATA = {
-  "updatedAt": "2026-10-11",
+  "updatedAt": "2026-10-12",
   "methodologie": {
     "title": "Méthodologie de veille",
     "summary": "Ma veille technologique repose sur plusieurs sources complémentaires : IT-Connect, ANSSI et le CERT-FR pour la cybersécurité, 01net et Le Monde Informatique pour l'IA. Chaque jour, un script récupère automatiquement les nouvelles publications, calcule un score de pertinence par mots-clés, et sélectionne les 4 meilleures entrées par thème.",
@@ -85,11 +85,11 @@ window.VEILLE_DATA = {
           "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
         },
         {
-          "date": "7 octobre 2026",
-          "title": "Microsoft Exchange : la faille CVE-2026-96940 permet de lire les boîtes aux lettres des autres utilisateurs",
-          "source": "IT-Connect",
-          "url": "https://www.it-connect.fr/exchange-server-cve-2026-96940/",
-          "summary": "La faille CVE-2026-96940 découverte dans Exchange Server permet à un utilisateur authentifié de lire les e-mails de ses collègues. Un patch est disponible.",
+          "date": "21 janvier 2026",
+          "title": "Vulnérabilité dans telnetd (21 janvier 2026)",
+          "source": "CERT-FR",
+          "url": "https://www.cert.ssi.gouv.fr/actualite/CERTFR-2026-ACT-003/",
+          "summary": "Le 20 janvier 2026, les détails de la vulnérabilité CVE-2026-24061, affectant *telnetd*, ont été publiés. Cette vulnérabilité permet à un attaquant de contourner l'authentification et de se connecter à une machine vulnérable en tant que...",
           "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
         }
       ]
@@ -118,35 +118,35 @@ window.VEILLE_DATA = {
       ],
       "entries": [
         {
-          "date": "11 octobre 2026",
-          "title": "ChatGPT vs Claude : quel abonnement IA est le plus généreux ? Une étude a tranché",
+          "date": "12 octobre 2026",
+          "title": "Après le fiasco GPT-4o, OpenAI promet un ChatGPT moins flatteur",
           "source": "01net",
-          "url": "https://www.01net.com/actualites/chatgpt-vs-claude-quel-abonnement-ia-est-le-plus-genereux-une-etude-a-tranche.html",
-          "summary": "Les limites de ChatGPT Pro seront divisées par deux à la fin du mois, pendant qu'un nouveau palier à 500 dollars fait son entrée. Au même moment, une analyse indépendante chiffre la générosité des abonnements du rival Claude.",
+          "url": "https://www.01net.com/actualites/apres-le-fiasco-gpt-4o-openai-promet-un-chatgpt-moins-flatteur.html",
+          "summary": "Retrait du modèle le plus complaisant, bancs d'essai dédiés, garde-fous pour les mineurs : OpenAI affirme que ChatGPT valide moins aveuglément ses utilisateurs. Les premiers tests indépendants vont dans son sens, même si quelques voyants...",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
-          "date": "11 octobre 2026",
-          "title": "« Mode bunker » : pourquoi l’IA sème la panique chez les investisseurs crypto",
+          "date": "12 octobre 2026",
+          "title": "Microsoft intègre les applis Office directement dans Copilot",
           "source": "01net",
-          "url": "https://www.01net.com/actualites/mode-bunker-ia-bitcoin-ethereum-ecdsa.html",
-          "summary": "Un chercheur réputé invite les détenteurs de cryptomonnaies à mettre leurs fonds « à l'abri ». Le chercheur pointe du doigt les progrès fulgurants de l'IA générative en mathématiques. Ces avancées incontrôlées pourraient venir fragiliser...",
+          "url": "https://www.01net.com/actualites/microsoft-integre-les-applis-office-directement-dans-copilot.html",
+          "summary": "La nouvelle application Copilot de Microsoft va embarquer l’ensemble des fonctionnalités de Word, Excel et PowerPoint. Les utilisateurs de l’assistant intelligent de Microsoft pourront ainsi concevoir et ajuster des documents grâce à l’IA.",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
-          "date": "9 octobre 2026",
-          "title": "« Abusif ou cruel » : Anthropic vous interdit de malmener Claude",
-          "source": "01net",
-          "url": "https://www.01net.com/actualites/abusif-ou-cruel-anthropic-vous-interdit-de-malmener-claude.html",
-          "summary": "Anthropic a mis à jour les conditions d’utilisation de Claude afin de limiter les usages abusifs de l'IA, notamment dans le cadre de campagnes électorales, du développement d’outils de surveillance et de la robotique. Surtout, Anthropic...",
+          "date": "7 octobre 2026",
+          "title": "SynthID Detector : Google ouvre à tous son outil pour repérer les contenus générés par IA",
+          "source": "IT-Connect",
+          "url": "https://www.it-connect.fr/google-synthid-detector-grand-public/",
+          "summary": "Google ouvre SynthID Detector à tous : l’outil vérifie si une image, une vidéo ou un audio vient de l’IA de Google, OpenAI, NVIDIA ou Kakao. Pas des autres.",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
-          "date": "9 octobre 2026",
-          "title": "« Nous sommes déçus de Mistral » : le moteur de recherche Ecosia abandonne l’IA française pour des modèles chinois",
+          "date": "12 octobre 2026",
+          "title": "Fibtbit Edge : Google lance un bracelet connecté élégant entre la Pixel Watch et le traqueur d’activité intelligent",
           "source": "01net",
-          "url": "https://www.01net.com/actualites/nous-sommes-decus-mistral-moteur-recherche-ecosia-abandonne-mistral-profit-ia-chinoises.html",
-          "summary": "Le dirigeant d’Ecosia estime que les modèles de Mistral n’ont pas répondu aux attentes. Il pointe par ailleurs du doigt l’énergie nucléaire et des enjeux de souveraineté numérique. Cette annonce est tombée le jour où Mistral a lancé son...",
+          "url": "https://www.01net.com/actualites/fibtbit-edge-google-lancement.html",
+          "summary": "Google officialise son tout nouveau bracelet connecté, le Fitbit Edge, qui mise sur un suivi santé et sportif très poussé dopé à l'intelligence artificielle. Lancé sous la barre des 180 dollars, il fait néanmoins quelques concessions not...",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         }
       ]
