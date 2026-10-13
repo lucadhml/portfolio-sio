@@ -1,5 +1,5 @@
 window.VEILLE_DATA = {
-  "updatedAt": "2026-10-12",
+  "updatedAt": "2026-10-13",
   "methodologie": {
     "title": "Méthodologie de veille",
     "summary": "Ma veille technologique repose sur plusieurs sources complémentaires : IT-Connect, ANSSI et le CERT-FR pour la cybersécurité, 01net et Le Monde Informatique pour l'IA. Chaque jour, un script récupère automatiquement les nouvelles publications, calcule un score de pertinence par mots-clés, et sélectionne les 4 meilleures entrées par thème.",
@@ -69,27 +69,27 @@ window.VEILLE_DATA = {
           "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
         },
         {
-          "date": "8 octobre 2026",
-          "title": "Atlassian : une faille critique permet de lire des fichiers sur Jira, Confluence et Bitbucket",
-          "source": "IT-Connect",
-          "url": "https://www.it-connect.fr/atlassian-cve-2026-21589-faille-critique-jira-confluence-bitbucket/",
-          "summary": "CVE-2026-21589 : une faille critique (9,3/10) permet de lire des fichiers sans authentification sur Jira, Confluence et Bitbucket Data Center. Patchez.",
-          "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
-        },
-        {
-          "date": "7 octobre 2026",
-          "title": "Pwn2Own Ireland 2026 : le Samsung Galaxy S26 piraté trois fois dès le premier jour",
-          "source": "IT-Connect",
-          "url": "https://www.it-connect.fr/pwn2own-ireland-2026-samsung-galaxy-s26-pirate/",
-          "summary": "Le Galaxy S26 piraté trois fois dès le premier jour du Pwn2Own Ireland 2026, avec des exploits mêlant nouvelles failles zero-day et anciennes failles.",
-          "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
-        },
-        {
           "date": "21 janvier 2026",
           "title": "Vulnérabilité dans telnetd (21 janvier 2026)",
           "source": "CERT-FR",
           "url": "https://www.cert.ssi.gouv.fr/actualite/CERTFR-2026-ACT-003/",
           "summary": "Le 20 janvier 2026, les détails de la vulnérabilité CVE-2026-24061, affectant *telnetd*, ont été publiés. Cette vulnérabilité permet à un attaquant de contourner l'authentification et de se connecter à une machine vulnérable en tant que...",
+          "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
+        },
+        {
+          "date": "9 octobre 2026",
+          "title": "247 failles patchées d’un coup dans Chrome 155 : l’IA est passée par là",
+          "source": "IT-Connect",
+          "url": "https://www.it-connect.fr/google-chrome-155-247-failles-securite-corrigees/",
+          "summary": "Chrome 155 corrige 247 failles de sécurité, dont 4 critiques. Douze ont été trouvées avec l’aide de l’IA Claude. Voici les versions à installer.",
+          "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
+        },
+        {
+          "date": "2 avril 2026",
+          "title": "Expiration de certificats Secure Boot en juin 2026 (02 avril 2026)",
+          "source": "CERT-FR",
+          "url": "https://www.cert.ssi.gouv.fr/actualite/CERTFR-2026-ACT-014/",
+          "summary": "Le démarrage sécurisé (UEFI Secure Boot) est une fonctionnalité de sécurité disponible sur les ordinateurs PC clients et serveurs depuis 2011. Son rôle est de sécuriser la séquence de démarrage de l’appareil, en vérifiant l’intégrité du...",
           "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
         }
       ]
@@ -118,35 +118,35 @@ window.VEILLE_DATA = {
       ],
       "entries": [
         {
-          "date": "12 octobre 2026",
-          "title": "Après le fiasco GPT-4o, OpenAI promet un ChatGPT moins flatteur",
+          "date": "13 octobre 2026",
+          "title": "Meta dégaine Muse Wonder et revient en force dans la course à l’IA",
           "source": "01net",
-          "url": "https://www.01net.com/actualites/apres-le-fiasco-gpt-4o-openai-promet-un-chatgpt-moins-flatteur.html",
-          "summary": "Retrait du modèle le plus complaisant, bancs d'essai dédiés, garde-fous pour les mineurs : OpenAI affirme que ChatGPT valide moins aveuglément ses utilisateurs. Les premiers tests indépendants vont dans son sens, même si quelques voyants...",
+          "url": "https://www.01net.com/actualites/meta-degaine-muse-wonder-revient-force-course-ia.html",
+          "summary": "Après quatorze mois de réorganisation et des dizaines de milliards de dollars investis, Meta dégaine Muse Wonder et Muse Wonder Full, de nouvelles IA taillées pour rivaliser avec les meilleurs modèles ChatGPT et Claude. Avec ces deux mod...",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
-          "date": "12 octobre 2026",
-          "title": "Microsoft intègre les applis Office directement dans Copilot",
+          "date": "13 octobre 2026",
+          "title": "Après Photoshop, il recrée Microsoft Word et Excel en version gratuite grâce à l’IA",
           "source": "01net",
-          "url": "https://www.01net.com/actualites/microsoft-integre-les-applis-office-directement-dans-copilot.html",
-          "summary": "La nouvelle application Copilot de Microsoft va embarquer l’ensemble des fonctionnalités de Word, Excel et PowerPoint. Les utilisateurs de l’assistant intelligent de Microsoft pourront ainsi concevoir et ajuster des documents grâce à l’IA.",
+          "url": "https://www.01net.com/actualites/apres-photoshop-il-recree-microsoft-word-et-excel-en-version-gratuite-grace-a-lia.html",
+          "summary": "Le studio ArtCraft, déjà derrière la suite Adobe recodée et disponible gratuitement, a mis en ligne des équivalents à Word, Excel et PowerPoint. Des logiciels faits grâce à Claude Code, un outil IA de développement informatique.",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
-          "date": "7 octobre 2026",
-          "title": "SynthID Detector : Google ouvre à tous son outil pour repérer les contenus générés par IA",
+          "date": "13 octobre 2026",
+          "title": "Claude : après une nouvelle dérive, Anthropic prive certaines IA d’accès Internet",
+          "source": "01net",
+          "url": "https://www.01net.com/actualites/claude-apres-une-nouvelle-derive-anthropic-prive-certaines-ia-dacces-internet.html",
+          "summary": "Un faux signalement de meurtre envoyé à la police de Philadelphie, un serveur universitaire piraté pour finir un calcul, des accès payants contournés : le créateur de Claude prive d'Internet l'ensemble de ses évaluations internes, faute...",
+          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
+        },
+        {
+          "date": "13 octobre 2026",
+          "title": "CyberXero : ce pirate a utilisé 51 agents Claude Code pour attaquer WordPress et l’Ukraine",
           "source": "IT-Connect",
-          "url": "https://www.it-connect.fr/google-synthid-detector-grand-public/",
-          "summary": "Google ouvre SynthID Detector à tous : l’outil vérifie si une image, une vidéo ou un audio vient de l’IA de Google, OpenAI, NVIDIA ou Kakao. Pas des autres.",
-          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
-        },
-        {
-          "date": "12 octobre 2026",
-          "title": "Fibtbit Edge : Google lance un bracelet connecté élégant entre la Pixel Watch et le traqueur d’activité intelligent",
-          "source": "01net",
-          "url": "https://www.01net.com/actualites/fibtbit-edge-google-lancement.html",
-          "summary": "Google officialise son tout nouveau bracelet connecté, le Fitbit Edge, qui mise sur un suivi santé et sportif très poussé dopé à l'intelligence artificielle. Lancé sous la barre des 180 dollars, il fait néanmoins quelques concessions not...",
+          "url": "https://www.it-connect.fr/cyberxero-claude-code-wordpress-energie-ukraine/",
+          "summary": "Un pirate russophone a compromis 429 sites WordPress en 61 secondes et volé 628 000 fiches ukrainiennes avec l’aide de 51 agents Claude Code.",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         }
       ]
