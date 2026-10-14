@@ -1,5 +1,5 @@
 window.VEILLE_DATA = {
-  "updatedAt": "2026-10-13",
+  "updatedAt": "2026-10-14",
   "methodologie": {
     "title": "Méthodologie de veille",
     "summary": "Ma veille technologique repose sur plusieurs sources complémentaires : IT-Connect, ANSSI et le CERT-FR pour la cybersécurité, 01net et Le Monde Informatique pour l'IA. Chaque jour, un script récupère automatiquement les nouvelles publications, calcule un score de pertinence par mots-clés, et sélectionne les 4 meilleures entrées par thème.",
@@ -61,6 +61,14 @@ window.VEILLE_DATA = {
       ],
       "entries": [
         {
+          "date": "14 octobre 2026",
+          "title": "Patch Tuesday – Octobre 2026 : 1 407 failles corrigées, dont trois failles zero-day",
+          "source": "IT-Connect",
+          "url": "https://www.it-connect.fr/patch-tuesday-octobre-2026-recapitulatif/",
+          "summary": "Microsoft a corrigé 1 407 failles avec le Patch Tuesday d’octobre 2026, un nouveau record. Une faille zero-day est déjà exploitée : voici ce qu’il faut savoir.",
+          "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
+        },
+        {
           "date": "21 juillet 2026",
           "title": "Exigences du CRA : processus de notification pour les organismes notifiés",
           "source": "ANSSI",
@@ -69,27 +77,19 @@ window.VEILLE_DATA = {
           "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
         },
         {
+          "date": "14 octobre 2026",
+          "title": "Patch Tuesday : Microsoft teste les cohortes de risque pour vous aider à trier plus de 1 400 CVE",
+          "source": "IT-Connect",
+          "url": "https://www.it-connect.fr/microsoft-cohortes-de-risque-patch-tuesday/",
+          "summary": "Microsoft propose les cohortes de risque pour prioriser les correctifs du Patch Tuesday. Découvrez ce nouveau principe qui reste tout de même perfectible.",
+          "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
+        },
+        {
           "date": "21 janvier 2026",
           "title": "Vulnérabilité dans telnetd (21 janvier 2026)",
           "source": "CERT-FR",
           "url": "https://www.cert.ssi.gouv.fr/actualite/CERTFR-2026-ACT-003/",
           "summary": "Le 20 janvier 2026, les détails de la vulnérabilité CVE-2026-24061, affectant *telnetd*, ont été publiés. Cette vulnérabilité permet à un attaquant de contourner l'authentification et de se connecter à une machine vulnérable en tant que...",
-          "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
-        },
-        {
-          "date": "9 octobre 2026",
-          "title": "247 failles patchées d’un coup dans Chrome 155 : l’IA est passée par là",
-          "source": "IT-Connect",
-          "url": "https://www.it-connect.fr/google-chrome-155-247-failles-securite-corrigees/",
-          "summary": "Chrome 155 corrige 247 failles de sécurité, dont 4 critiques. Douze ont été trouvées avec l’aide de l’IA Claude. Voici les versions à installer.",
-          "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
-        },
-        {
-          "date": "2 avril 2026",
-          "title": "Expiration de certificats Secure Boot en juin 2026 (02 avril 2026)",
-          "source": "CERT-FR",
-          "url": "https://www.cert.ssi.gouv.fr/actualite/CERTFR-2026-ACT-014/",
-          "summary": "Le démarrage sécurisé (UEFI Secure Boot) est une fonctionnalité de sécurité disponible sur les ordinateurs PC clients et serveurs depuis 2011. Son rôle est de sécuriser la séquence de démarrage de l’appareil, en vérifiant l’intégrité du...",
           "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
         }
       ]
@@ -118,11 +118,19 @@ window.VEILLE_DATA = {
       ],
       "entries": [
         {
-          "date": "13 octobre 2026",
-          "title": "Meta dégaine Muse Wonder et revient en force dans la course à l’IA",
+          "date": "14 octobre 2026",
+          "title": "Nvidia investit dans Doctolib : il y a évidemment de l’IA dans l’histoire",
           "source": "01net",
-          "url": "https://www.01net.com/actualites/meta-degaine-muse-wonder-revient-force-course-ia.html",
-          "summary": "Après quatorze mois de réorganisation et des dizaines de milliards de dollars investis, Meta dégaine Muse Wonder et Muse Wonder Full, de nouvelles IA taillées pour rivaliser avec les meilleurs modèles ChatGPT et Claude. Avec ces deux mod...",
+          "url": "https://www.01net.com/actualites/nvidia-investit-dans-doctolib-il-y-a-evidemment-de-lia-dans-lhistoire.html",
+          "summary": "Le géant des puces IA Nvidia a annoncé entrer au capital de Doctolib ce mardi 13 octobre. L'entreprise va devenir un actionnaire minoritaire et ce partenariat doit permettre à Doctolib d'accélérer ses projets autour de l'intelligence art...",
+          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
+        },
+        {
+          "date": "14 octobre 2026",
+          "title": "Un « domaine stratégique » : Emmanuel Macron convoque un conseil de défense et sécurité sur l’IA",
+          "source": "01net",
+          "url": "https://www.01net.com/actualites/domaine-strategique-emmanuel-macron-convoque-conseil-defense-securite-ia.html",
+          "summary": "Emmanuel Macron réunit un conseil de défense et de sécurité nationale entièrement consacré à l'intelligence artificielle. Pour l'Élysée, l'IA est désormais un « domaine stratégique » pour la France, au même titre que le spatial et le nuc...",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
@@ -131,14 +139,6 @@ window.VEILLE_DATA = {
           "source": "01net",
           "url": "https://www.01net.com/actualites/apres-photoshop-il-recree-microsoft-word-et-excel-en-version-gratuite-grace-a-lia.html",
           "summary": "Le studio ArtCraft, déjà derrière la suite Adobe recodée et disponible gratuitement, a mis en ligne des équivalents à Word, Excel et PowerPoint. Des logiciels faits grâce à Claude Code, un outil IA de développement informatique.",
-          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
-        },
-        {
-          "date": "13 octobre 2026",
-          "title": "Claude : après une nouvelle dérive, Anthropic prive certaines IA d’accès Internet",
-          "source": "01net",
-          "url": "https://www.01net.com/actualites/claude-apres-une-nouvelle-derive-anthropic-prive-certaines-ia-dacces-internet.html",
-          "summary": "Un faux signalement de meurtre envoyé à la police de Philadelphie, un serveur universitaire piraté pour finir un calcul, des accès payants contournés : le créateur de Claude prive d'Internet l'ensemble de ses évaluations internes, faute...",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
