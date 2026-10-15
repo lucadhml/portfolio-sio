@@ -1,5 +1,5 @@
 window.VEILLE_DATA = {
-  "updatedAt": "2026-10-14",
+  "updatedAt": "2026-10-15",
   "methodologie": {
     "title": "Méthodologie de veille",
     "summary": "Ma veille technologique repose sur plusieurs sources complémentaires : IT-Connect, ANSSI et le CERT-FR pour la cybersécurité, 01net et Le Monde Informatique pour l'IA. Chaque jour, un script récupère automatiquement les nouvelles publications, calcule un score de pertinence par mots-clés, et sélectionne les 4 meilleures entrées par thème.",
@@ -119,26 +119,10 @@ window.VEILLE_DATA = {
       "entries": [
         {
           "date": "14 octobre 2026",
-          "title": "Nvidia investit dans Doctolib : il y a évidemment de l’IA dans l’histoire",
+          "title": "Scandale chez OpenAI : le FBI arrête un employé pour espionnage",
           "source": "01net",
-          "url": "https://www.01net.com/actualites/nvidia-investit-dans-doctolib-il-y-a-evidemment-de-lia-dans-lhistoire.html",
-          "summary": "Le géant des puces IA Nvidia a annoncé entrer au capital de Doctolib ce mardi 13 octobre. L'entreprise va devenir un actionnaire minoritaire et ce partenariat doit permettre à Doctolib d'accélérer ses projets autour de l'intelligence art...",
-          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
-        },
-        {
-          "date": "14 octobre 2026",
-          "title": "Un « domaine stratégique » : Emmanuel Macron convoque un conseil de défense et sécurité sur l’IA",
-          "source": "01net",
-          "url": "https://www.01net.com/actualites/domaine-strategique-emmanuel-macron-convoque-conseil-defense-securite-ia.html",
-          "summary": "Emmanuel Macron réunit un conseil de défense et de sécurité nationale entièrement consacré à l'intelligence artificielle. Pour l'Élysée, l'IA est désormais un « domaine stratégique » pour la France, au même titre que le spatial et le nuc...",
-          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
-        },
-        {
-          "date": "13 octobre 2026",
-          "title": "Après Photoshop, il recrée Microsoft Word et Excel en version gratuite grâce à l’IA",
-          "source": "01net",
-          "url": "https://www.01net.com/actualites/apres-photoshop-il-recree-microsoft-word-et-excel-en-version-gratuite-grace-a-lia.html",
-          "summary": "Le studio ArtCraft, déjà derrière la suite Adobe recodée et disponible gratuitement, a mis en ligne des équivalents à Word, Excel et PowerPoint. Des logiciels faits grâce à Claude Code, un outil IA de développement informatique.",
+          "url": "https://www.01net.com/actualites/scandale-chez-openai-le-fbi-arrete-un-employe-pour-espionnage.html",
+          "summary": "Un sac oublié avec une carte d'identité, des recherches en ligne compromettantes et des modèles d'IA lâchés sur l'enquête : le dossier judiciaire visant un salarié d'OpenAI, arrêté par le FBI, frôle la parodie d'espionnage.",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
@@ -147,6 +131,22 @@ window.VEILLE_DATA = {
           "source": "IT-Connect",
           "url": "https://www.it-connect.fr/cyberxero-claude-code-wordpress-energie-ukraine/",
           "summary": "Un pirate russophone a compromis 429 sites WordPress en 61 secondes et volé 628 000 fiches ukrainiennes avec l’aide de 51 agents Claude Code.",
+          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
+        },
+        {
+          "date": "15 octobre 2026",
+          "title": "Frigos de supermarchés piratés : Claude a reproduit la cyberattaque en 28 minutes",
+          "source": "01net",
+          "url": "https://www.01net.com/actualites/frigos-de-supermarches-pirates-claude-a-reproduit-la-cyberattaque-en-28-minutes.html",
+          "summary": "28 minutes. C'est le temps qu'il a fallu à Claude pour reproduire la cyberattaque qui a fait surchauffer les frigos de centaines de supermarchés français. L'expérimentation démontre que l'offensive était à la portée de n'importe quel cyb...",
+          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
+        },
+        {
+          "date": "15 octobre 2026",
+          "title": "HomePod mini à 169 €, Apple TV à 349 € : les prix Apple s’envolent en France, et ce n’est peut-être pas fini",
+          "source": "01net",
+          "url": "https://www.01net.com/actualites/homepod-mini-a-169-e-apple-tv-a-349-e-les-prix-apple-senvolent-en-france-et-ce-nest-peut-etre-pas-fini.html",
+          "summary": "Avec le HomePod mini 2 et la nouvelle Apple TV 4K, Apple poursuit la hausse de ses prix entamée en juin. En six ans, la petite enceinte est passée de 99 à 169 euros, et le prix d'entrée du boîtier TV a plus que doublé depuis 2022. Sans S...",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         }
       ]
