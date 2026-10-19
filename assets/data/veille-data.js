@@ -1,5 +1,5 @@
 window.VEILLE_DATA = {
-  "updatedAt": "2026-10-18",
+  "updatedAt": "2026-10-19",
   "methodologie": {
     "title": "Méthodologie de veille",
     "summary": "Ma veille technologique repose sur plusieurs sources complémentaires : IT-Connect, ANSSI et le CERT-FR pour la cybersécurité, 01net et Le Monde Informatique pour l'IA. Chaque jour, un script récupère automatiquement les nouvelles publications, calcule un score de pertinence par mots-clés, et sélectionne les 4 meilleures entrées par thème.",
@@ -61,14 +61,6 @@ window.VEILLE_DATA = {
       ],
       "entries": [
         {
-          "date": "14 octobre 2026",
-          "title": "Patch Tuesday – Octobre 2026 : 1 407 failles corrigées, dont trois failles zero-day",
-          "source": "IT-Connect",
-          "url": "https://www.it-connect.fr/patch-tuesday-octobre-2026-recapitulatif/",
-          "summary": "Microsoft a corrigé 1 407 failles avec le Patch Tuesday d’octobre 2026, un nouveau record. Une faille zero-day est déjà exploitée : voici ce qu’il faut savoir.",
-          "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
-        },
-        {
           "date": "21 juillet 2026",
           "title": "Exigences du CRA : processus de notification pour les organismes notifiés",
           "source": "ANSSI",
@@ -90,6 +82,14 @@ window.VEILLE_DATA = {
           "source": "CERT-FR",
           "url": "https://www.cert.ssi.gouv.fr/actualite/CERTFR-2026-ACT-014/",
           "summary": "Le démarrage sécurisé (UEFI Secure Boot) est une fonctionnalité de sécurité disponible sur les ordinateurs PC clients et serveurs depuis 2011. Son rôle est de sécuriser la séquence de démarrage de l’appareil, en vérifiant l’intégrité du...",
+          "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
+        },
+        {
+          "date": "16 octobre 2026",
+          "title": "PwnEscape : une faille Linux permet de s’évader d’une VM KVM",
+          "source": "IT-Connect",
+          "url": "https://www.it-connect.fr/pwnescape-cve-2026-99999-faille-noyau-linux-evasion-vm/",
+          "summary": "PwnEscape (CVE-2026-99999), faille critique du noyau Linux, fait fuir la mémoire de l’hôte depuis une VM, jusqu’à l’évasion. Voici comment se protéger.",
           "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
         }
       ]
@@ -123,14 +123,6 @@ window.VEILLE_DATA = {
           "source": "01net",
           "url": "https://www.01net.com/actualites/avec-atlas-enterre-chatgpt-sinstalle-dans-vos-onglets-google-chrome.html",
           "summary": "OpenAI n'a plus de navigateur, et son assistant n'a jamais été aussi loin dans le vôtre. Lire vos pages ne lui suffit plus : ChatGPT veut remplir vos formulaires, envoyer vos messages et ranger vos onglets.",
-          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
-        },
-        {
-          "date": "16 octobre 2026",
-          "title": "Test du Asus ProArt P16 (RTX Spark) : la révolution est une évolution",
-          "source": "01net",
-          "url": "https://www.01net.com/tests/test-asus-proart-p16-rtx-spark-avis.html",
-          "summary": "NVIDIA s’invite désormais sur le marché des processeurs avec un nouveau SoC : le RTX Spark. Conçu en partenariat avec Mediatek, il se veut être le début d’une nouvelle révolution du PC sous IA. Dans notre test de l’Asus ProArt P16, on re...",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
