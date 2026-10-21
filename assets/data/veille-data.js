@@ -1,5 +1,5 @@
 window.VEILLE_DATA = {
-  "updatedAt": "2026-10-20",
+  "updatedAt": "2026-10-21",
   "methodologie": {
     "title": "Méthodologie de veille",
     "summary": "Ma veille technologique repose sur plusieurs sources complémentaires : IT-Connect, ANSSI et le CERT-FR pour la cybersécurité, 01net et Le Monde Informatique pour l'IA. Chaque jour, un script récupère automatiquement les nouvelles publications, calcule un score de pertinence par mots-clés, et sélectionne les 4 meilleures entrées par thème.",
@@ -64,7 +64,7 @@ window.VEILLE_DATA = {
           "date": "21 juillet 2026",
           "title": "Exigences du CRA : processus de notification pour les organismes notifiés",
           "source": "ANSSI",
-          "url": "https://cyber.gouv.fr/actualites/exigences-du-cra-processus-de-notification-pour-les-organismes-notifies/",
+          "url": "https://cyber.sites.beta.gouv.fr/actualites/exigences-du-cra-processus-de-notification-pour-les-organismes-notifies/",
           "summary": "Dans un contexte marqué par l’exploitation croissante de vulnérabilités affectant des produits numériques ayant un niveau de cybersécurité insuffisant, le […]",
           "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
         },
@@ -118,35 +118,35 @@ window.VEILLE_DATA = {
       ],
       "entries": [
         {
-          "date": "20 octobre 2026",
-          "title": "Oubliez PowerPoint : voici ChatGPT Slides",
+          "date": "21 octobre 2026",
+          "title": "« Un film de science-fiction » : le documentaire Netflix sur le piratage de ChatGPT sous le feu des critiques",
           "source": "01net",
-          "url": "https://www.01net.com/actualites/oubliez-powerpoint-voici-chatgpt-slides.html",
-          "summary": "OpenAI vient de lancer ChatGPT Slides, son outil de présentation pour transformer vos fichiers et vos discussions en diaporamas. Une nouveauté qui va permettre de faire des présentations collaboratives en temps réel, mais qui est réservé...",
+          "url": "https://www.01net.com/actualites/un-film-de-science-fiction-le-documentaire-netflix-sur-le-piratage-de-chatgpt-sous-le-feu-des-critiques.html",
+          "summary": "Netflix tenait le thriller technologique de l'automne avec le piratage de Hugging Face par des agents d'OpenAI. La victime, elle, trouve le film à côté de la plaque, et elle le fait savoir très publiquement.",
+          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
+        },
+        {
+          "date": "21 octobre 2026",
+          "title": "Alors que l’Europe rêve d’IA souveraine, l’Allemagne signe avec un géant américain",
+          "source": "01net",
+          "url": "https://www.01net.com/actualites/alors-que-leurope-reve-dia-souveraine-lallemagne-signe-avec-un-geant-americain.html",
+          "summary": "Deux semaines après le divorce entre Ecosia et Mistral, Berlin déroule le tapis rouge à Nvidia. Milliards en vitrine, start-up financées, et un mot d'ordre du chancelier : ouvrez vos données.",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
           "date": "20 octobre 2026",
-          "title": "« C’est un nouveau monde » : une armée d’IA vient de lancer une cyberattaque « massive », plus de 100 entreprises piratées",
+          "title": "« J’ai un peu de cyberpsychose » : ce que cache l’étrange confidence d’Elon Musk",
           "source": "01net",
-          "url": "https://www.01net.com/actualites/nouveau-monde-armee-ia-vient-lancer-cyberattaque-massive-plus-100-entreprises-piratees.html",
-          "summary": "Plus de 100 entreprises ont été piratées par une armée d'agents IA. Déployées par un cybercriminel chinois, les intelligences artificielles ont infiltré les sites de John Deere, SharkNinja ou Cummins. Cette vaste cyberattaque n'a coûté q...",
+          "url": "https://www.01net.com/actualites/jai-un-peu-de-cyberpsychose-ce-que-cache-letrange-confidence-delon-musk.html",
+          "summary": "Lors d’un événement organisé par des fans de Tesla, Elon Musk a confié avoir « un peu de cyberpsychose » et vécu plusieurs « psychoses IA » cette année. Une expression devenue à la mode dans la Silicon Valley, mais qui recouvre pour les...",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
-          "date": "20 octobre 2026",
-          "title": "Elon Musk et Anthropic s’engagent à redistribuer les richesses générées par l’IA",
+          "date": "21 octobre 2026",
+          "title": "« Supervision humaine minimale » : l’armée américaine veut ses propres IA pirates pour « neutraliser les menaces »",
           "source": "01net",
-          "url": "https://www.01net.com/actualites/elon-musk-et-anthropic-sengagent-a-redistribuer-les-richesses-generees-par-lia.html",
-          "summary": "Anthropic a annoncé le lancement de l’Anthropic Public Benefit Fund, soit une entité destinée à redistribuer une partie des bénéfices de l’entreprise. De son côté, Elon Musk a fait une promesse à tous les enfants américains.",
-          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
-        },
-        {
-          "date": "19 octobre 2026",
-          "title": "Anthropic rend Claude encore plus rapide… grâce à une technologie de 1992",
-          "source": "01net",
-          "url": "https://www.01net.com/actualites/anthropic-rend-claude-encore-plus-rapide-grace-a-une-technologie-de-1992.html",
-          "summary": "Claude Code répond plus tôt depuis la mi-octobre. Pour y parvenir, Anthropic a ressorti un outil de compression plus vieux que le Web grand public, que ses propres utilisateurs réclamaient mesures à l'appui depuis la fin de l'été.",
+          "url": "https://www.01net.com/actualites/supervision-humaine-minimale-larmee-americaine-veut-ses-propres-ia-pirates-pour-neutraliser-les-menaces.html",
+          "summary": "Pendant tout l'été, des agents d'IA se sont introduits seuls dans des systèmes informatiques, sans qu'on le leur demande. L'armée américaine, elle, veut désormais des agents capables d'en faire autant, sur commande.",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         }
       ]
