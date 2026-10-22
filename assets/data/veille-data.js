@@ -1,5 +1,5 @@
 window.VEILLE_DATA = {
-  "updatedAt": "2026-10-21",
+  "updatedAt": "2026-10-22",
   "methodologie": {
     "title": "Méthodologie de veille",
     "summary": "Ma veille technologique repose sur plusieurs sources complémentaires : IT-Connect, ANSSI et le CERT-FR pour la cybersécurité, 01net et Le Monde Informatique pour l'IA. Chaque jour, un script récupère automatiquement les nouvelles publications, calcule un score de pertinence par mots-clés, et sélectionne les 4 meilleures entrées par thème.",
@@ -61,10 +61,18 @@ window.VEILLE_DATA = {
       ],
       "entries": [
         {
+          "date": "21 octobre 2026",
+          "title": "PHP2Shell : les correctifs de sécurité sont là, les attaques aussi !",
+          "source": "IT-Connect",
+          "url": "https://www.it-connect.fr/php2shell-correctifs-urgence-cve-2026-109618-cve-2026-109619/",
+          "summary": "PHP 8.5.12, 8.4.27, 8.3.36 et 8.2.35 corrigent PHP2Shell, deux failles RCE exploitables sans authentification. À traiter en urgence pour protéger votre serveur.",
+          "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
+        },
+        {
           "date": "21 juillet 2026",
           "title": "Exigences du CRA : processus de notification pour les organismes notifiés",
           "source": "ANSSI",
-          "url": "https://cyber.sites.beta.gouv.fr/actualites/exigences-du-cra-processus-de-notification-pour-les-organismes-notifies/",
+          "url": "https://cyber.gouv.fr/actualites/exigences-du-cra-processus-de-notification-pour-les-organismes-notifies/",
           "summary": "Dans un contexte marqué par l’exploitation croissante de vulnérabilités affectant des produits numériques ayant un niveau de cybersécurité insuffisant, le […]",
           "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
         },
@@ -77,19 +85,11 @@ window.VEILLE_DATA = {
           "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
         },
         {
-          "date": "2 avril 2026",
-          "title": "Expiration de certificats Secure Boot en juin 2026 (02 avril 2026)",
-          "source": "CERT-FR",
-          "url": "https://www.cert.ssi.gouv.fr/actualite/CERTFR-2026-ACT-014/",
-          "summary": "Le démarrage sécurisé (UEFI Secure Boot) est une fonctionnalité de sécurité disponible sur les ordinateurs PC clients et serveurs depuis 2011. Son rôle est de sécuriser la séquence de démarrage de l’appareil, en vérifiant l’intégrité du...",
-          "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
-        },
-        {
-          "date": "16 octobre 2026",
-          "title": "PwnEscape : une faille Linux permet de s’évader d’une VM KVM",
+          "date": "22 octobre 2026",
+          "title": "FortiGate, FortiManager : Fortinet vous demande de patcher tout de suite, mais sans dire ce qu’il corrige",
           "source": "IT-Connect",
-          "url": "https://www.it-connect.fr/pwnescape-cve-2026-99999-faille-noyau-linux-evasion-vm/",
-          "summary": "PwnEscape (CVE-2026-99999), faille critique du noyau Linux, fait fuir la mémoire de l’hôte depuis une VM, jusqu’à l’évasion. Voici comment se protéger.",
+          "url": "https://www.it-connect.fr/fortinet-correctifs-urgence-failles-ia-fortios-fortimanager-octobre-2026/",
+          "summary": "Fortinet a publié le 22 octobre des correctifs urgents pour FortiOS, FortiManager et FortiAnalyzer, contre des failles critiques détectées grâce à l’IA.",
           "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
         }
       ]
@@ -126,27 +126,27 @@ window.VEILLE_DATA = {
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
-          "date": "21 octobre 2026",
-          "title": "Alors que l’Europe rêve d’IA souveraine, l’Allemagne signe avec un géant américain",
+          "date": "22 octobre 2026",
+          "title": "Comme WhatsApp, ChatGPT met enfin vos conversations sous clé",
           "source": "01net",
-          "url": "https://www.01net.com/actualites/alors-que-leurope-reve-dia-souveraine-lallemagne-signe-avec-un-geant-americain.html",
-          "summary": "Deux semaines après le divorce entre Ecosia et Mistral, Berlin déroule le tapis rouge à Nvidia. Milliards en vitrine, start-up financées, et un mot d'ordre du chancelier : ouvrez vos données.",
+          "url": "https://www.01net.com/actualites/comme-whatsapp-chatgpt-met-enfin-vos-conversations-sous-cle.html",
+          "summary": "Questions de santé, confidences, cadeaux à préparer : ChatGPT sait désormais faire disparaître vos conversations les plus sensibles derrière un code à quatre chiffres. Le verrou a pourtant ses angles morts, et l'un d'eux peut tout effacer.",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
-          "date": "20 octobre 2026",
-          "title": "« J’ai un peu de cyberpsychose » : ce que cache l’étrange confidence d’Elon Musk",
+          "date": "22 octobre 2026",
+          "title": "Google Chrome s’appuie sur Gemini pour détecter les arnaques en ligne",
           "source": "01net",
-          "url": "https://www.01net.com/actualites/jai-un-peu-de-cyberpsychose-ce-que-cache-letrange-confidence-delon-musk.html",
-          "summary": "Lors d’un événement organisé par des fans de Tesla, Elon Musk a confié avoir « un peu de cyberpsychose » et vécu plusieurs « psychoses IA » cette année. Une expression devenue à la mode dans la Silicon Valley, mais qui recouvre pour les...",
+          "url": "https://www.01net.com/actualites/google-chrome-gemini-detecter-arnaques-scams.html",
+          "summary": "Google a intégré de nouvelles mesures de sécurité avancées pour protéger les utilisateurs contre les arnaques en ligne. Le mode Protection renforcée de Chrome s’appuie désormais sur l’IA de Gemini pour détecter les sites suspects et vous...",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
-          "date": "21 octobre 2026",
-          "title": "« Supervision humaine minimale » : l’armée américaine veut ses propres IA pirates pour « neutraliser les menaces »",
+          "date": "22 octobre 2026",
+          "title": "Panique sur Internet : 2 failles PHP critiques touchent des centaines de millions de sites web, des cyberattaques en cours",
           "source": "01net",
-          "url": "https://www.01net.com/actualites/supervision-humaine-minimale-larmee-americaine-veut-ses-propres-ia-pirates-pour-neutraliser-les-menaces.html",
-          "summary": "Pendant tout l'été, des agents d'IA se sont introduits seuls dans des systèmes informatiques, sans qu'on le leur demande. L'armée américaine, elle, veut désormais des agents capables d'en faire autant, sur commande.",
+          "url": "https://www.01net.com/actualites/panique-internet-faille-php-critique-vieille-10-ans-touche-millions-sites-web.html",
+          "summary": "Deux failles critiques menacent PHP, le langage de programmation qui fait tourner environ 70 % des sites web. Baptisées PHP2Shell, elles permettent de prendre le contrôle d'un serveur à distance. Les cyberattaques exploitant les vulnérab...",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         }
       ]
