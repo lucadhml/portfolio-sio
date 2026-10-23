@@ -1,5 +1,5 @@
 window.VEILLE_DATA = {
-  "updatedAt": "2026-10-22",
+  "updatedAt": "2026-10-23",
   "methodologie": {
     "title": "Méthodologie de veille",
     "summary": "Ma veille technologique repose sur plusieurs sources complémentaires : IT-Connect, ANSSI et le CERT-FR pour la cybersécurité, 01net et Le Monde Informatique pour l'IA. Chaque jour, un script récupère automatiquement les nouvelles publications, calcule un score de pertinence par mots-clés, et sélectionne les 4 meilleures entrées par thème.",
@@ -77,19 +77,19 @@ window.VEILLE_DATA = {
           "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
         },
         {
-          "date": "21 janvier 2026",
-          "title": "Vulnérabilité dans telnetd (21 janvier 2026)",
-          "source": "CERT-FR",
-          "url": "https://www.cert.ssi.gouv.fr/actualite/CERTFR-2026-ACT-003/",
-          "summary": "Le 20 janvier 2026, les détails de la vulnérabilité CVE-2026-24061, affectant *telnetd*, ont été publiés. Cette vulnérabilité permet à un attaquant de contourner l'authentification et de se connecter à une machine vulnérable en tant que...",
+          "date": "22 octobre 2026",
+          "title": "GitLab corrige la CVE-2026-110264, une faille critique qui touche toutes les versions depuis 2014",
+          "source": "IT-Connect",
+          "url": "https://www.it-connect.fr/gitlab-cve-2026-110264-faille-critique-regex-onigmo/",
+          "summary": "GitLab a corrigé la CVE-2026-110264, une faille critique exploitable sans authentification qui touche toutes les versions depuis la 7.0, sortie en 2014.",
           "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
         },
         {
-          "date": "22 octobre 2026",
-          "title": "FortiGate, FortiManager : Fortinet vous demande de patcher tout de suite, mais sans dire ce qu’il corrige",
+          "date": "23 octobre 2026",
+          "title": "PHP2Shell : les attaquants avaient quatre jours d’avance sur le correctif",
           "source": "IT-Connect",
-          "url": "https://www.it-connect.fr/fortinet-correctifs-urgence-failles-ia-fortios-fortimanager-octobre-2026/",
-          "summary": "Fortinet a publié le 22 octobre des correctifs urgents pour FortiOS, FortiManager et FortiAnalyzer, contre des failles critiques détectées grâce à l’IA.",
+          "url": "https://www.it-connect.fr/php2shell-exploitation-avant-correctifs-amazon/",
+          "summary": "Amazon a repéré une tentative d’exploitation de PHP2Shell le 17 octobre 2026, soit quatre jours avant la sortie des correctifs pour ces failles critiques.",
           "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
         }
       ]
@@ -118,35 +118,35 @@ window.VEILLE_DATA = {
       ],
       "entries": [
         {
-          "date": "21 octobre 2026",
-          "title": "« Un film de science-fiction » : le documentaire Netflix sur le piratage de ChatGPT sous le feu des critiques",
+          "date": "22 octobre 2026",
+          "title": "Après Muse de Meta et ChatGPT Dot, Anthropic s’aligne et dévoile Claude Duet",
           "source": "01net",
-          "url": "https://www.01net.com/actualites/un-film-de-science-fiction-le-documentaire-netflix-sur-le-piratage-de-chatgpt-sous-le-feu-des-critiques.html",
-          "summary": "Netflix tenait le thriller technologique de l'automne avec le piratage de Hugging Face par des agents d'OpenAI. La victime, elle, trouve le film à côté de la plaque, et elle le fait savoir très publiquement.",
+          "url": "https://www.01net.com/actualites/apres-muse-dot-anthropic-saligne-devoile-agent-proactif-duet-aucun-disponible-chez-nous.html",
+          "summary": "Un matin, Claude vous écrira le premier. Anthropic lance Duet, un agent qui surveille vos applications et agit à votre place. Trois semaines après OpenAI, six après Meta, et toujours pas pour l'Europe.",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
           "date": "22 octobre 2026",
-          "title": "Comme WhatsApp, ChatGPT met enfin vos conversations sous clé",
+          "title": "Deux ChatGPT ont pris des initiatives inquiétantes, et OpenAI ne comprend pas pourquoi",
           "source": "01net",
-          "url": "https://www.01net.com/actualites/comme-whatsapp-chatgpt-met-enfin-vos-conversations-sous-cle.html",
-          "summary": "Questions de santé, confidences, cadeaux à préparer : ChatGPT sait désormais faire disparaître vos conversations les plus sensibles derrière un code à quatre chiffres. Le verrou a pourtant ses angles morts, et l'un d'eux peut tout effacer.",
+          "url": "https://www.01net.com/actualites/deux-chatgpt-ont-pris-des-initiatives-inquietantes-et-openai-ne-comprend-pas-pourquoi.html",
+          "summary": "Deux agents IA d’OpenAI ont exécuté des actions assez troublantes. Le premier a désactivé les alertes de sécurité, tandis que le second a supprimé un système de surveillance. L’entreprise assure ne pas parvenir à expliquer ces comporteme...",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
-          "date": "22 octobre 2026",
-          "title": "Google Chrome s’appuie sur Gemini pour détecter les arnaques en ligne",
+          "date": "23 octobre 2026",
+          "title": "Les banques sont « horrifiées » : des IA ont fait irruption dans des comptes bancaires",
           "source": "01net",
-          "url": "https://www.01net.com/actualites/google-chrome-gemini-detecter-arnaques-scams.html",
-          "summary": "Google a intégré de nouvelles mesures de sécurité avancées pour protéger les utilisateurs contre les arnaques en ligne. Le mode Protection renforcée de Chrome s’appuie désormais sur l’IA de Gemini pour détecter les sites suspects et vous...",
+          "url": "https://www.01net.com/actualites/les-banques-sont-horrifiees-des-ia-ont-fait-irruption-dans-des-comptes-bancaires.html",
+          "summary": "Plusieurs grandes banques américaines ont fait une découverte inquiétante. Des agents IA ont été identifiés dans des comptes bancaires. Les intelligences artificielles ont été jusqu'à prendre des initiatives en toute autonomie. L'affaire...",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
-          "date": "22 octobre 2026",
-          "title": "Panique sur Internet : 2 failles PHP critiques touchent des centaines de millions de sites web, des cyberattaques en cours",
+          "date": "23 octobre 2026",
+          "title": "La police utilise Citadel, une IA surpuissante, pour traquer les pilleurs du 17 octobre",
           "source": "01net",
-          "url": "https://www.01net.com/actualites/panique-internet-faille-php-critique-vieille-10-ans-touche-millions-sites-web.html",
-          "summary": "Deux failles critiques menacent PHP, le langage de programmation qui fait tourner environ 70 % des sites web. Baptisées PHP2Shell, elles permettent de prendre le contrôle d'un serveur à distance. Les cyberattaques exploitant les vulnérab...",
+          "url": "https://www.01net.com/actualites/la-police-utilise-citadel-une-ia-surpuissante-pour-traquer-les-pilleurs-du-17-octobre.html",
+          "summary": "Les enquêteurs tentent de retrouver les suspects des pillages commis lors du 17 octobre. Pour les aider, ils disposent d'un puissant outil, baptisé Citadel. Il permet de traquer les pilleurs grâce à des tonnes d'images vidéo.",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         }
       ]
