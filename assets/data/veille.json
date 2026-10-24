@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-23",
+  "updatedAt": "2026-10-24",
   "methodologie": {
     "title": "Méthodologie de veille",
     "summary": "Ma veille technologique repose sur plusieurs sources complémentaires : IT-Connect, ANSSI et le CERT-FR pour la cybersécurité, 01net et Le Monde Informatique pour l'IA. Chaque jour, un script récupère automatiquement les nouvelles publications, calcule un score de pertinence par mots-clés, et sélectionne les 4 meilleures entrées par thème.",
@@ -86,10 +86,10 @@
         },
         {
           "date": "23 octobre 2026",
-          "title": "PHP2Shell : les attaquants avaient quatre jours d’avance sur le correctif",
+          "title": "PHP signale une nouvelle faille RCE (CVE-2026-115560) : appliquez le même réglage que PHP2Shell",
           "source": "IT-Connect",
-          "url": "https://www.it-connect.fr/php2shell-exploitation-avant-correctifs-amazon/",
-          "summary": "Amazon a repéré une tentative d’exploitation de PHP2Shell le 17 octobre 2026, soit quatre jours avant la sortie des correctifs pour ces failles critiques.",
+          "url": "https://www.it-connect.fr/php-cve-2026-115560-session-upload-progress/",
+          "summary": "CVE-2026-115560 : PHP signale une nouvelle faille RCE. Désactiver Session Upload Progress, déjà conseillé pour PHP2Shell, suffit en attendant le correctif.",
           "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
         }
       ]
@@ -118,19 +118,27 @@
       ],
       "entries": [
         {
-          "date": "22 octobre 2026",
-          "title": "Après Muse de Meta et ChatGPT Dot, Anthropic s’aligne et dévoile Claude Duet",
+          "date": "23 octobre 2026",
+          "title": "« On va me haïr » : cette romancière a écrit 371 livres grâce à ChatGPT, Claude et Grok, et elle assume",
           "source": "01net",
-          "url": "https://www.01net.com/actualites/apres-muse-dot-anthropic-saligne-devoile-agent-proactif-duet-aucun-disponible-chez-nous.html",
-          "summary": "Un matin, Claude vous écrira le premier. Anthropic lance Duet, un agent qui surveille vos applications et agit à votre place. Trois semaines après OpenAI, six après Meta, et toujours pas pour l'Europe.",
+          "url": "https://www.01net.com/actualites/on-va-me-hair-cette-romanciere-a-ecrit-371-livres-grace-a-chatgpt-claude-et-grok-et-elle-assume.html",
+          "summary": "En 20 mois, Coral Hart a écrit 371 romans à l’aide de l’intelligence artificielle et affirme avoir généré un million de dollars de chiffre d’affaires en 2026. La romancière sud-africaine propose même de générer des livres sur commande.",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
-          "date": "22 octobre 2026",
-          "title": "Deux ChatGPT ont pris des initiatives inquiétantes, et OpenAI ne comprend pas pourquoi",
+          "date": "24 octobre 2026",
+          "title": "Course à l’IA : OpenAI évoque les trois issues possibles, dont une fin « terrible »",
           "source": "01net",
-          "url": "https://www.01net.com/actualites/deux-chatgpt-ont-pris-des-initiatives-inquietantes-et-openai-ne-comprend-pas-pourquoi.html",
-          "summary": "Deux agents IA d’OpenAI ont exécuté des actions assez troublantes. Le premier a désactivé les alertes de sécurité, tandis que le second a supprimé un système de surveillance. L’entreprise assure ne pas parvenir à expliquer ces comporteme...",
+          "url": "https://www.01net.com/actualites/course-a-lia-openai-evoque-les-trois-issues-possibles-dont-une-fin-terrible.html",
+          "summary": "Sam Altman a dessiné devant ses équipes trois issues possibles à la course mondiale à l'intelligence artificielle. La troisième, il la juge lui-même « terrible ». Elle ressemble pourtant beaucoup à la trajectoire de sa propre entreprise.",
+          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
+        },
+        {
+          "date": "23 octobre 2026",
+          "title": "Windows 11 : avec Project Pantheon, Microsoft teste une mémoire IA qui ne retient que ce que vous choisissez",
+          "source": "IT-Connect",
+          "url": "https://www.it-connect.fr/windows-11-project-pantheon-context-vault-memoire-ia/",
+          "summary": "Microsoft teste Project Pantheon, une mémoire IA pour Windows 11 qui ne retient que ce que vous sauvegardez, avec un serveur MCP ouvert à Claude et Cursor.",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
@@ -139,14 +147,6 @@
           "source": "01net",
           "url": "https://www.01net.com/actualites/les-banques-sont-horrifiees-des-ia-ont-fait-irruption-dans-des-comptes-bancaires.html",
           "summary": "Plusieurs grandes banques américaines ont fait une découverte inquiétante. Des agents IA ont été identifiés dans des comptes bancaires. Les intelligences artificielles ont été jusqu'à prendre des initiatives en toute autonomie. L'affaire...",
-          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
-        },
-        {
-          "date": "23 octobre 2026",
-          "title": "La police utilise Citadel, une IA surpuissante, pour traquer les pilleurs du 17 octobre",
-          "source": "01net",
-          "url": "https://www.01net.com/actualites/la-police-utilise-citadel-une-ia-surpuissante-pour-traquer-les-pilleurs-du-17-octobre.html",
-          "summary": "Les enquêteurs tentent de retrouver les suspects des pillages commis lors du 17 octobre. Pour les aider, ils disposent d'un puissant outil, baptisé Citadel. Il permet de traquer les pilleurs grâce à des tonnes d'images vidéo.",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         }
       ]
