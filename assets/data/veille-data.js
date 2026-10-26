@@ -1,5 +1,5 @@
 window.VEILLE_DATA = {
-  "updatedAt": "2026-10-25",
+  "updatedAt": "2026-10-26",
   "methodologie": {
     "title": "Méthodologie de veille",
     "summary": "Ma veille technologique repose sur plusieurs sources complémentaires : IT-Connect, ANSSI et le CERT-FR pour la cybersécurité, 01net et Le Monde Informatique pour l'IA. Chaque jour, un script récupère automatiquement les nouvelles publications, calcule un score de pertinence par mots-clés, et sélectionne les 4 meilleures entrées par thème.",
@@ -61,14 +61,6 @@ window.VEILLE_DATA = {
       ],
       "entries": [
         {
-          "date": "21 octobre 2026",
-          "title": "PHP2Shell : les correctifs de sécurité sont là, les attaques aussi !",
-          "source": "IT-Connect",
-          "url": "https://www.it-connect.fr/php2shell-correctifs-urgence-cve-2026-109618-cve-2026-109619/",
-          "summary": "PHP 8.5.12, 8.4.27, 8.3.36 et 8.2.35 corrigent PHP2Shell, deux failles RCE exploitables sans authentification. À traiter en urgence pour protéger votre serveur.",
-          "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
-        },
-        {
           "date": "21 juillet 2026",
           "title": "Exigences du CRA : processus de notification pour les organismes notifiés",
           "source": "ANSSI",
@@ -90,6 +82,14 @@ window.VEILLE_DATA = {
           "source": "IT-Connect",
           "url": "https://www.it-connect.fr/php-cve-2026-115560-session-upload-progress/",
           "summary": "CVE-2026-115560 : PHP signale une nouvelle faille RCE. Désactiver Session Upload Progress, déjà conseillé pour PHP2Shell, suffit en attendant le correctif.",
+          "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
+        },
+        {
+          "date": "23 octobre 2026",
+          "title": "PHP2Shell : les attaquants avaient quatre jours d’avance sur le correctif",
+          "source": "IT-Connect",
+          "url": "https://www.it-connect.fr/php2shell-exploitation-avant-correctifs-amazon/",
+          "summary": "Amazon a repéré une tentative d’exploitation de PHP2Shell le 17 octobre 2026, soit quatre jours avant la sortie des correctifs pour ces failles critiques.",
           "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
         }
       ]
@@ -118,19 +118,19 @@ window.VEILLE_DATA = {
       ],
       "entries": [
         {
-          "date": "23 octobre 2026",
-          "title": "« On va me haïr » : cette romancière a écrit 371 livres grâce à ChatGPT, Claude et Grok, et elle assume",
-          "source": "01net",
-          "url": "https://www.01net.com/actualites/on-va-me-hair-cette-romanciere-a-ecrit-371-livres-grace-a-chatgpt-claude-et-grok-et-elle-assume.html",
-          "summary": "En 20 mois, Coral Hart a écrit 371 romans à l’aide de l’intelligence artificielle et affirme avoir généré un million de dollars de chiffre d’affaires en 2026. La romancière sud-africaine propose même de générer des livres sur commande.",
-          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
-        },
-        {
           "date": "24 octobre 2026",
           "title": "Course à l’IA : OpenAI évoque les trois issues possibles, dont une fin « terrible »",
           "source": "01net",
           "url": "https://www.01net.com/actualites/course-a-lia-openai-evoque-les-trois-issues-possibles-dont-une-fin-terrible.html",
           "summary": "Sam Altman a dessiné devant ses équipes trois issues possibles à la course mondiale à l'intelligence artificielle. La troisième, il la juge lui-même « terrible ». Elle ressemble pourtant beaucoup à la trajectoire de sa propre entreprise.",
+          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
+        },
+        {
+          "date": "26 octobre 2026",
+          "title": "Un « monde hors ligne » : après un nouveau dérapage de l’IA, OpenAI prend une décision radicale",
+          "source": "01net",
+          "url": "https://www.01net.com/actualites/monde-hors-ligne-apres-nouveau-derapage-ia-openai-prend-decision-radicale.html",
+          "summary": "Des modèles d'IA OpenAI sont parvenus à s'échapper de leur prison numérique. Les intelligences artificielles se sont ensuite mises à communiquer entre elles par le biais d'un canal caché. Troublée par ces comportements inattendus, l'entr...",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
