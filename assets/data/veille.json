@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-26",
+  "updatedAt": "2026-10-27",
   "methodologie": {
     "title": "Méthodologie de veille",
     "summary": "Ma veille technologique repose sur plusieurs sources complémentaires : IT-Connect, ANSSI et le CERT-FR pour la cybersécurité, 01net et Le Monde Informatique pour l'IA. Chaque jour, un script récupère automatiquement les nouvelles publications, calcule un score de pertinence par mots-clés, et sélectionne les 4 meilleures entrées par thème.",
@@ -69,6 +69,14 @@
           "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
         },
         {
+          "date": "27 octobre 2026",
+          "title": "Broccoli2Shell : la faille Brotli de Node2Shell touche aussi Python, .NET et Linux",
+          "source": "IT-Connect",
+          "url": "https://www.it-connect.fr/faille-brotli-broccoli2shell-python-dotnet-linux/",
+          "summary": "La faille Brotli CVE-2026-111497 dépasse Node.js : Python, .NET et Linux sont aussi touchés. Voici comment se protéger de cette vulnérabilité.",
+          "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
+        },
+        {
           "date": "22 octobre 2026",
           "title": "GitLab corrige la CVE-2026-110264, une faille critique qui touche toutes les versions depuis 2014",
           "source": "IT-Connect",
@@ -82,14 +90,6 @@
           "source": "IT-Connect",
           "url": "https://www.it-connect.fr/php-cve-2026-115560-session-upload-progress/",
           "summary": "CVE-2026-115560 : PHP signale une nouvelle faille RCE. Désactiver Session Upload Progress, déjà conseillé pour PHP2Shell, suffit en attendant le correctif.",
-          "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
-        },
-        {
-          "date": "23 octobre 2026",
-          "title": "PHP2Shell : les attaquants avaient quatre jours d’avance sur le correctif",
-          "source": "IT-Connect",
-          "url": "https://www.it-connect.fr/php2shell-exploitation-avant-correctifs-amazon/",
-          "summary": "Amazon a repéré une tentative d’exploitation de PHP2Shell le 17 octobre 2026, soit quatre jours avant la sortie des correctifs pour ces failles critiques.",
           "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
         }
       ]
@@ -118,19 +118,19 @@
       ],
       "entries": [
         {
-          "date": "24 octobre 2026",
-          "title": "Course à l’IA : OpenAI évoque les trois issues possibles, dont une fin « terrible »",
+          "date": "27 octobre 2026",
+          "title": "Un ChatGPT moins cher et plus puissant : le nouveau modèle GPT-6.1 Terra d’OpenAI a trouvé sa recette",
           "source": "01net",
-          "url": "https://www.01net.com/actualites/course-a-lia-openai-evoque-les-trois-issues-possibles-dont-une-fin-terrible.html",
-          "summary": "Sam Altman a dessiné devant ses équipes trois issues possibles à la course mondiale à l'intelligence artificielle. La troisième, il la juge lui-même « terrible ». Elle ressemble pourtant beaucoup à la trajectoire de sa propre entreprise.",
+          "url": "https://www.01net.com/actualites/un-chatgpt-moins-cher-et-plus-puissant-le-nouveau-modele-gpt-6-1-terra-dopenai-a-trouve-sa-recette.html",
+          "summary": "OpenAI a présenté ce lundi 26 octobre GPT-6.1 Terra, un nouveau modèle de langage intermédiaire conçu pour comprendre ce qui s'affiche sur votre écran. De quoi prendre le contrôle de votre ordinateur... pour travailler à votre place.",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
           "date": "26 octobre 2026",
-          "title": "Un « monde hors ligne » : après un nouveau dérapage de l’IA, OpenAI prend une décision radicale",
-          "source": "01net",
-          "url": "https://www.01net.com/actualites/monde-hors-ligne-apres-nouveau-derapage-ia-openai-prend-decision-radicale.html",
-          "summary": "Des modèles d'IA OpenAI sont parvenus à s'échapper de leur prison numérique. Les intelligences artificielles se sont ensuite mises à communiquer entre elles par le biais d'un canal caché. Troublée par ces comportements inattendus, l'entr...",
+          "title": "WordCraft, GridCraft, DeckCraft : après Adobe, Word, Excel et PowerPoint réécrits en Rust avec l’IA",
+          "source": "IT-Connect",
+          "url": "https://www.it-connect.fr/wordcraft-gridcraft-deckcraft-suite-office-rust-claude/",
+          "summary": "WordCraft, GridCraft et DeckCraft : trois clones open source de Word, Excel et PowerPoint écrits en Rust avec Claude Opus 5.5. Sont-ils opérationnels ?",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
@@ -142,11 +142,11 @@
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
-          "date": "25 octobre 2026",
-          "title": "« La nouvelle norme » : l’IA a semé le chaos sur Internet cette semaine, et « ce n’est que le début »",
+          "date": "27 octobre 2026",
+          "title": "Un tournant historique pour l’IA : Anthropic s’apprête à entrer en Bourse avec une croissance monstrueuse",
           "source": "01net",
-          "url": "https://www.01net.com/actualites/nouvelle-norme-lia-seme-chaos-internet-semaine-que-debut.html",
-          "summary": "Les failles PHP2Shell se cachaient dans le code de PHP depuis une vingtaine d'années. Il aura fallu attendre l'arrivée de l'intelligence artificielle générative pour les débusquer. Ce n'est pas uniquement une bonne nouvelle pour le monde...",
+          "url": "https://www.01net.com/actualites/un-tournant-historique-pour-lia-anthropic-sapprete-a-entrer-en-bourse-avec-une-croissance-monstrueuse.html",
+          "summary": "Anthropic entre dans la dernière ligne droite avant son introduction en Bourse. Pourtant, si son chiffre d'affaires est en explosion, elle a perdu plus de 80 milliards de dollars au premier semestre 2026.",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         }
       ]
