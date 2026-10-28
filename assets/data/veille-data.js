@@ -1,5 +1,5 @@
 window.VEILLE_DATA = {
-  "updatedAt": "2026-10-27",
+  "updatedAt": "2026-10-28",
   "methodologie": {
     "title": "Méthodologie de veille",
     "summary": "Ma veille technologique repose sur plusieurs sources complémentaires : IT-Connect, ANSSI et le CERT-FR pour la cybersécurité, 01net et Le Monde Informatique pour l'IA. Chaque jour, un script récupère automatiquement les nouvelles publications, calcule un score de pertinence par mots-clés, et sélectionne les 4 meilleures entrées par thème.",
@@ -61,6 +61,14 @@ window.VEILLE_DATA = {
       ],
       "entries": [
         {
+          "date": "28 octobre 2026",
+          "title": "Veeam Backup & Replication 13 (CVE-2026-108142) : une faille critique exploitable sans authentification",
+          "source": "IT-Connect",
+          "url": "https://www.it-connect.fr/veeam-backup-replication-13-faille-critique-cve-2026-108142/",
+          "summary": "Une faille de sécurité critique située dans le composant CDP Coordinator a été patchée dans Veeam Backup & Replication 13 : CVE-2026-108142. Voici les patchs.",
+          "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
+        },
+        {
           "date": "21 juillet 2026",
           "title": "Exigences du CRA : processus de notification pour les organismes notifiés",
           "source": "ANSSI",
@@ -74,14 +82,6 @@ window.VEILLE_DATA = {
           "source": "IT-Connect",
           "url": "https://www.it-connect.fr/faille-brotli-broccoli2shell-python-dotnet-linux/",
           "summary": "La faille Brotli CVE-2026-111497 dépasse Node.js : Python, .NET et Linux sont aussi touchés. Voici comment se protéger de cette vulnérabilité.",
-          "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
-        },
-        {
-          "date": "22 octobre 2026",
-          "title": "GitLab corrige la CVE-2026-110264, une faille critique qui touche toutes les versions depuis 2014",
-          "source": "IT-Connect",
-          "url": "https://www.it-connect.fr/gitlab-cve-2026-110264-faille-critique-regex-onigmo/",
-          "summary": "GitLab a corrigé la CVE-2026-110264, une faille critique exploitable sans authentification qui touche toutes les versions depuis la 7.0, sortie en 2014.",
           "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
         },
         {
@@ -118,6 +118,14 @@ window.VEILLE_DATA = {
       ],
       "entries": [
         {
+          "date": "28 octobre 2026",
+          "title": "ChatGPT, Gemini, Meta AI : l’Europe prépare un passe-droit des IA sur vos données",
+          "source": "01net",
+          "url": "https://www.01net.com/actualites/chatgpt-gemini-meta-ai-leurope-prepare-un-passe-droit-des-ia-sur-vos-donnees.html",
+          "summary": "Les Vingt-Sept veulent inscrire dans le RGPD un feu vert à l'entraînement des IA sur vos données personnelles. Sans consentement, et avec un droit d'opposition raboté au passage.",
+          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
+        },
+        {
           "date": "27 octobre 2026",
           "title": "Un ChatGPT moins cher et plus puissant : le nouveau modèle GPT-6.1 Terra d’OpenAI a trouvé sa recette",
           "source": "01net",
@@ -126,27 +134,19 @@ window.VEILLE_DATA = {
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
+          "date": "28 octobre 2026",
+          "title": "Elle utilise l’IA pour contester ses impôts : le tribunal la sanctionne avec une amende",
+          "source": "01net",
+          "url": "https://www.01net.com/actualites/elle-utilise-lia-pour-contester-ses-impots-le-tribunal-la-sanctionne-avec-une-amende.html",
+          "summary": "Marie-Line X voulait contester ses impôts : elle se retrouve en fin de compte avec une amende de 500 euros. La raison ? Un recours abusif, mais aussi une requête « manifestement écrite à l'aide d'un outil d'intelligence artificielle ».",
+          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
+        },
+        {
           "date": "26 octobre 2026",
           "title": "WordCraft, GridCraft, DeckCraft : après Adobe, Word, Excel et PowerPoint réécrits en Rust avec l’IA",
           "source": "IT-Connect",
           "url": "https://www.it-connect.fr/wordcraft-gridcraft-deckcraft-suite-office-rust-claude/",
           "summary": "WordCraft, GridCraft et DeckCraft : trois clones open source de Word, Excel et PowerPoint écrits en Rust avec Claude Opus 5.5. Sont-ils opérationnels ?",
-          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
-        },
-        {
-          "date": "23 octobre 2026",
-          "title": "Windows 11 : avec Project Pantheon, Microsoft teste une mémoire IA qui ne retient que ce que vous choisissez",
-          "source": "IT-Connect",
-          "url": "https://www.it-connect.fr/windows-11-project-pantheon-context-vault-memoire-ia/",
-          "summary": "Microsoft teste Project Pantheon, une mémoire IA pour Windows 11 qui ne retient que ce que vous sauvegardez, avec un serveur MCP ouvert à Claude et Cursor.",
-          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
-        },
-        {
-          "date": "27 octobre 2026",
-          "title": "Un tournant historique pour l’IA : Anthropic s’apprête à entrer en Bourse avec une croissance monstrueuse",
-          "source": "01net",
-          "url": "https://www.01net.com/actualites/un-tournant-historique-pour-lia-anthropic-sapprete-a-entrer-en-bourse-avec-une-croissance-monstrueuse.html",
-          "summary": "Anthropic entre dans la dernière ligne droite avant son introduction en Bourse. Pourtant, si son chiffre d'affaires est en explosion, elle a perdu plus de 80 milliards de dollars au premier semestre 2026.",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         }
       ]
