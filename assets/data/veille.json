@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-28",
+  "updatedAt": "2026-10-29",
   "methodologie": {
     "title": "Méthodologie de veille",
     "summary": "Ma veille technologique repose sur plusieurs sources complémentaires : IT-Connect, ANSSI et le CERT-FR pour la cybersécurité, 01net et Le Monde Informatique pour l'IA. Chaque jour, un script récupère automatiquement les nouvelles publications, calcule un score de pertinence par mots-clés, et sélectionne les 4 meilleures entrées par thème.",
@@ -69,6 +69,14 @@
           "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
         },
         {
+          "date": "29 octobre 2026",
+          "title": "NAS Synology : une vague d’attaques du ransomware C3RB3R, voici comment vous protéger",
+          "source": "IT-Connect",
+          "url": "https://www.it-connect.fr/nas-synology-ransomware-c3rb3r-l0ck3d/",
+          "summary": "Le ransomware C3RB3R s’attaque aux NAS Synology pour chiffrer les données après les avoir compromis en exploitant des failles DSM. Voici comment vous protéger.",
+          "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
+        },
+        {
           "date": "21 juillet 2026",
           "title": "Exigences du CRA : processus de notification pour les organismes notifiés",
           "source": "ANSSI",
@@ -82,14 +90,6 @@
           "source": "IT-Connect",
           "url": "https://www.it-connect.fr/faille-brotli-broccoli2shell-python-dotnet-linux/",
           "summary": "La faille Brotli CVE-2026-111497 dépasse Node.js : Python, .NET et Linux sont aussi touchés. Voici comment se protéger de cette vulnérabilité.",
-          "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
-        },
-        {
-          "date": "23 octobre 2026",
-          "title": "PHP signale une nouvelle faille RCE (CVE-2026-115560) : appliquez le même réglage que PHP2Shell",
-          "source": "IT-Connect",
-          "url": "https://www.it-connect.fr/php-cve-2026-115560-session-upload-progress/",
-          "summary": "CVE-2026-115560 : PHP signale une nouvelle faille RCE. Désactiver Session Upload Progress, déjà conseillé pour PHP2Shell, suffit en attendant le correctif.",
           "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
         }
       ]
@@ -118,19 +118,27 @@
       ],
       "entries": [
         {
-          "date": "28 octobre 2026",
-          "title": "ChatGPT, Gemini, Meta AI : l’Europe prépare un passe-droit des IA sur vos données",
+          "date": "29 octobre 2026",
+          "title": "Les agents IA « Dots » de ChatGPT s’invitent dans Google Messages et iMessage",
           "source": "01net",
-          "url": "https://www.01net.com/actualites/chatgpt-gemini-meta-ai-leurope-prepare-un-passe-droit-des-ia-sur-vos-donnees.html",
-          "summary": "Les Vingt-Sept veulent inscrire dans le RGPD un feu vert à l'entraînement des IA sur vos données personnelles. Sans consentement, et avec un droit d'opposition raboté au passage.",
+          "url": "https://www.01net.com/actualites/agents-ia-dots-chatgpt-sinvitent-dans-google-messages-imessage.html",
+          "summary": "OpenAI permet désormais de discuter directement avec ses agents IA ChatGPT Dots via Google Messages sur Android et iMessage sur iPhone.",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
-          "date": "27 octobre 2026",
-          "title": "Un ChatGPT moins cher et plus puissant : le nouveau modèle GPT-6.1 Terra d’OpenAI a trouvé sa recette",
+          "date": "28 octobre 2026",
+          "title": "OpenAI branche ChatGPT à iCloud, en plein procès contre Apple",
           "source": "01net",
-          "url": "https://www.01net.com/actualites/un-chatgpt-moins-cher-et-plus-puissant-le-nouveau-modele-gpt-6-1-terra-dopenai-a-trouve-sa-recette.html",
-          "summary": "OpenAI a présenté ce lundi 26 octobre GPT-6.1 Terra, un nouveau modèle de langage intermédiaire conçu pour comprendre ce qui s'affiche sur votre écran. De quoi prendre le contrôle de votre ordinateur... pour travailler à votre place.",
+          "url": "https://www.01net.com/actualites/openai-branche-chatgpt-a-icloud-en-plein-proces-contre-apple.html",
+          "summary": "ChatGPT peut désormais lire, classer et envoyer les e-mails d'une adresse iCloud, consulter les contacts et remplir l'agenda, sur tous les forfaits. L'annonce est tombée le jour où Apple marquait un point au tribunal contre OpenAI.",
+          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
+        },
+        {
+          "date": "29 octobre 2026",
+          "title": "480 milliards de dollars volatilisés : la bulle de l’IA vient-elle d’éclater en Chine ?",
+          "source": "01net",
+          "url": "https://www.01net.com/actualites/480-milliards-dollars-volatilises-bulle-ia-vient-elle-eclater-en-chine.html",
+          "summary": "La bulle de l'intelligence artificielle aurait déjà éclaté en Chine. Après une période de spéculation boursière importante, les marchés financiers de l’Empire du Milieu subissent une correction importante qui efface des centaines de mill...",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
@@ -139,14 +147,6 @@
           "source": "01net",
           "url": "https://www.01net.com/actualites/elle-utilise-lia-pour-contester-ses-impots-le-tribunal-la-sanctionne-avec-une-amende.html",
           "summary": "Marie-Line X voulait contester ses impôts : elle se retrouve en fin de compte avec une amende de 500 euros. La raison ? Un recours abusif, mais aussi une requête « manifestement écrite à l'aide d'un outil d'intelligence artificielle ».",
-          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
-        },
-        {
-          "date": "26 octobre 2026",
-          "title": "WordCraft, GridCraft, DeckCraft : après Adobe, Word, Excel et PowerPoint réécrits en Rust avec l’IA",
-          "source": "IT-Connect",
-          "url": "https://www.it-connect.fr/wordcraft-gridcraft-deckcraft-suite-office-rust-claude/",
-          "summary": "WordCraft, GridCraft et DeckCraft : trois clones open source de Word, Excel et PowerPoint écrits en Rust avec Claude Opus 5.5. Sont-ils opérationnels ?",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         }
       ]
