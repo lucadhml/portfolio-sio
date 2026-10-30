@@ -1,5 +1,5 @@
 window.VEILLE_DATA = {
-  "updatedAt": "2026-10-29",
+  "updatedAt": "2026-10-30",
   "methodologie": {
     "title": "Méthodologie de veille",
     "summary": "Ma veille technologique repose sur plusieurs sources complémentaires : IT-Connect, ANSSI et le CERT-FR pour la cybersécurité, 01net et Le Monde Informatique pour l'IA. Chaque jour, un script récupère automatiquement les nouvelles publications, calcule un score de pertinence par mots-clés, et sélectionne les 4 meilleures entrées par thème.",
@@ -85,11 +85,11 @@ window.VEILLE_DATA = {
           "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
         },
         {
-          "date": "27 octobre 2026",
-          "title": "Broccoli2Shell : la faille Brotli de Node2Shell touche aussi Python, .NET et Linux",
+          "date": "28 octobre 2026",
+          "title": "Faille UEFI CVE-2026-97631 : un paquet ICMP suffit pour exécuter du code avant le Secure Boot",
           "source": "IT-Connect",
-          "url": "https://www.it-connect.fr/faille-brotli-broccoli2shell-python-dotnet-linux/",
-          "summary": "La faille Brotli CVE-2026-111497 dépasse Node.js : Python, .NET et Linux sont aussi touchés. Voici comment se protéger de cette vulnérabilité.",
+          "url": "https://www.it-connect.fr/faille-uefi-edk-ii-pxe-icmp-cve-2026-97631/",
+          "summary": "Un paquet ICMP suffit pour exécuter du code avant Secure Boot sur une machine en boot PXE. Voici ce qu’il faut savoir sur la faille UEFI CVE-2026-97631.",
           "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
         }
       ]
@@ -126,14 +126,6 @@ window.VEILLE_DATA = {
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
-          "date": "28 octobre 2026",
-          "title": "OpenAI branche ChatGPT à iCloud, en plein procès contre Apple",
-          "source": "01net",
-          "url": "https://www.01net.com/actualites/openai-branche-chatgpt-a-icloud-en-plein-proces-contre-apple.html",
-          "summary": "ChatGPT peut désormais lire, classer et envoyer les e-mails d'une adresse iCloud, consulter les contacts et remplir l'agenda, sur tous les forfaits. L'annonce est tombée le jour où Apple marquait un point au tribunal contre OpenAI.",
-          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
-        },
-        {
           "date": "29 octobre 2026",
           "title": "480 milliards de dollars volatilisés : la bulle de l’IA vient-elle d’éclater en Chine ?",
           "source": "01net",
@@ -142,11 +134,19 @@ window.VEILLE_DATA = {
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
-          "date": "28 octobre 2026",
-          "title": "Elle utilise l’IA pour contester ses impôts : le tribunal la sanctionne avec une amende",
+          "date": "29 octobre 2026",
+          "title": "« Pourri jusqu’à la moelle » : Apple et OpenAI s’apprêtent à s’affronter devant la justice",
           "source": "01net",
-          "url": "https://www.01net.com/actualites/elle-utilise-lia-pour-contester-ses-impots-le-tribunal-la-sanctionne-avec-une-amende.html",
-          "summary": "Marie-Line X voulait contester ses impôts : elle se retrouve en fin de compte avec une amende de 500 euros. La raison ? Un recours abusif, mais aussi une requête « manifestement écrite à l'aide d'un outil d'intelligence artificielle ».",
+          "url": "https://www.01net.com/actualites/pourri-jusqua-la-moelle-apple-et-openai-sappretent-a-saffronter-devant-la-justice.html",
+          "summary": "Dix-huit mois de bras de fer encore devant eux, et une date entourée en rouge : la justice américaine vient de fixer le jour où Apple et OpenAI videront leur querelle de secrets industriels.",
+          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
+        },
+        {
+          "date": "30 octobre 2026",
+          "title": "Fini les allers-retours : Gemini permet enfin de modifier vos documents directement dans l’application",
+          "source": "01net",
+          "url": "https://www.01net.com/actualites/fini-allers-retours-gemini-permet-enfin-modifier-documents-directement-dans-application.html",
+          "summary": "Google déploie une nouveauté qui permet de créer, prévisualiser et modifier des fichiers directement dans Gemini. Vous allez enfin pouvoir travailler sur vos documents sans quitter le chat.",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         }
       ]
