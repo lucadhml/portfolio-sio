@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-30",
+  "updatedAt": "2026-10-31",
   "methodologie": {
     "title": "Méthodologie de veille",
     "summary": "Ma veille technologique repose sur plusieurs sources complémentaires : IT-Connect, ANSSI et le CERT-FR pour la cybersécurité, 01net et Le Monde Informatique pour l'IA. Chaque jour, un script récupère automatiquement les nouvelles publications, calcule un score de pertinence par mots-clés, et sélectionne les 4 meilleures entrées par thème.",
@@ -61,14 +61,6 @@
       ],
       "entries": [
         {
-          "date": "28 octobre 2026",
-          "title": "Veeam Backup & Replication 13 (CVE-2026-108142) : une faille critique exploitable sans authentification",
-          "source": "IT-Connect",
-          "url": "https://www.it-connect.fr/veeam-backup-replication-13-faille-critique-cve-2026-108142/",
-          "summary": "Une faille de sécurité critique située dans le composant CDP Coordinator a été patchée dans Veeam Backup & Replication 13 : CVE-2026-108142. Voici les patchs.",
-          "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
-        },
-        {
           "date": "29 octobre 2026",
           "title": "NAS Synology : une vague d’attaques du ransomware C3RB3R, voici comment vous protéger",
           "source": "IT-Connect",
@@ -90,6 +82,14 @@
           "source": "IT-Connect",
           "url": "https://www.it-connect.fr/faille-uefi-edk-ii-pxe-icmp-cve-2026-97631/",
           "summary": "Un paquet ICMP suffit pour exécuter du code avant Secure Boot sur une machine en boot PXE. Voici ce qu’il faut savoir sur la faille UEFI CVE-2026-97631.",
+          "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
+        },
+        {
+          "date": "29 octobre 2026",
+          "title": "Fragnesia et PHP2Shell : la chaîne d’attaque qui a offert un accès root sur 24 firewalls",
+          "source": "IT-Connect",
+          "url": "https://www.it-connect.fr/fragnesia-php2shell-cisa-chaine-attaque-root/",
+          "summary": "Les failles PHP2Shell et Fragnesia (noyau Linux) sont exploitées ensemble pour obtenir un accès root sur 24 firewalls. L’agence CISA a publié une alerte.",
           "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
         }
       ]
@@ -118,35 +118,35 @@
       ],
       "entries": [
         {
-          "date": "29 octobre 2026",
-          "title": "Les agents IA « Dots » de ChatGPT s’invitent dans Google Messages et iMessage",
+          "date": "30 octobre 2026",
+          "title": "ChatGPT Pro : face à la polémique, OpenAI renonce à amputer l’abonnement",
           "source": "01net",
-          "url": "https://www.01net.com/actualites/agents-ia-dots-chatgpt-sinvitent-dans-google-messages-imessage.html",
-          "summary": "OpenAI permet désormais de discuter directement avec ses agents IA ChatGPT Dots via Google Messages sur Android et iMessage sur iPhone.",
+          "url": "https://www.01net.com/actualites/chatgpt-pro-face-a-la-polemique-openai-renonce-a-amputer-labonnement.html",
+          "summary": "Les abonnés les plus fidèles de ChatGPT devaient voir leurs limites d'usage fondre de moitié dès ce vendredi. À la veille de l'échéance, OpenAI jette l'éponge, et double la mise.",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
-          "date": "29 octobre 2026",
-          "title": "480 milliards de dollars volatilisés : la bulle de l’IA vient-elle d’éclater en Chine ?",
+          "date": "31 octobre 2026",
+          "title": "Le premier film généré à 100% par IA fait un flop",
           "source": "01net",
-          "url": "https://www.01net.com/actualites/480-milliards-dollars-volatilises-bulle-ia-vient-elle-eclater-en-chine.html",
-          "summary": "La bulle de l'intelligence artificielle aurait déjà éclaté en Chine. Après une période de spéculation boursière importante, les marchés financiers de l’Empire du Milieu subissent une correction importante qui efface des centaines de mill...",
+          "url": "https://www.01net.com/actualites/le-premier-film-genere-a-100-par-ia-fait-un-flop.html",
+          "summary": "Les mini-séries générées par IA cumulent des milliards de vues sur Douyin. Transposée au cinéma, la recette s'effondre : le premier long métrage chinois entièrement produit par intelligence artificielle a récolté 1,2 million de yuans en...",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
-          "date": "29 octobre 2026",
-          "title": "« Pourri jusqu’à la moelle » : Apple et OpenAI s’apprêtent à s’affronter devant la justice",
+          "date": "31 octobre 2026",
+          "title": "Elon Musk a un conseil pour votre argent. Surprise : il ne fait pas l’unanimité",
           "source": "01net",
-          "url": "https://www.01net.com/actualites/pourri-jusqua-la-moelle-apple-et-openai-sappretent-a-saffronter-devant-la-justice.html",
-          "summary": "Dix-huit mois de bras de fer encore devant eux, et une date entourée en rouge : la justice américaine vient de fixer le jour où Apple et OpenAI videront leur querelle de secrets industriels.",
+          "url": "https://www.01net.com/actualites/elon-musk-a-un-conseil-pour-votre-argent-surprise-il-ne-fait-pas-lunanimite.html",
+          "summary": "Elon Musk estime que les progrès de l’intelligence artificielle rendront bientôt inutile le fait d’épargner pour sa retraite. Une vision loin de convaincre certains experts financiers, qui déconseillent vivement de suivre ce pari pour le...",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
           "date": "30 octobre 2026",
-          "title": "Fini les allers-retours : Gemini permet enfin de modifier vos documents directement dans l’application",
-          "source": "01net",
-          "url": "https://www.01net.com/actualites/fini-allers-retours-gemini-permet-enfin-modifier-documents-directement-dans-application.html",
-          "summary": "Google déploie une nouveauté qui permet de créer, prévisualiser et modifier des fichiers directement dans Gemini. Vous allez enfin pouvoir travailler sur vos documents sans quitter le chat.",
+          "title": "Le PAM face au défi des identités non humaines",
+          "source": "IT-Connect",
+          "url": "https://www.it-connect.fr/le-pam-face-au-defi-des-identites-non-humaines/",
+          "summary": "Le PAM face aux identités non humaines : comment limiter les droits des agents IA et des comptes de service, et tracer leurs actions.",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         }
       ]
