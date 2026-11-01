@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-31",
+  "updatedAt": "2026-11-01",
   "methodologie": {
     "title": "Méthodologie de veille",
     "summary": "Ma veille technologique repose sur plusieurs sources complémentaires : IT-Connect, ANSSI et le CERT-FR pour la cybersécurité, 01net et Le Monde Informatique pour l'IA. Chaque jour, un script récupère automatiquement les nouvelles publications, calcule un score de pertinence par mots-clés, et sélectionne les 4 meilleures entrées par thème.",
@@ -118,27 +118,19 @@
       ],
       "entries": [
         {
-          "date": "30 octobre 2026",
-          "title": "ChatGPT Pro : face à la polémique, OpenAI renonce à amputer l’abonnement",
+          "date": "31 octobre 2026",
+          "title": "Jusqu’à 200 dollars par mois en louant son Mac à l’IA : deux mois après, le rêve s’effondre",
           "source": "01net",
-          "url": "https://www.01net.com/actualites/chatgpt-pro-face-a-la-polemique-openai-renonce-a-amputer-labonnement.html",
-          "summary": "Les abonnés les plus fidèles de ChatGPT devaient voir leurs limites d'usage fondre de moitié dès ce vendredi. À la veille de l'échéance, OpenAI jette l'éponge, et double la mise.",
+          "url": "https://www.01net.com/actualites/jusqua-200-dollars-par-mois-en-louant-son-mac-a-lia-deux-mois-apres-le-reve-seffondre.html",
+          "summary": "Cet été, louer son Mac à l'intelligence artificielle faisait miroiter un joli complément de revenus. L'entreprise derrière le projet prévient aujourd'hui ses participants : les gains sont maigres, et ils ne remonteront pas de sitôt.",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
-          "date": "31 octobre 2026",
-          "title": "Le premier film généré à 100% par IA fait un flop",
+          "date": "1 novembre 2026",
+          "title": "« À la vitesse de la machine » : 4 gangs de pirates ont confié leurs cyberattaques à l’IA",
           "source": "01net",
-          "url": "https://www.01net.com/actualites/le-premier-film-genere-a-100-par-ia-fait-un-flop.html",
-          "summary": "Les mini-séries générées par IA cumulent des milliards de vues sur Douyin. Transposée au cinéma, la recette s'effondre : le premier long métrage chinois entièrement produit par intelligence artificielle a récolté 1,2 million de yuans en...",
-          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
-        },
-        {
-          "date": "31 octobre 2026",
-          "title": "Elon Musk a un conseil pour votre argent. Surprise : il ne fait pas l’unanimité",
-          "source": "01net",
-          "url": "https://www.01net.com/actualites/elon-musk-a-un-conseil-pour-votre-argent-surprise-il-ne-fait-pas-lunanimite.html",
-          "summary": "Elon Musk estime que les progrès de l’intelligence artificielle rendront bientôt inutile le fait d’épargner pour sa retraite. Une vision loin de convaincre certains experts financiers, qui déconseillent vivement de suivre ce pari pour le...",
+          "url": "https://www.01net.com/actualites/a-la-vitesse-de-la-machine-4-gangs-de-pirates-ont-confie-leurs-cyberattaques-a-lia.html",
+          "summary": "CrowdStrike vient de lever le voile sur une nouvelle vague de cyberattaques animées par l'IA. Les chercheurs ont découvert que quatre groupes de pirates, jusqu'ici inconnus, ont délégué toutes leurs opérations à des agents IA. Les intell...",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
@@ -147,6 +139,14 @@
           "source": "IT-Connect",
           "url": "https://www.it-connect.fr/le-pam-face-au-defi-des-identites-non-humaines/",
           "summary": "Le PAM face aux identités non humaines : comment limiter les droits des agents IA et des comptes de service, et tracer leurs actions.",
+          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
+        },
+        {
+          "date": "31 octobre 2026",
+          "title": "Le patron d’OpenAI juge « terrible » que votre PC garde sa propre RAM et préfèrerait la voir dans ses datacenters",
+          "source": "01net",
+          "url": "https://www.01net.com/actualites/le-patron-dopenai-juge-terrible-que-votre-pc-garde-sa-propre-ram-et-prefererait-la-voir-dans-ses-datacenters.html",
+          "summary": "Pour le patron d'OpenAI, la mémoire vive qui dort dans votre ordinateur serait bien mieux employée ailleurs. La remarque tombe mal : en France, 32 Go de RAM coûtent près de quatre fois leur prix d'il y a un an.",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         }
       ]
