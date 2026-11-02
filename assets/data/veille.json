@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-01",
+  "updatedAt": "2026-11-02",
   "methodologie": {
     "title": "Méthodologie de veille",
     "summary": "Ma veille technologique repose sur plusieurs sources complémentaires : IT-Connect, ANSSI et le CERT-FR pour la cybersécurité, 01net et Le Monde Informatique pour l'IA. Chaque jour, un script récupère automatiquement les nouvelles publications, calcule un score de pertinence par mots-clés, et sélectionne les 4 meilleures entrées par thème.",
@@ -61,14 +61,6 @@
       ],
       "entries": [
         {
-          "date": "29 octobre 2026",
-          "title": "NAS Synology : une vague d’attaques du ransomware C3RB3R, voici comment vous protéger",
-          "source": "IT-Connect",
-          "url": "https://www.it-connect.fr/nas-synology-ransomware-c3rb3r-l0ck3d/",
-          "summary": "Le ransomware C3RB3R s’attaque aux NAS Synology pour chiffrer les données après les avoir compromis en exploitant des failles DSM. Voici comment vous protéger.",
-          "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
-        },
-        {
           "date": "21 juillet 2026",
           "title": "Exigences du CRA : processus de notification pour les organismes notifiés",
           "source": "ANSSI",
@@ -77,11 +69,11 @@
           "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
         },
         {
-          "date": "28 octobre 2026",
-          "title": "Faille UEFI CVE-2026-97631 : un paquet ICMP suffit pour exécuter du code avant le Secure Boot",
+          "date": "2 novembre 2026",
+          "title": "CVE-2026-98432 : la faille critique du noyau Linux qui peut offrir un accès root à distance",
           "source": "IT-Connect",
-          "url": "https://www.it-connect.fr/faille-uefi-edk-ii-pxe-icmp-cve-2026-97631/",
-          "summary": "Un paquet ICMP suffit pour exécuter du code avant Secure Boot sur une machine en boot PXE. Voici ce qu’il faut savoir sur la faille UEFI CVE-2026-97631.",
+          "url": "https://www.it-connect.fr/cve-2026-98432-faille-noyau-linux-tcp-root-distance/",
+          "summary": "Une nouvelle faille critique dans le noyau Linux (CVE-2026-98432) : RHEL, Debian, SUSE et Proxmox sont patchés, pas Ubuntu. Quel noyau installer ?",
           "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
         },
         {
@@ -90,6 +82,14 @@
           "source": "IT-Connect",
           "url": "https://www.it-connect.fr/fragnesia-php2shell-cisa-chaine-attaque-root/",
           "summary": "Les failles PHP2Shell et Fragnesia (noyau Linux) sont exploitées ensemble pour obtenir un accès root sur 24 firewalls. L’agence CISA a publié une alerte.",
+          "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
+        },
+        {
+          "date": "21 janvier 2026",
+          "title": "Vulnérabilité dans telnetd (21 janvier 2026)",
+          "source": "CERT-FR",
+          "url": "https://www.cert.cyber.gouv.fr/actualite/CERTFR-2026-ACT-003/",
+          "summary": "Le 20 janvier 2026, les détails de la vulnérabilité CVE-2026-24061, affectant *telnetd*, ont été publiés. Cette vulnérabilité permet à un attaquant de contourner l'authentification et de se connecter à une machine vulnérable en tant que...",
           "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
         }
       ]
@@ -118,19 +118,11 @@
       ],
       "entries": [
         {
-          "date": "31 octobre 2026",
-          "title": "Jusqu’à 200 dollars par mois en louant son Mac à l’IA : deux mois après, le rêve s’effondre",
+          "date": "2 novembre 2026",
+          "title": "Siri AI, « une IA que personne ne remarque » : le nouveau patron d’Apple reste serein malgré les retards",
           "source": "01net",
-          "url": "https://www.01net.com/actualites/jusqua-200-dollars-par-mois-en-louant-son-mac-a-lia-deux-mois-apres-le-reve-seffondre.html",
-          "summary": "Cet été, louer son Mac à l'intelligence artificielle faisait miroiter un joli complément de revenus. L'entreprise derrière le projet prévient aujourd'hui ses participants : les gains sont maigres, et ils ne remonteront pas de sitôt.",
-          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
-        },
-        {
-          "date": "1 novembre 2026",
-          "title": "« À la vitesse de la machine » : 4 gangs de pirates ont confié leurs cyberattaques à l’IA",
-          "source": "01net",
-          "url": "https://www.01net.com/actualites/a-la-vitesse-de-la-machine-4-gangs-de-pirates-ont-confie-leurs-cyberattaques-a-lia.html",
-          "summary": "CrowdStrike vient de lever le voile sur une nouvelle vague de cyberattaques animées par l'IA. Les chercheurs ont découvert que quatre groupes de pirates, jusqu'ici inconnus, ont délégué toutes leurs opérations à des agents IA. Les intell...",
+          "url": "https://www.01net.com/actualites/siri-ia-que-personne-ne-remarque-nouveau-patron-apple-reste-serein-malgre-retards.html",
+          "summary": "Deux mois après avoir succédé à Tim Cook, John Ternus défend le rythme d'Apple sur l'IA et s'en dit pleinement satisfait. Un discours de constance que les iPhone français, privés du nouveau Siri, ne peuvent pas vérifier.",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
@@ -142,11 +134,19 @@
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
-          "date": "31 octobre 2026",
-          "title": "Le patron d’OpenAI juge « terrible » que votre PC garde sa propre RAM et préfèrerait la voir dans ses datacenters",
+          "date": "2 novembre 2026",
+          "title": "À -40%, ce vélo électrique est l’alternative idéale pour éviter les prix exorbitants à la pompe",
           "source": "01net",
-          "url": "https://www.01net.com/actualites/le-patron-dopenai-juge-terrible-que-votre-pc-garde-sa-propre-ram-et-prefererait-la-voir-dans-ses-datacenters.html",
-          "summary": "Pour le patron d'OpenAI, la mémoire vive qui dort dans votre ordinateur serait bien mieux employée ailleurs. La remarque tombe mal : en France, 32 Go de RAM coûtent près de quatre fois leur prix d'il y a un an.",
+          "url": "https://www.01net.com/bons-plans/a-40-ce-velo-electrique-est-lalternative-ideale-pour-eviter-les-prix-exorbitants-a-la-pompe.html",
+          "summary": "Avec les prix actuels du carburant, un petit trajet en voiture peut vite coûter très cher. Pour aller travailler, faire quelques courses ou profiter d'une balade en ville, mieux vaut donc la laisser au garage et enfourcher le HillMiles M...",
+          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
+        },
+        {
+          "date": "2 novembre 2026",
+          "title": "Anthropic ne veut plus que Claude copie des jeux vidéo",
+          "source": "01net",
+          "url": "https://www.01net.com/actualites/anthropic-ne-veut-plus-que-claude-copie-des-jeux-video.html",
+          "summary": "On apprend qu'Anthropic a discrètement mis à jour son chatbot Claude pour éviter qu'il ne copie des jeux vidéo. La société cherche à se protéger face aux potentielles attaques judiciaires de studios qui pourraient l'accuser de vol de pro...",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         }
       ]
