@@ -1,5 +1,5 @@
 window.VEILLE_DATA = {
-  "updatedAt": "2026-11-02",
+  "updatedAt": "2026-11-03",
   "methodologie": {
     "title": "Méthodologie de veille",
     "summary": "Ma veille technologique repose sur plusieurs sources complémentaires : IT-Connect, ANSSI et le CERT-FR pour la cybersécurité, 01net et Le Monde Informatique pour l'IA. Chaque jour, un script récupère automatiquement les nouvelles publications, calcule un score de pertinence par mots-clés, et sélectionne les 4 meilleures entrées par thème.",
@@ -77,19 +77,19 @@ window.VEILLE_DATA = {
           "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
         },
         {
-          "date": "29 octobre 2026",
-          "title": "Fragnesia et PHP2Shell : la chaîne d’attaque qui a offert un accès root sur 24 firewalls",
-          "source": "IT-Connect",
-          "url": "https://www.it-connect.fr/fragnesia-php2shell-cisa-chaine-attaque-root/",
-          "summary": "Les failles PHP2Shell et Fragnesia (noyau Linux) sont exploitées ensemble pour obtenir un accès root sur 24 firewalls. L’agence CISA a publié une alerte.",
-          "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
-        },
-        {
           "date": "21 janvier 2026",
           "title": "Vulnérabilité dans telnetd (21 janvier 2026)",
           "source": "CERT-FR",
           "url": "https://www.cert.cyber.gouv.fr/actualite/CERTFR-2026-ACT-003/",
           "summary": "Le 20 janvier 2026, les détails de la vulnérabilité CVE-2026-24061, affectant *telnetd*, ont été publiés. Cette vulnérabilité permet à un attaquant de contourner l'authentification et de se connecter à une machine vulnérable en tant que...",
+          "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
+        },
+        {
+          "date": "2 avril 2026",
+          "title": "Expiration de certificats Secure Boot en juin 2026 (02 avril 2026)",
+          "source": "CERT-FR",
+          "url": "https://www.cert.cyber.gouv.fr/actualite/CERTFR-2026-ACT-014/",
+          "summary": "Le démarrage sécurisé (UEFI Secure Boot) est une fonctionnalité de sécurité disponible sur les ordinateurs PC clients et serveurs depuis 2011. Son rôle est de sécuriser la séquence de démarrage de l’appareil, en vérifiant l’intégrité du...",
           "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
         }
       ]
@@ -118,11 +118,11 @@ window.VEILLE_DATA = {
       ],
       "entries": [
         {
-          "date": "2 novembre 2026",
-          "title": "Siri AI, « une IA que personne ne remarque » : le nouveau patron d’Apple reste serein malgré les retards",
+          "date": "3 novembre 2026",
+          "title": "ChatGPT : OpenAI prépare une grosse refonte de son application de bureau",
           "source": "01net",
-          "url": "https://www.01net.com/actualites/siri-ia-que-personne-ne-remarque-nouveau-patron-apple-reste-serein-malgre-retards.html",
-          "summary": "Deux mois après avoir succédé à Tim Cook, John Ternus défend le rythme d'Apple sur l'IA et s'en dit pleinement satisfait. Un discours de constance que les iPhone français, privés du nouveau Siri, ne peuvent pas vérifier.",
+          "url": "https://www.01net.com/actualites/chatgpt-openai-prepare-une-grosse-refonte-de-son-application-de-bureau.html",
+          "summary": "Après avoir semé la pagaille dans ses applications cet été, OpenAI sort le balai. La version d'origine de ChatGPT a désormais une date de fin, et les onglets qui déroutaient tout le monde vont fusionner.",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
@@ -134,19 +134,19 @@ window.VEILLE_DATA = {
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
-          "date": "2 novembre 2026",
-          "title": "À -40%, ce vélo électrique est l’alternative idéale pour éviter les prix exorbitants à la pompe",
-          "source": "01net",
-          "url": "https://www.01net.com/bons-plans/a-40-ce-velo-electrique-est-lalternative-ideale-pour-eviter-les-prix-exorbitants-a-la-pompe.html",
-          "summary": "Avec les prix actuels du carburant, un petit trajet en voiture peut vite coûter très cher. Pour aller travailler, faire quelques courses ou profiter d'une balade en ville, mieux vaut donc la laisser au garage et enfourcher le HillMiles M...",
+          "date": "30 octobre 2026",
+          "title": "EnterpriseEnrollment : ce qui change pour l’inscription des postes Windows dans Intune",
+          "source": "IT-Connect",
+          "url": "https://www.it-connect.fr/enterpriseenrollment-ce-qui-change-pour-linscription-des-postes-windows-dans-intune/",
+          "summary": "Dès le 15 janvier 2027, Intune n’utilisera plus le CNAME EnterpriseEnrollment pour l’inscription Windows MDM-only. Qui est concerné et comment s’y préparer ?",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
-          "date": "2 novembre 2026",
-          "title": "Anthropic ne veut plus que Claude copie des jeux vidéo",
+          "date": "3 novembre 2026",
+          "title": "Le robot d’Apple serait prêt depuis deux ans, mais l’IA poserait encore problème",
           "source": "01net",
-          "url": "https://www.01net.com/actualites/anthropic-ne-veut-plus-que-claude-copie-des-jeux-video.html",
-          "summary": "On apprend qu'Anthropic a discrètement mis à jour son chatbot Claude pour éviter qu'il ne copie des jeux vidéo. La société cherche à se protéger face aux potentielles attaques judiciaires de studios qui pourraient l'accuser de vol de pro...",
+          "url": "https://www.01net.com/actualites/le-robot-dapple-serait-pret-depuis-deux-ans-mais-lia-poserait-encore-probleme.html",
+          "summary": "Chez Apple, le matériel attend le logiciel. Le robot domestique de la marque serait terminé depuis deux ans, mais son cerveau se fait toujours attendre. Rendez-vous en 2027, dans le meilleur des cas.",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         }
       ]
