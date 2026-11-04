@@ -1,5 +1,5 @@
 window.VEILLE_DATA = {
-  "updatedAt": "2026-11-03",
+  "updatedAt": "2026-11-04",
   "methodologie": {
     "title": "Méthodologie de veille",
     "summary": "Ma veille technologique repose sur plusieurs sources complémentaires : IT-Connect, ANSSI et le CERT-FR pour la cybersécurité, 01net et Le Monde Informatique pour l'IA. Chaque jour, un script récupère automatiquement les nouvelles publications, calcule un score de pertinence par mots-clés, et sélectionne les 4 meilleures entrées par thème.",
@@ -85,11 +85,11 @@ window.VEILLE_DATA = {
           "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
         },
         {
-          "date": "2 avril 2026",
-          "title": "Expiration de certificats Secure Boot en juin 2026 (02 avril 2026)",
-          "source": "CERT-FR",
-          "url": "https://www.cert.cyber.gouv.fr/actualite/CERTFR-2026-ACT-014/",
-          "summary": "Le démarrage sécurisé (UEFI Secure Boot) est une fonctionnalité de sécurité disponible sur les ordinateurs PC clients et serveurs depuis 2011. Son rôle est de sécuriser la séquence de démarrage de l’appareil, en vérifiant l’intégrité du...",
+          "date": "4 novembre 2026",
+          "title": "Patch gap : Mozilla va décaler les correctifs de Firefox pour empêcher l’IA de les transformer en exploits",
+          "source": "IT-Connect",
+          "url": "https://www.it-connect.fr/firefox-patch-gap-ia-correctifs-mozilla/",
+          "summary": "Un correctif visible dans le code, mais pas encore sur vos postes : une brèche que l’IA sait désormais exploiter dans Firefox. Mozilla riposte. Voici comment.",
           "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
         }
       ]
@@ -118,35 +118,35 @@ window.VEILLE_DATA = {
       ],
       "entries": [
         {
-          "date": "3 novembre 2026",
-          "title": "ChatGPT : OpenAI prépare une grosse refonte de son application de bureau",
+          "date": "4 novembre 2026",
+          "title": "Netflix fait appel à l’IA pour résoudre le plus gros problème de ses abonnés",
           "source": "01net",
-          "url": "https://www.01net.com/actualites/chatgpt-openai-prepare-une-grosse-refonte-de-son-application-de-bureau.html",
-          "summary": "Après avoir semé la pagaille dans ses applications cet été, OpenAI sort le balai. La version d'origine de ChatGPT a désormais une date de fin, et les onglets qui déroutaient tout le monde vont fusionner.",
+          "url": "https://www.01net.com/actualites/netflix-fait-appel-a-lia-pour-resoudre-le-plus-gros-probleme-de-ses-abonnes.html",
+          "summary": "Netflix vient de dévoiler l’onglet « Découvrir », soit un outil de recommandation alimenté par l’intelligence artificielle. Dans un premier temps, les recommandations seront regroupées par thèmes.",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
-          "date": "30 octobre 2026",
-          "title": "Le PAM face au défi des identités non humaines",
+          "date": "4 novembre 2026",
+          "title": "Pas d’IA, pas de recherche Google : c’est ce que veut imposer Google aux écoles",
           "source": "IT-Connect",
-          "url": "https://www.it-connect.fr/le-pam-face-au-defi-des-identites-non-humaines/",
-          "summary": "Le PAM face aux identités non humaines : comment limiter les droits des agents IA et des comptes de service, et tracer leurs actions.",
+          "url": "https://www.it-connect.fr/google-ecoles-ia-gemini-recherche-desactivee/",
+          "summary": "Gemini et Google Search seront désactivés par défaut sur les comptes élèves. Une école qui refuse l’IA de Google perdra aussi l’accès au moteur de recherche.",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
-          "date": "30 octobre 2026",
-          "title": "EnterpriseEnrollment : ce qui change pour l’inscription des postes Windows dans Intune",
-          "source": "IT-Connect",
-          "url": "https://www.it-connect.fr/enterpriseenrollment-ce-qui-change-pour-linscription-des-postes-windows-dans-intune/",
-          "summary": "Dès le 15 janvier 2027, Intune n’utilisera plus le CNAME EnterpriseEnrollment pour l’inscription Windows MDM-only. Qui est concerné et comment s’y préparer ?",
-          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
-        },
-        {
-          "date": "3 novembre 2026",
-          "title": "Le robot d’Apple serait prêt depuis deux ans, mais l’IA poserait encore problème",
+          "date": "4 novembre 2026",
+          "title": "Outlook : la recherche dans votre boîte de réception s’améliore grâce à l’IA",
           "source": "01net",
-          "url": "https://www.01net.com/actualites/le-robot-dapple-serait-pret-depuis-deux-ans-mais-lia-poserait-encore-probleme.html",
-          "summary": "Chez Apple, le matériel attend le logiciel. Le robot domestique de la marque serait terminé depuis deux ans, mais son cerveau se fait toujours attendre. Rendez-vous en 2027, dans le meilleur des cas.",
+          "url": "https://www.01net.com/actualites/outlook-la-recherche-dans-votre-boite-de-reception-sameliore-grace-a-lia.html",
+          "summary": "La recherche de messages dans Outlook s’améliore. Microsoft vient d’introduire des modifications majeures pour optimiser la recherche dans sa messagerie. Plus rapide et plus fiable, celle-ci s’appuie désormais sur l’IA pour afficher les...",
+          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
+        },
+        {
+          "date": "4 novembre 2026",
+          "title": "Alors que les prix du stockage s’envolent, ce SSD NVMe Netac fait figure d’exception",
+          "source": "01net",
+          "url": "https://www.01net.com/bons-plans/alors-que-les-prix-du-stockage-senvolent-ce-ssd-nvme-netac-fait-figure-dexception.html",
+          "summary": "En 2026, les prix du stockage et de la RAM sont impactés par la demande croissante de l'IA. Par chance, on peut trouver des tarifs bien moins chers grâce au Singles Day sur AliExpress.",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         }
       ]
