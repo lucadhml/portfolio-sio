@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-04",
+  "updatedAt": "2026-11-05",
   "methodologie": {
     "title": "Méthodologie de veille",
     "summary": "Ma veille technologique repose sur plusieurs sources complémentaires : IT-Connect, ANSSI et le CERT-FR pour la cybersécurité, 01net et Le Monde Informatique pour l'IA. Chaque jour, un script récupère automatiquement les nouvelles publications, calcule un score de pertinence par mots-clés, et sélectionne les 4 meilleures entrées par thème.",
@@ -119,14 +119,6 @@
       "entries": [
         {
           "date": "4 novembre 2026",
-          "title": "Netflix fait appel à l’IA pour résoudre le plus gros problème de ses abonnés",
-          "source": "01net",
-          "url": "https://www.01net.com/actualites/netflix-fait-appel-a-lia-pour-resoudre-le-plus-gros-probleme-de-ses-abonnes.html",
-          "summary": "Netflix vient de dévoiler l’onglet « Découvrir », soit un outil de recommandation alimenté par l’intelligence artificielle. Dans un premier temps, les recommandations seront regroupées par thèmes.",
-          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
-        },
-        {
-          "date": "4 novembre 2026",
           "title": "Pas d’IA, pas de recherche Google : c’est ce que veut imposer Google aux écoles",
           "source": "IT-Connect",
           "url": "https://www.it-connect.fr/google-ecoles-ia-gemini-recherche-desactivee/",
@@ -134,19 +126,27 @@
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
-          "date": "4 novembre 2026",
-          "title": "Outlook : la recherche dans votre boîte de réception s’améliore grâce à l’IA",
+          "date": "5 novembre 2026",
+          "title": "J’ai essayé le premier MacBook avec écran tactile, et c’est un grand oui",
           "source": "01net",
-          "url": "https://www.01net.com/actualites/outlook-la-recherche-dans-votre-boite-de-reception-sameliore-grace-a-lia.html",
-          "summary": "La recherche de messages dans Outlook s’améliore. Microsoft vient d’introduire des modifications majeures pour optimiser la recherche dans sa messagerie. Plus rapide et plus fiable, celle-ci s’appuie désormais sur l’IA pour afficher les...",
+          "url": "https://www.01net.com/actualites/prise-en-main-macbook-proled-avis.html",
+          "summary": "Apple franchit enfin le cap de l'écran tactile et de l'OLED avec son tout nouveau MacBook Proled, abandonnant au passage sa célèbre encoche pour une intégration inédite de la Dynamic Island. Mais entre une exécution logicielle très soign...",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
-          "date": "4 novembre 2026",
-          "title": "Alors que les prix du stockage s’envolent, ce SSD NVMe Netac fait figure d’exception",
+          "date": "5 novembre 2026",
+          "title": "J’ai pris en main le Motorola Signature 27 : a-t-il de quoi inquiéter le Galaxy S26 Ultra ?",
           "source": "01net",
-          "url": "https://www.01net.com/bons-plans/alors-que-les-prix-du-stockage-senvolent-ce-ssd-nvme-netac-fait-figure-dexception.html",
-          "summary": "En 2026, les prix du stockage et de la RAM sont impactés par la demande croissante de l'IA. Par chance, on peut trouver des tarifs bien moins chers grâce au Singles Day sur AliExpress.",
+          "url": "https://www.01net.com/actualites/motorola-signature-27-prise-en-main.html",
+          "summary": "Motorola veut revenir fort sur le segment des smartphones haut de gamme avec son Signature 27. Nous avons pu le prendre en main.",
+          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
+        },
+        {
+          "date": "5 novembre 2026",
+          "title": "L’IA, trop chère pour Apple : le géant aurait réduit les budgets de ses employés",
+          "source": "01net",
+          "url": "https://www.01net.com/actualites/lia-trop-chere-pour-apple-le-geant-aurait-reduit-les-budgets-de-ses-employes.html",
+          "summary": "Apple aurait réduit les budgets d'IA pour ses employés : l'entreprise chercherait à réduire ses coûts, tout en conservant les usages d'IA. Un paradoxe qui tient surtout à la santé financière d'Apple, alors que le contexte économique est...",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         }
       ]
