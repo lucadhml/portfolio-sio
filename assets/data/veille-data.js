@@ -1,5 +1,5 @@
 window.VEILLE_DATA = {
-  "updatedAt": "2026-11-05",
+  "updatedAt": "2026-11-06",
   "methodologie": {
     "title": "Méthodologie de veille",
     "summary": "Ma veille technologique repose sur plusieurs sources complémentaires : IT-Connect, ANSSI et le CERT-FR pour la cybersécurité, 01net et Le Monde Informatique pour l'IA. Chaque jour, un script récupère automatiquement les nouvelles publications, calcule un score de pertinence par mots-clés, et sélectionne les 4 meilleures entrées par thème.",
@@ -69,14 +69,6 @@ window.VEILLE_DATA = {
           "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
         },
         {
-          "date": "2 novembre 2026",
-          "title": "CVE-2026-98432 : la faille critique du noyau Linux qui peut offrir un accès root à distance",
-          "source": "IT-Connect",
-          "url": "https://www.it-connect.fr/cve-2026-98432-faille-noyau-linux-tcp-root-distance/",
-          "summary": "Une nouvelle faille critique dans le noyau Linux (CVE-2026-98432) : RHEL, Debian, SUSE et Proxmox sont patchés, pas Ubuntu. Quel noyau installer ?",
-          "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
-        },
-        {
           "date": "21 janvier 2026",
           "title": "Vulnérabilité dans telnetd (21 janvier 2026)",
           "source": "CERT-FR",
@@ -90,6 +82,14 @@ window.VEILLE_DATA = {
           "source": "IT-Connect",
           "url": "https://www.it-connect.fr/firefox-patch-gap-ia-correctifs-mozilla/",
           "summary": "Un correctif visible dans le code, mais pas encore sur vos postes : une brèche que l’IA sait désormais exploiter dans Firefox. Mozilla riposte. Voici comment.",
+          "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
+        },
+        {
+          "date": "2 avril 2026",
+          "title": "Expiration de certificats Secure Boot en juin 2026 (02 avril 2026)",
+          "source": "CERT-FR",
+          "url": "https://www.cert.cyber.gouv.fr/actualite/CERTFR-2026-ACT-014/",
+          "summary": "Le démarrage sécurisé (UEFI Secure Boot) est une fonctionnalité de sécurité disponible sur les ordinateurs PC clients et serveurs depuis 2011. Son rôle est de sécuriser la séquence de démarrage de l’appareil, en vérifiant l’intégrité du...",
           "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
         }
       ]
@@ -118,35 +118,35 @@ window.VEILLE_DATA = {
       ],
       "entries": [
         {
-          "date": "4 novembre 2026",
-          "title": "Pas d’IA, pas de recherche Google : c’est ce que veut imposer Google aux écoles",
+          "date": "6 novembre 2026",
+          "title": "« Critique » : OpenAI lance GPT-6 Cyber, son IA la plus dangereuse à ce jour",
+          "source": "01net",
+          "url": "https://www.01net.com/actualites/critique-openai-lance-gpt-6-cyber-son-ia-la-plus-dangereuse-a-ce-jour.html",
+          "summary": "OpenAI vient de lancer GPT-6 Cyber, une nouvelle intelligence artificielle spécialisée dans la cybersécurité. Le modèle d'IA a déjà débusqué des centaines de failles dans Linux et Firefox. Jugée trop dangereuse pour le grand public, l’IA...",
+          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
+        },
+        {
+          "date": "6 novembre 2026",
+          "title": "GIF animés et images plus rapides : ChatGPT passe la seconde avec Images 2.6",
+          "source": "01net",
+          "url": "https://www.01net.com/actualites/gif-animes-et-images-plus-rapides-chatgpt-passe-la-seconde-avec-images-2-6.html",
+          "summary": "Des GIF en une phrase, des images générées plus vite : OpenAI soigne la vitrine. Les comptes gratuits, eux, composeront avec la publicité installée juste à côté.",
+          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
+        },
+        {
+          "date": "6 novembre 2026",
+          "title": "Faux événements OpenAI, SpaceX et Anthropic : ce phishing vole les comptes Microsoft et Google",
           "source": "IT-Connect",
-          "url": "https://www.it-connect.fr/google-ecoles-ia-gemini-recherche-desactivee/",
-          "summary": "Gemini et Google Search seront désactivés par défaut sur les comptes élèves. Une école qui refuse l’IA de Google perdra aussi l’accès au moteur de recherche.",
+          "url": "https://www.it-connect.fr/faux-evenements-openai-spacex-phishing-microsoft-google/",
+          "summary": "Trois mois de ChatGPT Pro offerts pour une simple inscription ? Cette fausse invitation OpenAI sert à pirater votre compte Microsoft ou Google, MFA compris.",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
-          "date": "5 novembre 2026",
-          "title": "J’ai essayé le premier MacBook avec écran tactile, et c’est un grand oui",
+          "date": "6 novembre 2026",
+          "title": "Claude pourra bientôt accéder à vos comptes bancaires : voici tout ce dont l’IA sera capable",
           "source": "01net",
-          "url": "https://www.01net.com/actualites/prise-en-main-macbook-proled-avis.html",
-          "summary": "Apple franchit enfin le cap de l'écran tactile et de l'OLED avec son tout nouveau MacBook Proled, abandonnant au passage sa célèbre encoche pour une intégration inédite de la Dynamic Island. Mais entre une exécution logicielle très soign...",
-          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
-        },
-        {
-          "date": "5 novembre 2026",
-          "title": "J’ai pris en main le Motorola Signature 27 : a-t-il de quoi inquiéter le Galaxy S26 Ultra ?",
-          "source": "01net",
-          "url": "https://www.01net.com/actualites/motorola-signature-27-prise-en-main.html",
-          "summary": "Motorola veut revenir fort sur le segment des smartphones haut de gamme avec son Signature 27. Nous avons pu le prendre en main.",
-          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
-        },
-        {
-          "date": "5 novembre 2026",
-          "title": "L’IA, trop chère pour Apple : le géant aurait réduit les budgets de ses employés",
-          "source": "01net",
-          "url": "https://www.01net.com/actualites/lia-trop-chere-pour-apple-le-geant-aurait-reduit-les-budgets-de-ses-employes.html",
-          "summary": "Apple aurait réduit les budgets d'IA pour ses employés : l'entreprise chercherait à réduire ses coûts, tout en conservant les usages d'IA. Un paradoxe qui tient surtout à la santé financière d'Apple, alors que le contexte économique est...",
+          "url": "https://www.01net.com/actualites/claude-pourra-bientot-acceder-a-vos-comptes-bancaires-voici-tout-ce-dont-lia-sera-capable.html",
+          "summary": "Anthropic lance une nouvelle fonctionnalité permettant à Claude d’analyser les comptes bancaires de ses utilisateurs et de les aider à mieux gérer leur budget. L’entreprise américaine assure que Claude ne sera pas capable de toucher à le...",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         }
       ]
