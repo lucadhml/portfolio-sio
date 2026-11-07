@@ -1,5 +1,5 @@
 window.VEILLE_DATA = {
-  "updatedAt": "2026-11-06",
+  "updatedAt": "2026-11-07",
   "methodologie": {
     "title": "Méthodologie de veille",
     "summary": "Ma veille technologique repose sur plusieurs sources complémentaires : IT-Connect, ANSSI et le CERT-FR pour la cybersécurité, 01net et Le Monde Informatique pour l'IA. Chaque jour, un script récupère automatiquement les nouvelles publications, calcule un score de pertinence par mots-clés, et sélectionne les 4 meilleures entrées par thème.",
@@ -77,19 +77,19 @@ window.VEILLE_DATA = {
           "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
         },
         {
-          "date": "4 novembre 2026",
-          "title": "Patch gap : Mozilla va décaler les correctifs de Firefox pour empêcher l’IA de les transformer en exploits",
-          "source": "IT-Connect",
-          "url": "https://www.it-connect.fr/firefox-patch-gap-ia-correctifs-mozilla/",
-          "summary": "Un correctif visible dans le code, mais pas encore sur vos postes : une brèche que l’IA sait désormais exploiter dans Firefox. Mozilla riposte. Voici comment.",
-          "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
-        },
-        {
           "date": "2 avril 2026",
           "title": "Expiration de certificats Secure Boot en juin 2026 (02 avril 2026)",
           "source": "CERT-FR",
           "url": "https://www.cert.cyber.gouv.fr/actualite/CERTFR-2026-ACT-014/",
           "summary": "Le démarrage sécurisé (UEFI Secure Boot) est une fonctionnalité de sécurité disponible sur les ordinateurs PC clients et serveurs depuis 2011. Son rôle est de sécuriser la séquence de démarrage de l’appareil, en vérifiant l’intégrité du...",
+          "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
+        },
+        {
+          "date": "6 novembre 2026",
+          "title": "*sshole : sur Alpine Linux, un mot de passe trop long peut mener à un accès root via SSH",
+          "source": "IT-Connect",
+          "url": "https://www.it-connect.fr/faille-openssh-musl-sshhole-alpine-linux/",
+          "summary": "La faille *sshole (CVE-2026-123158) ouvre en SSH, avec un mot de passe trop long, des comptes Linux sans mot de passe. Alpine Linux est le premier concerné.",
           "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
         }
       ]
@@ -119,22 +119,6 @@ window.VEILLE_DATA = {
       "entries": [
         {
           "date": "6 novembre 2026",
-          "title": "« Critique » : OpenAI lance GPT-6 Cyber, son IA la plus dangereuse à ce jour",
-          "source": "01net",
-          "url": "https://www.01net.com/actualites/critique-openai-lance-gpt-6-cyber-son-ia-la-plus-dangereuse-a-ce-jour.html",
-          "summary": "OpenAI vient de lancer GPT-6 Cyber, une nouvelle intelligence artificielle spécialisée dans la cybersécurité. Le modèle d'IA a déjà débusqué des centaines de failles dans Linux et Firefox. Jugée trop dangereuse pour le grand public, l’IA...",
-          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
-        },
-        {
-          "date": "6 novembre 2026",
-          "title": "GIF animés et images plus rapides : ChatGPT passe la seconde avec Images 2.6",
-          "source": "01net",
-          "url": "https://www.01net.com/actualites/gif-animes-et-images-plus-rapides-chatgpt-passe-la-seconde-avec-images-2-6.html",
-          "summary": "Des GIF en une phrase, des images générées plus vite : OpenAI soigne la vitrine. Les comptes gratuits, eux, composeront avec la publicité installée juste à côté.",
-          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
-        },
-        {
-          "date": "6 novembre 2026",
           "title": "Faux événements OpenAI, SpaceX et Anthropic : ce phishing vole les comptes Microsoft et Google",
           "source": "IT-Connect",
           "url": "https://www.it-connect.fr/faux-evenements-openai-spacex-phishing-microsoft-google/",
@@ -147,6 +131,22 @@ window.VEILLE_DATA = {
           "source": "01net",
           "url": "https://www.01net.com/actualites/claude-pourra-bientot-acceder-a-vos-comptes-bancaires-voici-tout-ce-dont-lia-sera-capable.html",
           "summary": "Anthropic lance une nouvelle fonctionnalité permettant à Claude d’analyser les comptes bancaires de ses utilisateurs et de les aider à mieux gérer leur budget. L’entreprise américaine assure que Claude ne sera pas capable de toucher à le...",
+          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
+        },
+        {
+          "date": "6 novembre 2026",
+          "title": "OpenAI lance GPT-6 Cyber : son modèle IA taillé pour trouver et exploiter des failles",
+          "source": "IT-Connect",
+          "url": "https://www.it-connect.fr/openai-gpt-6-cyber-exploits-linux-firefox-daybreak-red/",
+          "summary": "OpenAI lance GPT-6 Cyber, réservé à Daybreak Red : 948 exploits Linux, 81 failles graves dans Firefox et un modèle entraîné à rester dans son périmètre.",
+          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
+        },
+        {
+          "date": "7 novembre 2026",
+          "title": "J’ai passé des semaines avec le Chromebook offert aux lycéens : ce n’est pas la machine qui me gêne, c’est Google",
+          "source": "01net",
+          "url": "https://www.01net.com/actualites/jai-passe-des-semaines-avec-le-chromebook-offert-aux-lyceens-ce-nest-pas-la-machine-qui-me-gene-cest-google.html",
+          "summary": "Après plusieurs semaines avec l’Asus Chromebook CM14, le modèle offert aux lycéens d’Île-de-France et des Pays de la Loire, le constat est plutôt positif sur le plan matériel. En revanche, ChromeOS et l’ombre de Google qui plane désormai...",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         }
       ]
