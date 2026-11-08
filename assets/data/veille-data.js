@@ -1,5 +1,5 @@
 window.VEILLE_DATA = {
-  "updatedAt": "2026-11-07",
+  "updatedAt": "2026-11-08",
   "methodologie": {
     "title": "Méthodologie de veille",
     "summary": "Ma veille technologique repose sur plusieurs sources complémentaires : IT-Connect, ANSSI et le CERT-FR pour la cybersécurité, 01net et Le Monde Informatique pour l'IA. Chaque jour, un script récupère automatiquement les nouvelles publications, calcule un score de pertinence par mots-clés, et sélectionne les 4 meilleures entrées par thème.",
@@ -127,14 +127,6 @@ window.VEILLE_DATA = {
         },
         {
           "date": "6 novembre 2026",
-          "title": "Claude pourra bientôt accéder à vos comptes bancaires : voici tout ce dont l’IA sera capable",
-          "source": "01net",
-          "url": "https://www.01net.com/actualites/claude-pourra-bientot-acceder-a-vos-comptes-bancaires-voici-tout-ce-dont-lia-sera-capable.html",
-          "summary": "Anthropic lance une nouvelle fonctionnalité permettant à Claude d’analyser les comptes bancaires de ses utilisateurs et de les aider à mieux gérer leur budget. L’entreprise américaine assure que Claude ne sera pas capable de toucher à le...",
-          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
-        },
-        {
-          "date": "6 novembre 2026",
           "title": "OpenAI lance GPT-6 Cyber : son modèle IA taillé pour trouver et exploiter des failles",
           "source": "IT-Connect",
           "url": "https://www.it-connect.fr/openai-gpt-6-cyber-exploits-linux-firefox-daybreak-red/",
@@ -147,6 +139,14 @@ window.VEILLE_DATA = {
           "source": "01net",
           "url": "https://www.01net.com/actualites/jai-passe-des-semaines-avec-le-chromebook-offert-aux-lyceens-ce-nest-pas-la-machine-qui-me-gene-cest-google.html",
           "summary": "Après plusieurs semaines avec l’Asus Chromebook CM14, le modèle offert aux lycéens d’Île-de-France et des Pays de la Loire, le constat est plutôt positif sur le plan matériel. En revanche, ChromeOS et l’ombre de Google qui plane désormai...",
+          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
+        },
+        {
+          "date": "7 novembre 2026",
+          "title": "LiberNT : ni Windows, ni Linux, qu’est-ce que cet OS open source ?",
+          "source": "IT-Connect",
+          "url": "https://www.it-connect.fr/libernt-test-os-libre-windows-11/",
+          "summary": "J’ai testé LiberNT dans une machine virtuelle, un OS libre basé sur ReactOS qui veut ressembler à Windows 11 : bureau, applications et même un terminal Linux.",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         }
       ]
