@@ -1,5 +1,5 @@
 window.VEILLE_DATA = {
-  "updatedAt": "2026-11-08",
+  "updatedAt": "2026-11-09",
   "methodologie": {
     "title": "Méthodologie de veille",
     "summary": "Ma veille technologique repose sur plusieurs sources complémentaires : IT-Connect, ANSSI et le CERT-FR pour la cybersécurité, 01net et Le Monde Informatique pour l'IA. Chaque jour, un script récupère automatiquement les nouvelles publications, calcule un score de pertinence par mots-clés, et sélectionne les 4 meilleures entrées par thème.",
@@ -134,19 +134,19 @@ window.VEILLE_DATA = {
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
-          "date": "7 novembre 2026",
-          "title": "J’ai passé des semaines avec le Chromebook offert aux lycéens : ce n’est pas la machine qui me gêne, c’est Google",
+          "date": "9 novembre 2026",
+          "title": "Siri AI devrait changer en 2027 : chez Apple, l’IA divise déjà la direction",
           "source": "01net",
-          "url": "https://www.01net.com/actualites/jai-passe-des-semaines-avec-le-chromebook-offert-aux-lyceens-ce-nest-pas-la-machine-qui-me-gene-cest-google.html",
-          "summary": "Après plusieurs semaines avec l’Asus Chromebook CM14, le modèle offert aux lycéens d’Île-de-France et des Pays de la Loire, le constat est plutôt positif sur le plan matériel. En revanche, ChromeOS et l’ombre de Google qui plane désormai...",
+          "url": "https://www.01net.com/actualites/chez-apple-ia-divise-deja-direction-siri-ai-beaucoup-changer-2027.html",
+          "summary": "Deux mois après son arrivée, le nouveau patron d'Apple a réclamé à son bras droit du logiciel une IA nettement plus offensive. Derrière la passe d'armes, une question très concrète : ce que Siri pourra faire, et où.",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
-          "date": "7 novembre 2026",
-          "title": "LiberNT : ni Windows, ni Linux, qu’est-ce que cet OS open source ?",
-          "source": "IT-Connect",
-          "url": "https://www.it-connect.fr/libernt-test-os-libre-windows-11/",
-          "summary": "J’ai testé LiberNT dans une machine virtuelle, un OS libre basé sur ReactOS qui veut ressembler à Windows 11 : bureau, applications et même un terminal Linux.",
+          "date": "9 novembre 2026",
+          "title": "Smartphones Galaxy : Samsung teste un abonnement payant pour ses outils IA",
+          "source": "01net",
+          "url": "https://www.01net.com/actualites/galaxy-ai-premium-samsung-teste-abonnement-payant-pour-ses-outils-ia.html",
+          "summary": "Samsung semble préparer un abonnement payant nommé « Galaxy AI Premium » qui implique que certaines fonctionnalités seraient gratuites et d’autres seraient réservées à ceux qui mettent la main au portefeuille.",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         }
       ]
