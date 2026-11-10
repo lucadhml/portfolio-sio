@@ -1,5 +1,5 @@
 window.VEILLE_DATA = {
-  "updatedAt": "2026-11-09",
+  "updatedAt": "2026-11-10",
   "methodologie": {
     "title": "Méthodologie de veille",
     "summary": "Ma veille technologique repose sur plusieurs sources complémentaires : IT-Connect, ANSSI et le CERT-FR pour la cybersécurité, 01net et Le Monde Informatique pour l'IA. Chaque jour, un script récupère automatiquement les nouvelles publications, calcule un score de pertinence par mots-clés, et sélectionne les 4 meilleures entrées par thème.",
@@ -85,11 +85,11 @@ window.VEILLE_DATA = {
           "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
         },
         {
-          "date": "6 novembre 2026",
-          "title": "*sshole : sur Alpine Linux, un mot de passe trop long peut mener à un accès root via SSH",
+          "date": "9 novembre 2026",
+          "title": "SonicWall : une faille dans le VPN SSL permet de contourner le MFA et elle est exploitée",
           "source": "IT-Connect",
-          "url": "https://www.it-connect.fr/faille-openssh-musl-sshhole-alpine-linux/",
-          "summary": "La faille *sshole (CVE-2026-123158) ouvre en SSH, avec un mot de passe trop long, des comptes Linux sans mot de passe. Alpine Linux est le premier concerné.",
+          "url": "https://www.it-connect.fr/sonicwall-vpn-ssl-faille-saml-mfa-cve-2026-19868/",
+          "summary": "Une faille exploitée dans le VPN SSL des firewalls SonicWall peut permettre de contourner SAML et le MFA associé. Qui est affecté ? Comment se protoéger ?",
           "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
         }
       ]
@@ -118,6 +118,14 @@ window.VEILLE_DATA = {
       ],
       "entries": [
         {
+          "date": "10 novembre 2026",
+          "title": "Orange annonce une app gratuite tout-en-un qui permet de discuter avec ChatGPT, Claude ou Gemini",
+          "source": "01net",
+          "url": "https://www.01net.com/actualites/orange-annonce-une-app-gratuite-tout-en-un-qui-permet-de-discuter-avec-chatgpt-claude-ou-gemini.html",
+          "summary": "À partir du 19 novembre, Orange remplacera ses applications « Orange et moi » et « MySosh » par deux nouvelles applications. L’opérateur lance également Orange IAs et sa version premium, deux services qui permettent d’accéder à plusieurs...",
+          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
+        },
+        {
           "date": "6 novembre 2026",
           "title": "Faux événements OpenAI, SpaceX et Anthropic : ce phishing vole les comptes Microsoft et Google",
           "source": "IT-Connect",
@@ -126,27 +134,19 @@ window.VEILLE_DATA = {
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
-          "date": "6 novembre 2026",
-          "title": "OpenAI lance GPT-6 Cyber : son modèle IA taillé pour trouver et exploiter des failles",
-          "source": "IT-Connect",
-          "url": "https://www.it-connect.fr/openai-gpt-6-cyber-exploits-linux-firefox-daybreak-red/",
-          "summary": "OpenAI lance GPT-6 Cyber, réservé à Daybreak Red : 948 exploits Linux, 81 failles graves dans Firefox et un modèle entraîné à rester dans son périmètre.",
+          "date": "10 novembre 2026",
+          "title": "Emmanuel Macron fait signer un engagement international aux rois de l’IA",
+          "source": "01net",
+          "url": "https://www.01net.com/actualites/emmanuel-macron-fait-signer-un-engagement-international-aux-rois-de-lia.html",
+          "summary": "Emmanuel Macron a réuni plusieurs grands patrons de l’IA et des représentants internationaux pour signer une charte visant à mieux encadrer les risques liés aux modèles de pointe. Le président de la République envisage également d’interd...",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
-          "date": "9 novembre 2026",
-          "title": "Siri AI devrait changer en 2027 : chez Apple, l’IA divise déjà la direction",
+          "date": "10 novembre 2026",
+          "title": "Facebook, Instagram, Threads : Meta déploie la vérification d’âge par IA dans le monde entier",
           "source": "01net",
-          "url": "https://www.01net.com/actualites/chez-apple-ia-divise-deja-direction-siri-ai-beaucoup-changer-2027.html",
-          "summary": "Deux mois après son arrivée, le nouveau patron d'Apple a réclamé à son bras droit du logiciel une IA nettement plus offensive. Derrière la passe d'armes, une question très concrète : ce que Siri pourra faire, et où.",
-          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
-        },
-        {
-          "date": "9 novembre 2026",
-          "title": "Smartphones Galaxy : Samsung teste un abonnement payant pour ses outils IA",
-          "source": "01net",
-          "url": "https://www.01net.com/actualites/galaxy-ai-premium-samsung-teste-abonnement-payant-pour-ses-outils-ia.html",
-          "summary": "Samsung semble préparer un abonnement payant nommé « Galaxy AI Premium » qui implique que certaines fonctionnalités seraient gratuites et d’autres seraient réservées à ceux qui mettent la main au portefeuille.",
+          "url": "https://www.01net.com/actualites/facebook-instagram-threads-meta-deploie-la-verification-dage-par-ia-dans-le-monde-entier.html",
+          "summary": "Meta étend son système de vérification d’âge par intelligence artificielle à l'échelle mondiale. Cette initiative doit permettre de détecter les jeunes utilisateurs qui contournent les restrictions en soumettant une fausse date d’anniver...",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         }
       ]
