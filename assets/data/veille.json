@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-10",
+  "updatedAt": "2026-11-11",
   "methodologie": {
     "title": "Méthodologie de veille",
     "summary": "Ma veille technologique repose sur plusieurs sources complémentaires : IT-Connect, ANSSI et le CERT-FR pour la cybersécurité, 01net et Le Monde Informatique pour l'IA. Chaque jour, un script récupère automatiquement les nouvelles publications, calcule un score de pertinence par mots-clés, et sélectionne les 4 meilleures entrées par thème.",
@@ -61,6 +61,14 @@
       ],
       "entries": [
         {
+          "date": "11 novembre 2026",
+          "title": "Patch Tuesday – Novembre 2026 : 1 093 failles corrigées, dont une faille zero-day dans Outlook",
+          "source": "IT-Connect",
+          "url": "https://www.it-connect.fr/patch-tuesday-novembre-2026-recapitulatif/",
+          "summary": "Microsoft a corrigé 1 093 failles avec le Patch Tuesday de novembre 2026. Une faille zero-day est déjà exploitée dans Outlook : voici le récapitulatif complet.",
+          "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
+        },
+        {
           "date": "21 juillet 2026",
           "title": "Exigences du CRA : processus de notification pour les organismes notifiés",
           "source": "ANSSI",
@@ -82,14 +90,6 @@
           "source": "CERT-FR",
           "url": "https://www.cert.cyber.gouv.fr/actualite/CERTFR-2026-ACT-014/",
           "summary": "Le démarrage sécurisé (UEFI Secure Boot) est une fonctionnalité de sécurité disponible sur les ordinateurs PC clients et serveurs depuis 2011. Son rôle est de sécuriser la séquence de démarrage de l’appareil, en vérifiant l’intégrité du...",
-          "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
-        },
-        {
-          "date": "9 novembre 2026",
-          "title": "SonicWall : une faille dans le VPN SSL permet de contourner le MFA et elle est exploitée",
-          "source": "IT-Connect",
-          "url": "https://www.it-connect.fr/sonicwall-vpn-ssl-faille-saml-mfa-cve-2026-19868/",
-          "summary": "Une faille exploitée dans le VPN SSL des firewalls SonicWall peut permettre de contourner SAML et le MFA associé. Qui est affecté ? Comment se protoéger ?",
           "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
         }
       ]
@@ -119,34 +119,34 @@
       "entries": [
         {
           "date": "10 novembre 2026",
-          "title": "Orange annonce une app gratuite tout-en-un qui permet de discuter avec ChatGPT, Claude ou Gemini",
-          "source": "01net",
-          "url": "https://www.01net.com/actualites/orange-annonce-une-app-gratuite-tout-en-un-qui-permet-de-discuter-avec-chatgpt-claude-ou-gemini.html",
-          "summary": "À partir du 19 novembre, Orange remplacera ses applications « Orange et moi » et « MySosh » par deux nouvelles applications. L’opérateur lance également Orange IAs et sa version premium, deux services qui permettent d’accéder à plusieurs...",
-          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
-        },
-        {
-          "date": "6 novembre 2026",
-          "title": "Faux événements OpenAI, SpaceX et Anthropic : ce phishing vole les comptes Microsoft et Google",
+          "title": "Claude Fable 5.2 a codé un système d’exploitation en 8 jours avec plus de 1 000 sous-agents",
           "source": "IT-Connect",
-          "url": "https://www.it-connect.fr/faux-evenements-openai-spacex-phishing-microsoft-google/",
-          "summary": "Trois mois de ChatGPT Pro offerts pour une simple inscription ? Cette fausse invitation OpenAI sert à pirater votre compte Microsoft ou Google, MFA compris.",
+          "url": "https://www.it-connect.fr/claude-fable-5-2-systeme-exploitation-1000-sous-agents/",
+          "summary": "Anthropic a dévoilé Claude Fable 5.2 (et Mythos 5.2), et à cette occasion, l’IA a créée un système d’exploitation en huit jours avec plus de 1 000 sous-agents.",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
-          "date": "10 novembre 2026",
-          "title": "Emmanuel Macron fait signer un engagement international aux rois de l’IA",
+          "date": "11 novembre 2026",
+          "title": "Mercedes lance une IA embarquée qui fonctionne même sans réseau : ce qui change pour les conducteurs",
           "source": "01net",
-          "url": "https://www.01net.com/actualites/emmanuel-macron-fait-signer-un-engagement-international-aux-rois-de-lia.html",
-          "summary": "Emmanuel Macron a réuni plusieurs grands patrons de l’IA et des représentants internationaux pour signer une charte visant à mieux encadrer les risques liés aux modèles de pointe. Le président de la République envisage également d’interd...",
+          "url": "https://www.01net.com/actualites/mercedes-nouvelle-ia-embarquee-fonctionne-sans-reseau-change-conducteurs.html",
+          "summary": "Mercedes voit plus loin pour ses futurs modèles avec une nouvelle IA plus performante. Conçu avec l’entreprise américaine Liquid AI, ce dispositif pourra fonctionner à bord en circuit fermé sans avoir à passer par le cloud, ce qui apport...",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
-          "date": "10 novembre 2026",
-          "title": "Facebook, Instagram, Threads : Meta déploie la vérification d’âge par IA dans le monde entier",
+          "date": "11 novembre 2026",
+          "title": "Claude « copie » Office avec Sheets et Whiteboards : Anthropic attaque Microsoft sur son propre terrain",
           "source": "01net",
-          "url": "https://www.01net.com/actualites/facebook-instagram-threads-meta-deploie-la-verification-dage-par-ia-dans-le-monde-entier.html",
-          "summary": "Meta étend son système de vérification d’âge par intelligence artificielle à l'échelle mondiale. Cette initiative doit permettre de détecter les jeunes utilisateurs qui contournent les restrictions en soumettant une fausse date d’anniver...",
+          "url": "https://www.01net.com/actualites/claude-copie-office-avec-sheets-et-whiteboards-anthropic-attaque-microsoft-sur-son-propre-terrain.html",
+          "summary": "Anthropic a lancé Claude Sheet et Claude Whiteboards, deux outils en bêta qui transforment Claude en une suite bureautique. De quoi marcher sur les platebandes d'un certain Microsoft, qui intègre pourtant Claude Cowork dans Microsoft 365...",
+          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
+        },
+        {
+          "date": "11 novembre 2026",
+          "title": "Le Pixel 10a joue les kamikazes et sacrifie 37% de son prix (AMOLED, 120 Hz, Tensor G4, Gemini) 💣",
+          "source": "01net",
+          "url": "https://www.01net.com/bons-plans/le-pixel-10a-joue-les-kamikazes-et-sacrifie-50-de-son-prix-amoled-120-hz-tensor-g4-gemini.html",
+          "summary": "Le Single Day ne nous a visiblement pas encore livré toutes ses surprises, et ce 11 novembre au matin a levé le voile sur de nouvelles pépites. C'est l'occasion rêvée de vous équiper d'un téléphone fluide au quotidien, doué dans l'exerci...",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         }
       ]
