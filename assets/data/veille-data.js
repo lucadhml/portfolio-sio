@@ -1,5 +1,5 @@
 window.VEILLE_DATA = {
-  "updatedAt": "2026-11-11",
+  "updatedAt": "2026-11-12",
   "methodologie": {
     "title": "Méthodologie de veille",
     "summary": "Ma veille technologique repose sur plusieurs sources complémentaires : IT-Connect, ANSSI et le CERT-FR pour la cybersécurité, 01net et Le Monde Informatique pour l'IA. Chaque jour, un script récupère automatiquement les nouvelles publications, calcule un score de pertinence par mots-clés, et sélectionne les 4 meilleures entrées par thème.",
@@ -118,6 +118,22 @@ window.VEILLE_DATA = {
       ],
       "entries": [
         {
+          "date": "12 novembre 2026",
+          "title": "Pour rester en France, ChatGPT et Gemini pourraient devoir passer un examen",
+          "source": "01net",
+          "url": "https://www.01net.com/actualites/pour-rester-en-france-chatgpt-et-gemini-pourraient-devoir-passer-un-examen.html",
+          "summary": "Neuf experts mandatés par l'exécutif veulent soumettre les intelligences artificielles grand public à une évaluation avant leur commercialisation, sur le modèle du médicament. Leur rapport dresse le portrait de machines conçues pour flat...",
+          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
+        },
+        {
+          "date": "12 novembre 2026",
+          "title": "Impôts : le fisc a un nouvel outil dopé à l’IA pour repérer votre abri de jardin non déclaré",
+          "source": "01net",
+          "url": "https://www.01net.com/actualites/impots-fisc-nouvel-outil-dope-ia-pour-reperer-votre-abri-jardin-non-declare.html",
+          "summary": "Le fisc resserre l'étau sur les abris de jardin grâce à un outil de cartographie dopé à l'intelligence artificielle. Une nouvelle campagne de contrôle cible désormais les propriétaires dans toute la France.",
+          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
+        },
+        {
           "date": "10 novembre 2026",
           "title": "Claude Fable 5.2 a codé un système d’exploitation en 8 jours avec plus de 1 000 sous-agents",
           "source": "IT-Connect",
@@ -126,27 +142,11 @@ window.VEILLE_DATA = {
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
-          "date": "11 novembre 2026",
-          "title": "Mercedes lance une IA embarquée qui fonctionne même sans réseau : ce qui change pour les conducteurs",
+          "date": "12 novembre 2026",
+          "title": "Anthropic offre un reset gratuit des limites de Claude à ses abonnés, voici comment en profiter",
           "source": "01net",
-          "url": "https://www.01net.com/actualites/mercedes-nouvelle-ia-embarquee-fonctionne-sans-reseau-change-conducteurs.html",
-          "summary": "Mercedes voit plus loin pour ses futurs modèles avec une nouvelle IA plus performante. Conçu avec l’entreprise américaine Liquid AI, ce dispositif pourra fonctionner à bord en circuit fermé sans avoir à passer par le cloud, ce qui apport...",
-          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
-        },
-        {
-          "date": "11 novembre 2026",
-          "title": "Claude « copie » Office avec Sheets et Whiteboards : Anthropic attaque Microsoft sur son propre terrain",
-          "source": "01net",
-          "url": "https://www.01net.com/actualites/claude-copie-office-avec-sheets-et-whiteboards-anthropic-attaque-microsoft-sur-son-propre-terrain.html",
-          "summary": "Anthropic a lancé Claude Sheet et Claude Whiteboards, deux outils en bêta qui transforment Claude en une suite bureautique. De quoi marcher sur les platebandes d'un certain Microsoft, qui intègre pourtant Claude Cowork dans Microsoft 365...",
-          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
-        },
-        {
-          "date": "11 novembre 2026",
-          "title": "Le Pixel 10a joue les kamikazes et sacrifie 37% de son prix (AMOLED, 120 Hz, Tensor G4, Gemini) 💣",
-          "source": "01net",
-          "url": "https://www.01net.com/bons-plans/le-pixel-10a-joue-les-kamikazes-et-sacrifie-50-de-son-prix-amoled-120-hz-tensor-g4-gemini.html",
-          "summary": "Le Single Day ne nous a visiblement pas encore livré toutes ses surprises, et ce 11 novembre au matin a levé le voile sur de nouvelles pépites. C'est l'occasion rêvée de vous équiper d'un téléphone fluide au quotidien, doué dans l'exerci...",
+          "url": "https://www.01net.com/actualites/anthropic-offre-un-reset-gratuit-des-limites-de-claude-a-ses-abonnes-voici-comment-en-profiter.html",
+          "summary": "Anthropic offre une réinitialisation gratuite et complète des limites d’utilisation à tous les abonnés payants de Claude (Pro, Max, Ultra et Team). Cette opération est disponible jusqu’au 10 décembre et permet de recharger l’ensemble des...",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         }
       ]
