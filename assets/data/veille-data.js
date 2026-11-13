@@ -1,5 +1,5 @@
 window.VEILLE_DATA = {
-  "updatedAt": "2026-11-12",
+  "updatedAt": "2026-11-13",
   "methodologie": {
     "title": "Méthodologie de veille",
     "summary": "Ma veille technologique repose sur plusieurs sources complémentaires : IT-Connect, ANSSI et le CERT-FR pour la cybersécurité, 01net et Le Monde Informatique pour l'IA. Chaque jour, un script récupère automatiquement les nouvelles publications, calcule un score de pertinence par mots-clés, et sélectionne les 4 meilleures entrées par thème.",
@@ -61,19 +61,19 @@ window.VEILLE_DATA = {
       ],
       "entries": [
         {
-          "date": "11 novembre 2026",
-          "title": "Patch Tuesday – Novembre 2026 : 1 093 failles corrigées, dont une faille zero-day dans Outlook",
-          "source": "IT-Connect",
-          "url": "https://www.it-connect.fr/patch-tuesday-novembre-2026-recapitulatif/",
-          "summary": "Microsoft a corrigé 1 093 failles avec le Patch Tuesday de novembre 2026. Une faille zero-day est déjà exploitée dans Outlook : voici le récapitulatif complet.",
-          "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
-        },
-        {
           "date": "21 juillet 2026",
           "title": "Exigences du CRA : processus de notification pour les organismes notifiés",
           "source": "ANSSI",
           "url": "https://cyber.gouv.fr/actualites/exigences-du-cra-processus-de-notification-pour-les-organismes-notifies/",
           "summary": "Dans un contexte marqué par l’exploitation croissante de vulnérabilités affectant des produits numériques ayant un niveau de cybersécurité insuffisant, le […]",
+          "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
+        },
+        {
+          "date": "12 novembre 2026",
+          "title": "Serveurs Apache : cette faille critique dans HTTP/2 permet d’exécuter du code à distance",
+          "source": "IT-Connect",
+          "url": "https://www.it-connect.fr/faille-apache-http2-cve-2026-119618-rce/",
+          "summary": "CVE-2026-119618 : une faille critique dans le module HTTP/2 d’Apache permet d’exécuter du code à distance. Voici comment protéger votre serveur Web.",
           "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
         },
         {
@@ -118,35 +118,35 @@ window.VEILLE_DATA = {
       ],
       "entries": [
         {
-          "date": "12 novembre 2026",
-          "title": "Pour rester en France, ChatGPT et Gemini pourraient devoir passer un examen",
+          "date": "13 novembre 2026",
+          "title": "Panne Microsoft : ChatGPT et Claude également touchés, et ils ne sont pas les seuls",
           "source": "01net",
-          "url": "https://www.01net.com/actualites/pour-rester-en-france-chatgpt-et-gemini-pourraient-devoir-passer-un-examen.html",
-          "summary": "Neuf experts mandatés par l'exécutif veulent soumettre les intelligences artificielles grand public à une évaluation avant leur commercialisation, sur le modèle du médicament. Leur rapport dresse le portrait de machines conçues pour flat...",
+          "url": "https://www.01net.com/actualites/panne-microsoft-chatgpt-et-claude-egalement-touches-et-ils-ne-sont-pas-les-seuls.html",
+          "summary": "La panne géante d’Exchange Online, qui prive depuis jeudi soir des millions d’utilisateurs de leur messagerie Outlook, a des effets en cascade bien au-delà de Microsoft.",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
-          "date": "12 novembre 2026",
-          "title": "Impôts : le fisc a un nouvel outil dopé à l’IA pour repérer votre abri de jardin non déclaré",
-          "source": "01net",
-          "url": "https://www.01net.com/actualites/impots-fisc-nouvel-outil-dope-ia-pour-reperer-votre-abri-jardin-non-declare.html",
-          "summary": "Le fisc resserre l'étau sur les abris de jardin grâce à un outil de cartographie dopé à l'intelligence artificielle. Une nouvelle campagne de contrôle cible désormais les propriétaires dans toute la France.",
-          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
-        },
-        {
-          "date": "10 novembre 2026",
-          "title": "Claude Fable 5.2 a codé un système d’exploitation en 8 jours avec plus de 1 000 sous-agents",
+          "date": "13 novembre 2026",
+          "title": "Claude Meetings : Anthropic envoie son IA dans vos réunions Google Meet",
           "source": "IT-Connect",
-          "url": "https://www.it-connect.fr/claude-fable-5-2-systeme-exploitation-1000-sous-agents/",
-          "summary": "Anthropic a dévoilé Claude Fable 5.2 (et Mythos 5.2), et à cette occasion, l’IA a créée un système d’exploitation en huit jours avec plus de 1 000 sous-agents.",
+          "url": "https://www.it-connect.fr/claude-meetings-anthropic-google-meet/",
+          "summary": "Anthropic lance Claude Meetings en bêta : l’IA rejoint vos réunions Google Meet, prend des notes et crée des documents. Disponibilité, réglages et limites.",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
-          "date": "12 novembre 2026",
-          "title": "Anthropic offre un reset gratuit des limites de Claude à ses abonnés, voici comment en profiter",
+          "date": "13 novembre 2026",
+          "title": "Hugging Face perd son meilleur allié pour l’IA open source chez Nvidia, deux mois après le rachat",
           "source": "01net",
-          "url": "https://www.01net.com/actualites/anthropic-offre-un-reset-gratuit-des-limites-de-claude-a-ses-abonnes-voici-comment-en-profiter.html",
-          "summary": "Anthropic offre une réinitialisation gratuite et complète des limites d’utilisation à tous les abonnés payants de Claude (Pro, Max, Ultra et Team). Cette opération est disponible jusqu’au 10 décembre et permet de recharger l’ensemble des...",
+          "url": "https://www.01net.com/actualites/hugging-face-perd-son-meilleur-allie-pour-lia-open-source-chez-nvidia-deux-mois-apres-le-rachat.html",
+          "summary": "La démission de Jensen Huang laisse Hugging Face face à un acquéreur sans visage. La plateforme aux trois millions de modèles avait négocié son rachat avec un patron militant de l'IA ouverte. Son successeur n'a encore rien promis.",
+          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
+        },
+        {
+          "date": "13 novembre 2026",
+          "title": "Panne Microsoft : la messagerie Outlook et Teams commencent à se rétablir, ce que l’on sait",
+          "source": "01net",
+          "url": "https://www.01net.com/actualites/panne-outlook-la-messagerie-de-microsoft-toujours-inaccessible-ce-vendredi-ce-que-lon-sait.html",
+          "summary": "Depuis jeudi soir, une panne mondiale de Microsoft 365 empêche de nombreux utilisateurs d’accéder à leurs e-mails Outlook et perturbe Teams, SharePoint ou Copilot. Après près de 24 heures de perturbations, la situation s’améliore netteme...",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         }
       ]
