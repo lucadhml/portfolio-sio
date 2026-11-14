@@ -1,5 +1,5 @@
 window.VEILLE_DATA = {
-  "updatedAt": "2026-11-13",
+  "updatedAt": "2026-11-14",
   "methodologie": {
     "title": "Méthodologie de veille",
     "summary": "Ma veille technologique repose sur plusieurs sources complémentaires : IT-Connect, ANSSI et le CERT-FR pour la cybersécurité, 01net et Le Monde Informatique pour l'IA. Chaque jour, un script récupère automatiquement les nouvelles publications, calcule un score de pertinence par mots-clés, et sélectionne les 4 meilleures entrées par thème.",
@@ -134,19 +134,19 @@ window.VEILLE_DATA = {
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
-          "date": "13 novembre 2026",
-          "title": "Hugging Face perd son meilleur allié pour l’IA open source chez Nvidia, deux mois après le rachat",
+          "date": "14 novembre 2026",
+          "title": "Yann Le Cun ne croit pas à la fin du travail, mais en France l’IA freine déjà l’embauche des jeunes",
           "source": "01net",
-          "url": "https://www.01net.com/actualites/hugging-face-perd-son-meilleur-allie-pour-lia-open-source-chez-nvidia-deux-mois-apres-le-rachat.html",
-          "summary": "La démission de Jensen Huang laisse Hugging Face face à un acquéreur sans visage. La plateforme aux trois millions de modèles avait négocié son rachat avec un patron militant de l'IA ouverte. Son successeur n'a encore rien promis.",
+          "url": "https://www.01net.com/actualites/yann-le-cun-ne-croit-pas-a-la-fin-du-travail-mais-en-france-lia-freine-deja-lembauche-des-jeunes.html",
+          "summary": "Le travail ne va pas disparaître avec l'IA : le chercheur français balaie les prophéties de chômage de masse venues de la Silicon Valley. Les données françaises racontent une histoire plus nuancée, où les jeunes paient l'addition les pre...",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
-          "date": "13 novembre 2026",
-          "title": "Panne Microsoft : la messagerie Outlook et Teams commencent à se rétablir, ce que l’on sait",
+          "date": "14 novembre 2026",
+          "title": "J’ai remplacé mes enceintes Sonos par le système JBL Cove : pari réussi ou fausse note ?",
           "source": "01net",
-          "url": "https://www.01net.com/actualites/panne-outlook-la-messagerie-de-microsoft-toujours-inaccessible-ce-vendredi-ce-que-lon-sait.html",
-          "summary": "Depuis jeudi soir, une panne mondiale de Microsoft 365 empêche de nombreux utilisateurs d’accéder à leurs e-mails Outlook et perturbe Teams, SharePoint ou Copilot. Après près de 24 heures de perturbations, la situation s’améliore netteme...",
+          "url": "https://www.01net.com/actualites/jai-remplace-mes-enceintes-sonos-par-le-systeme-jbl-cove-pari-reussi-ou-fausse-note.html",
+          "summary": "Et si le géant de l'audio nomade venait piétiner les plates-bandes des rois du multiroom ? Après des années de fidélité à Sonos, j’ai fait le grand saut en remplaçant tout mon écosystème par la nouvelle gamme JBL Cove. Entre promesses Do...",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         }
       ]
