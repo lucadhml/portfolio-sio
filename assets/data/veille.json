@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-14",
+  "updatedAt": "2026-11-15",
   "methodologie": {
     "title": "Méthodologie de veille",
     "summary": "Ma veille technologique repose sur plusieurs sources complémentaires : IT-Connect, ANSSI et le CERT-FR pour la cybersécurité, 01net et Le Monde Informatique pour l'IA. Chaque jour, un script récupère automatiquement les nouvelles publications, calcule un score de pertinence par mots-clés, et sélectionne les 4 meilleures entrées par thème.",
@@ -134,19 +134,19 @@
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
-          "date": "14 novembre 2026",
-          "title": "Yann Le Cun ne croit pas à la fin du travail, mais en France l’IA freine déjà l’embauche des jeunes",
+          "date": "15 novembre 2026",
+          "title": "1 h 30 de plus par jour : l’IA devait vous faire gagner du temps, mais ce n’est finalement pas le cas",
           "source": "01net",
-          "url": "https://www.01net.com/actualites/yann-le-cun-ne-croit-pas-a-la-fin-du-travail-mais-en-france-lia-freine-deja-lembauche-des-jeunes.html",
-          "summary": "Le travail ne va pas disparaître avec l'IA : le chercheur français balaie les prophéties de chômage de masse venues de la Silicon Valley. Les données françaises racontent une histoire plus nuancée, où les jeunes paient l'addition les pre...",
+          "url": "https://www.01net.com/actualites/1-h-30-de-plus-par-jour-lia-devait-vous-faire-gagner-du-temps-mais-ce-nest-finalement-pas-le-cas.html",
+          "summary": "Moins d'heures au bureau grâce aux assistants, c'était l'argument de vente. Les données d'activité de milliers de salariés, collectées pendant six mois, racontent une toute autre fin de journée.",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
-          "date": "14 novembre 2026",
-          "title": "J’ai remplacé mes enceintes Sonos par le système JBL Cove : pari réussi ou fausse note ?",
+          "date": "15 novembre 2026",
+          "title": "Google : l’IA capte tant de recherches que des annonceurs n’arrivent plus à dépenser leur budget",
           "source": "01net",
-          "url": "https://www.01net.com/actualites/jai-remplace-mes-enceintes-sonos-par-le-systeme-jbl-cove-pari-reussi-ou-fausse-note.html",
-          "summary": "Et si le géant de l'audio nomade venait piétiner les plates-bandes des rois du multiroom ? Après des années de fidélité à Sonos, j’ai fait le grand saut en remplaçant tout mon écosystème par la nouvelle gamme JBL Cove. Entre promesses Do...",
+          "url": "https://www.01net.com/actualites/google-lia-capte-tant-de-recherches-que-des-annonceurs-narrivent-plus-a-depenser-leur-budget.html",
+          "summary": "Aux États-Unis, des annonceurs voient leurs campagnes tourner à vide, les réponses de l'IA retenant les internautes loin des liens sponsorisés. La France, elle, vit un étrange sursis : le mode IA y reste sans publicité.",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         }
       ]
