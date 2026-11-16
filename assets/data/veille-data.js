@@ -1,5 +1,5 @@
 window.VEILLE_DATA = {
-  "updatedAt": "2026-11-15",
+  "updatedAt": "2026-11-16",
   "methodologie": {
     "title": "Méthodologie de veille",
     "summary": "Ma veille technologique repose sur plusieurs sources complémentaires : IT-Connect, ANSSI et le CERT-FR pour la cybersécurité, 01net et Le Monde Informatique pour l'IA. Chaque jour, un script récupère automatiquement les nouvelles publications, calcule un score de pertinence par mots-clés, et sélectionne les 4 meilleures entrées par thème.",
@@ -118,11 +118,11 @@ window.VEILLE_DATA = {
       ],
       "entries": [
         {
-          "date": "13 novembre 2026",
-          "title": "Panne Microsoft : ChatGPT et Claude également touchés, et ils ne sont pas les seuls",
+          "date": "16 novembre 2026",
+          "title": "Windows 11 sur l’iPhone Duo : ce responsable Google a fait une petite prouesse avec Gemini",
           "source": "01net",
-          "url": "https://www.01net.com/actualites/panne-microsoft-chatgpt-et-claude-egalement-touches-et-ils-ne-sont-pas-les-seuls.html",
-          "summary": "La panne géante d’Exchange Online, qui prive depuis jeudi soir des millions d’utilisateurs de leur messagerie Outlook, a des effets en cascade bien au-delà de Microsoft.",
+          "url": "https://www.01net.com/actualites/windows-11-sur-liphone-duo-ce-responsable-google-a-fait-une-petite-prouesse-avec-gemini.html",
+          "summary": "Un responsable de Google AI Studio fait tourner Windows 11 sur l'iPhone Duo, sans débridage et avec l'aide de Gemini. La promesse d'une fluidité « quasi native » mérite pourtant qu'on lise la notice de montage.",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
@@ -134,19 +134,19 @@ window.VEILLE_DATA = {
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
-          "date": "15 novembre 2026",
-          "title": "1 h 30 de plus par jour : l’IA devait vous faire gagner du temps, mais ce n’est finalement pas le cas",
+          "date": "16 novembre 2026",
+          "title": "Photo, IA, performances : le motorola signature27 frappe fort pour son lancement",
           "source": "01net",
-          "url": "https://www.01net.com/actualites/1-h-30-de-plus-par-jour-lia-devait-vous-faire-gagner-du-temps-mais-ce-nest-finalement-pas-le-cas.html",
-          "summary": "Moins d'heures au bureau grâce aux assistants, c'était l'argument de vente. Les données d'activité de milliers de salariés, collectées pendant six mois, racontent une toute autre fin de journée.",
+          "url": "https://www.01net.com/bons-plans/photo-ia-performances-le-motorola-signature27-frappe-fort-pour-son-lancement.html",
+          "summary": "Motorola met les petits plats dans les grands et présente son nouveau smartphone haut de gamme. Zoom sur le motorola signature27 et son offre de lancement inédite.",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
-          "date": "15 novembre 2026",
-          "title": "Google : l’IA capte tant de recherches que des annonceurs n’arrivent plus à dépenser leur budget",
+          "date": "16 novembre 2026",
+          "title": "J’ai pris en main le Honor Magic 9 Pro Max : pourquoi il fait (presque) oublier l’iPhone",
           "source": "01net",
-          "url": "https://www.01net.com/actualites/google-lia-capte-tant-de-recherches-que-des-annonceurs-narrivent-plus-a-depenser-leur-budget.html",
-          "summary": "Aux États-Unis, des annonceurs voient leurs campagnes tourner à vide, les réponses de l'IA retenant les internautes loin des liens sponsorisés. La France, elle, vit un étrange sursis : le mode IA y reste sans publicité.",
+          "url": "https://www.01net.com/actualites/prise-en-main-honor-magic-9-avis.html",
+          "summary": "Avant même son lancement en France, nous avons pu prendre en main le Honor Magic 9 Pro Max, un smartphone qui change radicalement de cap esthétique avec un châssis unibody et des bordures particulièrement fines. Entre inspiration assumée...",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         }
       ]
