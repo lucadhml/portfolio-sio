@@ -1,5 +1,5 @@
 window.VEILLE_DATA = {
-  "updatedAt": "2026-11-17",
+  "updatedAt": "2026-11-18",
   "methodologie": {
     "title": "Méthodologie de veille",
     "summary": "Ma veille technologique repose sur plusieurs sources complémentaires : IT-Connect, ANSSI et le CERT-FR pour la cybersécurité, 01net et Le Monde Informatique pour l'IA. Chaque jour, un script récupère automatiquement les nouvelles publications, calcule un score de pertinence par mots-clés, et sélectionne les 4 meilleures entrées par thème.",
@@ -118,35 +118,35 @@ window.VEILLE_DATA = {
       ],
       "entries": [
         {
-          "date": "17 novembre 2026",
-          "title": "Apple serre la vis aux IA qui fouillent dans les fichiers de votre Mac",
+          "date": "18 novembre 2026",
+          "title": "Pour rivaliser avec ChatGPT et Claude, Microsoft dévoile 7 nouvelles IA à prix cassé",
           "source": "01net",
-          "url": "https://www.01net.com/actualites/apple-serre-vis-face-ia-fouillent-fichiers-mac.html",
-          "summary": "Apple prend les devants face aux dérives des agents IA. Avec la mise à jour macOS 27.3, le géant de Cupertino change les règles pour les applications IA qui réclament un accès total à votre Mac, comme ChatGPT, Claude ou Gemini. La mise à...",
+          "url": "https://www.01net.com/actualites/microsoft-degaine-sept-nouvelles-ia-pour-defier-chatgpt-claude-prix-casse.html",
+          "summary": "Microsoft passe à l'offensive dans la course à l'intelligence artificielle. Le géant de Redmond a dévoilé sept nouveaux modèles d'IA maison, taillés pour rivaliser avec ChatGPT et Claude pour une fraction du prix. Cette stratégie doit pe...",
+          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
+        },
+        {
+          "date": "18 novembre 2026",
+          "title": "« Le pire modèle jamais sorti par OpenAI » : le nouveau ChatGPT se fait descendre par des testeurs",
+          "source": "01net",
+          "url": "https://www.01net.com/actualites/le-pire-modele-jamais-sorti-par-openai-le-nouveau-chatgpt-se-fait-descendre-par-des-testeurs.html",
+          "summary": "GPT-6.2 devait réconcilier OpenAI avec les développeurs. Au lendemain du lancement, plusieurs de ses testeurs les plus en vue racontent l’inverse de la promesse, et la fiche de sécurité maison leur fournit un argument chiffré.",
+          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
+        },
+        {
+          "date": "18 novembre 2026",
+          "title": "Travail et IA : ces métiers où les offres d’emploi se sont effondrées",
+          "source": "01net",
+          "url": "https://www.01net.com/actualites/travail-ia-ces-metiers-ou-offres-emploi-se-sont-effondrees.html",
+          "summary": "L'intelligence artificielle est déjà très présente dans nos vies et elle transforme en profondeur le marché du travail français. Selon France Travail, 41 % des employeurs anticipent un impact direct sur leur activité d'ici cinq ans. On c...",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
           "date": "17 novembre 2026",
-          "title": "« Ils se sont fait passer pour des membres de l’équipe » : plusieurs IA Gemini ont lancé une cyberattaque",
-          "source": "01net",
-          "url": "https://www.01net.com/actualites/ils-se-sont-fait-passer-pour-des-membres-de-lequipe-plusieurs-ia-gemini-ont-tente-de-pirater-un-site-web.html",
-          "summary": "Lors d'un test de sécurité, des agents IA, animés par Gemini, ont attaqué le site web d'une organisation de recherche. Les IA ont tout tenté pour accomplir une mission impossible. Ce nouvel incident s'ajoute aux nombreuses dérives impliq...",
-          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
-        },
-        {
-          "date": "17 novembre 2026",
-          "title": "Google a découvert des agents IA pirates à l’assaut de plusieurs sites français",
-          "source": "01net",
-          "url": "https://www.01net.com/actualites/google-decouvert-agents-ia-pirates-assaut-plusieurs-sites-francais.html",
-          "summary": "Google a découvert que des pirates ont confié une série de cyberattaques à l'intelligence artificielle. Tout le travail de piratage, de la recherche de failles jusqu'à l'attaque, a été pris en charge par des agents IA taillés pour le pir...",
-          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
-        },
-        {
-          "date": "13 novembre 2026",
-          "title": "Claude Meetings : Anthropic envoie son IA dans vos réunions Google Meet",
+          "title": "IA sur Windows 11 : Microsoft sait si vous codez avec Claude, Codex ou Cursor",
           "source": "IT-Connect",
-          "url": "https://www.it-connect.fr/claude-meetings-anthropic-google-meet/",
-          "summary": "Anthropic lance Claude Meetings en bêta : l’IA rejoint vos réunions Google Meet, prend des notes et crée des documents. Disponibilité, réglages et limites.",
+          "url": "https://www.it-connect.fr/windows-11-telemetrie-agents-ia-codage/",
+          "summary": "Un composant de Windows 11 repère les agents IA de codage (Claude, Codex, Cursor…) et peut le signaler à Microsoft via les données de diagnostic facultatives.",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         }
       ]
