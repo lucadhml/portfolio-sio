@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-18",
+  "updatedAt": "2026-11-19",
   "methodologie": {
     "title": "Méthodologie de veille",
     "summary": "Ma veille technologique repose sur plusieurs sources complémentaires : IT-Connect, ANSSI et le CERT-FR pour la cybersécurité, 01net et Le Monde Informatique pour l'IA. Chaque jour, un script récupère automatiquement les nouvelles publications, calcule un score de pertinence par mots-clés, et sélectionne les 4 meilleures entrées par thème.",
@@ -61,14 +61,6 @@
       ],
       "entries": [
         {
-          "date": "17 novembre 2026",
-          "title": "PostgreSQL a corrigé 52 failles de sécurité, dont une vieille de 22 ans (CVE-2026-6460)",
-          "source": "IT-Connect",
-          "url": "https://www.it-connect.fr/postgresql-52-failles-cve-2026-6460-mise-a-jour/",
-          "summary": "PostgreSQL corrige 52 failles, dont la CVE-2026-6460 vieille de 22 ans. Le correctif impose de mettre à jour serveur et extensions en même temps. Explications.",
-          "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
-        },
-        {
           "date": "21 juillet 2026",
           "title": "Exigences du CRA : processus de notification pour les organismes notifiés",
           "source": "ANSSI",
@@ -77,11 +69,19 @@
           "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
         },
         {
-          "date": "17 novembre 2026",
-          "title": "NoisyTCP : cette faille du noyau Linux vieille de 11 ans permet de faire planter un serveur à distance",
+          "date": "19 novembre 2026",
+          "title": "PHP va corriger au moins une faille critique ce jeudi : préparez-vous à mettre à jour PHP 8.2 à 8.5",
           "source": "IT-Connect",
-          "url": "https://www.it-connect.fr/noisytcp-cve-2026-99288-faille-noyau-linux-tcp/",
-          "summary": "Des paquets TCP bien synchronisés, et tout le serveur tombe. NoisyTCP (CVE-2026-99288), une faille Linux vieille de 11 ans menace les serveurs Linux.",
+          "url": "https://www.it-connect.fr/mise-a-jour-php-faille-critique-19-novembre-2026/",
+          "summary": "Ce 19 novembre 2026, au moins une faille de sécurité critique sera corrigée dans les branches 8.2 à 8.5 de PHP, et sans doute la CVE-2026-115560.",
+          "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
+        },
+        {
+          "date": "18 novembre 2026",
+          "title": "NGINX2Root : deux failles critiques permettent de prendre le contrôle d’un serveur NGINX",
+          "source": "IT-Connect",
+          "url": "https://www.it-connect.fr/nginx2root-failles-cve-2026-123007-rce/",
+          "summary": "Failles NGINX : CVE-2026-123007 et CVE-2026-123633 permettent d’exécuter du code à distance via HTTP/2. Voici les versions à installer et comment vous protéger.",
           "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
         },
         {
@@ -118,35 +118,35 @@
       ],
       "entries": [
         {
-          "date": "18 novembre 2026",
-          "title": "Pour rivaliser avec ChatGPT et Claude, Microsoft dévoile 7 nouvelles IA à prix cassé",
-          "source": "01net",
-          "url": "https://www.01net.com/actualites/microsoft-degaine-sept-nouvelles-ia-pour-defier-chatgpt-claude-prix-casse.html",
-          "summary": "Microsoft passe à l'offensive dans la course à l'intelligence artificielle. Le géant de Redmond a dévoilé sept nouveaux modèles d'IA maison, taillés pour rivaliser avec ChatGPT et Claude pour une fraction du prix. Cette stratégie doit pe...",
-          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
-        },
-        {
-          "date": "18 novembre 2026",
-          "title": "« Le pire modèle jamais sorti par OpenAI » : le nouveau ChatGPT se fait descendre par des testeurs",
-          "source": "01net",
-          "url": "https://www.01net.com/actualites/le-pire-modele-jamais-sorti-par-openai-le-nouveau-chatgpt-se-fait-descendre-par-des-testeurs.html",
-          "summary": "GPT-6.2 devait réconcilier OpenAI avec les développeurs. Au lendemain du lancement, plusieurs de ses testeurs les plus en vue racontent l’inverse de la promesse, et la fiche de sécurité maison leur fournit un argument chiffré.",
-          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
-        },
-        {
-          "date": "18 novembre 2026",
-          "title": "Travail et IA : ces métiers où les offres d’emploi se sont effondrées",
-          "source": "01net",
-          "url": "https://www.01net.com/actualites/travail-ia-ces-metiers-ou-offres-emploi-se-sont-effondrees.html",
-          "summary": "L'intelligence artificielle est déjà très présente dans nos vies et elle transforme en profondeur le marché du travail français. Selon France Travail, 41 % des employeurs anticipent un impact direct sur leur activité d'ici cinq ans. On c...",
-          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
-        },
-        {
-          "date": "17 novembre 2026",
-          "title": "IA sur Windows 11 : Microsoft sait si vous codez avec Claude, Codex ou Cursor",
+          "date": "19 novembre 2026",
+          "title": "Garlic LLM : cette application fait tourner une IA de 9 milliards de paramètres sur une PS4",
           "source": "IT-Connect",
-          "url": "https://www.it-connect.fr/windows-11-telemetrie-agents-ia-codage/",
-          "summary": "Un composant de Windows 11 repère les agents IA de codage (Claude, Codex, Cursor…) et peut le signaler à Microsoft via les données de diagnostic facultatives.",
+          "url": "https://www.it-connect.fr/garlic-llm-ia-locale-ps4/",
+          "summary": "Garlic LLM fait tourner l’IA Qwen3.5-9B en local sur le GPU d’une PS4 débridée, sans Internet et à plus de 30 tokens par seconde. Voici ce qu’il faut savoir.",
+          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
+        },
+        {
+          "date": "19 novembre 2026",
+          "title": "Gemini 4 Neon : Google continue de dégainer de nouveaux modèles d’IA, au risque de vous embrouiller",
+          "source": "01net",
+          "url": "https://www.01net.com/actualites/gemini-4-neon-google-continue-de-degainer-de-nouveaux-modeles-dia-au-risque-de-vous-embrouiller.html",
+          "summary": "Google a lancé ce 18 novembre Gemini 4 Neon, le quatrième modèle basé sur Gemini 4 en moins de deux mois. Une multiplication qui s'explique par l'envie de Google de segmenter les usages et de diminuer les coûts. Au risque d'embrouiller l...",
+          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
+        },
+        {
+          "date": "18 novembre 2026",
+          "title": "Microsoft Perception : les agents IA spécialisés dans la cybersécurité sont disponibles !",
+          "source": "IT-Connect",
+          "url": "https://www.it-connect.fr/microsoft-perception-disponibilite-generale-ignite/",
+          "summary": "Project Perception devient Microsoft Perception et passe en disponibilité générale : triage des alertes, pentest web, Intune, MCP. Voici l’essentiel à retenir.",
+          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
+        },
+        {
+          "date": "19 novembre 2026",
+          "title": "Une cyberattaque IA vient de frapper la Commission européenne : 10 jours de systèmes paralysés et des données volées",
+          "source": "01net",
+          "url": "https://www.01net.com/actualites/cyberattaque-ia-vient-frapper-commission-europeenne-plusieurs-systemes-paralyses-pendant-dix-jours.html",
+          "summary": "La Commission européenne a été visée par une cyberattaque. Menée avec ARTEX, un outil de piratage dopé à l’IA, l'attaque a paralysé plusieurs systèmes internes pendant une dizaine de jours. Une enquête est toujours en cours.",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         }
       ]
