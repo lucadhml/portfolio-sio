@@ -1,5 +1,5 @@
 window.VEILLE_DATA = {
-  "updatedAt": "2026-11-20",
+  "updatedAt": "2026-11-21",
   "methodologie": {
     "title": "Méthodologie de veille",
     "summary": "Ma veille technologique repose sur plusieurs sources complémentaires : IT-Connect, ANSSI et le CERT-FR pour la cybersécurité, 01net et Le Monde Informatique pour l'IA. Chaque jour, un script récupère automatiquement les nouvelles publications, calcule un score de pertinence par mots-clés, et sélectionne les 4 meilleures entrées par thème.",
@@ -119,14 +119,6 @@ window.VEILLE_DATA = {
       "entries": [
         {
           "date": "20 novembre 2026",
-          "title": "Apple voudrait son propre agent IA autonome pour concurrencer ChatGPT, Claude et Gemini",
-          "source": "01net",
-          "url": "https://www.01net.com/actualites/apple-voudrait-son-propre-agent-ia-autonome-pour-concurrencer-chatgpt-claude-et-gemini.html",
-          "summary": "Apple travaillerait d'arrache-pied sur un agent d'IA autonome qui serait capable d'utiliser un ordinateur. De quoi aller concurrencer OpenAI, Anthropic, Meta ou encore SpaceXAI, qui ont déjà leur agent respectif.",
-          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
-        },
-        {
-          "date": "20 novembre 2026",
           "title": "Le futur smartphone d’OpenAI aurait un point commun avec l’iPhone",
           "source": "01net",
           "url": "https://www.01net.com/actualites/le-futur-smartphone-dopenai-aurait-un-point-commun-avec-liphone.html",
@@ -134,11 +126,11 @@ window.VEILLE_DATA = {
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
-          "date": "20 novembre 2026",
-          "title": "« Rien ne laisse à penser que les choses vont s’arranger » : face aux cyberattaques IA, la France contre-attaque",
+          "date": "21 novembre 2026",
+          "title": "Cyberattaques en cours dans le « monde entier » : le FBI alerte sur une vague d’intrusions menées par ARTEX, une redoutable IA",
           "source": "01net",
-          "url": "https://www.01net.com/actualites/rien-ne-laisse-penser-choses-arranger-face-cyberattaques-ia-france-contre-attaque.html",
-          "summary": "Le Premier ministre Sébastien Lecornu tire la sonnette d'alarme. Face à une menace cyber « particulièrement grave et inédite », dopée par l’intelligence artificielle, le gouvernement a détaillé son plan pour riposter. Alors que « rien ne...",
+          "url": "https://www.01net.com/actualites/cyberattaques-cours-monde-entier-fbi-alerte-vague-intrusions-menees-artex-redoutable-dopee-modeles-chinois.html",
+          "summary": "Le FBI tire la sonnette d'alarme. Partout dans le monde, des pirates mènent des cyberattaques en série grâce à ARTEX, un outil d'intelligence artificielle qui pirate presque tout seul. Branché le plus souvent sur des modèles chinois comm...",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
@@ -147,6 +139,14 @@ window.VEILLE_DATA = {
           "source": "IT-Connect",
           "url": "https://www.it-connect.fr/garlic-llm-ia-locale-ps4/",
           "summary": "Garlic LLM fait tourner l’IA Qwen3.5-9B en local sur le GPU d’une PS4 débridée, sans Internet et à plus de 30 tokens par seconde. Voici ce qu’il faut savoir.",
+          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
+        },
+        {
+          "date": "21 novembre 2026",
+          "title": "J’ai testé la Solarbank 4 Pro d’Anker pendant des mois : à quoi sert vraiment une batterie solaire à 2 000 € ?",
+          "source": "01net",
+          "url": "https://www.01net.com/tests/jai-teste-la-solarbank-4-pro-danker-pendant-des-mois-a-quoi-sert-vraiment-une-batterie-solaire-a-2-000-e.html",
+          "summary": "Plus lourde, plus puissante et dotée de près de deux fois plus de capacité que la génération précédente, la Solarbank 4 E5000 Pro d'Anker s'adresse davantage aux maisons qu'aux balcons. Nous l'avons branchée sur nos panneaux solaires pen...",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         }
       ]
