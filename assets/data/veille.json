@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-21",
+  "updatedAt": "2026-11-22",
   "methodologie": {
     "title": "Méthodologie de veille",
     "summary": "Ma veille technologique repose sur plusieurs sources complémentaires : IT-Connect, ANSSI et le CERT-FR pour la cybersécurité, 01net et Le Monde Informatique pour l'IA. Chaque jour, un script récupère automatiquement les nouvelles publications, calcule un score de pertinence par mots-clés, et sélectionne les 4 meilleures entrées par thème.",
@@ -118,22 +118,6 @@
       ],
       "entries": [
         {
-          "date": "20 novembre 2026",
-          "title": "Le futur smartphone d’OpenAI aurait un point commun avec l’iPhone",
-          "source": "01net",
-          "url": "https://www.01net.com/actualites/le-futur-smartphone-dopenai-aurait-un-point-commun-avec-liphone.html",
-          "summary": "Pour assembler son téléphone centré autour de ChatGPT, OpenAI aurait fait appel à FIH Mobile, une filiale de Foxconn. Ce dernier nom vous dit quelque chose ? Il s'agit du groupe chargé d'assembler les iPhone.",
-          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
-        },
-        {
-          "date": "21 novembre 2026",
-          "title": "Cyberattaques en cours dans le « monde entier » : le FBI alerte sur une vague d’intrusions menées par ARTEX, une redoutable IA",
-          "source": "01net",
-          "url": "https://www.01net.com/actualites/cyberattaques-cours-monde-entier-fbi-alerte-vague-intrusions-menees-artex-redoutable-dopee-modeles-chinois.html",
-          "summary": "Le FBI tire la sonnette d'alarme. Partout dans le monde, des pirates mènent des cyberattaques en série grâce à ARTEX, un outil d'intelligence artificielle qui pirate presque tout seul. Branché le plus souvent sur des modèles chinois comm...",
-          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
-        },
-        {
           "date": "19 novembre 2026",
           "title": "Garlic LLM : cette application fait tourner une IA de 9 milliards de paramètres sur une PS4",
           "source": "IT-Connect",
@@ -142,11 +126,19 @@
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
-          "date": "21 novembre 2026",
-          "title": "J’ai testé la Solarbank 4 Pro d’Anker pendant des mois : à quoi sert vraiment une batterie solaire à 2 000 € ?",
+          "date": "22 novembre 2026",
+          "title": "GTA à Marseille, Quimper et Sète : la sortie de GTA 6 inspire des parodies très françaises",
           "source": "01net",
-          "url": "https://www.01net.com/tests/jai-teste-la-solarbank-4-pro-danker-pendant-des-mois-a-quoi-sert-vraiment-une-batterie-solaire-a-2-000-e.html",
-          "summary": "Plus lourde, plus puissante et dotée de près de deux fois plus de capacité que la génération précédente, la Solarbank 4 E5000 Pro d'Anker s'adresse davantage aux maisons qu'aux balcons. Nous l'avons branchée sur nos panneaux solaires pen...",
+          "url": "https://www.01net.com/actualites/gta-a-marseille-quimper-et-sete-la-sortie-de-gta-6-inspire-des-parodies-tres-francaises.html",
+          "summary": "La sortie de GTA 6 inspire bien au-delà des consoles. À Marseille, Quimper ou Sète, des passionnés ont profité de l'événement pour imaginer leur propre version du jeu dans leur ville, avec l'aide de l'intelligence artificielle. Tour d'ho...",
+          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
+        },
+        {
+          "date": "18 novembre 2026",
+          "title": "FBI : avec ARTEX, certaines intrusions atteignent un accès privilégié en moins de trois heures",
+          "source": "IT-Connect",
+          "url": "https://www.it-connect.fr/fbi-artex-framework-ia-cyberattaques/",
+          "summary": "Le FBI alerte sur ARTEX, un framework de pentest piloté par l’IA détourné par des pirates. Certaines intrusions atteignent un accès admin en moins de 3 heures.",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         }
       ]
