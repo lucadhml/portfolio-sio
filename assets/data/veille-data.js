@@ -1,5 +1,5 @@
 window.VEILLE_DATA = {
-  "updatedAt": "2026-11-22",
+  "updatedAt": "2026-11-23",
   "methodologie": {
     "title": "Méthodologie de veille",
     "summary": "Ma veille technologique repose sur plusieurs sources complémentaires : IT-Connect, ANSSI et le CERT-FR pour la cybersécurité, 01net et Le Monde Informatique pour l'IA. Chaque jour, un script récupère automatiquement les nouvelles publications, calcule un score de pertinence par mots-clés, et sélectionne les 4 meilleures entrées par thème.",
@@ -77,19 +77,19 @@ window.VEILLE_DATA = {
           "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
         },
         {
-          "date": "19 novembre 2026",
-          "title": "PHP va corriger au moins une faille critique ce jeudi : préparez-vous à mettre à jour PHP 8.2 à 8.5",
-          "source": "IT-Connect",
-          "url": "https://www.it-connect.fr/mise-a-jour-php-faille-critique-19-novembre-2026/",
-          "summary": "Ce 19 novembre 2026, au moins une faille de sécurité critique sera corrigée dans les branches 8.2 à 8.5 de PHP, et sans doute la CVE-2026-115560.",
+          "date": "23 novembre 2026",
+          "title": "L’ANSSI accompagne les organisations dans leur sécurisation",
+          "source": "ANSSI",
+          "url": "https://cyber.gouv.fr/actualites/lanssi-accompagne-les-organisations-dans-leur-securisation/",
+          "summary": "Toutes les organisations doivent faire face à de potentielles cyberattaques. Relevez votre niveau de sécurité avec le parcours de cybersécurité.",
           "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
         },
         {
-          "date": "18 novembre 2026",
-          "title": "NGINX2Root : deux failles critiques permettent de prendre le contrôle d’un serveur NGINX",
-          "source": "IT-Connect",
-          "url": "https://www.it-connect.fr/nginx2root-failles-cve-2026-123007-rce/",
-          "summary": "Failles NGINX : CVE-2026-123007 et CVE-2026-123633 permettent d’exécuter du code à distance via HTTP/2. Voici les versions à installer et comment vous protéger.",
+          "date": "21 janvier 2026",
+          "title": "Vulnérabilité dans telnetd (21 janvier 2026)",
+          "source": "CERT-FR",
+          "url": "https://www.cert.cyber.gouv.fr/actualite/CERTFR-2026-ACT-003/",
+          "summary": "Le 20 janvier 2026, les détails de la vulnérabilité CVE-2026-24061, affectant *telnetd*, ont été publiés. Cette vulnérabilité permet à un attaquant de contourner l'authentification et de se connecter à une machine vulnérable en tant que...",
           "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
         }
       ]
@@ -126,19 +126,27 @@ window.VEILLE_DATA = {
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
-          "date": "22 novembre 2026",
-          "title": "GTA à Marseille, Quimper et Sète : la sortie de GTA 6 inspire des parodies très françaises",
+          "date": "23 novembre 2026",
+          "title": "Ce robot autonome chinois nettoie les rivières et les lacs sans aucune aide humaine",
           "source": "01net",
-          "url": "https://www.01net.com/actualites/gta-a-marseille-quimper-et-sete-la-sortie-de-gta-6-inspire-des-parodies-tres-francaises.html",
-          "summary": "La sortie de GTA 6 inspire bien au-delà des consoles. À Marseille, Quimper ou Sète, des passionnés ont profité de l'événement pour imaginer leur propre version du jeu dans leur ville, avec l'aide de l'intelligence artificielle. Tour d'ho...",
+          "url": "https://www.01net.com/actualites/ce-robot-autonome-chinois-nettoie-les-rivieres-et-les-lacs-sans-aucune-aide-humaine.html",
+          "summary": "L’entreprise chinoise Dongfang Water a développé le Hebao H3, un robot capable de détecter et collecter les déchets flottants dans les rivières, les lacs et les étangs. Il intègre un système d’intelligence artificielle et est capable de...",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
-          "date": "18 novembre 2026",
-          "title": "FBI : avec ARTEX, certaines intrusions atteignent un accès privilégié en moins de trois heures",
+          "date": "23 novembre 2026",
+          "title": "Test Google Fitbit Edge : le bracelet connecté limité pour le sport, mais compagnon parfait de votre santé",
+          "source": "01net",
+          "url": "https://www.01net.com/tests/test-google-fitbit-edge-avis.html",
+          "summary": "Avec le Fitbit Edge, Google revient aux fondamentaux du bracelet connecté compact et discret, loin de l’encombrement d’une montre. Vendu 179,99 euros, ce petit capteur déçoit sur le terrain purement sportif. Pourtant, épaulé par l’excell...",
+          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
+        },
+        {
+          "date": "23 novembre 2026",
+          "title": "Specops lance une API pour vérifier l’identité des utilisateurs dans vos outils : chatbots IA, ITSM, etc.",
           "source": "IT-Connect",
-          "url": "https://www.it-connect.fr/fbi-artex-framework-ia-cyberattaques/",
-          "summary": "Le FBI alerte sur ARTEX, un framework de pentest piloté par l’IA détourné par des pirates. Certaines intrusions atteignent un accès admin en moins de 3 heures.",
+          "url": "https://www.it-connect.fr/api-specops-authentication/",
+          "summary": "Specops lance l’API Specops Authentication : vérifiez l’identité d’un utilisateur depuis un chatbot IA ou ServiceNow avant toute action sensible.",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         }
       ]
