@@ -1,5 +1,5 @@
 window.VEILLE_DATA = {
-  "updatedAt": "2026-11-23",
+  "updatedAt": "2026-11-24",
   "methodologie": {
     "title": "Méthodologie de veille",
     "summary": "Ma veille technologique repose sur plusieurs sources complémentaires : IT-Connect, ANSSI et le CERT-FR pour la cybersécurité, 01net et Le Monde Informatique pour l'IA. Chaque jour, un script récupère automatiquement les nouvelles publications, calcule un score de pertinence par mots-clés, et sélectionne les 4 meilleures entrées par thème.",
@@ -61,14 +61,6 @@ window.VEILLE_DATA = {
       ],
       "entries": [
         {
-          "date": "19 novembre 2026",
-          "title": "VMware vCenter : une faille critique exploitée comme zero-day depuis septembre 2026",
-          "source": "IT-Connect",
-          "url": "https://www.it-connect.fr/vmware-vcenter-cve-2026-123890-zero-day/",
-          "summary": "Broadcom a corrigé la CVE-2026-123890, une faille critique dans VMware vCenter exploitée comme zero-day dès septembre 2026 d’après Mandiant.",
-          "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
-        },
-        {
           "date": "21 juillet 2026",
           "title": "Exigences du CRA : processus de notification pour les organismes notifiés",
           "source": "ANSSI",
@@ -90,6 +82,14 @@ window.VEILLE_DATA = {
           "source": "CERT-FR",
           "url": "https://www.cert.cyber.gouv.fr/actualite/CERTFR-2026-ACT-003/",
           "summary": "Le 20 janvier 2026, les détails de la vulnérabilité CVE-2026-24061, affectant *telnetd*, ont été publiés. Cette vulnérabilité permet à un attaquant de contourner l'authentification et de se connecter à une machine vulnérable en tant que...",
+          "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
+        },
+        {
+          "date": "2 avril 2026",
+          "title": "Expiration de certificats Secure Boot en juin 2026 (02 avril 2026)",
+          "source": "CERT-FR",
+          "url": "https://www.cert.cyber.gouv.fr/actualite/CERTFR-2026-ACT-014/",
+          "summary": "Le démarrage sécurisé (UEFI Secure Boot) est une fonctionnalité de sécurité disponible sur les ordinateurs PC clients et serveurs depuis 2011. Son rôle est de sécuriser la séquence de démarrage de l’appareil, en vérifiant l’intégrité du...",
           "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
         }
       ]
@@ -118,35 +118,35 @@ window.VEILLE_DATA = {
       ],
       "entries": [
         {
-          "date": "19 novembre 2026",
-          "title": "Garlic LLM : cette application fait tourner une IA de 9 milliards de paramètres sur une PS4",
+          "date": "24 novembre 2026",
+          "title": "rust-anything : cet outil open source aide les agents IA à réécrire vos applications en Rust",
           "source": "IT-Connect",
-          "url": "https://www.it-connect.fr/garlic-llm-ia-locale-ps4/",
-          "summary": "Garlic LLM fait tourner l’IA Qwen3.5-9B en local sur le GPU d’une PS4 débridée, sans Internet et à plus de 30 tokens par seconde. Voici ce qu’il faut savoir.",
+          "url": "https://www.it-connect.fr/rust-anything-reecrire-application-rust-agents-ia/",
+          "summary": "Grâce à rust-anything, vous pouvez piloter un agent IA pour réécrire en Rust une application, tout en vérifiant chaque étape pour vous assurer du résultat.",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
-          "date": "23 novembre 2026",
-          "title": "Ce robot autonome chinois nettoie les rivières et les lacs sans aucune aide humaine",
+          "date": "24 novembre 2026",
+          "title": "Google Search pourra fouiller votre Wallet et votre Drive pour personnaliser vos résultats",
           "source": "01net",
-          "url": "https://www.01net.com/actualites/ce-robot-autonome-chinois-nettoie-les-rivieres-et-les-lacs-sans-aucune-aide-humaine.html",
-          "summary": "L’entreprise chinoise Dongfang Water a développé le Hebao H3, un robot capable de détecter et collecter les déchets flottants dans les rivières, les lacs et les étangs. Il intègre un système d’intelligence artificielle et est capable de...",
+          "url": "https://www.01net.com/actualites/google-search-pourra-fouiller-votre-wallet-et-votre-drive-pour-personnaliser-vos-resultats.html",
+          "summary": "Google vient d’annoncer qu’elle allait donner plus de pouvoir à son module Personal Intelligence dans le Mode IA de Google Search. Le moteur de recherche va désormais pouvoir fouiner dans votre Google Wallet et votre Google Drive pour pe...",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
-          "date": "23 novembre 2026",
-          "title": "Test Google Fitbit Edge : le bracelet connecté limité pour le sport, mais compagnon parfait de votre santé",
+          "date": "24 novembre 2026",
+          "title": "Microsoft Teams va analyser vos appels avec une IA pour détecter les arnaques",
           "source": "01net",
-          "url": "https://www.01net.com/tests/test-google-fitbit-edge-avis.html",
-          "summary": "Avec le Fitbit Edge, Google revient aux fondamentaux du bracelet connecté compact et discret, loin de l’encombrement d’une montre. Vendu 179,99 euros, ce petit capteur déçoit sur le terrain purement sportif. Pourtant, épaulé par l’excell...",
+          "url": "https://www.01net.com/actualites/microsoft-teams-va-analyser-vos-appels-avec-une-ia-pour-detecter-les-arnaques.html",
+          "summary": "Microsoft prépare sur une nouvelle fonction de sécurité pour son application Teams. La messagerie collaborative pourra s’appuyer sur l’IA pour détecter les arnaques utilisant de fausses voix pendant vos appels externes.",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
-          "date": "23 novembre 2026",
-          "title": "Specops lance une API pour vérifier l’identité des utilisateurs dans vos outils : chatbots IA, ITSM, etc.",
+          "date": "24 novembre 2026",
+          "title": "RDMA over USB4 : Windows va permettre de relier plusieurs PC pour faire tourner de gros modèles d’IA",
           "source": "IT-Connect",
-          "url": "https://www.it-connect.fr/api-specops-authentication/",
-          "summary": "Specops lance l’API Specops Authentication : vérifiez l’identité d’un utilisateur depuis un chatbot IA ou ServiceNow avant toute action sensible.",
+          "url": "https://www.it-connect.fr/rdma-over-usb4-windows-cluster-ia-locale/",
+          "summary": "Microsoft prépare RDMA over USB4, une nouveauté Windows permettant de relier plusieurs PC en USB4 pour y répartir un gros modèle d’IA.",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         }
       ]
