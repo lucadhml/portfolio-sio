@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-24",
+  "updatedAt": "2026-11-25",
   "methodologie": {
     "title": "Méthodologie de veille",
     "summary": "Ma veille technologique repose sur plusieurs sources complémentaires : IT-Connect, ANSSI et le CERT-FR pour la cybersécurité, 01net et Le Monde Informatique pour l'IA. Chaque jour, un script récupère automatiquement les nouvelles publications, calcule un score de pertinence par mots-clés, et sélectionne les 4 meilleures entrées par thème.",
@@ -69,6 +69,14 @@
           "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
         },
         {
+          "date": "25 novembre 2026",
+          "title": "VMware vCenter et ESX : trois nouvelles failles critiques, cinq jours après la faille zero-day",
+          "source": "IT-Connect",
+          "url": "https://www.it-connect.fr/vmware-vcenter-esx-cve-2026-123903-failles-novembre/",
+          "summary": "Cinq jours après la zero-day CVE-2026-123890, Broadcom corrige 23 failles VMware, dont la CVE-2026-123903 dans vCenter et deux failles critiques dans ESX.",
+          "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
+        },
+        {
           "date": "23 novembre 2026",
           "title": "L’ANSSI accompagne les organisations dans leur sécurisation",
           "source": "ANSSI",
@@ -82,14 +90,6 @@
           "source": "CERT-FR",
           "url": "https://www.cert.cyber.gouv.fr/actualite/CERTFR-2026-ACT-003/",
           "summary": "Le 20 janvier 2026, les détails de la vulnérabilité CVE-2026-24061, affectant *telnetd*, ont été publiés. Cette vulnérabilité permet à un attaquant de contourner l'authentification et de se connecter à une machine vulnérable en tant que...",
-          "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
-        },
-        {
-          "date": "2 avril 2026",
-          "title": "Expiration de certificats Secure Boot en juin 2026 (02 avril 2026)",
-          "source": "CERT-FR",
-          "url": "https://www.cert.cyber.gouv.fr/actualite/CERTFR-2026-ACT-014/",
-          "summary": "Le démarrage sécurisé (UEFI Secure Boot) est une fonctionnalité de sécurité disponible sur les ordinateurs PC clients et serveurs depuis 2011. Son rôle est de sécuriser la séquence de démarrage de l’appareil, en vérifiant l’intégrité du...",
           "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
         }
       ]
@@ -118,6 +118,22 @@
       ],
       "entries": [
         {
+          "date": "25 novembre 2026",
+          "title": "29 millions de morceaux supprimés : Tidal bannit la musique générée par IA",
+          "source": "01net",
+          "url": "https://www.01net.com/actualites/29-millions-de-morceaux-supprimes-tidal-bannit-la-musique-generee-par-ia.html",
+          "summary": "Tidal croule sous la musique générée par intelligence artificielle. Face à ce fléau, la plate-forme de musique en streaming vient d’annoncer un bannissement total des morceaux générés par IA.",
+          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
+        },
+        {
+          "date": "25 novembre 2026",
+          "title": "Petite révolution sur Gemini : vous pouvez enfin protéger vos données tout en conservant votre historique",
+          "source": "01net",
+          "url": "https://www.01net.com/actualites/petite-revolution-sur-gemini-vous-pouvez-enfin-proteger-vos-donnees-tout-en-conservant-votre-historique.html",
+          "summary": "Google permet désormais aux utilisateurs de Gemini de conserver leur historique de conversations sans autoriser de facto l'utilisation de leurs données pour entraîner l'IA. Deux paramètres distincts leur permettent maintenant de contrôle...",
+          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
+        },
+        {
           "date": "24 novembre 2026",
           "title": "rust-anything : cet outil open source aide les agents IA à réécrire vos applications en Rust",
           "source": "IT-Connect",
@@ -126,27 +142,11 @@
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
-          "date": "24 novembre 2026",
-          "title": "Google Search pourra fouiller votre Wallet et votre Drive pour personnaliser vos résultats",
+          "date": "25 novembre 2026",
+          "title": "« Code rouge » : après la panne historique d’Outlook, Microsoft déclenche l’alerte maximale",
           "source": "01net",
-          "url": "https://www.01net.com/actualites/google-search-pourra-fouiller-votre-wallet-et-votre-drive-pour-personnaliser-vos-resultats.html",
-          "summary": "Google vient d’annoncer qu’elle allait donner plus de pouvoir à son module Personal Intelligence dans le Mode IA de Google Search. Le moteur de recherche va désormais pouvoir fouiner dans votre Google Wallet et votre Google Drive pour pe...",
-          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
-        },
-        {
-          "date": "24 novembre 2026",
-          "title": "Microsoft Teams va analyser vos appels avec une IA pour détecter les arnaques",
-          "source": "01net",
-          "url": "https://www.01net.com/actualites/microsoft-teams-va-analyser-vos-appels-avec-une-ia-pour-detecter-les-arnaques.html",
-          "summary": "Microsoft prépare sur une nouvelle fonction de sécurité pour son application Teams. La messagerie collaborative pourra s’appuyer sur l’IA pour détecter les arnaques utilisant de fausses voix pendant vos appels externes.",
-          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
-        },
-        {
-          "date": "24 novembre 2026",
-          "title": "RDMA over USB4 : Windows va permettre de relier plusieurs PC pour faire tourner de gros modèles d’IA",
-          "source": "IT-Connect",
-          "url": "https://www.it-connect.fr/rdma-over-usb4-windows-cluster-ia-locale/",
-          "summary": "Microsoft prépare RDMA over USB4, une nouveauté Windows permettant de relier plusieurs PC en USB4 pour y répartir un gros modèle d’IA.",
+          "url": "https://www.01net.com/actualites/code-rouge-apres-panne-historique-outlook-microsoft-declenche-alerte-maximale.html",
+          "summary": "Microsoft a déclenché un « code rouge » en interne après la panne mondiale d’Outlook, de Teams et de Copilot. C’est le niveau d’alerte le plus élevé chez le géant américain. Cette mesure d'urgence doit permettre à l'éditeur de revoir en...",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         }
       ]
