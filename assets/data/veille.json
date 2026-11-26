@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-25",
+  "updatedAt": "2026-11-26",
   "methodologie": {
     "title": "Méthodologie de veille",
     "summary": "Ma veille technologique repose sur plusieurs sources complémentaires : IT-Connect, ANSSI et le CERT-FR pour la cybersécurité, 01net et Le Monde Informatique pour l'IA. Chaque jour, un script récupère automatiquement les nouvelles publications, calcule un score de pertinence par mots-clés, et sélectionne les 4 meilleures entrées par thème.",
@@ -85,11 +85,11 @@
           "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
         },
         {
-          "date": "21 janvier 2026",
-          "title": "Vulnérabilité dans telnetd (21 janvier 2026)",
-          "source": "CERT-FR",
-          "url": "https://www.cert.cyber.gouv.fr/actualite/CERTFR-2026-ACT-003/",
-          "summary": "Le 20 janvier 2026, les détails de la vulnérabilité CVE-2026-24061, affectant *telnetd*, ont été publiés. Cette vulnérabilité permet à un attaquant de contourner l'authentification et de se connecter à une machine vulnérable en tant que...",
+          "date": "26 novembre 2026",
+          "title": "Jusqu’à 50 navires piratés via des failles FortiGate : l’Iran soupçonné par les États-Unis",
+          "source": "IT-Connect",
+          "url": "https://www.it-connect.fr/navires-pirates-iran-fortigate/",
+          "summary": "Pétroliers, méthanier : jusqu’à 50 navires auraient subi une cyberattaque via des pare-feu FortiGate non patchés. Washington soupçonne l’Iran.",
           "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
         }
       ]
@@ -118,19 +118,11 @@
       ],
       "entries": [
         {
-          "date": "25 novembre 2026",
-          "title": "29 millions de morceaux supprimés : Tidal bannit la musique générée par IA",
+          "date": "26 novembre 2026",
+          "title": "Vous demandez des conseils médicaux à ChatGPT ? Attention, l’IA risque de « vous mettre en danger »",
           "source": "01net",
-          "url": "https://www.01net.com/actualites/29-millions-de-morceaux-supprimes-tidal-bannit-la-musique-generee-par-ia.html",
-          "summary": "Tidal croule sous la musique générée par intelligence artificielle. Face à ce fléau, la plate-forme de musique en streaming vient d’annoncer un bannissement total des morceaux générés par IA.",
-          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
-        },
-        {
-          "date": "25 novembre 2026",
-          "title": "Petite révolution sur Gemini : vous pouvez enfin protéger vos données tout en conservant votre historique",
-          "source": "01net",
-          "url": "https://www.01net.com/actualites/petite-revolution-sur-gemini-vous-pouvez-enfin-proteger-vos-donnees-tout-en-conservant-votre-historique.html",
-          "summary": "Google permet désormais aux utilisateurs de Gemini de conserver leur historique de conversations sans autoriser de facto l'utilisation de leurs données pour entraîner l'IA. Deux paramètres distincts leur permettent maintenant de contrôle...",
+          "url": "https://www.01net.com/actualites/vous-demandez-des-conseils-medicaux-a-chatgpt-attention-lia-risque-de-vous-mettre-en-danger.html",
+          "summary": "L’ANSM alerte sur les dangers de demander des conseils médicaux à une IA lors de la prise de médicaments, après avoir recensé plusieurs cas de surdosage liés à des indications erronées. Ce type de pratique peut également mener à l'interr...",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
@@ -142,11 +134,19 @@
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
+          "date": "26 novembre 2026",
+          "title": "Claude : les artefacts peuvent désormais être installés comme des applications sur Windows et Mac",
+          "source": "IT-Connect",
+          "url": "https://www.it-connect.fr/claude-artefacts-applications-mac-windows/",
+          "summary": "Anthropic lance Install as app : les artefacts de Claude s’installent comme des applications Mac et Windows, avec un accès complet possible à l’ordinateur.",
+          "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
+        },
+        {
           "date": "25 novembre 2026",
-          "title": "« Code rouge » : après la panne historique d’Outlook, Microsoft déclenche l’alerte maximale",
-          "source": "01net",
-          "url": "https://www.01net.com/actualites/code-rouge-apres-panne-historique-outlook-microsoft-declenche-alerte-maximale.html",
-          "summary": "Microsoft a déclenché un « code rouge » en interne après la panne mondiale d’Outlook, de Teams et de Copilot. C’est le niveau d’alerte le plus élevé chez le géant américain. Cette mesure d'urgence doit permettre à l'éditeur de revoir en...",
+          "title": "Cyberattaque Commission européenne : les noms et adresses e-mail des utilisateurs d’EU Academy ont fuité",
+          "source": "IT-Connect",
+          "url": "https://www.it-connect.fr/eu-academy-fuite-donnees-cyberattaque-commission-europeenne/",
+          "summary": "La Commission européenne confirme que la cyberattaque assistée par l’IA a touché EU Academy : noms et e-mails des utilisateurs ont fuité.",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         }
       ]
