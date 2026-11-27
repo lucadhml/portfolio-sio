@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-26",
+  "updatedAt": "2026-11-27",
   "methodologie": {
     "title": "Méthodologie de veille",
     "summary": "Ma veille technologique repose sur plusieurs sources complémentaires : IT-Connect, ANSSI et le CERT-FR pour la cybersécurité, 01net et Le Monde Informatique pour l'IA. Chaque jour, un script récupère automatiquement les nouvelles publications, calcule un score de pertinence par mots-clés, et sélectionne les 4 meilleures entrées par thème.",
@@ -77,19 +77,19 @@
           "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
         },
         {
+          "date": "27 novembre 2026",
+          "title": "Drupal : après Fail2Install, une nouvelle faille critique déjà exploitée (CVE-2026-136716)",
+          "source": "IT-Connect",
+          "url": "https://www.it-connect.fr/drupal-fail2install-cve-2026-136716-faille-exploitee/",
+          "summary": "Une semaine après Fail2Install, Drupal a corrigé la CVE-2026-136716, une faille critique de son installeur déjà exploitée. Voici ce qu’il faut savoir.",
+          "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
+        },
+        {
           "date": "23 novembre 2026",
           "title": "L’ANSSI accompagne les organisations dans leur sécurisation",
           "source": "ANSSI",
           "url": "https://cyber.gouv.fr/actualites/lanssi-accompagne-les-organisations-dans-leur-securisation/",
           "summary": "Toutes les organisations doivent faire face à de potentielles cyberattaques. Relevez votre niveau de sécurité avec le parcours de cybersécurité.",
-          "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
-        },
-        {
-          "date": "26 novembre 2026",
-          "title": "Jusqu’à 50 navires piratés via des failles FortiGate : l’Iran soupçonné par les États-Unis",
-          "source": "IT-Connect",
-          "url": "https://www.it-connect.fr/navires-pirates-iran-fortigate/",
-          "summary": "Pétroliers, méthanier : jusqu’à 50 navires auraient subi une cyberattaque via des pare-feu FortiGate non patchés. Washington soupçonne l’Iran.",
           "interest": "Cette publication alimente ma veille cybersécurité car elle met en avant un risque, une recommandation ou une pratique directement utile à connaître dans l'administration des systèmes et réseaux."
         }
       ]
@@ -118,35 +118,35 @@
       ],
       "entries": [
         {
-          "date": "26 novembre 2026",
-          "title": "Vous demandez des conseils médicaux à ChatGPT ? Attention, l’IA risque de « vous mettre en danger »",
+          "date": "27 novembre 2026",
+          "title": "Anthropic a trouvé le moyen de piéger un Claude désobéissant",
           "source": "01net",
-          "url": "https://www.01net.com/actualites/vous-demandez-des-conseils-medicaux-a-chatgpt-attention-lia-risque-de-vous-mettre-en-danger.html",
-          "summary": "L’ANSM alerte sur les dangers de demander des conseils médicaux à une IA lors de la prise de médicaments, après avoir recensé plusieurs cas de surdosage liés à des indications erronées. Ce type de pratique peut également mener à l'interr...",
+          "url": "https://www.01net.com/actualites/anthropic-a-trouve-le-moyen-de-pieger-un-claude-desobeissant.html",
+          "summary": "Anthropic a conçu Siren, un piège destiné à ses propres IA, en cas de problème. L'outil doit venir vérifier si un agent IA, comme Claude, est tenté d’enfreindre ses propres règles quand l'occasion se présente.",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
-          "date": "24 novembre 2026",
-          "title": "rust-anything : cet outil open source aide les agents IA à réécrire vos applications en Rust",
-          "source": "IT-Connect",
-          "url": "https://www.it-connect.fr/rust-anything-reecrire-application-rust-agents-ia/",
-          "summary": "Grâce à rust-anything, vous pouvez piloter un agent IA pour réécrire en Rust une application, tout en vérifiant chaque étape pour vous assurer du résultat.",
+          "date": "27 novembre 2026",
+          "title": "Passer à l’IA en mode pro sans savoir coder : ce VPS Hostinger coûte moins de 5 € par mois",
+          "source": "01net",
+          "url": "https://www.01net.com/bons-plans/passer-a-lia-en-mode-pro-sans-savoir-coder-ce-vps-hostinger-coute-moins-de-5-e-par-mois.html",
+          "summary": "Jusqu'au Cyber Monday, le VPS d'Hostinger descend à 4,94 € par mois et s'installe en un clic, de quoi profiter d'agents IA même sans savoir coder.",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
-          "date": "26 novembre 2026",
-          "title": "Claude : les artefacts peuvent désormais être installés comme des applications sur Windows et Mac",
-          "source": "IT-Connect",
-          "url": "https://www.it-connect.fr/claude-artefacts-applications-mac-windows/",
-          "summary": "Anthropic lance Install as app : les artefacts de Claude s’installent comme des applications Mac et Windows, avec un accès complet possible à l’ordinateur.",
+          "date": "27 novembre 2026",
+          "title": "512 Go SSD, 16 Go RAM, Intel Ultra 5, Windows 11 Pro… et -40% sur ce mini PC du tonnerre ⚡",
+          "source": "01net",
+          "url": "https://www.01net.com/bons-plans/512-go-ssd-16-go-ram-intel-core-ultra-5-windows-11-pro-et-40-sur-ce-mini-pc-du-tonnerre.html",
+          "summary": "Alors que le secteur de l'IA a fait exploser le coût de la RAM, et donc des ordinateurs, voici une très belle offre dans le cadre de Black Friday.",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         },
         {
-          "date": "25 novembre 2026",
-          "title": "Cyberattaque Commission européenne : les noms et adresses e-mail des utilisateurs d’EU Academy ont fuité",
-          "source": "IT-Connect",
-          "url": "https://www.it-connect.fr/eu-academy-fuite-donnees-cyberattaque-commission-europeenne/",
-          "summary": "La Commission européenne confirme que la cyberattaque assistée par l’IA a touché EU Academy : noms et e-mails des utilisateurs ont fuité.",
+          "date": "27 novembre 2026",
+          "title": "Honor vide le stock de Magic 8 Lite : la version 512 Go se vend comme des bûches de Noël (-41%) 🪵",
+          "source": "01net",
+          "url": "https://www.01net.com/bons-plans/honor-vide-le-stock-de-magic-8-lite-la-version-512-go-se-vend-comme-des-buches-de-noel-41.html",
+          "summary": "Le Honor Magic 8 Lite est un smartphone de milieu de gamme qui inclut plusieurs fonctionnalités d'IA et une longue autonomie. Sur AliExpress, son prix avoisine celui d'un modèle d'entrée de gamme grâce à cette offre flash de Black Friday.",
           "interest": "Cette publication alimente ma veille IA car elle montre un usage, un risque ou un impact professionnel lié à l'intelligence artificielle."
         }
       ]
